@@ -93,3 +93,60 @@ lotr_horse_lord_traveler_template = {
 		}
 	}
 }
+lotr_nafarati_warchief_template = {
+	age = { 20 40 }
+	gender_female_chance = root_soldier_female_chance
+	random_traits_list = {
+		count = 1
+		education_martial_1 = {
+			weight = { base = 20 }
+		}
+		education_martial_2 = {
+			weight = { base = 30 }
+		}
+		education_martial_3 = {
+			weight = { base = 30 }
+		}
+		education_martial_4 = {
+			weight = { base = 20 }
+		}
+	}
+	random_traits_list = {
+		count = 3
+		brave = {}
+		wrathful = {}
+		ambitious = {}
+		diligent = {}
+		gregarious = {}
+		arrogant = {}
+		just = {}
+		zealous = {}
+	}
+	random_traits_list = {
+		count = 1
+		logistician = {
+			weight = { base = 10 }
+		}
+		aggressive_attacker = {
+			weight = { base = 20 }
+		}
+		desert_warrior = {
+			weight = { base = 40 }
+		}
+		rough_terrain_expert = {
+			weight = { base = 20 }
+		}
+		organizer = {
+			weight = { base = 10 }
+		}
+	}
+	random_traits = yes
+	martial = {
+		min_template_high_skill
+		max_template_high_skill
+	}
+	prowess = {
+		min_template_high_skill
+		max_template_high_skill
+	}
+}
