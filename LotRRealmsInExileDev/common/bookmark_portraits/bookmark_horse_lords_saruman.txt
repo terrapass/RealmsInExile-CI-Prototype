@@ -1,6 +1,6 @@
 # Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:6000053
-bookmark_wotr_saruman={
+bookmark_horse_lords_saruman={
 	type=male
 	id=2
 	age=0.600000

@@ -1,6 +1,6 @@
 # Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:6000034
-bookmark_wotr_theoden_alt_theodred={
+bookmark_horse_lords_theoden_alt_theodred={
 	type=male
 	id=1741
 	age=0.210000
