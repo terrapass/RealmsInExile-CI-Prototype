@@ -2366,8 +2366,85 @@ sailing.2005 = { # Crewmate overboard
 	}
 }
 
-
-
+# A Game of Cards by Brice Underhill
+sailing.2006 = {
+	type = character_event
+	title = sailing.2006.t
+	desc = sailing.2006.desc
+	theme = at_sea
+	override_background = {
+		event_background = tavern
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	right_portrait = {
+		character = first_mate
+		animation = flirtation_left
+	}
+	
+	option = { #Playing straight
+		name = sailing.2006.a
+		remove_short_term_gold = activity_minor_gold_value
+		add_prestige = minor_prestige_loss
+		random = {
+			chance = 50
+			add_gold = activity_minor_gold_value
+			add_gold = activity_minor_gold_value
+			desc = sailing.2006.a.tt_success
+		}
+	}
+	
+	option = { #Cheating
+		name = sailing.2006.b
+		Intrigue duel to win at cards
+		stress_impact = {
+			honest = minor_stress_impact_gain
+		}
+		remove_short_term_gold = activity_minor_gold_value
+		duel = {
+			skill = intrigue
+			value = 10
+			# You use the aces up your sleeves to win the game 
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				desc = sailing.2006.b.tt_success
+				add_gold = activity_minor_gold_value
+				add_gold = activity_minor_gold_value	
+			}
+			
+			# You get caught by the sailors
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				desc = sailing.2006.b.tt_failure
+				add_prestige = minor_prestige_loss
+				add_stress = minor_stress_impact_gain
+				
+			}
+		}
+	}
+	
+	option = { #Staying out
+		name = sailing.2006.c
+		add_prestige = minor_prestige_gain
+		stress_impact = {
+			greedy = minor_stress_impact_gain
+			content = minor_stress_impact_loss
+			gregarious = medium_stress_impact_loss
+			drunkard = major_stress_impact_loss
+		}
+	}
+}	
+		
 
 ############################
 ## Meneltarma Chain
