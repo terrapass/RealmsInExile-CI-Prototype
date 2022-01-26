@@ -22,6 +22,9 @@ sailing_at_sea_events = {
 		10 = sailing.2003
 		#10 = sailing.2004
 		10 = sailing.2005
+		10 = sailing.2006
+		10 = sailing.2007
+		10 = sailing.2008
 	}
 }
 
