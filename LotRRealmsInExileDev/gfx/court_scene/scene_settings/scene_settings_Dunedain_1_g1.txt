@@ -57,7 +57,7 @@ default_camera=0
 lights={ {
 		description="Windows Back Centre"
 		light={
-			outer_cone_angle=1.500000
+			outer_cone_angle=1.000000
 			inner_cone_angle=0.000000
 			affected_by_shadow=no
 			radius=5000.000000
@@ -126,7 +126,7 @@ lights={ {
  {
 		description="Middle Room Filler"
 		light={
-			outer_cone_angle=1.500000
+			outer_cone_angle=1.000000
 			inner_cone_angle=0.000000
 			radius=4000.000000
 			intensity=350.000000
@@ -170,7 +170,7 @@ lights={ {
  {
 		description="Dome Light"
 		light={
-			outer_cone_angle=1.500000
+			outer_cone_angle=1.000000
 			inner_cone_angle=0.000000
 			affected_by_shadow=no
 			radius=1000.000000
@@ -215,7 +215,7 @@ lights={ {
  {
 		description="Back Dome"
 		light={
-			outer_cone_angle=1.500000
+			outer_cone_angle=1.000000
 			inner_cone_angle=0.000000
 			radius=1443.500000
 			intensity=1000.000000
@@ -393,6 +393,7 @@ assets={ {
 	}
  {
 		locator="atmosphere_01"
+		position={ 0.000000 -846.799988 0.000000 }
 		description="Atmospheric Scattering 01"
 		asset="roco_atmospheric_01"
 	}
@@ -446,7 +447,7 @@ assets={ {
 		asset="roco_atmospheric_01"
 	}
  {
-		position={ 0.000000 750.000000 0.000000 }
+		position={ 0.000000 909.400024 266.100006 }
 		description="Roof"
 		asset="court_gondor_roofing_1_b_entity"
 	}
