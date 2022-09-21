@@ -10,6 +10,7 @@
 	discover_innovation = innovation_mustering_grounds
 	discover_innovation = innovation_barracks
 	discover_innovation = innovation_bannus
+	discover_innovation = innovation_quilted_armor
 	discover_innovation = innovation_development_01
 	discover_innovation = innovation_currency_01
 	discover_innovation = innovation_gavelkind
@@ -18,9 +19,7 @@
 	discover_innovation = innovation_casus_belli
 	discover_innovation = innovation_plenary_assemblies
 	discover_innovation = innovation_ledger
-	discover_innovation = innovation_orc_pits
-	discover_innovation = innovation_urukhai_pits
-	discover_innovation = innovation_urukhai_siegeworks
+	discover_innovation = innovation_tulwangi_warfare
 }	
 6075.1.1 = { # Middle Third Age	
 	join_era = culture_era_high_medieval
@@ -29,6 +28,7 @@
 	discover_innovation = innovation_burhs
 	discover_innovation = innovation_house_soldiers
 	discover_innovation = innovation_horseshoes
+	discover_innovation = innovation_arched_saddle
 	discover_innovation = innovation_hereditary_rule
 	discover_innovation = innovation_manorialism
 	discover_innovation = innovation_development_02
@@ -37,4 +37,14 @@
 	discover_innovation = innovation_chronicle_writing
 	discover_innovation = innovation_armilary_sphere
 	discover_innovation = innovation_baliffs
+}
+6520.1.1 = {
+	discover_innovation = innovation_heraldry
+}
+7010.1.1 = { # Late Third Age
+	discover_innovation = innovation_hoardings
+	discover_innovation = innovation_men_at_arms
+	discover_innovation = innovation_divine_right
+	discover_innovation = innovation_elephantry
+	discover_innovation = innovation_war_camels
 }	
