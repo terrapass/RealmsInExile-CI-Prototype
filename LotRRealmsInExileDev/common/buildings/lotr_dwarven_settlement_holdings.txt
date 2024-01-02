@@ -1,14 +1,63 @@
-﻿@holding_illustration_western = "gfx/interface/illustrations/holding_types/castle_western.dds"
-@holding_illustration_mena = "gfx/interface/illustrations/holding_types/castle_mena.dds"
-@holding_illustration_india = "gfx/interface/illustrations/holding_types/castle_india.dds"
-@holding_illustration_mediterranean = "gfx/interface/illustrations/holding_types/castle_mediterranean.dds"
-@holding_illustration_norse = "gfx/interface/illustrations/holding_types/fp1_castle_norse.dds"
-@holding_illustration_cemanahuac = "gfx/interface/illustrations/holding_types/castle_india.dds"
-@holding_illustration_lorien = "gfx/interface/illustrations/holding_types/refuge_lorien.dds"
-@holding_illustration_sindarin = "gfx/interface/illustrations/holding_types/refuge_sindarin.dds"
+﻿@holding_illustration_underground_dwarven = "gfx/interface/illustrations/holding_types/underground/delving.dds"
+@holding_illustration_underground_norse = "gfx/interface/illustrations/holding_types/underground/underground_norse.dds"
+@holding_illustration_underground_iberian = "gfx/interface/illustrations/holding_types/underground/underground_iberian.dds"
+@holding_illustration_underground_persian = "gfx/interface/illustrations/holding_types/underground/underground_persian.dds"
 
 dwarven_depths_01 = {
 	construction_time = slow_construction_time
+
+	### Delving ###
+	asset = {
+		type = pdxmesh
+		name = "norse_underground_holding_01_mesh"
+		illustration = @holding_illustration_underground_norse
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		requires_dlc_flag = the_northern_lords # Asset uses content from DLC.
+		graphical_cultures = { norse_building_gfx steppe_building_gfx }
+		graphical_regions = {
+			graphical_underground
+			graphical_western graphical_mediterranean graphical_mena graphical_india graphical_steppe
+		}
+	}
+	asset = {
+		type = pdxmesh
+		name = "iberian_underground_holding_01_mesh"
+		illustration = @holding_illustration_underground_iberian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		requires_dlc_flag = the_fate_of_iberia # Asset uses content from DLC.
+		graphical_cultures = { iberian_building_gfx mediterranean_building_gfx }
+		graphical_regions = {
+			graphical_underground
+			graphical_western graphical_mediterranean graphical_mena graphical_india graphical_steppe
+		}
+	}
+	asset = {
+		type = pdxmesh
+		name = "persian_underground_holding_01_mesh"
+		illustration = @holding_illustration_underground_persian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		requires_dlc_flag = legacy_of_persia # Asset uses content from DLC.
+		graphical_cultures = { iranian_building_gfx mena_building_gfx indian_building_gfx }
+		graphical_regions = {
+			graphical_underground
+			graphical_western graphical_mediterranean graphical_mena graphical_india graphical_steppe
+		}
+	}
+	asset = {
+		type = pdxmesh
+		name = "dwarven_holding_01_mesh"
+		illustration = @holding_illustration_underground_dwarven
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = {
+			dwarven_building_gfx orc_building_gfx elven_building_gfx
+			norse_building_gfx iberian_building_gfx iranian_building_gfx
+			western_building_gfx mediterranean_building_gfx mena_building_gfx indian_building_gfx steppe_building_gfx
+		}
+		graphical_regions = {
+			graphical_underground
+			graphical_western graphical_mediterranean graphical_mena graphical_india graphical_steppe
+		}
+	}
 
 	is_enabled = {
 		or = {
@@ -39,8 +88,8 @@ dwarven_depths_01 = {
 	cost_gold = 350
 	#cost_prestige = cheap_building_tier_1_cost
    
-	levy = elven_building_levy_tier_1
-	max_garrison = elven_building_max_garrison_tier_1
+	levy = 175
+	max_garrison = 500
 	garrison_reinforcement_factor = elven_building_garrison_reinforcement_factor_tier_1
 
 	province_modifier = {
@@ -74,6 +123,59 @@ dwarven_depths_01 = {
 
 dwarven_depths_02 = {
 	construction_time = slow_construction_time
+
+	### Delving ###
+	asset = {
+		type = pdxmesh
+		name = "norse_underground_holding_01_mesh"
+		illustration = @holding_illustration_underground_norse
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		requires_dlc_flag = the_northern_lords # Asset uses content from DLC.
+		graphical_cultures = { norse_building_gfx steppe_building_gfx }
+		graphical_regions = {
+			graphical_underground
+			graphical_western graphical_mediterranean graphical_mena graphical_india graphical_steppe
+		}
+	}
+	asset = {
+		type = pdxmesh
+		name = "iberian_underground_holding_01_mesh"
+		illustration = @holding_illustration_underground_iberian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		requires_dlc_flag = the_fate_of_iberia # Asset uses content from DLC.
+		graphical_cultures = { iberian_building_gfx mediterranean_building_gfx }
+		graphical_regions = {
+			graphical_underground
+			graphical_western graphical_mediterranean graphical_mena graphical_india graphical_steppe
+		}
+	}
+	asset = {
+		type = pdxmesh
+		name = "persian_underground_holding_01_mesh"
+		illustration = @holding_illustration_underground_persian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		requires_dlc_flag = legacy_of_persia # Asset uses content from DLC.
+		graphical_cultures = { iranian_building_gfx mena_building_gfx indian_building_gfx }
+		graphical_regions = {
+			graphical_underground
+			graphical_western graphical_mediterranean graphical_mena graphical_india graphical_steppe
+		}
+	}
+	asset = {
+		type = pdxmesh
+		name = "dwarven_holding_01_mesh"
+		illustration = @holding_illustration_underground_dwarven
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = {
+			dwarven_building_gfx orc_building_gfx elven_building_gfx
+			norse_building_gfx iberian_building_gfx iranian_building_gfx
+			western_building_gfx mediterranean_building_gfx mena_building_gfx indian_building_gfx steppe_building_gfx
+		}
+		graphical_regions = {
+			graphical_underground
+			graphical_western graphical_mediterranean graphical_mena graphical_india graphical_steppe
+		}
+	}
 
 	is_enabled = {
 		or = {
@@ -145,6 +247,23 @@ dwarven_depths_02 = {
 dwarven_depths_03 = {
 	construction_time = slow_construction_time
 
+	### Delving ###
+	asset = {
+		type = pdxmesh
+		name = "dwarven_holding_02_mesh"
+		illustration = @holding_illustration_underground_dwarven
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = {
+			dwarven_building_gfx orc_building_gfx elven_building_gfx
+			norse_building_gfx iberian_building_gfx iranian_building_gfx
+			western_building_gfx mediterranean_building_gfx mena_building_gfx indian_building_gfx steppe_building_gfx
+		}
+		graphical_regions = {
+			graphical_underground
+			graphical_western graphical_mediterranean graphical_mena graphical_india graphical_steppe
+		}
+	}
+
 	is_enabled = {
 		or = {
 			#scope:holder = { is_dwarf = yes }
@@ -171,7 +290,7 @@ dwarven_depths_03 = {
    
 	cost_gold = 650
 	#cost_prestige = cheap_building_tier_1_cost
-	levy = 450
+	levy = 375
 	max_garrison = 1200
 	garrison_reinforcement_factor = 0.07
    
@@ -215,6 +334,23 @@ dwarven_depths_03 = {
 dwarven_depths_04 = {
 	construction_time = slow_construction_time
 
+	### Delving ###
+	asset = {
+		type = pdxmesh
+		name = "dwarven_holding_02_mesh"
+		illustration = @holding_illustration_underground_dwarven
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = {
+			dwarven_building_gfx orc_building_gfx elven_building_gfx
+			norse_building_gfx iberian_building_gfx iranian_building_gfx
+			western_building_gfx mediterranean_building_gfx mena_building_gfx indian_building_gfx steppe_building_gfx
+		}
+		graphical_regions = {
+			graphical_underground
+			graphical_western graphical_mediterranean graphical_mena graphical_india graphical_steppe
+		}
+	}
+
 	is_enabled = {
 		or = {
 			#scope:holder = { is_dwarf = yes }
@@ -240,9 +376,9 @@ dwarven_depths_04 = {
 		}
 	}
    
-	cost_gold = 800
+	cost_gold = 1400
 	#cost_prestige = cheap_building_tier_1_cost
-	levy = 650
+	levy = 425
 	max_garrison = 1400
 	garrison_reinforcement_factor = 0.08
    
@@ -286,6 +422,23 @@ dwarven_depths_04 = {
 dwarven_depths_05 = {
 	construction_time = slow_construction_time
 
+	### Delving ###
+	asset = {
+		type = pdxmesh
+		name = "dwarven_holding_03_mesh"
+		illustration = @holding_illustration_underground_dwarven
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = {
+			dwarven_building_gfx orc_building_gfx elven_building_gfx
+			norse_building_gfx iberian_building_gfx iranian_building_gfx
+			western_building_gfx mediterranean_building_gfx mena_building_gfx indian_building_gfx steppe_building_gfx
+		}
+		graphical_regions = {
+			graphical_underground
+			graphical_western graphical_mediterranean graphical_mena graphical_india graphical_steppe
+		}
+	}
+
 	is_enabled = {
 		or = {
 			scope:holder = { is_dwarf = yes }
@@ -307,9 +460,9 @@ dwarven_depths_05 = {
 		has_building_or_higher = dwarven_depths_04
 	}
    
-	cost_gold = 1000
+	cost_gold = 1500
 	#cost_prestige = cheap_building_tier_1_cost
-	levy = 825
+	levy = 500
 	max_garrison = 1600
 	garrison_reinforcement_factor = 0.09
    
@@ -353,6 +506,23 @@ dwarven_depths_05 = {
 dwarven_depths_06 = {
 	construction_time = slow_construction_time
 
+	### Delving ###
+	asset = {
+		type = pdxmesh
+		name = "dwarven_holding_03_mesh"
+		illustration = @holding_illustration_underground_dwarven
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = {
+			dwarven_building_gfx orc_building_gfx elven_building_gfx
+			norse_building_gfx iberian_building_gfx iranian_building_gfx
+			western_building_gfx mediterranean_building_gfx mena_building_gfx indian_building_gfx steppe_building_gfx
+		}
+		graphical_regions = {
+			graphical_underground
+			graphical_western graphical_mediterranean graphical_mena graphical_india graphical_steppe
+		}
+	}
+
 	is_enabled = {
 		or = {
 			scope:holder = { is_dwarf = yes }
@@ -380,9 +550,9 @@ dwarven_depths_06 = {
 		has_building_or_higher = dwarven_roads_04
 	}
    
-	cost_gold = 1750
+	cost_gold = 2850
 	#cost_prestige = cheap_building_tier_1_cost
-	levy = 1111
+	levy = 850
 	max_garrison = 1800
 	garrison_reinforcement_factor = 0.10
    
@@ -426,6 +596,23 @@ dwarven_depths_06 = {
 dwarven_depths_07 = {
 	construction_time = slow_construction_time
 
+	### Delving ###
+	asset = {
+		type = pdxmesh
+		name = "dwarven_holding_04_mesh"
+		illustration = @holding_illustration_underground_dwarven
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = {
+			dwarven_building_gfx orc_building_gfx elven_building_gfx
+			norse_building_gfx iberian_building_gfx iranian_building_gfx
+			western_building_gfx mediterranean_building_gfx mena_building_gfx indian_building_gfx steppe_building_gfx
+		}
+		graphical_regions = {
+			graphical_underground
+			graphical_western graphical_mediterranean graphical_mena graphical_india graphical_steppe
+		}
+	}
+
 	is_enabled = {
 		or = {
 			scope:holder = { is_dwarf = yes }
@@ -448,9 +635,9 @@ dwarven_depths_07 = {
 		has_building_or_higher = dwarven_toolmaker_guild_03
 	}
    
-	cost_gold = 2500
+	cost_gold = 6000
 	#cost_prestige = cheap_building_tier_1_cost
-	levy = 1300
+	levy = 1150
 	max_garrison = 2000
 	garrison_reinforcement_factor = 0.11
    
@@ -494,6 +681,23 @@ dwarven_depths_07 = {
 dwarven_depths_08 = {
 	construction_time = slow_construction_time
 
+	### Delving ###
+	asset = {
+		type = pdxmesh
+		name = "dwarven_holding_04_mesh"
+		illustration = @holding_illustration_underground_dwarven
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = {
+			dwarven_building_gfx orc_building_gfx elven_building_gfx
+			norse_building_gfx iberian_building_gfx iranian_building_gfx
+			western_building_gfx mediterranean_building_gfx mena_building_gfx indian_building_gfx steppe_building_gfx
+		}
+		graphical_regions = {
+			graphical_underground
+			graphical_western graphical_mediterranean graphical_mena graphical_india graphical_steppe
+		}
+	}
+
 	is_enabled = {
 		or = {
 			scope:holder = { is_dwarf = yes }
@@ -521,9 +725,9 @@ dwarven_depths_08 = {
 		has_building_or_higher = dwarven_roads_07
 	}
    
-	cost_gold = 4000
+	cost_gold = 10000
 	#cost_prestige = cheap_building_tier_1_cost
-	levy = 1500
+	levy = 1400
 	max_garrison = 2225
 	garrison_reinforcement_factor = 0.12
    
@@ -573,6 +777,23 @@ dwarven_depths_08 = {
 dwarven_depths_09 = {
 	construction_time = slow_construction_time
 
+	### Delving ###
+	asset = {
+		type = pdxmesh
+		name = "dwarven_holding_05_mesh"
+		illustration = @holding_illustration_underground_dwarven
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = {
+			dwarven_building_gfx orc_building_gfx elven_building_gfx
+			norse_building_gfx iberian_building_gfx iranian_building_gfx
+			western_building_gfx mediterranean_building_gfx mena_building_gfx indian_building_gfx steppe_building_gfx
+		}
+		graphical_regions = {
+			graphical_underground
+			graphical_western graphical_mediterranean graphical_mena graphical_india graphical_steppe
+		}
+	}
+
 	is_enabled = {
 		or = {
 			scope:holder = { is_dwarf = yes }
@@ -594,7 +815,7 @@ dwarven_depths_09 = {
 		has_building_or_higher = dwarven_depths_08
 	}
    
-	cost_gold = 7500
+	cost_gold = 16500
 	#cost_prestige = cheap_building_tier_1_cost
 	levy = 1700
 	max_garrison = 2500
@@ -646,6 +867,23 @@ dwarven_depths_09 = {
 dwarven_depths_10 = {
 	construction_time = slow_construction_time
 
+	### Delving ###
+	asset = {
+		type = pdxmesh
+		name = "dwarven_holding_05_mesh"
+		illustration = @holding_illustration_underground_dwarven
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = {
+			dwarven_building_gfx orc_building_gfx elven_building_gfx
+			norse_building_gfx iberian_building_gfx iranian_building_gfx
+			western_building_gfx mediterranean_building_gfx mena_building_gfx indian_building_gfx steppe_building_gfx
+		}
+		graphical_regions = {
+			graphical_underground
+			graphical_western graphical_mediterranean graphical_mena graphical_india graphical_steppe
+		}
+	}
+
 	is_enabled = {
 		or = {
 			scope:holder = { is_dwarf = yes }
@@ -675,7 +913,7 @@ dwarven_depths_10 = {
 		has_building_or_higher = dwarven_toolmaker_guild_06
 	}
    
-	cost_gold = 10000
+	cost_gold = 25000
 	#cost_prestige = cheap_building_tier_1_cost
 	levy = 2000
 	max_garrison = 3000
@@ -710,8 +948,6 @@ dwarven_depths_10 = {
 		#men_at_arms_maintenance = -0.05
 		monthly_dynasty_prestige = 0.3
 	}
-   
-	#next_building = dwarven_fungal_farm_08
    
 	type_icon = "icon_building_hill_farms.dds"
    
