@@ -6,14 +6,15 @@
 	history_loc_override = amutani_history_loc
 	
 	ethos = ethos_stoic
-	heritage = heritage_amutani
+	heritage = heritage_thani_native
 	language = language_amutani
 	martial_custom = martial_custom_equal
 	traditions = {
 		tradition_tribe_unity
 		tradition_female_only_inheritance
 		tradition_wetlanders
-		tradition_hill_dwellers
+		#tradition_hill_dwellers # Juke note: More present in farmlands and plains than hills, agrarian is more appropriate
+		tradition_agrarian
 	}
 
 	dlc_tradition = {
@@ -42,7 +43,7 @@ drel = {
 	history_loc_override = amutani_history_loc
 	
 	ethos = ethos_communal
-	heritage = heritage_amutani
+	heritage = heritage_thani_native
 	language = language_amutani
 	martial_custom = martial_custom_male_only
 	traditions = {
@@ -72,7 +73,7 @@ pel = {
 	history_loc_override = amutani_history_loc
 	
 	ethos = ethos_egalitarian
-	heritage = heritage_amutani
+	heritage = heritage_thani_native
 	language = language_amutani
 	martial_custom = martial_custom_equal
 	traditions = {
