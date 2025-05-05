@@ -18925,6 +18925,9 @@ lineofarshishan125 = {
 	5687.12.23 = {
 	    birth = yes
 	}
+    5757.05.30 = { 
+        death = { death_reason = death_natural_causes }
+    }
 }
 
 lineofarshishan126 = {
@@ -22816,6 +22819,9 @@ lineofarvanhahan106 = {
 	5692.05.04 = {
 	    birth = yes
 	}
+    5780.05.30 = { 
+        death = { death_reason = death_natural_causes }
+    }
 }
 
 lineofarvanhahan107 = {
@@ -22843,6 +22849,9 @@ lineofarvanhahan107 = {
 	5693.07.19 = {
 	    birth = yes
 	}
+    5786.05.30 = { 
+        death = { death_reason = death_natural_causes }
+    }
 }
 
 lineofarvanhahan108 = {
@@ -46026,6 +46035,9 @@ lineofhaydahan179 = {
 	5691.06.02 = {
 	    birth = yes
 	}
+    5784.05.30 = { 
+        death = { death_reason = death_natural_causes }
+    }
 }
 
 lineofhaydahan180 = {
@@ -57182,6 +57194,9 @@ lineofjahangir132 = {
 	5686.07.07 = {
 	    birth = yes
 	}
+    5778.05.30 = { 
+        death = { death_reason = death_natural_causes }
+    }
 }
 
 lineofjahangir133 = {
@@ -57238,6 +57253,9 @@ lineofjahangir134 = {
 	5693.07.07 = {
 	    birth = yes
 	}
+    5797.05.30 = { 
+        death = { death_reason = death_natural_causes }
+    }
 }
 
 lineofmujahan135 = {
@@ -70752,6 +70770,9 @@ lineofkersasphan132 = {
 	5692.01.16 = {
 	    birth = yes
 	}
+    5780.05.30 = { 
+        death = { death_reason = death_natural_causes }
+    }
 }
 
 lineofkersasphan134 = {
@@ -75468,6 +75489,9 @@ lineofkhurshchehra142 = {
 	5689.07.01 = {
 	    birth = yes
 	}
+    5773.05.30 = { 
+        death = { death_reason = death_natural_causes }
+    }
 }
 
 lineofkhurshchehra143 = {
@@ -75496,6 +75520,9 @@ lineofkhurshchehra143 = {
 	5690.06.19 = {
 	    birth = yes
 	}
+    5782.05.30 = { 
+        death = { death_reason = death_natural_causes }
+    }
 }
 
 lineofkhurshchehra144 = {
@@ -79578,6 +79605,9 @@ lineofkhushnawazan128 = {
 	5700.10.21 = {
 	    birth = yes
 	}
+    5785.05.30 = { 
+        death = { death_reason = death_natural_causes }
+    }
 }
 
 lineofkhushnawazan129 = {
@@ -79604,6 +79634,9 @@ lineofkhushnawazan129 = {
 	5700.02.13 = {
 	    birth = yes
 	}
+    5772.05.30 = { 
+        death = { death_reason = death_natural_causes }
+    }
 }
 
 ### Mahburzinihan ###
@@ -91075,6 +91108,9 @@ lineofmujahan204 = {
 	5686.06.21 = {
 	    birth = yes
 	}
+    5771.05.30 = { 
+        death = { death_reason = death_natural_causes }
+    }
 }
 
 lineofmujahan205 = {
@@ -91101,6 +91137,9 @@ lineofmujahan205 = {
 	5687.11.09 = {
 	    birth = yes
 	}
+    5760.05.30 = { 
+        death = { death_reason = death_natural_causes }
+    }
 }
 
 lineofmujahan206 = {
@@ -92172,6 +92211,9 @@ lineofpirangushnaspa29 = {
 	5693.05.14 = {
 	    birth = yes
 	}
+    5780.05.30 = { 
+        death = { death_reason = death_natural_causes }
+    }
 }
 
 lineoframzeket153 = {
@@ -102642,6 +102684,9 @@ lineoframzeket223 = {
 	5691.09.07 = {
 	    birth = yes
 	}
+    5765.05.30 = { 
+        death = { death_reason = death_natural_causes }
+    }
 }
 
 lineoframzeket224 = {
@@ -105035,6 +105080,9 @@ lineofsarafrazan63 = {
 	5692.05.14 = {
 	    birth = yes
 	}
+    5766.05.30 = { 
+        death = { death_reason = death_natural_causes }
+    }
 }
 
 lineofvindafarnahan64 = {
@@ -130768,6 +130816,9 @@ lineofzirakahan52 = {
 	5690.08.23 = {
 	    birth = yes
 	}
+    5749.05.30 = { 
+        death = { death_reason = death_natural_causes }
+    }
 }
 
 lineofzirakahan53 = {
@@ -154735,7 +154786,7 @@ lineofhoshedarmah147 = {
 ### Dynasty dynasty_bundarhan
 ################
 
-lineofbundarhan1 = {
+lineofbundarhan1 = { # Early commander of the 4th Dyansty, rewarded with the control of the Gap.
 	name = Khudamard
 	culture = ashanuri
 	religion = faith_arienism
@@ -154745,6 +154796,7 @@ lineofbundarhan1 = {
 	sexuality = heterosexual
 
 	trait = curious
+    trait = education_martial_4
 	6320.09.10 = {
 	    birth = yes
 	}
@@ -178547,16 +178599,17 @@ lineoffravakhan10 = {
 ### Dynasty dynasty_gorazehan
 ################
 
-lineofgorazehan1 = {
+lineofgorazehan1 = { # Supporter of the last of the Dark Dynasty
 	name = Farrokhbondad
 	culture = khyan
-	religion = faith_arienism
+	religion = faith_angrimayn
 
 	dynasty = dynasty_gorazehan
 
 	sexuality = heterosexual
 
 	trait = curious
+    trait = education_intrigue_4
 	6301.08.16 = {
 	    birth = yes
 	}
@@ -178577,7 +178630,7 @@ lineofgorazehan2 = {
 	name = Shirin
 	female = yes
 	culture = khyan
-	religion = faith_arienism
+	religion = faith_angrimayn
 
 	sexuality = heterosexual
 
@@ -178595,10 +178648,10 @@ lineofgorazehan2 = {
 	}
 }
 
-lineofgorazehan3 = {
+lineofgorazehan3 = { # Evicted by the incomming 4th Dynasty
 	name = Khushmanish
 	culture = khyan
-	religion = faith_arienism
+	religion = faith_angrimayn
 
 	dynasty = dynasty_gorazehan
 	father = lineofgorazehan1
@@ -178635,7 +178688,7 @@ lineofgorazehan3 = {
 lineofgorazehan4 = {
 	name = Dadmeher
 	culture = khyan
-	religion = faith_arienism
+	religion = faith_angrimayn
 
 	dynasty = dynasty_gorazehan
 	father = lineofgorazehan1
@@ -178670,7 +178723,7 @@ lineofgorazehan5 = {
 	name = Shakerbanu
 	female = yes
 	culture = khyan
-	religion = faith_arienism
+	religion = faith_angrimayn
 
 	dynasty = dynasty_gorazehan
 	father = lineofgorazehan1
@@ -178705,7 +178758,7 @@ lineofgorazehan6 = {
 	name = Meherafruz
 	female = yes
 	culture = khyan
-	religion = faith_arienism
+	religion = faith_angrimayn
 
 	dynasty = dynasty_gorazehan
 	father = lineofgorazehan1
@@ -178739,7 +178792,7 @@ lineofgorazehan6 = {
 lineofgorazehan7 = {
 	name = Frahisrva
 	culture = khyan
-	religion = faith_arienism
+	religion = faith_angrimayn
 
 	dynasty = dynasty_gorazehan
 	father = lineofgorazehan1
@@ -178774,7 +178827,7 @@ lineofgorazehan8 = {
 	name = Meherbanu
 	female = yes
 	culture = khyan
-	religion = faith_arienism
+	religion = faith_angrimayn
 
 	sexuality = heterosexual
 
@@ -178804,7 +178857,7 @@ lineofgorazehan8 = {
 lineofgorazehan9 = {
 	name = Farrokh
 	culture = khyan
-	religion = faith_arienism
+	religion = faith_angrimayn
 
 	dynasty = dynasty_gorazehan
 	father = lineofgorazehan3
@@ -178838,7 +178891,7 @@ lineofgorazehan9 = {
 	}
 }
 
-lineofgorazehan10 = {
+lineofgorazehan10 = { # Converted to Arienism
 	name = Khudabax
 	culture = khyan
 	religion = faith_arienism
@@ -179091,7 +179144,7 @@ lineofgorazehan16 = {
 	}
 }
 
-lineofgorazehan17 = {
+lineofgorazehan17 = { # Returns to power in the conservative lands of Lodenuly
 	name = Arshak
 	culture = khyan
 	religion = faith_arienism
@@ -179109,7 +179162,7 @@ lineofgorazehan17 = {
 	learning = 3
 	prowess = 1
 
-	trait = education_stewardship_1
+	trait = education_intrigue_3
 	trait = spindly
 
 	trait = pensive
@@ -188112,7 +188165,7 @@ lineofgushtahemez37 = {
 	    add_spouse = lineofkhubechehran30
 	}
 	6525.02.25 = {  # Died at age 47
-	    death = { death_reason = death_natural_causes }
+	    death = { death_reason = death_horse_riding_accident }
 	}
 }
 
@@ -188127,7 +188180,7 @@ lineofgushtahemez38 = {
 
 	sexuality = heterosexual
 
-	diplomacy = 2
+	diplomacy = 9
 	martial = 3
 	stewardship = 5
 	intrigue = 3
@@ -188142,7 +188195,7 @@ lineofgushtahemez38 = {
 	}
 	6494.01.25 = {  
 	    trait = cynical
-	    trait = gluttonous
+	    trait = ambitious
 	    trait = vengeful
 	}
 	6501.07.24 = {  # Married at age 23
@@ -193937,6 +193990,9 @@ lineofhoshedarmah1 = {
 	sexuality = heterosexual
 
 	trait = curious
+    trait = education_martial_2
+    trait = loyal
+    trait = overseer
 	6335.03.15 = {
 	    birth = yes
 	}
@@ -194145,8 +194201,8 @@ lineofhoshedarmah7 = {
 	6381.12.25 = {  # Married at age 19
 	    add_spouse = lineofgushtahemez4
 	}
-	6412.10.15 = {  # Died at age 50
-	    death = { death_reason = death_ill }
+	6409.10.15 = {  # Died durring the revolution
+	    death = { death_reason = death_battle }
 	}
 }
 
@@ -207387,6 +207443,7 @@ lineofizadyar1 = {
 	sexuality = heterosexual
 
 	trait = curious
+    trait = education_stewardship_3
 	6320.10.15 = {
 	    birth = yes
 	}
@@ -207451,7 +207508,7 @@ lineofizadyar3 = {
 	}
 	6358.04.05 = {  
 	    trait = paranoid
-	    trait = patient
+	    trait = stubborn
 	    trait = zealous
 	}
 	6418.08.06 = {  # Died at age 76
@@ -207512,7 +207569,7 @@ lineofizadyar5 = {
 	learning = 3
 	prowess = 6
 
-	trait = education_diplomacy_2
+	trait = education_diplomacy_4
 
 	trait = curious
 	6351.01.23 = {
@@ -207873,7 +207930,7 @@ lineofizadyar16 = {
 	learning = 6
 	prowess = 3
 
-	trait = education_diplomacy_2
+	trait = education_diplomacy_1
 
 	trait = curious
 	6424.01.18 = {
