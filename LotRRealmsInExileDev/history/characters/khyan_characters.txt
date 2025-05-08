@@ -4490,7 +4490,7 @@ lineofphaxsharan3 = {
 }
 
 lineofphaxsharan4 = {
-    name = Mahin
+    name = Mythra
     female = yes
 
     dynasty = dynasty_phaxsharan
@@ -4509,9 +4509,9 @@ lineofphaxsharan4 = {
         birth = yes
     }
 
-    6471.8.22 = { # Ascends the throne, claims regnal name
-        name = Mythra
-    }
+    # 6471.8.22 = { # Ascends the throne, claims regnal name - Trig note, Mythra is a birth name
+    #     name = Mythra
+    # }
 
     6506.9.2 = {
         death = {
@@ -4543,7 +4543,7 @@ lineofphaxsharan5 = {
         name = Ardacher
     }
 
-    6509.1.20 = {
+    6520.1.20 = {
         death = {
             death_reason = death_natural_causes
         }
@@ -4560,7 +4560,7 @@ lineofphaxsharan6 = {
     mother = lineofphaxsharan4
 
     trait = brave
-    trait = calm
+    trait = vengeful
     trait = diligent
 
     trait = education_martial_4
@@ -4599,7 +4599,7 @@ lineofphaxsharan7 = {
         birth = yes
     }
 
-    6504.6.25 = {
+    6521.6.25 = { # Dies in revolt against his cousin
         death = {
             death_reason = death_battle
         }
@@ -4625,9 +4625,10 @@ lineofphaxsharan8 = {
         birth = yes
     }
 
-    6504.11.1 = {
+    6524.11.1 = { # Executed at the failure of the revolt
         death = {
-            death_reason = death_battle
+            death_reason = death_execution
+            killer = lineofphaxsharan6
         }
     }
 }
@@ -4651,7 +4652,7 @@ lineofphaxsharan9 = {
         birth = yes
     }
 
-    6514.12.9 = {
+    6524.12.9 = { # Dies tourtured after the failure of the revolt
         death = {
             death_reason = death_torture
         }
@@ -4707,9 +4708,10 @@ lineofphaxsharan11 = {
         birth = yes
     }
 
-    6514.9.10 = {
+    6524.11.1 = { # Executed at the failure of the revolt
         death = {
-            death_reason = death_battle
+            death_reason = death_execution
+            killer = lineofphaxsharan6
         }
     }
 }
@@ -4732,8 +4734,11 @@ lineofphaxsharan12 = {
     6500.3.1 = {
         birth = yes
     }
-
-    6523.4.1 = {
+    6524.11.1 = { # blinded and castrated at the failure of the revolt
+        trait = eunuch
+        trait = blinded
+    }
+    6551.4.1 = {
         death = {
             death_reason = death_dungeon
         }
@@ -5137,6 +5142,112 @@ lineofphaxsharan26 = {
     }
 }
 
+lineofphaxsharan27 = {
+    name = Erezwand
+
+    dynasty = dynasty_phaxsharan
+    religion = faith_arienism
+    culture = khyan
+
+    father = lineofphaxsharan6
+    # mother = second wife
+    
+    trait = ambitious
+    trait = vengeful
+    trait = diligent
+
+    trait = education_intrigue_4
+
+    6493.5.19 = {
+        birth = yes
+    }
+
+    6571.6.11 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofphaxsharan28 = {
+    name = Azadeh
+
+    female = yes
+    dynasty = dynasty_phaxsharan
+    religion = faith_arienism
+    culture = khyan
+
+    father = lineofphaxsharan27
+    
+    trait = ambitious
+    trait = gregarious
+    trait = greedy
+
+    trait = education_diplomacy_2
+
+    6516.7.4 = {
+        birth = yes
+    }
+
+    6545.2.27 = {
+        death = {
+            death_reason = death_ill
+        }
+    }
+}
+
+lineofphaxsharan29 = {
+    name = Shirvanshah
+
+    dynasty = dynasty_phaxsharan
+    religion = faith_arienism
+    culture = khyan
+
+    father = lineofphaxsharan27
+    
+    trait = arrogant
+    trait = gregarious
+    trait = wrathful
+
+    trait = education_stewardship_3
+
+    6517.5.4 = {
+        birth = yes
+    }
+
+    6590.10.5 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofphaxsharan30 = {
+    name = Mythra
+
+    female = yes
+    dynasty = dynasty_phaxsharan
+    religion = faith_arienism
+    culture = khyan
+
+    father = lineofphaxsharan27
+    
+    trait = humble
+    trait = shy
+    trait = compassionate
+
+    trait = education_learning_1
+
+    6518.9.14 = {
+        birth = yes
+    }
+
+    6585.7.2 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
 ### Aldhrâdan ###
 
 lineofaldhrad1 = { # First emperor of the 5th dynasty
@@ -156898,7 +157009,7 @@ lineofbundarhan33 = {
 	learning = 8
 	prowess = 3
 
-	trait = education_intrigue_1
+	trait = education_intrigue_2
 
 	trait = charming
 	6458.03.04 = {
@@ -220380,6 +220491,7 @@ lineofkamranahan1 = {
 	sexuality = heterosexual
 
 	trait = charming
+    trait = education_learning_2
 	6310.01.02 = {
 	    birth = yes
 	}
@@ -220487,7 +220599,7 @@ lineofkamranahan4 = {
 	6363.04.11 = {  # Married at age 31
 	    add_spouse = lineofkhordadhan5
 	}
-	6393.08.25 = {  # Died at age 61
+	6393.08.25 = {  # Died durring the war against the 4th Dynasty
 	    death = { death_reason = death_battle }
 	}
 }
@@ -232085,13 +232197,14 @@ lineofkhubechehran1 = {
 	sexuality = heterosexual
 
 	trait = charming
+    trait = education_stewardship_2
 	6307.01.27 = {
 	    birth = yes
 	}
 	6323.01.27 = {  
-	    trait = compassionate
-	    trait = generous
-	    trait = impatient
+        trait = calm
+	    trait = lazy
+	    trait = stubborn
 	}
 	6325.07.13 = {  # Married at age 18
 	    add_spouse = lineofkhubechehran2
@@ -232141,16 +232254,16 @@ lineofkhubechehran3 = {
 	learning = 3
 	prowess = 2
 
-	trait = education_stewardship_1
+	trait = education_diplomacy_3
 
 	trait = pensive
 	6328.08.06 = {
 	    birth = yes
 	}
 	6344.08.06 = {  
-	    trait = calm
-	    trait = lazy
-	    trait = stubborn
+	    trait = compassionate
+	    trait = generous
+	    trait = impatient
 	}
 	6353.05.17 = {  # Married at age 24
 	    add_spouse = lineofhusravan4
@@ -235272,7 +235385,7 @@ lineofkhubechehran92 = {
 
 lineofkhudabaxan1 = {
 	name = Adarfra
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -235280,6 +235393,7 @@ lineofkhudabaxan1 = {
 	sexuality = heterosexual
 
 	trait = curious
+    trait = education_intrigue_2
 	6305.09.02 = {
 	    birth = yes
 	}
@@ -235320,7 +235434,7 @@ lineofkhudabaxan2 = {
 
 lineofkhudabaxan3 = {
 	name = Shidush
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -235357,7 +235471,7 @@ lineofkhudabaxan3 = {
 
 lineofkhudabaxan4 = {
 	name = Sahi
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -235374,6 +235488,7 @@ lineofkhudabaxan4 = {
 	prowess = 10
 
 	trait = education_martial_3
+    trait = lifestyle_mariner
 
 	trait = charming
 	6334.12.04 = {
@@ -235387,14 +235502,14 @@ lineofkhudabaxan4 = {
 	6364.12.19 = {  # Married at age 30
 	    add_spouse = lineofkamranahan6
 	}
-	6400.01.20 = {  # Died at age 65
-	    death = { death_reason = death_natural_causes }
+	6412.01.20 = {  # Died in a naval skirmish against Anarike
+	    death = { death_reason = death_battle }
 	}
 }
 
 lineofkhudabaxan5 = {
 	name = Burzafrah
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -235432,7 +235547,7 @@ lineofkhudabaxan5 = {
 lineofkhudabaxan6 = {
 	name = Bakhtavar
 	female = yes
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -235466,7 +235581,7 @@ lineofkhudabaxan6 = {
 
 lineofkhudabaxan7 = {
 	name = Namdar
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -235504,7 +235619,7 @@ lineofkhudabaxan7 = {
 
 lineofkhudabaxan8 = {
 	name = Gushnasp
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -235538,7 +235653,7 @@ lineofkhudabaxan8 = {
 
 lineofkhudabaxan9 = {
 	name = Bahadur
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -235575,7 +235690,7 @@ lineofkhudabaxan9 = {
 
 lineofkhudabaxan10 = {
 	name = Namdar
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -235613,7 +235728,7 @@ lineofkhudabaxan10 = {
 
 lineofkhudabaxan11 = {
 	name = Porgav
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -235648,7 +235763,7 @@ lineofkhudabaxan11 = {
 lineofkhudabaxan12 = {
 	name = Roshanak
 	female = yes
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -235682,7 +235797,7 @@ lineofkhudabaxan12 = {
 
 lineofkhudabaxan13 = {
 	name = Farrokhbondad
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -235722,7 +235837,7 @@ lineofkhudabaxan13 = {
 
 lineofkhudabaxan14 = {
 	name = Zirakzadeh
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -235759,7 +235874,7 @@ lineofkhudabaxan14 = {
 
 lineofkhudabaxan15 = {
 	name = Bahramdad
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -235775,16 +235890,16 @@ lineofkhudabaxan15 = {
 	learning = 4
 	prowess = 5
 
-	trait = education_martial_3
+	trait = education_martial_5
 
 	trait = curious
 	6408.03.28 = {
 	    birth = yes
 	}
 	6424.03.28 = {  
-	    trait = lazy
+	    trait = ambitious
 	    trait = arrogant
-	    trait = callous
+	    trait = diligent
 	}
 	6426.11.20 = {  # Married at age 18
 	    add_spouse = lineofgushtahemez14
@@ -235797,7 +235912,7 @@ lineofkhudabaxan15 = {
 lineofkhudabaxan16 = {
 	name = Fahnik
 	female = yes
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -235832,7 +235947,7 @@ lineofkhudabaxan16 = {
 lineofkhudabaxan17 = {
 	name = Azarmidokht
 	female = yes
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -235868,7 +235983,7 @@ lineofkhudabaxan17 = {
 
 lineofkhudabaxan18 = {
 	name = Bahmard
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -235906,7 +236021,7 @@ lineofkhudabaxan18 = {
 
 lineofkhudabaxan19 = {
 	name = Khordad
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -235974,7 +236089,7 @@ lineofbundarhan20 = {
 
 lineofkhudabaxan20 = {
 	name = Husrav
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -236033,7 +236148,7 @@ lineofgushtahemez20 = {
 
 lineofkhudabaxan21 = {
 	name = Farhad
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -236074,7 +236189,7 @@ lineofkhudabaxan21 = {
 lineofkhudabaxan22 = {
 	name = Delruba
 	female = yes
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -236110,7 +236225,7 @@ lineofkhudabaxan22 = {
 lineofkhudabaxan23 = {
 	name = Farkhonda
 	female = yes
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -236144,7 +236259,7 @@ lineofkhudabaxan23 = {
 
 lineofkhudabaxan24 = {
 	name = Vispanfria
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -236181,7 +236296,7 @@ lineofkhudabaxan24 = {
 
 lineofkhudabaxan25 = {
 	name = Khubyar
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -236218,7 +236333,7 @@ lineofkhudabaxan25 = {
 
 lineofkhudabaxan26 = {
 	name = Hutan
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -236256,7 +236371,7 @@ lineofkhudabaxan26 = {
 lineofkhudabaxan27 = {
 	name = Meherafrid
 	female = yes
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -236323,7 +236438,7 @@ lineofkhudabaxan28 = {
 lineofkhudabaxan29 = {
 	name = Mahperviz
 	female = yes
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
@@ -236357,7 +236472,7 @@ lineofkhudabaxan29 = {
 
 lineofkhudabaxan30 = {
 	name = Stivant
-	culture = khyan
+	culture = bulchyadean
 	religion = faith_arienism
 
 	dynasty = dynasty_khudabaxan
