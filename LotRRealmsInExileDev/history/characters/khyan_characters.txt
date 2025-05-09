@@ -233863,7 +233863,7 @@ lineofkhubechehran47 = {
 	6595.01.18 = {  # Married at age 36
 	    add_spouse = lineofkhubechehran65
 	}
-	6608.07.16 = {  # Died at age 50
+	6610.07.16 = {  # Died at age 52
 	    death = { death_reason = death_drinking_passive }
 	}
 }
@@ -234290,7 +234290,7 @@ lineofkhubechehran59 = {
 
 	sexuality = heterosexual
 
-	diplomacy = 2
+	diplomacy = 6
 	martial = 3
 	stewardship = 10
 	intrigue = 7
@@ -257338,7 +257338,7 @@ lineofnevazarhan1 = {
 
 	trait = charming
     trait = education_diplomacy_3
-    
+
 	6670.03.27 = {
 	    birth = yes
 	}
