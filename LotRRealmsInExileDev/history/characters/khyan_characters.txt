@@ -134967,6 +134967,7 @@ lineofaspantamana1 = {
 	sexuality = heterosexual
 
 	trait = curious
+    trait = education_intrigue_4
 	6650.05.17 = {
 	    birth = yes
 	}
@@ -135722,7 +135723,7 @@ lineofaspantamana23 = {
 	religion = faith_arienism
 
 	dynasty = dynasty_aspantamana
-	father = lineofaspantamana22
+	mother = lineofaspantamana21
 
 	sexuality = heterosexual
 
@@ -139996,7 +139997,7 @@ lineofhoshedarmah273 = {
 ### Dynasty dynasty_aurvataspa
 ################
 
-lineofaurvataspa1 = {
+lineofaurvataspa1 = { # Old advisor of Xshayarshan V, one of the driving forces behind the strengthening of the miltary. Appointed governer of the newly expanded fortresses of the Gap of Khy
 	name = Khudaram
 	culture = khyan
 	religion = faith_arienism
@@ -140005,7 +140006,8 @@ lineofaurvataspa1 = {
 
 	sexuality = heterosexual
 
-	trait = charming
+	trait = rowdy
+    trait = education_martial_4
 	6700.04.24 = {
 	    birth = yes
 	}
@@ -140044,7 +140046,7 @@ lineofaurvataspa2 = {
 	}
 }
 
-lineofaurvataspa3 = {
+lineofaurvataspa3 = { # Khudaram's son, a budding power who died early in suspiscous circumstances. 
 	name = Rayomand
 	culture = khyan
 	religion = faith_arienism
@@ -140064,12 +140066,15 @@ lineofaurvataspa3 = {
 
 	trait = education_learning_4
 	trait = clubfooted
+    trait = diligent
+    trait = ambitious
+    trait = just
 
 	6722.06.07 = {
 	    birth = yes
 	}
-	6723.08.20 = {  # Died at age 1
-	    death = { death_reason = death_ill }
+	6753.08.20 = {  # Died at age 31
+	    death = { death_reason = death_assassination }
 	}
 }
 
@@ -146388,6 +146393,7 @@ lineofbahadurez1 = {
 	sexuality = heterosexual
 
 	trait = charming
+    trait = education_martial_2
 	6640.07.20 = {
 	    birth = yes
 	}
@@ -146604,7 +146610,7 @@ lineofbahadurez7 = {
 	}
 }
 
-lineofbahadurez8 = {
+lineofbahadurez8 = { #Strong supporter of the Aldhradan, granted Zarinusha upon the coup.
 	name = Khubyar
 	culture = khyan
 	religion = faith_arienism
@@ -151432,16 +151438,20 @@ lineofbahadurez149 = {
 ### Dynasty dynasty_bahadurhan
 ################
 
-lineofbahadurhan1 = {
+lineofbahadurhan1 = { # Bastard of the Bahadurez, rose to power in Lodenuly
 	name = Goberu
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
+
+    father = lineofbahadurez1
 
 	sexuality = homosexual
 
 	trait = curious
+    trait = bastard
+    trait = education_learning_3
 	6685.07.27 = {
 	    birth = yes
 	}
@@ -151485,7 +151495,7 @@ lineofbahadurhan3 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan1
 	mother = lineofbahadurhan2
 
@@ -151524,7 +151534,7 @@ lineofbahadurhan4 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan1
 	mother = lineofbahadurhan2
 
@@ -151559,7 +151569,7 @@ lineofbahadurhan5 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan1
 
 	sexuality = heterosexual
@@ -151595,7 +151605,7 @@ lineofbahadurhan6 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan1
 	mother = lineofbahadurhan2
 
@@ -151630,7 +151640,7 @@ lineofbahadurhan7 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan1
 	mother = lineofbahadurhan2
 
@@ -151664,7 +151674,7 @@ lineofbahadurhan8 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan1
 	mother = lineofbahadurhan2
 
@@ -151701,7 +151711,7 @@ lineofbahadurhan9 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan3
 	mother = lineofgorazehan104
 
@@ -151739,7 +151749,7 @@ lineofbahadurhan10 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan3
 	mother = lineofgorazehan104
 
@@ -151774,7 +151784,7 @@ lineofbahadurhan11 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan8
 	mother = lineofdelawarhan11
 
@@ -151811,7 +151821,7 @@ lineofbahadurhan12 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan8
 	mother = lineofdelawarhan11
 
@@ -151849,7 +151859,7 @@ lineofbahadurhan13 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan3
 	mother = lineofgorazehan104
 
@@ -151883,7 +151893,7 @@ lineofbahadurhan14 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan9
 	mother = lineofhoshedarmah93
 
@@ -151920,7 +151930,7 @@ lineofbahadurhan15 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan9
 	mother = lineofhoshedarmah93
 
@@ -151957,7 +151967,7 @@ lineofbahadurhan16 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan9
 	mother = lineofhoshedarmah93
 
@@ -151994,7 +152004,7 @@ lineofbahadurhan17 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan9
 	mother = lineofhoshedarmah93
 
@@ -152031,7 +152041,7 @@ lineofbahadurhan18 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan12
 
 	sexuality = heterosexual
@@ -152069,7 +152079,7 @@ lineofbahadurhan19 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan11
 	mother = lineofstivantez31
 
@@ -152103,7 +152113,7 @@ lineofbahadurhan20 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan18
 
 	sexuality = heterosexual
@@ -152142,7 +152152,7 @@ lineofbahadurhan21 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan9
 	mother = lineofhoshedarmah93
 
@@ -152172,12 +152182,12 @@ lineofbahadurhan21 = {
 	}
 }
 
-lineofbahadurhan22 = {
+lineofbahadurhan22 = { # Great General of Aldhrad, comming to prominence as a young officer durring the coup against the 4th dynasty, and famed most for his conquest of Anarike and defeat of Codya. He was installed lord-governer of all of Anarike upon conquest.
 	name = Meherzad
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan11
 	mother = lineofstivantez31
 
@@ -152191,6 +152201,9 @@ lineofbahadurhan22 = {
 	prowess = 5
 
 	trait = education_martial_4
+    trait = strategist
+    trait = lifestyle_mariner
+    trait = flexible_leader
 	trait = intellect_good_3
 
 	trait = curious
@@ -152215,7 +152228,7 @@ lineofbahadurhan23 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan11
 	mother = lineofstivantez31
 
@@ -152250,7 +152263,7 @@ lineofbahadurhan24 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan11
 	mother = lineofstivantez31
 
@@ -152341,7 +152354,7 @@ lineofbahadurhan28 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan12
 	mother = lineofbahadurhan25
 
@@ -152410,7 +152423,7 @@ lineofbahadurhan30 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan16
 	mother = lineofbahadurhan27
 
@@ -152438,7 +152451,7 @@ lineofbahadurhan31 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan17
 	mother = lineofbahadurhan29
 
@@ -152477,7 +152490,7 @@ lineofbahadurhan32 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan17
 	mother = lineofbahadurhan29
 
@@ -152542,7 +152555,7 @@ lineofbahadurhan33 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan15
 	mother = lineofbahadurhan26
 
@@ -152610,7 +152623,7 @@ lineofbahadurhan35 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan20
 	mother = lineofbahadurhan34
 
@@ -152678,7 +152691,7 @@ lineofbahadurhan36 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan20
 	mother = lineofbahadurhan34
 
@@ -152715,7 +152728,7 @@ lineofbahadurhan37 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan20
 	mother = lineofbahadurhan34
 
@@ -152753,7 +152766,7 @@ lineofbahadurhan38 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan20
 	mother = lineofbahadurhan34
 
@@ -152787,7 +152800,7 @@ lineofbahadurhan39 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan35
 
 	sexuality = heterosexual
@@ -152826,7 +152839,7 @@ lineofbahadurhan40 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan22
 
 	sexuality = heterosexual
@@ -152861,7 +152874,7 @@ lineofbahadurhan41 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan31
 	mother = lineofhoshedarmah114
 
@@ -152899,7 +152912,7 @@ lineofbahadurhan42 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan31
 	mother = lineofhoshedarmah114
 
@@ -152937,7 +152950,7 @@ lineofbahadurhan43 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan31
 	mother = lineofhoshedarmah114
 
@@ -152972,7 +152985,7 @@ lineofbahadurhan44 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan31
 	mother = lineofhoshedarmah114
 
@@ -153010,7 +153023,7 @@ lineofbahadurhan45 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan31
 	mother = lineofhoshedarmah114
 
@@ -153044,7 +153057,7 @@ lineofbahadurhan46 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan37
 	mother = lineofurvatatnara21
 
@@ -153081,7 +153094,7 @@ lineofbahadurhan47 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan36
 	mother = lineofstivantez51
 
@@ -153118,7 +153131,7 @@ lineofbahadurhan48 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan41
 	mother = lineofizadyar159
 
@@ -153148,7 +153161,7 @@ lineofbahadurhan49 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan39
 	mother = lineofbahadurez38
 
@@ -153183,7 +153196,7 @@ lineofbahadurhan50 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan37
 	mother = lineofurvatatnara21
 
@@ -153217,7 +153230,7 @@ lineofbahadurhan51 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan35
 	mother = lineofaspantamana36
 
@@ -153254,7 +153267,7 @@ lineofbahadurhan52 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan42
 	mother = lineoftahmahan53
 
@@ -153292,7 +153305,7 @@ lineofbahadurhan53 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan42
 	mother = lineoftahmahan53
 
@@ -153326,7 +153339,7 @@ lineofbahadurhan54 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan42
 	mother = lineoftahmahan53
 
@@ -153366,7 +153379,7 @@ lineofbahadurhan55 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan39
 	mother = lineofbahadurez38
 
@@ -153466,7 +153479,7 @@ lineofbahadurhan58 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan44
 	mother = lineofbahadurhan56
 
@@ -153500,7 +153513,7 @@ lineofbahadurhan59 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan47
 	mother = lineofbahadurhan57
 
@@ -153537,7 +153550,7 @@ lineofbahadurhan60 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan47
 	mother = lineofbahadurhan57
 
@@ -153605,7 +153618,7 @@ lineofbahadurhan62 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan52
 	mother = lineofbahadurhan61
 
@@ -153664,7 +153677,7 @@ lineofbahadurhan65 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan59
 	mother = lineofbahadurhan64
 
@@ -153701,7 +153714,7 @@ lineofbahadurhan66 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan55
 	mother = lineofbahadurhan63
 
@@ -153738,7 +153751,7 @@ lineofbahadurhan67 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan59
 	mother = lineofbahadurhan64
 
@@ -153775,7 +153788,7 @@ lineofbahadurhan68 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan59
 	mother = lineofbahadurhan64
 
@@ -153805,7 +153818,7 @@ lineofbahadurhan69 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan55
 	mother = lineofbahadurhan63
 
@@ -153840,7 +153853,7 @@ lineofbahadurhan71 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan60
 
 	sexuality = heterosexual
@@ -153875,7 +153888,7 @@ lineofbahadurhan72 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan59
 	mother = lineofbahadurhan64
 
@@ -153913,7 +153926,7 @@ lineofbahadurhan73 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan67
 	mother = lineofgushtahemez122
 
@@ -153950,7 +153963,7 @@ lineofbahadurhan74 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan67
 	mother = lineofgushtahemez122
 
@@ -153978,7 +153991,7 @@ lineofbahadurhan75 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan66
 	mother = lineofhoshedarmah155
 
@@ -154047,7 +154060,7 @@ lineofbahadurhan77 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan67
 	mother = lineofgushtahemez122
 
@@ -154082,7 +154095,7 @@ lineofbahadurhan78 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan72
 	mother = lineofbahadurhan76
 
@@ -154120,7 +154133,7 @@ lineofbahadurhan79 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan73
 	mother = lineofnawazishan32
 
@@ -154160,7 +154173,7 @@ lineofbahadurhan80 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan75
 	mother = lineoftahmahan101
 
@@ -154198,7 +154211,7 @@ lineofbahadurhan81 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan75
 	mother = lineoftahmahan101
 
@@ -154233,7 +154246,7 @@ lineofbahadurhan82 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan78
 	mother = lineofnarimanez30
 
@@ -154262,7 +154275,7 @@ lineofbahadurhan83 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan75
 	mother = lineoftahmahan101
 
@@ -154296,7 +154309,7 @@ lineofbahadurhan84 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan78
 	mother = lineofnarimanez30
 
@@ -154367,7 +154380,7 @@ lineofbahadurhan85 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan79
 	mother = lineofdelawarhan93
 
@@ -154405,7 +154418,7 @@ lineofbahadurhan86 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan79
 	mother = lineofdelawarhan93
 
@@ -154439,7 +154452,7 @@ lineofbahadurhan87 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan80
 	mother = lineofjahanabada34
 
@@ -154477,7 +154490,7 @@ lineofbahadurhan88 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan80
 	mother = lineofjahanabada34
 
@@ -154512,7 +154525,7 @@ lineofbahadurhan89 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan80
 	mother = lineofjahanabada34
 
@@ -154546,7 +154559,7 @@ lineofbahadurhan90 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan80
 	mother = lineofjahanabada34
 
@@ -154585,7 +154598,7 @@ lineofbahadurhan91 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan78
 
 	sexuality = heterosexual
@@ -154620,7 +154633,7 @@ lineofbahadurhan92 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan75
 
 	sexuality = heterosexual
@@ -154659,7 +154672,7 @@ lineofbahadurhan93 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan90
 	mother = lineofwehzanez53
 
@@ -154693,7 +154706,7 @@ lineofbahadurhan94 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan90
 	mother = lineofwehzanez53
 
@@ -154730,7 +154743,7 @@ lineofbahadurhan95 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan90
 	mother = lineofwehzanez53
 
@@ -154768,7 +154781,7 @@ lineofbahadurhan96 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan90
 	mother = lineofwehzanez53
 
@@ -154834,7 +154847,7 @@ lineofbahadurhan98 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan92
 	mother = lineofbahadurhan97
 
@@ -154878,7 +154891,7 @@ lineofbahadurhan99 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan92
 	mother = lineofbahadurhan97
 
@@ -154912,7 +154925,7 @@ lineofbahadurhan100 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan92
 	mother = lineofbahadurhan97
 
@@ -154942,7 +154955,7 @@ lineofbahadurhan101 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan92
 	mother = lineofbahadurhan97
 
@@ -154977,7 +154990,7 @@ lineofbahadurhan102 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan92
 	mother = lineofbahadurhan97
 
@@ -155012,7 +155025,7 @@ lineofbahadurhan103 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan95
 	mother = lineofrakhohan33
 
@@ -155046,7 +155059,7 @@ lineofbahadurhan104 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan98
 	mother = lineofrakhohan38
 
@@ -155084,7 +155097,7 @@ lineofbahadurhan105 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan98
 	mother = lineofrakhohan38
 
@@ -155119,7 +155132,7 @@ lineofbahadurhan106 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan94
 
 	sexuality = heterosexual
@@ -155155,7 +155168,7 @@ lineofbahadurhan107 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan98
 	mother = lineofrakhohan38
 
@@ -155190,7 +155203,7 @@ lineofbahadurhan108 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan98
 	mother = lineofrakhohan38
 
@@ -155224,7 +155237,7 @@ lineofbahadurhan109 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan104
 	mother = lineofgorazehan209
 
@@ -155258,7 +155271,7 @@ lineofbahadurhan110 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan104
 	mother = lineofgorazehan209
 
@@ -155292,7 +155305,7 @@ lineofbahadurhan111 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan104
 	mother = lineofgorazehan209
 
@@ -155329,7 +155342,7 @@ lineofbahadurhan112 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan104
 	mother = lineofgorazehan209
 
@@ -155367,7 +155380,7 @@ lineofbahadurhan113 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	mother = lineofbahadurhan102
 
 	sexuality = heterosexual
@@ -155402,7 +155415,7 @@ lineofbahadurhan114 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan109
 
 	sexuality = heterosexual
@@ -155440,7 +155453,7 @@ lineofbahadurhan115 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan111
 	mother = lineofrakhohan62
 
@@ -155469,7 +155482,7 @@ lineofbahadurhan116 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan111
 	mother = lineofrakhohan62
 
@@ -155506,7 +155519,7 @@ lineofbahadurhan117 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan114
 	mother = lineofrakhohan72
 
@@ -155537,7 +155550,7 @@ lineofbahadurhan118 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan114
 	mother = lineofrakhohan72
 
@@ -155572,7 +155585,7 @@ lineofbahadurhan119 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan114
 	mother = lineofrakhohan72
 
@@ -155606,7 +155619,7 @@ lineofbahadurhan120 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan116
 	mother = lineofporgavan51
 
@@ -155643,7 +155656,7 @@ lineofbahadurhan121 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan116
 	mother = lineofporgavan51
 
@@ -155673,7 +155686,7 @@ lineofbahadurhan122 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan116
 	mother = lineofporgavan51
 
@@ -155708,7 +155721,7 @@ lineofbahadurhan123 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan116
 	mother = lineofporgavan51
 
@@ -155745,7 +155758,7 @@ lineofbahadurhan124 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan120
 	mother = lineofdelawarhan139
 
@@ -155774,7 +155787,7 @@ lineofbahadurhan125 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan123
 	mother = lineofaspantamana134
 
@@ -155804,7 +155817,7 @@ lineofbahadurhan126 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_bahadurhan
+	dynasty_house = house_bahadurhan
 	father = lineofbahadurhan123
 	mother = lineofaspantamana134
 
@@ -158471,7 +158484,7 @@ lineofdaneshvarhan1 = {
 
 	sexuality = heterosexual
 
-	trait = curious
+    trait = education_intrigue_2
 	6692.06.06 = {
 	    birth = yes
 	}
@@ -162965,6 +162978,7 @@ lineofdelawarhan1 = {
 	sexuality = heterosexual
 
 	trait = curious
+    trait = education_martial_3
 	6667.07.10 = {
 	    birth = yes
 	}
@@ -188747,7 +188761,7 @@ lineofgushtahemez19 = {
 	}
 }
 
-lineofgushtahemez21 = {
+lineofgushtahemez21 = { # Potential Governor
 	name = Fardad
 	culture = khyan
 	religion = faith_arienism
@@ -197839,7 +197853,7 @@ lineofhoshedarmah71 = {
 	6652.10.15 = {
 	    birth = yes
 	}
-	6668.10.15 = {  
+	6668.10.15 = {
 	    trait = gluttonous
 	    trait = stubborn
 	    trait = lustful
@@ -223211,7 +223225,7 @@ lineofkamranahan75 = {
 	    trait = patient
 	}
 	6730.10.19 = {  # Died at age 30
-	    death = { death_reason = death_drinking_passive }
+	    death = { death_reason = death_battle }
 	}
 }
 
@@ -223279,8 +223293,8 @@ lineofkamranahan77 = {
 	6743.04.22 = {  # Married at age 34
 	    add_spouse = lineofkamranahan91
 	}
-	6767.11.19 = {  # Died at age 59
-	    death = { death_reason = death_drinking_passive }
+	6782.10.2 = {  # Died in the Aldhrad coup
+	    death = { death_reason = death_battle }
 	}
 }
 
@@ -257323,6 +257337,8 @@ lineofnevazarhan1 = {
 	sexuality = heterosexual
 
 	trait = charming
+    trait = education_diplomacy_3
+    
 	6670.03.27 = {
 	    birth = yes
 	}
