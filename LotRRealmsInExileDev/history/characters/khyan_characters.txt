@@ -5541,7 +5541,7 @@ lineoftirdahan1 = { # Second son of Datuvahya IV, who rose to high status within
 		birth = yes		
 	}
 
-	6936.9.11 = { 		
+	6931.9.11 = { 		
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -7393,7 +7393,7 @@ lineofvasnan42 = {
     learning = 4
     prowess = 5
 
-    trait = education_stewardship_1
+    trait = education_intrigue_5 # Hendrix said to
 
     6990.10.16 = {
         birth = yes
@@ -136139,7 +136139,7 @@ lineofaspantamana35 = {
 	6831.10.22 = {  # Married at age 18
 	    add_spouse = lineofizadyar153
 	}
-	6846.05.10 = {  # Died at age 32
+	6836.05.10 = {  # Dies in the invasion of Harshandatt
 	    death = { death_reason = death_battle }
 	}
 }
@@ -136555,6 +136555,7 @@ lineofaspantamana47 = {
 	trait = education_martial_4
 
 	trait = rowdy
+    trait = loyal
 	6906.08.21 = {
 	    birth = yes
 	}
@@ -136566,7 +136567,7 @@ lineofaspantamana47 = {
 	6936.03.21 = {  # Married at age 29
 	    add_spouse = lineofaspantamana56
 	}
-	6966.11.09 = {  # Died at age 60
+	6966.11.09 = {  # Died in a failed revolt
 	    death = { death_reason = death_battle }
 	}
 }
@@ -141694,8 +141695,8 @@ lineofaurvataspa53 = {
 	6922.03.12 = {  # Married at age 23
 	    add_spouse = lineofgushtahemez118
 	}
-	6978.05.23 = {  # Died at age 80
-	    death = { death_reason = death_natural_causes }
+	6941.12.6 = {  # Died in local revolt
+	    death = { death_reason = death_torn_to_pieces_by_mob }
 	}
 }
 
@@ -144087,7 +144088,7 @@ lineofvispanfria158 = {
 ################
 
 lineofazadafroz1 = {
-	name = Adarfiroz
+	name = Azadafroz
 	culture = bulchyadean
 	religion = faith_arienism
 
@@ -144096,6 +144097,7 @@ lineofazadafroz1 = {
 	sexuality = heterosexual
 
 	trait = curious
+    trait = education_martial_4
 	6943.03.11 = {
 	    birth = yes
 	}
@@ -153916,7 +153918,7 @@ lineofbahadurhan72 = {
 	6954.02.22 = {  # Married at age 27
 	    add_spouse = lineofbahadurhan76
 	}
-	7021.03.02 = {  # Died at age 94
+	70.03.02 = {  # Died at age 94
 	    death = { death_reason = death_natural_causes }
 	}
 }
@@ -154123,8 +154125,8 @@ lineofbahadurhan78 = {
 	6982.11.24 = {  # Married at age 19
 	    add_spouse = lineofnarimanez30
 	}
-	7029.09.19 = {  # Died at age 65
-	    death = { death_reason = death_natural_causes }
+	6993.1.19 = {  # Murdered
+	    death = { death_reason = death_murder killer = lineofazadafroz3 }
 	}
 }
 
@@ -168049,6 +168051,7 @@ lineofdelsuzan1 = {
 	sexuality = heterosexual
 
 	trait = charming
+    trait = education_diplomacy_4
 	6906.12.19 = {
 	    birth = yes
 	}
