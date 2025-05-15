@@ -168993,6 +168993,7 @@ lineofemetez1 = {
 	sexuality = heterosexual
 
 	trait = curious
+    trait = education_learning_2
 	6820.05.13 = {
 	    birth = yes
 	}
@@ -169211,7 +169212,7 @@ lineofemetez7 = {
 	    add_spouse = lineofaurvataspa33
 	}
 	6903.08.22 = {  # Died at age 58
-	    death = { death_reason = death_dungeon_passive }
+	    death = { death_reason = death_physique_bad_1 }
 	}
 }
 
@@ -170361,8 +170362,8 @@ lineofemetez40 = {
 	6981.02.07 = {  # Married at age 38
 	    add_spouse = lineofemetez48
 	}
-	7013.08.21 = {  # Died at age 71
-	    death = { death_reason = death_natural_causes }
+	6933.4.26 = {  # Died in Tirdahan coup
+	    death = { death_reason = death_battle }
 	}
 }
 
