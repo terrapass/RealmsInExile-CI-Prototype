@@ -28408,7 +28408,7 @@ lineofdastanahan23 = {
 	}
 	5144.04.01 = {  
 	    trait = calm
-	    trait = eccentric
+	    trait = brave
 	    trait = fickle
 	}
 	5179.07.07 = {  # Married at age 51
@@ -37038,7 +37038,7 @@ lineofganagahan24 = {
 	5048.04.24 = {  
 	    trait = fickle
 	    trait = temperate
-	    trait = eccentric
+	    trait = content
 	}
 	5114.11.05 = {  # Died at age 82
 	    death = { death_reason = death_natural_causes }
@@ -41493,7 +41493,7 @@ lineofhaydahan17 = {
 	}
 	5024.07.21 = {  
 	    trait = stubborn
-	    trait = eccentric
+	    trait = humble
 	    trait = lustful
 	}
 	5025.10.24 = {  # Married at age 17
@@ -42215,7 +42215,7 @@ lineofhaydahan38 = {
 	    birth = yes
 	}
 	5091.08.07 = {  
-	    trait = eccentric
+	    trait = ´craven
 	    trait = greedy
 	    trait = fickle
 	}
@@ -48044,7 +48044,7 @@ lineofishvathan16 = {
 	}
 	5007.11.26 = {  
 	    trait = gluttonous
-	    trait = stubborn
+	    trait = generous
 	    trait = eccentric
 	}
 	5049.04.15 = {  # Married at age 57
@@ -97837,7 +97837,7 @@ lineoframzeket50 = {
 	5147.01.27 = {  
 	    trait = paranoid
 	    trait = wrathful
-	    trait = eccentric
+	    trait = greedy
 	}
 	5170.05.21 = {  # Married at age 39
 	    add_spouse = lineoframzeket63
@@ -98340,7 +98340,7 @@ lineoframzeket63 = {
 	}
 	5163.02.17 = {  
 	    trait = arrogant
-	    trait = eccentric
+	    trait = brave
 	    trait = stubborn
 	}
 	5214.01.20 = {  # Died at age 66
@@ -174383,7 +174383,6 @@ lineofferozgarhan22 = {
 
 	trait = education_martial_2
 	trait = physique_good_1
-	trait = spindly
 
 	trait = rowdy
 	6514.07.02 = {
@@ -180725,7 +180724,6 @@ lineofgorazehan28 = {
 
 	trait = education_martial_2
 	trait = physique_good_1
-	trait = spindly
 
 	trait = curious
 	6480.03.09 = {
