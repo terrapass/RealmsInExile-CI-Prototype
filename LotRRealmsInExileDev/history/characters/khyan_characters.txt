@@ -28408,7 +28408,7 @@ lineofdastanahan23 = {
 	}
 	5144.04.01 = {  
 	    trait = calm
-	    trait = eccentric
+	    trait = brave
 	    trait = fickle
 	}
 	5179.07.07 = {  # Married at age 51
@@ -37038,7 +37038,7 @@ lineofganagahan24 = {
 	5048.04.24 = {  
 	    trait = fickle
 	    trait = temperate
-	    trait = eccentric
+	    trait = content
 	}
 	5114.11.05 = {  # Died at age 82
 	    death = { death_reason = death_natural_causes }
@@ -41493,7 +41493,7 @@ lineofhaydahan17 = {
 	}
 	5024.07.21 = {  
 	    trait = stubborn
-	    trait = eccentric
+	    trait = humble
 	    trait = lustful
 	}
 	5025.10.24 = {  # Married at age 17
@@ -42215,7 +42215,7 @@ lineofhaydahan38 = {
 	    birth = yes
 	}
 	5091.08.07 = {  
-	    trait = eccentric
+	    trait = ´craven
 	    trait = greedy
 	    trait = fickle
 	}
@@ -48044,7 +48044,7 @@ lineofishvathan16 = {
 	}
 	5007.11.26 = {  
 	    trait = gluttonous
-	    trait = stubborn
+	    trait = generous
 	    trait = eccentric
 	}
 	5049.04.15 = {  # Married at age 57
@@ -97837,7 +97837,7 @@ lineoframzeket50 = {
 	5147.01.27 = {  
 	    trait = paranoid
 	    trait = wrathful
-	    trait = eccentric
+	    trait = greedy
 	}
 	5170.05.21 = {  # Married at age 39
 	    add_spouse = lineoframzeket63
@@ -98340,7 +98340,7 @@ lineoframzeket63 = {
 	}
 	5163.02.17 = {  
 	    trait = arrogant
-	    trait = eccentric
+	    trait = brave
 	    trait = stubborn
 	}
 	5214.01.20 = {  # Died at age 66
@@ -147215,7 +147215,7 @@ lineofbahadurez24 = {
 	6763.07.05 = {  
 	    trait = eccentric
 	    trait = lustful
-	    trait = fickle
+	    trait = just
 	}
 	6771.06.03 = {  # Married at age 23
 	    add_spouse = lineofizadyar113
@@ -156852,7 +156852,7 @@ lineofbundarhan28 = {
 	}
 	6448.12.19 = {  
 	    trait = eccentric
-	    trait = stubborn
+	    trait = gregarious
 	    trait = cynical
 	}
 	6452.09.16 = {  # Married at age 19
@@ -168993,6 +168993,7 @@ lineofemetez1 = {
 	sexuality = heterosexual
 
 	trait = curious
+    trait = education_learning_2
 	6820.05.13 = {
 	    birth = yes
 	}
@@ -169211,7 +169212,7 @@ lineofemetez7 = {
 	    add_spouse = lineofaurvataspa33
 	}
 	6903.08.22 = {  # Died at age 58
-	    death = { death_reason = death_dungeon_passive }
+	    death = { death_reason = death_physique_bad_1 }
 	}
 }
 
@@ -170361,8 +170362,8 @@ lineofemetez40 = {
 	6981.02.07 = {  # Married at age 38
 	    add_spouse = lineofemetez48
 	}
-	7013.08.21 = {  # Died at age 71
-	    death = { death_reason = death_natural_causes }
+	6933.4.26 = {  # Died in Tirdahan coup
+	    death = { death_reason = death_battle }
 	}
 }
 
@@ -174382,7 +174383,6 @@ lineofferozgarhan22 = {
 
 	trait = education_martial_2
 	trait = physique_good_1
-	trait = spindly
 
 	trait = rowdy
 	6514.07.02 = {
@@ -176338,7 +176338,7 @@ lineofferozgarhan74 = {
 	}
 	6727.03.12 = {  
 	    trait = eccentric
-	    trait = stubborn
+	    trait = zealous
 	    trait = deceitful
 	}
 	6749.03.15 = {  # Married at age 38
@@ -176472,7 +176472,7 @@ lineofferozgarhan78 = {
 	}
 	6751.02.20 = {  
 	    trait = forgiving
-	    trait = fickle
+	    trait = calm
 	    trait = eccentric
 	}
 	6755.03.04 = {  # Married at age 20
@@ -180691,7 +180691,7 @@ lineofgorazehan27 = {
 	    birth = yes
 	}
 	6494.05.13 = {  
-	    trait = stubborn
+	    trait = temperate
 	    trait = eccentric
 	    trait = impatient
 	}
@@ -180724,7 +180724,6 @@ lineofgorazehan28 = {
 
 	trait = education_martial_2
 	trait = physique_good_1
-	trait = spindly
 
 	trait = curious
 	6480.03.09 = {
@@ -190684,7 +190683,7 @@ lineofgushtahemez73 = {
 	6695.04.23 = {  
 	    trait = eccentric
 	    trait = trusting
-	    trait = fickle
+	    trait = ambitious
 	}
 	6699.04.14 = {  # Married at age 19
 	    add_spouse = lineofkhubechehran88
@@ -196452,7 +196451,7 @@ lineofhoshedarmah35 = {
 	    birth = yes
 	}
 	6474.09.02 = {  
-	    trait = eccentric
+	    trait = cynical
 	    trait = fickle
 	    trait = callous
 	}
@@ -212102,7 +212101,7 @@ lineofizadyar93 = {
 	    birth = yes
 	}
 	6700.02.05 = {  
-	    trait = eccentric
+	    trait = chaste
 	    trait = stubborn
 	    trait = gregarious
 	}
@@ -212349,7 +212348,7 @@ lineofizadyar100 = {
 	    birth = yes
 	}
 	6730.12.16 = {  
-	    trait = eccentric
+	    trait = vengeful
 	    trait = fickle
 	    trait = arrogant
 	}
@@ -232454,7 +232453,7 @@ lineofkhubechehran9 = {
 	}
 	6435.08.13 = {  
 	    trait = stubborn
-	    trait = eccentric
+	    trait = forgiving
 	    trait = ambitious
 	}
 	6436.05.15 = {  # Married at age 16
@@ -257962,7 +257961,7 @@ lineofnevazarhan17 = {
 	}
 	6763.01.17 = {  
 	    trait = stubborn
-	    trait = eccentric
+	    trait = sadistic
 	    trait = wrathful
 	}
 	6800.03.04 = {  # Married at age 53
@@ -294613,7 +294612,7 @@ lineofurvatatnara11 = {
 	    birth = yes
 	}
 	6748.09.18 = {  
-	    trait = eccentric
+	    trait = honest
 	    trait = brave
 	    trait = fickle
 	}
@@ -313051,7 +313050,7 @@ lineofadarfiruzen14 = {
 	6187.06.19 = {  
 	    trait = eccentric
 	    trait = paranoid
-	    trait = stubborn
+	    trait = chaste
 	}
 	6204.07.01 = {  # Married at age 33
 	    add_spouse = lineofadarfiruzen18
@@ -314582,7 +314581,7 @@ lineofadarfiruzen55 = {
 	    birth = yes
 	}
 	6351.09.11 = {  
-	    trait = stubborn
+	    trait = sadistic
 	    trait = brave
 	    trait = eccentric
 	}
@@ -314997,7 +314996,7 @@ lineofadarfiruzen66 = {
 	    birth = yes
 	}
 	6404.03.03 = {  
-	    trait = eccentric
+	    trait = craven
 	    trait = fickle
 	    trait = lustful
 	}
@@ -327545,7 +327544,7 @@ lineofcaramadran47 = {
 	}
 	6420.11.02 = {  
 	    trait = fickle
-	    trait = eccentric
+	    trait = wrathful
 	    trait = vengeful
 	}
 	6435.05.09 = {  # Married at age 30
@@ -344661,7 +344660,7 @@ lineofjamo42 = {
 	    birth = yes
 	}
 	6479.11.17 = {  
-	    trait = eccentric
+	    trait = arrogant
 	    trait = patient
 	    trait = stubborn
 	}
@@ -347973,7 +347972,7 @@ lineofkerhamez86 = {
 	}
 	6746.01.12 = {  
 	    trait = stubborn
-	    trait = eccentric
+	    trait = vengeful
 	    trait = zealous
 	}
 	6816.12.24 = {  # Died at age 86
@@ -352168,7 +352167,7 @@ lineoflamarzen52 = {
 	    birth = yes
 	}
 	6472.07.10 = {  
-	    trait = eccentric
+	    trait = deceitful
 	    trait = fickle
 	    trait = craven
 	}
@@ -352381,7 +352380,7 @@ lineoflamarzen59 = {
 	    birth = yes
 	}
 	6503.04.26 = {  
-	    trait = stubborn
+	    trait = gluttonous
 	    trait = arrogant
 	    trait = eccentric
 	}
@@ -354043,7 +354042,7 @@ lineofmentarez24 = {
 	}
 	6333.11.27 = {  
 	    trait = ambitious
-	    trait = eccentric
+	    trait = gluttonous
 	    trait = fickle
 	}
 	6353.01.10 = {  # Died at age 35
@@ -355049,7 +355048,7 @@ lineofmentarez54 = {
 	}
 	6414.09.07 = {  
 	    trait = fickle
-	    trait = eccentric
+	    trait = honest
 	    trait = zealous
 	}
 	6480.08.03 = {  # Died at age 81
@@ -371918,7 +371917,7 @@ lineoftarimez36 = {
 	    birth = yes
 	}
 	6593.05.26 = {  
-	    trait = eccentric
+	    trait = gluttonous
 	    trait = greedy
 	    trait = fickle
 	}
