@@ -4735,8 +4735,8 @@ lineofphaxsharan12 = {
         birth = yes
     }
     6524.11.1 = { # blinded and castrated at the failure of the revolt
-        trait = eunuch
-        trait = blinded
+        trait = eunuch_1
+        trait = blind
     }
     6551.4.1 = {
         death = {
@@ -42215,7 +42215,7 @@ lineofhaydahan38 = {
 	    birth = yes
 	}
 	5091.08.07 = {  
-	    trait = ´craven
+	    trait = craven
 	    trait = greedy
 	    trait = fickle
 	}
