@@ -136567,7 +136567,7 @@ lineofaspantamana47 = {
 	6936.03.21 = {  # Married at age 29
 	    add_spouse = lineofaspantamana56
 	}
-	6966.11.09 = {  # Died in a failed revolt
+	6946.11.09 = {  # Died in a failed revolt
 	    death = { death_reason = death_battle }
 	}
 }
@@ -152581,9 +152581,6 @@ lineofbahadurhan33 = {
 	    trait = patient
 	    trait = chaste
 	}
-	6828.05.07 = {  # Married at age 30
-	    add_spouse = lineofgorazehan132
-	}
 	6865.03.23 = {  # Died at age 67
 	    death = { death_reason = death_natural_causes }
 	}
@@ -155848,27 +155845,32 @@ lineofgorazehan132 = {
 	culture = khyan
 	religion = faith_arienism
 
+	dynasty = dynasty_izadyar
+	father = lineofizadyar117
+	mother = lineofizadyar134
+
 	sexuality = heterosexual
 
-	diplomacy = 5
+	diplomacy = 4
 	martial = 4
-	stewardship = 9
+	stewardship = 4
 	intrigue = 6
-	learning = 7
-	prowess = 5
+	learning = 4
+	prowess = 6
 
-	trait = education_martial_3
+	trait = education_diplomacy_3
 
 	trait = charming
-	6795.09.07 = {
+    trait = twin
+	6795.10.20 = {
 	    birth = yes
 	}
-	6811.09.07 = {  
-	    trait = gluttonous
-	    trait = humble
-	    trait = lazy
+	6811.10.20 = {  
+	    trait = chaste
+	    trait = deceitful
+	    trait = ambitious
 	}
-	6876.07.01 = {  # Died at age 80
+	6889.11.18 = {  # Died at age 94
 	    death = { death_reason = death_natural_causes }
 	}
 }
@@ -170677,7 +170679,7 @@ lineofemetez52 = {
 	}
 }
 
-lineofemetez53 = {
+lineofemetez53 = { # Add intro event
 	name = Nawazish
 	culture = bulchyadean
 	religion = faith_arienism
@@ -180878,9 +180880,9 @@ lineofgorazehan32 = {
 	6518.05.11 = {  # Married at age 22
 	    add_spouse = lineofizadyar35
 	}
-	6578.01.05 = {  # Died at age 82
-	    death = { death_reason = death_natural_causes }
-	}
+	6556.5.17 = { # Gorazehan rebellion fails
+        death = { death_reason = death_execution }
+    }
 }
 
 lineofgorazehan33 = {
@@ -180915,9 +180917,9 @@ lineofgorazehan33 = {
 	6545.01.08 = {  # Married at age 46
 	    add_spouse = lineofgorazehan51
 	}
-	6583.07.24 = {  # Died at age 85
-	    death = { death_reason = death_natural_causes }
-	}
+	6550.10.7 = { # Died in gorazehan rebellion 
+        death = { death_reason = death_battle }
+    }
 }
 
 lineofgorazehan34 = {
@@ -181040,12 +181042,9 @@ lineofgorazehan37 = {
 	    trait = eccentric
 	    trait = forgiving
 	}
-	6576.10.23 = {  # Married at age 68
-	    add_spouse = lineofhoshedarmah42
-	}
-	6586.01.25 = {  # Died at age 77
-	    death = { death_reason = death_natural_causes }
-	}
+	6552.1.20 = { # Murdered durring gorazehan rebellion
+        death = { death_reason = death_assassination }
+    }
 }
 
 lineofgorazehan38 = {
@@ -181181,8 +181180,8 @@ lineofgorazehan41 = {
 	6543.02.15 = {  # Married at age 31
 	    add_spouse = lineofgorazehan50
 	}
-	6590.09.24 = {  # Died at age 78
-	    death = { death_reason = death_natural_causes }
+	6550.09.24 = {  # Died in Gorzehan Rebellion
+	    death = { death_reason = death_battle }
 	}
 }
 
@@ -181219,8 +181218,8 @@ lineofgorazehan42 = {
 	6594.10.22 = {  # Married at age 80
 	    add_spouse = lineofizadyar52
 	}
-	6599.02.11 = {  # Died at age 84
-	    death = { death_reason = death_natural_causes }
+	6549.12.11 = {  # Died in Gorazehan Rebellion
+	    death = { death_reason = death_battle }
 	}
 }
 
@@ -181256,9 +181255,9 @@ lineofgorazehan43 = {
 	6551.09.08 = {  # Married at age 35
 	    add_spouse = lineofgorazehan54
 	}
-	6598.03.07 = {  # Died at age 81
-	    death = { death_reason = death_natural_causes }
-	}
+	6556.5.17 = { # gorazehan rebellion fails
+        death = { death_reason = death_execution }
+    }
 }
 
 lineofgorazehan44 = {
@@ -181293,9 +181292,9 @@ lineofgorazehan44 = {
 	6546.09.20 = {  # Married at age 29
 	    add_spouse = lineofgorazehan52
 	}
-	6597.01.12 = {  # Died at age 80
-	    death = { death_reason = death_natural_causes }
-	}
+	6555.04.07 = { # gorazehan rebellion fails
+        death = { death_reason = death_wounds }
+    }
 }
 
 lineofgorazehan45 = {
@@ -181395,8 +181394,8 @@ lineofgorazehan46 = {
 	6556.07.22 = {  # Married at age 26
 	    add_spouse = lineofhoshedarmah47
 	}
-	6597.09.17 = {  # Died at age 67
-	    death = { death_reason = death_natural_causes }
+	6575.5.17 = {  # Murdered in exile in Rhun
+	    death = { death_reason = death_murder }
 	}
 }
 
@@ -181656,9 +181655,9 @@ lineofgorazehan53 = {
 	6548.09.25 = {
 	    birth = yes
 	}
-	6549.12.13 = {  # Died at age 1
-	    death = { death_reason = death_ill }
-	}
+	6556.5.17 = { # gorazehan rebellion fails
+        death = { death_reason = death_execution }
+    }
 }
 
 lineofgorazehan54 = {
@@ -181715,9 +181714,9 @@ lineofgorazehan55 = {
 	6554.05.10 = {
 	    birth = yes
 	}
-	6556.10.11 = {  # Died at age 2
-	    death = { death_reason = death_ill }
-	}
+	6556.5.17 = { # gorazehan rebellion fails
+        death = { death_reason = death_torture }
+    }
 }
 
 lineofgorazehan56 = {
@@ -184079,7 +184078,7 @@ lineofgorazehan120 = {
 	}
 }
 
-lineofgorazehan121 = {
+lineofgorazehan121 = { # Paves the way for the Gorazehan to return from exile, but dies before he sees sucess in a return to a governorship
 	name = Adarbad
 	culture = khyan
 	religion = faith_arienism
@@ -184469,7 +184468,7 @@ lineofgorazehan131 = {
 	}
 }
 
-lineofgorazehan134 = {
+lineofgorazehan134 = { # First Gorazehan goverenor after rebellion
 	name = Urvakhsha
 	culture = khyan
 	religion = faith_arienism
@@ -184487,7 +184486,7 @@ lineofgorazehan134 = {
 	learning = 4
 	prowess = 1
 
-	trait = education_diplomacy_2
+	trait = education_diplomacy_4
 
 	trait = charming
 	6819.01.09 = {
@@ -184496,7 +184495,7 @@ lineofgorazehan134 = {
 	6835.01.09 = {  
 	    trait = honest
 	    trait = lustful
-	    trait = gluttonous
+	    trait = ambitious
 	}
 	6841.02.19 = {  # Married at age 22
 	    add_spouse = lineofurvatatnara23
@@ -184909,7 +184908,7 @@ lineofgorazehan146 = {
 	learning = 5
 	prowess = 4
 
-	trait = education_martial_2
+	trait = education_martial_3
 
 	trait = bossy
 	6879.10.17 = {
@@ -184923,7 +184922,7 @@ lineofgorazehan146 = {
 	6902.04.01 = {  # Married at age 22
 	    add_spouse = lineofaspantamana42
 	}
-	6943.10.17 = {  # Died at age 64
+	6943.05.17 = {  # Died fighting against revolts in Chey Sart
 	    death = { death_reason = death_battle }
 	}
 }
@@ -185072,7 +185071,7 @@ lineofgorazehan150 = {
 	}
 }
 
-lineofgorazehan151 = {
+lineofgorazehan151 = { # Sole surviving son of his generation, he was granted a position in Khy for his family's sacrifices
 	name = Adarbad
 	culture = khyan
 	religion = faith_arienism
@@ -185090,7 +185089,7 @@ lineofgorazehan151 = {
 	learning = 1
 	prowess = 3
 
-	trait = education_diplomacy_3
+	trait = education_diplomacy_4
 	trait = intellect_good_1
 
 	trait = charming
@@ -185211,7 +185210,7 @@ lineofgorazehan153 = {
 	6933.05.15 = {  # Married at age 28
 	    add_spouse = lineofgorazehan159
 	}
-	6960.11.04 = {  # Died at age 55
+	6940.11.04 = {  # Killed by Anarikean seperatists
 	    death = { death_reason = death_attacked }
 	}
 }
@@ -185245,7 +185244,7 @@ lineofgorazehan154 = {
 	    trait = forgiving
 	    trait = diligent
 	}
-	6967.05.28 = {  # Died at age 54
+	6942.05.28 = {  # Died fighting minor revolts in southern Anarike
 	    death = { death_reason = death_battle }
 	}
 }
@@ -185602,7 +185601,7 @@ lineofgorazehan165 = {
 	    trait = generous
 	    trait = lustful
 	}
-	6972.10.11 = {  # Died at age 34
+	6972.10.11 = {  # Killed by more Anarikean seperatists
 	    death = { death_reason = death_accident }
 	}
 }
@@ -199274,9 +199273,6 @@ lineofhoshedarmah108 = {
 	}
 	6879.04.07 = {  # Died at age 75
 	    death = { death_reason = death_natural_causes }
-	}
-	6879.05.20 = {  # Married at age 75
-	    add_spouse = lineofizadyar139
 	}
 }
 
@@ -213740,6 +213736,7 @@ lineofizadyar139 = {
 	trait = education_intrigue_2
 
 	trait = charming
+    trait = twin # lineofgorazehan132
 	6795.10.20 = {
 	    birth = yes
 	}
