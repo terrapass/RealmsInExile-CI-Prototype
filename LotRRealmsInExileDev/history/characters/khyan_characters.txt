@@ -19458,9 +19458,6 @@ lineofarshishan108 = {
 	5700.01.19 = {  # Died at age 65
 	    death = { death_reason = death_natural_causes }
 	}
-	5700.08.22 = {  # Married at age 65
-	    add_spouse = lineofkhushnawazan103
-	}
 }
 
 lineofarshishan109 = {
@@ -23155,7 +23152,7 @@ lineofarvanhahan85 = {
 	    birth = yes
 	}
 	5639.03.19 = {  
-	    trait = eccentric
+	    trait = generous
 	    trait = temperate
 	    trait = fickle
 	}
@@ -23688,17 +23685,8 @@ lineofarvanhahan99 = {
 	5685.06.27 = {  # Married at age 24
 	    add_spouse = lineofvasnahan42
 	}
-	5700.02.04 = {  # Married at age 39
-	    add_spouse = lineofkersasphan120
-	}
 	5700.02.17 = {  # Died at age 39
 	    death = { death_reason = death_murder }
-	}
-	5700.06.27 = {  # Married at age 39
-	    add_spouse = lineofmahburzinihan78
-	}
-	5700.07.24 = {  # Married at age 39
-	    add_spouse = lineofkhurshchehra138
 	}
 }
 
@@ -24330,7 +24318,7 @@ lineofdarayavahan5 = {
 	}
 	5339.08.16 = {  
 	    trait = callous
-	    trait = stubborn
+	    trait = arrogant
 	    trait = eccentric
 	}
 	5413.11.28 = {  # Died at age 90
@@ -27427,7 +27415,7 @@ lineofdarayavahu85 = {
 	5356.04.19 = {  
 	    trait = fickle
 	    trait = zealous
-	    trait = eccentric
+	    trait = gregarious
 	}
 	5357.04.16 = {  # Married at age 16
 	    add_spouse = lineofdastanahan80
@@ -30290,7 +30278,7 @@ lineofdastanahan76 = {
 	}
 	5342.11.09 = {  
 	    trait = fickle
-	    trait = eccentric
+	    trait = arbitrary
 	    trait = content
 	}
 	5414.03.25 = {  # Died at age 87
@@ -30469,7 +30457,7 @@ lineofdastanahan80 = {
 	}
 	5354.04.09 = {  
 	    trait = wrathful
-	    trait = eccentric
+	    trait = impatient
 	    trait = stubborn
 	}
 	5431.09.21 = {  # Died at age 93
@@ -32228,7 +32216,7 @@ lineofdastanahan127 = {
 	5517.11.04 = {  
 	    trait = wrathful
 	    trait = fickle
-	    trait = eccentric
+	    trait = impatient
 	}
 	5578.07.06 = {  # Died at age 76
 	    death = { death_reason = death_natural_causes }
@@ -35686,7 +35674,7 @@ lineofdinpanahan73 = {
 	5494.04.18 = {  
 	    trait = zealous
 	    trait = stubborn
-	    trait = eccentric
+	    trait = just
 	}
 	5569.01.13 = {  # Died at age 90
 	    death = { death_reason = death_natural_causes }
@@ -43577,7 +43565,7 @@ lineofhaydahan76 = {
 	5234.07.02 = {  
 	    trait = fickle
 	    trait = paranoid
-	    trait = eccentric
+	    trait = callous
 	}
 	5308.08.09 = {  # Died at age 90
 	    death = { death_reason = death_natural_causes }
@@ -44347,7 +44335,7 @@ lineofhaydahan97 = {
 	    birth = yes
 	}
 	5326.09.19 = {  
-	    trait = stubborn
+	    trait = calm
 	    trait = eccentric
 	    trait = lustful
 	}
@@ -44846,7 +44834,7 @@ lineofhaydahan112 = {
 	}
 	5459.06.28 = {  
 	    trait = eccentric
-	    trait = stubborn
+	    trait = sadistic
 	    trait = callous
 	}
 	5462.09.05 = {  # Married at age 19
@@ -45370,7 +45358,7 @@ lineofhaydahan127 = {
 	    birth = yes
 	}
 	5544.11.09 = {  
-	    trait = fickle
+	    trait = just
 	    trait = eccentric
 	    trait = deceitful
 	}
@@ -50412,7 +50400,7 @@ lineofishvathan81 = {
 	}
 	5203.09.09 = {  
 	    trait = eccentric
-	    trait = stubborn
+	    trait = gregagrious
 	    trait = compassionate
 	}
 	5276.06.02 = {  # Died at age 88
@@ -51981,7 +51969,7 @@ lineofishvathan127 = {
 	}
 	5393.07.22 = {  
 	    trait = craven
-	    trait = fickle
+	    trait = cynical
 	    trait = eccentric
 	}
 	5422.02.05 = {  # Married at age 44
@@ -53973,7 +53961,7 @@ lineofjahangir7 = {
 	    birth = yes
 	}
 	5298.03.25 = {  
-	    trait = eccentric
+	    trait = callous
 	    trait = stubborn
 	    trait = deceitful
 	}
@@ -56310,9 +56298,6 @@ lineofjahangir71 = {
 	5616.02.16 = {  # Died at age 79
 	    death = { death_reason = death_natural_causes }
 	}
-	5616.12.07 = {  # Married at age 80
-	    add_spouse = lineofishvathan165
-	}
 }
 
 lineofjahangir72 = {
@@ -58253,12 +58238,6 @@ lineofjahangir129 = {
 	}
 	5700.06.17 = {  # Died at age 19
 	    death = { death_reason = death_ill }
-	}
-	5700.09.01 = {  # Married at age 19
-	    add_spouse = lineofmahburzinihan78
-	}
-	5700.10.25 = {  # Married at age 19
-	    add_spouse = lineofkersasphan128
 	}
 }
 
@@ -60456,7 +60435,7 @@ lineofjangihan58 = {
 	5381.04.27 = {  
 	    trait = callous
 	    trait = stubborn
-	    trait = eccentric
+	    trait = cynical
 	}
 	5401.08.05 = {  # Married at age 36
 	    add_spouse = lineofjangihan65
@@ -65841,9 +65820,6 @@ lineofkamdelehan69 = {
 	5599.02.11 = {  # Died at age 88
 	    death = { death_reason = death_natural_causes }
 	}
-	5599.06.15 = {  # Married at age 88
-	    add_spouse = lineofvasnahan9
-	}
 }
 
 lineofkamdelehan70 = {
@@ -68228,7 +68204,7 @@ lineofkersasphan28 = {
 	5328.11.25 = {  
 	    trait = eccentric
 	    trait = wrathful
-	    trait = stubborn
+	    trait = impatient
 	}
 	5352.05.10 = {  # Married at age 39
 	    add_spouse = lineofkersasphan41
@@ -69432,7 +69408,7 @@ lineofkersasphan62 = {
 	    birth = yes
 	}
 	5446.01.17 = {  
-	    trait = fickle
+	    trait = cynical
 	    trait = arrogant
 	    trait = eccentric
 	}
@@ -71108,9 +71084,6 @@ lineofkersasphan110 = {
 	5700.04.06 = {  # Died at age 64
 	    death = { death_reason = death_attacked }
 	}
-	5700.07.21 = {  # Married at age 64
-	    add_spouse = lineofvardanisan31
-	}
 }
 
 lineofkersasphan111 = {
@@ -72266,7 +72239,7 @@ lineofkhurshchehra4 = {
 	5303.03.25 = {  
 	    trait = fickle
 	    trait = humble
-	    trait = eccentric
+	    trait = gregarious
 	}
 	5311.01.05 = {  # Married at age 23
 	    add_spouse = lineofkamdelehan9
@@ -73912,7 +73885,7 @@ lineofkhurshchehra57 = {
 	}
 	5405.07.06 = {  
 	    trait = callous
-	    trait = eccentric
+	    trait = cynical
 	    trait = fickle
 	}
 	5458.09.12 = {  # Died at age 69
@@ -77013,7 +76986,7 @@ lineofkhushnawazan9 = {
 	    birth = yes
 	}
 	5352.06.09 = {  
-	    trait = fickle
+	    trait = calm
 	    trait = eccentric
 	    trait = patient
 	}
@@ -91345,9 +91318,6 @@ lineofmujahan179 = {
 	5655.05.06 = {  # Died at age 77
 	    death = { death_reason = death_natural_causes }
 	}
-	5655.06.20 = {  # Married at age 77
-	    add_spouse = lineofzirakahan9
-	}
 }
 
 lineofmujahan180 = {
@@ -94091,7 +94061,7 @@ lineoframinshtan21 = {
 	}
 	5596.11.27 = {  
 	    trait = impatient
-	    trait = fickle
+	    trait = calm
 	    trait = eccentric
 	}
 	5623.02.05 = {  # Married at age 42
@@ -102809,7 +102779,7 @@ lineoframzeket192 = {
 	}
 	5605.04.20 = {  
 	    trait = stubborn
-	    trait = eccentric
+	    trait = lazy
 	    trait = wrathful
 	}
 	5653.11.04 = {  # Died at age 64
@@ -104345,7 +104315,7 @@ lineofsarafrazan12 = {
 	}
 	5525.08.15 = {  
 	    trait = eccentric
-	    trait = fickle
+	    trait = just
 	    trait = brave
 	}
 	5550.01.25 = {  # Married at age 40
@@ -104865,7 +104835,7 @@ lineofsarafrazan27 = {
 	    birth = yes
 	}
 	5570.08.24 = {  
-	    trait = eccentric
+	    trait = cynical
 	    trait = fickle
 	    trait = diligent
 	}
@@ -111743,7 +111713,7 @@ lineofvihinahan99 = {
 	}
 	5176.07.10 = {  
 	    trait = eccentric
-	    trait = fickle
+	    trait = temperate
 	    trait = calm
 	}
 	5233.12.27 = {  # Died at age 73
@@ -113598,9 +113568,6 @@ lineofvasnahan1 = {
 	5547.01.09 = {  # Died at age 89
 	    death = { death_reason = death_natural_causes }
 	}
-	5547.10.06 = {  # Married at age 90
-	    add_spouse = lineofkhurshchehra89
-	}
 }
 
 lineofvasnahan2 = {
@@ -115252,12 +115219,13 @@ lineofvasnahan46 = {
 	    trait = sadistic
 	    trait = arrogant
 	}
-	5700.03.23 = {  # Died at age 25
-	    death = { death_reason = death_cancer }
-	}
 	5700.05.19 = {  # Married at age 25
 	    add_spouse = lineoframinshtan72
 	}
+	5701.03.23 = {  # Died at age 26
+	    death = { death_reason = death_cancer }
+	}
+
 }
 
 lineofvasnahan47 = {
@@ -115611,7 +115579,7 @@ lineofkhurshchehra89 = {
 	5482.01.16 = {  
 	    trait = chaste
 	    trait = fickle
-	    trait = eccentric
+	    trait = calm
 	}
 	5547.03.22 = {  # Died at age 81
 	    death = { death_reason = death_natural_causes }
@@ -119124,7 +119092,7 @@ lineofvihinahan95 = {
 	5192.11.04 = {  
 	    trait = content
 	    trait = stubborn
-	    trait = eccentric
+	    trait = humble
 	}
 	5206.03.12 = {  # Married at age 29
 	    add_spouse = lineofanafritahan51
@@ -123643,7 +123611,7 @@ lineofvindafarnahan4 = {
 	}
 	5304.07.17 = {  
 	    trait = eccentric
-	    trait = fickle
+	    trait = cynical
 	    trait = lazy
 	}
 	5308.01.20 = {  # Married at age 19
@@ -131539,9 +131507,6 @@ lineofzirakahan33 = {
 	5700.04.06 = {  # Died at age 50
 	    death = { death_reason = death_cancer }
 	}
-	5700.09.02 = {  # Married at age 51
-	    add_spouse = lineofzirakzadehan62
-	}
 }
 
 lineofzirakahan34 = {
@@ -134106,7 +134071,7 @@ lineofzirakzadehan56 = {
 	5632.01.26 = {  
 	    trait = cynical
 	    trait = eccentric
-	    trait = fickle
+	    trait = calm
 	}
 	5646.09.12 = {  # Married at age 30
 	    add_spouse = lineofzirakzadehan68
@@ -134709,12 +134674,6 @@ lineofzirakzadehan72 = {
 	5700.02.24 = {  # Died at age 46
 	    death = { death_reason = death_ill }
 	}
-	5700.07.06 = {  # Married at age 47
-	    add_spouse = lineofzirakzadehan78
-	}
-	5700.10.16 = {  # Married at age 47
-	    add_spouse = lineofkhushnawazan118
-	}
 }
 
 lineofzirakzadehan74 = {
@@ -134748,9 +134707,6 @@ lineofzirakzadehan74 = {
 	}
 	5700.02.26 = {  # Died at age 32
 	    death = { death_reason = death_attacked }
-	}
-	5700.10.16 = {  # Married at age 33
-	    add_spouse = lineofzirakzadehan80
 	}
 }
 
@@ -134853,7 +134809,7 @@ lineofzirakzadehan77 = {
 	5669.11.25 = {  
 	    trait = lazy
 	    trait = eccentric
-	    trait = fickle
+	    trait = chaste
 	}
 	5700.02.26 = {  # Died at age 46
 	    death = { death_reason = death_ill }
@@ -147595,7 +147551,7 @@ lineofbahadurez33 = {
 	}
 	6799.07.06 = {  
 	    trait = patient
-	    trait = eccentric
+	    trait = just
 	    trait = stubborn
 	}
 	6808.07.23 = {  # Married at age 25
@@ -149450,8 +149406,6 @@ lineofbahadurez87 = {
 	learning = 3
 	prowess = 4
 
-	trait = education_intrigue_4
-
 	trait = charming
 	7017.01.04 = {
 	    birth = yes
@@ -149460,6 +149414,7 @@ lineofbahadurez87 = {
 	    trait = humble
 	    trait = greedy
 	    trait = content
+		trait = education_intrigue_4
 	}
 	7050.05.01 = {  # Married at age 33
 	    add_spouse = lineofbahadurez103
@@ -153364,9 +153319,6 @@ lineofbahadurhan54 = {
 	}
 	6908.12.08 = {  # Married at age 47
 	    add_spouse = lineofhoshedarmah147
-	}
-	6924.01.03 = {  # Married at age 62
-	    add_spouse = lineofnevazarhan59
 	}
 	6945.01.19 = {  # Died at age 83
 	    death = { death_reason = death_natural_causes }
@@ -157895,7 +157847,7 @@ lineofbundarhan58 = {
 	    birth = yes
 	}
 	6607.04.06 = {  
-	    trait = fickle
+	    trait = just
 	    trait = wrathful
 	    trait = eccentric
 	}
@@ -168892,7 +168844,7 @@ lineofkaykhusru57 = {
 	name = Delbanu
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	sexuality = heterosexual
 
@@ -174789,7 +174741,7 @@ lineofferozgarhan31 = {
 	6609.11.26 = {  
 	    trait = stubborn
 	    trait = brave
-	    trait = eccentric
+	    trait = generous
 	}
 	6683.11.13 = {  # Died at age 89
 	    death = { death_reason = death_natural_causes }
@@ -182243,7 +182195,7 @@ lineofgorazehan70 = {
 	6628.03.15 = {  
 	    trait = arbitrary
 	    trait = fickle
-	    trait = eccentric
+	    trait = patient
 	}
 	6630.09.02 = {  # Married at age 18
 	    add_spouse = lineofizadyar82
@@ -196339,7 +196291,7 @@ lineofkaykhusru31 = {
 	name = Morvarid
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	sexuality = heterosexual
 
@@ -211109,7 +211061,7 @@ lineofkaykhusru66 = {
 	name = Delbar
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	sexuality = heterosexual
 
@@ -211548,7 +211500,7 @@ lineofizadyar78 = {
 	}
 	6623.10.08 = {  
 	    trait = fickle
-	    trait = eccentric
+	    trait = patient
 	    trait = deceitful
 	}
 	6700.10.26 = {  # Died at age 93
@@ -213463,7 +213415,7 @@ lineofizadyar129 = {
 	6788.11.09 = {  
 	    trait = eccentric
 	    trait = arrogant
-	    trait = fickle
+	    trait = impatient
 	}
 	6822.03.08 = {  # Died at age 49
 	    death = { death_reason = death_ill }
@@ -222829,7 +222781,7 @@ lineofkamranahan64 = {
 	6687.10.19 = {  
 	    trait = just
 	    trait = eccentric
-	    trait = stubborn
+	    trait = brave
 	}
 	6752.09.26 = {  # Died at age 80
 	    death = { death_reason = death_natural_causes }
@@ -223740,8 +223692,8 @@ lineoftahmahan89 = {
 	}
 	6899.05.22 = {  
 	    trait = chaste
-	    trait = eccentric
-	    trait = fickle
+	    trait = just
+	    trait = generous
 	}
 	6963.05.27 = {  # Died at age 80
 	    death = { death_reason = death_natural_causes }
@@ -228742,7 +228694,7 @@ lineofkamranahan246 = {
 lineofkaykhusru1 = {
 	name = Farrokhnezad
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 
@@ -228769,7 +228721,7 @@ lineofkaykhusru2 = {
 	name = Keherafrid
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	sexuality = heterosexual
 
@@ -228790,7 +228742,7 @@ lineofkaykhusru2 = {
 lineofkaykhusru3 = {
 	name = Jangi
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru1
@@ -228819,7 +228771,7 @@ lineofkaykhusru4 = {
 	name = Banugushnasp
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru1
@@ -228853,7 +228805,7 @@ lineofkaykhusru4 = {
 lineofkaykhusru5 = {
 	name = Khushnawaz
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru1
@@ -228894,7 +228846,7 @@ lineofkaykhusru5 = {
 lineofkaykhusru6 = {
 	name = Dadbandad
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru1
@@ -228930,7 +228882,7 @@ lineofkaykhusru7 = {
 	name = Aredetfredhi
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru1
@@ -228958,7 +228910,7 @@ lineofkaykhusru7 = {
 lineofkaykhusru8 = {
 	name = Khudayar
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru1
@@ -228996,7 +228948,7 @@ lineofkaykhusru9 = {
 	name = Meherafrin
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru1
@@ -229030,7 +228982,7 @@ lineofkaykhusru9 = {
 lineofkaykhusru10 = {
 	name = Dinpanah
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru5
@@ -229068,7 +229020,7 @@ lineofkaykhusru11 = {
 	name = Shirinbanu
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru5
@@ -229097,7 +229049,7 @@ lineofkaykhusru12 = {
 	name = Meherafraz
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru5
@@ -229132,7 +229084,7 @@ lineofkaykhusru13 = {
 	name = Delruba
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru5
@@ -229166,7 +229118,7 @@ lineofkaykhusru13 = {
 lineofkaykhusru14 = {
 	name = Mahburzin
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru8
@@ -229194,7 +229146,7 @@ lineofkaykhusru14 = {
 lineofkaykhusru15 = {
 	name = Sahi
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru8
@@ -229235,7 +229187,7 @@ lineofkaykhusru16 = {
 	name = Morvarid
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru8
@@ -229269,7 +229221,7 @@ lineofkaykhusru16 = {
 lineofkaykhusru17 = {
 	name = Smardis
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru8
@@ -229308,7 +229260,7 @@ lineofkaykhusru18 = {
 	name = Arenavachi
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru8
@@ -229343,7 +229295,7 @@ lineofkaykhusru18 = {
 lineofkaykhusru19 = {
 	name = Adarfra
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru10
@@ -229381,7 +229333,7 @@ lineofkaykhusru20 = {
 	name = Roxenda
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru10
@@ -229415,7 +229367,7 @@ lineofkaykhusru20 = {
 lineofkaykhusru21 = {
 	name = Zaosh
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru10
@@ -229453,7 +229405,7 @@ lineofkaykhusru22 = {
 	name = Fahnik
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru10
@@ -229487,7 +229439,7 @@ lineofkaykhusru22 = {
 lineofkaykhusru23 = {
 	name = Huvaspa
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru19
@@ -229525,7 +229477,7 @@ lineofkaykhusru24 = {
 	name = Gulchehr
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru19
@@ -229560,7 +229512,7 @@ lineofkaykhusru25 = {
 	name = Morvarid
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	sexuality = heterosexual
 
@@ -229591,7 +229543,7 @@ lineofkaykhusru26 = {
 	name = Ashishvangh
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru19
@@ -229626,7 +229578,7 @@ lineofkaykhusru27 = {
 	name = Armaiti
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	sexuality = heterosexual
 
@@ -229656,7 +229608,7 @@ lineofkaykhusru27 = {
 lineofkaykhusru28 = {
 	name = Gushtahm
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru17
@@ -229697,7 +229649,7 @@ lineofkaykhusru28 = {
 lineofkaykhusru29 = {
 	name = Husrav
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	mother = lineofkaykhusru22
@@ -229735,7 +229687,7 @@ lineofkaykhusru29 = {
 lineofkaykhusru30 = {
 	name = Sarosh
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru17
@@ -229772,7 +229724,7 @@ lineofkaykhusru30 = {
 lineofkaykhusru32 = {
 	name = Orvadasp
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru23
@@ -229811,7 +229763,7 @@ lineofkaykhusru33 = {
 	name = Mahtab
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru28
@@ -229847,7 +229799,7 @@ lineofkaykhusru33 = {
 lineofkaykhusru34 = {
 	name = Nekchehr
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru23
@@ -229886,7 +229838,7 @@ lineofkaykhusru35 = {
 	name = Freny
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru23
@@ -229920,7 +229872,7 @@ lineofkaykhusru35 = {
 lineofkaykhusru36 = {
 	name = Huvaspa
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru29
@@ -229958,7 +229910,7 @@ lineofkaykhusru37 = {
 	name = Meherpaekar
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru30
@@ -229992,7 +229944,7 @@ lineofkaykhusru37 = {
 lineofkaykhusru38 = {
 	name = Peshotan
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru28
@@ -230020,7 +229972,7 @@ lineofkaykhusru38 = {
 lineofkaykhusru39 = {
 	name = Khudadad
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru28
@@ -230063,7 +230015,7 @@ lineofkaykhusru39 = {
 lineofkaykhusru40 = {
 	name = Khubchehr
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru30
@@ -230100,7 +230052,7 @@ lineofkaykhusru40 = {
 lineofkaykhusru41 = {
 	name = Khushnawaz
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru29
@@ -230138,7 +230090,7 @@ lineofkaykhusru41 = {
 lineofkaykhusru42 = {
 	name = Behzad
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru32
@@ -230177,7 +230129,7 @@ lineofkaykhusru43 = {
 	name = Rokhsar
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru34
@@ -230212,7 +230164,7 @@ lineofkaykhusru43 = {
 lineofkaykhusru44 = {
 	name = Khushchehr
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru32
@@ -230250,7 +230202,7 @@ lineofkaykhusru44 = {
 lineofkaykhusru45 = {
 	name = Ashtad
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru34
@@ -230280,7 +230232,7 @@ lineofkaykhusru45 = {
 lineofkaykhusru46 = {
 	name = Peshotan
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru34
@@ -230318,7 +230270,7 @@ lineofkaykhusru47 = {
 	name = Farkhonda
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru34
@@ -230353,7 +230305,7 @@ lineofkaykhusru48 = {
 	name = Delruba
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru39
@@ -230387,7 +230339,7 @@ lineofkaykhusru48 = {
 lineofkaykhusru49 = {
 	name = Khubruy
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru39
@@ -230428,7 +230380,7 @@ lineofkaykhusru50 = {
 	name = Keherafrid
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru49
@@ -230464,7 +230416,7 @@ lineofkaykhusru51 = {
 	name = Mahpaekar
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	sexuality = heterosexual
 
@@ -230494,7 +230446,7 @@ lineofkaykhusru51 = {
 lineofkaykhusru52 = {
 	name = Mahburzin
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru39
@@ -230532,7 +230484,7 @@ lineofkaykhusru53 = {
 	name = Bahmandokht
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru39
@@ -230566,7 +230518,7 @@ lineofkaykhusru53 = {
 lineofkaykhusru54 = {
 	name = Frashaoshtra
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru40
@@ -230609,7 +230561,7 @@ lineofkaykhusru54 = {
 lineofkaykhusru55 = {
 	name = Rayomand
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru39
@@ -230652,7 +230604,7 @@ lineofkaykhusru55 = {
 lineofkaykhusru58 = {
 	name = Adarfra
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru46
@@ -230692,7 +230644,7 @@ lineofkaykhusru58 = {
 lineofkaykhusru59 = {
 	name = Vardanis
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru42
@@ -230729,7 +230681,7 @@ lineofkaykhusru59 = {
 lineofkaykhusru61 = {
 	name = Adarburzin
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru44
@@ -230757,7 +230709,7 @@ lineofkaykhusru61 = {
 lineofkaykhusru62 = {
 	name = Nashak
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru42
@@ -230795,7 +230747,7 @@ lineofkaykhusru63 = {
 	name = Gulbadan
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru42
@@ -230830,7 +230782,7 @@ lineofkaykhusru63 = {
 lineofkaykhusru64 = {
 	name = Zaosh
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru49
@@ -230868,7 +230820,7 @@ lineofkaykhusru65 = {
 	name = Aredetfredhi
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	sexuality = heterosexual
 
@@ -230898,7 +230850,7 @@ lineofkaykhusru65 = {
 lineofkaykhusru67 = {
 	name = Dadbandad
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru52
@@ -230926,7 +230878,7 @@ lineofkaykhusru67 = {
 lineofkaykhusru68 = {
 	name = Vishnasp
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru58
@@ -230992,7 +230944,7 @@ lineofkaykhusru69 = {
 	name = Khurshidbanu
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru52
@@ -231022,7 +230974,7 @@ lineofkaykhusru70 = {
 	name = Meherbanu
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru58
@@ -231058,7 +231010,7 @@ lineofkaykhusru71 = {
 	name = Mahin
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru58
@@ -231090,7 +231042,7 @@ lineofkaykhusru72 = {
 	name = Meherokh
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru58
@@ -231121,7 +231073,7 @@ lineofkaykhusru72 = {
 lineofkaykhusru73 = {
 	name = Abadard
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru64
@@ -231150,7 +231102,7 @@ lineofkaykhusru73 = {
 lineofkaykhusru74 = {
 	name = Mahdat
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru62
@@ -231179,7 +231131,7 @@ lineofkaykhusru74 = {
 lineofkaykhusru75 = {
 	name = Aspandad
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	dynasty = dynasty_kaykhusru
 	father = lineofkaykhusru62
@@ -249988,7 +249940,7 @@ lineofnaozadez17 = {
 	    birth = yes
 	}
 	6963.03.07 = {  
-	    trait = stubborn
+	    trait = calm
 	    trait = content
 	    trait = eccentric
 	}
@@ -258919,9 +258871,6 @@ lineofnevazarhan46 = {
 	}
 	6890.06.05 = {  # Died at age 86
 	    death = { death_reason = death_natural_causes }
-	}
-	6890.06.11 = {  # Married at age 86
-	    add_spouse = lineoffravakhan2
 	}
 }
 
@@ -275112,7 +275061,7 @@ lineofshiruyhan4 = {
 	}
 	6860.08.23 = {  
 	    trait = greedy
-	    trait = eccentric
+	    trait = craven
 	    trait = fickle
 	}
 	6925.03.17 = {  # Died at age 80
@@ -276669,7 +276618,7 @@ lineofaurvataspa50 = {
 	    birth = yes
 	}
 	6881.08.05 = {  
-	    trait = eccentric
+	    trait = chaste
 	    trait = shy
 	    trait = stubborn
 	}
@@ -276935,7 +276884,7 @@ lineofkaykhusru56 = {
 	name = Meherbanu
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	sexuality = heterosexual
 
@@ -277099,7 +277048,7 @@ lineofkaykhusru60 = {
 	name = Hufriya
 	female = yes
 	culture = bulchyadean
-	religion = faith_kaykhusru
+	religion = faith_arienism
 
 	sexuality = heterosexual
 
@@ -286860,7 +286809,7 @@ lineoftahmahan69 = {
 	    birth = yes
 	}
 	6870.03.20 = {  
-	    trait = fickle
+	    trait = gregarious
 	    trait = greedy
 	    trait = eccentric
 	}
@@ -296128,6 +296077,15 @@ lineofurvatatnara53 = {
 	6995.12.28 = {  # Married at age 19
 	    add_spouse = lineofwehzanez44
 	}
+	7008.12.07 = {
+	    effect = { 
+			start_tributary = {
+				contract_group = tributary_subjugated
+				suzerain = character:lineoftirdahan6
+			}
+        }
+	}
+	
 	7052.09.18 = {  # Died at age 76
 	    death = { death_reason = death_natural_causes }
 	}
@@ -297868,7 +297826,7 @@ lineofvispanfria24 = {
 	    birth = yes
 	}
 	6783.02.25 = {  
-	    trait = eccentric
+	    trait = calm
 	    trait = fickle
 	    trait = diligent
 	}
@@ -338451,7 +338409,7 @@ lineoffarshidzen173 = {
 	    birth = yes
 	}
 	6844.04.23 = {  
-	    trait = eccentric
+	    trait = just
 	    trait = stubborn
 	    trait = honest
 	}
@@ -357119,14 +357077,11 @@ lineofosard28 = {
 	}
 	6640.11.18 = {  
 	    trait = wrathful
-	    trait = fickle
+	    trait = brave
 	    trait = eccentric
 	}
 	6649.04.09 = {  # Married at age 24
 	    add_spouse = lineoffarshidzen142
-	}
-	6702.01.09 = {  # Married at age 77
-	    add_spouse = lineofvahramzen44
 	}
 	6709.02.17 = {  # Died at age 84
 	    death = { death_reason = death_natural_causes }
@@ -363239,7 +363194,7 @@ lineofqudoz29 = {
 	6639.04.24 = {  
 	    trait = forgiving
 	    trait = stubborn
-	    trait = eccentric
+	    trait = calm
 	}
 	6641.07.19 = {  # Married at age 18
 	    add_spouse = lineoffarshidzen142
@@ -371506,9 +371461,6 @@ lineoftarimez25 = {
 	}
 	6616.02.19 = {  # Died at age 75
 	    death = { death_reason = death_natural_causes }
-	}
-	6616.09.03 = {  # Married at age 75
-	    add_spouse = lineoftarimez30
 	}
 }
 
@@ -384263,7 +384215,7 @@ lineofvisnarmaken108 = {
 	    birth = yes
 	}
 	6871.05.12 = {  
-	    trait = eccentric
+	    trait = generous
 	    trait = fickle
 	    trait = vengeful
 	}
