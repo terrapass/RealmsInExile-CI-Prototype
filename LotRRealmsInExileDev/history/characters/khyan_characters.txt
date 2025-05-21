@@ -50400,7 +50400,7 @@ lineofishvathan81 = {
 	}
 	5203.09.09 = {  
 	    trait = eccentric
-	    trait = gregagrious
+	    trait = gregarious
 	    trait = compassionate
 	}
 	5276.06.02 = {  # Died at age 88
