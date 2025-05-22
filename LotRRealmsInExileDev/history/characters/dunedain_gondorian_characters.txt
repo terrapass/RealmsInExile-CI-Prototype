@@ -2536,8 +2536,11 @@ lineofanarion62 = {
 		}
     }
 
-    5481.3.5 = { # Died in the siege of Osgiliath.
-		death = { death_reason = death_siege } 	       		
+    5480.8.22 = { # Died in the battle of Crossings of Erui
+		death = { 
+            death_reason = death_battle
+            killer = lineofroquendil16
+        } 	       		
 	}
 }
 
