@@ -260368,45 +260368,7 @@ lineofyrceithar1 = {
     }
 }
 
-# FoA Lords of Vethrafell
-
-lineofathanc1 = {
-    name = Valandur
-
-    religion = faith_edain
-    culture = gondorian
-
-    trait = brave
-    trait = patient
-    trait = stubborn
-
-    trait = education_martial_4
-    trait = education_martial_prowess_3
-    trait = cautious_leader
-
-    trait = blood_of_numenor_2
-    trait = intellect_good_1
-
-    7000.4.29 = {
-        birth = yes
-    }
-
-    7033.1.1 = {
-        employer = linesteward40
-    }
-
-    7054.3.25 = {
-        dynasty = dynasty_athanc
-    }
-
-    7100.5.13 = {
-        death = {
-            death_reason = death_natural_causes
-        }
-    }
-}
-
-# FoA Lords of Dagorlad
+# FoA Lords of Dagorlad and Morannon
 
 lineofmethur1 = {
     name = Calimon
@@ -260438,6 +260400,44 @@ lineofmethur1 = {
     }
 
     7099.3.11 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+# FoA Lords of Thoron
+
+lineofathanc1 = {
+    name = Valandur
+
+    religion = faith_edain
+    culture = gondorian
+
+    trait = brave
+    trait = patient
+    trait = stubborn
+
+    trait = education_martial_4
+    trait = education_martial_prowess_3
+    trait = cautious_leader
+
+    trait = blood_of_numenor_2
+    trait = intellect_good_1
+
+    7000.4.29 = {
+        birth = yes
+    }
+
+    7033.1.1 = {
+        employer = linesteward40
+    }
+
+    7054.3.25 = {
+        dynasty = dynasty_athanc
+    }
+
+    7100.5.13 = {
         death = {
             death_reason = death_natural_causes
         }
