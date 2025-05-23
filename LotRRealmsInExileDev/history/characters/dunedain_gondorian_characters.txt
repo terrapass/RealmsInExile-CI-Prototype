@@ -260368,7 +260368,7 @@ lineofyrceithar1 = {
     }
 }
 
-# FoA Lords of Men Rhunen
+# FoA Lords of Vethrafell
 
 lineofathanc1 = {
     name = Valandur
