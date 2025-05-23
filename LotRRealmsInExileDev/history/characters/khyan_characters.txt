@@ -191427,7 +191427,7 @@ lineofgushtahemez94 = {
 	learning = 5
 	prowess = 4
 
-	trait = education_martial_3
+	trait = education_martial_4
 
 	trait = curious
 	6740.02.23 = {
@@ -191577,7 +191577,7 @@ lineofgushtahemez98 = {
 	learning = 3
 	prowess = 5
 
-	trait = education_stewardship_3
+	trait = education_stewardship_4
 
 	trait = pensive
 	6766.04.02 = {
@@ -205359,7 +205359,7 @@ lineofhusravan7 = {
 
 lineofhuzvakhan1 = {
 	name = Chubin
-	culture = khyan
+	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -205367,6 +205367,7 @@ lineofhuzvakhan1 = {
 	sexuality = heterosexual
 
 	trait = charming
+    trait = education_diplomacy_4
 	6930.03.02 = {
 	    birth = yes
 	}
@@ -205407,7 +205408,7 @@ lineofhuzvakhan2 = {
 
 lineofhuzvakhan3 = {
 	name = Shiruy
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -205423,8 +205424,6 @@ lineofhuzvakhan3 = {
 	learning = 5
 	prowess = 4
 
-	trait = education_diplomacy_2
-
 	6954.08.01 = {
 	    birth = yes
 	}
@@ -205436,7 +205435,7 @@ lineofhuzvakhan3 = {
 lineofhuzvakhan4 = {
 	name = Meherafraz
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -205470,7 +205469,7 @@ lineofhuzvakhan4 = {
 
 lineofhuzvakhan5 = {
 	name = Khubchehr
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -205486,7 +205485,7 @@ lineofhuzvakhan5 = {
 	learning = 8
 	prowess = 4
 
-	trait = education_martial_2
+	trait = education_martial_3
 
 	trait = bossy
 	6968.03.17 = {
@@ -205507,7 +205506,7 @@ lineofhuzvakhan5 = {
 
 lineofhuzvakhan6 = {
 	name = Mardbud
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -205544,7 +205543,7 @@ lineofhuzvakhan6 = {
 
 lineofhuzvakhan7 = {
 	name = Ramburzin
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -205581,7 +205580,7 @@ lineofhuzvakhan7 = {
 
 lineofhuzvakhan8 = {
 	name = Ramburzin
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -205618,7 +205617,7 @@ lineofhuzvakhan8 = {
 
 lineofhuzvakhan9 = {
 	name = Barman
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -205655,7 +205654,7 @@ lineofhuzvakhan9 = {
 
 lineofhuzvakhan10 = {
 	name = Delir
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -205692,7 +205691,7 @@ lineofhuzvakhan10 = {
 
 lineofhuzvakhan11 = {
 	name = Ramdin
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -205730,7 +205729,7 @@ lineofhuzvakhan11 = {
 lineofhuzvakhan12 = {
 	name = Gulafruz
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -205764,7 +205763,7 @@ lineofhuzvakhan12 = {
 
 lineofhuzvakhan13 = {
 	name = Farrokhnezad
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -205799,7 +205798,7 @@ lineofhuzvakhan13 = {
 
 lineofhuzvakhan14 = {
 	name = Zirak
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -205836,7 +205835,7 @@ lineofhuzvakhan14 = {
 
 lineofhuzvakhan15 = {
 	name = Huzvak
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -205874,7 +205873,7 @@ lineofhuzvakhan15 = {
 lineofhuzvakhan16 = {
 	name = Mahafrin
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -205909,7 +205908,7 @@ lineofhuzvakhan16 = {
 lineofhuzvakhan17 = {
 	name = Fahnik
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -205944,7 +205943,7 @@ lineofhuzvakhan17 = {
 
 lineofhuzvakhan18 = {
 	name = Noved
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -205979,7 +205978,7 @@ lineofhuzvakhan18 = {
 lineofhuzvakhan19 = {
 	name = Shirinbanu
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -206013,7 +206012,7 @@ lineofhuzvakhan19 = {
 
 lineofhuzvakhan20 = {
 	name = Nawazish
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -206050,7 +206049,7 @@ lineofhuzvakhan20 = {
 
 lineofhuzvakhan21 = {
 	name = Anoshiruvan
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -206088,7 +206087,7 @@ lineofhuzvakhan21 = {
 lineofhuzvakhan22 = {
 	name = Arzu
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -206123,7 +206122,7 @@ lineofhuzvakhan22 = {
 
 lineofhuzvakhan23 = {
 	name = Mahdat
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -206160,7 +206159,7 @@ lineofhuzvakhan23 = {
 
 lineofhuzvakhan24 = {
 	name = Kamran
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -206197,7 +206196,7 @@ lineofhuzvakhan24 = {
 
 lineofhuzvakhan25 = {
 	name = Ramdin
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -206234,7 +206233,7 @@ lineofhuzvakhan25 = {
 
 lineofhuzvakhan26 = {
 	name = Nevazar
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -206272,7 +206271,7 @@ lineofhuzvakhan26 = {
 lineofhuzvakhan27 = {
 	name = Delaram
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -206306,7 +206305,7 @@ lineofhuzvakhan27 = {
 
 lineofhuzvakhan28 = {
 	name = Mardbud
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -206344,7 +206343,7 @@ lineofhuzvakhan28 = {
 lineofhuzvakhan29 = {
 	name = Shaker
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -206409,7 +206408,7 @@ lineofhuzvakhan30 = {
 
 lineofhuzvakhan31 = {
 	name = Gushtahm
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -206478,7 +206477,7 @@ lineofhuzvakhan32 = {
 
 lineofhuzvakhan33 = {
 	name = Ferozgar
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -206513,7 +206512,7 @@ lineofhuzvakhan33 = {
 lineofhuzvakhan34 = {
 	name = Roshanak
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -206547,7 +206546,7 @@ lineofhuzvakhan34 = {
 
 lineofhuzvakhan36 = {
 	name = Kharad
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -206613,7 +206612,7 @@ lineofhuzvakhan38 = {
 
 lineofhuzvakhan39 = {
 	name = Sarafraz
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -206684,7 +206683,7 @@ lineoframinez39 = {
 
 lineofhuzvakhan40 = {
 	name = Khudamorad
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -206722,7 +206721,7 @@ lineofhuzvakhan40 = {
 lineofhuzvakhan41 = {
 	name = Khurmand
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -206849,7 +206848,7 @@ lineofhuzvakhan44 = {
 
 lineofhuzvakhan45 = {
 	name = Mahyar
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -206909,7 +206908,7 @@ lineofhuzvakhan46 = {
 
 lineofhuzvakhan47 = {
 	name = Mahburzin
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -206949,7 +206948,7 @@ lineofhuzvakhan47 = {
 
 lineofhuzvakhan48 = {
 	name = Naozad
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -206978,7 +206977,7 @@ lineofhuzvakhan48 = {
 
 lineofhuzvakhan49 = {
 	name = Frahimrawa
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -207015,7 +207014,7 @@ lineofhuzvakhan49 = {
 
 lineofhuzvakhan50 = {
 	name = Behzad
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -207052,7 +207051,7 @@ lineofhuzvakhan50 = {
 
 lineofhuzvakhan51 = {
 	name = Azadmard
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -207090,7 +207089,7 @@ lineofhuzvakhan51 = {
 lineofhuzvakhan52 = {
 	name = Nekbakht
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -207118,7 +207117,7 @@ lineofhuzvakhan52 = {
 
 lineofhuzvakhan53 = {
 	name = Khushmanish
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -207152,7 +207151,7 @@ lineofhuzvakhan53 = {
 
 lineofhuzvakhan54 = {
 	name = Farzan
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -207190,7 +207189,7 @@ lineofhuzvakhan54 = {
 lineofhuzvakhan55 = {
 	name = Naheed
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -207224,7 +207223,7 @@ lineofhuzvakhan55 = {
 
 lineofhuzvakhan56 = {
 	name = Anoshiruvan
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -207261,7 +207260,7 @@ lineofhuzvakhan56 = {
 
 lineofhuzvakhan57 = {
 	name = Nevazar
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -207299,7 +207298,7 @@ lineofhuzvakhan57 = {
 lineofhuzvakhan58 = {
 	name = Meherafruz
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -207334,7 +207333,7 @@ lineofhuzvakhan58 = {
 lineofhuzvakhan59 = {
 	name = Homai
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -207461,7 +207460,7 @@ lineofhuzvakhan61 = {
 
 lineofhuzvakhan62 = {
 	name = Pishkar
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -207560,7 +207559,7 @@ lineofhuzvakhan63 = {
 
 lineofhuzvakhan65 = {
 	name = Huvaspa
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -207600,7 +207599,7 @@ lineofhuzvakhan65 = {
 
 lineofhuzvakhan66 = {
 	name = Dinpanah
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -207638,7 +207637,7 @@ lineofhuzvakhan66 = {
 lineofhuzvakhan67 = {
 	name = Hutoxi
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -207673,7 +207672,7 @@ lineofhuzvakhan67 = {
 lineofhuzvakhan68 = {
 	name = Zarin
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -207769,7 +207768,7 @@ lineofhuzvakhan71 = {
 
 lineofhuzvakhan72 = {
 	name = Nashak
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -207809,7 +207808,7 @@ lineofhuzvakhan72 = {
 
 lineofhuzvakhan74 = {
 	name = Khudabax
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -207848,7 +207847,7 @@ lineofhuzvakhan74 = {
 lineofhuzvakhan75 = {
 	name = Nekdel
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -207914,7 +207913,7 @@ lineofrakhohan75 = {
 lineofhuzvakhan76 = {
 	name = Arta
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -207949,7 +207948,7 @@ lineofhuzvakhan76 = {
 lineofhuzvakhan77 = {
 	name = Arta
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -207983,7 +207982,7 @@ lineofhuzvakhan77 = {
 
 lineofhuzvakhan78 = {
 	name = Ramgushnasp
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -208020,7 +208019,7 @@ lineofhuzvakhan78 = {
 
 lineofhuzvakhan79 = {
 	name = Urvakhsha
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -208060,7 +208059,7 @@ lineofhuzvakhan79 = {
 
 lineofhuzvakhan81 = {
 	name = Shergir
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -208097,7 +208096,7 @@ lineofhuzvakhan81 = {
 
 lineofhuzvakhan83 = {
 	name = Arsha_a_ma
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -208135,7 +208134,7 @@ lineofhuzvakhan83 = {
 lineofhuzvakhan84 = {
 	name = Artdokht
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -208169,7 +208168,7 @@ lineofhuzvakhan84 = {
 
 lineofhuzvakhan85 = {
 	name = Wehshapur
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -208199,7 +208198,7 @@ lineofhuzvakhan85 = {
 lineofhuzvakhan86 = {
 	name = Delkhush
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -208233,7 +208232,7 @@ lineofhuzvakhan86 = {
 
 lineofhuzvakhan87 = {
 	name = Khubchehr
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -208276,7 +208275,7 @@ lineofhuzvakhan87 = {
 
 lineofhuzvakhan88 = {
 	name = Hutan
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -208315,7 +208314,7 @@ lineofhuzvakhan88 = {
 lineofhuzvakhan89 = {
 	name = Dadhushfarrokh
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -208349,7 +208348,7 @@ lineofhuzvakhan89 = {
 
 lineofhuzvakhan90 = {
 	name = Arta
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -208387,7 +208386,7 @@ lineofhuzvakhan90 = {
 lineofhuzvakhan91 = {
 	name = Shirin
 	female = yes
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -208419,7 +208418,7 @@ lineofhuzvakhan91 = {
 
 lineofhuzvakhan92 = {
 	name = Urvakhsha
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -208445,7 +208444,7 @@ lineofhuzvakhan92 = {
 
 lineofhuzvakhan93 = {
 	name = Khudamorad
-	culture = khyan
+  	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_huzvakhan
@@ -213383,7 +213382,7 @@ lineofizadyar128 = {
 	6806.04.10 = {  # Married at age 34
 	    add_spouse = lineofizadyar146
 	}
-	6825.10.21 = {  # Died at age 53
+	6825.10.21 = {  # Died in a border skirmish in Mejhanir
 	    death = { death_reason = death_battle }
 	}
 }
@@ -214163,7 +214162,7 @@ lineofizadyar156 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar136
 
 	sexuality = heterosexual
@@ -214765,7 +214764,8 @@ lineofizadyar174 = {
 lineofizadyar175 = {
 	name = Hufriya
 	female = yes
-	culture = khyan
+
+	culture = anarikean
 	religion = faith_arienism
 
 	sexuality = heterosexual
@@ -214777,7 +214777,7 @@ lineofizadyar175 = {
 	learning = 5
 	prowess = 4
 
-	trait = education_diplomacy_1
+	trait = education_diplomacy_3
 
 	trait = curious
 	6842.09.22 = {
@@ -214907,7 +214907,7 @@ lineofizadyar180 = {
 	culture = khyan
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar156
 	mother = lineofizadyar175
 
@@ -214920,7 +214920,7 @@ lineofizadyar180 = {
 	learning = 5
 	prowess = 6
 
-	trait = education_diplomacy_2
+	trait = education_diplomacy_3
 
 	trait = curious
 	6867.01.12 = {
@@ -215071,8 +215071,8 @@ lineofizadyar185 = {
 	6921.01.26 = {  # Married at age 36
 	    add_spouse = lineofaurvataspa51
 	}
-	6975.09.13 = {  # Died at age 90
-	    death = { death_reason = death_natural_causes }
+	6934.09.13 = {  # Eliminated by the Tirdahan
+	    death = { death_reason = death_attacked }
 	}
 }
 
@@ -215247,7 +215247,7 @@ lineofizadyar190 = {
 lineofizadyar191 = {
 	name = Shirin
 	female = yes
-	culture = khyan
+	culture = anarikean
 	religion = faith_arienism
 
 	sexuality = heterosexual
@@ -215277,10 +215277,10 @@ lineofizadyar191 = {
 
 lineofizadyar192 = {
 	name = Mahburzin
-	culture = khyan
+	culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar180
 	mother = lineofizadyar191
 
@@ -215320,10 +215320,10 @@ lineofizadyar192 = {
 
 lineofizadyar194 = {
 	name = Darazdast
-	culture = khyan
+	culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar180
 	mother = lineofizadyar191
 
@@ -215357,10 +215357,10 @@ lineofizadyar194 = {
 
 lineofizadyar195 = {
 	name = Meherzad
-	culture = khyan
+	culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar194
 
 	sexuality = heterosexual
@@ -215372,7 +215372,7 @@ lineofizadyar195 = {
 	learning = 6
 	prowess = 1
 
-	trait = bastard
+	trait = legitimized_bastard
 
 	trait = education_learning_2
 
@@ -215396,7 +215396,7 @@ lineofizadyar195 = {
 lineofizadyar196 = {
 	name = Dadhushfarrokh
 	female = yes
-	culture = khyan
+	culture = anarikean
 	religion = faith_arienism
 
 	sexuality = heterosexual
@@ -215427,10 +215427,10 @@ lineofizadyar196 = {
 lineofizadyar197 = {
 	name = Artdokht
 	female = yes
-	culture = khyan
+	culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar194
 	mother = lineofizadyar196
 
@@ -215462,10 +215462,10 @@ lineofizadyar197 = {
 
 lineofizadyar198 = {
 	name = Gushtas
-	culture = khyan
+	culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar195
 	mother = lineofsahihan5
 
@@ -215500,10 +215500,10 @@ lineofizadyar198 = {
 lineofizadyar199 = {
 	name = Mahtab
 	female = yes
-	culture = khyan
+	culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar195
 	mother = lineofsahihan5
 
@@ -215535,10 +215535,10 @@ lineofizadyar199 = {
 lineofizadyar200 = {
 	name = Sarosh
 	female = yes
-	culture = khyan
+	culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar195
 
 	sexuality = heterosexual
@@ -215570,10 +215570,10 @@ lineofizadyar200 = {
 
 lineofizadyar201 = {
 	name = Sriroxna
-	culture = khyan
+	culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar198
 	mother = lineofjahanabada26
 
@@ -215608,10 +215608,10 @@ lineofizadyar201 = {
 lineofizadyar202 = {
 	name = Gulkhandan
 	female = yes
-	culture = khyan
+	culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar198
 	mother = lineofjahanabada26
 
@@ -215643,10 +215643,10 @@ lineofizadyar202 = {
 lineofizadyar203 = {
 	name = Mahafrin
 	female = yes
-	culture = khyan
+	culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar198
 	mother = lineofjahanabada26
 
@@ -215677,10 +215677,10 @@ lineofizadyar203 = {
 
 lineofizadyar204 = {
 	name = Rambehesht
-	culture = khyan
+	culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar198
 	mother = lineofjahanabada26
 
@@ -215718,10 +215718,10 @@ lineofizadyar204 = {
 lineofizadyar205 = {
 	name = Kerbanu
 	female = yes
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar198
 	mother = lineofjahanabada26
 
@@ -215752,10 +215752,10 @@ lineofizadyar205 = {
 
 lineofizadyar206 = {
 	name = Surin
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar201
 	mother = lineofaspantamana71
 
@@ -215787,10 +215787,10 @@ lineofizadyar206 = {
 lineofizadyar207 = {
 	name = Samanrukh
 	female = yes
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar201
 	mother = lineofaspantamana71
 
@@ -215823,10 +215823,10 @@ lineofizadyar207 = {
 
 lineofizadyar208 = {
 	name = Sarosh
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar204
 	mother = lineofstivantez82
 
@@ -215863,10 +215863,10 @@ lineofizadyar208 = {
 
 lineofizadyar209 = {
 	name = Bahadur
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar204
 	mother = lineofstivantez82
 
@@ -215901,10 +215901,10 @@ lineofizadyar209 = {
 
 lineofizadyar210 = {
 	name = Huchithra
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar204
 	mother = lineofstivantez82
 
@@ -215938,10 +215938,10 @@ lineofizadyar210 = {
 
 lineofizadyar211 = {
 	name = Sarafraz
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar204
 	mother = lineofstivantez82
 
@@ -215972,10 +215972,10 @@ lineofizadyar211 = {
 
 lineofizadyar212 = {
 	name = Izadyar
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar204
 	mother = lineofstivantez82
 
@@ -216049,10 +216049,10 @@ lineofizadyar213 = {
 
 lineofizadyar214 = {
 	name = Urvatatnara
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar210
 	mother = lineofdelsuzan9
 
@@ -216089,10 +216089,10 @@ lineofizadyar214 = {
 lineofizadyar215 = {
 	name = Naztab
 	female = yes
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar209
 	mother = lineofdelawarhan113
 
@@ -216119,10 +216119,10 @@ lineofizadyar215 = {
 
 lineofizadyar216 = {
 	name = Huvaspa
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar209
 	mother = lineofdelawarhan113
 
@@ -216148,10 +216148,10 @@ lineofizadyar216 = {
 
 lineofizadyar217 = {
 	name = Khubyar
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar208
 	mother = lineofshiruyhan47
 
@@ -216185,10 +216185,10 @@ lineofizadyar217 = {
 
 lineofizadyar218 = {
 	name = Behbud
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar209
 	mother = lineofdelawarhan113
 
@@ -216224,10 +216224,10 @@ lineofizadyar218 = {
 lineofizadyar219 = {
 	name = Farkhonda
 	female = yes
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar208
 	mother = lineofshiruyhan47
 
@@ -216259,10 +216259,10 @@ lineofizadyar219 = {
 lineofizadyar220 = {
 	name = Meherokh
 	female = yes
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar210
 	mother = lineofdelsuzan9
 
@@ -216295,10 +216295,10 @@ lineofizadyar220 = {
 lineofizadyar221 = {
 	name = Shaker
 	female = yes
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar210
 	mother = lineofdelsuzan9
 
@@ -216329,10 +216329,10 @@ lineofizadyar221 = {
 
 lineofizadyar223 = {
 	name = Ramisht
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar209
 	mother = lineofdelawarhan113
 
@@ -216357,10 +216357,10 @@ lineofizadyar223 = {
 
 lineofizadyar224 = {
 	name = Khudaram
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar212
 	mother = lineofizadyar222
 
@@ -216385,10 +216385,10 @@ lineofizadyar224 = {
 
 lineofizadyar225 = {
 	name = Aspantaman
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar217
 	mother = lineofnarimanez55
 
@@ -216422,10 +216422,10 @@ lineofizadyar225 = {
 
 lineofizadyar226 = {
 	name = Yavisht
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar218
 	mother = lineofdaneshvarhan92
 
@@ -216460,10 +216460,10 @@ lineofizadyar226 = {
 
 lineofizadyar227 = {
 	name = Ramgushnasp
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar217
 	mother = lineofnarimanez55
 
@@ -216498,10 +216498,10 @@ lineofizadyar227 = {
 lineofizadyar228 = {
 	name = Mahchehr
 	female = yes
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar214
 	mother = lineofmeherzada43
 
@@ -216534,10 +216534,10 @@ lineofizadyar228 = {
 lineofizadyar229 = {
 	name = Meherafrid
 	female = yes
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar217
 	mother = lineofnarimanez55
 
@@ -216569,10 +216569,10 @@ lineofizadyar229 = {
 lineofizadyar230 = {
 	name = Nezhat
 	female = yes
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar218
 	mother = lineofdaneshvarhan92
 
@@ -216604,10 +216604,10 @@ lineofizadyar230 = {
 
 lineofizadyar231 = {
 	name = Ramburzin
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar225
 	mother = lineofrakhohan47
 
@@ -216644,10 +216644,10 @@ lineofizadyar231 = {
 
 lineofizadyar232 = {
 	name = Zarmeher
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar225
 	mother = lineofrakhohan47
 
@@ -216682,10 +216682,10 @@ lineofizadyar232 = {
 lineofizadyar233 = {
 	name = Naheed
 	female = yes
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar225
 	mother = lineofrakhohan47
 
@@ -216717,10 +216717,10 @@ lineofizadyar233 = {
 lineofizadyar234 = {
 	name = Nezhat
 	female = yes
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar227
 	mother = lineofstivantez104
 
@@ -216752,10 +216752,10 @@ lineofizadyar234 = {
 lineofizadyar235 = {
 	name = Farida
 	female = yes
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar227
 	mother = lineofstivantez104
 
@@ -216786,10 +216786,10 @@ lineofizadyar235 = {
 
 lineofizadyar236 = {
 	name = Amavand
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar227
 	mother = lineofstivantez104
 
@@ -216826,10 +216826,10 @@ lineofizadyar236 = {
 
 lineofizadyar237 = {
 	name = Vispanfria
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar231
 	mother = lineofdelsuzan20
 
@@ -216867,10 +216867,10 @@ lineofizadyar237 = {
 lineofizadyar238 = {
 	name = Shakerbanu
 	female = yes
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar231
 	mother = lineofdelsuzan20
 
@@ -216903,10 +216903,10 @@ lineofizadyar238 = {
 lineofizadyar239 = {
 	name = Rakhshandeh
 	female = yes
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar231
 	mother = lineofdelsuzan20
 
@@ -216938,10 +216938,10 @@ lineofizadyar239 = {
 lineofizadyar240 = {
 	name = Zarin
 	female = yes
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar231
 	mother = lineofdelsuzan20
 
@@ -216972,10 +216972,10 @@ lineofizadyar240 = {
 
 lineofizadyar241 = {
 	name = Advi
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar236
 	mother = lineoftahmahan159
 
@@ -217018,10 +217018,10 @@ lineofizadyar241 = {
 
 lineofizadyar242 = {
 	name = Faravindad
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar231
 	mother = lineofdelsuzan20
 
@@ -217058,10 +217058,10 @@ lineofizadyar242 = {
 
 lineofizadyar243 = {
 	name = Azadchehr
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar237
 	mother = lineofmeherzada59
 
@@ -217095,10 +217095,10 @@ lineofizadyar243 = {
 
 lineofizadyar244 = {
 	name = Habub
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar236
 	mother = lineoftahmahan159
 
@@ -217135,10 +217135,10 @@ lineofizadyar244 = {
 
 lineofizadyar245 = {
 	name = Aurashaspa
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar237
 	mother = lineofmeherzada59
 
@@ -217179,10 +217179,10 @@ lineofizadyar245 = {
 lineofizadyar246 = {
 	name = Khubrui
 	female = yes
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar237
 	mother = lineofmeherzada59
 
@@ -217213,10 +217213,10 @@ lineofizadyar246 = {
 
 lineofizadyar247 = {
 	name = Behzad
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar243
 	mother = lineofvispanfria163
 
@@ -217281,10 +217281,10 @@ lineofizadyar248 = {
 
 lineofizadyar249 = {
 	name = Husrav
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar242
 	mother = lineofbahadurhan118
 
@@ -217318,10 +217318,10 @@ lineofizadyar249 = {
 
 lineofizadyar250 = {
 	name = Khufiruz
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar241
 	mother = lineofhoshedarmah252
 
@@ -217352,10 +217352,10 @@ lineofizadyar250 = {
 
 lineofizadyar251 = {
 	name = Hutan
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar244
 	mother = lineofbahadurhan122
 
@@ -217386,10 +217386,10 @@ lineofizadyar251 = {
 
 lineofizadyar252 = {
 	name = Aspandyar
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar247
 	mother = lineofnaozadez72
 
@@ -217414,10 +217414,10 @@ lineofizadyar252 = {
 
 lineofizadyar253 = {
 	name = Bahramdad
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar247
 	mother = lineofnaozadez72
 
@@ -217443,10 +217443,10 @@ lineofizadyar253 = {
 
 lineofizadyar254 = {
 	name = Mahburzin
-	culture = khyan
+	 culture = anarikean
 	religion = faith_arienism
 
-	dynasty = dynasty_izadyar
+	dynasty_house = house_urvakhsha
 	father = lineofizadyar249
 	mother = lineofkaykhusru70
 
@@ -217476,7 +217476,7 @@ lineofizadyar254 = {
 ################
 
 lineofjahanabada1 = {
-	name = Vasna
+	name = Jahanabad
 	culture = khyan
 	religion = faith_arienism
 
@@ -217484,7 +217484,8 @@ lineofjahanabada1 = {
 
 	sexuality = heterosexual
 
-	trait = curious
+	trait = charming
+    trait = education_intrigue_4
 	6868.10.13 = {
 	    birth = yes
 	}
@@ -217630,7 +217631,7 @@ lineofjahanabada5 = {
 	6925.12.05 = {  # Married at age 28
 	    add_spouse = lineofjahanabada11
 	}
-	6945.01.14 = {  # Died at age 47
+	6960.01.14 = {  # Died at age 47
 	    death = { death_reason = death_dungeon_passive }
 	}
 }
@@ -217702,8 +217703,8 @@ lineofjahanabada7 = {
 	6935.07.23 = {  # Married at age 22
 	    add_spouse = lineofemetez29
 	}
-	6978.08.09 = {  # Died at age 65
-	    death = { death_reason = death_natural_causes }
+	6942.11.09 = {  # Died in Harshandatti rebellion
+	    death = { death_reason = death_battle }
 	}
 }
 
@@ -309479,8 +309480,8 @@ lineofkaran1 = {
     name = Karan 
 
     dynasty = dynasty_karanez
-    religion = faith_arienism
-    culture = khyan
+    religion = faith_uzdava
+    culture = bulchyadean
 
     sexuality = heterosexual
 
@@ -309545,8 +309546,8 @@ lineofkaran2 = {
     name = Farrokhan
 
     dynasty = dynasty_karanez
-    religion = faith_arienism
-    culture = khyan
+    religion = faith_uzdava
+    culture = bulchyadean
 
     father = lineofkaran1
     mother = lineofkaran1wife
@@ -309614,8 +309615,8 @@ lineofkaran3 = {
     name = Orvadasp 
 
     dynasty = dynasty_karanez
-    religion = faith_arienism
-    culture = khyan
+    religion = faith_uzdava
+    culture = bulchyadean
 
     father = lineofkaran2
     mother = lineofkaran2wife
@@ -309633,7 +309634,7 @@ lineofkaran3 = {
     learning = 4
     prowess = 4
 
-    trait = education_martial_3
+    trait = education_martial_2
 
     6865.2.27 = {
         birth = yes
@@ -309683,8 +309684,8 @@ lineofkaran4 = {
     name = Chubin
 
     dynasty = dynasty_karanez
-    religion = faith_arienism
-    culture = khyan
+    religion = faith_uzdava
+    culture = bulchyadean
 
     father = lineofkaran3
     mother = lineofkaran3wife
@@ -309702,7 +309703,7 @@ lineofkaran4 = {
     learning = 5
     prowess = 6
 
-    trait = education_diplomacy_2
+    trait = education_diplomacy_3
 
     6889.8.25 = {
         birth = yes
@@ -309752,8 +309753,8 @@ lineofkaran5 = {
     name = Delir 
 
     dynasty = dynasty_karanez
-    religion = faith_arienism
-    culture = khyan
+    religion = faith_uzdava
+    culture = bulchyadean
 
     father = lineofkaran4
     mother = lineofkaran4wife
@@ -309771,7 +309772,8 @@ lineofkaran5 = {
     learning = 3
     prowess = 4
 
-    trait = education_martial_2
+    trait = education_martial_4
+    trait = lifestyle_mariner
 
     6926.5.12 = {
         birth = yes
@@ -309821,8 +309823,8 @@ lineofkaran6 = {
     name = Jahanabad 
 
     dynasty = dynasty_karanez
-    religion = faith_arienism
-    culture = khyan
+    religion = faith_uzdava
+    culture = bulchyadean
 
     father = lineofkaran5
     mother = lineofkaran5wife
@@ -309890,8 +309892,8 @@ lineofkaran7 = {
     name = Kamran
 
     dynasty = dynasty_karanez
-    religion = faith_arienism
-    culture = khyan
+    religion = faith_uzdava
+    culture = bulchyadean
 
     father = lineofkaran5
     mother = lineofkaran5wife
@@ -309993,8 +309995,8 @@ lineofkaran9 = {
     name = Nekchehr
 
     dynasty = dynasty_karanez
-    religion = faith_arienism
-    culture = khyan
+    religion = faith_uzdava
+    culture = bulchyadean
 
     father = lineofkaran6
     mother = lineofkaran6wife
@@ -310062,8 +310064,8 @@ lineofkaran10 = {
     name = Mahyar
 
     dynasty = dynasty_karanez
-    religion = faith_arienism
-    culture = khyan
+    religion = faith_uzdava
+    culture = bulchyadean
 
     father = lineofkaran9
     mother = lineofkaran9wife
@@ -310137,8 +310139,8 @@ lineofkaran11 = {
     name = Afiveh
 
     dynasty = dynasty_karanez
-    religion = faith_arienism
-    culture = khyan
+    religion = faith_uzdava
+    culture = bulchyadean
 
     father = lineofkaran9
     mother = lineofkaran9wife
