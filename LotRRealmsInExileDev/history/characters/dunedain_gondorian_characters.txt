@@ -204841,7 +204841,7 @@ lineofastandurcadet72wife = {
     trait = patient
     trait = humble
 	trait = physique_good_3
-	trait = skinchanger
+	# trait = skinchanger
 
     diplomacy = 11
     martial = 11
@@ -204882,7 +204882,7 @@ lineofastandurcadet73 = { #to be made into a laamp
     trait = stubborn
 
     trait = fornicator
-    trait = skinchanger
+    # trait = skinchanger
 
     trait = lifestyle_hunter
 
@@ -204921,7 +204921,7 @@ lineofastandurcadet73 = { #to be made into a laamp
         
     }
 
-    6882.9.21 = {
+    6882.9.21 = { # Needs lifespan nerf for the whole house
         death = { death_reason = death_natural_causes }
     }
 }
