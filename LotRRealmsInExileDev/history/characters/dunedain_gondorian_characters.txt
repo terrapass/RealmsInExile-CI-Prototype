@@ -40841,7 +40841,7 @@ linehathor14 = {
 	dynasty = dynasty_rhandir
 	religion = faith_edain
 	culture = gondorian
-	father = linehathor12
+	father = linehathor13
 	
 
 	trait = blood_of_numenor_1
@@ -204907,6 +204907,7 @@ lineofastandurcadet73 = { #to be made into a laamp
         birth = yes
 			add_trait_xp = {
 				trait = lifestyle_hunter
+                track = hunter
 				value = 75
 			}
     }
