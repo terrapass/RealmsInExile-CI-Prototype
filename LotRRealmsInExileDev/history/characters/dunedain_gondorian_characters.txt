@@ -204892,8 +204892,6 @@ lineofastandurcadet73 = { #to be made into a laamp
 
     trait = blood_of_numenor_2
 
-
-
     diplomacy = 8
     martial = 9
     stewardship = 5
@@ -204963,6 +204961,10 @@ lineofastandurcadet74 = {
 			learn_language = language_sindarin
 		}
     }
+
+    6758.1.1={
+		employer = lineyrchdaugnir2
+	}
 
     6789.12.2 = {
         death = { death_reason = death_natural_causes }
@@ -231878,6 +231880,10 @@ lineofelendirpelargir75 = {
 		}
     }
 
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
+    }
+
     6801.3.7 = {
         death = { death_reason = death_natural_causes }
     }
@@ -231919,6 +231925,10 @@ lineofelendirpelargir76 = {
 
     6733.1.9 = {
         add_spouse = lineofelendirpelargir77
+    }
+
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
     }
 
     6833.8.15 = {
@@ -231997,6 +232007,10 @@ lineofelendirpelargir78 = {
 		}
     }
 
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
+    }
+
     6825.11.6 = {
         death = { death_reason = death_natural_causes }
     }
@@ -232035,6 +232049,10 @@ lineofelendirpelargir79 = {
 		effect = {
 			learn_language = language_sindarin
 		}
+    }
+
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
     }
 
     6839.10.8 = {
@@ -232155,8 +232173,8 @@ lineofelendirpelargir82 = {
 		}
     }
 
-    6771.3.10 = {
-        add_spouse = lineofelendirpelargir83
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
     }
 
     6853.3.3 = {
@@ -232193,6 +232211,10 @@ lineofelendirpelargir83 = {
 		effect = {
 			learn_language = language_sindarin
 		}
+    }
+
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
     }
 
     6863.1.24 = {
@@ -232235,6 +232257,10 @@ lineofelendirpelargir84 = {
 		}
     }
 
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
+    }
+
     6871.4.1 = {
         death = { death_reason = death_natural_causes }
     }
@@ -232273,6 +232299,10 @@ lineofelendirpelargir85 = {
 		effect = {
 			learn_language = language_sindarin
 		}
+    }
+
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
     }
 
     6867.9.14 = {
@@ -232434,6 +232464,10 @@ lineofelendirpelargir89 = {
 		}
     }
 
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
+    }
+
     6836.6.19 = {
         death = { death_reason = death_natural_causes }
     }
@@ -232477,6 +232511,10 @@ lineofelendirpelargir90 = {
         add_spouse = lineofelendirpelargir91
     }
 
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
+    }
+
     6843.9.14 = {
         death = { death_reason = death_natural_causes }
     }
@@ -232511,6 +232549,10 @@ lineofelendirpelargir91 = {
 		effect = {
 			learn_language = language_sindarin
 		}
+    }
+
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
     }
 
     6827.1.11 = {
