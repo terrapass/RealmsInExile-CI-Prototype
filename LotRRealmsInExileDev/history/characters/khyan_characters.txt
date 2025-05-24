@@ -5752,6 +5752,13 @@ lineoftirdahan8 = {
         birth = yes
     }
 
+    7011.8.3 = {
+	    effect = {
+            set_relation_rival = character:lineofvasnan42
+			set_relation_rival = character:lineofvasnan43
+        }
+	}
+
     7064.3.19 = {
         death = {
             death_reason = death_natural_causes
@@ -6641,6 +6648,10 @@ lineofvasnan22 = {
         trait = sadistic
     }
 
+    6988.7.10 = {
+        add_spouse = lineofadel21
+    }
+
     7016.11.17 = {
         death = { death_reason = death_natural_causes }
     }
@@ -7346,6 +7357,7 @@ lineofvasnan41 = {
     culture = khyan
 
     father = lineofvasnan22
+    mother = lineofadel21
 
     sexuality = heterosexual
 
@@ -7379,6 +7391,7 @@ lineofvasnan42 = {
     culture = khyan
 
     father = lineofvasnan22
+    mother = lineofadel21
 
     sexuality = heterosexual
 
@@ -7386,11 +7399,11 @@ lineofvasnan42 = {
     trait = cynical
     trait = callous
 
-    diplomacy = 6
+    diplomacy = 10
     martial = 6
     stewardship = 7
-    intrigue = 3
-    learning = 4
+    intrigue = 7
+    learning = 7
     prowess = 5
 
     trait = education_intrigue_5 # Hendrix said to
@@ -7398,6 +7411,18 @@ lineofvasnan42 = {
     6990.10.16 = {
         birth = yes
     }
+
+    7017.4.29 = {
+        add_spouse = lineofmahyar14
+        effect = {
+			create_alliance = {
+				target = character:lineofmahyar13
+				allied_through_owner = character:lineofvasnan42
+				allied_through_target = character:lineofmahyar14
+			}
+		}
+    }
+
     7041.9.19 = {
         death = { death_reason = death_natural_causes }
     }
@@ -7411,6 +7436,7 @@ lineofvasnan43 = {
     culture = khyan
 
     father = lineofvasnan42
+    mother = lineofmahyar14
 
     sexuality = heterosexual
 
@@ -7448,6 +7474,7 @@ lineofvasnan44 = {
     culture = khyan
 
     father = lineofvasnan42
+    mother = lineofmahyar14
 
     sexuality = heterosexual
 
@@ -8729,7 +8756,7 @@ lineofmahyar15 = {
 
     trait = education_learning_2
 
-    6987.7.20 = {
+    6997.7.20 = {
         birth = yes
     }
 
@@ -11251,6 +11278,7 @@ lineofdelir16 = {
     name = Nazneen
     female = yes
 
+    dynasty = dynasty_deliren
     religion = faith_arienism
     culture = khyan
 
