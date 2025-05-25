@@ -4516,7 +4516,7 @@ lineofciryaheri31 = {
     dna = telmarion_dna
 
     dynasty_house = house_ciryaher
-    religion = faith_castamiri_creed
+    religion = faith_edain
     culture = gondorian
 
     father = lineofciryaheri29
@@ -4553,6 +4553,10 @@ lineofciryaheri31 = {
 			learn_language = language_sindarin
 			learn_language = language_quenya
 		}
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5597.11.15 = {
@@ -249920,7 +249924,6 @@ lineofhundad83 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
         culture = umbaredain
     }
 
@@ -249998,7 +250001,6 @@ lineofhundad85 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
         culture = umbaredain
     }
 
@@ -250036,7 +250038,6 @@ lineofhundad86 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
         culture = umbaredain
     }
 
@@ -250081,8 +250082,11 @@ lineofhundad87 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
         culture = umbaredain
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5572.5.25 = {
@@ -250119,8 +250123,11 @@ lineofhundad88 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
         culture = umbaredain
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5606.10.21 = {
@@ -250164,8 +250171,11 @@ lineofhundad89 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
         culture = umbaredain
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5662.2.8 = {
@@ -250202,8 +250212,11 @@ lineofhundad90 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
         culture = umbaredain
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5667.5.17 = {
@@ -250215,7 +250228,7 @@ lineofhundad91 = {
     name = Galion
 
     dynasty = dynasty_hundadionath
-    religion = faith_castamiri_creed
+    religion = faith_edain
     culture = umbaredain
 
     father = lineofhundad89
@@ -250246,6 +250259,10 @@ lineofhundad91 = {
         add_spouse = lineofhundad92
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5702.7.3 = {
         death = { death_reason = death_natural_causes }
     }
@@ -250255,7 +250272,7 @@ lineofhundad92 = {
     name = Maewiel
     female = yes
 
-    religion = faith_castamiri_creed
+    religion = faith_edain
     culture = umbaredain
 
     sexuality = heterosexual
@@ -250279,6 +250296,10 @@ lineofhundad92 = {
         birth = yes
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5583.10.10 = {
         death = { death_reason = death_disappearance  }
     }
@@ -250288,7 +250309,7 @@ lineofhundad93 = {
     name = Caranthir
 
     dynasty = dynasty_hundadionath
-    religion = faith_castamiri_creed
+    religion = faith_edain
     culture = umbaredain
 
     father = lineofhundad89
@@ -250319,6 +250340,10 @@ lineofhundad93 = {
         add_spouse = lineofhundad94
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5701.4.1 = {
         death = { death_reason = death_natural_causes }
     }
@@ -250328,7 +250353,7 @@ lineofhundad94 = {
     name = Mirwen
     female = yes
 
-    religion = faith_castamiri_creed
+    religion = faith_edain
     culture = umbaredain
 
     sexuality = bisexual
@@ -250350,6 +250375,10 @@ lineofhundad94 = {
 
     5507.2.24 = {
         birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5629.11.14 = {
@@ -250389,8 +250418,11 @@ lineofhundad95 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
         culture = umbaredain
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5509.2.2 = {
@@ -250431,8 +250463,11 @@ lineofhundad96 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
         culture = umbaredain
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5669.1.14 = {
@@ -250444,7 +250479,7 @@ lineofhundad97 = {
     name = Thorongil
 
     dynasty = dynasty_hundadionath
-    religion = faith_castamiri_creed
+    religion = faith_edain
     culture = umbaredain
 
     father = lineofhundad95
@@ -250475,6 +250510,10 @@ lineofhundad97 = {
         add_spouse = lineofhundad98
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5716.11.11 = {
         death = { death_reason = death_natural_causes }
     }
@@ -250484,7 +250523,7 @@ lineofhundad98 = {
     name = Arniel
     female = yes
 
-    religion = faith_castamiri_creed
+    religion = faith_edain
     culture = umbaredain
 
     sexuality = heterosexual
@@ -250508,6 +250547,10 @@ lineofhundad98 = {
         birth = yes
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5714.3.27 = {
         death = { death_reason = death_natural_causes }
     }
@@ -250518,7 +250561,7 @@ lineofhundad99 = {
     female = yes
 
     dynasty = dynasty_hundadionath
-    religion = faith_castamiri_creed
+    religion = faith_edain
     culture = umbaredain
 
     father = lineofhundad95
@@ -250545,6 +250588,10 @@ lineofhundad99 = {
         birth = yes
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5713.5.24 = {
         death = { death_reason = death_natural_causes }
     }
@@ -250555,7 +250602,7 @@ lineofhundad100 = {
     female = yes
 
     dynasty = dynasty_hundadionath
-    religion = faith_castamiri_creed
+    religion = faith_edain
     culture = umbaredain
 
     father = lineofhundad95
@@ -250582,6 +250629,10 @@ lineofhundad100 = {
         birth = yes
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5702.7.27 = {
         death = { death_reason = death_natural_causes }
     }
@@ -250592,7 +250643,7 @@ lineofhundad101 = {
     female = yes
 
     dynasty = dynasty_hundadionath
-    religion = faith_castamiri_creed
+    religion = faith_edain
     culture = umbaredain
 
     father = lineofhundad95
@@ -250619,6 +250670,10 @@ lineofhundad101 = {
         birth = yes
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5713.8.26 = {
         death = { death_reason = death_natural_causes }
     }
@@ -250636,7 +250691,7 @@ lineofhundad102 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_5
 
     trait = humble
     trait = fickle
@@ -250651,7 +250706,7 @@ lineofhundad102 = {
 
     trait = education_martial_3
 
-    5665.10.27 = {
+    5640.10.27 = {
         birth = yes
     }
 
@@ -265842,7 +265897,7 @@ lineoferadan29 = {
         birth = yes
     }
 
-    5481.3.15 = {
+    5563.1.1 = {
         religion = faith_castamiri_creed
     }
 
