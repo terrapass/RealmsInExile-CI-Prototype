@@ -37376,9 +37376,6 @@ lineofganagahan32 = {
 	5165.03.27 = {  # Died at age 78
 	    death = { death_reason = death_natural_causes }
 	}
-	5165.06.22 = {  # Married at age 79
-	    add_spouse = lineofshajanahan38
-	}
 }
 
 lineofdarayavahu33 = {
@@ -44862,7 +44859,7 @@ lineofhaydahan112 = {
 	5459.06.28 = {  
 	    trait = eccentric
 	    trait = sadistic
-	    trait = callous
+	    trait = shy
 	}
 	5462.09.05 = {  # Married at age 19
 	    add_spouse = lineofkhurshchehra75
@@ -52039,9 +52036,6 @@ lineofishvathan128 = {
 	}
 	5439.09.10 = {  # Died at age 58
 	    death = { death_reason = death_natural_causes }
-	}
-	5439.12.18 = {  # Married at age 58
-	    add_spouse = lineofkhurshchehra53
 	}
 }
 
@@ -63897,9 +63891,6 @@ lineofkamdelehan15 = {
 	5353.04.07 = {  # Married at age 33
 	    add_spouse = lineofkamdelehan23
 	}
-	5396.08.04 = {  # Married at age 77
-	    add_spouse = lineofkersasphan40
-	}
 	5405.05.02 = {  # Died at age 85
 	    death = { death_reason = death_natural_causes }
 	}
@@ -69444,9 +69435,6 @@ lineofkersasphan62 = {
 	}
 	5510.06.09 = {  # Died at age 80
 	    death = { death_reason = death_natural_causes }
-	}
-	5510.12.22 = {  # Married at age 80
-	    add_spouse = lineofkhushnawazan24
 	}
 }
 
@@ -97953,9 +97941,6 @@ lineoframzeket53 = {
 	5198.10.21 = {  # Married at age 64
 	    add_spouse = lineofmujahan48
 	}
-	5218.11.24 = {  # Married at age 84
-	    add_spouse = lineofshajanahan43
-	}
 	5221.03.20 = {  # Died at age 86
 	    death = { death_reason = death_natural_causes }
 	}
@@ -101432,16 +101417,15 @@ lineoframzeket147 = {
 	trait = education_intrigue_2
 
 	trait = charming
+    trait = content
+	trait = gluttonous
+	trait = forgiving
+    
 	5508.11.28 = {
 	    birth = yes
 	}
 	5524.07.15 = {  # Died at age 15
 	    death = { death_reason = death_ill }
-	}
-	5524.11.28 = {  
-	    trait = content
-	    trait = gluttonous
-	    trait = forgiving
 	}
 }
 

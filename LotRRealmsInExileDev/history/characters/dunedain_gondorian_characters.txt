@@ -48251,7 +48251,7 @@ linetelemnarion10 = { # Welcomed Castamiri into Umbar
 			learn_language = language_sindarin	
 		}			
 	}
-	5519.1.1={
+	5519.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -48323,8 +48323,8 @@ linetelemnarion13 = {
 			learn_language = language_sindarin
 		}				
 	}
-	5487.1.1={
-		death = { death_reason = death_murder_known killer = lineofanarion55 } # Murdered by Castamiri in 1454due to his claim on umbar
+	5487.1.1 = {
+		death = { death_reason = death_murder_known killer = lineofanarion55 } # Murdered by Castamiri in 1454 due to his claim on umbar
 	}
 }
 
@@ -48342,7 +48342,7 @@ linetelemnarion14 = {
 	5444.1.1={
 		birth = yes			
 	}
-	5495.1.1={
+	5421.5.11 = {
 		death = { death_reason = death_hunting_accident } #Suspicous
 	}
 }
@@ -48361,7 +48361,7 @@ linetelemnarion15 = {
 	5458.1.1={
 		birth = yes			
 	}
-	5495.1.1={
+	5495.1.1 = {
 		death = { death_reason = death_drowned }
 	}
 }
@@ -202367,10 +202367,6 @@ lineofastandurcadet17twin = {
 		}
     }
 
-    5425.4.7 = {
-        add_spouse = lineofastandurcadet18
-    }
-
     5568.9.8 = {
         death = { death_reason = death_natural_causes }
     }
@@ -204819,7 +204815,7 @@ lineofastandurcadet72 = {
     }
 
     6742.9.21 = {
-        death = { death_reason = death_execution killer = character:lineprebeorn17brother }
+        death = { death_reason = death_execution killer = lineprebeorn17brother }
     }
 
 }
@@ -254338,9 +254334,9 @@ lineofoluchil86 = {
         birth = yes
     }
 
-    5481.3.15 = {
-        culture = umbaredain
-    }
+    # 5481.3.15 = {
+    #     culture = umbaredain
+    # }
 
     5480.3.17 = {
         death = { death_reason = death_natural_causes }
@@ -263069,7 +263065,7 @@ lineofelphir29 = {
         birth = yes
     }
 
-    5471.4.4 = {
+    5469.4.4 = {
         add_spouse = lineofelphir30
     }
 
@@ -268907,10 +268903,6 @@ lineofgelmir32 = {
 
     5430.8.5 = {
         birth = yes
-    }
-
-    5455.8.3 = {
-        add_spouse = lineofgelmir33
     }
 
     5481.3.12 = {
