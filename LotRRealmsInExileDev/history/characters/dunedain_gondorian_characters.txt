@@ -720,7 +720,7 @@ lineofanarion18 = {
 			learn_language = language_sindarin	
 			learn_language = language_quenya
 		}	
-        employer = lineofanarion15		
+        employer = lineofanarion13	
 	}
 
 	4835.1.1 = {
@@ -1473,7 +1473,7 @@ lineofanarion31brother = { # Brother of Minardil. Served as chief of intelligenc
 	}
     5668.1.1 = {
         faith = faith_castamiri_creed
-        employer = lineofcastamir5
+        #employer = lineofcastamir5
     }
     5719.3.5 = { # 224
         death = { death_reason = death_natural_causes }
@@ -16084,6 +16084,10 @@ dolamroth2 = {
 dolamroth0 = {
 	name = Mithrellas
 
+    father = lineoflenwe6
+    mother = lineoflenwe7
+    dynasty = dynasty_lenwe
+
 	religion = faith_eldar
 	culture = silvan
 
@@ -16092,7 +16096,6 @@ dolamroth0 = {
 	trait = beauty_good_3
     
 	trait = compassionate
-	trait = chaste
 	trait = just
 	trait = honest
 
@@ -27982,8 +27985,8 @@ linebenrodir25sister = {
     religion = faith_edain
     culture = gondorian
 
-    father = linebenrodir23
-    mother = linebenrodir24
+    #father = linebenrodir23 - change!
+    #mother = linebenrodir24
 
     sexuality = heterosexual
 
@@ -31411,7 +31414,6 @@ lineoftauron25 = {
 
     trait = blood_of_numenor_2
 
-
     diplomacy = 4
     martial = 3
     stewardship = 3
@@ -31421,12 +31423,10 @@ lineoftauron25 = {
 
     trait = education_learning_4
 
+    trait = curious
+
     6773.6.18 = {
         birth = yes
-    }
-
-    6776.6.18 = {
-        trait = curious
     }
 
     6787.1.1 = {
@@ -31468,12 +31468,10 @@ lineoftauron26 = {
 
     trait = education_diplomacy_2
 
+    trait = charming
+
     6777.4.11 = {
         birth = yes
-    }
-
-    6780.4.11 = {
-        trait = charming
     }
 
     6787.1.1 = {
@@ -76894,9 +76892,9 @@ linecaranor12 = {
         religion = faith_castamiri_creed
     }
 	
-    5575.11.14 = {
-        add_spouse = linecaranor12wife
-    }
+    #5575.11.14 = { # Doesn't exist yet, Vaku fix
+    #    add_spouse = linecaranor12wife
+    #}
 
     5681.7.8 = {
         death = { death_reason = death_natural_causes }
