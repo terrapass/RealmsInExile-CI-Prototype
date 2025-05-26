@@ -4516,7 +4516,7 @@ lineofciryaheri31 = {
     dna = telmarion_dna
 
     dynasty_house = house_ciryaher
-    religion = faith_castamiri_creed
+    religion = faith_edain
     culture = gondorian
 
     father = lineofciryaheri29
@@ -4553,6 +4553,10 @@ lineofciryaheri31 = {
 			learn_language = language_sindarin
 			learn_language = language_quenya
 		}
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5597.11.15 = {
@@ -9344,7 +9348,7 @@ lineofroquendil51 = {
 		}
     }
 
-    6542.1.1 = {
+    6543.3.1 = {
         give_nickname = nick_methrohir
         effect = {
             add_character_flag = {
@@ -40841,7 +40845,7 @@ linehathor14 = {
 	dynasty = dynasty_rhandir
 	religion = faith_edain
 	culture = gondorian
-	father = linehathor12
+	father = linehathor13
 	
 
 	trait = blood_of_numenor_1
@@ -48251,7 +48255,7 @@ linetelemnarion10 = { # Welcomed Castamiri into Umbar
 			learn_language = language_sindarin	
 		}			
 	}
-	5519.1.1={
+	5519.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -48323,8 +48327,8 @@ linetelemnarion13 = {
 			learn_language = language_sindarin
 		}				
 	}
-	5487.1.1={
-		death = { death_reason = death_murder_known killer = lineofanarion55 } # Murdered by Castamiri in 1454due to his claim on umbar
+	5487.1.1 = {
+		death = { death_reason = death_murder_known killer = lineofanarion55 } # Murdered by Castamiri in 1454 due to his claim on umbar
 	}
 }
 
@@ -48342,7 +48346,7 @@ linetelemnarion14 = {
 	5444.1.1={
 		birth = yes			
 	}
-	5495.1.1={
+	5421.5.11 = {
 		death = { death_reason = death_hunting_accident } #Suspicous
 	}
 }
@@ -48361,7 +48365,7 @@ linetelemnarion15 = {
 	5458.1.1={
 		birth = yes			
 	}
-	5495.1.1={
+	5495.1.1 = {
 		death = { death_reason = death_drowned }
 	}
 }
@@ -202367,10 +202371,6 @@ lineofastandurcadet17twin = {
 		}
     }
 
-    5425.4.7 = {
-        add_spouse = lineofastandurcadet18
-    }
-
     5568.9.8 = {
         death = { death_reason = death_natural_causes }
     }
@@ -204819,7 +204819,7 @@ lineofastandurcadet72 = {
     }
 
     6742.9.21 = {
-        death = { death_reason = death_execution killer = character:lineprebeorn17brother }
+        death = { death_reason = death_execution killer = lineprebeorn17brother }
     }
 
 }
@@ -204841,7 +204841,7 @@ lineofastandurcadet72wife = {
     trait = patient
     trait = humble
 	trait = physique_good_3
-	trait = skinchanger
+	# trait = skinchanger
 
     diplomacy = 11
     martial = 11
@@ -204882,7 +204882,7 @@ lineofastandurcadet73 = { #to be made into a laamp
     trait = stubborn
 
     trait = fornicator
-    trait = skinchanger
+    # trait = skinchanger
 
     trait = lifestyle_hunter
 
@@ -204891,8 +204891,6 @@ lineofastandurcadet73 = { #to be made into a laamp
     trait = strong
 
     trait = blood_of_numenor_2
-
-
 
     diplomacy = 8
     martial = 9
@@ -204907,6 +204905,7 @@ lineofastandurcadet73 = { #to be made into a laamp
         birth = yes
 			add_trait_xp = {
 				trait = lifestyle_hunter
+                track = hunter
 				value = 75
 			}
     }
@@ -204922,7 +204921,7 @@ lineofastandurcadet73 = { #to be made into a laamp
         
     }
 
-    6882.9.21 = {
+    6882.9.21 = { # Needs lifespan nerf for the whole house
         death = { death_reason = death_natural_causes }
     }
 }
@@ -204962,6 +204961,10 @@ lineofastandurcadet74 = {
 			learn_language = language_sindarin
 		}
     }
+
+    6758.1.1={
+		employer = lineyrchdaugnir2
+	}
 
     6789.12.2 = {
         death = { death_reason = death_natural_causes }
@@ -231877,6 +231880,10 @@ lineofelendirpelargir75 = {
 		}
     }
 
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
+    }
+
     6801.3.7 = {
         death = { death_reason = death_natural_causes }
     }
@@ -231918,6 +231925,10 @@ lineofelendirpelargir76 = {
 
     6733.1.9 = {
         add_spouse = lineofelendirpelargir77
+    }
+
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
     }
 
     6833.8.15 = {
@@ -231996,6 +232007,10 @@ lineofelendirpelargir78 = {
 		}
     }
 
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
+    }
+
     6825.11.6 = {
         death = { death_reason = death_natural_causes }
     }
@@ -232034,6 +232049,10 @@ lineofelendirpelargir79 = {
 		effect = {
 			learn_language = language_sindarin
 		}
+    }
+
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
     }
 
     6839.10.8 = {
@@ -232154,8 +232173,8 @@ lineofelendirpelargir82 = {
 		}
     }
 
-    6771.3.10 = {
-        add_spouse = lineofelendirpelargir83
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
     }
 
     6853.3.3 = {
@@ -232192,6 +232211,10 @@ lineofelendirpelargir83 = {
 		effect = {
 			learn_language = language_sindarin
 		}
+    }
+
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
     }
 
     6863.1.24 = {
@@ -232234,6 +232257,10 @@ lineofelendirpelargir84 = {
 		}
     }
 
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
+    }
+
     6871.4.1 = {
         death = { death_reason = death_natural_causes }
     }
@@ -232272,6 +232299,10 @@ lineofelendirpelargir85 = {
 		effect = {
 			learn_language = language_sindarin
 		}
+    }
+
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
     }
 
     6867.9.14 = {
@@ -232433,6 +232464,10 @@ lineofelendirpelargir89 = {
 		}
     }
 
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
+    }
+
     6836.6.19 = {
         death = { death_reason = death_natural_causes }
     }
@@ -232476,6 +232511,10 @@ lineofelendirpelargir90 = {
         add_spouse = lineofelendirpelargir91
     }
 
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
+    }
+
     6843.9.14 = {
         death = { death_reason = death_natural_causes }
     }
@@ -232510,6 +232549,10 @@ lineofelendirpelargir91 = {
 		effect = {
 			learn_language = language_sindarin
 		}
+    }
+
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
     }
 
     6827.1.11 = {
@@ -240136,6 +240179,10 @@ lineofelaran67 = {
         add_spouse = lineofelaran68
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5645.3.15 = {
         death = { death_reason = death_natural_causes }
     }
@@ -240173,6 +240220,10 @@ lineofelaran68 = {
         culture = umbaredain
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5646.12.12 = {
         death = { death_reason = death_natural_causes }
     }
@@ -240182,7 +240233,7 @@ lineofelaran69 = {
     name = Borothor
 
     dynasty = dynasty_gaerrandirath
-    religion = faith_castamiri_creed
+    religion = faith_edain
     culture = umbaredain
 
     father = lineofelaran67
@@ -240209,6 +240260,10 @@ lineofelaran69 = {
         birth = yes
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5560.9.9 = {
         add_spouse = lineofelaran70
     }
@@ -240222,7 +240277,7 @@ lineofelaran70 = {
     name = Nedhwen
     female = yes
 
-    religion = faith_castamiri_creed
+    religion = faith_edain
     culture = umbaredain
 
     sexuality = bisexual
@@ -240244,6 +240299,10 @@ lineofelaran70 = {
 
     5520.3.1 = {
         birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5700.5.25 = {
@@ -249865,7 +249924,7 @@ lineofhundad83 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
+        culture = umbaredain
     }
 
     5482.11.17 = {
@@ -249942,7 +250001,7 @@ lineofhundad85 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
+        culture = umbaredain
     }
 
     5536.12.18 = {
@@ -249979,7 +250038,7 @@ lineofhundad86 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
+        culture = umbaredain
     }
 
     5546.7.25 = {
@@ -250023,6 +250082,10 @@ lineofhundad87 = {
     }
 
     5481.3.15 = {
+        culture = umbaredain
+    }
+
+    5563.1.1 = {
         religion = faith_castamiri_creed
     }
 
@@ -250060,6 +250123,10 @@ lineofhundad88 = {
     }
 
     5481.3.15 = {
+        culture = umbaredain
+    }
+
+    5563.1.1 = {
         religion = faith_castamiri_creed
     }
 
@@ -250104,6 +250171,10 @@ lineofhundad89 = {
     }
 
     5481.3.15 = {
+        culture = umbaredain
+    }
+
+    5563.1.1 = {
         religion = faith_castamiri_creed
     }
 
@@ -250141,6 +250212,10 @@ lineofhundad90 = {
     }
 
     5481.3.15 = {
+        culture = umbaredain
+    }
+
+    5563.1.1 = {
         religion = faith_castamiri_creed
     }
 
@@ -250153,8 +250228,8 @@ lineofhundad91 = {
     name = Galion
 
     dynasty = dynasty_hundadionath
-    religion = faith_castamiri_creed
-    culture = gondorian
+    religion = faith_edain
+    culture = umbaredain
 
     father = lineofhundad89
     mother = lineofhundad90
@@ -250184,6 +250259,10 @@ lineofhundad91 = {
         add_spouse = lineofhundad92
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5702.7.3 = {
         death = { death_reason = death_natural_causes }
     }
@@ -250193,8 +250272,8 @@ lineofhundad92 = {
     name = Maewiel
     female = yes
 
-    religion = faith_castamiri_creed
-    culture = gondorian
+    religion = faith_edain
+    culture = umbaredain
 
     sexuality = heterosexual
 
@@ -250217,6 +250296,10 @@ lineofhundad92 = {
         birth = yes
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5583.10.10 = {
         death = { death_reason = death_disappearance  }
     }
@@ -250226,8 +250309,8 @@ lineofhundad93 = {
     name = Caranthir
 
     dynasty = dynasty_hundadionath
-    religion = faith_castamiri_creed
-    culture = gondorian
+    religion = faith_edain
+    culture = umbaredain
 
     father = lineofhundad89
     mother = lineofhundad90
@@ -250257,6 +250340,10 @@ lineofhundad93 = {
         add_spouse = lineofhundad94
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5701.4.1 = {
         death = { death_reason = death_natural_causes }
     }
@@ -250266,8 +250353,8 @@ lineofhundad94 = {
     name = Mirwen
     female = yes
 
-    religion = faith_castamiri_creed
-    culture = gondorian
+    religion = faith_edain
+    culture = umbaredain
 
     sexuality = bisexual
 
@@ -250288,6 +250375,10 @@ lineofhundad94 = {
 
     5507.2.24 = {
         birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5629.11.14 = {
@@ -250327,6 +250418,10 @@ lineofhundad95 = {
     }
 
     5481.3.15 = {
+        culture = umbaredain
+    }
+
+    5563.1.1 = {
         religion = faith_castamiri_creed
     }
 
@@ -250368,6 +250463,10 @@ lineofhundad96 = {
     }
 
     5481.3.15 = {
+        culture = umbaredain
+    }
+
+    5563.1.1 = {
         religion = faith_castamiri_creed
     }
 
@@ -250380,8 +250479,8 @@ lineofhundad97 = {
     name = Thorongil
 
     dynasty = dynasty_hundadionath
-    religion = faith_castamiri_creed
-    culture = gondorian
+    religion = faith_edain
+    culture = umbaredain
 
     father = lineofhundad95
     mother = lineofhundad96
@@ -250411,6 +250510,10 @@ lineofhundad97 = {
         add_spouse = lineofhundad98
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5716.11.11 = {
         death = { death_reason = death_natural_causes }
     }
@@ -250420,8 +250523,8 @@ lineofhundad98 = {
     name = Arniel
     female = yes
 
-    religion = faith_castamiri_creed
-    culture = gondorian
+    religion = faith_edain
+    culture = umbaredain
 
     sexuality = heterosexual
 
@@ -250444,6 +250547,10 @@ lineofhundad98 = {
         birth = yes
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5714.3.27 = {
         death = { death_reason = death_natural_causes }
     }
@@ -250454,8 +250561,8 @@ lineofhundad99 = {
     female = yes
 
     dynasty = dynasty_hundadionath
-    religion = faith_castamiri_creed
-    culture = gondorian
+    religion = faith_edain
+    culture = umbaredain
 
     father = lineofhundad95
     mother = lineofhundad96
@@ -250481,6 +250588,10 @@ lineofhundad99 = {
         birth = yes
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5713.5.24 = {
         death = { death_reason = death_natural_causes }
     }
@@ -250491,8 +250602,8 @@ lineofhundad100 = {
     female = yes
 
     dynasty = dynasty_hundadionath
-    religion = faith_castamiri_creed
-    culture = gondorian
+    religion = faith_edain
+    culture = umbaredain
 
     father = lineofhundad95
     mother = lineofhundad96
@@ -250518,6 +250629,10 @@ lineofhundad100 = {
         birth = yes
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5702.7.27 = {
         death = { death_reason = death_natural_causes }
     }
@@ -250528,8 +250643,8 @@ lineofhundad101 = {
     female = yes
 
     dynasty = dynasty_hundadionath
-    religion = faith_castamiri_creed
-    culture = gondorian
+    religion = faith_edain
+    culture = umbaredain
 
     father = lineofhundad95
     mother = lineofhundad96
@@ -250555,12 +250670,490 @@ lineofhundad101 = {
         birth = yes
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5713.8.26 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
+lineofhundad102 = {
+    name = Gwindor
 
+    dynasty = dynasty_hundadionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofhundad91
+    mother = lineofhundad92
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = humble
+    trait = fickle
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 2
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    5640.10.27 = {
+        birth = yes
+    }
+
+    5716.10.28 = {
+        add_spouse = lineofhundad103
+    }
+
+    5830.1.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofhundad103 = {
+    name = Silien
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = bisexual
+
+    trait = blood_of_numenor_4
+
+    trait = zealous
+    trait = craven
+    trait = callous
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 6
+    intrigue = 2
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5680.8.21 = {
+        birth = yes
+    }
+
+    5857.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofhundad104 = {
+    name = Olurin
+
+    dynasty = dynasty_hundadionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofhundad102
+    mother = lineofhundad103
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = lazy
+    trait = paranoid
+    trait = humble
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 10
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    5729.4.11 = {
+        birth = yes
+    }
+
+    5772.6.20 = {
+        add_spouse = lineofhundad105
+    }
+
+    5843.7.23 = {
+        death = { death_reason = death_execution }
+    }
+}
+
+lineofhundad105 = {
+    name = Thaliel
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = brave
+    trait = humble
+    trait = wrathful
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 3
+    intrigue = 2
+    learning = 3
+    prowess = 4
+
+    trait = education_martial_2
+
+    5727.7.17 = {
+        birth = yes
+    }
+
+    5879.6.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofhundad106 = {
+    name = Nendur
+
+    dynasty = dynasty_hundadionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofhundad104
+    mother = lineofhundad105
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = lazy
+    trait = lustful
+    trait = just
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 3
+    intrigue = 6
+    learning = 3
+    prowess = 3
+
+    trait = education_martial_3
+
+    5772.7.7 = {
+        birth = yes
+    }
+
+    5812.6.10 = {
+        add_spouse = lineofhundad107
+    }
+
+    5843.7.23 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lineofhundad107 = {
+    name = Thaliel
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = lazy
+    trait = gluttonous
+    trait = vengeful
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_3
+
+    5770.2.24 = {
+        birth = yes
+    }
+
+    5850.6.13 = {
+        death = { death_reason = death_disappearance  }
+    }
+}
+
+lineofhundad108 = {
+    name = Anduchil
+
+    dynasty = dynasty_hundadionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofhundad106
+    mother = lineofhundad107
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = brave
+    trait = deceitful
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    5814.10.10 = {
+        birth = yes
+    }
+
+    5841.1.23 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+lineofhundad110 = {
+    name = Beregond
+
+    dynasty = dynasty_hundadionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofhundad104
+    mother = lineofhundad105
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = wrathful
+    trait = gluttonous
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 1
+    intrigue = 4
+    learning = 2
+    prowess = 3
+
+    trait = education_martial_2
+
+    5773.3.9 = {
+        birth = yes
+    }
+
+    5816.2.23 = {
+        add_spouse = lineofhundad111
+    }
+
+    5843.7.23 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lineofhundad111 = {
+    name = Idrien
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = honest
+    trait = just
+    trait = trusting
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 5
+    intrigue = 5
+    learning = 3
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    5771.1.13 = {
+        birth = yes
+    }
+
+    5939.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofhundad112 = {
+    name = Morlaen
+
+    dynasty = dynasty_hundadionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofhundad110
+    mother = lineofhundad111
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = temperate
+    trait = generous
+    trait = gregarious
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 2
+    intrigue = 5
+    learning = 2
+    prowess = 8
+
+    trait = education_intrigue_1
+
+    5816.9.10 = {
+        birth = yes
+    }
+
+
+    5843.7.23 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lineofhundad114 = {
+    name = Hiril
+    female = yes
+
+    dynasty = dynasty_hundadionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofhundad110
+    mother = lineofhundad111
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = stubborn
+    trait = craven
+    trait = gregarious
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_2
+
+    5817.5.28 = {
+        birth = yes
+    }
+
+    5986.4.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofhundad115 = {
+    name = Avarwen
+    female = yes
+
+    dynasty = dynasty_hundadionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofhundad104
+    mother = lineofhundad105
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = callous
+    trait = chaste
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 4
+    intrigue = 4
+    learning = 10
+    prowess = 3
+
+    trait = education_learning_1
+
+    5774.1.9 = {
+        birth = yes
+    }
+
+    5941.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofhundad116 = {
+    name = Ivriniel
+    female = yes
+
+    dynasty = dynasty_hundadionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofhundad104
+    mother = lineofhundad105
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = honest
+    trait = generous
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 11
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    5775.8.24 = {
+        birth = yes
+    }
+
+    5939.12.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
 
 #####################
 ### Oluchilionath ###
@@ -253724,7 +254317,6 @@ lineofoluchil85 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
         culture = umbaredain
     }
 
@@ -253761,10 +254353,9 @@ lineofoluchil86 = {
         birth = yes
     }
 
-    5481.3.15 = {
-        religion = faith_castamiri_creed
-        culture = umbaredain
-    }
+    # 5481.3.15 = {
+    #     culture = umbaredain
+    # }
 
     5480.3.17 = {
         death = { death_reason = death_natural_causes }
@@ -253807,7 +254398,6 @@ lineofoluchil87 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
         culture = umbaredain
     }
 
@@ -253882,8 +254472,11 @@ lineofoluchil89 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
         culture = umbaredain
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5600.4.10 = {
@@ -253927,8 +254520,11 @@ lineofoluchil90 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
         culture = umbaredain
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5600.9.25 = {
@@ -253965,8 +254561,11 @@ lineofoluchil91 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
         culture = umbaredain
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5600.12.20 = {
@@ -254010,8 +254609,11 @@ lineofoluchil92 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
         culture = umbaredain
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5596.6.18 = {
@@ -254048,8 +254650,11 @@ lineofoluchil93 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
         culture = umbaredain
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5598.8.9 = {
@@ -254093,7 +254698,6 @@ lineofoluchil94 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
         culture = umbaredain
     }
 
@@ -254131,7 +254735,6 @@ lineofoluchil95 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
         culture = umbaredain
     }
 
@@ -254173,8 +254776,11 @@ lineofoluchil96 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
         culture = umbaredain
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5605.9.18 = {
@@ -254218,8 +254824,11 @@ lineofoluchil97 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
         culture = umbaredain
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5633.5.13 = {
@@ -254256,8 +254865,11 @@ lineofoluchil98 = {
     }
 
     5481.3.15 = {
-        religion = faith_castamiri_creed
         culture = umbaredain
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5600.4.13 = {
@@ -254269,7 +254881,7 @@ lineofoluchil99 = {
     name = Thoronroval
 
     dynasty = dynasty_oluchilionath
-    religion = faith_castamiri_creed
+    religion = faith_edain
     culture = umbaredain
 
     father = lineofoluchil97
@@ -254300,6 +254912,10 @@ lineofoluchil99 = {
         add_spouse = lineofoluchil100
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5707.6.3 = {
         death = { death_reason = death_natural_causes }
     }
@@ -254309,7 +254925,7 @@ lineofoluchil100 = {
     name = Fuiniel
     female = yes
 
-    religion = faith_castamiri_creed
+    religion = faith_edain
     culture = umbaredain
 
     sexuality = heterosexual
@@ -254333,6 +254949,10 @@ lineofoluchil100 = {
         birth = yes
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5707.2.10 = {
         death = { death_reason = death_natural_causes }
     }
@@ -254342,7 +254962,7 @@ lineofoluchil101 = {
     name = Elboron
 
     dynasty = dynasty_oluchilionath
-    religion = faith_castamiri_creed
+    religion = faith_edain
     culture = umbaredain
 
     father = lineofoluchil99
@@ -254371,6 +254991,10 @@ lineofoluchil101 = {
 
     5612.12.26 = {
         add_spouse = lineofoluchil102
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5753.7.25 = {
@@ -262460,7 +263084,7 @@ lineofelphir29 = {
         birth = yes
     }
 
-    5471.4.4 = {
+    5469.4.4 = {
         add_spouse = lineofelphir30
     }
 
@@ -264163,6 +264787,967 @@ lineofragnir14 = {
     }
 }
 
+lineofragnir15 = {
+    name = Nendur
+
+    dynasty = dynasty_ragnirion
+    religion = faith_edain
+    culture = umbaredain
+
+    father = lineofragnir11
+    mother = lineofragnir12
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = humble
+    trait = fickle
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 2
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    5345.12.4 = {
+        birth = yes
+    }
+
+    5406.7.19 = {
+        add_spouse = lineofragnir16
+    }
+
+    5529.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofragnir16 = {
+    name = Celebrindal
+    female = yes
+
+    religion = faith_edain
+    culture = umbaredain
+
+    sexuality = bisexual
+
+    trait = blood_of_numenor_5
+
+    trait = zealous
+    trait = craven
+    trait = callous
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 6
+    intrigue = 2
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5365.1.24 = {
+        birth = yes
+    }
+
+    5540.9.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofragnir17 = {
+    name = Harathor
+
+    dynasty = dynasty_ragnirion
+    religion = faith_edain
+    culture = umbaredain
+
+    father = lineofragnir15
+    mother = lineofragnir16
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = lazy
+    trait = paranoid
+    trait = humble
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 10
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    5417.1.20 = {
+        birth = yes
+    }
+
+    5463.3.8 = {
+        add_spouse = lineofragnir18
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5606.5.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofragnir18 = {
+    name = Tarandis
+    female = yes
+
+    religion = faith_edain
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = brave
+    trait = humble
+    trait = wrathful
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 3
+    intrigue = 2
+    learning = 3
+    prowess = 4
+
+    trait = education_martial_2
+
+    5415.3.28 = {
+        birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5591.9.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofragnir19 = {
+    name = Morvegil
+
+    dynasty = dynasty_ragnirion
+    religion = faith_edain
+    culture = umbaredain
+
+    father = lineofragnir17
+    mother = lineofragnir18
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = lazy
+    trait = lustful
+    trait = just
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 3
+    intrigue = 6
+    learning = 3
+    prowess = 3
+
+    trait = education_martial_3
+
+    5463.6.22 = {
+        birth = yes
+    }
+
+    5503.3.4 = {
+        add_spouse = lineofragnir20
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5644.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofragnir20 = {
+    name = Faniel
+    female = yes
+
+    religion = faith_edain
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = lazy
+    trait = gluttonous
+    trait = vengeful
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_3
+
+    5461.1.19 = {
+        birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5580.12.4 = {
+        death = { death_reason = death_disappearance  }
+    }
+}
+
+lineofragnir21 = {
+    name = Girion
+
+    dynasty = dynasty_ragnirion
+    religion = faith_edain
+    culture = umbaredain
+
+    father = lineofragnir19
+    mother = lineofragnir20
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = brave
+    trait = deceitful
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    5508.11.9 = {
+        birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5552.7.9 = {
+        add_spouse = lineofragnir22
+    }
+
+    5694.2.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofragnir22 = {
+    name = Celebrian
+    female = yes
+
+    religion = faith_edain
+    culture = umbaredain
+
+    sexuality = bisexual
+
+    trait = blood_of_numenor_5
+
+    trait = calm
+    trait = vengeful
+    trait = shy
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 3
+    intrigue = 6
+    learning = 4
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    5506.10.6 = {
+        birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5660.1.24 = {
+        death = { death_reason = death_dungeon  }
+    }
+}
+
+lineofragnir23 = {
+    name = Bereg
+
+    dynasty = dynasty_ragnirion
+    religion = faith_edain
+    culture = umbaredain
+
+    father = lineofragnir21
+    mother = lineofragnir22
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = wrathful
+    trait = gluttonous
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 1
+    intrigue = 4
+    learning = 2
+    prowess = 3
+
+    trait = education_martial_2
+
+    5552.8.20 = {
+        birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5598.2.23 = {
+        add_spouse = lineofragnir24
+    }
+
+    5726.8.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofragnir24 = {
+    name = Lumiel
+    female = yes
+
+    religion = faith_edain
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = honest
+    trait = just
+    trait = trusting
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 5
+    intrigue = 5
+    learning = 3
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    5550.2.25 = {
+        birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5725.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofragnir25 = {
+    name = Balan
+
+    dynasty = dynasty_ragnirion
+    religion = faith_edain
+    culture = umbaredain
+
+    father = lineofragnir21
+    mother = lineofragnir22
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = temperate
+    trait = generous
+    trait = gregarious
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 2
+    intrigue = 5
+    learning = 2
+    prowess = 8
+
+    trait = education_intrigue_1
+
+    5553.10.8 = {
+        birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5598.2.21 = {
+        add_spouse = lineofragnir26
+    }
+
+    5736.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofragnir26 = {
+    name = Corwen
+    female = yes
+
+    religion = faith_edain
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = zealous
+    trait = temperate
+    trait = lazy
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 2
+    intrigue = 2
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    5551.2.24 = {
+        birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5721.11.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofragnir27 = {
+    name = Aerin
+    female = yes
+
+    dynasty = dynasty_ragnirion
+    religion = faith_edain
+    culture = umbaredain
+
+    father = lineofragnir21
+    mother = lineofragnir22
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = stubborn
+    trait = craven
+    trait = gregarious
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_2
+
+    5554.2.2 = {
+        birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5738.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofragnir28 = {
+    name = Fingalithil
+    female = yes
+
+    dynasty = dynasty_ragnirion
+    religion = faith_edain
+    culture = umbaredain
+
+    father = lineofragnir21
+    mother = lineofragnir22
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = callous
+    trait = chaste
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 4
+    intrigue = 4
+    learning = 10
+    prowess = 3
+
+    trait = education_learning_1
+
+    5555.7.21 = {
+        birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5729.1.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofragnir29 = {
+    name = Oluchil
+
+    dynasty = dynasty_ragnirion
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofragnir23
+    mother = lineofragnir24
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = compassionate
+    trait = honest
+    trait = generous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 11
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    5605.7.27 = {
+        birth = yes
+    }
+
+    5656.1.28 = {
+        add_spouse = lineofragnir30
+    }
+
+    5773.8.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofragnir30 = {
+    name = Arniel
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = generous
+    trait = deceitful
+    trait = trusting
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    5620.2.5 = {
+        birth = yes
+    }
+
+    5782.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofragnir31 = {
+    name = Borlong
+
+    dynasty = dynasty_ragnirion
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofragnir29
+    mother = lineofragnir30
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = fickle
+    trait = lustful
+    trait = honest
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    5672.3.5 = {
+        birth = yes
+    }
+
+    5709.3.13 = {
+        add_spouse = lineofragnir32
+    }
+
+    5839.10.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofragnir32 = {
+    name = Bellas
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = lustful
+    trait = trusting
+    trait = ambitious
+
+    diplomacy = 8
+    martial = 2
+    stewardship = 1
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    5670.2.1 = {
+        birth = yes
+    }
+
+    5840.6.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofragnir33 = {
+    name = Olured
+
+    dynasty = dynasty_ragnirion
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofragnir31
+    mother = lineofragnir32
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = honest
+    trait = ambitious
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 2
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    5712.1.16 = {
+        birth = yes
+    }
+
+    5751.3.19 = {
+        add_spouse = lineofragnir34
+    }
+
+    5804.4.10 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+lineofragnir34 = {
+    name = Pallas
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = lazy
+    trait = sadistic
+    trait = trusting
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    5710.7.22 = {
+        birth = yes
+    }
+
+    5833.12.28 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+lineofragnir35 = {
+    name = Agathor
+
+    dynasty = dynasty_ragnirion
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofragnir33
+    mother = lineofragnir34
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = wrathful
+    trait = content
+    trait = greedy
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 8
+    intrigue = 4
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5754.3.28 = {
+        birth = yes
+    }
+
+    5789.4.24 = {
+        add_spouse = lineofragnir36
+    }
+
+    5843.7.23 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lineofragnir36 = {
+    name = Eledhwen
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = honest
+    trait = callous
+    trait = cynical
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 2
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    5752.10.26 = {
+        birth = yes
+    }
+
+    5917.11.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofragnir37 = {
+    name = Baragund
+
+    dynasty = dynasty_ragnirion
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofragnir35
+    mother = lineofragnir36
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = craven
+    trait = honest
+    trait = temperate
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 7
+
+    trait = education_martial_2
+
+    5797.12.5 = {
+        birth = yes
+    }
+
+    5839.3.18 = {
+        add_spouse = lineofragnir38
+    }
+
+    5843.7.23 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lineofragnir38 = {
+    name = Bregil
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = bisexual
+
+    trait = blood_of_numenor_4
+
+    trait = gluttonous
+    trait = patient
+    trait = generous
+
+    diplomacy = 1
+    martial = 3
+    stewardship = 2
+    intrigue = 5
+    learning = 4
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    5795.4.11 = {
+        birth = yes
+    }
+
+    5950.3.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofragnir39 = {
+    name = Orthalion
+
+    dynasty = dynasty_ragnirion
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofragnir37
+    mother = lineofragnir38
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = content
+    trait = cynical
+    trait = vengeful
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    5839.5.11 = {
+        birth = yes
+    }
+
+    5942.1.16 = {
+        death = { death_reason = death_ill }
+    }
+}
+
 ####################
 ### Eradanionath ###
 ####################
@@ -264854,7 +266439,7 @@ lineoferadan19 = {
     }
 
     5490.1.8 = {
-        death = { death_reason = death_leper }
+        death = { death_reason = death_ill }
     }
 }
 
@@ -264962,6 +266547,10 @@ lineoferadan22 = {
         birth = yes
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5571.12.11 = {
         death = { death_reason = death_natural_causes }
     }
@@ -265002,6 +266591,10 @@ lineoferadan23 = {
         add_spouse = lineoferadan24
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5610.12.4 = {
         death = { death_reason = death_natural_causes }
     }
@@ -265033,6 +266626,10 @@ lineoferadan24 = {
 
     5415.4.24 = {
         birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5610.2.24 = {
@@ -265073,6 +266670,10 @@ lineoferadan25 = {
 
     5414.3.3 = {
         add_spouse = lineoferadan26
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5566.3.7 = {
@@ -265184,6 +266785,10 @@ lineoferadan28 = {
         add_spouse = lineoferadan29
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5615.7.6 = {
         death = { death_reason = death_natural_causes }
     }
@@ -265215,6 +266820,10 @@ lineoferadan29 = {
 
     5414.9.26 = {
         birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5607.4.26 = {
@@ -265257,6 +266866,10 @@ lineoferadan30 = {
         add_spouse = lineoferadan31
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5607.8.13 = {
         death = { death_reason = death_natural_causes }
     }
@@ -265288,6 +266901,10 @@ lineoferadan31 = {
 
     5415.6.19 = {
         birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
     }
 
     5613.2.23 = {
@@ -265330,6 +266947,10 @@ lineoferadan32 = {
         add_spouse = lineoferadan33
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5613.1.13 = {
         death = { death_reason = death_natural_causes }
     }
@@ -265363,7 +266984,942 @@ lineoferadan33 = {
         birth = yes
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5608.7.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoferadan34 = {
+    name = Borlach
+
+    dynasty = dynasty_eradanionath
+    religion = faith_edain
+    culture = umbaredain
+
+    father = lineoferadan23
+    mother = lineoferadan24    
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = humble
+    trait = fickle
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 2
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    5467.7.18 = {
+        birth = yes
+    }
+
+    5510.12.8 = {
+        add_spouse = lineoferadan35
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5656.7.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoferadan35 = {
+    name = Emeldir
+    female = yes
+
+    religion = faith_edain
+    culture = umbaredain
+
+    sexuality = bisexual
+
+    trait = blood_of_numenor_5
+
+    trait = zealous
+    trait = craven
+    trait = callous
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 6
+    intrigue = 2
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5470.8.27 = {
+        birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5656.12.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoferadan36 = {
+    name = Udalraph
+
+    dynasty = dynasty_eradanionath
+    religion = faith_edain
+    culture = umbaredain
+
+    father = lineoferadan34
+    mother = lineoferadan35
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = lazy
+    trait = paranoid
+    trait = humble
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 10
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    5531.10.11 = {
+        birth = yes
+    }
+
+    5572.3.8 = {
+        add_spouse = lineoferadan37
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5712.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoferadan37 = {
+    name = Meneloth
+    female = yes
+
+    religion = faith_edain
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = brave
+    trait = humble
+    trait = wrathful
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 3
+    intrigue = 2
+    learning = 3
+    prowess = 4
+
+    trait = education_martial_2
+
+    5529.4.5 = {
+        birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5701.9.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoferadan38 = {
+    name = Celebrindor
+
+    dynasty = dynasty_eradanionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineoferadan36
+    mother = lineoferadan37
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = lazy
+    trait = lustful
+    trait = just
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 3
+    intrigue = 6
+    learning = 3
+    prowess = 3
+
+    trait = education_martial_3
+
+    5578.12.13 = {
+        birth = yes
+    }
+
+    5626.5.5 = {
+        add_spouse = lineoferadan39
+    }
+
+    5755.12.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoferadan39 = {
+    name = Eirien
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = lazy
+    trait = gluttonous
+    trait = vengeful
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_3
+
+    5576.12.10 = {
+        birth = yes
+    }
+
+    5636.2.27 = {
+        death = { death_reason = death_disappearance  }
+    }
+}
+
+lineoferadan40 = {
+    name = Magor
+
+    dynasty = dynasty_eradanionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineoferadan38
+    mother = lineoferadan39
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = brave
+    trait = deceitful
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    5626.9.16 = {
+        birth = yes
+    }
+
+    5672.4.21 = {
+        add_spouse = lineoferadan41
+    }
+
+    5807.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoferadan41 = {
+    name = Minuial
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = bisexual
+
+    trait = blood_of_numenor_5
+
+    trait = calm
+    trait = vengeful
+    trait = shy
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 3
+    intrigue = 6
+    learning = 4
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    5624.8.18 = {
+        birth = yes
+    }
+
+    5776.11.23 = {
+        death = { death_reason = death_dungeon  }
+    }
+}
+
+lineoferadan42 = {
+    name = Balan
+
+    dynasty = dynasty_eradanionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineoferadan40
+    mother = lineoferadan41
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = wrathful
+    trait = gluttonous
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 1
+    intrigue = 4
+    learning = 2
+    prowess = 3
+
+    trait = education_martial_2
+
+    5672.5.18 = {
+        birth = yes
+    }
+
+    5715.9.27 = {
+        add_spouse = lineoferadan43
+    }
+
+    5843.7.23 = {
+        death = { death_reason = death_execution }
+    }
+}
+
+lineoferadan43 = {
+    name = Gloredhel
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = honest
+    trait = just
+    trait = trusting
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 5
+    intrigue = 5
+    learning = 3
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    5670.7.9 = {
+        birth = yes
+    }
+
+    5841.1.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoferadan44 = {
+    name = Glormagil
+
+    dynasty = dynasty_eradanionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineoferadan40
+    mother = lineoferadan41
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = temperate
+    trait = generous
+    trait = gregarious
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 2
+    intrigue = 5
+    learning = 2
+    prowess = 8
+
+    trait = education_intrigue_1
+
+    5673.10.15 = {
+        birth = yes
+    }
+
+    5720.3.10 = {
+        add_spouse = lineoferadan45
+    }
+
+    5861.4.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoferadan45 = {
+    name = Hareth
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = zealous
+    trait = temperate
+    trait = lazy
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 2
+    intrigue = 2
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    5671.12.17 = {
+        birth = yes
+    }
+
+    5860.12.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoferadan46 = {
+    name = Hiril
+    female = yes
+
+    dynasty = dynasty_eradanionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineoferadan40
+    mother = lineoferadan41
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = stubborn
+    trait = craven
+    trait = gregarious
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_martial_2
+
+    5674.7.17 = {
+        birth = yes
+    }
+
+    5857.5.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoferadan47 = {
+    name = Belthil
+    female = yes
+
+    dynasty = dynasty_eradanionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineoferadan38
+    mother = lineoferadan39
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = callous
+    trait = chaste
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 4
+    intrigue = 4
+    learning = 10
+    prowess = 3
+
+    trait = education_learning_1
+
+    5627.8.22 = {
+        birth = yes
+    }
+
+    5811.5.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoferadan48 = {
+    name = Findis
+    female = yes
+
+    dynasty = dynasty_eradanionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineoferadan38
+    mother = lineoferadan39
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = honest
+    trait = generous
+    trait = paranoid
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 11
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    5628.4.13 = {
+        birth = yes
+    }
+
+    5806.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoferadan49 = {
+    name = Boromir
+
+    dynasty = dynasty_eradanionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineoferadan38
+    mother = lineoferadan39
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = trusting
+    trait = honest
+    trait = generous
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_2
+
+    5629.11.5 = {
+        birth = yes
+    }
+
+    5670.8.2 = {
+        add_spouse = lineoferadan50
+    }
+
+    5776.3.19 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+lineoferadan50 = {
+    name = Emeldir
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = honest
+    trait = ambitious
+    trait = humble
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 4
+    intrigue = 3
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_3
+
+    5627.5.23 = {
+        birth = yes
+    }
+
+    5804.6.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoferadan51 = {
+    name = Tinnudir
+
+    dynasty = dynasty_eradanionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineoferadan49
+    mother = lineoferadan50
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = callous
+    trait = calm
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 2
+    intrigue = 3
+    learning = 1
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    5671.9.14 = {
+        birth = yes
+    }
+
+    5713.12.1 = {
+        add_spouse = lineoferadan52
+    }
+
+    5770.10.20 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+lineoferadan52 = {
+    name = Niniel
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = gregarious
+    trait = temperate
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 2
+    intrigue = 6
+    learning = 5
+    prowess = 1
+
+    trait = education_diplomacy_2
+
+    5669.1.15 = {
+        birth = yes
+    }
+
+    5840.2.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoferadan53 = {
+    name = Magor
+
+    dynasty = dynasty_eradanionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineoferadan42
+    mother = lineoferadan43
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = chaste
+    trait = callous
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 1
+    stewardship = 2
+    intrigue = 3
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_1
+
+    5717.12.20 = {
+        birth = yes
+    }
+
+    5755.12.22 = {
+        add_spouse = lineoferadan54
+    }
+
+    5843.7.23 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lineoferadan54 = {
+    name = Ithilwen
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = paranoid
+    trait = shy
+    trait = content
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 3
+    intrigue = 7
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    5720.9.9 = {
+        birth = yes
+    }
+
+    5860.3.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoferadan55 = {
+    name = Glorfindel
+
+    dynasty = dynasty_eradanionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineoferadan53
+    mother = lineoferadan54
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = vengeful
+    trait = zealous
+    trait = humble
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 6
+    intrigue = 4
+    learning = 3
+    prowess = 3
+
+    trait = education_stewardship_2
+
+    5775.11.24 = {
+        birth = yes
+    }
+
+    5815.10.17 = {
+        add_spouse = lineoferadan56
+    }
+
+    5843.7.23 = {
+        death = { death_reason = death_execution }
+    }
+}
+
+lineoferadan56 = {
+    name = Elestel
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = lazy
+    trait = patient
+    trait = generous
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 2
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    5773.9.8 = {
+        birth = yes
+    }
+
+    5845.1.3 = {
+        death = { death_reason = death_pneumonic }
+    }
+}
+
+lineoferadan57 = {
+    name = Finvain
+    female = yes
+
+    dynasty = dynasty_eradanionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineoferadan55
+    mother = lineoferadan56
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = humble
+    trait = callous
+    trait = diligent
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 9
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    5816.11.27 = {
+        birth = yes
+    }
+
+    5967.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoferadan58 = {
+    name = Elenwing
+    female = yes
+
+    dynasty = dynasty_eradanionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineoferadan55
+    mother = lineoferadan56
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = greedy
+    trait = temperate
+    trait = diligent
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_1
+
+    5817.12.13 = {
+        birth = yes
+    }
+
+    5986.8.14 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -266028,6 +268584,10 @@ lineofhirluin18 = {
         add_spouse = lineofhirluin19
     }
 
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
     5564.1.3 = {
         death = { death_reason = death_natural_causes }
     }
@@ -266147,6 +268707,688 @@ lineofhirluin21 = {
     }
 
     5564.10.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofhirluin22 = {
+    name = Turgon
+
+    dynasty = dynasty_hirluinionath
+    religion = faith_edain
+    culture = umbaredain
+
+    father = lineofhirluin18
+    mother = lineofhirluin19
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = lustful
+    trait = vengeful
+    trait = content
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 3
+    learning = 3
+    prowess = 1
+
+    trait = education_diplomacy_4
+
+    5425.8.23 = {
+        birth = yes
+    }
+
+    5481.10.5 = {
+        add_spouse = lineofhirluin23
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5584.2.10 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+lineofhirluin23 = {
+    name = Elanor
+    female = yes
+
+    religion = faith_edain
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = stubborn
+    trait = greedy
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 3
+    intrigue = 3
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    5440.8.28 = {
+        birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5626.8.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofhirluin24 = {
+    name = Rodnor
+
+    dynasty = dynasty_hirluinionath
+    religion = faith_edain
+    culture = umbaredain
+
+    father = lineofhirluin22
+    mother = lineofhirluin23
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = craven
+    trait = deceitful
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 11
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 10
+
+    trait = education_martial_2
+
+    5505.4.2 = {
+        birth = yes
+    }
+
+    5545.3.17 = {
+        add_spouse = lineofhirluin25
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5686.10.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofhirluin25 = {
+    name = Galadriel
+    female = yes
+
+    religion = faith_edain
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = brave
+    trait = stubborn
+    trait = patient
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 3
+    intrigue = 5
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    5503.9.8 = {
+        birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5689.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofhirluin26 = {
+    name = Berelach
+
+    dynasty = dynasty_hirluinionath
+    religion = faith_edain
+    culture = umbaredain
+
+    father = lineofhirluin24
+    mother = lineofhirluin25
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = generous
+    trait = paranoid
+    trait = impatient
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 5
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_3
+
+    5551.7.7 = {
+        birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5599.1.17 = {
+        add_spouse = lineofhirluin27
+    }
+
+    5734.9.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofhirluin27 = {
+    name = Celebiel
+    female = yes
+
+    religion = faith_edain
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = lazy
+    trait = arbitrary
+    trait = cynical
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 1
+    intrigue = 4
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_3
+
+    5549.2.6 = {
+        birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+
+    5724.8.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofhirluin28 = {
+    name = Damrod
+
+    dynasty = dynasty_hirluinionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofhirluin26
+    mother = lineofhirluin27
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = zealous
+    trait = wrathful
+    trait = honest
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_4
+
+    5599.8.22 = {
+        birth = yes
+    }
+
+    5644.2.12 = {
+        add_spouse = lineofhirluin29
+    }
+
+    5687.3.27 = {
+        death = { death_reason = death_poison  }
+    }
+}
+
+lineofhirluin29 = {
+    name = Miriel
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = arrogant
+    trait = wrathful
+    trait = content
+
+    diplomacy = 3
+    martial = 1
+    stewardship = 2
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    5597.1.17 = {
+        birth = yes
+    }
+
+    5785.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofhirluin30 = {
+    name = Hundad
+
+    dynasty = dynasty_hirluinionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofhirluin28
+    mother = lineofhirluin29
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = fickle
+    trait = arrogant
+    trait = honest
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    5644.11.15 = {
+        birth = yes
+    }
+
+    5685.12.25 = {
+        add_spouse = lineofhirluin31
+    }
+
+    5828.1.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofhirluin31 = {
+    name = Urwen
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = callous
+    trait = forgiving
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 6
+    intrigue = 5
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    5645.12.8 = {
+        birth = yes
+    }
+
+    5771.9.23 = {
+        death = { death_reason = death_dungeon  }
+    }
+}
+
+lineofhirluin32 = {
+    name = Tarion
+
+    dynasty = dynasty_hirluinionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofhirluin30
+    mother = lineofhirluin31
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = brave
+    trait = arbitrary
+    trait = callous
+
+    diplomacy = 10
+    martial = 9
+    stewardship = 9
+    intrigue = 12
+    learning = 11
+    prowess = 11
+
+    trait = education_diplomacy_4
+
+    5690.10.8 = {
+        birth = yes
+    }
+
+    5741.2.3 = {
+        add_spouse = lineofhirluin33
+    }
+
+    5840.1.23 = {
+        death = { death_reason = death_sea_storm }
+    }
+}
+
+lineofhirluin33 = {
+    name = Beril
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = generous
+    trait = shy
+    trait = impatient
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 2
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    5705.9.15 = {
+        birth = yes
+    }
+
+    5830.7.19 = {
+        death = { death_reason = death_horse_riding_accident  }
+    }
+}
+
+lineofhirluin34 = {
+    name = Dervorin
+
+    dynasty = dynasty_hirluinionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofhirluin32
+    mother = lineofhirluin33
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = gluttonous
+    trait = impatient
+    trait = content
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 8
+    intrigue = 7
+    learning = 3
+    prowess = 3
+
+    trait = education_stewardship_2
+
+    5757.7.5 = {
+        birth = yes
+    }
+
+    5793.9.3 = {
+        add_spouse = lineofhirluin35
+    }
+
+    5840.1.23 = {
+        death = { death_reason = death_sea_storm }
+    }
+}
+
+lineofhirluin35 = {
+    name = Heldiriel
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = diligent
+    trait = impatient
+    trait = arbitrary
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 3
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    5755.7.10 = {
+        birth = yes
+    }
+
+    5924.5.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofhirluin36 = {
+    name = Borlach
+
+    dynasty = dynasty_hirluinionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofhirluin34
+    mother = lineofhirluin35
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = ambitious
+    trait = humble
+    trait = just
+
+    diplomacy = 1
+    martial = 6
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_2
+
+    5796.9.10 = {
+        birth = yes
+    }
+
+    5833.2.2 = {
+        add_spouse = lineofhirluin37
+    }
+
+    5843.7.23 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lineofhirluin37 = {
+    name = Arbereth
+    female = yes
+
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = vengeful
+    trait = gregarious
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 5
+    intrigue = 8
+    learning = 3
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    5794.10.14 = {
+        birth = yes
+    }
+
+    5954.11.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofhirluin38 = {
+    name = Farlong
+
+    dynasty = dynasty_hirluinionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofhirluin36
+    mother = lineofhirluin37
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = temperate
+    trait = greedy
+    trait = impatient
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 2
+    intrigue = 9
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    5835.2.4 = {
+        birth = yes
+    }
+
+
+    5841.2.17 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+lineofhirluin40 = {
+    name = Celebrian
+    female = yes
+
+    dynasty = dynasty_hirluinionath
+    religion = faith_castamiri_creed
+    culture = umbaredain
+
+    father = lineofhirluin36
+    mother = lineofhirluin37
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = callous
+    trait = trusting
+    trait = deceitful
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 7
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    5836.7.26 = {
+        birth = yes
+    }
+
+    5986.6.17 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -267327,10 +270569,6 @@ lineofgelmir32 = {
 
     5430.8.5 = {
         birth = yes
-    }
-
-    5455.8.3 = {
-        add_spouse = lineofgelmir33
     }
 
     5481.3.12 = {
