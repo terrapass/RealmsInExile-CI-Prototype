@@ -57722,14 +57722,8 @@ lineofjahangir110 = {
 	    trait = chaste
 	    trait = compassionate
 	}
-	5684.10.24 = {  # Married at age 43
-	    add_spouse = lineofzirakzadehan60
-	}
 	5700.02.15 = {  # Married at age 58
 	    add_spouse = lineofkersasphan121
-	}
-	5700.09.13 = {  # Married at age 58
-	    add_spouse = lineofhaydahan155
 	}
 	5700.09.26 = {  # Died at age 58
 	    death = { death_reason = death_attacked }
