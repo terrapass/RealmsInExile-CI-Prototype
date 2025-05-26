@@ -720,7 +720,7 @@ lineofanarion18 = {
 			learn_language = language_sindarin	
 			learn_language = language_quenya
 		}	
-        employer = lineofanarion15		
+        employer = lineofanarion13	
 	}
 
 	4835.1.1 = {
