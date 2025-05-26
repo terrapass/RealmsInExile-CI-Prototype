@@ -169596,7 +169596,7 @@ lineofemetez19 = {
 	    trait = eccentric
 	    trait = calm
 	}
-	6922.04.14 = {  # Married at age 30
+	6912.04.14 = {  # Married at age 20
 	    add_spouse = lineofemetez32
 	}
 	6958.12.19 = {  # Died at age 67
@@ -170307,16 +170307,13 @@ lineofemetez40 = {
 	trait = education_martial_4
 
 	trait = charming
-	6942.04.20 = {
+	6910.04.20 = {
 	    birth = yes
 	}
-	6958.04.20 = {  
+	6926.04.20 = {  
 	    trait = cynical
 	    trait = arbitrary
 	    trait = paranoid
-	}
-	6981.02.07 = {  # Married at age 38
-	    add_spouse = lineofemetez48
 	}
 	6933.4.26 = {  # Died in Tirdahan coup
 	    death = { death_reason = death_battle }
@@ -218428,11 +218425,6 @@ lineofjahanabada30 = {
 	6993.11.06 = {  # Died at age 15
 	    death = { death_reason = death_ill }
 	}
-	6993.11.16 = {  
-	    trait = cynical
-	    trait = generous
-	    trait = temperate
-	}
 }
 
 lineofjahanabada31 = {
@@ -258385,11 +258377,6 @@ lineofnevazarhan31 = {
 	}
 	6794.02.26 = {  # Died at age 15
 	    death = { death_reason = death_ill }
-	}
-	6794.09.07 = {  
-	    trait = brave
-	    trait = greedy
-	    trait = arbitrary
 	}
 }
 
@@ -308622,7 +308609,7 @@ lineofbahez1 = {
     }
 
     6786.5.17 = {
-        add_spouse = lineofkahlavan1wife
+        add_spouse = lineofbahez1wife
     }
 
     6816.12.15 = {
@@ -378359,7 +378346,7 @@ lineofvahramzen99 = {
 	6830.02.10 = {  
 	    trait = eccentric
 	    trait = diligent
-	    trait = stubborn
+	    trait = paranoid
 	}
 	6836.05.01 = {  # Married at age 22
 	    add_spouse = lineofbahraman169
@@ -382422,9 +382409,6 @@ lineofvisnarmaken54 = {
 	}
 	6809.03.14 = {  # Died at age 86
 	    death = { death_reason = death_natural_causes }
-	}
-	6809.05.12 = {  # Married at age 87
-	    add_spouse = lineoffarshidzen162
 	}
 }
 

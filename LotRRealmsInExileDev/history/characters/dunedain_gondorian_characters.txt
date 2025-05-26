@@ -31414,7 +31414,6 @@ lineoftauron25 = {
 
     trait = blood_of_numenor_2
 
-
     diplomacy = 4
     martial = 3
     stewardship = 3
@@ -31424,12 +31423,10 @@ lineoftauron25 = {
 
     trait = education_learning_4
 
+    trait = curious
+
     6773.6.18 = {
         birth = yes
-    }
-
-    6776.6.18 = {
-        trait = curious
     }
 
     6787.1.1 = {
@@ -31471,12 +31468,10 @@ lineoftauron26 = {
 
     trait = education_diplomacy_2
 
+    trait = charming
+
     6777.4.11 = {
         birth = yes
-    }
-
-    6780.4.11 = {
-        trait = charming
     }
 
     6787.1.1 = {
