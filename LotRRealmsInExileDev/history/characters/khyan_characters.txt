@@ -6851,6 +6851,7 @@ lineofvasnan28 = { #Dies as a child historically, having only 2 traits and no ba
 
     trait = gregarious
     trait = content
+    
     trait = curious
 
     disallow_random_traits = yes
@@ -57722,9 +57723,6 @@ lineofjahangir110 = {
 	    trait = chaste
 	    trait = compassionate
 	}
-	5700.02.15 = {  # Married at age 58
-	    add_spouse = lineofkersasphan121
-	}
 	5700.09.26 = {  # Died at age 58
 	    death = { death_reason = death_attacked }
 	}
@@ -71273,12 +71271,6 @@ lineofkersasphan115 = {
 	}
 	5700.04.01 = {  # Died at age 50
 	    death = { death_reason = death_natural_causes }
-	}
-	5700.05.11 = {  # Married at age 51
-	    add_spouse = lineofmahburzinihan64
-	}
-	5700.07.24 = {  # Married at age 51
-	    add_spouse = lineofkersasphan117
 	}
 }
 
@@ -92120,9 +92112,6 @@ lineofmujahan201 = {
 	}
 	5683.04.26 = {  # Married at age 20
 	    add_spouse = lineofarvanhahan100
-	}
-	5700.03.03 = {  # Married at age 37
-	    add_spouse = lineofmahburzinihan78
 	}
 	5700.06.26 = {  # Died at age 38
 	    death = { death_reason = death_dungeon_passive }
@@ -153322,9 +153311,6 @@ lineofbahadurhan54 = {
 	    trait = diligent
 	    trait = generous
 	}
-	6908.12.08 = {  # Married at age 47
-	    add_spouse = lineofhoshedarmah147
-	}
 	6945.01.19 = {  # Died at age 83
 	    death = { death_reason = death_natural_causes }
 	}
@@ -153872,7 +153858,7 @@ lineofbahadurhan72 = {
 	6954.02.22 = {  # Married at age 27
 	    add_spouse = lineofbahadurhan76
 	}
-	70.03.02 = {  # Died at age 94
+	7021.03.02 = {  # Died at age 94
 	    death = { death_reason = death_natural_causes }
 	}
 }
@@ -164494,9 +164480,6 @@ lineofdelawarhan46 = {
 	}
 	6821.02.12 = {  # Married at age 19
 	    add_spouse = lineofgushtahemez106
-	}
-	6885.11.17 = {  # Married at age 84
-	    add_spouse = lineofnevazarhan47
 	}
 	6886.11.18 = {  # Died at age 85
 	    death = { death_reason = death_natural_causes }
@@ -200509,12 +200492,6 @@ lineofhoshedarmah143 = {
 	6896.10.06 = {  # Married at age 24
 	    add_spouse = lineofhoshedarmah146
 	}
-	6947.12.22 = {  # Married at age 75
-	    add_spouse = lineofnevazarhan59
-	}
-	6957.08.20 = {  # Married at age 84
-	    add_spouse = lineofurvatatnara36
-	}
 	6958.08.16 = {  # Died at age 85
 	    death = { death_reason = death_natural_causes }
 	}
@@ -200613,7 +200590,7 @@ lineofhoshedarmah145 = {
 	}
 	6896.11.14 = {  
 	    trait = honest
-	    trait = eccentric
+	    trait = lustful
 	    trait = fickle
 	}
 	6962.09.04 = {  # Died at age 81
@@ -275096,9 +275073,6 @@ lineofshiruyhan5 = {
 	6936.04.04 = {  # Died at age 78
 	    death = { death_reason = death_natural_causes }
 	}
-	6936.10.18 = {  # Married at age 78
-	    add_spouse = lineofizadyar182
-	}
 }
 
 lineofshiruyhan6 = {
@@ -295484,7 +295458,7 @@ lineofurvatatnara37 = {
 	6894.06.01 = {  
 	    trait = stubborn
 	    trait = compassionate
-	    trait = eccentric
+	    trait = temperate
 	}
 	6906.03.12 = {  # Married at age 27
 	    add_spouse = lineofgorazehan149
@@ -364630,9 +364604,6 @@ lineofqudoz71 = {
 	}
 	6898.04.18 = {  # Married at age 74
 	    add_spouse = lineofcaramadran158
-	}
-	6910.05.25 = {  # Married at age 86
-	    add_spouse = lineofqudoz80
 	}
 	6914.05.02 = {  # Died at age 90
 	    death = { death_reason = death_natural_causes }
