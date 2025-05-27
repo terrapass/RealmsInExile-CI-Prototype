@@ -325639,6 +325639,11 @@ lineofbahraman192 = {
 	    trait = generous
 	    trait = brave
 	}
+    7035.8.11 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofbahraman193 = {
@@ -325674,6 +325679,11 @@ lineofbahraman193 = {
 	6995.08.23 = {  # Married at age 19
 	    add_spouse = lineofcaramadran176
 	}
+    7050.2.9 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofbahraman194 = {
@@ -331705,6 +331715,11 @@ lineofcaramadran174 = {
 	    trait = eccentric
 	    trait = humble
 	}
+    7034.7.10 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofcaramadran175 = {
@@ -339085,6 +339100,11 @@ lineoffarshidzen194 = {
 	6997.09.14 = {  # Married at age 36
 	    add_spouse = lineofbahraman190
 	}
+    7037.1.30 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineoffarshidzen195 = {
@@ -339116,6 +339136,11 @@ lineoffarshidzen195 = {
 	    trait = brave
 	    trait = greedy
 	}
+    7037.10.31 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineoffarshidzen196 = {
@@ -339149,6 +339174,11 @@ lineoffarshidzen196 = {
 	    trait = honest
 	    trait = lustful
 	}
+    7042.8.19 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineoffarshidzen197 = {
@@ -339181,6 +339211,11 @@ lineoffarshidzen197 = {
 	    trait = paranoid
 	    trait = generous
 	}
+    7035.4.21 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineoffarshidzen198 = {
@@ -339216,6 +339251,11 @@ lineoffarshidzen198 = {
 	6992.12.10 = {  # Married at age 18
 	    add_spouse = lineofvisnarmaken147
 	}
+    7048.6.21 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineoffarshidzen199 = {
@@ -349817,6 +349857,11 @@ lineofkerhamez138 = {
 	    trait = generous
 	    trait = shy
 	}
+    7034.5.24 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofkerhamez139 = {
@@ -349851,6 +349896,11 @@ lineofkerhamez139 = {
 	6991.01.28 = {  # Married at age 23
 	    add_spouse = lineofosard115
 	}
+    7040.3.14 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvahramzen140 = {
@@ -349910,6 +349960,11 @@ lineofkerhamez140 = {
 	    trait = temperate
 	    trait = lustful
 	}
+    7036.11.18 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofkerhamez141 = {
@@ -360114,6 +360169,11 @@ lineofosard114 = {
 	6999.05.23 = {  # Married at age 28
 	    add_spouse = lineofbahraman194
 	}
+    7039.5.5 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofosard115 = {
@@ -360147,6 +360207,11 @@ lineofosard115 = {
 	    trait = impatient
 	    trait = callous
 	}
+    7046.9.3 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofosard116 = {
@@ -365277,6 +365342,11 @@ lineofqudoz90 = {
 	6983.03.08 = {  # Married at age 26
 	    add_spouse = lineofvisnarmaken143
 	}
+    7036.12.18 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofqudoz91 = {
@@ -365309,6 +365379,11 @@ lineofqudoz91 = {
 	    trait = compassionate
 	    trait = lazy
 	}
+    7033.11.16 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofqudoz92 = {
@@ -369864,6 +369939,11 @@ lineofshirzadeh119 = {
 	6977.08.09 = {  # Married at age 24
 	    add_spouse = lineofcaramadran174
 	}
+    7033.6.22 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofshirzadeh120 = {
@@ -369896,6 +369976,11 @@ lineofshirzadeh120 = {
 	    trait = impatient
 	    trait = cynical
 	}
+    7034.2.15 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofshirzadeh121 = {
@@ -379822,6 +379907,11 @@ lineofvahramzen145 = {
 	6986.10.16 = {  # Married at age 41
 	    add_spouse = lineofvahramzen156
 	}
+    7033.5.8 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvahramzen146 = {
@@ -379854,6 +379944,11 @@ lineofvahramzen146 = {
 	    trait = ambitious
 	    trait = forgiving
 	}
+    7033.10.19 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvahramzen147 = {
@@ -379925,6 +380020,11 @@ lineofvahramzen148 = {
 	6973.12.11 = {  # Married at age 23
 	    add_spouse = lineofshirzadeh120
 	}
+    7033.10.14 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvahramzen149 = {
@@ -380018,6 +380118,11 @@ lineofvahramzen151 = {
 	    trait = gregarious
 	    trait = paranoid
 	}
+    7038.6.28 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvahramzen152 = {
@@ -380081,6 +380186,11 @@ lineofvahramzen153 = {
 	7015.01.25 = {  # Married at age 40
 	    add_spouse = lineofvahramzen158
 	}
+    7034.4.4 = {
+        death = {
+            death_reason = death_accident
+        }
+    }
 }
 
 lineofvahramzen154 = {
@@ -380143,6 +380253,11 @@ lineofvahramzen155 = {
 	    trait = just
 	    trait = stubborn
 	}
+    7039.12.13 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvahramzen156 = {
@@ -380171,6 +380286,11 @@ lineofvahramzen156 = {
 	    trait = arbitrary
 	    trait = eccentric
 	}
+    7041.12.10 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvahramzen157 = {
@@ -380233,6 +380353,11 @@ lineofvahramzen158 = {
 	    trait = generous
 	    trait = diligent
 	}
+    7040.1.22 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvahramzen159 = {
@@ -385299,6 +385424,11 @@ lineofvisnarmaken140 = {
 	6978.07.05 = {  # Married at age 25
 	    add_spouse = lineofqudoz91
 	}
+    7033.7.2 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvisnarmaken141 = {
@@ -385465,6 +385595,11 @@ lineofvisnarmaken145 = {
 	    trait = zealous
 	    trait = greedy
 	}
+    7038.10.25 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvisnarmaken146 = {
@@ -385568,6 +385703,11 @@ lineofvisnarmaken148 = {
 	7005.09.27 = {  # Married at age 30
 	    add_spouse = lineofvisnarmaken161
 	}
+    7048.1.27 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvisnarmaken149 = {
@@ -385627,6 +385767,11 @@ lineofvisnarmaken150 = {
 	    trait = lustful
 	    trait = paranoid
 	}
+    7034.12.26 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvisnarmaken151 = {
@@ -385687,6 +385832,11 @@ lineofvisnarmaken152 = {
 	    trait = compassionate
 	    trait = temperate
 	}
+    7040.1.8 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvisnarmaken153 = {
@@ -385879,6 +386029,11 @@ lineofvisnarmaken158 = {
 	    trait = gregarious
 	    trait = chaste
 	}
+    7050.3.12 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvisnarmaken159 = {
