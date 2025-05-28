@@ -19440,15 +19440,6 @@ lineofarshishan107 = {
 	5700.07.08 = {  # Died at age 65
 	    death = { death_reason = death_natural_causes }
 	}
-	5700.09.21 = {  # Married at age 65
-	    add_spouse = lineofzirakahan44
-	}
-	5700.11.04 = {  # Married at age 66
-	    add_spouse = lineoframinshtan54
-	}
-	5700.11.27 = {  # Married at age 66
-	    add_spouse = lineofarvanhahan91
-	}
 }
 
 lineofarshishan108 = {
@@ -67010,7 +67001,7 @@ lineofkamdelehan101 = {
 	    trait = trusting
 	    trait = chaste
 	}
-	5700.05.22 = {  # Died at age 22
+	5750.05.22 = {  # Died at age 72
 	    death = { death_reason = death_accident }
 	}
 }
@@ -83161,11 +83152,11 @@ lineofmahburzinihan69 = {
 	    trait = callous
 	    trait = cynical
 	}
-	5700.06.01 = {  # Died at age 37
-	    death = { death_reason = death_accident }
-	}
 	5700.08.18 = {  # Married at age 37
 	    add_spouse = lineofmahburzinihan85
+	}
+	5720.06.01 = {  # Died at age 57
+	    death = { death_reason = death_accident }
 	}
 }
 
@@ -95381,11 +95372,11 @@ lineoframinshtan65 = {
 	    trait = forgiving
 	    trait = temperate
 	}
-	5700.04.18 = {  # Died at age 30
-	    death = { death_reason = death_attacked }
-	}
-	5700.11.07 = {  # Married at age 30
+	5700.01.10 = {  # Married at age 30
 	    add_spouse = lineoframinshtan79
+	}
+	5755.04.18 = {  # Died at age 85
+	    death = { death_reason = death_attacked }
 	}
 }
 
@@ -95585,9 +95576,6 @@ lineoframinshtan71 = {
 	}
 	5700.06.15 = {  # Died at age 21
 	    death = { death_reason = death_natural_causes }
-	}
-	5700.10.15 = {  # Married at age 22
-	    add_spouse = lineofvasnahan44
 	}
 }
 
@@ -115039,11 +115027,11 @@ lineofvasnahan43 = {
 	    trait = eccentric
 	    trait = vengeful
 	}
-	5700.06.26 = {  # Died at age 29
-	    death = { death_reason = death_drinking_passive }
-	}
 	5700.09.27 = {  # Married at age 30
 	    add_spouse = lineofvasnahan54
+	}
+	5750.06.26 = {  # Died at age 79
+	    death = { death_reason = death_drinking_passive }
 	}
 }
 
@@ -127035,11 +127023,8 @@ lineofvindafarnahan104 = {
 	5698.02.04 = {  # Married at age 17
 	    add_spouse = lineofkamdelehan101
 	}
-	5700.01.16 = {  # Died at age 19
+	5730.01.16 = {  # Died at age 49
 	    death = { death_reason = death_dungeon_passive }
-	}
-	5700.12.19 = {  # Married at age 20
-	    add_spouse = lineoframinshtan72
 	}
 }
 
@@ -127192,7 +127177,7 @@ lineofvindafarnahan108 = {
 	5699.12.12 = {
 	    birth = yes
 	}
-	5700.01.27 = {  # Died at age 0
+	5760.01.27 = {  # Died at age 60
 	    death = { death_reason = death_ill }
 	}
 }
