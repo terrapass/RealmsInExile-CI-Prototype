@@ -82929,12 +82929,6 @@ lineofmahburzinihan61 = {
 	5700.03.17 = {  # Died at age 58
 	    death = { death_reason = death_accident }
 	}
-	5700.10.08 = {  # Married at age 59
-	    add_spouse = lineofzirakzadehan71
-	}
-	5700.11.19 = {  # Married at age 59
-	    add_spouse = lineofvasnahan34
-	}
 }
 
 lineofmahburzinihan62 = {
