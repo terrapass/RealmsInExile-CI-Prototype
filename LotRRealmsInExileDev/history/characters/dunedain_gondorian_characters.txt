@@ -32163,7 +32163,7 @@ linelinnarion7 = {
 		}			
 	}
 
-	6650.5.10 = {
+	6550.5.10 = {
 		add_spouse = lineoflotu34
 	}
 
@@ -167130,11 +167130,6 @@ lineofarandur53 = {
     6502.5.7 = {
         birth = yes
     }
-
-    6543.1.1 = {
-        employer = lineofroquendil51
-    }
-
     6539.7.15 = {
         death = { death_reason = death_dungeon  }
     }
