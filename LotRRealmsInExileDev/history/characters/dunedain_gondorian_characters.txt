@@ -14393,9 +14393,11 @@ linesteward38 = {
 	trait = education_stewardship_4
 	trait = paranoid
 	trait = diligent
-	trait = stubborn
 	trait = intellect_good_2
-	trait = widowed
+
+    trait = pensive
+
+    disallow_random_traits = yes
 
 	diplomacy = 3
 	martial = 4
@@ -14412,6 +14414,10 @@ linesteward38 = {
 			add_character_flag = has_scripted_appearance				
 			add_character_flag = is_denethor	
 		}
+	}
+
+    6979.1.1 = {
+        trait = stubborn
 	}
 	
 	6970.1.1 = {				
@@ -14480,6 +14486,7 @@ linesteward38 = {
 	}
 	
 	7021.1.1 = {
+        trait = widowed
 		effect = {
 			create_character_memory = {
 				type = spouse_died			
@@ -14710,10 +14717,11 @@ linesteward41 = {
 	father = linesteward37
 	mother = lineimloth38
 
-	
-
 	female = yes
 
+    trait = curious
+
+    disallow_random_traits = yes
 
 	trait = blood_of_numenor_1
 	6969.1.1 = {
@@ -14722,6 +14730,7 @@ linesteward41 = {
 			learn_language = language_sindarin
 		}			
 	}
+
 	7008.1.1={
 		add_spouse = 1518					
 	}
@@ -14745,12 +14754,12 @@ linesteward42 = {
 	trait = beauty_good_1
 	trait = intellect_good_1
 	trait = education_stewardship_3
-	trait = temperate
-	trait = chaste
-	trait = just
 
 	female = yes
 
+    trait = bossy
+    
+    disallow_random_traits = yes
 
 	trait = blood_of_numenor_1
 	6973.1.1 = {
@@ -14759,6 +14768,13 @@ linesteward42 = {
 			learn_language = language_sindarin
 		}			
 	}
+
+    6989.1.1 = {
+		trait = temperate
+	    trait = chaste
+	    trait = just		
+	}
+
 	6993.1.1 = {
 		add_spouse = lossarnach28 # Lord Forlong					
 	}
