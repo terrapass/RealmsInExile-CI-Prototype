@@ -105828,11 +105828,11 @@ lineofsarafrazan54 = {
 	5667.01.18 = {  # Married at age 16
 	    add_spouse = lineofarvanhahan94
 	}
-	5700.04.25 = {  # Died at age 49
-	    death = { death_reason = death_murder }
-	}
 	5700.08.04 = {  # Married at age 50
 	    add_spouse = lineofzirakahan48
+	}
+	5720.04.25 = {  # Died at age 69
+	    death = { death_reason = death_murder }
 	}
 }
 
