@@ -2516,10 +2516,6 @@ lineofanarion62 = {
 
     trait = blood_of_numenor_8
 
-    trait = wrathful
-    trait = generous
-    trait = stubborn
-
     diplomacy = 3
     martial = 7
     stewardship = 6
@@ -2529,11 +2525,21 @@ lineofanarion62 = {
 
     trait = education_martial_2
 
+    trait = rowdy
+
+    disallow_random_traits = yes
+
     5377.12.19 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin
 		}
+    }
+
+    5393.12.19 = {
+        trait = wrathful
+        trait = generous
+        trait = stubborn
     }
 
     5480.8.22 = { # Died in the battle of Crossings of Erui
@@ -14393,9 +14399,11 @@ linesteward38 = {
 	trait = education_stewardship_4
 	trait = paranoid
 	trait = diligent
-	trait = stubborn
 	trait = intellect_good_2
-	trait = widowed
+
+    trait = pensive
+
+    disallow_random_traits = yes
 
 	diplomacy = 3
 	martial = 4
@@ -14412,6 +14420,10 @@ linesteward38 = {
 			add_character_flag = has_scripted_appearance				
 			add_character_flag = is_denethor	
 		}
+	}
+
+    6979.1.1 = {
+        trait = stubborn
 	}
 	
 	6970.1.1 = {				
@@ -14480,6 +14492,7 @@ linesteward38 = {
 	}
 	
 	7021.1.1 = {
+        trait = widowed
 		effect = {
 			create_character_memory = {
 				type = spouse_died			
@@ -14710,10 +14723,11 @@ linesteward41 = {
 	father = linesteward37
 	mother = lineimloth38
 
-	
-
 	female = yes
 
+    trait = curious
+
+    disallow_random_traits = yes
 
 	trait = blood_of_numenor_1
 	6969.1.1 = {
@@ -14722,6 +14736,7 @@ linesteward41 = {
 			learn_language = language_sindarin
 		}			
 	}
+
 	7008.1.1={
 		add_spouse = 1518					
 	}
@@ -14745,12 +14760,12 @@ linesteward42 = {
 	trait = beauty_good_1
 	trait = intellect_good_1
 	trait = education_stewardship_3
-	trait = temperate
-	trait = chaste
-	trait = just
 
 	female = yes
 
+    trait = bossy
+    
+    disallow_random_traits = yes
 
 	trait = blood_of_numenor_1
 	6973.1.1 = {
@@ -14759,6 +14774,13 @@ linesteward42 = {
 			learn_language = language_sindarin
 		}			
 	}
+
+    6989.1.1 = {
+		trait = temperate
+	    trait = chaste
+	    trait = just		
+	}
+
 	6993.1.1 = {
 		add_spouse = lossarnach28 # Lord Forlong					
 	}
@@ -43142,7 +43164,7 @@ lineofdrinbarfinal = {
 	}
 }	
 
-#### House of Finnarphen #### Original rulers of Henneth Annun, died out in the wainrider invasion of 1944, which overran thier estate. 
+#### House of Finnarphen #### Original rulers of Henneth Annun, died out in the wainrider invasion of 1944, which overran their estate. 
 
 	#Trig TBD 
 
@@ -43519,7 +43541,7 @@ lineofasgaril5wife = {
 
 	# Trig TBD #
 
-#### House of Rian #### Cadet of Othnir, founded via marriage to the Ostomirionath c. 1200. Died out in the great plague, after which the Ostomirionath inherited thier lands. 
+#### House of Rian #### Cadet of Othnir, founded via marriage to the Ostomirionath c. 1200. Died out in the great plague, after which the Ostomirionath inherited their lands. 
 
 	# Trig TBD # 
 
@@ -43565,7 +43587,7 @@ lineofmadril1 = {
 	# Trig TBD # 
 
 #### House of Glorel #### 
-# Lords of Glorel and the east Anduin, they were an ancient Pelargirian family (Perhaps related to Alagos) from before the downfall. They died out in the male line around 2200 and gave thier titles to Morvegil, but a female line survied and Damrod of the Rangers is known to claim descent from it on his mother's side. 
+# Lords of Glorel and the east Anduin, they were an ancient Pelargirian family (Perhaps related to Alagos) from before the downfall. They died out in the male line around 2200 and gave their titles to Morvegil, but a female line survied and Damrod of the Rangers is known to claim descent from it on his mother's side. 
 
 damrodmother = {
 	name = Gloredhel # Mother of Damrod the Ranger
@@ -68497,10 +68519,6 @@ lineofaegardh20 = {
 
     trait = blood_of_numenor_6
 
-    trait = trusting
-    trait = honest
-    trait = patient
-
     diplomacy = 7
     martial = 6
     stewardship = 4
@@ -68510,11 +68528,21 @@ lineofaegardh20 = {
 
     trait = education_diplomacy_4
 
+    trait = curious
+
+    disallow_random_traits = yes
+
     5375.4.27 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin
 		}
+    }
+
+    5391.4.27 = {
+        trait = trusting
+        trait = honest
+        trait = patient
     }
 
     5570.3.8 = {
@@ -69236,8 +69264,6 @@ lineofaegardhcadet8 = {
     trait = blood_of_numenor_6
 
     trait = callous
-    trait = temperate
-    trait = arrogant
 
     diplomacy = 6
     martial = 6
@@ -69248,11 +69274,20 @@ lineofaegardhcadet8 = {
 
     trait = education_intrigue_2
 
+    trait = rowdy
+
+    disallow_random_traits = yes
+
     5372.6.20 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin
 		}
+    }
+
+    5388.6.20 = {
+        trait = temperate
+        trait = arrogant
     }
 
     5417.6.1 = {
@@ -69276,8 +69311,6 @@ lineofaegardhcadet8wife = {
     trait = blood_of_numenor_6
 
     trait = generous
-    trait = stubborn
-    trait = calm
 
     diplomacy = 3
     martial = 7
@@ -69288,11 +69321,20 @@ lineofaegardhcadet8wife = {
 
     trait = education_martial_2
 
+    trait = bossy
+
+    disallow_random_traits = yes
+
     5372.5.16 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin
 		}
+    }
+
+    5388.5.16 = {
+        trait = stubborn
+        trait = calm
     }
 
     5553.3.8 = {
@@ -83566,7 +83608,6 @@ linecalionathancestor13 = {
 
     trait = paranoid
     trait = deceitful
-    trait = fickle
 
     diplomacy = 11
     martial = 16
@@ -83577,11 +83618,19 @@ linecalionathancestor13 = {
 
     trait = education_martial_2
 
+    trait = charming
+
+    disallow_random_traits = yes
+
     5370.2.27 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin	
 		}
+    }
+
+    5386.2.27 = {
+        trait = fickle
     }
 
     5415.9.4 = {
@@ -83606,7 +83655,6 @@ linecalionathancestor13wife = {
 
     trait = lazy
     trait = brave
-    trait = patient
 
     diplomacy = 6
     martial = 5
@@ -83617,11 +83665,19 @@ linecalionathancestor13wife = {
 
     trait = education_diplomacy_2
 
+    trait = curious
+
+    disallow_random_traits = yes
+
     5371.1.13 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin	
 		}
+    }
+
+    5387.1.13 = {
+        trait = patient
     }
 
     5559.4.7 = {
@@ -100081,10 +100137,8 @@ lineofhardang24 = {
     religion = faith_edain
     culture = gondorian
 
-    
-
-
 	trait = blood_of_numenor_6
+
     5370.12.20 = {
         birth = yes
 		effect = {
@@ -117523,9 +117577,6 @@ lineofsaeros29 = {
 
     father = lineofsaeros27
     mother = lineofsaeros28
-
-    
-
 
 	trait = blood_of_numenor_4
     5367.6.28 = {
@@ -138435,10 +138486,8 @@ lineofmanwedur32 = {
     religion = faith_edain
     culture = gondorian
 
-    
-
-
 	trait = blood_of_numenor_5
+
     5373.3.15 = {
         birth = yes
     }
@@ -154150,10 +154199,6 @@ lineofmaratar38 = {
 
     trait = blood_of_numenor_6
 
-    trait = gluttonous
-    trait = craven
-    trait = honest
-
     diplomacy = 5
     martial = 7
     stewardship = 3
@@ -154163,8 +154208,18 @@ lineofmaratar38 = {
 
     trait = education_intrigue_4
 
+    trait = pensive
+
+    disallow_random_traits = yes
+
     5375.1.16 = {
         birth = yes
+    }
+
+    5391.1.16 = {
+        trait = gluttonous
+        trait = craven
+        trait = honest
     }
 
     5585.4.19 = {
@@ -159187,10 +159242,6 @@ lineofduilin39 = {
 
     trait = blood_of_numenor_6
 
-    trait = patient
-    trait = lazy
-    trait = calm
-
     diplomacy = 8
     martial = 4
     stewardship = 5
@@ -159200,8 +159251,18 @@ lineofduilin39 = {
 
     trait = education_diplomacy_2
 
+    trait = curious
+
+    disallow_random_traits = yes
+
     5373.6.26 = {
         birth = yes
+    }
+
+    5389.6.26 = {
+        trait = patient
+        trait = lazy
+        trait = calm
     }
 
     5433.9.22 = {
@@ -159224,10 +159285,6 @@ lineofduilin40 = {
 
     trait = blood_of_numenor_6
 
-    trait = diligent
-    trait = patient
-    trait = humble
-
     diplomacy = 5
     martial = 2
     stewardship = 1
@@ -159237,8 +159294,18 @@ lineofduilin40 = {
 
     trait = education_diplomacy_3
 
+    trait = curious
+
+    disallow_random_traits = yes
+
     5374.9.24 = {
         birth = yes
+    }
+
+    5390.9.24 = {
+        trait = diligent
+        trait = patient
+        trait = humble
     }
 
     5580.2.6 = {
@@ -202296,7 +202363,6 @@ lineofastandurcadet17 = {
 
     trait = content
     trait = craven
-    trait = callous
 
     trait = twin
 
@@ -202309,11 +202375,19 @@ lineofastandurcadet17 = {
 
     trait = education_stewardship_2
 
+    trait = pensive
+
+    disallow_random_traits = yes
+
     5370.10.15 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin
 		}
+    }
+
+    5386.10.15 = {
+        trait = callous
     }
 
     5425.4.7 = {
@@ -202342,7 +202416,6 @@ lineofastandurcadet17twin = {
 
     trait = compassionate
     trait = just
-    trait = forgiving
 
     trait = twin
 
@@ -202357,7 +202430,15 @@ lineofastandurcadet17twin = {
 
     trait = education_learning_3
 
+    trait = pensive
+
+    disallow_random_traits = yes
+
     5370.10.15 = {
+        trait = forgiving
+    }
+
+    5386.10.15 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin
@@ -202392,6 +202473,10 @@ lineofastandurcadet18 = {
     prowess = 7
 
     trait = education_learning_3
+
+    trait = pensive
+
+    disallow_random_traits = yes
 
     5368.3.26 = {
         birth = yes
@@ -217669,8 +217754,6 @@ lineofmamandil67 = {
     trait = blood_of_numenor_7
 
     trait = vengeful
-    trait = generous
-    trait = chaste
 
     diplomacy = 2
     martial = 7
@@ -217681,11 +217764,20 @@ lineofmamandil67 = {
 
     trait = education_intrigue_2
 
+    trait = curious
+
+    disallow_random_traits = yes
+
     5372.10.20 = {
         birth = yes
         effect = {
             learn_language = language_sindarin
         }
+    }
+
+    5388.10.20 = {
+        trait = generous
+        trait = chaste
     }
 
     5430.6.15 = {
@@ -217709,8 +217801,6 @@ lineofmamandil68 = {
     trait = blood_of_numenor_7
 
     trait = arrogant
-    trait = content
-    trait = craven
 
     diplomacy = 1
     martial = 5
@@ -217721,11 +217811,20 @@ lineofmamandil68 = {
 
     trait = education_stewardship_2
 
+    trait = curious
+
+    disallow_random_traits = yes
+
     5372.5.16 = {
         birth = yes
         effect = {
             learn_language = language_sindarin
         }
+    }
+
+    5388.5.16 = {
+        trait = content
+        trait = craven
     }
 
     5590.2.23 = {
@@ -217870,10 +217969,6 @@ lineofmamandil72 = {
 
     trait = blood_of_numenor_7
 
-    trait = generous
-    trait = lustful
-    trait = deceitful
-
     diplomacy = 5
     martial = 8
     stewardship = 3
@@ -217883,11 +217978,21 @@ lineofmamandil72 = {
 
     trait = education_martial_3
 
+    trait = rowdy
+
+    disallow_random_traits = yes
+
     5373.8.27 = {
         birth = yes
         effect = {
             learn_language = language_sindarin
         }
+    }
+
+    5389.8.27 = {
+        trait = generous
+        trait = lustful
+        trait = deceitful
     }
 
     5431.1.17 = {
@@ -217911,8 +218016,6 @@ lineofmamandil73 = {
     trait = blood_of_numenor_7
 
     trait = paranoid
-    trait = vengeful
-    trait = chaste
 
     diplomacy = 5
     martial = 8
@@ -217923,11 +218026,20 @@ lineofmamandil73 = {
 
     trait = education_martial_2
 
+    trait = bossy
+
+    disallow_random_traits = yes
+
     5373.2.23 = {
         birth = yes
         effect = {
             learn_language = language_sindarin
         }
+    }
+
+    5389.2.23 = {
+        trait = vengeful
+        trait = chaste
     }
 
     5588.7.18 = {
@@ -218028,10 +218140,6 @@ lineofmamandil76 = {
 
     trait = blood_of_numenor_7
 
-    trait = arbitrary
-    trait = content
-    trait = fickle
-
     diplomacy = 7
     martial = 4
     stewardship = 5
@@ -218041,11 +218149,21 @@ lineofmamandil76 = {
 
     trait = education_diplomacy_1
 
+    trait = rowdy
+
+    disallow_random_traits = yes
+
     5374.12.27 = {
         birth = yes
         effect = {
             learn_language = language_sindarin
         }
+    }
+
+    5390.12.27 = {
+        trait = arbitrary
+        trait = content
+        trait = fickle
     }
 
     5430.4.8 = {
@@ -218068,10 +218186,6 @@ lineofmamandil77 = {
 
     trait = blood_of_numenor_7
 
-    trait = generous
-    trait = callous
-    trait = lustful
-
     diplomacy = 4
     martial = 6
     stewardship = 3
@@ -218081,11 +218195,21 @@ lineofmamandil77 = {
 
     trait = education_martial_4
 
+    trait = bossy
+
+    disallow_random_traits = yes
+
     5374.9.5 = {
         birth = yes
         effect = {
             learn_language = language_sindarin
         }
+    }
+
+    5390.9.5 = {
+        trait = generous
+        trait = callous
+        trait = lustful
     }
 
     5588.9.26 = {
@@ -227722,6 +227846,10 @@ lineofelendir74 = {
 
     trait = education_diplomacy_1
 
+    trait = charming
+
+    disallow_random_traits = yes
+
     5368.1.9 = {
         birth = yes
 		effect = {
@@ -227761,6 +227889,10 @@ lineofelendir75 = {
     prowess = 7
 
     trait = education_stewardship_2
+
+    trait = curious
+
+    disallow_random_traits = yes
 
     5366.9.9 = {
         birth = yes
@@ -250054,9 +250186,7 @@ lineofhundad87 = {
     trait = blood_of_numenor_7
 
     trait = humble
-    trait = fickle
-    trait = gluttonous
-
+    
     diplomacy = 5
     martial = 7
     stewardship = 5
@@ -250066,8 +250196,17 @@ lineofhundad87 = {
 
     trait = education_martial_3
 
+    trait = bossy
+
+    disallow_random_traits = yes
+
     5372.9.15 = {
         birth = yes
+    }
+
+    5388.9.15 = {
+        trait = fickle
+        trait = gluttonous
     }
 
     5446.3.8 = {
@@ -263255,7 +263394,6 @@ lineofelphir34 = {
 
     trait = callous
     trait = chaste
-    trait = arrogant
 
     diplomacy = 3
     martial = 3
@@ -263268,8 +263406,14 @@ lineofelphir34 = {
 
     trait = education_learning_1
 
+    disallow_random_traits = yes
+
     5369.6.25 = {
         birth = yes
+    }
+
+    5385.6.25 = {
+        trait = arrogant
     }
 
     5563.2.25 = {
@@ -268552,13 +268696,9 @@ lineofhirluin18 = {
 
     trait = blood_of_numenor_5
 
-    disallow_random_traits = yes
-
-    trait = brave
-    trait = deceitful
-    trait = compassionate
-
     trait = charming
+
+    disallow_random_traits = yes
 
     diplomacy = 5
     martial = 5
@@ -268571,6 +268711,12 @@ lineofhirluin18 = {
 
     5376.9.7 = {
         birth = yes
+    }
+
+    5392.9.7 = {
+        trait = brave
+        trait = deceitful
+        trait = compassionate
     }
 
     5420.5.7 = {
@@ -268595,13 +268741,7 @@ lineofhirluin19 = {
 
     sexuality = bisexual
 
-    disallow_random_traits = yes
-
     trait = blood_of_numenor_5
-
-    trait = calm
-    trait = vengeful
-    trait = shy
 
     trait = charming
 
@@ -268614,8 +268754,16 @@ lineofhirluin19 = {
 
     trait = education_intrigue_4
 
+    disallow_random_traits = yes
+
     5374.2.4 = {
         birth = yes
+    }
+
+    5390.2.4 = {
+        trait = calm
+        trait = vengeful
+        trait = shy
     }
 
     5472.9.8 = {
@@ -268639,10 +268787,6 @@ lineofhirluin20 = {
 
     disallow_random_traits = yes
 
-    trait = wrathful
-    trait = gluttonous
-    trait = gregarious
-
     trait = bossy
 
     diplomacy = 5
@@ -268654,8 +268798,18 @@ lineofhirluin20 = {
 
     trait = education_martial_2
 
+    trait = bossy
+
+    disallow_random_traits = yes
+
     5377.8.13 = {
         birth = yes
+    }
+
+    5393.8.13 = {
+        trait = wrathful
+        trait = gluttonous
+        trait = gregarious
     }
 
     5419.11.25 = {
@@ -268678,14 +268832,6 @@ lineofhirluin21 = {
 
     trait = blood_of_numenor_5
 
-    disallow_random_traits = yes
-
-    trait = honest
-    trait = just
-    trait = trusting
-
-    trait = bossy
-
     diplomacy = 2
     martial = 3
     stewardship = 5
@@ -268695,8 +268841,18 @@ lineofhirluin21 = {
 
     trait = education_stewardship_3
 
+    trait = curious
+
+    disallow_random_traits = yes
+
     5375.7.25 = {
         birth = yes
+    }
+
+    5391.7.25 = {
+        trait = honest
+        trait = just
+        trait = trusting
     }
 
     5564.10.16 = {
@@ -268716,11 +268872,11 @@ lineofhirluin22 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_5
-
     trait = lustful
     trait = vengeful
     trait = content
+
+    trait = blood_of_numenor_5
 
     diplomacy = 6
     martial = 5
