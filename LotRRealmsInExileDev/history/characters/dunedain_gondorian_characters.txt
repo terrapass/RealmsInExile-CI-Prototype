@@ -43164,7 +43164,7 @@ lineofdrinbarfinal = {
 	}
 }	
 
-#### House of Finnarphen #### Original rulers of Henneth Annun, died out in the wainrider invasion of 1944, which overran thier estate. 
+#### House of Finnarphen #### Original rulers of Henneth Annun, died out in the wainrider invasion of 1944, which overran their estate. 
 
 	#Trig TBD 
 
@@ -43541,7 +43541,7 @@ lineofasgaril5wife = {
 
 	# Trig TBD #
 
-#### House of Rian #### Cadet of Othnir, founded via marriage to the Ostomirionath c. 1200. Died out in the great plague, after which the Ostomirionath inherited thier lands. 
+#### House of Rian #### Cadet of Othnir, founded via marriage to the Ostomirionath c. 1200. Died out in the great plague, after which the Ostomirionath inherited their lands. 
 
 	# Trig TBD # 
 
@@ -43587,7 +43587,7 @@ lineofmadril1 = {
 	# Trig TBD # 
 
 #### House of Glorel #### 
-# Lords of Glorel and the east Anduin, they were an ancient Pelargirian family (Perhaps related to Alagos) from before the downfall. They died out in the male line around 2200 and gave thier titles to Morvegil, but a female line survied and Damrod of the Rangers is known to claim descent from it on his mother's side. 
+# Lords of Glorel and the east Anduin, they were an ancient Pelargirian family (Perhaps related to Alagos) from before the downfall. They died out in the male line around 2200 and gave their titles to Morvegil, but a female line survied and Damrod of the Rangers is known to claim descent from it on his mother's side. 
 
 damrodmother = {
 	name = Gloredhel # Mother of Damrod the Ranger
