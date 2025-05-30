@@ -103457,11 +103457,8 @@ lineoframzeket215 = {
 	5688.08.04 = {  # Married at age 19
 	    add_spouse = lineoframzeket218
 	}
-	5700.04.24 = {  # Died at age 31
+	5750.04.24 = {  # Died at age 81
 	    death = { death_reason = death_dungeon_passive }
-	}
-	5700.12.26 = {  # Married at age 31
-	    add_spouse = lineofkamdelehan105
 	}
 }
 
