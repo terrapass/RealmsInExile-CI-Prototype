@@ -106007,11 +106007,8 @@ lineofsarafrazan59 = {
 	5694.09.03 = {  # Married at age 19
 	    add_spouse = lineofvasnahan47
 	}
-	5700.02.15 = {  # Died at age 24
+	5760.02.15 = {  # Died at age 84
 	    death = { death_reason = death_drinking_passive }
-	}
-	5700.10.22 = {  # Married at age 25
-	    add_spouse = lineofzirakzadehan78
 	}
 }
 
@@ -134705,11 +134702,11 @@ lineofzirakzadehan76 = {
 	    trait = calm
 	    trait = forgiving
 	}
-	5700.07.27 = {  # Died at age 26
-	    death = { death_reason = death_ill }
-	}
 	5700.08.13 = {  # Married at age 26
 	    add_spouse = lineoframinshtan72
+	}
+	5770.07.27 = {  # Died at age 96
+	    death = { death_reason = death_ill }
 	}
 }
 
