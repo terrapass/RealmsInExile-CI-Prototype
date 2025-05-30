@@ -19947,11 +19947,11 @@ lineofarshishan123 = {
 	    trait = greedy
 	    trait = wrathful
 	}
-	5700.07.01 = {  # Died at age 24
-	    death = { death_reason = death_dungeon_passive }
-	}
 	5700.12.01 = {  # Married at age 24
 	    add_spouse = lineofvasnahan49
+	}
+	5750.07.01 = {  # Died at age 74
+	    death = { death_reason = death_dungeon_passive }
 	}
 }
 
