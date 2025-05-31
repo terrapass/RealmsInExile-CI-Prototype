@@ -192863,6 +192863,8 @@ lineofgushtahemez137 = {
 	trait = education_martial_4
 
 	trait = bossy
+    trait = loyal
+    
 	6984.05.12 = {
 	    birth = yes
 	}
