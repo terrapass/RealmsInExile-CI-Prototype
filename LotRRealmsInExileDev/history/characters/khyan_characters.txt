@@ -7383,7 +7383,7 @@ lineofvasnan41 = {
     }
 }
 
-lineofvasnan42 = {
+lineofvasnan42 = { # Jahanabad the Greedy, rose up in revolt against the Emperor of Khy
     name = Jahanabad 
 
     dynasty = dynasty_vasnan
