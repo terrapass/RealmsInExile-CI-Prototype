@@ -5690,7 +5690,12 @@ lineoftirdahan6 = { # War of the Ring Ruler
 	    effect = {
             set_relation_rival = character:lineofvasnan42
 			set_relation_rival = character:lineofvasnan43
-        }
+			assign_councillor_type = {
+				type = councillor_marshal
+				remove_existing_councillor = yes
+				target = character:lineofgushtahemez137
+			}
+		}
 	}
 
 	7037.9.12 = {
@@ -201094,7 +201099,7 @@ lineofhoshedarmah162 = {
 	}
 }
 
-lineofhoshedarmah163 = {
+lineofhoshedarmah163 = { # Quiet, dull man who let the governorship pass to his two younger brothers
 	name = Shiruy
 	culture = khyan
 	religion = faith_arienism
@@ -201119,7 +201124,7 @@ lineofhoshedarmah163 = {
 	    birth = yes
 	}
 	6976.12.26 = {  
-	    trait = brave
+	    trait = content
 	    trait = stubborn
 	    trait = honest
 	}
@@ -201205,7 +201210,7 @@ lineofhoshedarmah165 = {
 	}
 }
 
-lineofhoshedarmah166 = {
+lineofhoshedarmah166 = { # Stole the prestigous fief of lower Khy from the Bahadurhan, dying suspicously soon after
 	name = Khudaparasht
 	culture = khyan
 	religion = faith_arienism
@@ -201237,7 +201242,7 @@ lineofhoshedarmah166 = {
 	7006.10.04 = {  # Married at age 41
 	    add_spouse = lineofhoshedarmah174
 	}
-	7027.07.20 = {  # Died at age 62
+	7029.07.20 = {  # Died at age 62
 	    death = { death_reason = death_drinking_passive }
 	}
 }
@@ -201485,7 +201490,7 @@ lineofhoshedarmah173 = {
 	}
 }
 
-lineofhoshedarmah175 = {
+lineofhoshedarmah175 = { # Young lore of Lower Khy, dealing with the results of his father's rise
 	name = Davrameshi
 	culture = khyan
 	religion = faith_arienism
