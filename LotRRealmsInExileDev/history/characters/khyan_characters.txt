@@ -295963,14 +295963,6 @@ lineofurvatatnara53 = {
 	6995.12.28 = {  # Married at age 19
 	    add_spouse = lineofwehzanez44
 	}
-	7008.12.07 = {
-	    effect = { 
-			start_tributary = {
-				contract_group = tributary_subjugated
-				suzerain = character:lineoftirdahan6
-			}
-        }
-	}
 	
 	7052.09.18 = {  # Died at age 76
 	    death = { death_reason = death_natural_causes }
