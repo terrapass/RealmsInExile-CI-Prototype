@@ -33180,7 +33180,7 @@ linearphenian10 = {
 		}			
 	}
 	7004.1.1={
-		add_spouse = linepinnathgelin47 #1522				
+		add_spouse = linepinnathgelin47			
 	}
 	7070.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -33194,7 +33194,7 @@ linearphenian11 = {
 	culture = gondorian
 
 	father = linearphenian10
-	mother = linepinnathgelin44 # 1522
+	mother = linepinnathgelin47
 
 	trait = blood_of_numenor_1
 	trait = lifestyle_mariner
@@ -33218,7 +33218,7 @@ linearphenian12 = {
 	culture = gondorian
 
 	father = linearphenian10
-	mother = linepinnathgelin44 # 1522
+	mother = linepinnathgelin47
 
 	trait = blood_of_numenor_1
 	7008.1.1 = {
