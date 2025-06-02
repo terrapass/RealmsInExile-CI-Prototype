@@ -945,6 +945,15 @@ lineofanarion24 = {
         #}
 		name = Romendacil
     }
+	5283.1.1 = {
+        effect = {
+            create_alliance = {
+                target = character:linerhovanion2
+                allied_through_owner = character:lineofanarion26
+                allied_through_target = character:linerhovanion3
+            }
+        }
+	}
 	5399.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -1020,6 +1029,13 @@ lineofanarion26 = {
 	5283.1.1 = {				
 		add_spouse = linerhovanion3	
         learn_language = language_rhovanic
+        effect = {
+            create_alliance = {
+                target = character:linerhovanion2
+                allied_through_owner = character:lineofanarion26
+                allied_through_target = character:linerhovanion3
+            }
+        }
 	}
 	5355.1.1 = {				
 		add_trait = widowed	
@@ -150751,6 +150767,23 @@ lineofhandir31 = {
 
     5340.10.12 = {
         add_spouse = lineofhandir32
+		effect = {
+			create_alliance = {
+				target = character:lineofastandil31		
+				allied_through_owner = character:lineofhandir31		
+				allied_through_target = character:lineofhandir32		
+			}
+		}
+    }
+
+    5340.10.12 = {
+		effect = {
+			create_alliance = {
+				target = character:lineofastandil35		
+				allied_through_owner = character:lineofhandir31		
+				allied_through_target = character:lineofhandir32		
+			}
+		}
     }
 
     5482.12.14 = {
