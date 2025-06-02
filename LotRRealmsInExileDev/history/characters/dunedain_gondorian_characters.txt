@@ -26940,6 +26940,10 @@ lineminadir22 = {
 		}			
 	}
 
+    7030.1.1 = {		
+		employer = lineminadir13
+	}
+
 	7078.1.1={
 		death = { death_reason = death_natural_causes }
 	}
@@ -26965,7 +26969,9 @@ lineminadir23 = {
 			learn_language = language_sindarin	
 		}			
 	}
-
+    7030.1.1 = {		
+		employer = lineminadir13
+	}
 	7085.1.1={
 		death = { death_reason = death_natural_causes }
 	}
@@ -139864,6 +139870,14 @@ lineofmanwedur85 = {
         birth = yes
     }
 
+    6985.4.21 = {
+        add_spouse = lineofmanwedur70
+    }
+
+    6989.12.19 = {
+        employer = lineofmanwedur72
+    }
+
     7080.2.10 = {
         death = { death_reason = death_natural_causes }
     }
@@ -195530,6 +195544,14 @@ lineoftelemir165 = {
 		effect = {
 			learn_language = language_sindarin
 		}
+    }
+
+    7015.2.2 = {
+        add_spouse = lineoftelemir149
+    }
+
+    7030.8.28 = {
+        employer = lineoftelemir152
     }
 
     7091.2.20 = {
