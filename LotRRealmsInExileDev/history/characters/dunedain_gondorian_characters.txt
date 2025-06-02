@@ -14843,9 +14843,6 @@ linesteward41 = {
 		}			
 	}
 
-	7008.1.1={
-		add_spouse = 1518					
-	}
 	7063.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -24876,7 +24873,7 @@ linepinnathgelin28 = {
 	}
 }	
 
-1507 = {
+linepinnathgelin29 = { 
 	name = Orophin
 	dynasty = dynasty_pinnath_gelin
 	religion = faith_edain
@@ -24896,13 +24893,13 @@ linepinnathgelin28 = {
 	}
 }	
 
-1508 = {
+linepinnathgelin30 = { 
 	name = Silmardur
 	dynasty = dynasty_pinnath_gelin
 	religion = faith_edain
 	culture = orodbedhrim
 	
-	father = 1507
+	father = linepinnathgelin29 
 
 	trait = blood_of_numenor_2
 	6374.1.1={
@@ -24916,13 +24913,13 @@ linepinnathgelin28 = {
 	}
 }	
 
-1509 = {
+linepinnathgelin31 = { 
 	name = Udalraph
 	dynasty = dynasty_pinnath_gelin
 	religion = faith_edain
 	culture = orodbedhrim
 	
-	father = 1508
+	father = linepinnathgelin30 
 
 	trait = blood_of_numenor_2
 	6427.1.1={
@@ -24936,13 +24933,13 @@ linepinnathgelin28 = {
 	}
 }	
 
-1510 = {
+linepinnathgelin32 = { 
 	name = Gorthol
 	dynasty = dynasty_pinnath_gelin
 	religion = faith_edain
 	culture = orodbedhrim
 	
-	father = 1509
+	father = linepinnathgelin31 
 
 	trait = blood_of_numenor_2
 	6471.1.1={
@@ -24956,13 +24953,13 @@ linepinnathgelin28 = {
 	}
 }	
 
-1511 = {
+linepinnathgelin33 = { 
 	name = Grithnir
 	dynasty = dynasty_pinnath_gelin
 	religion = faith_edain
 	culture = orodbedhrim
 	
-	father = 1510
+	father = linepinnathgelin32 
 
 	trait = blood_of_numenor_2
 	6530.1.1={
@@ -24984,7 +24981,7 @@ linepinnathgelin33sister = {
 	religion = faith_edain
 	culture = orodbedhrim
 	
-	father = 1510
+	father = linepinnathgelin32 
 	
 	trait = brave
 	trait = impatient 
@@ -25012,13 +25009,13 @@ linepinnathgelin33sister = {
 	}
 }
 
-1512 = {
+linepinnathgelin34 = { 
 	name = Berelach
 	dynasty = dynasty_pinnath_gelin
 	religion = faith_edain
 	culture = orodbedhrim
 	
-	father = 1511
+	father = linepinnathgelin33 
 
 	trait = blood_of_numenor_2
 	6582.1.1={
@@ -25035,13 +25032,13 @@ linepinnathgelin33sister = {
 	}
 }	
 
-1513 = {
+linepinnathgelin35 = { 
 	name = Elemmacil
 	dynasty = dynasty_pinnath_gelin
 	religion = faith_edain
 	culture = orodbedhrim
 	
-	father = 1512
+	father = linepinnathgelin34 
 	mother = lineeredor1a1
 
 	trait = blood_of_numenor_2
@@ -25063,7 +25060,7 @@ linepinnathgelin36 = { # Long Winter start date ruler
 	culture = orodbedhrim
 	dna = elegost_halboronionath_lw_dna
 	
-	father = 1513
+	father = linepinnathgelin35 
 
 	trait = humble
 	trait = just
@@ -25242,7 +25239,7 @@ linepinnathgelin39 = {
 	}
 }
 
-1515 = {
+linepinnathgelin40 = { 
 	name = Cerindor
 	dynasty = dynasty_pinnath_gelin
 	religion = faith_edain
@@ -25262,13 +25259,13 @@ linepinnathgelin39 = {
 	}
 }
 
-1516 = {
+linepinnathgelin41 = { 
 	name = Cathalion
 	dynasty = dynasty_pinnath_gelin
 	religion = faith_edain
 	culture = orodbedhrim
 	
-	father = 1515
+	father = linepinnathgelin40
 
 	trait = blood_of_numenor_1
 	6891.1.1={
@@ -25282,13 +25279,13 @@ linepinnathgelin39 = {
 	}
 }	
 
-1517 = {
+linepinnathgelin42 = { 
 	name = Hundar
 	dynasty = dynasty_pinnath_gelin
 	religion = faith_edain
 	culture = orodbedhrim
 	
-	father = 1516
+	father = linepinnathgelin41
 
 	trait = blood_of_numenor_1
 	6950.1.1={
@@ -25305,14 +25302,14 @@ linepinnathgelin39 = {
 	}
 }	
 
-1518 = {
+linepinnathgelin43 = { 
 	name = Hirluin # 'the Fair', Lord of Pinnath Gelin
 	dynasty = dynasty_pinnath_gelin
 	religion = faith_edain
 	culture = orodbedhrim
 	dna = hirluin_dna
 
-	father = 1517
+	father = linepinnathgelin42
 	mother = lineofmanwedur83
 
 	martial = 8
@@ -25353,20 +25350,17 @@ linepinnathgelin39 = {
 	}
 }	
 
-1519 = {
+linepinnathgelin44 = { 
 	name = Arador
 	dynasty = dynasty_pinnath_gelin
 	religion = faith_edain
 	culture = orodbedhrim
 
-	father = 1518
+	father = linepinnathgelin43 
 	mother = linesteward41
-
 	
 	trait = physique_good_2
 	trait = beauty_good_1
-
-
 
 	trait = blood_of_numenor_1
 	7010.1.1={
@@ -25380,13 +25374,13 @@ linepinnathgelin39 = {
 	}
 }	
 
-1520 = {
+linepinnathgelin45 = {
 	name = Arvedui
 	dynasty = dynasty_pinnath_gelin
 	religion = faith_edain
 	culture = orodbedhrim
 
-	father = 1518
+	father = linepinnathgelin43
 	mother = linesteward41
 
 	
@@ -25407,7 +25401,7 @@ linepinnathgelin39 = {
 	}
 }	
 
-1521 = {
+linepinnathgelin46 = {
 	name = Ivriniel
 	dynasty = dynasty_pinnath_gelin
 	religion = faith_edain
@@ -25415,7 +25409,7 @@ linepinnathgelin39 = {
 
 	female = yes
 
-	father = 1518
+	father = linepinnathgelin43
 	mother = linesteward41
 
 	
@@ -25435,7 +25429,7 @@ linepinnathgelin39 = {
 	}
 }	
 
-1522 = {
+linepinnathgelin47 = {
 	name = Luthien
 	dynasty = dynasty_pinnath_gelin
 	religion = faith_edain
@@ -25443,12 +25437,10 @@ linepinnathgelin39 = {
 
 	female = yes
 
-	father = 1517
+	father = linepinnathgelin42
 	mother = lineofmanwedur83
 
-	
 	trait = beauty_good_1
-
 
 	trait = blood_of_numenor_1
 	6984.1.1={
@@ -25465,7 +25457,7 @@ linepinnathgelin39 = {
 	}
 }	
 
-1523 = {
+linepinnathgelin48 = {
 	name = Hallacar
 	dynasty = dynasty_pinnath_gelin
 	religion = faith_edain
@@ -25476,7 +25468,7 @@ linepinnathgelin39 = {
 	trait = wrathful
 	trait = education_martial_2
 	trait = lifestyle_blademaster
-	father = 1516
+	father = linepinnathgelin41
 
 	trait = blood_of_numenor_1
 	6956.1.1={
@@ -25486,24 +25478,24 @@ linepinnathgelin39 = {
 		}			
 	}
 	6989.1.1 = {
-		add_spouse = 1528					
+		add_spouse = linepinnathgelin54		
 	}
 	7033.1.1 = {
-        employer = 1518
+        employer = linepinnathgelin43
     }
 	7056.1.1={
 		death = { death_reason = death_natural_causes }
 	}
 }	
 
-1524 = {
+linepinnathgelin49 = {
 	name = Haldir
 	dynasty = dynasty_pinnath_gelin
 	religion = faith_edain
 	culture = orodbedhrim
 	
-	father = 1523
-	mother=1528
+	father = linepinnathgelin48
+	mother = linepinnathgelin54
 
 	trait = blood_of_numenor_1
 	6990.1.1={
@@ -25513,22 +25505,22 @@ linepinnathgelin39 = {
 		}			
 	}
 	7033.1.1 = {
-        employer = 1518
+        employer = linepinnathgelin43
     }
 	7087.1.1={
 		death = { death_reason = death_natural_causes }
 	}
 }	
 
-hirluinsis2 = {
+linepinnathgelin50 = {
 	name = Halwen
 	dynasty = dynasty_pinnath_gelin
 	religion = faith_edain
 	culture = orodbedhrim
 	female = yes
-	dna = hirluinsis_dna
+	dna = halwen_dna
 	
-	father = 1517
+	father = linepinnathgelin42
 	mother = lineofmanwedur83
 
 	trait = compassionate
@@ -25545,22 +25537,22 @@ hirluinsis2 = {
 		}			
 	}
 	7033.1.1 = {
-        employer = 1518
+        employer = linepinnathgelin43
     }
 	7097.1.1={
 		death = { death_reason = death_natural_causes }
 	}
 }	
 
-1525 = {
+linepinnathgelin51 = {
 	name = Parawen
 	dynasty = dynasty_pinnath_gelin
 	religion = faith_edain
 	culture = orodbedhrim
 	female = yes
 	
-	father = 1523
-	mother=1528
+	father = linepinnathgelin48
+	mother = linepinnathgelin54
 
 	trait = blood_of_numenor_1
 	7004.1.1={
@@ -25570,22 +25562,22 @@ hirluinsis2 = {
 		}			
 	}
 	7033.1.1 = {
-        employer = 1518
+        employer = linepinnathgelin43
     }
 	7091.1.1={
 		death = { death_reason = death_natural_causes }
 	}
 }	
 
-1526 = {
+linepinnathgelin52 = {
 	name = Serinde
 	dynasty = dynasty_pinnath_gelin
 	religion = faith_edain
 	culture = orodbedhrim
 	female = yes
 	
-	father = 1523
-	mother=1528
+	father = linepinnathgelin48
+	mother = linepinnathgelin54
 
 	trait = blood_of_numenor_1
 	7006.1.1={
@@ -25595,21 +25587,21 @@ hirluinsis2 = {
 		}			
 	}
 	7033.1.1 = {
-        employer = 1518
+        employer = linepinnathgelin43
     }
 	7110.1.1={
 		death = { death_reason = death_natural_causes }
 	}
 }	
 
-1527 = {
+linepinnathgelin53 = { # 1527
 	name = Halbarad
 	dynasty = dynasty_pinnath_gelin
 	religion = faith_edain
 	culture = orodbedhrim
 	
-	father = 1523
-	mother=1528
+	father = linepinnathgelin48
+	mother = linepinnathgelin54
 
 	trait = blood_of_numenor_1
 	7007.1.1={
@@ -25619,14 +25611,14 @@ hirluinsis2 = {
 		}			
 	}
 	7033.1.1 = {
-        employer = 1518
+        employer = linepinnathgelin43
     }
 	7112.1.1={
 		death = { death_reason = death_natural_causes }
 	}
 }	
 
-1528 = {
+linepinnathgelin54 = { # 1528
 	name = Tarandis
 	religion = faith_edain
 	culture = orodbedhrim
@@ -25643,10 +25635,10 @@ hirluinsis2 = {
 		}			
 	}
 	6989.1.1 = {
-		add_spouse = 1523					
+		add_spouse = linepinnathgelin48 # 1523				
 	}
 	7033.1.1 = {
-        employer = 1518
+        employer = linepinnathgelin43 # 1518
     }
 	7078.1.1={
 		death = { death_reason = death_natural_causes }
@@ -33188,7 +33180,7 @@ linearphenian10 = {
 		}			
 	}
 	7004.1.1={
-		add_spouse = 1522					
+		add_spouse = linepinnathgelin47 #1522				
 	}
 	7070.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -33202,7 +33194,7 @@ linearphenian11 = {
 	culture = gondorian
 
 	father = linearphenian10
-	mother = 1522
+	mother = linepinnathgelin44 # 1522
 
 	trait = blood_of_numenor_1
 	trait = lifestyle_mariner
@@ -33226,10 +33218,7 @@ linearphenian12 = {
 	culture = gondorian
 
 	father = linearphenian10
-	mother = 1522
-
-	
-
+	mother = linepinnathgelin44 # 1522
 
 	trait = blood_of_numenor_1
 	7008.1.1 = {
@@ -148596,7 +148585,7 @@ lineeredor8wife = {
     }
 
 	7033.1.1 = {
-        employer = 1518
+        employer = linepinnathgelin43 # 1518
     }
 
     7056.4.18 = {
@@ -148633,12 +148622,12 @@ lineeredor9 = {
     }
 
 	7018.4.18 = {
-		add_spouse = hirluinsis2
+		add_spouse = linepinnathgelin50 # hirluinsis2
 	}
 
 	7033.1.1 = {
-        employer = 1518
-		set_relation_friend = character:1518
+        employer = linepinnathgelin43 # 1518
+		set_relation_friend = character:linepinnathgelin43 # 1518
     }
 
     7101.1.1 = {
@@ -148653,7 +148642,7 @@ lineeredor10 = {
     culture = orodbedhrim
 
 	father = lineeredor9
-	mother = hirluinsis2
+	mother = linepinnathgelin50 # hirluinsis2
 
     sexuality = heterosexual
 
@@ -148670,7 +148659,7 @@ lineeredor10 = {
     }
 
 	7033.1.1 = {
-        employer = 1518
+        employer = linepinnathgelin43 # 1518
     }
 
     7128.3.14 = {
@@ -148686,7 +148675,7 @@ lineeredor9a1 = {
     culture = orodbedhrim
 
 	father = lineeredor9
-	mother = hirluinsis2
+	mother = linepinnathgelin50 # hirluinsis2
 
     sexuality = heterosexual
 
@@ -148702,7 +148691,7 @@ lineeredor9a1 = {
     }
 
 	7033.1.1 = {
-        employer = 1518
+        employer = linepinnathgelin43 # 1518
     }
 
     7134.12.25 = {
@@ -148717,7 +148706,7 @@ lineeredor9b1 = {
     culture = orodbedhrim
 
 	father = lineeredor9
-	mother = hirluinsis2
+	mother = linepinnathgelin50 # hirluinsis2
 
     sexuality = heterosexual
 
@@ -148733,7 +148722,7 @@ lineeredor9b1 = {
     }
 
 	7033.1.1 = {
-        employer = 1518
+        employer = linepinnathgelin43 # 1518
     }
 
     7133.12.25 = {
@@ -148765,7 +148754,7 @@ lineeredor8a1 = {
     }
 
 	7033.1.1 = {
-        employer = 1518
+        employer = linepinnathgelin43 # 1518
     }
 
     7105.1.1 = {
