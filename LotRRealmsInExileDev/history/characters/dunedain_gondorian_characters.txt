@@ -25635,10 +25635,10 @@ linepinnathgelin54 = { # 1528
 		}			
 	}
 	6989.1.1 = {
-		add_spouse = linepinnathgelin48 # 1523				
+		add_spouse = linepinnathgelin48		
 	}
 	7033.1.1 = {
-        employer = linepinnathgelin43 # 1518
+        employer = linepinnathgelin43
     }
 	7078.1.1={
 		death = { death_reason = death_natural_causes }
@@ -148585,7 +148585,7 @@ lineeredor8wife = {
     }
 
 	7033.1.1 = {
-        employer = linepinnathgelin43 # 1518
+        employer = linepinnathgelin43
     }
 
     7056.4.18 = {
@@ -148622,12 +148622,12 @@ lineeredor9 = {
     }
 
 	7018.4.18 = {
-		add_spouse = linepinnathgelin50 # hirluinsis2
+		add_spouse = linepinnathgelin50
 	}
 
 	7033.1.1 = {
-        employer = linepinnathgelin43 # 1518
-		set_relation_friend = character:linepinnathgelin43 # 1518
+        employer = linepinnathgelin43
+		set_relation_friend = character:linepinnathgelin43
     }
 
     7101.1.1 = {
@@ -148642,7 +148642,7 @@ lineeredor10 = {
     culture = orodbedhrim
 
 	father = lineeredor9
-	mother = linepinnathgelin50 # hirluinsis2
+	mother = linepinnathgelin50 
 
     sexuality = heterosexual
 
@@ -148659,7 +148659,7 @@ lineeredor10 = {
     }
 
 	7033.1.1 = {
-        employer = linepinnathgelin43 # 1518
+        employer = linepinnathgelin43
     }
 
     7128.3.14 = {
@@ -148675,7 +148675,7 @@ lineeredor9a1 = {
     culture = orodbedhrim
 
 	father = lineeredor9
-	mother = linepinnathgelin50 # hirluinsis2
+	mother = linepinnathgelin50
 
     sexuality = heterosexual
 
@@ -148691,7 +148691,7 @@ lineeredor9a1 = {
     }
 
 	7033.1.1 = {
-        employer = linepinnathgelin43 # 1518
+        employer = linepinnathgelin43
     }
 
     7134.12.25 = {
@@ -148706,7 +148706,7 @@ lineeredor9b1 = {
     culture = orodbedhrim
 
 	father = lineeredor9
-	mother = linepinnathgelin50 # hirluinsis2
+	mother = linepinnathgelin50
 
     sexuality = heterosexual
 
@@ -148722,7 +148722,7 @@ lineeredor9b1 = {
     }
 
 	7033.1.1 = {
-        employer = linepinnathgelin43 # 1518
+        employer = linepinnathgelin43
     }
 
     7133.12.25 = {
@@ -148754,7 +148754,7 @@ lineeredor8a1 = {
     }
 
 	7033.1.1 = {
-        employer = linepinnathgelin43 # 1518
+        employer = linepinnathgelin43
     }
 
     7105.1.1 = {
