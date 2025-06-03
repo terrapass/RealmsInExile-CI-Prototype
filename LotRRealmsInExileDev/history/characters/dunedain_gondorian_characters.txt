@@ -6206,7 +6206,7 @@ lineofroquendil12 = {
 
     trait = blood_of_numenor_7
 
-    trait = deceitful
+    trait = just
     trait = fickle
     trait = trusting
 
@@ -6439,7 +6439,7 @@ lineofroquendil16father = {
         add_spouse = lineofedalote27sister
     }
 
-    5382.4.1 = {
+    5350.4.1 = {
         death = { death_reason = death_horse_riding_accident }
     }
 }
@@ -6568,7 +6568,7 @@ lineofroquendil16 = {
 
     trait = education_martial_4
 
-    5274.12.19 = {
+    5285.12.19 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin	
@@ -6576,7 +6576,7 @@ lineofroquendil16 = {
 		}
     }
 
-    5332.12.24 = {
+    5336.12.24 = {
         add_spouse = lineoftarmacilin34
 		set_relation_soulmate = { reason = soulmate_passionate_interests target = character:lineoftarmacilin34 }
 		set_relation_friend = { reason = friend_court_visit target = character:lineoftarmacilin33 }
@@ -6602,7 +6602,7 @@ lineofroquendil16 = {
         }
     }
 
-    5495.12.5 = {
+    5508.12.5 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -6639,7 +6639,7 @@ lineofroquendil18 = {
 
     trait = education_martial_4
 
-    5282.8.28 = {
+    5288.8.28 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin	
@@ -6675,7 +6675,7 @@ lineofroquendil18 = {
 		}
     }
 
-    5502.5.2 = {
+    5507.5.2 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -6803,7 +6803,7 @@ lineofroquendil20 = {
 
     trait = education_stewardship_4
 
-    5288.5.14 = {
+    5292.5.14 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin	
@@ -6815,7 +6815,7 @@ lineofroquendil20 = {
 		employer = lineofanarion24
 	}
 
-    5508.6.22 = {
+    5512.6.22 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -6855,7 +6855,7 @@ lineofroquendil21 = {
 
     trait = education_martial_4
 
-    5342.12.11 = {
+    5347.12.11 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin	
@@ -6872,11 +6872,11 @@ lineofroquendil21 = {
         }
     }
 
-    5393.11.24 = {
+    5398.11.24 = {
         add_matrilineal_spouse = lineofroquendil22
     }
 
-    5560.11.28 = {
+    5568.12.28 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -6915,7 +6915,7 @@ lineofroquendil21twin = {
 
     trait = education_learning_3
 
-    5342.12.11 = {
+    5347.12.11 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin	
@@ -6923,7 +6923,7 @@ lineofroquendil21twin = {
 		}
     }
 
-    5559.12.1 = {
+    5566.12.1 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -6958,7 +6958,7 @@ lineofroquendil22 = {
 
     trait = education_diplomacy_3
 
-    5346.4.22 = {
+    5352.4.22 = {
         birth = yes
     }
 
@@ -6966,7 +6966,7 @@ lineofroquendil22 = {
 		#employer = lineofroquendil16
 	}
 
-    5524.12.17 = {
+    5532.12.17 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -11532,7 +11532,7 @@ lineoforontur32 = {
 		}
     }
 
-	5394.1.5 = {
+	5398.1.5 = {
 		add_spouse = lineofroquendil21twin
 		set_relation_soulmate = character:lineofroquendil21twin
 	}
@@ -155738,7 +155738,7 @@ lineoferemir29 = {
         add_spouse = lineoferemir30
     }
 
-    5356.8.21 = {
+    5351.8.21 = {
         death = { death_reason = death_natural_causes }
     }
 }
