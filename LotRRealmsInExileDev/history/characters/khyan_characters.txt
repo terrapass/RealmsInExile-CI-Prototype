@@ -290457,12 +290457,437 @@ lineoftahmahan184 = {
 ### Dynasty dynasty_upamana
 ################
 
+linepreupamana1 = {
+    name = Nh_elos
+
+    dynasty = dynasty_upamana
+    religion = faith_arienism
+    culture = mejhanian
+
+    sexuality = asexual
+
+    trait = just
+    trait = impatient
+    trait = honest
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6680.11.11 = {
+        birth = yes
+    }
+
+    6703.6.25 = {
+        add_spouse = linepreupamana2
+    }
+
+    6761.12.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepreupamana2 = {
+    name = Atyohma
+    female = yes
+
+    religion = faith_arienism
+    culture = mejhanian
+
+    sexuality = heterosexual
+
+    trait = craven
+    trait = vengeful
+    trait = humble
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    6686.9.14 = {
+        birth = yes
+    }
+
+    6768.12.4 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+linepreupamana3 = {
+    name = Telearath
+
+    dynasty = dynasty_upamana
+    religion = faith_arienism
+    culture = mejhanian
+
+    father = linepreupamana1
+    mother = linepreupamana2
+
+    sexuality = heterosexual
+
+    trait = greedy
+    trait = paranoid
+    trait = stubborn
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 6
+    intrigue = 2
+    learning = 5
+    prowess = 2
+
+    trait = education_stewardship_1
+
+    6724.5.23 = {
+        birth = yes
+    }
+
+    6751.7.4 = {
+        add_spouse = linepreupamana4
+    }
+	
+	6787.1.1 = {
+		effect = { 
+            start_tributary = {
+				contract_group = tributary_subjugated
+				suzerain = character:lineiseriset5
+			}
+			tributary_contract_set_obligation_level = { type = default_tributary_taxes level = 1 }
+			tributary_contract_set_obligation_level = { type = default_tributary_prestige level = 0 }
+		}
+    }
+
+    6814.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepreupamana4 = {
+    name = Faruzan
+    female = yes
+
+    religion = faith_arienism
+    culture = mejhanian
+
+    sexuality = heterosexual
+
+    trait = humble
+    trait = lustful
+    trait = calm
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 4
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_1
+
+    6724.1.23 = {
+        birth = yes
+    }
+
+    6806.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepreupamana5 = {
+    name = Annutak
+
+    dynasty = dynasty_upamana
+    religion = faith_arienism
+    culture = mejhanian
+
+    father = linepreupamana3
+    mother = linepreupamana4
+
+    sexuality = heterosexual
+
+    trait = diligent
+    trait = ambitious
+    trait = gregarious
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 3
+    intrigue = 8
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_1
+
+    6757.12.22 = {
+        birth = yes
+    }
+
+    6782.11.2 = {
+        add_spouse = linepreupamana6
+    }
+
+    6841.10.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepreupamana6 = {
+    name = Narva
+    female = yes
+
+    religion = faith_arienism
+    culture = mejhanian
+
+    sexuality = heterosexual
+
+    trait = chaste
+    trait = just
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 3
+    intrigue = 3
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_1
+
+    6754.6.12 = {
+        birth = yes
+    }
+
+    6816.8.18 = {
+        death = { death_reason = death_great_pox }
+    }
+}
+
+linepreupamana7 = {
+    name = Hamshi
+
+    dynasty = dynasty_upamana
+    religion = faith_arienism
+    culture = mejhanian
+
+    father = linepreupamana5
+    mother = linepreupamana6
+
+    sexuality = heterosexual
+
+    trait = cynical
+    trait = patient
+    trait = generous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    6785.4.18 = {
+        birth = yes
+    }
+
+    6818.2.21 = {
+        add_spouse = linepreupamana8
+    }
+
+    6851.8.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepreupamana8 = {
+    name = Martre
+    female = yes
+
+    religion = faith_arienism
+    culture = mejhanian
+
+    sexuality = heterosexual
+
+    trait = arrogant
+    trait = brave
+    trait = sadistic
+
+    diplomacy = 2
+    martial = 2
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6784.5.22 = {
+        birth = yes
+    }
+
+    6869.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepreupamana9 = {
+    name = Raesaeth
+
+    dynasty = dynasty_upamana
+    religion = faith_arienism
+    culture = mejhanian
+
+    father = linepreupamana7
+    mother = linepreupamana8
+
+    sexuality = heterosexual
+
+    trait = craven
+    trait = just
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 2
+    intrigue = 1
+    learning = 1
+    prowess = 6
+
+    trait = education_martial_3
+
+    6822.8.28 = {
+        birth = yes
+    }
+
+    6852.7.6 = {
+        add_spouse = linepreupamana10
+    }
+
+    6862.12.17 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+linepreupamana10 = {
+    name = Ameste_ri
+    female = yes
+
+    religion = faith_arienism
+    culture = mejhanian
+
+    sexuality = heterosexual
+
+    trait = chaste
+    trait = calm
+    trait = trusting
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 5
+    intrigue = 6
+    learning = 2
+    prowess = 3
+
+    trait = education_diplomacy_1
+
+    6819.7.27 = {
+        birth = yes
+    }
+
+    6901.7.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepreupamana11 = {
+    name = Mendahor
+
+    dynasty = dynasty_upamana
+    religion = faith_arienism
+    culture = mejhanian
+
+    father = linepreupamana9
+    mother = linepreupamana10
+
+    sexuality = heterosexual
+
+    trait = chaste
+    trait = craven
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6854.1.11 = {
+        birth = yes
+    }
+
+    6876.1.16 = {
+        add_spouse = linepreupamana12
+    }
+
+    6917.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepreupamana12 = {
+    name = Raelati
+    female = yes
+
+    religion = faith_arienism
+    culture = mejhanian
+
+    sexuality = heterosexual
+
+    trait = ambitious
+    trait = humble
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 3
+
+    trait = education_stewardship_1
+
+    6852.7.1 = {
+        birth = yes
+    }
+
+    6917.10.15 = {
+        death = { death_reason = death_horse_riding_accident  }
+    }
+}
+
+
 lineofupamana1 = {
 	name = Huafrid
 	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_upamana
+	father = linepreupamana11
+	mother = linepreupamana12
 
 	sexuality = heterosexual
 
