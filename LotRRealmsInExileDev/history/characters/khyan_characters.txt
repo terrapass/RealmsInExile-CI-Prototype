@@ -24273,7 +24273,7 @@ lineofarvanhahan105 = {
 	5700.04.06 = {  # Married at age 22
 	    add_spouse = lineofkersasphan133
 	}
-	5700.04.13 = {  # Died at age 22
+	5750.04.13 = {  # Died at age 72
 	    death = { death_reason = death_attacked }
 	}
 }
@@ -80464,9 +80464,6 @@ lineofkhushnawazan110 = {
 	}
 	5700.06.17 = {  # Died at age 57
 	    death = { death_reason = death_dungeon_passive }
-	}
-	5700.11.15 = {  # Married at age 57
-	    add_spouse = lineofzirakahan39
 	}
 }
 
