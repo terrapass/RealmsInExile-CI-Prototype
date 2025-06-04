@@ -71586,9 +71586,6 @@ lineofkersasphan115 = {
 	    trait = arrogant
 	    trait = generous
 	}
-	5700.02.18 = {  # Married at age 50
-	    add_spouse = lineofvardanisan36
-	}
 	5700.04.01 = {  # Died at age 50
 	    death = { death_reason = death_natural_causes }
 	}
