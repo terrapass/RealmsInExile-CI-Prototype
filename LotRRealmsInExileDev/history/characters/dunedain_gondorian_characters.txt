@@ -8336,7 +8336,7 @@ lineofroquendil38 = {
 }
 
 lineofroquendil39 = {
-    name = Tuor
+    name = R_anandil
 
     dynasty_house = house_roquendilin
     religion = faith_edain
@@ -8369,6 +8369,10 @@ lineofroquendil39 = {
 		effect = {
 			learn_language = language_sindarin	
 		}
+    }
+
+    6083.1.1 = {
+        name = Tuor
     }
 
     6120.7.9 = {
