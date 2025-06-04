@@ -5519,6 +5519,354 @@ lineofaldhrad10 = { # Last emperor of the dynasty, his youth and sloth result in
 	}			
 }
 
+lineofaldhrad11 = {
+    name = Kamran
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad10
+
+    trait = zealous
+    trait = content
+    trait = compassionate
+
+    trait = education_diplomacy_2
+
+    6940.11.16 = {
+        birth = yes
+    }
+
+    7009.6.15 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofaldhrad12 = {
+    name = Sahi
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad10
+
+    trait = lustful
+    trait = forgiving
+    trait = gregarious
+
+    trait = education_diplomacy_3
+
+    6941.6.7 = {
+        birth = yes
+    }
+
+    7004.7.16 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofaldhrad13 = {
+    name = Arshak
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad11
+
+    trait = ambitious
+    trait = patient
+    trait = gluttonous
+
+    trait = education_intrigue_3
+
+    6970.4.19 = {
+        birth = yes
+    }
+
+    7054.3.12 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofaldhrad14 = {
+    name = Arasti
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad12
+
+    trait = paranoid
+    trait = humble
+    trait = arbitrary
+
+    trait = education_intrigue_1
+
+    6969.1.4 = {
+        birth = yes
+    }
+
+    7030.8.5 = {
+        death = {
+            death_reason = death_stress
+        }
+    }
+}
+
+lineofaldhrad15 = {
+    name = Frashaoshtra
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad13
+
+    trait = brave
+    trait = arrogant
+    trait = impatient
+
+    trait = education_martial_2
+
+    6993.3.11 = {
+        birth = yes
+    }
+
+    7067.4.3 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofaldhrad16 = {
+    name = Davrameshi
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad13
+
+    trait = deceitful
+    trait = cynical
+    trait = callous
+
+    trait = education_intrigue_3
+
+    6999.7.2 = {
+        birth = yes
+    }
+
+    7070.2.18 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofaldhrad17 = {
+    name = Mahinbanu
+    female = yes
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad13
+
+    trait = temperate
+    trait = fickle
+    trait = just
+
+    trait = education_stewardship_2
+
+    7007.9.9 = {
+        birth = yes
+    }
+
+    7087.4.26 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofaldhrad18 = {
+    name = Hoshedarmah
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad14
+
+    trait = temperate
+    trait = chaste
+    trait = brave
+
+    trait = education_martial_3
+
+    6990.8.27 = {
+        birth = yes
+    }
+
+    7048.1.4 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofaldhrad19 = {
+    name = Goraze
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad14
+
+    trait = wrathful
+    trait = diligent
+    trait = forgiving
+
+    trait = education_stewardship_4
+
+    7000.9.11 = {
+        birth = yes
+    }
+
+    7065.9.17 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofaldhrad20 = {
+    name = Anoshiruvan
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad15
+
+    trait = honest
+    trait = just
+    trait = greedy
+
+    trait = education_stewardship_4
+
+    7015.10.10 = {
+        birth = yes
+    }
+
+    7089.7.10 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofaldhrad21 = {
+    name = Zirakzadeh
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad15
+
+    trait = vengeful
+    trait = cynical
+    trait = compassionate
+    trait = curious
+
+    disallow_random_traits = yes
+
+    trait = education_learning_2
+
+    7017.11.4 = {
+        birth = yes
+    }
+
+    7088.1.13 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofaldhrad22 = {
+   name = Rayomand
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad16
+
+    trait = stubborn
+    trait = arrogant
+    trait = shy
+    trait = bossy
+
+    disallow_random_traits = yes
+
+    trait = education_stewardship_2
+
+    7018.2.18 = {
+        birth = yes
+    }
+
+    7039.11.4 = {
+        death = {
+            death_reason = death_drinking_passive
+        }
+    }
+}
+
+lineofaldhrad23 = {
+    name = Noved
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad19
+
+    trait = temperate
+    trait = zealous
+    trait = compassionate
+    trait = pensive
+
+    disallow_random_traits = yes
+
+    trait = education_learning_3
+
+    7019.7.17 = {
+        birth = yes
+    }
+
+    7090.4.19 = {
+        death = {
+            death_reason = death_cancer
+        }
+    }
+}
+
 ### Tirdâhan ###
 
 lineoftirdahan1 = { # Second son of Datuvahya IV, who rose to high status within the imperial bureaucracy
@@ -23925,7 +24273,7 @@ lineofarvanhahan105 = {
 	5700.04.06 = {  # Married at age 22
 	    add_spouse = lineofkersasphan133
 	}
-	5700.04.13 = {  # Died at age 22
+	5750.04.13 = {  # Died at age 72
 	    death = { death_reason = death_attacked }
 	}
 }
@@ -80116,9 +80464,6 @@ lineofkhushnawazan110 = {
 	}
 	5700.06.17 = {  # Died at age 57
 	    death = { death_reason = death_dungeon_passive }
-	}
-	5700.11.15 = {  # Married at age 57
-	    add_spouse = lineofzirakahan39
 	}
 }
 
