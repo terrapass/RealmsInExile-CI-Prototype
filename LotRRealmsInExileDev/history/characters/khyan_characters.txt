@@ -80878,11 +80878,11 @@ lineofkhushnawazan124 = {
 	    trait = zealous
 	    trait = paranoid
 	}
-	5700.03.14 = {  # Died at age 23
-	    death = { death_reason = death_natural_causes }
-	}
 	5700.08.12 = {  # Married at age 23
 	    add_spouse = lineoframinshtan74
+	}
+	5740.03.14 = {  # Died at age 63
+	    death = { death_reason = death_natural_causes }
 	}
 }
 
@@ -91950,9 +91950,6 @@ lineofmujahan189 = {
 	}
 	5700.07.21 = {  # Died at age 78
 	    death = { death_reason = death_natural_causes }
-	}
-	5700.09.02 = {  # Married at age 78
-	    add_spouse = lineofkhushnawazan105
 	}
 }
 
@@ -103829,11 +103826,11 @@ lineoframzeket217 = {
 	    trait = generous
 	    trait = craven
 	}
-	5700.03.11 = {  # Died at age 30
-	    death = { death_reason = death_accident }
-	}
 	5700.08.06 = {  # Married at age 30
 	    add_spouse = lineoframzeket227
+	}
+	5740.03.11 = {  # Died at age 70
+	    death = { death_reason = death_accident }
 	}
 }
 
@@ -115367,11 +115364,11 @@ lineofvasnahan45 = {
 	    trait = gluttonous
 	    trait = lustful
 	}
-	5700.02.02 = {  # Died at age 28
-	    death = { death_reason = death_battle }
-	}
 	5700.09.07 = {  # Married at age 29
 	    add_spouse = lineofvasnahan52
+	}
+	5760.02.02 = {  # Died at age 88
+	    death = { death_reason = death_battle }
 	}
 }
 
