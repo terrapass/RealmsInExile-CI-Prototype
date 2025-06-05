@@ -115077,8 +115077,8 @@ lineofvasnahan38 = {
 	    trait = vengeful
 	    trait = arbitrary
 	}
-	5798.11.22 = {  # Married at age 37
-	    add_spouse = lineofjahangir125
+    5742.11.15 = {  # Died at age 79
+	    death = { death_reason = death_natural_causes }
 	}
 }
 
