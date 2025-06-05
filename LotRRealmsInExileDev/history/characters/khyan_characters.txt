@@ -93543,12 +93543,6 @@ lineofpirangushnaspa28 = {
 	    trait = brave
 	    trait = eccentric
 	}
-	5700.06.06 = {  # Married at age 16
-	    add_spouse = lineofzirakahan49
-	}
-	5700.07.04 = {  # Married at age 16
-	    add_spouse = lineofishvathan179
-	}
     5749.05.30 = { 
         death = { death_reason = death_murder }
     }
@@ -95313,9 +95307,6 @@ lineoframinshtan51 = {
 	5700.10.10 = {  # Died at age 60
 	    death = { death_reason = death_natural_causes }
 	}
-	5700.11.13 = {  # Married at age 60
-	    add_spouse = lineofkersasphan111
-	}
 }
 
 lineoframinshtan52 = {
@@ -95388,9 +95379,6 @@ lineoframinshtan53 = {
 	5680.06.11 = {  # Married at age 38
 	    add_spouse = lineofvardanisan33
 	}
-	5700.03.17 = {  # Married at age 58
-	    add_spouse = lineofzirakzadehan73
-	}
 	5700.09.04 = {  # Died at age 59
 	    death = { death_reason = death_ill }
 	}
@@ -95458,9 +95446,6 @@ lineoframinshtan58 = {
 	}
 	5692.12.27 = {  # Married at age 30
 	    add_spouse = lineoframinshtan75
-	}
-	5700.04.13 = {  # Married at age 37
-	    add_spouse = lineofzirakahan39
 	}
 	5700.08.10 = {  # Died at age 37
 	    death = { death_reason = death_battle }
@@ -95705,9 +95690,6 @@ lineoframinshtan66 = {
 	}
 	5700.01.20 = {  # Died at age 26
 	    death = { death_reason = death_accident }
-	}
-	5700.11.08 = {  # Married at age 27
-	    add_spouse = lineofjahangir131
 	}
 }
 
@@ -103665,17 +103647,8 @@ lineoframzeket213 = {
 	    trait = lazy
 	    trait = generous
 	}
-	5700.02.03 = {  # Married at age 37
-	    add_spouse = lineofkhushnawazan117
-	}
-	5700.02.20 = {  # Married at age 37
-	    add_spouse = lineofzirakzadehan78
-	}
 	5700.04.27 = {  # Died at age 37
 	    death = { death_reason = death_battle }
-	}
-	5700.09.11 = {  # Married at age 37
-	    add_spouse = lineofjahangir122
 	}
 }
 
@@ -113538,9 +113511,6 @@ lineofvardanisan46 = {
 	5700.11.15 = {  # Died at age 30
 	    death = { death_reason = death_cancer }
 	}
-	5700.12.05 = {  # Married at age 30
-	    add_spouse = lineofmahburzinihan79
-	}
 }
 
 lineofvardanisan47 = {
@@ -114934,9 +114904,6 @@ lineofvasnahan33 = {
 	5700.07.04 = {  # Died at age 54
 	    death = { death_reason = death_drinking_passive }
 	}
-	5700.12.07 = {  # Married at age 54
-	    add_spouse = lineoframinshtan64
-	}
 }
 
 lineofvasnahan34 = {
@@ -115112,9 +115079,6 @@ lineofvasnahan38 = {
 	}
 	5798.11.22 = {  # Married at age 37
 	    add_spouse = lineofjahangir125
-	}
-	5700.10.07 = {  # Died at age 39
-	    death = { death_reason = death_natural_causes }
 	}
 }
 
@@ -131983,9 +131947,6 @@ lineofzirakahan45 = {
 	}
 	5700.03.12 = {  # Died at age 32
 	    death = { death_reason = death_attacked }
-	}
-	5700.09.15 = {  # Married at age 33
-	    add_spouse = lineofzirakahan55
 	}
 }
 
