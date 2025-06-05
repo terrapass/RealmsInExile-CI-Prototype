@@ -5519,6 +5519,354 @@ lineofaldhrad10 = { # Last emperor of the dynasty, his youth and sloth result in
 	}			
 }
 
+lineofaldhrad11 = {
+    name = Kamran
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad10
+
+    trait = zealous
+    trait = content
+    trait = compassionate
+
+    trait = education_diplomacy_2
+
+    6940.11.16 = {
+        birth = yes
+    }
+
+    7009.6.15 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofaldhrad12 = {
+    name = Sahi
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad10
+
+    trait = lustful
+    trait = forgiving
+    trait = gregarious
+
+    trait = education_diplomacy_3
+
+    6941.6.7 = {
+        birth = yes
+    }
+
+    7004.7.16 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofaldhrad13 = {
+    name = Arshak
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad11
+
+    trait = ambitious
+    trait = patient
+    trait = gluttonous
+
+    trait = education_intrigue_3
+
+    6970.4.19 = {
+        birth = yes
+    }
+
+    7054.3.12 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofaldhrad14 = {
+    name = Arasti
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad12
+
+    trait = paranoid
+    trait = humble
+    trait = arbitrary
+
+    trait = education_intrigue_1
+
+    6969.1.4 = {
+        birth = yes
+    }
+
+    7030.8.5 = {
+        death = {
+            death_reason = death_stress
+        }
+    }
+}
+
+lineofaldhrad15 = {
+    name = Frashaoshtra
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad13
+
+    trait = brave
+    trait = arrogant
+    trait = impatient
+
+    trait = education_martial_2
+
+    6993.3.11 = {
+        birth = yes
+    }
+
+    7067.4.3 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofaldhrad16 = {
+    name = Davrameshi
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad13
+
+    trait = deceitful
+    trait = cynical
+    trait = callous
+
+    trait = education_intrigue_3
+
+    6999.7.2 = {
+        birth = yes
+    }
+
+    7070.2.18 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofaldhrad17 = {
+    name = Mahinbanu
+    female = yes
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad13
+
+    trait = temperate
+    trait = fickle
+    trait = just
+
+    trait = education_stewardship_2
+
+    7007.9.9 = {
+        birth = yes
+    }
+
+    7087.4.26 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofaldhrad18 = {
+    name = Hoshedarmah
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad14
+
+    trait = temperate
+    trait = chaste
+    trait = brave
+
+    trait = education_martial_3
+
+    6990.8.27 = {
+        birth = yes
+    }
+
+    7048.1.4 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofaldhrad19 = {
+    name = Goraze
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad14
+
+    trait = wrathful
+    trait = diligent
+    trait = forgiving
+
+    trait = education_stewardship_4
+
+    7000.9.11 = {
+        birth = yes
+    }
+
+    7065.9.17 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofaldhrad20 = {
+    name = Anoshiruvan
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad15
+
+    trait = honest
+    trait = just
+    trait = greedy
+
+    trait = education_stewardship_4
+
+    7015.10.10 = {
+        birth = yes
+    }
+
+    7089.7.10 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofaldhrad21 = {
+    name = Zirakzadeh
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad15
+
+    trait = vengeful
+    trait = cynical
+    trait = compassionate
+    trait = curious
+
+    disallow_random_traits = yes
+
+    trait = education_learning_2
+
+    7017.11.4 = {
+        birth = yes
+    }
+
+    7088.1.13 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofaldhrad22 = {
+   name = Rayomand
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad16
+
+    trait = stubborn
+    trait = arrogant
+    trait = shy
+    trait = bossy
+
+    disallow_random_traits = yes
+
+    trait = education_stewardship_2
+
+    7018.2.18 = {
+        birth = yes
+    }
+
+    7039.11.4 = {
+        death = {
+            death_reason = death_drinking_passive
+        }
+    }
+}
+
+lineofaldhrad23 = {
+    name = Noved
+
+    dynasty = dynasty_aldhradan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineofaldhrad19
+
+    trait = temperate
+    trait = zealous
+    trait = compassionate
+    trait = pensive
+
+    disallow_random_traits = yes
+
+    trait = education_learning_3
+
+    7019.7.17 = {
+        birth = yes
+    }
+
+    7090.4.19 = {
+        death = {
+            death_reason = death_cancer
+        }
+    }
+}
+
 ### Tirdâhan ###
 
 lineoftirdahan1 = { # Second son of Datuvahya IV, who rose to high status within the imperial bureaucracy
@@ -5690,7 +6038,12 @@ lineoftirdahan6 = { # War of the Ring Ruler
 	    effect = {
             set_relation_rival = character:lineofvasnan42
 			set_relation_rival = character:lineofvasnan43
-        }
+			assign_councillor_type = {
+				type = councillor_marshal
+				remove_existing_councillor = yes
+				target = character:lineofgushtahemez137
+			}
+		}
 	}
 
 	7037.9.12 = {
@@ -6851,6 +7204,7 @@ lineofvasnan28 = { #Dies as a child historically, having only 2 traits and no ba
 
     trait = gregarious
     trait = content
+    
     trait = curious
 
     disallow_random_traits = yes
@@ -7382,7 +7736,7 @@ lineofvasnan41 = {
     }
 }
 
-lineofvasnan42 = {
+lineofvasnan42 = { # Jahanabad the Greedy, rose up in revolt against the Emperor of Khy
     name = Jahanabad 
 
     dynasty = dynasty_vasnan
@@ -9574,7 +9928,7 @@ lineofadel10 = {
         birth = yes
     }
 
-    6891.11.7 = {
+    6801.11.7 = {
         trait = greedy
         trait = temperate
         trait = diligent
@@ -19439,15 +19793,6 @@ lineofarshishan107 = {
 	5700.07.08 = {  # Died at age 65
 	    death = { death_reason = death_natural_causes }
 	}
-	5700.09.21 = {  # Married at age 65
-	    add_spouse = lineofzirakahan44
-	}
-	5700.11.04 = {  # Married at age 66
-	    add_spouse = lineoframinshtan54
-	}
-	5700.11.27 = {  # Married at age 66
-	    add_spouse = lineofarvanhahan91
-	}
 }
 
 lineofarshishan108 = {
@@ -19955,11 +20300,11 @@ lineofarshishan123 = {
 	    trait = greedy
 	    trait = wrathful
 	}
-	5700.07.01 = {  # Died at age 24
-	    death = { death_reason = death_dungeon_passive }
-	}
 	5700.12.01 = {  # Married at age 24
 	    add_spouse = lineofvasnahan49
+	}
+	5750.07.01 = {  # Died at age 74
+	    death = { death_reason = death_dungeon_passive }
 	}
 }
 
@@ -23857,9 +24202,6 @@ lineofarvanhahan103 = {
 	5700.02.25 = {  # Died at age 31
 	    death = { death_reason = death_bubonic_plague }
 	}
-	5700.03.03 = {  # Married at age 31
-	    add_spouse = lineofarvanhahan108
-	}
 }
 
 lineofarvanhahan104 = {
@@ -23931,20 +24273,8 @@ lineofarvanhahan105 = {
 	5700.04.06 = {  # Married at age 22
 	    add_spouse = lineofkersasphan133
 	}
-	5700.04.13 = {  # Married at age 22
-	    add_spouse = lineofjahangir124
-	}
-	5700.04.13 = {  # Died at age 22
+	5750.04.13 = {  # Died at age 72
 	    death = { death_reason = death_attacked }
-	}
-	5700.04.24 = {  # Married at age 22
-	    add_spouse = lineofmahburzinihan76
-	}
-	5700.10.03 = {  # Married at age 23
-	    add_spouse = lineoframzeket219
-	}
-	5700.12.02 = {  # Married at age 23
-	    add_spouse = lineofvasnahan49
 	}
 }
 
@@ -46998,11 +47328,11 @@ lineofhaydahan173 = {
 	    trait = eccentric
 	    trait = diligent
 	}
+	5698.07.21 = {  # Married at age 33
+	    add_spouse = lineofhaydahan182
+	}
 	5700.07.15 = {  # Died at age 35
 	    death = { death_reason = death_murder }
-	}
-	5700.07.21 = {  # Married at age 35
-	    add_spouse = lineofhaydahan182
 	}
 }
 
@@ -57722,15 +58052,6 @@ lineofjahangir110 = {
 	    trait = chaste
 	    trait = compassionate
 	}
-	5684.10.24 = {  # Married at age 43
-	    add_spouse = lineofzirakzadehan60
-	}
-	5700.02.15 = {  # Married at age 58
-	    add_spouse = lineofkersasphan121
-	}
-	5700.09.13 = {  # Married at age 58
-	    add_spouse = lineofhaydahan155
-	}
 	5700.09.26 = {  # Died at age 58
 	    death = { death_reason = death_attacked }
 	}
@@ -58185,11 +58506,11 @@ lineofjahangir126 = {
 	    trait = sadistic
 	    trait = honest
 	}
+	5698.07.04 = {  # Married at age 21
+	    add_spouse = lineoframinshtan69
+	}
 	5700.04.26 = {  # Died at age 23
 	    death = { death_reason = death_cancer }
-	}
-	5700.07.04 = {  # Married at age 23
-	    add_spouse = lineoframinshtan69
 	}
 }
 
@@ -63113,9 +63434,6 @@ lineofjangihan139 = {
 	5700.02.18 = {  # Died at age 75
 	    death = { death_reason = death_natural_causes }
 	}
-	5700.07.15 = {  # Married at age 75
-	    add_spouse = lineofvardanisan26
-	}
 }
 
 lineofjangihan140 = {
@@ -67036,7 +67354,7 @@ lineofkamdelehan101 = {
 	    trait = trusting
 	    trait = chaste
 	}
-	5700.05.22 = {  # Died at age 22
+	5750.05.22 = {  # Died at age 72
 	    death = { death_reason = death_accident }
 	}
 }
@@ -67075,12 +67393,6 @@ lineofkamdelehan102 = {
 	}
 	5700.01.17 = {  # Died at age 22
 	    death = { death_reason = death_accident }
-	}
-	5700.01.22 = {  # Married at age 22
-	    add_spouse = lineofvardanisan48
-	}
-	5700.10.07 = {  # Married at age 22
-	    add_spouse = lineofkhushnawazan123
 	}
 }
 
@@ -71274,17 +71586,8 @@ lineofkersasphan115 = {
 	    trait = arrogant
 	    trait = generous
 	}
-	5700.02.18 = {  # Married at age 50
-	    add_spouse = lineofvardanisan36
-	}
 	5700.04.01 = {  # Died at age 50
 	    death = { death_reason = death_natural_causes }
-	}
-	5700.05.11 = {  # Married at age 51
-	    add_spouse = lineofmahburzinihan64
-	}
-	5700.07.24 = {  # Married at age 51
-	    add_spouse = lineofkersasphan117
 	}
 }
 
@@ -71535,9 +71838,6 @@ lineofkersasphan122 = {
 	}
 	5700.06.12 = {  # Died at age 43
 	    death = { death_reason = death_accident }
-	}
-	5700.06.22 = {  # Married at age 43
-	    add_spouse = lineofkersasphan112
 	}
 }
 
@@ -80162,9 +80462,6 @@ lineofkhushnawazan110 = {
 	5700.06.17 = {  # Died at age 57
 	    death = { death_reason = death_dungeon_passive }
 	}
-	5700.11.15 = {  # Married at age 57
-	    add_spouse = lineofzirakahan39
-	}
 }
 
 lineofkhushnawazan111 = {
@@ -82979,12 +83276,6 @@ lineofmahburzinihan61 = {
 	5700.03.17 = {  # Died at age 58
 	    death = { death_reason = death_accident }
 	}
-	5700.10.08 = {  # Married at age 59
-	    add_spouse = lineofzirakzadehan71
-	}
-	5700.11.19 = {  # Married at age 59
-	    add_spouse = lineofvasnahan34
-	}
 }
 
 lineofmahburzinihan62 = {
@@ -83093,7 +83384,7 @@ lineofmahburzinihan66 = {
 	5700.01.16 = {  # Died at age 39
 	    death = { death_reason = death_battle }
 	}
-	5700.03.15 = {  # Married at age 39
+	5698.03.15 = {  # Married at age 37
 	    add_spouse = lineofmahburzinihan84
 	}
 }
@@ -83202,11 +83493,11 @@ lineofmahburzinihan69 = {
 	    trait = callous
 	    trait = cynical
 	}
-	5700.06.01 = {  # Died at age 37
-	    death = { death_reason = death_accident }
-	}
 	5700.08.18 = {  # Married at age 37
 	    add_spouse = lineofmahburzinihan85
+	}
+	5720.06.01 = {  # Died at age 57
+	    death = { death_reason = death_accident }
 	}
 }
 
@@ -92127,9 +92418,6 @@ lineofmujahan201 = {
 	5683.04.26 = {  # Married at age 20
 	    add_spouse = lineofarvanhahan100
 	}
-	5700.03.03 = {  # Married at age 37
-	    add_spouse = lineofmahburzinihan78
-	}
 	5700.06.26 = {  # Died at age 38
 	    death = { death_reason = death_dungeon_passive }
 	}
@@ -95425,11 +95713,11 @@ lineoframinshtan65 = {
 	    trait = forgiving
 	    trait = temperate
 	}
-	5700.04.18 = {  # Died at age 30
-	    death = { death_reason = death_attacked }
-	}
-	5700.11.07 = {  # Married at age 30
+	5700.01.10 = {  # Married at age 30
 	    add_spouse = lineoframinshtan79
+	}
+	5755.04.18 = {  # Died at age 85
+	    death = { death_reason = death_attacked }
 	}
 }
 
@@ -95629,9 +95917,6 @@ lineoframinshtan71 = {
 	}
 	5700.06.15 = {  # Died at age 21
 	    death = { death_reason = death_natural_causes }
-	}
-	5700.10.15 = {  # Married at age 22
-	    add_spouse = lineofvasnahan44
 	}
 }
 
@@ -103519,11 +103804,8 @@ lineoframzeket215 = {
 	5688.08.04 = {  # Married at age 19
 	    add_spouse = lineoframzeket218
 	}
-	5700.04.24 = {  # Died at age 31
+	5750.04.24 = {  # Died at age 81
 	    death = { death_reason = death_dungeon_passive }
-	}
-	5700.12.26 = {  # Married at age 31
-	    add_spouse = lineofkamdelehan105
 	}
 }
 
@@ -105890,11 +106172,11 @@ lineofsarafrazan54 = {
 	5667.01.18 = {  # Married at age 16
 	    add_spouse = lineofarvanhahan94
 	}
-	5700.04.25 = {  # Died at age 49
-	    death = { death_reason = death_murder }
-	}
 	5700.08.04 = {  # Married at age 50
 	    add_spouse = lineofzirakahan48
+	}
+	5720.04.25 = {  # Died at age 69
+	    death = { death_reason = death_murder }
 	}
 }
 
@@ -106069,11 +106351,8 @@ lineofsarafrazan59 = {
 	5694.09.03 = {  # Married at age 19
 	    add_spouse = lineofvasnahan47
 	}
-	5700.02.15 = {  # Died at age 24
+	5760.02.15 = {  # Died at age 84
 	    death = { death_reason = death_drinking_passive }
-	}
-	5700.10.22 = {  # Married at age 25
-	    add_spouse = lineofzirakzadehan78
 	}
 }
 
@@ -114646,12 +114925,6 @@ lineofvasnahan31 = {
 	5700.03.02 = {  # Died at age 58
 	    death = { death_reason = death_dungeon_passive }
 	}
-	5700.03.13 = {  # Married at age 58
-	    add_spouse = lineofkhushnawazan115
-	}
-	5700.12.22 = {  # Married at age 59
-	    add_spouse = lineofkersasphan109
-	}
 }
 
 lineofvasnahan32 = {
@@ -114908,11 +115181,11 @@ lineofvasnahan38 = {
 	    trait = vengeful
 	    trait = arbitrary
 	}
+	5798.11.22 = {  # Married at age 37
+	    add_spouse = lineofjahangir125
+	}
 	5700.10.07 = {  # Died at age 39
 	    death = { death_reason = death_natural_causes }
-	}
-	5700.11.22 = {  # Married at age 39
-	    add_spouse = lineofjahangir125
 	}
 }
 
@@ -115089,11 +115362,11 @@ lineofvasnahan43 = {
 	    trait = eccentric
 	    trait = vengeful
 	}
-	5700.06.26 = {  # Died at age 29
-	    death = { death_reason = death_drinking_passive }
-	}
 	5700.09.27 = {  # Married at age 30
 	    add_spouse = lineofvasnahan54
+	}
+	5750.06.26 = {  # Died at age 79
+	    death = { death_reason = death_drinking_passive }
 	}
 }
 
@@ -126866,20 +127139,8 @@ lineofvindafarnahan98 = {
 	5667.11.20 = {  # Married at age 21
 	    add_spouse = lineofhaydahan165
 	}
-	5700.01.10 = {  # Married at age 53
-	    add_spouse = lineoframzeket210
-	}
-	5700.02.14 = {  # Married at age 53
-	    add_spouse = lineofvardanisan45
-	}
 	5700.03.23 = {  # Died at age 53
 	    death = { death_reason = death_battle }
-	}
-	5700.07.01 = {  # Married at age 53
-	    add_spouse = lineofvasnahan37
-	}
-	5700.12.12 = {  # Married at age 54
-	    add_spouse = lineoframinshtan57
 	}
 }
 
@@ -127097,11 +127358,8 @@ lineofvindafarnahan104 = {
 	5698.02.04 = {  # Married at age 17
 	    add_spouse = lineofkamdelehan101
 	}
-	5700.01.16 = {  # Died at age 19
+	5730.01.16 = {  # Died at age 49
 	    death = { death_reason = death_dungeon_passive }
-	}
-	5700.12.19 = {  # Married at age 20
-	    add_spouse = lineoframinshtan72
 	}
 }
 
@@ -127254,7 +127512,7 @@ lineofvindafarnahan108 = {
 	5699.12.12 = {
 	    birth = yes
 	}
-	5700.01.27 = {  # Died at age 0
+	5760.01.27 = {  # Died at age 60
 	    death = { death_reason = death_ill }
 	}
 }
@@ -134788,11 +135046,11 @@ lineofzirakzadehan76 = {
 	    trait = calm
 	    trait = forgiving
 	}
-	5700.07.27 = {  # Died at age 26
-	    death = { death_reason = death_ill }
-	}
 	5700.08.13 = {  # Married at age 26
 	    add_spouse = lineoframinshtan72
+	}
+	5770.07.27 = {  # Died at age 96
+	    death = { death_reason = death_ill }
 	}
 }
 
@@ -153328,9 +153586,6 @@ lineofbahadurhan54 = {
 	    trait = diligent
 	    trait = generous
 	}
-	6908.12.08 = {  # Married at age 47
-	    add_spouse = lineofhoshedarmah147
-	}
 	6945.01.19 = {  # Died at age 83
 	    death = { death_reason = death_natural_causes }
 	}
@@ -153878,7 +154133,7 @@ lineofbahadurhan72 = {
 	6954.02.22 = {  # Married at age 27
 	    add_spouse = lineofbahadurhan76
 	}
-	70.03.02 = {  # Died at age 94
+	7021.03.02 = {  # Died at age 94
 	    death = { death_reason = death_natural_causes }
 	}
 }
@@ -164501,9 +164756,6 @@ lineofdelawarhan46 = {
 	6821.02.12 = {  # Married at age 19
 	    add_spouse = lineofgushtahemez106
 	}
-	6885.11.17 = {  # Married at age 84
-	    add_spouse = lineofnevazarhan47
-	}
 	6886.11.18 = {  # Died at age 85
 	    death = { death_reason = death_natural_causes }
 	}
@@ -165366,9 +165618,6 @@ lineofdelawarhan69 = {
 	}
 	6989.07.25 = {  # Died at age 67
 	    death = { death_reason = death_natural_causes }
-	}
-	6989.09.26 = {  # Married at age 67
-	    add_spouse = lineofkamranahan152
 	}
 }
 
@@ -169605,7 +169854,7 @@ lineofemetez19 = {
 	    trait = eccentric
 	    trait = calm
 	}
-	6922.04.14 = {  # Married at age 30
+	6912.04.14 = {  # Married at age 20
 	    add_spouse = lineofemetez32
 	}
 	6958.12.19 = {  # Died at age 67
@@ -170316,16 +170565,13 @@ lineofemetez40 = {
 	trait = education_martial_4
 
 	trait = charming
-	6942.04.20 = {
+	6910.04.20 = {
 	    birth = yes
 	}
-	6958.04.20 = {  
+	6926.04.20 = {  
 	    trait = cynical
 	    trait = arbitrary
 	    trait = paranoid
-	}
-	6981.02.07 = {  # Married at age 38
-	    add_spouse = lineofemetez48
 	}
 	6933.4.26 = {  # Died in Tirdahan coup
 	    death = { death_reason = death_battle }
@@ -177370,9 +177616,6 @@ lineofferozgarhan103 = {
 	6912.04.09 = {  # Died at age 87
 	    death = { death_reason = death_natural_causes }
 	}
-	6912.04.23 = {  # Married at age 87
-	    add_spouse = lineofbahadurhan40
-	}
 }
 
 lineofferozgarhan104 = {
@@ -181177,9 +181420,6 @@ lineofgorazehan42 = {
 	    trait = forgiving
 	    trait = shy
 	    trait = eccentric
-	}
-	6594.10.22 = {  # Married at age 80
-	    add_spouse = lineofizadyar52
 	}
 	6549.12.11 = {  # Died in Gorazehan Rebellion
 	    death = { death_reason = death_battle }
@@ -192548,7 +192788,7 @@ lineofgushtahemez125 = {
 	}
 	6964.02.17 = {  
 	    trait = greedy
-	    trait = fickle
+	    trait = just
 	    trait = eccentric
 	}
 	6981.05.14 = {  # Married at age 33
@@ -192965,6 +193205,8 @@ lineofgushtahemez137 = {
 	trait = education_martial_4
 
 	trait = bossy
+    trait = loyal
+    
 	6984.05.12 = {
 	    birth = yes
 	}
@@ -200521,12 +200763,6 @@ lineofhoshedarmah143 = {
 	6896.10.06 = {  # Married at age 24
 	    add_spouse = lineofhoshedarmah146
 	}
-	6947.12.22 = {  # Married at age 75
-	    add_spouse = lineofnevazarhan59
-	}
-	6957.08.20 = {  # Married at age 84
-	    add_spouse = lineofurvatatnara36
-	}
 	6958.08.16 = {  # Died at age 85
 	    death = { death_reason = death_natural_causes }
 	}
@@ -200625,7 +200861,7 @@ lineofhoshedarmah145 = {
 	}
 	6896.11.14 = {  
 	    trait = honest
-	    trait = eccentric
+	    trait = lustful
 	    trait = fickle
 	}
 	6962.09.04 = {  # Died at age 81
@@ -201207,7 +201443,7 @@ lineofhoshedarmah162 = {
 	}
 }
 
-lineofhoshedarmah163 = {
+lineofhoshedarmah163 = { # Quiet, dull man who let the governorship pass to his two younger brothers
 	name = Shiruy
 	culture = khyan
 	religion = faith_arienism
@@ -201232,7 +201468,7 @@ lineofhoshedarmah163 = {
 	    birth = yes
 	}
 	6976.12.26 = {  
-	    trait = brave
+	    trait = content
 	    trait = stubborn
 	    trait = honest
 	}
@@ -201318,7 +201554,7 @@ lineofhoshedarmah165 = {
 	}
 }
 
-lineofhoshedarmah166 = {
+lineofhoshedarmah166 = { # Stole the prestigous fief of lower Khy from the Bahadurhan, dying suspicously soon after
 	name = Khudaparasht
 	culture = khyan
 	religion = faith_arienism
@@ -201350,7 +201586,7 @@ lineofhoshedarmah166 = {
 	7006.10.04 = {  # Married at age 41
 	    add_spouse = lineofhoshedarmah174
 	}
-	7027.07.20 = {  # Died at age 62
+	7029.07.20 = {  # Died at age 62
 	    death = { death_reason = death_drinking_passive }
 	}
 }
@@ -201598,7 +201834,7 @@ lineofhoshedarmah173 = {
 	}
 }
 
-lineofhoshedarmah175 = {
+lineofhoshedarmah175 = { # Young lore of Lower Khy, dealing with the results of his father's rise
 	name = Davrameshi
 	culture = khyan
 	religion = faith_arienism
@@ -215677,7 +215913,7 @@ lineofizadyar203 = {
 	    birth = yes
 	}
 	7011.04.14 = {  
-	    trait = stubborn
+	    trait = deceitful
 	    trait = eccentric
 	    trait = trusting
 	}
@@ -218436,11 +218672,6 @@ lineofjahanabada30 = {
 	}
 	6993.11.06 = {  # Died at age 15
 	    death = { death_reason = death_ill }
-	}
-	6993.11.16 = {  
-	    trait = cynical
-	    trait = generous
-	    trait = temperate
 	}
 }
 
@@ -225598,9 +225829,6 @@ lineofkamranahan148 = {
 	}
 	6972.04.18 = {  # Died at age 78
 	    death = { death_reason = death_natural_causes }
-	}
-	6972.05.18 = {  # Married at age 78
-	    add_spouse = lineofkamranahan154
 	}
 }
 
@@ -236779,7 +237007,7 @@ lineofkhudamarda9 = {
 	}
 	7019.04.10 = {  
 	    trait = fickle
-	    trait = eccentric
+	    trait = honest
 	    trait = paranoid
 	}
 	7024.07.09 = {  # Married at age 21
@@ -239883,9 +240111,6 @@ lineoflhushmanishan5 = {
 	}
 	6422.02.05 = {  # Died at age 77
 	    death = { death_reason = death_natural_causes }
-	}
-	6422.11.26 = {  # Married at age 78
-	    add_spouse = lineofferozgarhan9
 	}
 }
 
@@ -258395,11 +258620,6 @@ lineofnevazarhan31 = {
 	6794.02.26 = {  # Died at age 15
 	    death = { death_reason = death_ill }
 	}
-	6794.09.07 = {  
-	    trait = brave
-	    trait = greedy
-	    trait = arbitrary
-	}
 }
 
 lineofnevazarhan32 = {
@@ -261509,7 +261729,7 @@ lineoforvadaspa25 = {
 	    birth = yes
 	}
 	7020.08.06 = {  
-	    trait = fickle
+	    trait = callous
 	    trait = eccentric
 	    trait = cynical
 	}
@@ -275117,9 +275337,6 @@ lineofshiruyhan5 = {
 	}
 	6936.04.04 = {  # Died at age 78
 	    death = { death_reason = death_natural_causes }
-	}
-	6936.10.18 = {  # Married at age 78
-	    add_spouse = lineofizadyar182
 	}
 }
 
@@ -290579,12 +290796,437 @@ lineoftahmahan184 = {
 ### Dynasty dynasty_upamana
 ################
 
+linepreupamana1 = {
+    name = Nh_elos
+
+    dynasty = dynasty_upamana
+    religion = faith_arienism
+    culture = mejhanian
+
+    sexuality = asexual
+
+    trait = just
+    trait = impatient
+    trait = honest
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 7
+    intrigue = 6
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6680.11.11 = {
+        birth = yes
+    }
+
+    6703.6.25 = {
+        add_spouse = linepreupamana2
+    }
+
+    6761.12.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepreupamana2 = {
+    name = Atyohma
+    female = yes
+
+    religion = faith_arienism
+    culture = mejhanian
+
+    sexuality = heterosexual
+
+    trait = craven
+    trait = vengeful
+    trait = humble
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    6686.9.14 = {
+        birth = yes
+    }
+
+    6768.12.4 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+linepreupamana3 = {
+    name = Telearath
+
+    dynasty = dynasty_upamana
+    religion = faith_arienism
+    culture = mejhanian
+
+    father = linepreupamana1
+    mother = linepreupamana2
+
+    sexuality = heterosexual
+
+    trait = greedy
+    trait = paranoid
+    trait = stubborn
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 6
+    intrigue = 2
+    learning = 5
+    prowess = 2
+
+    trait = education_stewardship_1
+
+    6724.5.23 = {
+        birth = yes
+    }
+
+    6751.7.4 = {
+        add_spouse = linepreupamana4
+    }
+	
+	6787.1.1 = {
+		effect = { 
+            start_tributary = {
+				contract_group = tributary_subjugated
+				suzerain = character:lineiseriset5
+			}
+			tributary_contract_set_obligation_level = { type = default_tributary_taxes level = 1 }
+			tributary_contract_set_obligation_level = { type = default_tributary_prestige level = 0 }
+		}
+    }
+
+    6814.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepreupamana4 = {
+    name = Faruzan
+    female = yes
+
+    religion = faith_arienism
+    culture = mejhanian
+
+    sexuality = heterosexual
+
+    trait = humble
+    trait = lustful
+    trait = calm
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 4
+    intrigue = 8
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_1
+
+    6724.1.23 = {
+        birth = yes
+    }
+
+    6806.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepreupamana5 = {
+    name = Annutak
+
+    dynasty = dynasty_upamana
+    religion = faith_arienism
+    culture = mejhanian
+
+    father = linepreupamana3
+    mother = linepreupamana4
+
+    sexuality = heterosexual
+
+    trait = diligent
+    trait = ambitious
+    trait = gregarious
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 3
+    intrigue = 8
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_1
+
+    6757.12.22 = {
+        birth = yes
+    }
+
+    6782.11.2 = {
+        add_spouse = linepreupamana6
+    }
+
+    6841.10.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepreupamana6 = {
+    name = Narva
+    female = yes
+
+    religion = faith_arienism
+    culture = mejhanian
+
+    sexuality = heterosexual
+
+    trait = chaste
+    trait = just
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 3
+    intrigue = 3
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_1
+
+    6754.6.12 = {
+        birth = yes
+    }
+
+    6816.8.18 = {
+        death = { death_reason = death_great_pox }
+    }
+}
+
+linepreupamana7 = {
+    name = Hamshi
+
+    dynasty = dynasty_upamana
+    religion = faith_arienism
+    culture = mejhanian
+
+    father = linepreupamana5
+    mother = linepreupamana6
+
+    sexuality = heterosexual
+
+    trait = cynical
+    trait = patient
+    trait = generous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    6785.4.18 = {
+        birth = yes
+    }
+
+    6818.2.21 = {
+        add_spouse = linepreupamana8
+    }
+
+    6851.8.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepreupamana8 = {
+    name = Martre
+    female = yes
+
+    religion = faith_arienism
+    culture = mejhanian
+
+    sexuality = heterosexual
+
+    trait = arrogant
+    trait = brave
+    trait = sadistic
+
+    diplomacy = 2
+    martial = 2
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6784.5.22 = {
+        birth = yes
+    }
+
+    6869.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepreupamana9 = {
+    name = Raesaeth
+
+    dynasty = dynasty_upamana
+    religion = faith_arienism
+    culture = mejhanian
+
+    father = linepreupamana7
+    mother = linepreupamana8
+
+    sexuality = heterosexual
+
+    trait = craven
+    trait = just
+    trait = greedy
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 2
+    intrigue = 1
+    learning = 1
+    prowess = 6
+
+    trait = education_martial_3
+
+    6822.8.28 = {
+        birth = yes
+    }
+
+    6852.7.6 = {
+        add_spouse = linepreupamana10
+    }
+
+    6862.12.17 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+linepreupamana10 = {
+    name = Ameste_ri
+    female = yes
+
+    religion = faith_arienism
+    culture = mejhanian
+
+    sexuality = heterosexual
+
+    trait = chaste
+    trait = calm
+    trait = trusting
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 5
+    intrigue = 6
+    learning = 2
+    prowess = 3
+
+    trait = education_diplomacy_1
+
+    6819.7.27 = {
+        birth = yes
+    }
+
+    6901.7.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepreupamana11 = {
+    name = Mendahor
+
+    dynasty = dynasty_upamana
+    religion = faith_arienism
+    culture = mejhanian
+
+    father = linepreupamana9
+    mother = linepreupamana10
+
+    sexuality = heterosexual
+
+    trait = chaste
+    trait = craven
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_4
+
+    6854.1.11 = {
+        birth = yes
+    }
+
+    6876.1.16 = {
+        add_spouse = linepreupamana12
+    }
+
+    6917.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepreupamana12 = {
+    name = Raelati
+    female = yes
+
+    religion = faith_arienism
+    culture = mejhanian
+
+    sexuality = heterosexual
+
+    trait = ambitious
+    trait = humble
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 3
+
+    trait = education_stewardship_1
+
+    6852.7.1 = {
+        birth = yes
+    }
+
+    6917.10.15 = {
+        death = { death_reason = death_horse_riding_accident  }
+    }
+}
+
+
 lineofupamana1 = {
 	name = Huafrid
 	culture = mejhanian
 	religion = faith_arienism
 
 	dynasty = dynasty_upamana
+	father = linepreupamana11
+	mother = linepreupamana12
 
 	sexuality = heterosexual
 
@@ -295506,7 +296148,7 @@ lineofurvatatnara37 = {
 	6894.06.01 = {  
 	    trait = stubborn
 	    trait = compassionate
-	    trait = eccentric
+	    trait = temperate
 	}
 	6906.03.12 = {  # Married at age 27
 	    add_spouse = lineofgorazehan149
@@ -295872,12 +296514,6 @@ lineofurvatatnara46 = {
 	6961.02.09 = {  # Married at age 27
 	    add_spouse = lineofnevazarhan86
 	}
-	7007.01.19 = {  # Married at age 73
-	    add_spouse = lineofnevazarhan89
-	}
-	7022.06.03 = {  # Married at age 88
-	    add_spouse = lineofwehzanez42
-	}
 	7025.01.27 = {  # Died at age 91
 	    death = { death_reason = death_natural_causes }
 	}
@@ -296090,14 +296726,6 @@ lineofurvatatnara53 = {
 	}
 	6995.12.28 = {  # Married at age 19
 	    add_spouse = lineofwehzanez44
-	}
-	7008.12.07 = {
-	    effect = { 
-			start_tributary = {
-				contract_group = tributary_subjugated
-				suzerain = character:lineoftirdahan6
-			}
-        }
 	}
 	
 	7052.09.18 = {  # Died at age 76
@@ -308637,7 +309265,7 @@ lineofbahez1 = {
     }
 
     6786.5.17 = {
-        add_spouse = lineofkahlavan1wife
+        add_spouse = lineofbahez1wife
     }
 
     6816.12.15 = {
@@ -325693,6 +326321,11 @@ lineofbahraman192 = {
 	    trait = generous
 	    trait = brave
 	}
+    7035.8.11 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofbahraman193 = {
@@ -325728,6 +326361,11 @@ lineofbahraman193 = {
 	6995.08.23 = {  # Married at age 19
 	    add_spouse = lineofcaramadran176
 	}
+    7050.2.9 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofbahraman194 = {
@@ -331759,6 +332397,11 @@ lineofcaramadran174 = {
 	    trait = eccentric
 	    trait = humble
 	}
+    7034.7.10 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofcaramadran175 = {
@@ -339139,6 +339782,11 @@ lineoffarshidzen194 = {
 	6997.09.14 = {  # Married at age 36
 	    add_spouse = lineofbahraman190
 	}
+    7037.1.30 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineoffarshidzen195 = {
@@ -339170,6 +339818,11 @@ lineoffarshidzen195 = {
 	    trait = brave
 	    trait = greedy
 	}
+    7037.10.31 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineoffarshidzen196 = {
@@ -339203,6 +339856,11 @@ lineoffarshidzen196 = {
 	    trait = honest
 	    trait = lustful
 	}
+    7042.8.19 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineoffarshidzen197 = {
@@ -339235,6 +339893,11 @@ lineoffarshidzen197 = {
 	    trait = paranoid
 	    trait = generous
 	}
+    7035.4.21 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineoffarshidzen198 = {
@@ -339270,6 +339933,11 @@ lineoffarshidzen198 = {
 	6992.12.10 = {  # Married at age 18
 	    add_spouse = lineofvisnarmaken147
 	}
+    7048.6.21 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineoffarshidzen199 = {
@@ -349871,6 +350539,11 @@ lineofkerhamez138 = {
 	    trait = generous
 	    trait = shy
 	}
+    7034.5.24 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofkerhamez139 = {
@@ -349905,6 +350578,11 @@ lineofkerhamez139 = {
 	6991.01.28 = {  # Married at age 23
 	    add_spouse = lineofosard115
 	}
+    7040.3.14 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvahramzen140 = {
@@ -349964,6 +350642,11 @@ lineofkerhamez140 = {
 	    trait = temperate
 	    trait = lustful
 	}
+    7036.11.18 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofkerhamez141 = {
@@ -360168,6 +360851,11 @@ lineofosard114 = {
 	6999.05.23 = {  # Married at age 28
 	    add_spouse = lineofbahraman194
 	}
+    7039.5.5 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofosard115 = {
@@ -360201,6 +360889,11 @@ lineofosard115 = {
 	    trait = impatient
 	    trait = callous
 	}
+    7046.9.3 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofosard116 = {
@@ -364659,9 +365352,6 @@ lineofqudoz71 = {
 	6898.04.18 = {  # Married at age 74
 	    add_spouse = lineofcaramadran158
 	}
-	6910.05.25 = {  # Married at age 86
-	    add_spouse = lineofqudoz80
-	}
 	6914.05.02 = {  # Died at age 90
 	    death = { death_reason = death_natural_causes }
 	}
@@ -365334,6 +366024,11 @@ lineofqudoz90 = {
 	6983.03.08 = {  # Married at age 26
 	    add_spouse = lineofvisnarmaken143
 	}
+    7036.12.18 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofqudoz91 = {
@@ -365366,6 +366061,11 @@ lineofqudoz91 = {
 	    trait = compassionate
 	    trait = lazy
 	}
+    7033.11.16 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofqudoz92 = {
@@ -365498,7 +366198,7 @@ lineofqudoz95 = {
 	}
 	7010.02.08 = {  
 	    trait = paranoid
-	    trait = eccentric
+	    trait = shy
 	    trait = stubborn
 	}
 	7023.10.17 = {  # Married at age 29
@@ -369921,6 +370621,11 @@ lineofshirzadeh119 = {
 	6977.08.09 = {  # Married at age 24
 	    add_spouse = lineofcaramadran174
 	}
+    7033.6.22 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofshirzadeh120 = {
@@ -369953,6 +370658,11 @@ lineofshirzadeh120 = {
 	    trait = impatient
 	    trait = cynical
 	}
+    7034.2.15 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofshirzadeh121 = {
@@ -378374,7 +379084,7 @@ lineofvahramzen99 = {
 	6830.02.10 = {  
 	    trait = eccentric
 	    trait = diligent
-	    trait = stubborn
+	    trait = paranoid
 	}
 	6836.05.01 = {  # Married at age 22
 	    add_spouse = lineofbahraman169
@@ -379879,6 +380589,11 @@ lineofvahramzen145 = {
 	6986.10.16 = {  # Married at age 41
 	    add_spouse = lineofvahramzen156
 	}
+    7033.5.8 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvahramzen146 = {
@@ -379911,6 +380626,11 @@ lineofvahramzen146 = {
 	    trait = ambitious
 	    trait = forgiving
 	}
+    7033.10.19 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvahramzen147 = {
@@ -379982,6 +380702,11 @@ lineofvahramzen148 = {
 	6973.12.11 = {  # Married at age 23
 	    add_spouse = lineofshirzadeh120
 	}
+    7033.10.14 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvahramzen149 = {
@@ -380075,6 +380800,11 @@ lineofvahramzen151 = {
 	    trait = gregarious
 	    trait = paranoid
 	}
+    7038.6.28 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvahramzen152 = {
@@ -380138,6 +380868,11 @@ lineofvahramzen153 = {
 	7015.01.25 = {  # Married at age 40
 	    add_spouse = lineofvahramzen158
 	}
+    7034.4.4 = {
+        death = {
+            death_reason = death_accident
+        }
+    }
 }
 
 lineofvahramzen154 = {
@@ -380200,6 +380935,11 @@ lineofvahramzen155 = {
 	    trait = just
 	    trait = stubborn
 	}
+    7039.12.13 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvahramzen156 = {
@@ -380228,6 +380968,11 @@ lineofvahramzen156 = {
 	    trait = arbitrary
 	    trait = eccentric
 	}
+    7041.12.10 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvahramzen157 = {
@@ -380290,6 +381035,11 @@ lineofvahramzen158 = {
 	    trait = generous
 	    trait = diligent
 	}
+    7040.1.22 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvahramzen159 = {
@@ -382437,9 +383187,6 @@ lineofvisnarmaken54 = {
 	}
 	6809.03.14 = {  # Died at age 86
 	    death = { death_reason = death_natural_causes }
-	}
-	6809.05.12 = {  # Married at age 87
-	    add_spouse = lineoffarshidzen162
 	}
 }
 
@@ -385359,6 +386106,11 @@ lineofvisnarmaken140 = {
 	6978.07.05 = {  # Married at age 25
 	    add_spouse = lineofqudoz91
 	}
+    7033.7.2 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvisnarmaken141 = {
@@ -385525,6 +386277,11 @@ lineofvisnarmaken145 = {
 	    trait = zealous
 	    trait = greedy
 	}
+    7038.10.25 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvisnarmaken146 = {
@@ -385628,6 +386385,11 @@ lineofvisnarmaken148 = {
 	7005.09.27 = {  # Married at age 30
 	    add_spouse = lineofvisnarmaken161
 	}
+    7048.1.27 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvisnarmaken149 = {
@@ -385687,6 +386449,11 @@ lineofvisnarmaken150 = {
 	    trait = lustful
 	    trait = paranoid
 	}
+    7034.12.26 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvisnarmaken151 = {
@@ -385747,6 +386514,11 @@ lineofvisnarmaken152 = {
 	    trait = compassionate
 	    trait = temperate
 	}
+    7040.1.8 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvisnarmaken153 = {
@@ -385939,6 +386711,11 @@ lineofvisnarmaken158 = {
 	    trait = gregarious
 	    trait = chaste
 	}
+    7050.3.12 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvisnarmaken159 = {
