@@ -103685,14 +103685,8 @@ lineoframzeket214 = {
 	5689.08.15 = {  # Married at age 23
 	    add_spouse = lineofishvathan177
 	}
-	5700.02.12 = {  # Married at age 33
-	    add_spouse = lineoframinshtan69
-	}
-	5700.06.12 = {  # Died at age 34
+	5720.06.12 = {  # Died at age 54
 	    death = { death_reason = death_cancer }
-	}
-	5700.11.21 = {  # Married at age 34
-	    add_spouse = lineofkhushnawazan115
 	}
 }
 
