@@ -5969,7 +5969,7 @@ lineoftirdahan4 = { # First Emperor of the Sixth Dynasty, Claims the throne by d
 	}
 
 	6905.12.24 = {
-	set_relation_friend = { reason = friend_children_stole_alcohol target = character:lineofvasnan17 }
+	    set_relation_friend = { reason = friend_children_stole_alcohol target = character:lineofvasnan17 }
 	}
 
     6933.4.26 = { # Ascends the throne, claims regnal name
@@ -54776,9 +54776,9 @@ lineofjahangir20 = {
 	    add_spouse = lineofmeherafshana17
 	}
     5380.01.25 = {
-       effect = {
+        effect = {
             set_relation_rival = character:lineofdastanahan73
-       }
+        }
     }
 	5410.10.16 = {  # Died at age 71
 	    death = { death_reason = death_natural_causes }
@@ -193094,6 +193094,9 @@ lineofgushtahemez137 = {
 	    trait = diligent
 	    trait = stubborn
 	}
+    7001.05.03 = {
+        holder = set_relation_rival = lineofvasnan27
+    }
 	7064.04.24 = {  # Married at age 79
 	    add_spouse = lineofbahadurez85
 	}
