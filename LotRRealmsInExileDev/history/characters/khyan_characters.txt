@@ -386994,3 +386994,63 @@ lineoflastpirate0 = {
         death = { death_reason = death_drowned }
     }
 }
+
+############################
+### Khyan Heads of Faith ###
+############################
+
+# Aspandad 
+
+lineofaspandad = { # A mentor figure to Taxmaspada.
+    name = Aspandad
+
+    culture = khyan
+    religion = faith_arienism
+    
+    trait = humble
+    trait = compassionate
+    trait = impatient  
+    trait = irritable
+
+    trait = education_learning_3
+
+    diplomacy = 5
+    martial = 1
+    stewardship = 7
+    intrigue = 0
+    learning = 10
+
+    6941.9.10 = {
+        birth = yes
+    }
+    7003.2.11 = {
+        death = { death_reason = death_ill } # Died suspicously young, leading the young Khudaram to succeed him 
+    }
+}
+# Khudaram
+
+lineofkhudaram = { # a bit of a worldly high priest, he always clashed with Taxmaspada over matters of religious infulence
+    name = Khudaram
+
+    culture = khyan
+    religion = faith_arienism
+    
+    trait = ambitious
+    trait = arrogant
+    trait = gregarious
+
+    trait = education_intrigue_3
+
+    diplomacy = 7
+    martial = 2
+    stewardship = 6
+    intrigue = 10
+    learning = 4
+
+    6980.4.15 = {
+        birth = yes
+    }
+    7040.6.1 = {
+        death = { death_reason = death_murder } # Murdered openly durring the Midsummer festival - no one is sure who paid for it though. 
+    }
+}
