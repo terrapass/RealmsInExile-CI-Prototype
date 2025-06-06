@@ -193095,7 +193095,7 @@ lineofgushtahemez137 = {
 	    trait = stubborn
 	}
     7001.05.03 = {
-        holder = set_relation_rival = lineofvasnan27
+        set_relation_rival = lineofvasnan27
     }
 	7064.04.24 = {  # Married at age 79
 	    add_spouse = lineofbahadurez85
