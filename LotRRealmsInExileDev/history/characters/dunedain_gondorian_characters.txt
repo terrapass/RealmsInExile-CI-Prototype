@@ -233578,6 +233578,10 @@ lineofelendirpelargir81 = {
 		}
     }
 
+    6771.3.2 = {
+        employer = lineofelendirpelargir70
+    }
+
     6789.5.28 = {
         death = { death_reason = death_torture  }
     }
