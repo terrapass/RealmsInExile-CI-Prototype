@@ -6014,6 +6014,7 @@ lineoftirdahan6 = { # War of the Ring Ruler
 	dynasty_house = house_tirdahan	
 	religion = faith_arienism
     culture = khyan
+    dna = hoshedar_dna 
 
 	trait = content
 
