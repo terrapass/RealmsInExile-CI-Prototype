@@ -16677,7 +16677,7 @@ dolamroth18 = {
 
 dolamroth19 = {
 	name = Dunhil
-	dna = aglathor_imrazorionath_lw_dna
+	dna = dunhil_imrazorionath_lw_dna
 
 	dynasty_house = house_imrazor
 	religion = faith_edain
