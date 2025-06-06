@@ -5265,6 +5265,10 @@ lineofaldhradan1 = { # First emperor of the 5th dynasty
 		birth = yes		
 	}
 
+    6752.8.20 = {			
+		add_spouse = lineofvasnan4	
+	}
+
     6783.8.21 = { # Ascends the throne, claims regnal name
         name = Aldhrad
     }
@@ -5288,6 +5292,7 @@ lineofaldhradan2 = {
 	trait = temperate
 
     father = lineofaldhradan1
+    mother = lineofvasnan4
 
 	6754.12.22 = {			
 		birth = yes		
@@ -5318,6 +5323,7 @@ lineofaldhradan3 = {
 	trait = temperate
 
     father = lineofaldhradan1
+    mother = lineofvasnan4
 
 	6756.4.1 = {
 		birth = yes		
@@ -5342,6 +5348,7 @@ lineofaldhradan4 = {
     trait = loyal
 
     father = lineofaldhradan1
+    mother = lineofvasnan4
 
 	6760.12.22 = {
 		birth = yes		
@@ -6034,6 +6041,10 @@ lineoftirdahan6 = { # War of the Ring Ruler
 		trait = patient
 	}
 
+    6994.6.15 = {			
+		add_spouse = lineofadelez22
+	}
+
     7011.8.3 = { # Ascends the throne, claims regnal name
         name = Taxmaspada
 	    effect = {
@@ -6065,6 +6076,7 @@ lineoftirdahan7 = {
 	trait = honest
 
     father = lineoftirdahan6
+    mother = lineofadelez22
 
 	6996.4.12 = {			
 		birth = yes		
@@ -6075,6 +6087,10 @@ lineoftirdahan7 = {
             set_relation_rival = character:lineofvasnan42
 			set_relation_rival = character:lineofvasnan43
         }
+	}
+
+    7020.5.18 = {			
+		add_spouse = lineofdelawarhan175	
 	}
 
     7037.9.12 = { # Ascends the throne, claims regnal name
@@ -6100,6 +6116,7 @@ lineoftirdahan8 = {
     trait = education_diplomacy_1
 
     father = lineoftirdahan6
+    mother = lineofadelez22
 
     7000.4.11 = {
         birth = yes
@@ -6134,6 +6151,7 @@ lineoftirdahan9 = {
     trait = education_stewardship_3
 
     father = lineoftirdahan6
+    mother = lineofadelez22
 
     7009.1.7 = {
         birth = yes
@@ -6154,6 +6172,7 @@ lineoftirdahan10 = {
     culture = khyan
 
     father = lineoftirdahan7
+    mother = lineofdelawarhan175
 
 	7024.4.2 = {			
 		birth = yes		
@@ -6602,7 +6621,7 @@ lineofvasnan11 = {
 	}
 
     6844.2.5 = {
-        add_spouse = lineofadel23
+        add_spouse = lineofadelez23
     }
 
 	6853.7.4 = { # Forms cadet branch 'Bardiyen'
@@ -7002,7 +7021,7 @@ lineofvasnan22 = {
     }
 
     6988.7.10 = {
-        add_spouse = lineofadel21
+        add_spouse = lineofadelez21
     }
 
     7016.11.17 = {
@@ -7709,7 +7728,7 @@ lineofvasnan41 = {
     culture = khyan
 
     father = lineofvasnan22
-    mother = lineofadel21
+    mother = lineofadelez21
 
     sexuality = heterosexual
 
@@ -7743,7 +7762,7 @@ lineofvasnan42 = { # Jahanabad the Greedy, rose up in revolt against the Emperor
     culture = khyan
 
     father = lineofvasnan22
-    mother = lineofadel21
+    mother = lineofadelez21
 
     sexuality = heterosexual
 
@@ -9369,7 +9388,7 @@ lineofmahyar20 = {
 
 ### Adelez ###
 
-lineofadel1 = {
+lineofadelez1 = {
     name = Adel
 
     dynasty = dynasty_adelez
@@ -9396,7 +9415,7 @@ lineofadel1 = {
     }
 
     6709.3.25 = {
-        add_spouse = lineofadel1wife
+        add_spouse = lineofadelez1wife
     }
 
     6753.7.7 = {
@@ -9404,7 +9423,7 @@ lineofadel1 = {
     }
 }
 
-lineofadel1wife = {
+lineofadelez1wife = {
     name = Delbanu
     female = yes
 
@@ -9435,15 +9454,15 @@ lineofadel1wife = {
     }
 }
 
-lineofadel2 = {
+lineofadelez2 = {
     name = Burzafrah
 
     dynasty = dynasty_adelez
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel1
-    mother = lineofadel1wife
+    father = lineofadelez1
+    mother = lineofadelez1wife
 
     sexuality = heterosexual
 
@@ -9465,7 +9484,7 @@ lineofadel2 = {
     }
 
     6748.1.11 = {
-        add_spouse = lineofadel2wife
+        add_spouse = lineofadelez2wife
     }
 
     6792.8.28 = {
@@ -9473,7 +9492,7 @@ lineofadel2 = {
     }
 }
 
-lineofadel2wife = {
+lineofadelez2wife = {
     name = Gulrukh
     female = yes
 
@@ -9504,15 +9523,15 @@ lineofadel2wife = {
     }
 }
 
-lineofadel3 = {
+lineofadelez3 = {
     name = Zaosh
 
     dynasty = dynasty_adelez
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel2
-    mother = lineofadel2wife
+    father = lineofadelez2
+    mother = lineofadelez2wife
 
     sexuality = heterosexual
 
@@ -9534,7 +9553,7 @@ lineofadel3 = {
     }
 
     6773.7.22 = {
-        add_spouse = lineofadel3wife
+        add_spouse = lineofadelez3wife
     }
 
     6817.12.23 = {
@@ -9542,7 +9561,7 @@ lineofadel3 = {
     }
 }
 
-lineofadel3wife = {
+lineofadelez3wife = {
     name = Mahpaekar 
     female = yes
 
@@ -9573,15 +9592,15 @@ lineofadel3wife = {
     }
 }
 
-lineofadel4 = {
+lineofadelez4 = {
     name = Janafruz 
 
     dynasty = dynasty_adelez
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel3
-    mother = lineofadel3wife
+    father = lineofadelez3
+    mother = lineofadelez3wife
 
     sexuality = heterosexual
 
@@ -9609,7 +9628,7 @@ lineofadel4 = {
     }
 
     6804.2.13 = {
-        add_spouse = lineofadel4wife
+        add_spouse = lineofadelez4wife
     }
 
     6841.8.27 = {
@@ -9617,7 +9636,7 @@ lineofadel4 = {
     }
 }
 
-lineofadel4wife = {
+lineofadelez4wife = {
     name = Khubrui 
     female = yes
 
@@ -9648,15 +9667,15 @@ lineofadel4wife = {
     }
 }
 
-lineofadel5 = {
+lineofadelez5 = {
     name = Banugushnasp
     female = yes
 
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel3
-    mother = lineofadel3wife
+    father = lineofadelez3
+    mother = lineofadelez3wife
 
     sexuality = heterosexual
 
@@ -9686,15 +9705,15 @@ lineofadel5 = {
     }
 }
 
-lineofadel6 = {
+lineofadelez6 = {
     name = Naztab 
     female = yes
 
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel3
-    mother = lineofadel3wife
+    father = lineofadelez3
+    mother = lineofadelez3wife
 
     sexuality = heterosexual
 
@@ -9724,15 +9743,15 @@ lineofadel6 = {
     }
 }
 
-lineofadel7 = {
+lineofadelez7 = {
     name = Afiveh
 
     dynasty = dynasty_adelez
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel3
-    mother = lineofadel3wife
+    father = lineofadelez3
+    mother = lineofadelez3wife
 
     sexuality = heterosexual
 
@@ -9756,7 +9775,7 @@ lineofadel7 = {
     }
 
     6807.1.7 = {
-        add_spouse = lineofadel7wife
+        add_spouse = lineofadelez7wife
     }
 
     6857.4.8 = {
@@ -9764,7 +9783,7 @@ lineofadel7 = {
     }
 }
 
-lineofadel7wife = {
+lineofadelez7wife = {
     name = Asha
     female = yes
 
@@ -9795,15 +9814,15 @@ lineofadel7wife = {
     }
 }
 
-lineofadel8 = {
+lineofadelez8 = {
     name = Hoshang
 
     dynasty = dynasty_adelez
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel2
-    mother = lineofadel2wife
+    father = lineofadelez2
+    mother = lineofadelez2wife
 
     sexuality = heterosexual
 
@@ -9825,7 +9844,7 @@ lineofadel8 = {
     }
 
     6780.2.3 = {
-        add_spouse = lineofadel8wife
+        add_spouse = lineofadelez8wife
     }
 
     6794.8.4 = {
@@ -9833,7 +9852,7 @@ lineofadel8 = {
     }
 }
 
-lineofadel8wife = {
+lineofadelez8wife = {
     name = Freny
     female = yes
 
@@ -9864,15 +9883,15 @@ lineofadel8wife = {
     }
 }
 
-lineofadel9 = {
+lineofadelez9 = {
     name = Khyra
     female = yes
 
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel8
-    mother = lineofadel8wife
+    father = lineofadelez8
+    mother = lineofadelez8wife
 
     sexuality = heterosexual
 
@@ -9902,15 +9921,15 @@ lineofadel9 = {
     }
 }
 
-lineofadel10 = {
+lineofadelez10 = {
     name = Kamdele
 
     dynasty = dynasty_adelez
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel8
-    mother = lineofadel8wife
+    father = lineofadelez8
+    mother = lineofadelez8wife
 
     sexuality = heterosexual
 
@@ -9934,7 +9953,7 @@ lineofadel10 = {
     }
 
     6809.9.12 = {
-        add_spouse = lineofadel10wife
+        add_spouse = lineofadelez10wife
     }
 
     6862.7.26 = {
@@ -9942,7 +9961,7 @@ lineofadel10 = {
     }
 }
 
-lineofadel10wife = {
+lineofadelez10wife = {
     name = Mahinbanu
     female = yes
 
@@ -9973,15 +9992,15 @@ lineofadel10wife = {
     }
 }
 
-lineofadel11 = {
+lineofadelez11 = {
     name = Khubrui
     female = yes
 
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel2
-    mother = lineofadel2wife
+    father = lineofadelez2
+    mother = lineofadelez2wife
 
     sexuality = heterosexual
 
@@ -10007,15 +10026,15 @@ lineofadel11 = {
     }
 }
 
-lineofadel12 = {
+lineofadelez12 = {
     name = Khurdad
 
     dynasty = dynasty_adelez
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel2
-    mother = lineofadel2wife
+    father = lineofadelez2
+    mother = lineofadelez2wife
 
     sexuality = heterosexual
 
@@ -10037,7 +10056,7 @@ lineofadel12 = {
     }
 
     6781.12.20 = {
-        add_spouse = lineofadel12wife
+        add_spouse = lineofadelez12wife
     }
 
     6819.5.8 = {
@@ -10045,7 +10064,7 @@ lineofadel12 = {
     }
 }
 
-lineofadel12wife = {
+lineofadelez12wife = {
     name = Sanaz 
     female = yes
 
@@ -10082,15 +10101,15 @@ lineofadel12wife = {
     }
 }
 
-lineofadel13 = {
+lineofadelez13 = {
     name = Behbud
 
     dynasty = dynasty_adelez
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel10
-    mother = lineofadel10wife
+    father = lineofadelez10
+    mother = lineofadelez10wife
 
     sexuality = heterosexual
 
@@ -10115,7 +10134,7 @@ lineofadel13 = {
     }
 
     6835.11.28 = {
-        add_spouse = lineofadel13wife
+        add_spouse = lineofadelez13wife
     }
 
     6868.6.25 = {
@@ -10123,7 +10142,7 @@ lineofadel13 = {
     }
 }
 
-lineofadel13wife = {
+lineofadelez13wife = {
     name = Delara 
     female = yes
 
@@ -10158,15 +10177,15 @@ lineofadel13wife = {
     }
 }
 
-lineofadel14 = {
+lineofadelez14 = {
     name = Gushtahm 
 
     dynasty = dynasty_adelez
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel13
-    mother = lineofadel13wife
+    father = lineofadelez13
+    mother = lineofadelez13wife
 
     sexuality = heterosexual
 
@@ -10188,7 +10207,7 @@ lineofadel14 = {
     }
 
     6886.10.12 = {
-        add_spouse = lineofadel14wife
+        add_spouse = lineofadelez14wife
     }
 
     6925.1.6 = {
@@ -10196,7 +10215,7 @@ lineofadel14 = {
     }
 }
 
-lineofadel14wife = {
+lineofadelez14wife = {
     name = Mahchehr 
     female = yes
 
@@ -10227,15 +10246,15 @@ lineofadel14wife = {
     }
 }
 
-lineofadel15 = {
+lineofadelez15 = {
     name = Khudaram
 
     dynasty = dynasty_adelez
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel14
-    mother = lineofadel14wife
+    father = lineofadelez14
+    mother = lineofadelez14wife
 
     sexuality = heterosexual
 
@@ -10257,7 +10276,7 @@ lineofadel15 = {
     }
 
     6933.11.6 = {
-        add_spouse = lineofadel15wife
+        add_spouse = lineofadelez15wife
     }
 
     6976.9.25 = {
@@ -10265,7 +10284,7 @@ lineofadel15 = {
     }
 }
 
-lineofadel15wife = {
+lineofadelez15wife = {
     name = Jaleh  
     female = yes
 
@@ -10296,15 +10315,15 @@ lineofadel15wife = {
     }
 }
 
-lineofadel16 = {
+lineofadelez16 = {
     name = Gushtas 
 
     dynasty = dynasty_adelez
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel15
-    mother = lineofadel15wife
+    father = lineofadelez15
+    mother = lineofadelez15wife
 
     sexuality = heterosexual
 
@@ -10326,7 +10345,7 @@ lineofadel16 = {
     }
 
     6963.11.6 = {
-        add_spouse = lineofadel16wife
+        add_spouse = lineofadelez16wife
     }
 
     6999.9.23 = {
@@ -10334,7 +10353,7 @@ lineofadel16 = {
     }
 }
 
-lineofadel16wife = {
+lineofadelez16wife = {
     name = Keherafrid
     female = yes
 
@@ -10365,15 +10384,15 @@ lineofadel16wife = {
     }
 }
 
-lineofadel17 = {
+lineofadelez17 = {
     name = Sarosh 
 
     dynasty = dynasty_adelez
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel16
-    mother = lineofadel16wife
+    father = lineofadelez16
+    mother = lineofadelez16wife
 
     sexuality = heterosexual
 
@@ -10399,7 +10418,7 @@ lineofadel17 = {
     }
 
     6991.8.20 = {
-        add_spouse = lineofadel17wife
+        add_spouse = lineofadelez17wife
     }
 
     7001.3.26 = {
@@ -10407,7 +10426,7 @@ lineofadel17 = {
     }
 }
 
-lineofadel17wife = {
+lineofadelez17wife = {
     name = Gulrukh
     female = yes
 
@@ -10438,15 +10457,15 @@ lineofadel17wife = {
     }
 }
 
-lineofadel18 = {
+lineofadelez18 = {
     name = Jahanara
     female = yes
 
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel17
-    mother = lineofadel17wife
+    father = lineofadelez17
+    mother = lineofadelez17wife
 
     sexuality = heterosexual
 
@@ -10472,15 +10491,15 @@ lineofadel18 = {
     }
 }
 
-lineofadel19 = {
+lineofadelez19 = {
     name = Homai
     female = yes
 
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel17
-    mother = lineofadel17wife
+    father = lineofadelez17
+    mother = lineofadelez17wife
 
     sexuality = heterosexual
 
@@ -10506,15 +10525,15 @@ lineofadel19 = {
     }
 }
 
-lineofadel20 = {
+lineofadelez20 = {
     name = Aspantaman
 
     dynasty = dynasty_adelez
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel17
-    mother = lineofadel17wife
+    father = lineofadelez17
+    mother = lineofadelez17wife
 
     sexuality = heterosexual
 
@@ -10536,7 +10555,7 @@ lineofadel20 = {
     }
 
     7024.2.22 = {
-        add_spouse = lineofadel20wife
+        add_spouse = lineofadelez20wife
     }
 
     7053.2.2 = {
@@ -10544,7 +10563,7 @@ lineofadel20 = {
     }
 }
 
-lineofadel20wife = {
+lineofadelez20wife = {
     name = Banuhufriz 
     female = yes
 
@@ -10575,15 +10594,15 @@ lineofadel20wife = {
     }
 }
 
-lineofadel21 = {
+lineofadelez21 = {
     name = Aryenish 
     female = yes
 
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel16
-    mother = lineofadel16wife
+    father = lineofadelez16
+    mother = lineofadelez16wife
 
     sexuality = heterosexual
 
@@ -10609,21 +10628,23 @@ lineofadel21 = {
     }
 }
 
-lineofadel22 = {
+lineofadelez22 = {
     name = Gulbanu 
     female = yes
 
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel16
-    mother = lineofadel16wife
+    father = lineofadelez16
+    mother = lineofadelez16wife
 
     sexuality = heterosexual
 
     trait = deceitful
     trait = zealous
     trait = generous
+
+    trait = beauty_good_1
 
     diplomacy = 6
     martial = 5
@@ -10643,7 +10664,7 @@ lineofadel22 = {
     }
 }
 
-lineofadel23 = {
+lineofadelez23 = {
     name = Afiveh
     female = yes 
 
@@ -10651,8 +10672,8 @@ lineofadel23 = {
     religion = faith_arienism
     culture = khyan
 
-    father = lineofadel10
-    mother = lineofadel10wife
+    father = lineofadelez10
+    mother = lineofadelez10wife
 
     sexuality = heterosexual
 
@@ -165938,12 +165959,6 @@ lineofdelawarhan82 = {
 	6995.02.27 = {  # Married at age 40
 	    add_spouse = lineofdelawarhan98
 	}
-	7034.10.01 = {  # Married at age 80
-	    add_spouse = lineofrakhohan16
-	}
-	7038.12.01 = {  # Married at age 84
-	    add_spouse = lineofbahadurez67
-	}
 	7043.08.06 = {  # Died at age 89
 	    death = { death_reason = death_natural_causes }
 	}
@@ -168120,6 +168135,47 @@ lineofhoshedarmah174 = {
 	    trait = content
 	}
 	7060.12.07 = {  # Died at age 79
+	    death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofdelawarhan175 = {
+	name = Mahin
+    female = yes
+	culture = khyan
+	religion = faith_arienism
+
+	dynasty = dynasty_delawarhan
+	father = lineofdelawarhan82
+	mother = lineofdelawarhan98
+
+	sexuality = heterosexual
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 6
+	intrigue = 7
+	learning = 4
+	prowess = 5
+
+    trait = patient
+	trait = arrogant
+	trait = lustful
+
+	trait = education_intrigue_4
+
+	6999.08.12 = {
+	    birth = yes
+	}
+	6970.05.10 = {  
+	    trait = arrogant
+	    trait = impatient
+	    trait = lustful
+	}
+    7020.5.18 = {			
+		employer = lineoftirdahan6	
+	}
+	7043.08.06 = {  # Died at age 89
 	    death = { death_reason = death_natural_causes }
 	}
 }
@@ -306414,7 +306470,7 @@ lineofbardiyen1 = {
     culture = khyan
 
 	father = lineofvasnan11
-    mother = lineofadel23
+    mother = lineofadelez23
 
 	sexuality = heterosexual
 
