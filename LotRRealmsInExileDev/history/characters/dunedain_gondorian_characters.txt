@@ -926,6 +926,13 @@ lineofanarion24 = {
 
 	trait = strong
 
+    diplomacy = 7
+    martial = 8
+    stewardship = 10
+    intrigue = 5
+    learning = 7
+    prowess = 10
+
 	trait = education_stewardship_4 # Served as regent for decades, lead major building projects, realm building was his forte.
 
 	5159.1.1 = {
@@ -979,6 +986,13 @@ lineofanarion25 = {
 	trait = loyal
 	trait = shrewd
 
+    diplomacy = 9
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 7
+    prowess = 10
+
 	trait = education_diplomacy_3 # Calimehtar was often abroad as Romendacil's diplomat in the south
 
 	5165.6.24 = {
@@ -1015,6 +1029,13 @@ lineofanarion26 = {
 	trait = patient
 	trait = just
 	trait = temperate
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 8
+    intrigue = 4
+    learning = 7
+    prowess = 10
 
 	trait = blood_of_numenor_8
 
@@ -1065,6 +1086,13 @@ lineofanarion26brother = {
 	trait = humble
 	trait = honest
 
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 9
+    prowess = 10
+
     trait = wheezing
 	trait = blood_of_numenor_8
 
@@ -1102,6 +1130,13 @@ lineofanarion26niece = {
 	trait = ambitious
 	trait = arbitrary
 	trait = fickle
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 9
+    learning = 6
+    prowess = 10
 
     trait = wheezing
 	trait = blood_of_numenor_7
@@ -2163,6 +2198,12 @@ lineofanarion53 = { # King of Gondor, Castamir the Usurper
 	trait = ambitious
 	trait = lifestyle_mariner
 
+    diplomacy = 7
+    martial = 9
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 10
 
 	trait = blood_of_numenor_7
 	5292.8.15 = {
@@ -2245,6 +2286,12 @@ lineofanarion55 = { # Elder Uncle of Castamir, Instigator of the Kin-Strife and 
 	trait = ambitious
 	trait = deceitful
 
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 10
+    learning = 6
+    prowess = 8
 
 	trait = blood_of_numenor_8
 	5250.1.06 = {
@@ -2275,6 +2322,13 @@ lineofanarion54 = { # Younger Uncle of Castamir, Once Governor of Harondor. Memb
     trait = trusting
 
     trait = education_diplomacy_3
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 9
 
 	trait = blood_of_numenor_8
 
@@ -2310,7 +2364,14 @@ lineofanarion56 = { # Cousin of Castamir, King of Umbar after his father Morlaen
     
     trait = education_stewardship_2
 
-	trait = blood_of_numenor_8
+    diplomacy = 6
+    martial = 5
+    stewardship = 9
+    intrigue = 4
+    learning = 6
+    prowess = 9
+
+	trait = blood_of_numenor_7
 	5318.7.29 = {
 		birth = yes
 		effect = {
@@ -2337,6 +2398,13 @@ lineofanarion57 = { # Cousin of Castamir, dies in the Kin-strife
     trait = arrogant
 
     trait = education_martial_3
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 9
 
 	trait = blood_of_numenor_7
 	5330.4.18 = {
@@ -2470,7 +2538,14 @@ lineofanarion60 = {
     trait = education_martial_3
     trait = cautious_leader
 
-	trait = blood_of_numenor_8
+    diplomacy = 4
+    martial = 9
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 9
+
+	trait = blood_of_numenor_7
 	5326.5.11 = {
 		birth = yes
 		effect = {
@@ -2505,7 +2580,14 @@ lineofanarion61 = {
 
     trait = education_intrigue_1
 
-	trait = blood_of_numenor_8
+    diplomacy = 6
+    martial = 4
+    stewardship = 3
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+	trait = blood_of_numenor_7
 	5334.1.30 = {
 		birth = yes
 		effect = {
@@ -2530,7 +2612,7 @@ lineofanarion62 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_8
+    trait = blood_of_numenor_7
 
     diplomacy = 3
     martial = 7
