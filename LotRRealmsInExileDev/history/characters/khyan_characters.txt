@@ -168167,15 +168167,10 @@ lineofdelawarhan175 = {
 	6999.08.12 = {
 	    birth = yes
 	}
-	6970.05.10 = {  
-	    trait = arrogant
-	    trait = impatient
-	    trait = lustful
-	}
     7020.5.18 = {			
 		employer = lineoftirdahan6	
 	}
-	7043.08.06 = {  # Died at age 89
+	7088.09.06 = {  # Died at age 89
 	    death = { death_reason = death_natural_causes }
 	}
 }
