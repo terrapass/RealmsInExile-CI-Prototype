@@ -185538,8 +185538,6 @@ lineoferoder76 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_1
-
     trait = lazy
     trait = lustful
     trait = just
@@ -185575,8 +185573,6 @@ lineoferoder77 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_1
-
     trait = lazy
     trait = gluttonous
     trait = vengeful
@@ -185610,8 +185606,6 @@ lineoferoder78 = {
     mother = lineoferoder77
 
     sexuality = heterosexual
-
-    trait = blood_of_numenor_1
 
     trait = brave
     trait = deceitful
@@ -185648,8 +185642,6 @@ lineoferoder79 = {
 
     sexuality = bisexual
 
-    trait = blood_of_numenor_1
-
     trait = calm
     trait = vengeful
     trait = shy
@@ -185683,8 +185675,6 @@ lineoferoder80 = {
     mother = lineoferoder79
 
     sexuality = heterosexual
-
-    trait = blood_of_numenor_1
 
     trait = wrathful
     trait = gluttonous
@@ -185721,8 +185711,6 @@ lineoferoder81 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_1
-
     trait = honest
     trait = just
     trait = trusting
@@ -185756,8 +185744,6 @@ lineoferoder82 = {
     mother = lineoferoder81
 
     sexuality = heterosexual
-
-    trait = blood_of_numenor_1
 
     trait = humble
     trait = fickle
@@ -185798,8 +185784,6 @@ lineoferoder83 = {
 
     sexuality = bisexual
 
-    trait = blood_of_numenor_1
-
     trait = zealous
     trait = craven
     trait = callous
@@ -185837,8 +185821,6 @@ lineoferoder84 = {
     mother = lineoferoder83
 
     sexuality = heterosexual
-
-    trait = blood_of_numenor_1
 
     trait = lazy
     trait = paranoid
@@ -185879,8 +185861,6 @@ lineoferoder85 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_1
-
     trait = brave
     trait = humble
     trait = wrathful
@@ -185919,8 +185899,6 @@ lineoferoder86 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_1
-
     trait = rowdy
 
     7028.2.4 = {
@@ -185945,8 +185923,6 @@ lineoferoder87 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_1
-
     7037.1.14 = {
         birth = yes
     }
@@ -185967,8 +185943,6 @@ lineoferoder88 = {
     mother = lineoferoder87
 
     sexuality = heterosexual
-
-    trait = blood_of_numenor_1
 
     7061.10.5 = {
         birth = yes
@@ -185992,8 +185966,6 @@ lineoferoder89 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_1
-
     7059.2.24 = {
         birth = yes
     }
@@ -186014,8 +185986,6 @@ lineoferoder90 = {
     mother = lineoferoder89
 
     sexuality = heterosexual
-
-    trait = blood_of_numenor_1
 
     7087.8.9 = {
         birth = yes
@@ -186038,8 +186008,6 @@ lineoferoder91 = {
     culture = gondorian
 
     sexuality = heterosexual
-
-    trait = blood_of_numenor_1
 
     7085.12.8 = {
         birth = yes
