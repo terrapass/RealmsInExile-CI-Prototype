@@ -7760,6 +7760,7 @@ lineofvasnan42 = { # Jahanabad the Greedy, rose up in revolt against the Emperor
     dynasty = dynasty_vasnan
     religion = faith_arienism
     culture = khyan
+    dna = jahanabad_dna
 
     father = lineofvasnan22
     mother = lineofadelez21
