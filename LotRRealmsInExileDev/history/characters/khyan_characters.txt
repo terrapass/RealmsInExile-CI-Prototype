@@ -144288,6 +144288,9 @@ lineofazadafrozan3 = {
 	6987.05.02 = {  # Married at age 18
 	    add_spouse = lineofupamana16
 	}
+    7033.1.1 = {
+        give_council_position = councillor_spymaster
+    }
 	7042.12.15 = {  # Died at age 74
 	    death = { death_reason = death_natural_causes }
 	}
