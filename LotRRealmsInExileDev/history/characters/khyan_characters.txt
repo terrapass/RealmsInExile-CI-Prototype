@@ -291150,8 +291150,6 @@ lineofupamana1 = {
 	religion = faith_arienism
 
 	dynasty = dynasty_upamana
-	father = linepreupamana11
-	mother = linepreupamana12
 
 	sexuality = heterosexual
 
