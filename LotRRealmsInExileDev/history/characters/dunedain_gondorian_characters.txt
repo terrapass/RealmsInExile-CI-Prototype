@@ -32999,7 +32999,7 @@ linearphenian2 = {
 }
 
 linearphenian2sister = {
-	name = Elemmire
+	name = Edhelvir
 	female = yes
 
 	dynasty_house = house_lebennivet
@@ -41794,7 +41794,7 @@ linepalantir4 = {
 }	
 
 linepalantir5 = {
-	name = Edhelmir # Stewards of edhellond
+	name = Edhelvir # Stewards of edhellond
 	dynasty = dynasty_serelond
 	religion = faith_edain
 	culture = gondorian
@@ -46464,7 +46464,7 @@ lineofmorvegil119 = {
 }
 
 lineofmorvegil120 = {
-    name = Telepe
+    name = Celebloth
     female = yes
 
     religion = faith_edain
@@ -52514,7 +52514,7 @@ linemenelvagor = {
 }
 
 linemenelvagorwife = {
-    name = Telepe
+    name = Celebloth
     female = yes
 
     dynasty = dynasty_talionath
@@ -54009,7 +54009,7 @@ linethavor23 = {
 }
 
 olumirwife2 = {
-	name = Telepe
+	name = Celebloth
 	female = yes
 	
 	religion = faith_edain
@@ -63511,7 +63511,7 @@ linepathonion11 = {
 }
 
 linepathonion11wife = {
-	name = Elemmire 
+	name = Edhelvir 
 	female = yes
 	
 	religion = faith_edain
@@ -65807,7 +65807,7 @@ lineuirebion6 = {
 }
 
 lineuirebion6wife = {
-    name = Telepe
+    name = Celebloth
     female = yes
 
     religion = faith_edain
@@ -77163,7 +77163,7 @@ linecaranor12 = {
 }
 
 linecaranor22 = {
-    name = Elemmire
+    name = Edhelvir
     female = yes
 
     religion = faith_edain
@@ -79113,7 +79113,7 @@ lineofglorinor7 = {
 }
 
 lineofglorinor7wife = {
-    name = Elemmire
+    name = Edhelvir
     female = yes
 
     religion = faith_edain
@@ -85450,7 +85450,7 @@ linecalionath20 = {
 }
 
 linecalionath20wife = {
-    name = Elemmire
+    name = Edhelvir
     female = yes
 
     religion = faith_edain
@@ -85529,7 +85529,7 @@ linecalionath21 = {
 }
 
 linecalionath21wife  = {
-    name = Elemmire
+    name = Edhelvir
     female = yes
 
     religion = faith_edain
@@ -93205,7 +93205,7 @@ lineoflauremacil26 = {
 }
 
 lineoflauremacil27 = {
-    name = Alquandil
+    name = Alphrod
 
     dynasty = dynasty_lauremacilionath
     religion = faith_edain
@@ -100350,7 +100350,7 @@ lineofhardang23 = {
 }
 
 lineofhardang24 = {
-    name = Elemmire
+    name = Edhelvir
     female = yes
 
     religion = faith_edain
@@ -105054,7 +105054,7 @@ lineofduneglan110 = {
 }
 
 lineofduneglan111 = {
-    name = Telepe
+    name = Celebloth
     female = yes
 
     religion = faith_edain
@@ -105221,7 +105221,7 @@ lineofduneglan116 = {
 }
 
 lineofduneglan117 = {
-    name = Elemmire
+    name = Edhelvir
     female = yes
 
     religion = faith_edain
@@ -110375,7 +110375,7 @@ lineofedalote2 = {
 }
 
 lineofedalote3 = {
-    name = Alquandil 
+    name = Alphrod 
 
     dynasty = dynasty_an_ethring
     religion = faith_edain
@@ -111149,7 +111149,7 @@ lineofedalote30 = {
 }
 
 lineofedalote31 = {
-    name = Alquandil 
+    name = Alphrod 
 
     dynasty = dynasty_an_ethring
     religion = faith_edain
@@ -113200,7 +113200,7 @@ lineofedalote104 = {
 }
 
 lineofedalote105 = {
-    name = Edhelmir 
+    name = Edhelvir 
 
     dynasty = dynasty_an_ethring
     religion = faith_edain
@@ -119187,7 +119187,7 @@ lineofsaeros83 = {
 }
 
 lineofsaeros84 = {
-    name = Telepe 
+    name = Celebloth 
     female = yes
 
     religion = faith_edain
@@ -121607,7 +121607,7 @@ lineofulrad71 = {
 }
 
 lineofulrad72 = {
-    name = Elemmire 
+    name = Edhelvir 
     female = yes
 
     religion = faith_edain
@@ -121748,7 +121748,7 @@ lineofulrad77 = {
 }
 
 lineofulrad78 = {
-    name = Elemmire 
+    name = Edhelvir 
     female = yes
 
     religion = faith_edain
@@ -122702,7 +122702,7 @@ lineofulrad118 = {
 }
 
 lineofulrad119 = {
-    name = Elemmire 
+    name = Edhelvir 
     female = yes
 
     religion = faith_edain
@@ -129214,7 +129214,7 @@ lineofneithan96 = {
 }
 
 lineofneithan97 = {
-    name = Edhelmir 
+    name = Edhelvir 
 
     dynasty = dynasty_rond_rendul
     religion = faith_edain
@@ -130139,7 +130139,7 @@ lineofulmondur23 = {
 }
 
 lineofulmondur24 = {
-    name = Telepe 
+    name = Celebloth 
     female = yes
 
     religion = faith_edain
@@ -130415,7 +130415,7 @@ lineofulmondur36 = {
 }
 
 lineofulmondur37 = {
-    name = Eldamir 
+    name = Edhelvir 
 
     dynasty = dynasty_an_andhen
     religion = faith_edain
@@ -133478,7 +133478,7 @@ lineofcunamir51 = {
 }
 
 lineofcunamir52 = {
-    name = Telepe 
+    name = Celebloth 
     female = yes
 
     religion = faith_edain
@@ -134706,7 +134706,7 @@ lineofcunamir103 = {
 }
 
 lineofcunamir104 = {
-    name = Alquandil 
+    name = Alphrod 
 
     dynasty = dynasty_imristion
     religion = faith_edain
@@ -135009,7 +135009,7 @@ lineofbregor10 = {
 }
 
 lineofbregor11 = {
-    name = Alquandil 
+    name = Alphrod 
 
     dynasty = dynasty_an_lontir
     religion = faith_edain
@@ -135983,7 +135983,7 @@ lineofbregor45 = {
 }
 
 lineofbregor46 = {
-    name = Telepe 
+    name = Celebloth 
     female = yes
 
     religion = faith_edain
@@ -140163,7 +140163,7 @@ lineofmanwedur88 = {
 }
 
 lineofmanwedur89 = {
-    name = Telepe 
+    name = Celebloth 
     female = yes
 
     religion = faith_edain
@@ -144793,7 +144793,7 @@ linearastil10 = {
 }
 
 linearastil11 = {
-    name = Eldamir
+    name = Edhelvir
 
     dynasty = dynasty_arastilionath
     religion = faith_edain
@@ -150212,7 +150212,7 @@ lineofhandir18 = {
 }
 
 lineofhandir19 = {
-    name = Alquandil
+    name = Alphrod
 
     dynasty = dynasty_handirionath
     religion = faith_edain
@@ -167433,7 +167433,7 @@ lineoftargon1 = {
 }
 
 lineoftargon2 = {
-    name = Eruthimar
+    name = El_ur
 
     dynasty = dynasty_targonionath
     religion = faith_edain
@@ -167912,7 +167912,7 @@ lineoftargon13 = {
 }
 
 lineoftargon14 = {
-    name = Eldamir
+    name = Edhelvir
 
     dynasty = dynasty_targonionath
     religion = faith_edain
@@ -177654,7 +177654,7 @@ lineofvakuankka97 = {
 }
 
 lineofvakuankka98 = {
-    name = Erucolindo
+    name = Elion
 
     dynasty = dynasty_sommorionath
     religion = faith_edain
@@ -190723,7 +190723,7 @@ lineoftelemir13 = {
 }
 
 lineoftelemir14 = {
-    name = Telepe
+    name = Celebloth
     female = yes
 
     religion = faith_edain
@@ -200501,7 +200501,7 @@ lineofcalandir17 = {
 }
 
 lineofcalandir18 = {
-    name = Elemmire 
+    name = Edhelvir 
     female = yes
 
     religion = faith_edain
@@ -204516,7 +204516,7 @@ lineofastandurcadet33 = {
     }
 }
 lineofastandurcadet34 = {
-    name = Alquandil
+    name = Alphrod
 
     father = lineofastandurcadet31
     mother = lineofastandurcadet32
@@ -210103,7 +210103,7 @@ lineoftelecarcadet34 = {
 }
 
 lineoftelecarcadet35 = {
-    name = Telepe
+    name = Celebloth
     female = yes
 
     religion = faith_edain
@@ -220097,7 +220097,7 @@ lineofcaranmir8 = {
 }
 
 lineofcaranmir9 = {
-    name = Telepe
+    name = Celebloth
     female = yes
 
     religion = faith_edain
@@ -223567,7 +223567,7 @@ lineofsolvarding27 = {
 }
 
 lineofsolvarding28 = {
-    name = Eldamir
+    name = Edhelvir
 
     dynasty = dynasty_solvarding
     religion = faith_edain
@@ -225570,7 +225570,7 @@ lineofsolvarding76 = {
 
 
 lineofsolvarding77 = {
-    name = Eruthimar
+    name = El_ur
 
     dynasty = dynasty_solvarding
     religion = faith_edain
@@ -241117,7 +241117,7 @@ lineofelaran50 = {
 }
 
 lineofelaran51 = {
-    name = Erucolindo
+    name = Elion
 
     dynasty = dynasty_gaerrandirath
     religion = faith_edain
@@ -241160,7 +241160,7 @@ lineofelaran51 = {
 }
 
 lineofelaran52 = {
-    name = Telepe
+    name = Celebloth
     female = yes
 
     religion = faith_edain
@@ -246801,7 +246801,7 @@ lineofingoldur3 = {
 
     trait = humble
     trait = fickle
-    trait = gluttonous
+    trait = temperate
 
     diplomacy = 5
     martial = 7
@@ -246824,9 +246824,8 @@ lineofingoldur3 = {
         death = { death_reason = death_natural_causes }
     }
 }
-
 lineofingoldur4 = {
-    name = Elemmire
+    name = Edhelvir
     female = yes
 
     religion = faith_numenorean
@@ -246837,8 +246836,8 @@ lineofingoldur4 = {
     trait = blood_of_numenor_10
 
     trait = zealous
-    trait = craven
-    trait = callous
+    trait = just
+    trait = humble
 
     diplomacy = 3
     martial = 5
@@ -246849,7 +246848,7 @@ lineofingoldur4 = {
 
     trait = education_stewardship_2
 
-    2826.10.4 = {
+    2836.10.4 = {
         birth = yes
     }
 
@@ -246857,9 +246856,8 @@ lineofingoldur4 = {
         death = { death_reason = death_natural_causes }
     }
 }
-
 lineofingoldur5 = {
-    name = Ingoldo
+    name = Elindor
 
     dynasty = dynasty_astaldanosse
     religion = faith_numenorean
@@ -269690,7 +269688,7 @@ lineoferadan31 = {
 }
 
 lineoferadan32 = {
-    name = Edhelmir
+    name = Edhelvir
 
     dynasty = dynasty_eradanionath
     religion = faith_edain
