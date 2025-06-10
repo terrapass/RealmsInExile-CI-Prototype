@@ -246728,13 +246728,13 @@ lineofalatar56 = {
 }
 
 ########################
-### Line of Farandil ###
+### Line of Ingoldur ###
 ########################
 # Founding house of Pelargir
-lineoffarandil1 = {
-    name = Farandil
+lineofingoldur1 = {
+    name = Ingoldur
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_numenorean
     culture = numenorean
 
@@ -246749,6 +246749,7 @@ lineoffarandil1 = {
     trait = blood_of_numenor_10
 
     trait = lifestyle_mariner
+    trait = lifestyle_traveler
 
     diplomacy = 7
     martial = 3
@@ -246757,69 +246758,42 @@ lineoffarandil1 = {
     learning = 6
     prowess = 5
 
-    trait = education_stewardship_4
+    trait = education_learning_4
 
     2750.5.1 = {
         birth = yes
         effect = {
             learn_language = language_sindarin
+            learn_language = language_quenya
         }
     }
 
     2820.6.1 = {
-        add_spouse = lineoffarandil2
+        add_spouse = lineofelatan10a1
+    }
+
+    2943.1.1 = {
+        give_nickname = nick_haven_finder
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
     }
 
     3060.7.1 = {
         death = { death_reason = death_natural_causes }
     }
 }
+lineofingoldur3 = {
+    name = Airontir
 
-lineoffarandil2 = {
-    name = Loth_iriel
-    female = yes
-
+    dynasty = dynasty_astaldanosse
     religion = faith_numenorean
     culture = numenorean
 
-    sexuality = heterosexual
-
-    trait = calm
-    trait = compassionate
-    trait = forgiving
-
-    trait = blood_of_numenor_10
-
-    diplomacy = 9
-    martial = 3
-    stewardship = 6
-    intrigue = 5
-    learning = 6
-    prowess = 5
-
-    trait = education_diplomacy_3
-
-    2752.4.1 = {
-        birth = yes
-        effect = {
-            learn_language = language_sindarin
-        }
-    }
-
-    3059.12.1 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineoffarandil3 = {
-    name = Elladan
-
-    dynasty = dynasty_farandilionath
-    religion = faith_numenorean
-    culture = numenorean
-
-    father = lineoffarandil1
-    mother = lineoffarandil2
+    father = lineofingoldur1
+    mother = lineofelatan10a1
 
     sexuality = heterosexual
 
@@ -246843,7 +246817,7 @@ lineoffarandil3 = {
     }
 
     2894.9.4 = {
-        add_spouse = lineoffarandil4
+        add_spouse = lineofingoldur4
     }
 
     3100.4.10 = {
@@ -246851,7 +246825,7 @@ lineoffarandil3 = {
     }
 }
 
-lineoffarandil4 = {
+lineofingoldur4 = {
     name = Elemmire
     female = yes
 
@@ -246884,15 +246858,15 @@ lineoffarandil4 = {
     }
 }
 
-lineoffarandil5 = {
+lineofingoldur5 = {
     name = Ingoldo
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_numenorean
     culture = numenorean
 
-    father = lineoffarandil3
-    mother = lineoffarandil4
+    father = lineofingoldur3
+    mother = lineofingoldur4
 
     sexuality = heterosexual
 
@@ -246916,7 +246890,7 @@ lineoffarandil5 = {
     }
 
     3018.9.11 = {
-        add_spouse = lineoffarandil6
+        add_spouse = lineofingoldur6
     }
 
     3232.10.9 = {
@@ -246924,7 +246898,7 @@ lineoffarandil5 = {
     }
 }
 
-lineoffarandil6 = {
+lineofingoldur6 = {
     name = Eirien
     female = yes
 
@@ -246957,15 +246931,15 @@ lineoffarandil6 = {
     }
 }
 
-lineoffarandil7 = {
+lineofingoldur7 = {
     name = Surion
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_numenorean
     culture = dunedain
 
-    father = lineoffarandil5
-    mother = lineoffarandil6
+    father = lineofingoldur5
+    mother = lineofingoldur6
 
     sexuality = heterosexual
 
@@ -246989,7 +246963,7 @@ lineoffarandil7 = {
     }
 
     3089.8.7 = {
-        add_spouse = lineoffarandil8
+        add_spouse = lineofingoldur8
     }
 
     3303.10.6 = {
@@ -246997,7 +246971,7 @@ lineoffarandil7 = {
     }
 }
 
-lineoffarandil8 = {
+lineofingoldur8 = {
     name = Melian
     female = yes
 
@@ -247030,15 +247004,15 @@ lineoffarandil8 = {
     }
 }
 
-lineoffarandil9 = {
+lineofingoldur9 = {
     name = Oromendur
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_numenorean
     culture = dunedain
 
-    father = lineoffarandil7
-    mother = lineoffarandil8
+    father = lineofingoldur7
+    mother = lineofingoldur8
 
     sexuality = heterosexual
 
@@ -247062,7 +247036,7 @@ lineoffarandil9 = {
     }
 
     3213.2.4 = {
-        add_spouse = lineoffarandil10
+        add_spouse = lineofingoldur10
     }
 
     3421.11.12 = {
@@ -247070,7 +247044,7 @@ lineoffarandil9 = {
     }
 }
 
-lineoffarandil10 = {
+lineofingoldur10 = {
     name = Hereniel
     female = yes
 
@@ -247103,15 +247077,15 @@ lineoffarandil10 = {
     }
 }
 
-lineoffarandil11 = {
+lineofingoldur11 = {
     name = Romendil
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_numenorean
     culture = dunedain
 
-    father = lineoffarandil9
-    mother = lineoffarandil10
+    father = lineofingoldur9
+    mother = lineofingoldur10
 
     sexuality = heterosexual
 
@@ -247135,7 +247109,7 @@ lineoffarandil11 = {
     }
 
     3285.2.21 = {
-        add_spouse = lineoffarandil12
+        add_spouse = lineofingoldur12
     }
 
     3511.11.23 = {
@@ -247143,7 +247117,7 @@ lineoffarandil11 = {
     }
 }
 
-lineoffarandil12 = {
+lineofingoldur12 = {
     name = Gildis
     female = yes
 
@@ -247176,15 +247150,15 @@ lineoffarandil12 = {
     }
 }
 
-lineoffarandil13 = {
+lineofingoldur13 = {
     name = Cuthalion
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_numenorean
     culture = dunedain
 
-    father = lineoffarandil11
-    mother = lineoffarandil12
+    father = lineofingoldur11
+    mother = lineofingoldur12
 
     sexuality = heterosexual
 
@@ -247208,7 +247182,7 @@ lineoffarandil13 = {
     }
 
     3358.9.26 = {
-        add_spouse = lineoffarandil14
+        add_spouse = lineofingoldur14
     }
 
     3575.5.3 = {
@@ -247216,7 +247190,7 @@ lineoffarandil13 = {
     }
 }
 
-lineoffarandil14 = {
+lineofingoldur14 = {
     name = Calime
     female = yes
 
@@ -247249,15 +247223,15 @@ lineoffarandil14 = {
     }
 }
 
-lineoffarandil15 = {
+lineofingoldur15 = {
     name = Veantur
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_numenorean
     culture = dunedain
 
-    father = lineoffarandil13
-    mother = lineoffarandil14
+    father = lineofingoldur13
+    mother = lineofingoldur14
 
     sexuality = heterosexual
 
@@ -247281,7 +247255,7 @@ lineoffarandil15 = {
     }
 
     3481.8.10 = {
-        add_spouse = lineoffarandil16
+        add_spouse = lineofingoldur16
     }
 
     3704.5.18 = {
@@ -247289,7 +247263,7 @@ lineoffarandil15 = {
     }
 }
 
-lineoffarandil16 = {
+lineofingoldur16 = {
     name = Heldiriel
     female = yes
 
@@ -247322,15 +247296,15 @@ lineoffarandil16 = {
     }
 }
 
-lineoffarandil17 = {
+lineofingoldur17 = {
     name = Eadur
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_numenorean
     culture = dunedain
 
-    father = lineoffarandil15
-    mother = lineoffarandil16
+    father = lineofingoldur15
+    mother = lineofingoldur16
 
     sexuality = heterosexual
 
@@ -247354,7 +247328,7 @@ lineoffarandil17 = {
     }
 
     3552.4.21 = {
-        add_spouse = lineoffarandil18
+        add_spouse = lineofingoldur18
     }
 
     3768.11.5 = {
@@ -247362,7 +247336,7 @@ lineoffarandil17 = {
     }
 }
 
-lineoffarandil18 = {
+lineofingoldur18 = {
     name = Arbereth
     female = yes
 
@@ -247395,15 +247369,15 @@ lineoffarandil18 = {
     }
 }
 
-lineoffarandil19 = {
+lineofingoldur19 = {
     name = Dorlad
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_numenorean
     culture = dunedain
 
-    father = lineoffarandil17
-    mother = lineoffarandil18
+    father = lineofingoldur17
+    mother = lineofingoldur18
 
     sexuality = heterosexual
 
@@ -247427,7 +247401,7 @@ lineoffarandil19 = {
     }
 
     3632.11.9 = {
-        add_spouse = lineoffarandil20
+        add_spouse = lineofingoldur20
     }
 
     3858.7.13 = {
@@ -247435,7 +247409,7 @@ lineoffarandil19 = {
     }
 }
 
-lineoffarandil20 = {
+lineofingoldur20 = {
     name = Aerin
     female = yes
 
@@ -247468,15 +247442,15 @@ lineoffarandil20 = {
     }
 }
 
-lineoffarandil21 = {
+lineofingoldur21 = {
     name = Gethron
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_numenorean
     culture = dunedain
 
-    father = lineoffarandil19
-    mother = lineoffarandil20
+    father = lineofingoldur19
+    mother = lineofingoldur20
 
     sexuality = heterosexual
 
@@ -247500,7 +247474,7 @@ lineoffarandil21 = {
     }
 
     3748.11.6 = {
-        add_spouse = lineoffarandil22
+        add_spouse = lineofingoldur22
     }
 
     3963.3.23 = {
@@ -247508,7 +247482,7 @@ lineoffarandil21 = {
     }
 }
 
-lineoffarandil22 = {
+lineofingoldur22 = {
     name = Elenwing
     female = yes
 
@@ -247541,15 +247515,15 @@ lineoffarandil22 = {
     }
 }
 
-lineoffarandil23 = {
+lineofingoldur23 = {
     name = Galador
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_numenorean
     culture = dunedain
 
-    father = lineoffarandil21
-    mother = lineoffarandil22
+    father = lineofingoldur21
+    mother = lineofingoldur22
 
     sexuality = heterosexual
 
@@ -247573,7 +247547,7 @@ lineoffarandil23 = {
     }
 
     3818.1.19 = {
-        add_spouse = lineoffarandil24
+        add_spouse = lineofingoldur24
     }
 
     3912.1.1 = {
@@ -247585,7 +247559,7 @@ lineoffarandil23 = {
     }
 }
 
-lineoffarandil24 = {
+lineofingoldur24 = {
     name = Gwelwen
     female = yes
 
@@ -247626,15 +247600,15 @@ lineoffarandil24 = {
     }
 }
 
-lineoffarandil25 = {
+lineofingoldur25 = {
     name = Morvegil
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_numenorean
     culture = dunedain
 
-    father = lineoffarandil23
-    mother = lineoffarandil24
+    father = lineofingoldur23
+    mother = lineofingoldur24
 
     sexuality = heterosexual
 
@@ -247658,7 +247632,7 @@ lineoffarandil25 = {
     }
 
     3891.10.5 = {
-        add_spouse = lineoffarandil26
+        add_spouse = lineofingoldur26
     }
 
     3912.1.1 = {
@@ -247674,7 +247648,7 @@ lineoffarandil25 = {
     }
 }
 
-lineoffarandil26 = {
+lineofingoldur26 = {
     name = Lumiel
     female = yes
 
@@ -247707,15 +247681,15 @@ lineoffarandil26 = {
     }
 }
 
-lineoffarandil27 = {
+lineofingoldur27 = {
     name = Girion
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_numenorean
     culture = dunedain
 
-    father = lineoffarandil25
-    mother = lineoffarandil26
+    father = lineofingoldur25
+    mother = lineofingoldur26
 
     sexuality = heterosexual
 
@@ -247739,7 +247713,7 @@ lineoffarandil27 = {
     }
 
     3962.2.7 = {
-        add_spouse = lineoffarandil28
+        add_spouse = lineofingoldur28
     }
 
     3912.1.1 = {
@@ -247755,7 +247729,7 @@ lineoffarandil27 = {
     }
 }
 
-lineoffarandil28 = {
+lineofingoldur28 = {
     name = Tarandis
     female = yes
 
@@ -247796,15 +247770,15 @@ lineoffarandil28 = {
     }
 }
 
-lineoffarandil29 = {
+lineofingoldur29 = {
     name = Eremir
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_edain
     culture = gondorian
 
-    father = lineoffarandil27
-    mother = lineoffarandil28
+    father = lineofingoldur27
+    mother = lineofingoldur28
 
     sexuality = heterosexual
 
@@ -247828,7 +247802,7 @@ lineoffarandil29 = {
     }
 
     4035.9.19 = {
-        add_spouse = lineoffarandil30
+        add_spouse = lineofingoldur30
     }
 
     4216.8.4 = {
@@ -247836,7 +247810,7 @@ lineoffarandil29 = {
     }
 }
 
-lineoffarandil30 = {
+lineofingoldur30 = {
     name = Celenneth
     female = yes
 
@@ -247869,15 +247843,15 @@ lineoffarandil30 = {
     }
 }
 
-lineoffarandil31 = {
+lineofingoldur31 = {
     name = Borthand
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_edain
     culture = gondorian
 
-    father = lineoffarandil29
-    mother = lineoffarandil30
+    father = lineofingoldur29
+    mother = lineofingoldur30
 
     sexuality = heterosexual
 
@@ -247901,7 +247875,7 @@ lineoffarandil31 = {
     }
 
     4142.8.1 = {
-        add_spouse = lineoffarandil32
+        add_spouse = lineofingoldur32
     }
 
     4341.2.23 = {
@@ -247909,7 +247883,7 @@ lineoffarandil31 = {
     }
 }
 
-lineoffarandil32 = {
+lineofingoldur32 = {
     name = Meneloth
     female = yes
 
@@ -247942,15 +247916,15 @@ lineoffarandil32 = {
     }
 }
 
-lineoffarandil33 = {
+lineofingoldur33 = {
     name = Berenor
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_edain
     culture = gondorian
 
-    father = lineoffarandil31
-    mother = lineoffarandil32
+    father = lineofingoldur31
+    mother = lineofingoldur32
 
     sexuality = heterosexual
 
@@ -247974,7 +247948,7 @@ lineoffarandil33 = {
     }
 
     4206.1.22 = {
-        add_spouse = lineoffarandil34
+        add_spouse = lineofingoldur34
     }
 
     4400.2.2 = {
@@ -247982,7 +247956,7 @@ lineoffarandil33 = {
     }
 }
 
-lineoffarandil34 = {
+lineofingoldur34 = {
     name = Aragiliel
     female = yes
 
@@ -248015,15 +247989,15 @@ lineoffarandil34 = {
     }
 }
 
-lineoffarandil35 = {
+lineofingoldur35 = {
     name = Angbor
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_edain
     culture = gondorian
 
-    father = lineoffarandil33
-    mother = lineoffarandil34
+    father = lineofingoldur33
+    mother = lineofingoldur34
 
     sexuality = heterosexual
 
@@ -248047,7 +248021,7 @@ lineoffarandil35 = {
     }
 
     4280.9.28 = {
-        add_spouse = lineoffarandil36
+        add_spouse = lineofingoldur36
     }
 
     4476.2.27 = {
@@ -248055,7 +248029,7 @@ lineoffarandil35 = {
     }
 }
 
-lineoffarandil36 = {
+lineofingoldur36 = {
     name = Arwing
     female = yes
 
@@ -248088,16 +248062,16 @@ lineoffarandil36 = {
     }
 }
 
-lineoffarandil37 = {
+lineofingoldur37 = {
     name = Nellas
     female = yes
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_edain
     culture = gondorian
 
-    father = lineoffarandil35
-    mother = lineoffarandil36
+    father = lineofingoldur35
+    mother = lineofingoldur36
 
     sexuality = heterosexual
 
@@ -248125,15 +248099,15 @@ lineoffarandil37 = {
     }
 }
 
-lineoffarandil38 = {
+lineofingoldur38 = {
     name = Belegund
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_edain
     culture = gondorian
 
-    father = lineoffarandil35
-    mother = lineoffarandil36
+    father = lineofingoldur35
+    mother = lineofingoldur36
 
     sexuality = heterosexual
 
@@ -248157,7 +248131,7 @@ lineoffarandil38 = {
     }
 
     4345.7.2 = {
-        add_spouse = lineoffarandil39
+        add_spouse = lineofingoldur39
     }
 
     4537.8.3 = {
@@ -248165,7 +248139,7 @@ lineoffarandil38 = {
     }
 }
 
-lineoffarandil39 = {
+lineofingoldur39 = {
     name = Hareth
     female = yes
 
@@ -248198,15 +248172,15 @@ lineoffarandil39 = {
     }
 }
 
-lineoffarandil40 = {
+lineofingoldur40 = {
     name = Magor
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_edain
     culture = gondorian
 
-    father = lineoffarandil35
-    mother = lineoffarandil36
+    father = lineofingoldur35
+    mother = lineofingoldur36
 
     sexuality = heterosexual
 
@@ -248234,15 +248208,15 @@ lineoffarandil40 = {
     }
 }
 
-lineoffarandil42 = {
+lineofingoldur42 = {
     name = Olumir
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_edain
     culture = gondorian
 
-    father = lineoffarandil35
-    mother = lineoffarandil36
+    father = lineofingoldur35
+    mother = lineofingoldur36
 
     sexuality = heterosexual
 
@@ -248268,7 +248242,7 @@ lineoffarandil42 = {
     }
 
     4352.7.3 = {
-        add_spouse = lineoffarandil43
+        add_spouse = lineofingoldur43
     }
 
     4536.3.12 = {
@@ -248276,7 +248250,7 @@ lineoffarandil42 = {
     }
 }
 
-lineoffarandil43 = {
+lineofingoldur43 = {
     name = Silien
     female = yes
 
@@ -248309,15 +248283,15 @@ lineoffarandil43 = {
     }
 }
 
-lineoffarandil44 = {
+lineofingoldur44 = {
     name = Faramir
 
-    dynasty = dynasty_farandilionath
+    dynasty = dynasty_astaldanosse
     religion = faith_edain
     culture = gondorian
 
-    father = lineoffarandil38
-    mother = lineoffarandil39
+    father = lineofingoldur38
+    mother = lineofingoldur39
 
     sexuality = asexual
 
