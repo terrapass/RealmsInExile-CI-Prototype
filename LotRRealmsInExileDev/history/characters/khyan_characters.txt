@@ -387031,6 +387031,7 @@ lineofkhudaram = { # a bit of a worldly high priest, he always clashed with Taxm
 
     culture = khyan
     religion = faith_arienism
+    dna = khudaram_dna 
     
     trait = ambitious
     trait = arrogant
