@@ -6571,7 +6571,7 @@ lineofroquendil16aunt = {
 }
 
 lineofroquendil16aunt2 = {
-    name = Naltal_ot_e_e # TEMP
+    name = Tind_omiel
     female = yes
 
     dynasty_house = house_roquendilin
@@ -7148,7 +7148,7 @@ lineofroquendil23brother = {
 }
 
 lineofroquendil23brother1 = {
-    name = Tamondur # TEMP
+    name = Menelmacar
 
     dynasty_house = house_roquendilin
     religion = faith_edain
@@ -7193,7 +7193,7 @@ lineofroquendil23brother1 = {
 }
 
 lineofroquendil23brother2 = {
-    name = Irisse # TEMP
+    name = Telumiel
     female = yes
 
     dynasty_house = house_roquendilin
@@ -10773,7 +10773,7 @@ lineoforontur16sister = {
 }
 
 lineoforontur17 = {
-    name = Erendis # TEMP
+    name = Erendis
     female = yes
 
     father = lineofelendir33
@@ -10856,7 +10856,7 @@ lineoforontur18 = {
 }
 
 lineoforontur19 = {
-    name = Numeniel # TEMP
+    name = D_unel
     female = yes
 
     dynasty = dynasty_barahirion
@@ -10940,7 +10940,7 @@ lineoforontur20 = {
 }
 
 lineoforontur21 = {
-    name = Boromis # TEMP
+    name = T_igeth
     female = yes
 
     dynasty_house = house_mamandil 
@@ -11228,7 +11228,7 @@ lineoforontur26 = {
 }
 
 lineoforontur26sister = {
-    name = Meneldilme_e_ # TEMP
+    name = Meneldilme_e_
     female = yes
 
     dynasty_house = house_orontur
@@ -11402,7 +11402,7 @@ lineoforontur28 = {
 }
 
 lineoforontur28sister = {
-    name = M_iriel # TEMP
+    name = M_iriel
     female = yes
 
     dynasty_house = house_orontur
@@ -11532,7 +11532,7 @@ lineoforontur30 = {
 }
 
 lineoforontur30sister = {
-    name = Amandilme # TEMP
+    name = Alcarine_e_
     female = yes
 
     dynasty_house = house_orontur
@@ -13678,7 +13678,7 @@ linesteward12 = {
 }	
 
 linesteward13 = {
-	name = Tinuviel
+	name = Tin_uviel
 
 	dynasty_house = house_gondorstewards
 	religion = faith_edain
@@ -15681,7 +15681,7 @@ predolamroth26nephew = { # Erennil the 'royalist', greatest fool of the Kin-stri
 }
 
 predolamroth181 = {					
-	name = Maratar
+	name = Maratar # Baradar? Marador?
     dna = maratar_alphaharn_imrazorionath_roa_dna
 	
 	dynasty = dynasty_dol_amroth				
@@ -16075,7 +16075,7 @@ predolamroth36 = { # A adminstrator by heart, Cirion spent much of his life enfo
 }
 
 predolamroth36sister = { 
-	name = C_irwen # TEMP
+	name = Aerin # TEMP
     female = yes	
     		
 	dynasty = dynasty_dol_amroth				
@@ -18863,7 +18863,7 @@ lineofgundor30 = {
 }
 
 lineofgundor30sister = {
-    name = Morwen # TEMP
+    name = Haleth
     female = yes
 
     dynasty_house = house_gundor
@@ -20324,7 +20324,7 @@ lebennin29 = {
 }	
 
 lebennin30 = {
-	name = Tinuviel 
+	name = Tin_uviel 
 
 	dynasty = dynasty_lebennin
 	religion = faith_edain
@@ -42785,7 +42785,7 @@ lineastandur11 = {
 }	
 
 lineastandur12 = {
-	name = Tinuviel
+	name = Tin_uviel
 	dynasty = dynasty_harithilien
 	religion = faith_edain
 	culture = gondorian
@@ -88974,7 +88974,7 @@ lineofborlach72 = {
 }
 
 lineofborlach73 = {
-    name = Tindomiel
+    name = Tin_uviel
     female = yes
 
     religion = faith_edain
@@ -97504,7 +97504,7 @@ lineofamroth1 = {
 }
 
 lineofamroth2 = {
-    name = Tindomiel
+    name = Tin_uviel
     female = yes
 
     religion = faith_edain
@@ -103025,7 +103025,7 @@ lineofduneglan35 = {
 }
 
 lineofduneglan36 = {
-    name = Tindomiel
+    name = Tin_uviel
     female = yes
 
     religion = faith_edain
@@ -110564,7 +110564,7 @@ lineofedalote9 = {
 }
 
 lineofedalote10 = {
-    name = Tinuviel 
+    name = Tin_uviel 
     female = yes
 
     religion = faith_edain
@@ -111265,7 +111265,7 @@ lineofedalote33 = {
 }
 
 lineofedalote34 = {
-    name = Tindomiel 
+    name = Tin_uviel 
     female = yes
 
     religion = faith_edain
@@ -117394,7 +117394,7 @@ lineofsaeros13 = {
 }
 
 lineofsaeros14 = {
-    name = Tindomiel 
+    name = Tin_uviel 
     female = yes
 
     religion = faith_edain
@@ -129645,7 +129645,7 @@ lineofulmondur1 = {
 }
 
 lineofulmondur2 = {
-    name = Tindomiel 
+    name = Tin_uviel 
     female = yes
 
     religion = faith_edain
@@ -132181,7 +132181,7 @@ lineofulmondur117 = {
 }
 
 lineofulmondur118 = {
-    name = Tindomiel 
+    name = Tin_uviel 
     female = yes
 
     religion = faith_edain
@@ -150945,7 +150945,7 @@ lineofhandir33 = {
 }
 
 lineofhandir33sister = {
-    name = Rohiriel # TEMP
+    name = Glor_ian
     female = yes
 
     dynasty = dynasty_handirionath
@@ -152640,7 +152640,7 @@ lineofhandir75sister = {
 }
 
 lineofhandir76 = {
-    name = Tindomiel
+    name = Tin_uviel
     female = yes
 
     religion = faith_edain
@@ -162741,7 +162741,7 @@ lineofborothor79sister = {
 
 
 lineofborothor80 = {
-    name = Tinuviel
+    name = Tin_uviel
     female = yes
 
     religion = faith_edain
@@ -164955,7 +164955,7 @@ lineofvoromir21 = {
 }
 
 lineofvoromir22 = {
-    name = Tinuviel
+    name = Tin_uviel
     female = yes
 
     religion = faith_edain
@@ -169895,7 +169895,7 @@ lineofgaldor13 = {
 }
 
 lineofgaldor14 = {
-    name = Tindomiel
+    name = Tin_uviel
     female = yes
 
     religion = faith_edain
@@ -178348,7 +178348,7 @@ lineofnedhroval4 = {
 }
 
 lineofnedhroval5 = {
-    name = Tinuviel
+    name = Tin_uviel
     female = yes
 
     religion = faith_edain
@@ -182243,7 +182243,7 @@ lineofbaranor37 = {
 }
 
 lineofbaranor38 = {
-    name = Tinuviel
+    name = Tin_uviel
     female = yes
 
     religion = faith_edain
@@ -189107,7 +189107,7 @@ lineofnamondil33 = {
 }
 
 lineofnamondil34 = {
-    name = Tinuviel
+    name = Tin_uviel
     female = yes
 
     religion = faith_edain
@@ -196207,7 +196207,7 @@ lineoftelemir147 = {
 }
 
 lineoftelemir148 = {
-    name = Tindomiel
+    name = Tin_uviel
     female = yes
 
     religion = faith_edain
@@ -199909,7 +199909,7 @@ lineofeletan72 = {
 }
 
 lineofeletan73 = {
-    name = Telemnar
+    name = Celevnor
 
     dynasty = dynasty_eletaniath
     religion = faith_edain
@@ -199952,7 +199952,7 @@ lineofeletan73 = {
 }
 
 lineofeletan73sister = {
-    name = Ariel # TEMP
+    name = Celebrindal
     female = yes
 
     dynasty = dynasty_eletaniath
@@ -202851,7 +202851,7 @@ lineofcalandir105 = {
 }
 
 lineofcalandir106 = {
-    name = Tinuviel 
+    name = Tin_uviel 
     female = yes
 
     religion = faith_edain
@@ -203769,7 +203769,7 @@ lineofastandurcadet17 = {
 }
 
 lineofastandurcadet17twin = {
-    name = Estelien # TEMP
+    name = T_urel
     female = yes
 
     dynasty_house = house_astandurionath
@@ -211352,7 +211352,7 @@ lineofminherioncadet18 = {
 }
 
 lineofminherioncadet19 = {
-    name = Tindomiel
+    name = Tin_uviel
     female = yes
 
     religion = faith_edain
@@ -227949,7 +227949,7 @@ lineofelendir43 = {
 }
 
 lineofelendir44 = {
-    name = Tinuviel
+    name = Tin_uviel
     female = yes
 
     religion = faith_edain
@@ -248613,7 +248613,7 @@ lineofhundad7 = {
 }
 
 lineofhundad8 = {
-    name = Tinuviel
+    name = Tin_uviel
     female = yes
 
     religion = faith_numenorean
@@ -261278,7 +261278,7 @@ lineofindor51 = {
 }
 
 lineofindor52 = {
-    name = Tinuviel
+    name = Tin_uviel
     female = yes
 
     religion = faith_edain
@@ -266384,7 +266384,7 @@ lineofthorondir7 = {
 }
 
 lineofthorondir8 = {
-    name = Tinuviel
+    name = Tin_uviel
     female = yes
 
     religion = faith_edain
