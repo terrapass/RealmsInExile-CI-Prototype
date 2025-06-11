@@ -25432,7 +25432,7 @@ linepinnathgelin43 = {
         }
     }
 	7052.3.15={
-		death = { death_reason = death_battle}					
+		death = { death_reason = death_battle }					
 	}
 }	
 
@@ -272257,6 +272257,60 @@ lineofgelmir2 = {
 
     4920.8.21 = {
         death = { death_reason = death_ill }
+    }
+}
+
+lineofgelmir3a = { # Disgraced firstborn
+    name = Turlin
+
+    dynasty_house = house_gelmirion
+    religion = faith_edain
+    culture = umbaredain
+
+    father = lineofgelmir1
+    mother = lineofgelmir2
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = stubborn
+    trait = craven
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 1
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_3  # Serves as a Captain in Umbar and fights the Adunai
+    trait = lifestyle_mariner
+
+    4904.11.6 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+			add_trait_xp = {
+				trait = lifestyle_mariner
+				value = 50
+			}
+		}
+    }
+
+    4981.11.6 = { # After being deployed to bolster the Gondorian allies in Kârna, he and Qiyta, a local Karrani Princess, fall madly in love and get married, an act which is frowned upon by his family. They live together happily anyways
+        add_spouse = linenarghan29a # Despite their marriage, their child would not be recognized by his family
+        effect = {
+            set_relation_soulmate = character:linenarghan29a
+        }
+        trait = disinherited
+    }
+
+    # After his wifes death, he raises his daughter alone, spending much time in Kes Karrak and Umbar
+
+    5048.8.5 = { # Dies in the Siege of Umbar
+        death = { death_reason = death_battle }
     }
 }
 

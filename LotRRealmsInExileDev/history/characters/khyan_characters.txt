@@ -6056,7 +6056,7 @@ lineoftirdahan6 = { # War of the Ring Ruler
     7011.8.3 = { # Ascends the throne, claims regnal name
         name = Taxmaspada
 	    effect = {
-            set_relation_rival = character:lineofvasnan42
+            set_relation_nemesis = character:lineofvasnan42
 			set_relation_rival = character:lineofvasnan43
 			assign_councillor_type = {
 				type = councillor_marshal
@@ -118052,6 +118052,40 @@ lineofvihinahan59 = {
 	5171.10.20 = {  # Died at age 98
 	    death = { death_reason = death_natural_causes }
 	}
+}
+
+lineofvihinahan60sis = { #Intermarried linedarrhan3
+    name = Bahmanbanu
+    female = yes
+	culture = khyan
+	religion = faith_arienism
+
+	dynasty = dynasty_vihinahan
+	father = lineofvihinahan44
+	mother = lineofvihinahan53
+
+    sexuality = heterosexual
+
+    trait = forgiving
+    trait = lazy
+    trait = temperate
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 3
+    intrigue = 3
+    learning = 3
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    5074.8.14 = {
+        birth = yes
+    }
+
+    5138.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
 }
 
 lineofvihinahan60 = {
