@@ -61118,17 +61118,17 @@ lineofchief9 = {
 		}			
 	}
 	
-	#7010.1.19 = { # Was causing errors
-	#	effect = {
-	#		set_relation_guardian = character:linecalionath20
-	#	}
-	#}
+	7010.1.19 = {
+		effect = {
+			set_relation_guardian = character:linecalionath20
+		}
+	}
 	
-	#7010.1.19 = { # Was causing errors
-	#	effect = {
-	#		set_relation_friend = character:linecalionath21
-	#	}
-	#}
+	7010.1.19 = {
+		effect = {
+			set_relation_friend = character:linecalionath21
+		}
+	}
 	
 	
 	7019.3.20 = {
@@ -61141,11 +61141,11 @@ lineofchief9 = {
 		}
 	}
 	
-	#7020.1.1 = { # Was causing errors
-	#	effect = {
-	#		remove_relation_guardian = character:linecalionath20
-	#	}
-	#}
+	7020.1.1 = {
+		effect = {
+			remove_relation_guardian = character:linecalionath20
+		}
+	}
 	
 	7021.3.21 = { # Met during Lótu's exploration of Ereigon. They Traveled to Imladris and Falgond took Lótu as a Ward.
 		trait = education_martial_3
@@ -62778,11 +62778,11 @@ lineseregonir12 = {
 		}			
 	}
 	
-	#7000.3.5 = { # Was causing errors
-	#	effect = {
-	#		set_relation_rival = character:lineofchief8
-	#	}
-	#}
+	7000.3.5 = {
+		effect = {
+			set_relation_rival = character:lineofchief8
+		}
+	}
 	
 	7002.2.2 = {
 		add_spouse = hundadwife
