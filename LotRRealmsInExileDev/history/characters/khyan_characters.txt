@@ -7639,7 +7639,7 @@ lineofvasnan36 = {
     }
 
     7029.2.4 = { # Forms cadet branch 'Ashtadet'
-        # dynasty_house = house_ashtadet - Move to intro event
+        dynasty_house = house_ashtadet # Move to intro event, remove once intro event is in
 		give_nickname = nick_the_magnificent
         effect = {
             add_character_flag = {
