@@ -161371,9 +161371,6 @@ lineofdaneshvarhan75sister = {
 	    birth = yes
 	}
 
-	6959.08.08 = {  # Married at age 23
-	    add_spouse = lineofnaozadez10
-	}
 	7000.04.14 = {  # Died at age 64
 	    death = { death_reason = death_accident }
 	}
