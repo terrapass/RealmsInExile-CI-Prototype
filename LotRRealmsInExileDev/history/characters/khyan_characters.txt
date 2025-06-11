@@ -5578,10 +5578,10 @@ lineofaldhradan12 = {
     }
 }
 
-lineofaldhradan13 = {
+lineofaldhradan13 = { #WotR ruler
     name = Arshak
 
-    dynasty = dynasty_aldhradan	
+    dynasty = dynasty_aldhradan
 	religion = faith_arienism
     culture = khyan
 
@@ -5995,16 +5995,24 @@ lineoftirdahan5 = {
 	religion = faith_arienism
     culture = khyan
     
-	trait = education_diplomacy_3
+    father = lineoftirdahan4
+
 	trait = content
 	trait = forgiving
-	trait = chaste
+	trait = patient
 
-    father = lineoftirdahan4
+    trait = education_diplomacy_3
 
 	6937.10.19 = {	
 		birth = yes		
 	}
+
+    6955.4.1 = {
+        add_spouse = lineofdaneshvarhan75sister
+    }
+    6962.6.1 = {
+        add_spouse = lineofbahadurez47sister
+    }
 
     6978.4.22 = { # Ascends the throne, claims regnal name
         name = Ardacher
@@ -6022,27 +6030,27 @@ lineoftirdahan6 = { # War of the Ring Ruler
 	religion = faith_arienism
     culture = khyan
     dna = hoshedar_dna 
-
-	trait = content
-
-	disallow_random_traits = yes
-
-	trait = education_learning_4
+    
+	fertility = 0.1 # He's quite low on kids
+    sexuality = heterosexual
 
     father = lineoftirdahan5
+    mother = lineofbahadurez47sister
+
+	trait = content
+	trait = just
+	trait = chaste
+
+	trait = education_learning_4
+    trait = theologian
+
 
 	6963.4.2 = {			
 		birth = yes		
 	}
 
-	6979.4.2 = {
-    	trait = theologian
-		trait = just
-		trait = patient
-	}
-
     6994.6.15 = {			
-		add_spouse = lineofadelez22
+		add_spouse = lineofhoshedarmah163sister
 	}
 
     7011.8.3 = { # Ascends the throne, claims regnal name
@@ -6056,6 +6064,12 @@ lineoftirdahan6 = { # War of the Ring Ruler
 				target = character:lineofgushtahemez137
 			}
 		}
+        effect = {
+			appoint_court_position = { # Aldhradan courtiers
+				recipient = character:lineofaldhradan13
+				court_position = high_almoner_court_position
+			}
+		}
 	}
 
 	7037.9.12 = {
@@ -6063,23 +6077,81 @@ lineoftirdahan6 = { # War of the Ring Ruler
 	}
 }
 
-lineoftirdahan7 = { 
+lineoftirdahan6sister = {
+	name = Vashta
+	female = yes
+	dynasty_house = house_tirdahan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineoftirdahan5
+    mother = lineofdaneshvarhan75sister # Born to different mothers
+
+    trait = compassionate
+    trait = forgiving
+    trait = chaste
+
+    trait = monk
+
+	trait = education_stewardship_2
+
+	6956.9.15 = {			
+		birth = yes		
+	}
+
+	7040.9.12 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+lineoftirdahan6brother = { # A bit of an annoyence, Taxaspada was glad when he died early.
+	name = Huvaspa
+	
+	dynasty_house = house_tirdahan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineoftirdahan5
+    mother = lineofdaneshvarhan75sister # Born to different mothers
+
+    trait = ambitious
+    trait = gregarious
+    trait = impatient
+
+	trait = education_diplomacy_3
+    trait = disloyal
+
+	6964.1.16 = {			
+		birth = yes		
+	}
+
+    6991.6.1 = {			
+		add_spouse = lineofadelez22
+	}
+
+	7010.9.12 = {
+		death = { death_reason = death_hunting_accident }
+	}
+}
+
+lineoftirdahan7 = { # Nephew of Taxmaspada and his designated heir. Sent to Khoshkaraz to quell the rising Vasnans
 	name = Ferozgar
 	
 	dynasty_house = house_tirdahan	
 	religion = faith_arienism
     culture = khyan
-    
-	trait = education_martial_3
+
+    father = lineoftirdahan6brother
+    mother = lineofadelez22
+
 	trait = impatient
 	trait = just
 	trait = honest
 
-    father = lineoftirdahan6
-    mother = lineofadelez22
+    trait = education_martial_3
 
 	6996.4.12 = {			
-		birth = yes		
+		birth = yes
 	}
 
 	7011.8.3 = {
@@ -6102,21 +6174,22 @@ lineoftirdahan7 = {
 	}
 }
 
-lineoftirdahan8 = {
+lineoftirdahan8 = { # The less useful and more troublesome of the nephews
     name = Namdar
 
     dynasty_house = house_tirdahan	
 	religion = faith_arienism
     culture = khyan
 
+    father = lineoftirdahan6brother
+    mother = lineofadelez22
+
     trait = honest
-    trait = just
+    trait = ambitious
     trait = gluttonous
 
-    trait = education_diplomacy_1
+    trait = education_diplomacy_2
 
-    father = lineoftirdahan6
-    mother = lineofadelez22
 
     7000.4.11 = {
         birth = yes
@@ -6136,7 +6209,7 @@ lineoftirdahan8 = {
     }
 }
 
-lineoftirdahan9 = {
+lineoftirdahan9 = { # Taxmaspada's only trueborn child, his daughter
     name = Sarafraz
     female = yes
 
@@ -6151,7 +6224,7 @@ lineoftirdahan9 = {
     trait = education_stewardship_3
 
     father = lineoftirdahan6
-    mother = lineofadelez22
+    mother = lineofhoshedarmah163sister
 
     7009.1.7 = {
         birth = yes
@@ -148242,6 +148315,41 @@ lineofbahadurez48 = {
 	}
 }
 
+lineofbahadurez47sister = {
+	name = Roxenda
+    female = yes
+	culture = khyan
+	religion = faith_arienism
+
+	dynasty = dynasty_bahadurez
+	father = lineofbahadurez46
+	mother = lineofhoshedarmah151
+
+	sexuality = heterosexual
+
+    trait = content
+    trait = just
+    trait = shy
+
+	diplomacy = 3
+	martial = 6
+	stewardship = 2
+	intrigue = 5
+	learning = 4
+	prowess = 4
+
+	trait = education_intrigue_3
+	trait = intellect_good_2
+
+	6935.07.27 = {
+	    birth = yes
+	}
+	
+	7016.02.21 = {  # Died at age 81
+	    death = { death_reason = death_natural_causes }
+	}
+}
+
 lineofbahadurez49 = {
 	name = Spityur
 	culture = khyan
@@ -161196,6 +161304,44 @@ lineofdaneshvarhan76 = {
 	}
 	7022.08.07 = {  # Died at age 84
 	    death = { death_reason = death_natural_causes }
+	}
+}
+
+
+lineofdaneshvarhan75sister = {
+	name = Khubrui
+    female = yes
+	culture = khyan
+	religion = faith_arienism
+
+	dynasty = dynasty_daneshvarhan
+	father = lineofdaneshvarhan66
+	mother = lineofdaneshvarhan74
+
+	sexuality = heterosexual
+
+    trait = compassionate
+    trait = gregarious
+    trait = impatient
+
+	diplomacy = 1
+	martial = 3
+	stewardship = 2
+	intrigue = 10
+	learning = 7
+	prowess = 4
+
+	trait = education_learning_3
+
+	6935.10.16 = {
+	    birth = yes
+	}
+
+	6959.08.08 = {  # Married at age 23
+	    add_spouse = lineofnaozadez10
+	}
+	7000.04.14 = {  # Died at age 64
+	    death = { death_reason = death_accident }
 	}
 }
 
@@ -201401,6 +201547,41 @@ lineofhoshedarmah163 = { # Quiet, dull man who let the governorship pass to his 
 	    add_spouse = lineofvispanfria96
 	}
 	7045.05.25 = {  # Died at age 84
+	    death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofhoshedarmah163sister = { # Wife of the Emperor
+	name = Sarafraz
+    female = yes
+	culture = khyan
+	religion = faith_arienism
+
+	dynasty = dynasty_hoshedarmah
+	father = lineofhoshedarmah157
+	mother = lineofhoshedarmah161
+
+	sexuality = heterosexual
+
+    trait = just
+    trait = stubborn
+    trait = zealous
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 4
+	intrigue = 6
+	learning = 7
+	prowess = 2
+
+	trait = education_stewardship_3
+
+	trait = bossy
+	6965.2.6 = {
+	    birth = yes
+	}
+	
+	7055.05.25 = {  # Died at age 90
 	    death = { death_reason = death_natural_causes }
 	}
 }
