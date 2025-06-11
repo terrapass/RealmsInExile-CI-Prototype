@@ -99000,7 +99000,6 @@ lineofamroth57 = {
     trait = cynical
     trait = charming
 
-    trait = education_diplomacy_1
 	trait = blood_of_numenor_2
     
     6771.1.25 = {
@@ -99008,6 +99007,10 @@ lineofamroth57 = {
 		effect = {
 			learn_language = language_sindarin
 		}
+    }
+
+    6787.1.25 = {
+        trait = education_diplomacy_1
     }
 
     6803.12.19 = {

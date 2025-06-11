@@ -6535,7 +6535,7 @@ lineofvasnan7 = {
         birth = yes
     }
 
-	6019.5.26 = {
+	6819.5.26 = {
         sexuality = heterosexual
 
         trait = craven
@@ -299226,8 +299226,6 @@ lineofvispanfria41 = {
 	learning = 4
 	prowess = 7
 
-	trait = education_learning_2
-
 	trait = curious
 	6771.01.28 = {
 	    birth = yes
@@ -299236,6 +299234,7 @@ lineofvispanfria41 = {
 	    trait = sadistic
 	    trait = paranoid
 	    trait = patient
+        trait = education_learning_2
 	}
 	6847.03.03 = {  # Died at age 76
 	    death = { death_reason = death_natural_causes }
@@ -387207,9 +387206,75 @@ lineoflastpirate0 = {
     }
 }
 
+### LW Twilight Isles Pirate ###
+
+lineoftwilightpirate0 = {
+    name = Davrameshi 
+
+    dynasty = dynasty_twilight_pirate
+    religion = faith_ormal_pirate
+    culture = bulchyadean
+
+    sexuality = asexual
+
+    trait = fickle
+    trait = vengeful
+    trait = zealous
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 6
+    intrigue = 8
+    learning = 7
+    prowess = 9
+
+    trait = education_stewardship_3
+    trait = scarred
+    trait = strong
+    trait = irritable
+    trait = lifestyle_mariner
+    trait = viking
+
+    6752.11.6 = {
+        birth = yes
+    }
+
+    6813.7.13 = {
+        death = { death_reason = death_execution }
+    }
+}
+
 ############################
 ### Khyan Heads of Faith ###
 ############################
+
+# Nevazar 
+
+lineofnevazar = {
+    name = Nevazar
+
+    culture = khyan
+    religion = faith_arienism
+    
+    trait = zealous
+    trait = stubborn
+    trait = arrogant  
+
+    trait = education_learning_4
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 5
+    intrigue = 4
+    learning = 8
+
+    6716.2.22 = {
+        birth = yes
+    }
+    6800.3.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
 
 # Aspandad 
 
