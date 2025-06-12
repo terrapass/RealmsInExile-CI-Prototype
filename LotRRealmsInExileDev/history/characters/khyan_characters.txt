@@ -6070,6 +6070,7 @@ lineoftirdahan6 = { # War of the Ring Ruler
 				court_position = high_almoner_court_position
 			}
 		}
+        trait = infirm
 	}
 
 	7037.9.12 = {
