@@ -14919,6 +14919,8 @@ linesteward41 = {
 
     trait = curious
 
+    trait = education_diplomacy_3
+
     disallow_random_traits = yes
 
 	trait = blood_of_numenor_1
@@ -14927,6 +14929,12 @@ linesteward41 = {
 		effect = {
 			learn_language = language_sindarin
 		}			
+	}
+
+    6985.1.1 = {
+        trait = just
+        trait = paranoid
+        trait = arrogant
 	}
 
 	7063.1.1 = {
