@@ -2467,7 +2467,7 @@ lineofanarion58b = { # Marries Castariel, daughter of Castamir
 
     trait = education_diplomacy_3
 
-	trait = blood_of_numenor_6
+	trait = blood_of_numenor_7
 
 	5473.2.26 = {
 		birth = yes
@@ -2485,7 +2485,7 @@ lineofanarion58b = { # Marries Castariel, daughter of Castamir
 }	
 
 lineofanarion59 = {
-	name = Calim_e_e # Wife of the Governor of Mardruak
+	name = Calim_e_e #
 
 	female = yes
 
@@ -2498,8 +2498,6 @@ lineofanarion59 = {
 	trait = wrathful
     trait = arbitrary
     trait = ambitious
-
-	trait = infertile
 
     trait = education_intrigue_3
 
