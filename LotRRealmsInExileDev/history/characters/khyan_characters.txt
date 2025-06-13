@@ -6070,6 +6070,7 @@ lineoftirdahan6 = { # War of the Ring Ruler
 				court_position = high_almoner_court_position
 			}
 		}
+        trait = infirm
 	}
 
 	7037.9.12 = {
@@ -365183,7 +365184,6 @@ lineofqudoz63 = {
 
 	trait = education_martial_2
 
-	trait = charming
 	6784.01.22 = {
 	    birth = yes
 	}
