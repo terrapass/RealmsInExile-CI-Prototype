@@ -2485,7 +2485,7 @@ lineofanarion58b = { # Marries Castariel, daughter of Castamir
 }	
 
 lineofanarion59 = {
-	name = Calim_e_e #
+	name = Calim_e_e # Wife of the Governor of Mardruak # TRIG REMEMBER TO ADD ANOTHER CASTAMIRI FOR CIRYATANI CONNECTION - Jessica
 
 	female = yes
 
@@ -2498,6 +2498,7 @@ lineofanarion59 = {
 	trait = wrathful
     trait = arbitrary
     trait = ambitious
+	trait = infertile
 
     trait = education_intrigue_3
 
@@ -75788,10 +75789,6 @@ linedurnen23 = {
 		}
     }
 
-    5437.1.15 = {
-        add_spouse = lineofanarion59
-    }
-
     5480.1.1 = {
 		death = { # Killed during the Battle of the Crossings of Erui.			
 			death_reason = death_battle				
@@ -75808,7 +75805,6 @@ linedurnen24 = {
     culture = gondorian
 
     father = linedurnen23
-    mother = lineofanarion59
 
     sexuality = heterosexual
 
@@ -239176,6 +239172,7 @@ lineofelaran3 = {
     trait = humble
     trait = fickle
     trait = gluttonous
+	trait = born_on_numenor
 
     diplomacy = 5
     martial = 7
@@ -239217,6 +239214,7 @@ lineofelaran4 = {
     trait = craven
     trait = callous
     trait = forgiving
+	trait = born_on_numenor
 
     diplomacy = 4
     martial = 6
@@ -239253,7 +239251,7 @@ lineofelaran5 = {
     sexuality = heterosexual
 
     trait = blood_of_numenor_10
-
+	trait = born_on_numenor
     trait = paranoid
     trait = humble
     trait = sadistic
@@ -239294,7 +239292,7 @@ lineofelaran6 = {
     sexuality = heterosexual
 
     trait = blood_of_numenor_10
-
+	trait = born_on_numenor
     trait = wrathful
     trait = gluttonous
     trait = lazy
@@ -242231,7 +242229,7 @@ lineofhalmir1 = {
     prowess = 9
 
     trait = education_stewardship_3
-
+	trait = born_on_numenor
     trait = blood_of_numenor_10
 
     3514.3.6 = {
@@ -242263,7 +242261,7 @@ lineofhalmir2 = {
     trait = compassionate
     trait = just
     trait = diligent
-
+	trait = born_on_numenor
     trait = beauty_good_2
 
     diplomacy = 5
@@ -242303,7 +242301,7 @@ lineofhalmir3 = {
     sexuality = heterosexual
 
     trait = blood_of_numenor_10
-
+	trait = born_on_numenor
     trait = humble
     trait = fickle
     trait = gluttonous
@@ -244479,7 +244477,7 @@ lineofalatar1 = {
     sexuality = heterosexual
 
     trait = blood_of_numenor_10
-
+	trait = born_on_numenor
     trait = diligent
     trait = brave
     trait = stubborn
@@ -244520,7 +244518,7 @@ lineofalatar2 = {
     sexuality = heterosexual
 
     trait = blood_of_numenor_10
-
+	trait = born_on_numenor
     trait = diligent
     trait = brave
     trait = stubborn
@@ -248350,6 +248348,7 @@ lineofhundad1 = {
     trait = physique_good_2
 
     trait = blood_of_numenor_10
+	trait = born_on_numenor
 
     trait = lifestyle_mariner
 
@@ -248388,6 +248387,7 @@ lineofhundad2 = {
     trait = patient
     trait = shy
     trait = content
+	trait = born_on_numenor
 
     trait = blood_of_numenor_10
 
@@ -248426,7 +248426,8 @@ lineofhundad3 = {
     trait = paranoid
     trait = brave
     trait = deceitful
-
+	trait = born_on_numenor
+	
     diplomacy = 4
     martial = 6
     stewardship = 4
@@ -248463,6 +248464,7 @@ lineofhundad4 = {
     trait = diligent
     trait = sadistic
     trait = calm
+	trait = born_on_numenor
 
     diplomacy = 4
     martial = 4
@@ -252658,9 +252660,10 @@ lineofoluchil1 = {
     trait = diligent
     trait = just
     trait = temperate
-
+	trait = born_on_numenor
     trait = lifestyle_mariner
     trait = shrewd
+	trait = blood_of_numenor_10
 
     diplomacy = 2
     martial = 3
@@ -252696,6 +252699,8 @@ lineofoluchil2 = {
     trait = compassionate
     trait = forgiving
     trait = honest
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
 
     diplomacy = 9
     martial = 3
@@ -252719,7 +252724,7 @@ lineofoluchil3 = {
     name = Bregor
 
     dynasty = dynasty_oluchilionath
-    religion = faith_edain
+    religion = faith_numenorean
     culture = dunedain
 
     father = lineofoluchil1
@@ -252728,7 +252733,7 @@ lineofoluchil3 = {
     sexuality = heterosexual
 
     trait = blood_of_numenor_10
-
+	trait = born_on_numenor
     trait = humble
     trait = fickle
     trait = gluttonous
@@ -252759,13 +252764,13 @@ lineofoluchil4 = {
     name = Eirien
     female = yes
 
-    religion = faith_edain
+    religion = faith_numenorean
     culture = dunedain
 
     sexuality = bisexual
 
     trait = blood_of_numenor_10
-
+	trait = born_on_numenor
     trait = zealous
     trait = craven
     trait = callous
@@ -252792,7 +252797,7 @@ lineofoluchil5 = {
     name = Belegorn
 
     dynasty = dynasty_oluchilionath
-    religion = faith_edain
+    religion = faith_numenorean
     culture = dunedain
 
     father = lineofoluchil3
@@ -252832,7 +252837,7 @@ lineofoluchil6 = {
     name = Luthien
     female = yes
 
-    religion = faith_edain
+    religion = faith_numenorean
     culture = dunedain
 
     sexuality = heterosexual
@@ -252865,7 +252870,7 @@ lineofoluchil7 = {
     name = Belecthor
 
     dynasty = dynasty_oluchilionath
-    religion = faith_edain
+    religion = faith_numenorean
     culture = dunedain
 
     father = lineofoluchil5
@@ -252905,7 +252910,7 @@ lineofoluchil8 = {
     name = Elenwing
     female = yes
 
-    religion = faith_edain
+    religion = faith_numenorean
     culture = dunedain
 
     sexuality = heterosexual
@@ -252938,7 +252943,7 @@ lineofoluchil9 = {
     name = Belecthor
 
     dynasty = dynasty_oluchilionath
-    religion = faith_edain
+    religion = faith_numenorean
     culture = dunedain
 
     father = lineofoluchil7
@@ -252978,7 +252983,7 @@ lineofoluchil10 = {
     name = Adanel
     female = yes
 
-    religion = faith_edain
+    religion = faith_numenorean
     culture = dunedain
 
     sexuality = bisexual
@@ -253011,7 +253016,7 @@ lineofoluchil11 = {
     name = Borodir
 
     dynasty = dynasty_oluchilionath
-    religion = faith_edain
+    religion = faith_numenorean
     culture = dunedain
 
     father = lineofoluchil9
@@ -253051,7 +253056,7 @@ lineofoluchil12 = {
     name = Dorien
     female = yes
 
-    religion = faith_edain
+    religion = faith_numenorean
     culture = dunedain
 
     sexuality = heterosexual
@@ -253084,7 +253089,7 @@ lineofoluchil13 = {
     name = Baramir
 
     dynasty = dynasty_oluchilionath
-    religion = faith_edain
+    religion = faith_numenorean
     culture = dunedain
 
     father = lineofoluchil9
@@ -253124,7 +253129,7 @@ lineofoluchil14 = {
     name = Arbereth
     female = yes
 
-    religion = faith_edain
+    religion = faith_numenorean
     culture = dunedain
 
     sexuality = heterosexual
@@ -253158,7 +253163,7 @@ lineofoluchil15 = {
     female = yes
 
     dynasty = dynasty_oluchilionath
-    religion = faith_edain
+    religion = faith_numenorean
     culture = dunedain
 
     father = lineofoluchil9
@@ -253195,7 +253200,7 @@ lineofoluchil16 = {
     female = yes
 
     dynasty = dynasty_oluchilionath
-    religion = faith_edain
+    religion = faith_numenorean
     culture = dunedain
 
     father = lineofoluchil7
@@ -253232,7 +253237,7 @@ lineofoluchil17 = {
     female = yes
 
     dynasty = dynasty_oluchilionath
-    religion = faith_edain
+    religion = faith_numenorean
     culture = dunedain
 
     father = lineofoluchil7
@@ -258653,13 +258658,13 @@ lineofdirhael1 = {
     name = D_irhael
 
     dynasty = dynasty_dirhaelionath
-    religion = faith_edain
+    religion = faith_numenorean
     culture = dunedain
 
     sexuality = heterosexual
 
     trait = blood_of_numenor_10
-
+	trait = born_on_numenor
     trait = just
     trait = temperate
     trait = stubborn
@@ -258690,13 +258695,13 @@ lineofdirhael2 = {
     name = Estelien
     female = yes
 
-    religion = faith_edain
+    religion = faith_numenorean
     culture = dunedain
 
     sexuality = heterosexual
 
     trait = blood_of_numenor_10
-
+	trait = born_on_numenor
     trait = compassionate
     trait = temperate
     trait = trusting
