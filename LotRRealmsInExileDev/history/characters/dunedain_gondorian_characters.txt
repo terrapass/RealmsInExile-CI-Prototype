@@ -246756,6 +246756,7 @@ lineofingoldur1 = {
     trait = intellect_good_2
 
     trait = blood_of_numenor_10
+	trait = born_on_numenor
 
     trait = lifestyle_mariner
     trait = lifestyle_traveler
@@ -246807,6 +246808,7 @@ lineofingoldur3 = {
     sexuality = heterosexual
 
     trait = blood_of_numenor_10
+	trait = born_on_numenor
 
     trait = humble
     trait = fickle
