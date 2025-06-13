@@ -365184,7 +365184,6 @@ lineofqudoz63 = {
 
 	trait = education_martial_2
 
-	trait = charming
 	6784.01.22 = {
 	    birth = yes
 	}
