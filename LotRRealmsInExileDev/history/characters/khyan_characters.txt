@@ -332,9 +332,9 @@ lineofhaxamanish7 = {
 
     5197.12.22 = { # Became known as the Elder posthumously after his nephew adopted his name as a regnal name
         death = {
-            death_reason = death_natural_causes
+            death_reason = death_ill
         }
-        give_nickname = nick_the_elder
+        give_nickname = nick_the_elder_posthumous
     }
 }
 
@@ -366,7 +366,7 @@ lineofhaxamanish8 = {
 
     5194.11.2 = {
         death = {
-            death_reason = death_assassination
+            death_reason = death_battle
         }
     }
 }
@@ -6058,11 +6058,6 @@ lineoftirdahan6 = { # War of the Ring Ruler
 	    effect = {
             set_relation_nemesis = character:lineofvasnan42
 			set_relation_rival = character:lineofvasnan43
-			assign_councillor_type = {
-				type = councillor_marshal
-				remove_existing_councillor = yes
-				target = character:lineofgushtahemez137
-			}
 		}
         effect = {
 			appoint_court_position = { # Aldhradan courtiers
@@ -6070,8 +6065,11 @@ lineoftirdahan6 = { # War of the Ring Ruler
 				court_position = high_almoner_court_position
 			}
 		}
-        trait = infirm
 	}
+
+    7033.1.1 = {
+        health = -1.0
+    }
 
 	7037.9.12 = {
 		death = { death_reason = death_natural_causes }
@@ -6149,6 +6147,13 @@ lineoftirdahan7 = { # Nephew of Taxmaspada and his designated heir. Sent to Khos
 	trait = just
 	trait = honest
 
+    diplomacy = 8
+    martial = 8
+    stewardship = 10
+    intrigue = 11
+    learning = 7
+    prowess = 7
+
     trait = education_martial_3
 
 	6996.4.12 = {			
@@ -6162,7 +6167,7 @@ lineoftirdahan7 = { # Nephew of Taxmaspada and his designated heir. Sent to Khos
         }
 	}
 
-    7020.5.18 = {			
+    7020.5.18 = {
 		add_spouse = lineofdelawarhan175	
 	}
 
@@ -7015,6 +7020,10 @@ lineofvasnan20 = {
         birth = yes
     }
 
+    6962.6.15 = {
+        add_spouse = lineofhoshedarmah158twin
+    }
+
     7001.1.13 = {
         death = { death_reason = death_natural_causes }
     }
@@ -7029,6 +7038,7 @@ lineofvasnan21 = {
     culture = khyan
 
     father = lineofvasnan20
+    mother =  lineofhoshedarmah158twin
 
     sexuality = heterosexual
 
@@ -7068,6 +7078,7 @@ lineofvasnan22 = {
     culture = khyan
 
     father = lineofvasnan20
+    mother =  lineofhoshedarmah158twin
 
     sexuality = heterosexual
 
@@ -7111,6 +7122,7 @@ lineofvasnan23 = {
     culture = khyan
 
     father = lineofvasnan20
+    mother =  lineofhoshedarmah158twin
 
 	sexuality = heterosexual
 
@@ -7148,6 +7160,7 @@ lineofvasnan24 = {
     culture = khyan
 
     father = lineofvasnan20
+    mother =  lineofhoshedarmah158twin
 
 	sexuality = heterosexual
 
@@ -7170,6 +7183,10 @@ lineofvasnan24 = {
         trait = calm
         trait = content
         trait = arbitrary
+    }
+
+    6987.5.3 = {
+        add_spouse = lineofmekesh18
     }
 
     7032.6.22 = {
@@ -7205,6 +7222,10 @@ lineofvasnan25 = {
         birth = yes
     }
 
+    6949.9.12 = {
+        add_spouse = lineofcalynor47
+    }
+
     7010.5.13 = {
         death = { death_reason = death_natural_causes }
     }
@@ -7218,6 +7239,7 @@ lineofvasnan26 = {
     culture = khyan
 
     father = lineofvasnan25
+    mother = lineofcalynor47
 
 	sexuality = heterosexual
 
@@ -7255,6 +7277,7 @@ lineofvasnan27 = {
     culture = khyan
 
     father = lineofvasnan25
+    mother = lineofcalynor47
 
 	sexuality = heterosexual
 
@@ -7279,8 +7302,44 @@ lineofvasnan27 = {
         trait = shy
     }
 
+    7002.3.19 = {
+        add_spouse = lineofvasnan27wife
+    }
+
     7045.8.5 = {
         death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofvasnan27wife = {
+    name = Homai
+    female = yes
+
+    religion = faith_arienism
+    culture = khyan
+
+    trait = compassionate
+    trait = forgiving
+    trait = humble
+
+    diplomacy = 14
+    martial = 4
+    stewardship = 9
+    intrigue = 10
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6980.9.19 = {
+        birth = yes
+
+    }
+
+    7049.2.22 = {
+        death = {
+            death_reason = death_natural_causes
+        }
     }
 }
 
@@ -7293,6 +7352,7 @@ lineofvasnan28 = { #Dies as a child historically, having only 2 traits and no ba
     culture = khyan
 
     father = lineofvasnan25
+    mother = lineofcalynor47
 
     sexuality = heterosexual
 
@@ -7318,6 +7378,7 @@ lineofvasnan29 = {
     culture = khyan
 
     father = lineofvasnan25
+    mother = lineofcalynor47
 
     sexuality = heterosexual
 
@@ -7355,6 +7416,7 @@ lineofvasnan30 = {
     culture = khyan
 
     father = lineofvasnan25
+    mother = lineofcalynor47
 
     sexuality = heterosexual
 
@@ -7446,8 +7508,45 @@ lineofvasnan31 = {
         birth = yes
     }
 
+    6960.10.26 = {
+        add_spouse = lineofvasnan31wife
+    }
+
     6999.12.21 = {
         death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofvasnan31wife = {
+    name = Gulestan
+    female = yes
+
+    religion = faith_arienism
+    culture = khyan
+
+    sexuality = heterosexual
+
+    trait = shy
+    trait = ambitious
+    trait = deceitful
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 1
+
+    trait = education_intrigue_2
+
+    6943.2.18 = {
+        birth = yes
+    }
+
+    6974.8.27 = { #Believed by many to have ran away from her husband
+        death = {
+            death_reason = death_disappearance
+        }
     }
 }
 
@@ -7460,6 +7559,7 @@ lineofvasnan32 = {
     culture = khyan
 
     father = lineofvasnan31
+    mother = lineofvasnan31wife
 
     sexuality = heterosexual
 
@@ -7499,6 +7599,7 @@ lineofvasnan33 = {
     culture = khyan
 
     father = lineofvasnan31
+    mother = lineofvasnan31wife
 
     sexuality = heterosexual
 
@@ -7536,6 +7637,7 @@ lineofvasnan34 = {
     culture = khyan
 
     father = lineofvasnan31
+    mother = lineofvasnan31wife
 
     sexuality = heterosexual
 
@@ -7602,6 +7704,10 @@ lineofvasnan35 = {
         birth = yes
     }
 
+    6966.4.6 = {
+        add_spouse = lineofshajishente16
+    }
+
     7024.1.21 = {
         death = { death_reason = death_natural_causes }
     }
@@ -7615,6 +7721,7 @@ lineofvasnan36 = {
     culture = khyan
 
     father = lineofvasnan35
+    mother = lineofshajishente16
 
     sexuality = heterosexual
 
@@ -7637,6 +7744,20 @@ lineofvasnan36 = {
     	trait = generous
     	trait = fickle
     	trait = temperate
+    }
+
+    6987.7.7 = {
+        add_spouse = lineofvingihan87sister
+    }
+
+    7001.02.02 = {
+        effect = {
+			create_alliance = {
+				target = character:lineofrakhohan19
+				allied_through_owner = character:lineofvasnan40
+				allied_through_target = character:lineofrakhohan19
+			}
+		}
     }
 
     7029.2.4 = { # Forms cadet branch 'Ashtadet'
@@ -7662,6 +7783,7 @@ lineofvasnan37 = {
     culture = khyan
 
     father = lineofvasnan35
+    mother = lineofshajishente16
 
 	sexuality = asexual
 
@@ -7700,6 +7822,7 @@ lineofvasnan38 = {
     culture = khyan
 
     father = lineofvasnan35
+    mother = lineofshajishente16
 
     sexuality = heterosexual
 
@@ -7734,6 +7857,7 @@ lineofvasnan39 = {
     culture = khyan
 
     father = lineofvasnan35
+    mother = lineofshajishente16
 
     sexuality = heterosexual
 
@@ -7768,6 +7892,7 @@ lineofvasnan40 = {
     culture = khyan
 
     father = lineofvasnan35
+    mother = lineofshajishente16
 
     sexuality = asexual
 
@@ -7856,6 +7981,16 @@ lineofvasnan42 = { # Jahanabad the Greedy, rose up in revolt against the Emperor
 
     6990.10.16 = {
         birth = yes
+    }
+
+    7012.4.29 = {
+        effect = {
+			create_alliance = {
+				target = character:lineofdelawarhan97
+				allied_through_owner = character:lineofvasnan41
+				allied_through_target = character:lineofdelawarhan97
+			}
+		}
     }
 
     7017.4.29 = {
@@ -7960,6 +8095,7 @@ lineofvasnan45 = {
     culture = khyan
 
 	father = lineofvasnan24
+    mother = lineofmekesh18
 
     sexuality = heterosexual
 
@@ -8194,6 +8330,40 @@ lineofvasnan49 = {
 }
 
 lineofvasnan50 = {
+    name = Darazdast
+
+    dynasty = dynasty_vasnan
+    religion = faith_arienism
+    culture = khyan
+
+    father = lineofvasnan27
+    mother = lineofvasnan27wife
+
+    trait = compassionate
+    trait = gregarious
+    trait = diligent
+
+    diplomacy = 9
+    martial = 9
+    stewardship = 10
+    intrigue = 9
+    learning = 10
+    prowess = 14
+
+    trait = education_diplomacy_4
+
+    7015.8.12 = {
+        birth = yes
+    }
+
+    7076.7.20 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofvasnan51 = {
     name = Huzvak
 
     dynasty = dynasty_vasnan
@@ -8223,7 +8393,7 @@ lineofvasnan50 = {
     }
 
     7030.12.9 = {
-        add_spouse = lineofvasnan50wife
+        add_spouse = lineofvasnan51wife
     }
 
     7080.9.5 = {
@@ -8231,7 +8401,7 @@ lineofvasnan50 = {
     }
 }
 
-lineofvasnan50wife = {
+lineofvasnan51wife = {
     name = Naheed
     female = yes
 
@@ -166626,6 +166796,9 @@ lineofdelawarhan97 = {
 	    trait = stubborn
 	    trait = wrathful
 	}
+    7012.4.29 = { # Married at age 21
+        add_spouse = lineofvasnan41
+    }
 	7031.03.08 = {  # Married at age 40
 	    add_spouse = lineofhoshedarmah174
 	}
@@ -193324,6 +193497,9 @@ lineofgushtahemez137 = {
     7001.05.03 = {
         set_relation_rival = character:lineofvasnan27
     }
+    7011.8.3 = {
+        give_council_position = councillor_marshal
+    }
 	7064.04.24 = {  # Married at age 79
 	    add_spouse = lineofbahadurez85
 	}
@@ -201388,6 +201564,7 @@ lineofhoshedarmah158 = {
 	prowess = 3
 
 	trait = education_intrigue_1
+    trait = twin
 
 	trait = charming
 	6925.12.09 = {
@@ -201401,6 +201578,44 @@ lineofhoshedarmah158 = {
 	7002.10.28 = {  # Died at age 76
 	    death = { death_reason = death_natural_causes }
 	}
+}
+
+lineofhoshedarmah158twin = {
+    name = Rana
+	female = yes
+	culture = khyan
+	religion = faith_arienism
+
+	dynasty = dynasty_hoshedarmah
+	father = lineofhoshedarmah150
+	mother = lineofkamranahan149
+
+	sexuality = heterosexual
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 8
+    intrigue = 8
+    learning = 5
+    prowess = 3
+
+    trait = education_intrigue_3
+    trait = twin
+
+    trait = charming
+    6925.12.09 = {
+	    birth = yes
+	}
+	6941.12.09 = {  
+	    trait = brave
+	    trait = compassionate
+	    trait = lazy
+	}
+    7000.2.1 = { # Died at age 74
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofhoshedarmah159 = {
@@ -267127,8 +267342,11 @@ lineofrakhohan19 = {
 	    trait = craven
 	}
 	7001.02.02 = {  # Married at age 22
-	    add_spouse = lineofsahihan16
+	    add_spouse = lineofvasnan40
 	}
+    7004.6.12 = { # Married at age 25
+        add_spouse = lineofsahihan16
+    }
 	7061.09.24 = {  # Died at age 82
 	    death = { death_reason = death_natural_causes }
 	}
@@ -267279,7 +267497,7 @@ lineofrakhohan23 = {
 
 	dynasty = dynasty_rakhohan
 	father = lineofrakhohan19
-	mother = lineofsahihan16
+	mother = lineofvasnan40
 
 	sexuality = heterosexual
 
@@ -307586,6 +307804,7 @@ lineofashtadet1 = {
     culture = khyan
 
     father = lineofvasnan36
+    mother = lineofvingihan87sister
 
     sexuality = heterosexual
 
@@ -308810,41 +309029,10 @@ lineofkahlavan18 = {
     }
 
     7002.4.27 = {
-        add_spouse = lineofkahlavan18wife
+        add_spouse = lineofvasnan39
     }
 
     7042.10.22 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineofkahlavan18wife = {
-    name = Azarmidokht 
-    female = yes
-
-    religion = faith_arienism
-    culture = khyan
-
-    sexuality = heterosexual
-
-    trait = lazy
-    trait = patient
-    trait = generous
-
-    diplomacy = 8
-    martial = 7
-    stewardship = 6
-    intrigue = 3
-    learning = 6
-    prowess = 5
-
-    trait = education_diplomacy_3
-
-    6985.1.19 = {
-        birth = yes
-    }
-
-    7056.9.24 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -309169,7 +309357,7 @@ lineofkahlavan25 = {
     culture = khyan
 
     father = lineofkahlavan18
-    mother = lineofkahlavan18wife
+    mother = lineofvasnan39
 
     sexuality = heterosexual
 
@@ -309241,7 +309429,7 @@ lineofkahlavan26 = {
     culture = khyan
 
     father = lineofkahlavan18
-    mother = lineofkahlavan18wife
+    mother = lineofvasnan39
 
     sexuality = heterosexual
 
@@ -309310,7 +309498,7 @@ lineofkahlavan29 = {
     culture = khyan
 
     father = lineofkahlavan18
-    mother = lineofkahlavan18wife
+    mother = lineofvasnan39
 
     sexuality = heterosexual
 
@@ -309345,7 +309533,7 @@ lineofkahlavan30 = {
     culture = khyan
 
     father = lineofkahlavan18
-    mother = lineofkahlavan18wife
+    mother = lineofvasnan39
 
     sexuality = heterosexual
 
