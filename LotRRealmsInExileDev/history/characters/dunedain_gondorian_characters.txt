@@ -60647,7 +60647,7 @@ lineofchief8 = {
 	
 	6998.7.15 = {
 		effect = {
-			set_relation_friend = character:linecalionath20
+			set_relation_friend = character:linecalionath34
 		}
 	}
 
@@ -61126,13 +61126,13 @@ lineofchief9 = {
 	
 	7010.1.19 = {
 		effect = {
-			set_relation_guardian = character:linecalionath20
+			set_relation_guardian = character:linecalionath34
 		}
 	}
 	
 	7010.1.19 = {
 		effect = {
-			set_relation_friend = character:linecalionath21
+			set_relation_friend = character:linecalionath35 # was 21, check with Chief on correct assingment
 		}
 	}
 	
@@ -61149,7 +61149,7 @@ lineofchief9 = {
 	
 	7020.1.1 = {
 		effect = {
-			remove_relation_guardian = character:linecalionath20
+			remove_relation_guardian = character:linecalionath34
 		}
 	}
 	
@@ -61191,9 +61191,9 @@ lineofchief9 = {
 		add_spouse = lineofchief9wife
 		effect = {
 			if = {
-                limit = { character:linecalionath20 ?= { is_alive = yes } }
+                limit = { character:linecalionath34 ?= { is_alive = yes } }
                 create_alliance = { # Lótu secured a marriage pact with Lord Lintoron of Harfalas.
-                    target = character:linecalionath20 # Lintoron
+                    target = character:linecalionath34 # Lintoron
                     allied_through_owner = ROOT # Lótu
                     allied_through_target = character:lineofchief9wife # Ostiel
                 }
@@ -62785,9 +62785,9 @@ lineseregonir12 = {
 	}
 	
 	7000.3.5 = {
-		effect = {
-			set_relation_rival = character:lineofchief8
-		}
+		# effect = { # Commented out as it causes errors and can't be seen in any start date
+		# 	set_relation_rival = character:lineofchief8
+		# }
 	}
 	
 	7002.2.2 = {
