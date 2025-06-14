@@ -1499,7 +1499,7 @@ lineofanarion31 = {
 	}
 }	
 
-lineofanarion31brother = { # Brother of Minardil. Served as chief of intelligence durring Hyarmendacil II's southern campaigns, growing sypathetic to the Castamiri while there. Fled to Umbar after Minardil's death, as suspision fell on him for orchastarting the attack.
+lineofanarion31brother = { # Brother of Minardil. Served as chief of intelligence during Hyarmendacil II's southern campaigns, growing sypathetic to the Castamiri while there. Fled to Umbar after Minardil's death, as suspision fell on him for orchastarting the attack.
 	name = Falassion
 
 	dynasty = dynasty_anarion
@@ -15805,7 +15805,7 @@ predolamroth27 = {
 }
 
 predolamroth28 = {					
-	name = Faelgon	# Young Prince durring the Kin-Strife, a strong ally of Eldacar after being exiled by Castamir.	
+	name = Faelgon	# Young Prince during the Kin-Strife, a strong ally of Eldacar after being exiled by Castamir.	
 	dynasty = dynasty_dol_amroth				
 	religion = faith_edain
 	culture = belfalathrim
@@ -141560,7 +141560,7 @@ dorhunen6 = {
 	}
 	5480.8.22 = {
 		death = {
-			death_reason = death_battle # Killed by Castamir durring the Corssing of Erui
+			death_reason = death_battle # Killed by Castamir during the Corssing of Erui
 			killer = lineofanarion53 # Castamir the Usurper
 		}
 	}
@@ -190036,7 +190036,7 @@ lineofnamondil57 = {
 #####################
 # Telemirionath #Lords of the dutchy of Eledhond originally Lords of Doranorien, and before that minor nobles of Harrostar, Elf friends. Often Fostered.
 lineoftelemir1 = {
-	name = "Telem_i_ir" # Aurëamaitalë - Sunlit Poet, Renouwned by many of his peers for his warm poetry and commidies, it tells many tails of thee simple beauty of life in numenor. found aclaim durring the breif flowering of numenor under Tar Palantir
+	name = "Telem_i_ir" # Aurëamaitalë - Sunlit Poet, Renouwned by many of his peers for his warm poetry and commidies, it tells many tails of thee simple beauty of life in numenor. found acclaim during the breif flowering of numenor under Tar Palantir
                         # He Writes Lairë Lírë or the summer song is an Ancient Book of westerness, intricately silver-bound, that tells many tales of the lost summer of humanity, and the simple beauty and good of life both grand and small. When reading it, you can almost see the brief summer of a Numenor renewed under the last faithful king Tar-Palantir described by Telemir 'Aurëamaitalë'.
 	dynasty = dynasty_telemirionath
 	religion = faith_numenorean

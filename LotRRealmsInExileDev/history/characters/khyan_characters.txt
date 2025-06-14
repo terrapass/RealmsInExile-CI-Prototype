@@ -152619,7 +152619,7 @@ lineofbahadurhan21 = {
 	}
 }
 
-lineofbahadurhan22 = { # Great General of Aldhrad, comming to prominence as a young officer durring the coup against the 4th dynasty, and famed most for his conquest of Anarike and defeat of Codya. He was installed lord-governer of all of Anarike upon conquest.
+lineofbahadurhan22 = { # Great General of Aldhrad, comming to prominence as a young officer during the coup against the 4th dynasty, and famed most for his conquest of Anarike and defeat of Codya. He was installed lord-governer of all of Anarike upon conquest.
 	name = Meherzad
 	culture = khyan
 	religion = faith_arienism
@@ -181527,7 +181527,7 @@ lineofgorazehan37 = {
 	    trait = eccentric
 	    trait = forgiving
 	}
-	6552.1.20 = { # Murdered durring gorazehan rebellion
+	6552.1.20 = { # Murdered during gorazehan rebellion
         death = { death_reason = death_assassination }
     }
 }
@@ -195844,7 +195844,7 @@ lineofhoshedarmah7 = {
 	6381.12.25 = {  # Married at age 19
 	    add_spouse = lineofgushtahemez4
 	}
-	6409.10.15 = {  # Died durring the revolution
+	6409.10.15 = {  # Died during the revolution
 	    death = { death_reason = death_battle }
 	}
 }
@@ -221160,7 +221160,7 @@ lineofkamranahan4 = {
 	6363.04.11 = {  # Married at age 31
 	    add_spouse = lineofkhordadhan5
 	}
-	6393.08.25 = {  # Died durring the war against the 4th Dynasty
+	6393.08.25 = {  # Died during the war against the 4th Dynasty
 	    death = { death_reason = death_battle }
 	}
 }
@@ -387514,6 +387514,6 @@ lineofkhudaram = { # a bit of a worldly high priest, he always clashed with Taxm
         birth = yes
     }
     7040.6.1 = {
-        death = { death_reason = death_murder } # Murdered openly durring the Midsummer festival - no one is sure who paid for it though. 
+        death = { death_reason = death_murder } # Murdered openly during the Midsummer festival - no one is sure who paid for it though. 
     }
 }
