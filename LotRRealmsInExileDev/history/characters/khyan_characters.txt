@@ -387373,7 +387373,7 @@ lineoflastpirate0 = {
     trait = viking
     trait = reaver
 
-    6981.3.4 = {
+    6990.3.4 = {
         birth = yes
     }
 
@@ -387383,6 +387383,14 @@ lineoflastpirate0 = {
             add_character_flag = {
                 flag = had_nickname_event
             }
+			add_trait_xp = {
+			    trait = lifestyle_mariner
+				value = 60
+			}
+			add_trait_xp = {
+			    trait = reaver
+				value = 34
+			}
         }
     }
 
@@ -387423,6 +387431,15 @@ lineoftwilightpirate0 = {
     6752.11.6 = {
         birth = yes
     }
+
+	6780.3.5 = {
+		effect = {
+			add_trait_xp = {
+				trait = lifestyle_mariner
+				value = 80
+			}
+		}
+	}
 
     6813.7.13 = {
         death = { death_reason = death_execution }
