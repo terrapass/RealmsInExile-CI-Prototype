@@ -6060,6 +6060,9 @@ lineoftirdahan6 = { # War of the Ring Ruler
 			set_relation_rival = character:lineofvasnan43
 		}
         effect = {
+
+        }
+        effect = {
 			appoint_court_position = { # Aldhradan courtiers
 				recipient = character:lineofaldhradan13
 				court_position = high_almoner_court_position
@@ -6165,8 +6168,21 @@ lineoftirdahan7 = { # Nephew of Taxmaspada and his designated heir. Sent to Khos
             set_relation_rival = character:lineofvasnan42
 			set_relation_rival = character:lineofvasnan43
         }
+        # Setting Council
+        effect = {
+			assign_councillor_type = {
+				type = councillor_marshal
+				remove_existing_councillor = yes
+				target = character:lineofgushtahmez137
+			}
+            assign_councillor_type = {
+				type = councillor_spymaster
+				remove_existing_councillor = yes
+				target = character:lineofazadafrozan3
+			}
+            # Set chancellor and setward too
+		}
 	}
-
     7020.5.18 = {
 		add_spouse = lineofdelawarhan175	
 	}
@@ -144566,9 +144582,6 @@ lineofazadafrozan3 = {
 	6987.05.02 = {  # Married at age 18
 	    add_spouse = lineofupamana16
 	}
-    7033.1.1 = {
-        give_council_position = councillor_spymaster
-    }
 	7042.12.15 = {  # Died at age 74
 	    death = { death_reason = death_natural_causes }
 	}
@@ -193497,9 +193510,6 @@ lineofgushtahemez137 = {
     7001.05.03 = {
         set_relation_rival = character:lineofvasnan27
     }
-    7011.8.3 = {
-        give_council_position = councillor_marshal
-    }
 	7064.04.24 = {  # Married at age 79
 	    add_spouse = lineofbahadurez85
 	}
@@ -201761,7 +201771,7 @@ lineofhoshedarmah162 = {
 	}
 }
 
-lineofhoshedarmah163 = { # Quiet, dull man who let the governorship pass to his two younger brothers
+lineofhoshedarmah163 = { # A quiet man, who was placed upon the throne of Sammar to defeat the Vasnans and brutally murdered for his efforts
 	name = Shiruy
 	culture = khyan
 	religion = faith_arienism
@@ -201779,7 +201789,7 @@ lineofhoshedarmah163 = { # Quiet, dull man who let the governorship pass to his 
 	learning = 7
 	prowess = 2
 
-	trait = education_stewardship_1
+	trait = education_stewardship_3
 
 	trait = bossy
 	6960.12.26 = {
@@ -201793,13 +201803,13 @@ lineofhoshedarmah163 = { # Quiet, dull man who let the governorship pass to his 
 	6985.04.13 = {  # Married at age 24
 	    add_spouse = lineofvispanfria96
 	}
-	7045.05.25 = {  # Died at age 84
-	    death = { death_reason = death_natural_causes }
+	7017.2.14 = {  # Died as the Vasnans retook the city, dumped to the angry mod outside
+	    death = { death_reason = death_torn_to_pieces_by_mob }
 	}
 }
 
 lineofhoshedarmah163sister = { # Wife of the Emperor
-	name = Sarafraz
+	name = Sarosh
     female = yes
 	culture = khyan
 	religion = faith_arienism
