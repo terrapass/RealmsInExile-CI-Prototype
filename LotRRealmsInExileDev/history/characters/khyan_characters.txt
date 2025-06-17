@@ -6023,7 +6023,33 @@ lineoftirdahan5 = {
 	}
 }
 
-lineoftirdahan6 = { # War of the Ring Ruler
+lineoftirdahan6 = {
+	name = Vashta
+	female = yes
+	dynasty_house = house_tirdahan	
+	religion = faith_arienism
+    culture = khyan
+
+    father = lineoftirdahan5
+    mother = lineofdaneshvarhan75sister # Born to different mothers
+
+    trait = compassionate
+    trait = forgiving
+    trait = chaste
+
+	trait = education_stewardship_2
+    trait = devoted
+
+	6956.9.15 = {			
+		birth = yes		
+	}
+
+	7040.9.12 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+lineoftirdahan7 = { # War of the Ring Ruler
 	name = Hoshedar
 	
 	dynasty_house = house_tirdahan	
@@ -6041,9 +6067,15 @@ lineoftirdahan6 = { # War of the Ring Ruler
 	trait = just
 	trait = chaste
 
+    diplomacy = 10
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 9
+    prowess = 6
+
 	trait = education_learning_4
     trait = theologian
-
 
 	6963.4.2 = {			
 		birth = yes		
@@ -6072,6 +6104,20 @@ lineoftirdahan6 = { # War of the Ring Ruler
 
     7033.1.1 = {
         health = -1.0
+        # Setting Council
+        effect = {
+			assign_councillor_type = {
+				type = councillor_marshal
+				remove_existing_councillor = yes
+				target = character:lineofgushtahmez137
+			}
+            assign_councillor_type = {
+				type = councillor_spymaster
+				remove_existing_councillor = yes
+				target = character:lineofazadafrozan3
+			}
+            # Set chancellor and steward too
+		}
     }
 
 	7037.9.12 = {
@@ -6079,34 +6125,7 @@ lineoftirdahan6 = { # War of the Ring Ruler
 	}
 }
 
-lineoftirdahan6sister = {
-	name = Vashta
-	female = yes
-	dynasty_house = house_tirdahan	
-	religion = faith_arienism
-    culture = khyan
-
-    father = lineoftirdahan5
-    mother = lineofdaneshvarhan75sister # Born to different mothers
-
-    trait = compassionate
-    trait = forgiving
-    trait = chaste
-
-    trait = devoted
-
-	trait = education_stewardship_2
-
-	6956.9.15 = {			
-		birth = yes		
-	}
-
-	7040.9.12 = {
-		death = { death_reason = death_ill }
-	}
-}
-
-lineoftirdahan6brother = { # A bit of an annoyence, Taxaspada was glad when he died early.
+lineoftirdahan8 = { # A bit of an annoyance, Taxaspada was glad when he died early.
 	name = Huvaspa
 	
 	dynasty_house = house_tirdahan	
@@ -6136,14 +6155,42 @@ lineoftirdahan6brother = { # A bit of an annoyence, Taxaspada was glad when he d
 	}
 }
 
-lineoftirdahan7 = { # Nephew of Taxmaspada and his designated heir. Sent to Khoshkaraz to quell the rising Vasnans
+lineoftirdahan9 = { # Taxmaspada's only trueborn child, his daughter
+    name = Sarafraz
+    female = yes
+
+    dynasty_house = house_tirdahan	
+	religion = faith_arienism
+    culture = khyan
+
+    trait = zealous
+    trait = temperate
+    trait = compassionate
+
+    trait = education_stewardship_3
+
+    father = lineoftirdahan7
+    mother = lineofhoshedarmah163sister
+
+    7009.1.7 = {
+        birth = yes
+    }
+
+    7070.4.22 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineoftirdahan10 = { # Nephew of Taxmaspada and his designated heir. Sent to Khoshkaraz to quell the rising Vasnans
 	name = Ferozgar
 	
 	dynasty_house = house_tirdahan	
 	religion = faith_arienism
     culture = khyan
 
-    father = lineoftirdahan6brother
+    father = lineoftirdahan8
     mother = lineofadelez22
 
 	trait = impatient
@@ -6151,11 +6198,11 @@ lineoftirdahan7 = { # Nephew of Taxmaspada and his designated heir. Sent to Khos
 	trait = honest
 
     diplomacy = 8
-    martial = 8
+    martial = 10
     stewardship = 10
     intrigue = 11
     learning = 7
-    prowess = 7
+    prowess = 9
 
     trait = education_martial_3
 
@@ -6168,20 +6215,6 @@ lineoftirdahan7 = { # Nephew of Taxmaspada and his designated heir. Sent to Khos
             set_relation_rival = character:lineofvasnan42
 			set_relation_rival = character:lineofvasnan43
         }
-        # Setting Council
-        effect = {
-			assign_councillor_type = {
-				type = councillor_marshal
-				remove_existing_councillor = yes
-				target = character:lineofgushtahmez137
-			}
-            assign_councillor_type = {
-				type = councillor_spymaster
-				remove_existing_councillor = yes
-				target = character:lineofazadafrozan3
-			}
-            # Set chancellor and setward too
-		}
 	}
     7020.5.18 = {
 		add_spouse = lineofdelawarhan175	
@@ -6196,19 +6229,26 @@ lineoftirdahan7 = { # Nephew of Taxmaspada and his designated heir. Sent to Khos
 	}
 }
 
-lineoftirdahan8 = { # The less useful and more troublesome of the nephews
+lineoftirdahan11 = { # The less useful and more troublesome of the nephews
     name = Namdar
 
     dynasty_house = house_tirdahan	
 	religion = faith_arienism
     culture = khyan
 
-    father = lineoftirdahan6brother
+    father = lineoftirdahan8
     mother = lineofadelez22
 
     trait = honest
     trait = ambitious
     trait = gluttonous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 9
+    intrigue = 5
+    learning = 5
+    prowess = 3
 
     trait = education_diplomacy_2
 
@@ -6231,42 +6271,14 @@ lineoftirdahan8 = { # The less useful and more troublesome of the nephews
     }
 }
 
-lineoftirdahan9 = { # Taxmaspada's only trueborn child, his daughter
-    name = Sarafraz
-    female = yes
-
-    dynasty_house = house_tirdahan	
-	religion = faith_arienism
-    culture = khyan
-
-    trait = zealous
-    trait = temperate
-    trait = compassionate
-
-    trait = education_stewardship_3
-
-    father = lineoftirdahan6
-    mother = lineofhoshedarmah163sister
-
-    7009.1.7 = {
-        birth = yes
-    }
-
-    7070.4.22 = {
-        death = {
-            death_reason = death_natural_causes
-        }
-    }
-}
-
-lineoftirdahan10 = { 
+lineoftirdahan12 = { 
 	name = Faravindad
 	
 	dynasty_house = house_tirdahan	
 	religion = faith_arienism
     culture = khyan
 
-    father = lineoftirdahan7
+    father = lineoftirdahan10
     mother = lineofdelawarhan175
 
 	7024.4.2 = {			
@@ -8018,6 +8030,10 @@ lineofvasnan42 = { # Jahanabad the Greedy, rose up in revolt against the Emperor
 				allied_through_target = character:lineofmahyar14
 			}
 		}
+    }
+
+    7032.8.21 = {
+        add_spouse = lineofshidushez9
     }
 
     7041.9.19 = {
@@ -168536,7 +168552,7 @@ lineofdelawarhan175 = {
 	    birth = yes
 	}
     7020.5.18 = {			
-		employer = lineoftirdahan6	
+		employer = lineoftirdahan7	
 	}
 	7088.09.06 = {  # Died at age 89
 	    death = { death_reason = death_natural_causes }
