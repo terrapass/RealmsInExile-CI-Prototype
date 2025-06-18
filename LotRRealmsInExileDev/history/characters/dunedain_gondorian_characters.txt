@@ -17858,12 +17858,12 @@ lineofgundor2 = {
     trait = fickle
     trait = gluttonous
 
-    diplomacy = 2
-    martial = 5
-    stewardship = 1
-    intrigue = 1
-    learning = 3
-    prowess = 6
+    diplomacy = 12
+    martial = 15
+    stewardship = 10
+    intrigue = 10
+    learning = 13
+    prowess = 16
 
     trait = education_martial_4
 
@@ -29411,8 +29411,8 @@ linefrealaf0 = { # Brandir Fréared (Hild's husband, father of Frealaf) Third so
 	
 	trait = education_martial_4
 	
-	diplomacy = 2
-	martial = 4
+	diplomacy = 12
+	martial = 14
 	stewardship = 9
 	learning = 2
 	intrigue = 5
@@ -30125,12 +30125,12 @@ linebenrodir73 = {
     trait = fickle
     trait = diligent
 
-    diplomacy = 5
-    martial = 4
-    stewardship = 3
+    diplomacy = 15
+    martial = 14
+    stewardship = 13
     intrigue = 5
     learning = 8
-    prowess = 2
+    prowess = 12
 
 	trait = intellect_good_1
 
@@ -82921,12 +82921,12 @@ linecalionathancestor = {
 	
 	disallow_random_traits = yes
 	
-    diplomacy = 4
-    martial = 4
-    stewardship = 5
+    diplomacy = 14
+    martial = 14
+    stewardship = 15
     intrigue = 8
-    learning = 4
-    prowess = 7
+    learning = 14
+    prowess = 17
 
     4790.12.14 = {
         birth = yes
@@ -83336,11 +83336,11 @@ linecalionathancestor5 = {
 	trait = twin
 	
     diplomacy = 8
-    martial = 5
+    martial = 15
     stewardship = 7
-    intrigue = 8
+    intrigue = 18
     learning = 9
-    prowess = 3
+    prowess = 13
 
     trait = education_intrigue_4
 
@@ -83737,12 +83737,12 @@ linecalionathancestor12 = {
     trait = paranoid
     trait = stubborn
 
-    diplomacy = 6
-    martial = 5
-    stewardship = 3
-    intrigue = 5
+    diplomacy = 16
+    martial = 15
+    stewardship = 13
+    intrigue = 15
     learning = 6
-    prowess = 1
+    prowess = 11
 
     5320.4.19 = {
         birth = yes
@@ -145801,12 +145801,12 @@ linetulion1 = {
     trait = fickle
     trait = gluttonous
 
-    diplomacy = 6
-    martial = 4
-    stewardship = 8
-    intrigue = 2
-    learning = 3
-    prowess = 4
+    diplomacy = 26
+    martial = 24
+    stewardship = 18
+    intrigue = 12
+    learning = 23
+    prowess = 14
 
     trait = education_diplomacy_4
 
@@ -169512,12 +169512,12 @@ lineofgaldor3 = {
     trait = fickle
     trait = wrathful
 
-    diplomacy = 7
-    martial = 5
+    diplomacy = 17
+    martial = 15
     stewardship = 9
-    intrigue = 4
-    learning = 2
-    prowess = 6
+    intrigue = 11
+    learning = 12
+    prowess = 16
 
     trait = education_diplomacy_4
 
@@ -190621,12 +190621,12 @@ lineoftelemir11 = {
     trait = wrathful
     trait = lazy
 
-    diplomacy = 5
-    martial = 4
-    stewardship = 3
-    intrigue = 8
-    learning = 4
-    prowess = 7
+    diplomacy = 11
+    martial = 14
+    stewardship = 13
+    intrigue = 11
+    learning = 14
+    prowess = 13
 
     trait = education_martial_4
 
@@ -193040,12 +193040,12 @@ lineoftelemir70 = {
     trait = ambitious
     trait = impatient
 
-    diplomacy = 4
-    martial = 5
-    stewardship = 3
+    diplomacy = 14
+    martial = 15
+    stewardship = 13
     intrigue = 9
-    learning = 2
-    prowess = 2
+    learning = 12
+    prowess = 12
 
     trait = education_martial_4
 
@@ -197003,12 +197003,12 @@ lineofeletan1 = {
     trait = ambitious
     trait = impatient
 
-    diplomacy = 4
-    martial = 4
-    stewardship = 6
-    intrigue = 2
-    learning = 4
-    prowess = 5
+    diplomacy = 14
+    martial = 14
+    stewardship = 10
+    intrigue = 12
+    learning = 14
+    prowess = 15
 
     trait = education_diplomacy_4
 
@@ -198935,12 +198935,12 @@ lineofeletan49 = {
     trait = ambitious
     trait = impatient
 
-    diplomacy = 3
-    martial = 5
-    stewardship = 3
+    diplomacy = 13
+    martial = 15
+    stewardship = 13
     intrigue = 9
-    learning = 1
-    prowess = 3
+    learning = 11
+    prowess = 13
 
     trait = education_martial_4
 
@@ -217175,12 +217175,12 @@ lineofmamandil16 = {
     trait = ambitious
     trait = impatient
 
-    diplomacy = 3
-    martial = 4
-    stewardship = 4
+    diplomacy = 13
+    martial = 14
+    stewardship = 14
     intrigue = 8
-    learning = 2
-    prowess = 5
+    learning = 12
+    prowess = 15
 
     trait = education_martial_4
 
@@ -218217,11 +218217,11 @@ lineofmamandil44 = {
     trait = impatient
 
     diplomacy = 10
-    martial = 4
-    stewardship = 2
+    martial = 14
+    stewardship = 12
     intrigue = 10
-    learning = 2
-    prowess = 7
+    learning = 12
+    prowess = 17
 
     trait = education_martial_4
 
@@ -218732,12 +218732,12 @@ lineofmamandil57 = {
     trait = ambitious
     trait = impatient
 
-    diplomacy = 5
-    martial = 5
-    stewardship = 3
+    diplomacy = 15
+    martial = 15
+    stewardship = 13
     intrigue = 8
-    learning = 2
-    prowess = 6
+    learning = 12
+    prowess = 16
 
     trait = education_diplomacy_4
 
@@ -224327,11 +224327,11 @@ lineofsolvarding46 = {
     trait = content
 
     diplomacy = 8
-    martial = 5
-    stewardship = 1
-    intrigue = 3
-    learning = 1
-    prowess = 5
+    martial = 15
+    stewardship = 10
+    intrigue = 13
+    learning = 10
+    prowess = 15
 
     trait = education_martial_4
 

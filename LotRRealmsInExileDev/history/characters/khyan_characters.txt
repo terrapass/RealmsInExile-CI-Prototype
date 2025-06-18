@@ -277,12 +277,12 @@ lineofhaxamanish6 = {
     trait = temperate
     trait = cynical
 
-    diplomacy = 5
-    martial = 5
-    stewardship = 1
-    intrigue = 1
-    learning = 2
-    prowess = 3
+    diplomacy = 15
+    martial = 15
+    stewardship = 11
+    intrigue = 11
+    learning = 12
+    prowess = 13
 
     trait = education_learning_4
     trait = physique_good_2
@@ -8484,12 +8484,12 @@ lineofmahyar1 = {
     trait = fickle
     trait = gluttonous
 
-    diplomacy = 3
-    martial = 5
-    stewardship = 7
-    intrigue = 3
-    learning = 1
-    prowess = 4
+    diplomacy = 13
+    martial = 15
+    stewardship = 17
+    intrigue = 13
+    learning = 11
+    prowess = 14
 
     trait = education_stewardship_4
 
