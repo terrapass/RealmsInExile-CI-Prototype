@@ -206317,7 +206317,7 @@ lineofastandurcadet72wife = {
     }
 }
 
-lineofastandurcadet73 = { #to be made into a laamp
+lineofastandurcadet73 = { #to be made into a LAAMP (Commented out because he won't stop moving to Valinor, even with an employer assigned)
     name = Bauradan
 
     dynasty_house = house_astandurionath
@@ -206355,29 +206355,31 @@ lineofastandurcadet73 = { #to be made into a laamp
 
     6741.12.9 = {
         birth = yes
-			add_trait_xp = {
-				trait = lifestyle_hunter
-                track = hunter
-				value = 75
-			}
+        employer = linejarnrik3
     }
 
-    6751.12.9 = {
-        birth = yes
+     6751.12.9 = {
         give_nickname = nick_the_bear
         effect = {
             add_character_flag = {
                 flag = had_nickname_event
             }
         }
-        
+        add_trait_xp = {
+ 			trait = lifestyle_hunter
+            track = hunter
+ 			value = 75
+ 		}
     }
 
-    6882.9.21 = { # Needs lifespan nerf for the whole house
+    6754.1.15 = {
+        employer = linejarnrik5
+    }
+
+    6849.9.21 = { # Needs lifespan nerf for the whole house
         death = { death_reason = death_natural_causes }
     }
 }
-
 
 lineofastandurcadet74 = {
     name = Eariel
