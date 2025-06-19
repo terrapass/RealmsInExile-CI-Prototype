@@ -5329,7 +5329,7 @@ lineofaldhradan3 = {
 		birth = yes		
 	}
 
-	6888.5.12 = {
+	6838.5.12 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -5354,7 +5354,7 @@ lineofaldhradan4 = {
 		birth = yes		
 	}
 
-	6882.7.4 = {
+	6832.7.4 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -6104,8 +6104,23 @@ lineoftirdahan7 = { # War of the Ring Ruler
 
     7033.1.1 = {
         health = -1.0
-        # Setting Council
+        # Setting the Council
         effect = {
+            assign_councillor_type = { #If we can make this chaplain assignment work, great. If not, oh well
+                type = councillor_court_chaplain
+                remove_existing_councillor = yes
+                target = lineofkhudaram
+            }
+            assign_councillor_type = { #This chancellor assignment needs to work
+                type = councillor_chancellor
+                remove_existing_councillor = yes
+                target = lineoffrashaoshtraz7
+            }
+            assign_councillor_type = {
+				type = councillor_steward
+				remove_existing_councillor = yes
+				target = character:lineofgorazehan173
+			}
 			assign_councillor_type = {
 				type = councillor_marshal
 				remove_existing_councillor = yes
@@ -6116,12 +6131,6 @@ lineoftirdahan7 = { # War of the Ring Ruler
 				remove_existing_councillor = yes
 				target = character:lineofazadafrozan3
 			}
-            assign_councillor_type = {
-                type = councillor_chancellor
-                remove_existing_councillor = yes
-                target = lineoffrashoashtraz7
-            }
-            # Set steward too
 		}
     }
 
@@ -7793,8 +7802,7 @@ lineofvasnan36 = {
 		}
     }
 
-    7029.2.4 = { # Forms cadet branch 'Ashtadet'
-        dynasty_house = house_ashtadet # Move to intro event, remove once intro event is in
+    7029.2.4 = { # Becomes known across Khy for his magnanimity
 		give_nickname = nick_the_magnificent
         effect = {
             add_character_flag = {
@@ -307830,7 +307838,7 @@ lineofbardiyen17 = {
 lineofashtadet1 = {
     name = Arash 
 
-    dynasty_house = house_ashtadet
+    dynasty = dynasty_vasnan
     religion = faith_arienism
     culture = khyan
 
@@ -307860,7 +307868,11 @@ lineofashtadet1 = {
         add_spouse = lineofashtadet1wife
     }
 
-    7043.10.18 = {
+    7050.1.1 = { #Replace with Vasnan Defeat Date
+        dynasty_house = house_ashtadet
+    }
+
+    7063.10.18 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -307870,7 +307882,7 @@ lineofashtadet1wife = {
     female = yes
 
     religion = faith_arienism
-    culture = khyan
+    culture = mejhanian
 
     sexuality = heterosexual
 
@@ -307900,7 +307912,7 @@ lineofashtadet2 = {
     name = Gulafshan
     female = yes
 
-    dynasty_house = house_ashtadet
+    dynasty = dynasty_vasnan
     religion = faith_arienism
     culture = khyan
 
@@ -307932,6 +307944,10 @@ lineofashtadet2 = {
 		trait = forgiving
     }
 
+    7050.1.1 = { #Replace with Vasnan Defeat Date
+        dynasty_house = house_ashtadet
+    }
+
     7086.1.7 = {
         death = { death_reason = death_natural_causes }
     }
@@ -307940,7 +307956,7 @@ lineofashtadet2 = {
 lineofashtadet3 = {
     name = Arawaostra
 
-    dynasty_house = house_ashtadet
+    dynasty = dynasty_vasnan
     religion = faith_arienism
     culture = khyan
 
@@ -307976,6 +307992,10 @@ lineofashtadet3 = {
 
     7043.8.5 = {
         add_spouse = lineofashtadet3wife
+    }
+
+    7050.1.1 = { #Replace with Vasnan Defeat Date
+        dynasty_house = house_ashtadet
     }
 
     7086.10.24 = {
@@ -308021,7 +308041,7 @@ lineofashtadet3wife = {
 lineofashtadet4 = {
     name = Tahm
 
-    dynasty_house = house_ashtadet
+    dynasty = dynasty_vasnan
     religion = faith_arienism
     culture = khyan
 
@@ -308055,8 +308075,12 @@ lineofashtadet4 = {
         add_spouse = lineofashtadet4wife
     }
 
+    7050.1.1 = { #Replace with Vasnan Defeat Date
+        dynasty_house = house_ashtadet
+    }
+
     7060.12.8 = {
-        death = { death_reason = death_ended_on_feast_table  }
+        death = { death_reason = death_ended_on_feast_table }
     }
 }
 
