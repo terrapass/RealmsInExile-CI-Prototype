@@ -28234,8 +28234,8 @@ linebenrodir25sister = {
     religion = faith_edain
     culture = gondorian
 
-    #father = linebenrodir23 - change!
-    #mother = linebenrodir24
+    father = linebenrodir23
+    mother = lineofroquendil43sister
 
     sexuality = heterosexual
 
