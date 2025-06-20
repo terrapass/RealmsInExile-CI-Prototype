@@ -6106,17 +6106,17 @@ lineoftirdahan7 = { # War of the Ring Ruler
         health = -1.0
         # Setting the Council
         effect = {
-            assign_councillor_type = { #If we can make this chaplain assignment work, great. If not, oh well
-                type = councillor_court_chaplain
-                remove_existing_councillor = yes
-                target = lineofkhudaram
-            }
-            assign_councillor_type = { #This chancellor assignment needs to work
-                type = councillor_chancellor
-                remove_existing_councillor = yes
-                target = lineoffrashaoshtraz7
-            }
-            assign_councillor_type = {
+			assign_councillor_type = { #If we can make this chaplain assignment work, great. If not, oh well
+				type = councillor_court_chaplain
+				remove_existing_councillor = yes
+				target = character:lineofkhudaram
+			}
+			assign_councillor_type = { #This chancellor assignment needs to work
+				type = councillor_chancellor
+				remove_existing_councillor = yes
+				target = character:lineoffrashaoshtraz7
+			}
+			assign_councillor_type = {
 				type = councillor_steward
 				remove_existing_councillor = yes
 				target = character:lineofgorazehan173
