@@ -387477,7 +387477,7 @@ lineofold_pirate_guy0 = {
 
     trait = education_learning_3
     trait = scarred
-    trait = mystic
+    trait = lifestyle_mystic
     trait = athletic
 
     6965.3.4 = {
