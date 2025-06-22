@@ -387456,6 +387456,47 @@ lineoflastpirate0 = {
     }
 }
 
+lineofold_pirate_guy0 = {
+    name = Ram 
+
+    religion = faith_ulokan
+    culture = lynerian
+
+    sexuality = asexual
+
+    trait = temperate
+    trait = deceitful
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 6
+    prowess = 3
+
+    trait = education_learning_3
+    trait = scarred
+    trait = mystic
+    trait = athletic
+
+    6965.3.4 = {
+        birth = yes
+        add_trait_xp = {
+			    trait = scarred
+				value = 200
+		}
+    }
+
+    7032.1.1 = {
+        employer = lineofpharala57
+    }
+
+    7034.1.1 = {
+        death = { death_reason = death_disappearance }
+    }
+}
+
 ### LW Twilight Isles Pirate ###
 
 lineoftwilightpirate0 = {
