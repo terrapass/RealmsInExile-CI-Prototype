@@ -8147,7 +8147,7 @@ lineofroquendil33 = {
 }
 
 lineofroquendil34 = {
-    name = Elendilme
+    name = Arien
     female = yes
 
     dynasty_house = house_roquendilin
@@ -226266,7 +226266,7 @@ lineofelendir2 = {
     female = yes
 
     religion = faith_edain
-    culture = gondorian
+    culture = dunedain
 
     sexuality = heterosexual
 
@@ -226307,7 +226307,7 @@ lineofelendir3 = {
 
     dynasty = dynasty_elendir
     religion = faith_edain
-    culture = gondorian
+    culture = dunedain
 
     father = lineofelendir1
     mother = lineofelendir2
@@ -226354,7 +226354,7 @@ lineofelendir4 = {
     female = yes
 
     religion = faith_edain
-    culture = gondorian
+    culture = dunedain
 
     sexuality = heterosexual
 
@@ -226391,7 +226391,7 @@ lineofelendir5 = {
 
     dynasty = dynasty_elendir
     religion = faith_edain
-    culture = gondorian
+    culture = dunedain
 
     father = lineofelendir3
     mother = lineofelendir4
@@ -239678,7 +239678,7 @@ lineofelaran15 = {
     learning = 4
     prowess = 3
 
-    trait = education_stewardship_4
+    trait = education_stewardship_1
 
     3779.9.14 = {
         birth = yes
@@ -244628,6 +244628,37 @@ lineofalatar4 = {
     }
 }
 
+lineofalatar3a1 = {
+    name = Ellin
+    female = yes
+
+    dynasty = dynasty_imladrod
+    religion = faith_numenorean
+    culture = dunedain
+
+    father = lineofalatar3
+    mother = lineofalatar4
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+
+    3690.11.1 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya
+		}
+    }
+
+    3912.1.1 = {
+        religion = faith_edain
+    }
+
+    3996.5.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
 lineofalatar5 = {
     name = Galador
 
@@ -247329,6 +247360,10 @@ lineofingoldur15 = {
 
     3410.7.22 = {
         birth = yes
+        effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
     }
     3481.8.10 = {
         add_spouse = lineofingoldur16
@@ -247367,6 +247402,9 @@ lineofingoldur16 = {
 
     3408.8.9 = {
         birth = yes
+        effect = {
+            learn_language = language_sindarin
+        }
     }
 
     3705.7.28 = {
@@ -247402,6 +247440,10 @@ lineofingoldur17 = {
 
     3483.5.4 = {
         birth = yes
+        effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
     }
 
     3559.4.21 = {
@@ -247442,6 +247484,10 @@ lineofingoldur18 = {
 
     3490.9.6 = {
         birth = yes
+        effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
     }
 
     3751.4.7 = {
@@ -247477,6 +247523,10 @@ lineofingoldur19 = {
 
     3560.4.17 = {
         birth = yes
+        effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
     }
 
     3632.11.9 = {
@@ -247517,18 +247567,22 @@ lineofingoldur20 = {
 
     3567.11.2 = {
         birth = yes
+        effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
     }
 
     3850.9.2 = {
         death = { death_reason = death_natural_causes }
     }
 }
-
 lineofingoldur21 = {
-    name = Gethron
+    name = Halred
+    dna = halred_astaldanosse_dna
 
     dynasty = dynasty_astaldanosse
-    religion = faith_numenorean
+    religion = faith_edain
     culture = dunedain
 
     father = lineofingoldur19
@@ -247538,38 +247592,48 @@ lineofingoldur21 = {
 
     trait = blood_of_numenor_10
 
-    trait = lazy
-    trait = paranoid
-    trait = humble
+    trait = temperate
+    trait = patient
+    trait = stubborn
+    trait = shrewd
 
     diplomacy = 7
     martial = 4
     stewardship = 5
-    intrigue = 10
+    intrigue = 9
     learning = 3
-    prowess = 5
+    prowess = 8
 
-    trait = education_intrigue_1
+    trait = education_stewardship_3
 
     3670.2.20 = {
         birth = yes
+        effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
     }
 
     3748.11.6 = {
         add_spouse = lineofingoldur22
+        set_relation_lover = character:lineofingoldur22
     }
 
-    3963.3.23 = {
+    3957.10.12 = {
         death = { death_reason = death_natural_causes }
     }
 }
-
 lineofingoldur22 = {
-    name = Elenwing
+    name = Elwing
+    dna = elwing_elendirionath_dna
     female = yes
 
-    religion = faith_numenorean
+    dynasty = dynasty_elendir
+    religion = faith_edain
     culture = dunedain
+
+    father = lineofelendir3
+    mother = lineofelendir4
 
     sexuality = heterosexual
 
@@ -247590,18 +247654,21 @@ lineofingoldur22 = {
 
     3678.8.26 = {
         birth = yes
+        effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
     }
 
     3954.11.13 = {
         death = { death_reason = death_natural_causes }
     }
 }
-
 lineofingoldur23 = {
     name = Galador
 
     dynasty = dynasty_astaldanosse
-    religion = faith_numenorean
+    religion = faith_edain
     culture = dunedain
 
     father = lineofingoldur21
@@ -247611,18 +247678,18 @@ lineofingoldur23 = {
 
     trait = blood_of_numenor_10
 
-    trait = lazy
+    trait = diligent
     trait = lustful
-    trait = just
+    trait = gregarious
 
-    diplomacy = 4
+    diplomacy = 8
     martial = 6
     stewardship = 3
     intrigue = 6
     learning = 3
     prowess = 3
 
-    trait = education_martial_3
+    trait = education_diplomacy_3
 
     3753.1.18 = {
         birth = yes
@@ -247640,13 +247707,16 @@ lineofingoldur23 = {
         death = { death_reason = death_natural_causes }
     }
 }
-
 lineofingoldur24 = {
-    name = Gwelwen
+    name = Elwen
     female = yes
 
+    dynasty = dynasty_gaerrandirath
     religion = faith_numenorean
     culture = dunedain
+
+    father = lineofelaran13
+    mother = lineofelaran14
 
     sexuality = heterosexual
 
@@ -247665,8 +247735,12 @@ lineofingoldur24 = {
 
     trait = education_martial_3
 
-    3751.12.1 = {
+    3783.4.20 = {
         birth = yes
+		effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya
+		}
     }
 
     3912.1.1 = {
@@ -247677,8 +247751,8 @@ lineofingoldur24 = {
         culture = gondorian
     }
 
-    4049.4.12 = {
-        death = { death_reason = death_disappearance  }
+    4054.4.12 = {
+        death = { death_reason = death_natural_causes  }
     }
 }
 
@@ -247686,7 +247760,7 @@ lineofingoldur25 = {
     name = Morvegil
 
     dynasty = dynasty_astaldanosse
-    religion = faith_numenorean
+    religion = faith_edain
     culture = dunedain
 
     father = lineofingoldur23
@@ -247734,7 +247808,7 @@ lineofingoldur26 = {
     name = Lumiel
     female = yes
 
-    religion = faith_numenorean
+    religion = faith_edain
     culture = dunedain
 
     sexuality = bisexual
@@ -247767,7 +247841,7 @@ lineofingoldur27 = {
     name = Girion
 
     dynasty = dynasty_astaldanosse
-    religion = faith_numenorean
+    religion = faith_edain
     culture = dunedain
 
     father = lineofingoldur25
@@ -247815,7 +247889,7 @@ lineofingoldur28 = {
     name = Tarandis
     female = yes
 
-    religion = faith_numenorean
+    religion = faith_edain
     culture = dunedain
 
     sexuality = heterosexual
@@ -248579,46 +248653,48 @@ lineofingoldur5a1a1 = {
     }
 }
 
-lineofingoldur13a1 = {
-    name = Beleg
+lineofingoldur19a1 = {
+    name = Halbor
 
     dynasty = dynasty_astaldanosse
-    religion = faith_numenorean
-	culture = dunedain
+    religion = faith_edain
+    culture = dunedain
 
-    father = lineofingoldur13
-    mother = lineofsealord4daughter
+    father = lineofingoldur19
+    mother = lineofingoldur20
 
     sexuality = heterosexual
 
     trait = blood_of_numenor_10
 
-    trait = stubborn
-    trait = vengeful
-    trait = arbitrary
+    trait = lazy
+    trait = brave
+    trait = patient
 
-    diplomacy = 3
+    diplomacy = 7
     martial = 4
-    stewardship = 7
+    stewardship = 5
     intrigue = 9
-    learning = 6
-    prowess = 5
+    learning = 3
+    prowess = 8
 
     trait = education_martial_3
+    trait = education_martial_prowess_2
 
-    3366.9.14 = {
+    3681.9.14 = {
         birth = yes
+        effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
     }
-    3400.1.21 = {
-		name = Abraza_a_n
-        religion = faith_kings_men_numenorean
-        culture = black_numenorean
-		trait = disinherited
-	}
-    3431.4.19 = {
-        add_spouse = linecaldur1a1
+
+    3748.11.6 = {
+        add_spouse = lineofalatar3a1
+        set_relation_soulmate = character:lineofalatar3a1
     }
-    3654.1.20 = {
+
+    3966.4.11 = {
         death = { death_reason = death_natural_causes }
     }
 }
