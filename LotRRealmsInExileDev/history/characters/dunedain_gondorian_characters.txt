@@ -169363,6 +169363,9 @@ lineofhaldan24 = {
     religion = faith_edain
     culture = caledhrim
 
+    father = lineofhaldan22
+    mother = lineofhaldan23
+
     sexuality = heterosexual
 
     trait = blood_of_numenor_3
