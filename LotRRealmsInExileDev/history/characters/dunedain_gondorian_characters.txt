@@ -147263,6 +147263,7 @@ linehandarod17 = {
     name = Lothwen
     female = yes
 
+    dynasty = dynasty_handarod
     religion = faith_edain
     culture = gondorian
 
@@ -147299,6 +147300,7 @@ linehandarod18 = {
     name = Esteliel
     female = yes
 
+    dynasty = dynasty_handarod
     religion = faith_edain
     culture = gondorian
 
@@ -154571,6 +154573,9 @@ lineofmaratar43 = {
     dynasty = dynasty_maratarionath
     religion = faith_edain
     culture = caledhrim
+
+    father = lineofmaratar41
+    mother = lineofmaratar42
 
     sexuality = heterosexual
 
@@ -169357,6 +169362,9 @@ lineofhaldan24 = {
     dynasty = dynasty_haldanionath
     religion = faith_edain
     culture = caledhrim
+
+    father = lineofhaldan22
+    mother = lineofhaldan23
 
     sexuality = heterosexual
 
