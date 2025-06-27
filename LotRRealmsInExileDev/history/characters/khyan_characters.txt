@@ -387429,6 +387429,7 @@ lineoflastpirate0 = {
     trait = lifestyle_mariner
     trait = viking
     trait = reaver
+    trait = drunkard
 
     6990.3.4 = {
         birth = yes
