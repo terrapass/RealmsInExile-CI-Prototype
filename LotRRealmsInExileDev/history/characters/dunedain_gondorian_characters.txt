@@ -43884,7 +43884,9 @@ lineoftelengaur1 = { # First lord of the hills of Harithilien. Colonist from Pel
 
     3839.4.20 = {
         add_spouse = lineofingoldur19a2
-        set_relation_soulmate = lineofingoldur19a2
+        effect = {
+			set_relation_soulmate = character:lineofingoldur19a2
+		}
     }
 	
     4001.8.1 = { # 230
@@ -247776,7 +247778,7 @@ lineofingoldur25 = {
         religion = faith_edain
     }
 
-    4035.1.1 = {
+    4033.1.1 = {
         culture = gondorian
     }
 
