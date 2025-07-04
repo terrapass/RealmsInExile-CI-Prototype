@@ -274964,9 +274964,9 @@ lineofearendur10 = {
 		}
     }
 
-    5362.8.23 = {
-        add_spouse = lineofearendur9wife
-    }
+#    5362.8.23 = {
+#        add_spouse = lineofearendur9wife
+#    }
 
     5569.1.24 = {
         death = { death_reason = death_natural_causes }
