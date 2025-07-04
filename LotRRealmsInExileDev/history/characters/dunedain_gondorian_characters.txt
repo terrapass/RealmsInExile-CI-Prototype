@@ -254947,7 +254947,7 @@ lineofoluchil42 = {
 
     trait = blood_of_numenor_9
 
-    trait = diligent
+    trait = greedy
     trait = gregarious
     trait = lazy
 
@@ -255278,7 +255278,7 @@ lineofoluchil51 = {
 
     trait = diligent
     trait = gregarious
-    trait = lazy
+    trait = honest
 
     diplomacy = 4
     martial = 5
@@ -274964,9 +274964,9 @@ lineofearendur10 = {
 		}
     }
 
-    5362.8.23 = {
-        add_spouse = lineofearendur9wife
-    }
+#    5362.8.23 = {
+#        add_spouse = lineofearendur9wife
+#    }
 
     5569.1.24 = {
         death = { death_reason = death_natural_causes }
