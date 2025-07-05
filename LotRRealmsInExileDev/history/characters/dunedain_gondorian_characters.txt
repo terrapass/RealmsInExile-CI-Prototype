@@ -73254,7 +73254,7 @@ linetagron13wife = {
     culture = gondorian
 
     father = lineofaegardh16
-    mother = lineofaegardh16wife
+    mother = lineofearendur6
 
     sexuality = heterosexual
 
