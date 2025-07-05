@@ -254947,7 +254947,7 @@ lineofoluchil42 = {
 
     trait = blood_of_numenor_9
 
-    trait = greedy
+    trait = diligent
     trait = gregarious
     trait = lazy
 
@@ -255278,7 +255278,7 @@ lineofoluchil51 = {
 
     trait = diligent
     trait = gregarious
-    trait = honest
+    trait = lazy
 
     diplomacy = 4
     martial = 5
