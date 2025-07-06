@@ -23139,7 +23139,7 @@ lineanfalas11 = {
 }	
 
 lineanfalas12 = {
-	name = Salmandil # Lord of Anfalas
+	name = Salvardil # Lord of Anfalas
 
 	dynasty = dynasty_anfalas
 	religion = faith_edain
@@ -89814,7 +89814,7 @@ lineoftiliondil18 = {
 }
 
 lineoftiliondil19 = {
-    name = Salmandil
+    name = Salvardil
 
     dynasty = dynasty_tiliondilionath
     religion = faith_edain
@@ -92567,7 +92567,7 @@ lineoflauremacil4 = {
 }
 
 lineoflauremacil5 = {
-    name = Salmandil
+    name = Salvardil
 
     dynasty = dynasty_lauremacilionath
     religion = faith_edain
@@ -104153,7 +104153,7 @@ lineofduneglan78 = {
 }
 
 lineofduneglan79 = {
-    name = Arvegil
+    name = Ervegil
 
     dynasty = dynasty_duneglan
     religion = faith_edain
@@ -122137,7 +122137,7 @@ lineofulrad96 = {
 }
 
 lineofulrad97 = {
-    name = Salmandur 
+    name = Salvardur 
 
     dynasty = dynasty_an_morthond
     religion = faith_edain
@@ -131422,7 +131422,7 @@ lineofulmondur84 = {
 }
 
 lineofulmondur85 = {
-    name = Salmandil 
+    name = Salvardil 
 
     dynasty = dynasty_an_andhen
     religion = faith_edain
@@ -135165,7 +135165,7 @@ lineofbregor18 = {
 }
 
 lineofbregor19 = {
-    name = Arvegil 
+    name = Ervegil 
 
     dynasty = dynasty_an_lontir
     religion = faith_edain
@@ -139357,7 +139357,7 @@ lineofmanwedur60 = {
 }
 
 lineofmanwedur61b = {
-    name = Salmandil 
+    name = Salvardil 
 
     dynasty = dynasty_nos_elmo
     religion = faith_edain
@@ -139395,7 +139395,7 @@ lineofmanwedur61b = {
 }
 
 lineofmanwedur61bwife = {
-    name = Salmandil 
+    name = Salvardil 
     female = yes
 
     religion = faith_edain
@@ -139413,7 +139413,7 @@ lineofmanwedur61bwife = {
 
 
 lineofmanwedur61 = {
-    name = Salmandil 
+    name = Salvardil 
 
     dynasty = dynasty_nos_elmo
     religion = faith_edain
@@ -155453,7 +155453,7 @@ lineoferemir20 = {
 }
 
 lineoferemir21 = {
-    name = Arvegil
+    name = Ervegil
 
     dynasty = dynasty_eremirionath
     religion = faith_edain
@@ -165869,7 +165869,7 @@ lineofarandur17 = {
 }
 
 lineofarandur18 = {
-    name = Veaher
+    name = Gaerchir
 
     dynasty_house = house_arandurionath
     religion = faith_edain
@@ -179067,7 +179067,7 @@ lineofnedhroval25 = {
 }
 
 lineofnedhroval26 = {
-    name = Salmandur
+    name = Salvardur
 
     dynasty_house = house_nedhroval
     religion = faith_edain
@@ -180188,7 +180188,7 @@ lineofnedhroval55 = {
 }
 
 lineofnedhroval56 = {
-    name = Salmandil
+    name = Salvardil
 
     dynasty_house = house_nedhroval
     religion = faith_edain
@@ -192856,7 +192856,7 @@ lineoftelemir66 = {
 }
 
 lineoftelemir67 = {
-    name = Veaher
+    name = Gaerchir
 
     dynasty = dynasty_telemirionath
     religion = faith_edain
@@ -200326,7 +200326,7 @@ lineofcalandir12 = {
 }
 
 lineofcalandir13 = {
-    name = Salmandur 
+    name = Salvardur 
 
     dynasty = dynasty_calandirionath
     religion = faith_edain
@@ -206086,7 +206086,7 @@ lineofastandurcadet69 = {
 }
 
 lineofastandurcadet70 = {
-    name = Sirionir
+    name = Sirionnil
 
     dynasty_house = house_astandurionath
     religion = faith_edain
@@ -206428,7 +206428,7 @@ lineofastandurcadet75 = {
 ########### start of Kin Strife Character addons #############
 
 lineofastandurcadetKS1 = {
-    name = Salmandil
+    name = Salvardil
 
     father = lineofastandurcadet10
     mother = lineofastandurcadet11
@@ -210427,7 +210427,7 @@ lineoftelecarcadet43 = {
 }
 
 lineoftelecarcadet44 = {
-    name = Salmandil
+    name = Salvardil
 
     dynasty_house = house_telecarionath
     religion = faith_edain
@@ -213022,7 +213022,7 @@ lineofcerindur7 = {
 }
 
 lineofcerindur8 = {
-    name = Arvegil
+    name = Ervegil
 
     dynasty = dynasty_cerindur
     religion = faith_numenorean
