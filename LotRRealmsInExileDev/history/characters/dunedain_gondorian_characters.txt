@@ -48604,8 +48604,8 @@ linetelemnarion14 = {
 	5444.1.1={
 		birth = yes			
 	}
-	5421.5.11 = {
-		death = { death_reason = death_hunting_accident } #Suspicous
+	5481.5.11 = {
+		death = { death_reason = death_hunting_accident } #Suspicious circumstances
 	}
 }
 
