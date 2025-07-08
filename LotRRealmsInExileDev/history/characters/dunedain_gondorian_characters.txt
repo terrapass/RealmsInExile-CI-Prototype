@@ -76851,6 +76851,7 @@ linecaranor9 = {
     name = Eliane
     female = yes
 
+    dynasty_house = house_caranor
     religion = faith_edain
     culture = gondorian
 
