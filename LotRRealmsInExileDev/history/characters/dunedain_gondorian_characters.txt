@@ -274237,6 +274237,7 @@ lineofearendurwife = {
     name = Nessanie
     female = yes
 
+    dynasty = dynasty_lagrionath
     religion = faith_edain
     culture = umbaredain
 
