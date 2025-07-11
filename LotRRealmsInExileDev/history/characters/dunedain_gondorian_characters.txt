@@ -1234,7 +1234,9 @@ lineofanarion27 = {
 
 	5350.1.1 = {
 		add_spouse = lineofroquendil20
-		set_relation_soulmate = character:lineofroquendil20
+        effect = {
+		    set_relation_soulmate = character:lineofroquendil20
+        }
 	}
 
 	5523.1.1 = {
@@ -1329,7 +1331,9 @@ lineofanarion28 = {
 
     5420.7.16 = {
         add_spouse = lineofhandir33sister
-        set_relation_soulmate = character:lineofhandir33sister
+        effect = {
+            set_relation_soulmate = character:lineofhandir33sister
+        }
     }
 
 	5470.1.1 = {
@@ -1412,7 +1416,9 @@ lineofanarion29 = {
 
     5418.7.1 = {
         add_spouse = lineofastandurcadet17twin
-        set_relation_soulmate = character:lineofastandurcadet17twin
+        effect = {
+            set_relation_soulmate = character:lineofastandurcadet17twin
+        }
     }
 
 	5573.1.1 = {
@@ -1434,13 +1440,11 @@ lineofanarion30 = { # Hyarmendacil II
 	father = lineofanarion29
     mother = lineofastandurcadet17twin
 
-    trait = education_martial_3
-
 	trait = vengeful
 	trait = diligent
 	trait = wrathful
-	
 
+    trait = education_martial_3
 
 	trait = blood_of_numenor_8
 	5424.1.1 = {
@@ -1473,13 +1477,12 @@ lineofanarion31 = {
 
 	father = lineofanarion30
 	
-	trait = education_learning_4
 	trait = content
 	trait = trusting
 	trait = gregarious
+
+    trait = education_learning_4
 	
-
-
 	trait = blood_of_numenor_7
 	5487.3.19 = {
 		birth = yes
@@ -1508,10 +1511,11 @@ lineofanarion31brother = { # Brother of Minardil. Served as chief of intelligenc
 
 	father = lineofanarion30
 	
-	trait = education_intrigue_2
 	trait = paranoid
 	trait = vengeful
 	trait = ambitious
+    
+    trait = education_intrigue_3
 	
 	trait = blood_of_numenor_7
 
@@ -1540,8 +1544,11 @@ lineofanarion32 = {
 
 	father = lineofanarion31
 
-	
+	trait = brave
+    trait = lustful
+    trait = vengeful
 
+    trait = education_intrigue_2
 
 	trait = blood_of_numenor_7
 	5549.1.1 = {
@@ -1612,14 +1619,12 @@ lineofanarion34 = {
 lineofanarion35 = {
 	name = Melindis 
 
+	female = yes
 	dynasty = dynasty_anarion
 	religion = faith_edain
 	culture = gondorian
 
 	father = lineofanarion32
-
-	female = yes
-
 	
 	trait = beauty_good_3
 	trait = education_diplomacy_3
@@ -1653,7 +1658,9 @@ lineofanarion36 = {
 
 	trait = arrogant
 	trait = stubborn
+    trait = callous
 
+    trait = education_diplomacy_2
 
 	trait = blood_of_numenor_7
 	5556.1.1 = {
@@ -1678,8 +1685,11 @@ lineofanarion37 = {
 
 	father = lineofanarion36
 
-	
+	trait = diligent
+    trait = patient
+    trait = arrogant
 
+    trait = education_stewardship_3
 
 	trait = blood_of_numenor_7
 	5610.1.1 = {
@@ -1705,7 +1715,11 @@ lineofanarion38 = {
 
 	
 	trait = lifestyle_mariner
+    trait = vengeful
+    trait = callous
+    trait = brave
 	
+    trait = education_martial_4
 
 	trait = blood_of_numenor_7
 	5665.1.1 = {
@@ -1739,8 +1753,11 @@ lineofanarion39 = {
 
 	father = lineofanarion38
 
-	
+	trait = brave
+    trait = trusting
+    trait = wrathful
 
+    trait = education_martial_3
 
 	trait = blood_of_numenor_7
 	5717.1.1 = {
@@ -1765,8 +1782,11 @@ lineofanarion40 = {
 
 	father = lineofanarion39
 
-	
+	trait = diligent
+    trait = honest
+    trait = wrathful
 
+    trait = education_stewardship_2
 
 	trait = blood_of_numenor_6
 	5769.1.1 = {
@@ -1977,10 +1997,12 @@ lineofanarion46 = {
 	5901.1.1 = { # Of age with Prince Artamir and fast friends
 		birth = yes
 		effect = {
-			learn_language = language_sindarin	
+			learn_language = language_sindarin
 			learn_language = language_quenya
-		}	
-        set_relation_friend = character:lineofanarion42		
+		}
+        effect = {	
+            set_relation_friend = character:lineofanarion42
+        }	
 	}
 
 	5977.7.13 = { # Slain by an arrow on the 13th of Cermie
@@ -27195,8 +27217,8 @@ lineminadir23 = {
 
 # A cadet formed when an Elder daughter of the family married the second son of the Duke of Eastfold. They ruled Halifirien for many years, eventaully taking the mantle of the Eastfold until the Rohirrim arived. Then, the line unlanded for a while, until one of it's sons married back into the main line around 2800, as it had died out. 
 
-linebenrodir1 = { # Son of Minastir, married a Nothman woman and disinherited. 
-    name = Benrodir
+linebenrodir1 = { # Benrodir I, Son of Minastir, married a Nothman woman and was disinherited. 
+    name = Tarminas
 	dna = benrodir_i_dna
 
     dynasty = dynasty_anarion
@@ -27213,11 +27235,11 @@ linebenrodir1 = { # Son of Minastir, married a Nothman woman and disinherited.
 
 	trait = intellect_good_2
 
-    diplomacy = 18
-    martial = 16
-    stewardship = 15
+    diplomacy = 12
+    martial = 8
+    stewardship = 12
     intrigue = 6
-    learning = 12
+    learning = 10
     prowess = 14
 
     trait = education_stewardship_4
@@ -27231,9 +27253,13 @@ linebenrodir1 = { # Son of Minastir, married a Nothman woman and disinherited.
 
     5675.6.1 = {
         add_spouse = linebenrodir2
-		set_relation_soulmate = character:linebenrodir2
+        effect = {
+		    set_relation_soulmate = character:linebenrodir2
+        }
+
 		dynasty = dynasty_benrodir
 		trait = disinherited
+        name = Benrodir # Renames himself Benrodir 'one without nobilty' as an insult to his father. 
     }
 
     5836.9.15 = { #218
@@ -27241,7 +27267,7 @@ linebenrodir1 = { # Son of Minastir, married a Nothman woman and disinherited.
     }
 }
 
-linebenrodir2 = {
+linebenrodir2 = { # Daughter of one of the King's captains, among the northmen who came to Gondor with Eldacar. 
     name = Mirilas
     female = yes
 
@@ -48604,8 +48630,8 @@ linetelemnarion14 = {
 	5444.1.1={
 		birth = yes			
 	}
-	5421.5.11 = {
-		death = { death_reason = death_hunting_accident } #Suspicous
+	5481.5.11 = {
+		death = { death_reason = death_hunting_accident } #Suspicious circumstances
 	}
 }
 
@@ -76851,6 +76877,7 @@ linecaranor9 = {
     name = Eliane
     female = yes
 
+    dynasty_house = house_caranor
     religion = faith_edain
     culture = gondorian
 
@@ -159741,7 +159768,10 @@ lineofborothor1 = {
     4021.6.20 = {
         name = Borothor
         add_spouse = lineofborothor2
-        set_relation_soulmate = character:lineofborothor2
+        effect = { 
+            set_relation_soulmate = character:lineofborothor2
+        }
+
     }
 
     4080.1.6 = {
@@ -175387,7 +175417,9 @@ lineofvakuankka38 = {
 
     5395.6.10 = {
         add_spouse = lineofroquendil18daughter
-        set_relation_soulmate = character:lineofroquendil18daughter
+        effect = {
+            set_relation_soulmate = character:lineofroquendil18daughter
+        }
     }
 
     5554.11.16 = {
@@ -274236,6 +274268,7 @@ lineofearendurwife = {
     name = Nessanie
     female = yes
 
+    dynasty = dynasty_lagrionath
     religion = faith_edain
     culture = umbaredain
 
@@ -275015,7 +275048,9 @@ lineofelured1 = {
     5525.12.1 = {
         dynasty_house = house_eluredion
         add_spouse = lineoforontur39
-        set_relation_soulmate = character:lineoforontur39
+        effect = {
+            set_relation_soulmate = character:lineoforontur39
+        }
     }
 
     5667.4.1 = {
