@@ -1865,6 +1865,7 @@ lineofanarion42 = {
 	culture = gondorian
 
 	father = lineofanarion41
+    mother = lineofanarion41wife
 
 	trait = brave
     trait = gregarious
@@ -1894,6 +1895,7 @@ lineofanarion43 = { # Prince Faramir the Fool
 	culture = gondorian
 
 	father = lineofanarion41
+    mother = lineofanarion41wife
 
 	trait = lazy
     trait = ambitious
@@ -1925,6 +1927,7 @@ lineofanarion44 = {
 	female = yes
 
 	father = lineofanarion41
+    mother = lineofanarion41wife
 
     trait = diligent
     trait = honest
