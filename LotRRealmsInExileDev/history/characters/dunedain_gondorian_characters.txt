@@ -21687,28 +21687,24 @@ linelamedon1 = {
     trait = education_diplomacy_3
 
 	trait = blood_of_numenor_5
-	5580.1.1 = {
+	5590.1.1 = {
 		birth = yes
 		effect = {
 			learn_language = language_sindarin
 		}			
 	}
-	5821.1.1 = {
+	5770.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }	
-
 linelamedon2 = {
-	name = Ectel_e_eion # Lord of Lamedon
+	name = Malros # Lord of Lamedon
 
 	dynasty = dynasty_lamedon
 	religion = faith_edain
 	culture = orodbedhrim
 
 	father = linelamedon1
-
-	
-
 
 	trait = blood_of_numenor_5
 	5634.1.1 = {
@@ -21717,24 +21713,43 @@ linelamedon2 = {
 			learn_language = language_sindarin
 		}			
 	}
-	5855.1.1 = {
+	5815.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-
-linelamedon2brother = {
-	name = Elendur
+linelamedon3 = {
+	name = Galmir # Lord of Lamedon
 
 	dynasty = dynasty_lamedon
 	religion = faith_edain
 	culture = orodbedhrim
 
-	father = linelamedon1
+	father = linelamedon2
+
+	trait = blood_of_numenor_5
+	5675.1.1 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}			
+	}
+	5856.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}	
+linelamedon3brother = {
+	name = Elenbor
+
+	dynasty = dynasty_lamedon
+	religion = faith_edain
+	culture = orodbedhrim
+
+	father = linelamedon2
 
 	trait = blood_of_numenor_5
 	trait = physique_good_1
 	
-	5658.5.8 = {
+	5708.5.8 = {
 		birth = yes
 		effect = {
 			learn_language = language_sindarin
@@ -21745,31 +21760,7 @@ linelamedon2brother = {
 	}
 }
 
-linelamedon3 = {
-	name = Gelmir # Lord of Lamedon
-
-	dynasty = dynasty_lamedon
-	religion = faith_edain
-	culture = orodbedhrim
-
-	father = linelamedon2
-
-	
-
-
-	trait = blood_of_numenor_5
-	5688.1.1 = {
-		birth = yes
-		effect = {
-			learn_language = language_sindarin
-		}			
-	}
-	5923.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}	
-
-linelamedon4 = {
+linelamedon4 = { # ALRAIN NOTE Give him Belfalathron Mother
 	name = Inzilurud # Lord of Lamedon
 
 	dynasty = dynasty_lamedon
@@ -21778,22 +21769,19 @@ linelamedon4 = {
 
 	father = linelamedon3
 
-	
-
-
 	trait = blood_of_numenor_5
-	5734.1.1 = {
+    trait = chaste # You Lazy!
+	5720.1.1 = {
 		birth = yes
 		effect = {
 			learn_language = language_sindarin
 		}			
 	}
-	5975.1.1 = {
+	5901.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }	
-
-linelamedon5 = {
+linelamedon5 = { # ALRAIN NOTE Possibly another Belfalathron mother, but I want to namechange. Inzilurud is much more unique than Abarzagar
 	name = Abarzagar # Lord of Lamedon
 
 	dynasty = dynasty_lamedon
@@ -21802,9 +21790,6 @@ linelamedon5 = {
 
 	father = linelamedon4
 
-	
-
-
 	trait = blood_of_numenor_5
 	5795.1.1 = {
 		birth = yes
@@ -21812,22 +21797,18 @@ linelamedon5 = {
 			learn_language = language_sindarin
 		}			
 	}
-	6034.1.1 = {
+	5964.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }	
-
 linelamedon6 = {
-	name = Aramir # Lord of Lamedon
+	name = Borondir # Lord of Lamedon
 
 	dynasty = dynasty_lamedon
 	religion = faith_edain
 	culture = orodbedhrim
 
 	father = linelamedon5
-
-	
-
 
 	trait = blood_of_numenor_5
 	5838.1.1 = {
@@ -21836,22 +21817,18 @@ linelamedon6 = {
 			learn_language = language_sindarin
 		}			
 	}
-	6076.1.1 = {
+	6018.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }	
-
 linelamedon7 = {
-	name = Nolondil # Lord of Lamedon
+	name = Angdan # Lord of Lamedon
 
 	dynasty = dynasty_lamedon
 	religion = faith_edain
 	culture = orodbedhrim
 
 	father = linelamedon6
-
-	
-
 
 	trait = blood_of_numenor_5
 	5874.1.1 = {
@@ -21860,22 +21837,18 @@ linelamedon7 = {
 			learn_language = language_sindarin
 		}			
 	}
-	6094.1.1 = {
+	6050.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
-}	
-
+}
 linelamedon8 = {
-	name = Vorondur # Lord of Lamedon
+	name = Borondir # Lord of Lamedon
 
 	dynasty = dynasty_lamedon
 	religion = faith_edain
 	culture = orodbedhrim
 
 	father = linelamedon7
-
-	
-
 
 	trait = blood_of_numenor_5
 	5916.1.1 = {
@@ -21884,13 +21857,12 @@ linelamedon8 = {
 			learn_language = language_sindarin
 		}			
 	}
-	6144.1.1 = {
+	6096.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }	
-
-linelamedon9 = {
-	name = Vorondur # Lord of Lamedon
+linelamedon8a1 = {
+	name = Angthor # Lord of Lamedon
 
 	dynasty = dynasty_lamedon
 	religion = faith_edain
@@ -21898,8 +21870,28 @@ linelamedon9 = {
 
 	father = linelamedon8
 
-	
+	trait = blood_of_numenor_5
+    trait = arrogant
+    trait = wrathful
+    trait = diligent
+	5957.1.1 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}			
+	}
+	6120.1.1 = {
+		death = { death_reason = death_heart_attack }
+	}
+}	
+linelamedon9 = {
+	name = Boronwe # Lord of Lamedon
 
+	dynasty = dynasty_lamedon
+	religion = faith_edain
+	culture = orodbedhrim
+
+	father = linelamedon8a1
 
 	trait = blood_of_numenor_4
 	6003.1.1 = {
@@ -21908,13 +21900,12 @@ linelamedon9 = {
 			learn_language = language_sindarin
 		}			
 	}
-	6227.1.1 = {
+	6161.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }	
-
-linelamedon10 = {
-	name = Boromir # Lord of Lamedon
+linelamedon9a1 = {
+	name = Maldor # Lord of Lamedon
 
 	dynasty = dynasty_lamedon
 	religion = faith_edain
@@ -21922,23 +21913,40 @@ linelamedon10 = {
 
 	father = linelamedon9
 
-	
+	trait = blood_of_numenor_4
+	6050.1.1 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}			
+	}
+	6207.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+linelamedon10 = {
+	name = Boromir # Lord of Lamedon
 
+	dynasty = dynasty_lamedon
+	religion = faith_edain
+	culture = orodbedhrim
+
+	father = linelamedon9a1
 
 	trait = blood_of_numenor_4
+    trait = chaste # Lazy Again!
 	6097.1.1 = {
 		birth = yes
 		effect = {
 			learn_language = language_sindarin
 		}			
 	}
-	6295.1.1 = {
+	6255.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
-}	
-
+}
 linelamedon11 = {
-	name = Talion # Lord of Lamedon
+	name = Maelin # Lord of Lamedon
 
 	dynasty = dynasty_lamedon
 	religion = faith_edain
@@ -21946,17 +21954,14 @@ linelamedon11 = {
 
 	father = linelamedon10
 
-	
-
-
 	trait = blood_of_numenor_4
-	6151.1.1 = {
+	6145.1.1 = {
 		birth = yes
 		effect = {
 			learn_language = language_sindarin
 		}			
 	}
-	6344.1.1 = {
+	6305.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }	
