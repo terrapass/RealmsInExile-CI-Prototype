@@ -275223,10 +275223,10 @@ lineoflestor5 = { #Ileth, daughter of Lestor from LoTR: Gollum
 	}
 }
 
-#Darimon - flavour character from LotR: Gollum
+#Daerimon - flavour character from LotR: Gollum
 
-lineofdarimon1 = {
-    name = Darimon
+lineofdaerimon1 = {
+    name = Daerimon
 
     religion = faith_edain
     culture = belfalathrim
