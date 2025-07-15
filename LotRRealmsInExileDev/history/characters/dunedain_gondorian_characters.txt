@@ -140960,10 +140960,10 @@ eldariondna = {
     }
 }
 
-luthiendna = {
+tindomereldna = {
     name = Taurwen 
 	female = yes
-	dna = luthien_princess_dna
+	dna = tindomerel_princess_dna
 
     religion = faith_edain
     culture = gondorian
@@ -140995,10 +140995,10 @@ luthiendna = {
     }
 }
 
-indisdna = {
+vanimeldedna = {
     name = Yavien 
 	female = yes
-	dna = indis_princess_dna
+	dna = vanimelde_princess_dna
 
     religion = faith_edain
     culture = gondorian
