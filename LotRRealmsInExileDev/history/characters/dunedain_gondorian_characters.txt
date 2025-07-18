@@ -145773,7 +145773,7 @@ linetulion1 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_7
 
     trait = humble
     trait = fickle
@@ -145792,11 +145792,11 @@ linetulion1 = {
         birth = yes
     }
 
-    5024.1.10 = {
+    5050.1.10 = {
         add_spouse = linetulion2
     }
 
-    5153.6.16 = {
+    5200.6.16 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -145810,7 +145810,7 @@ linetulion2 = {
 
     sexuality = bisexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_6
 
     trait = zealous
     trait = craven
@@ -145825,11 +145825,11 @@ linetulion2 = {
 
     trait = education_stewardship_2
 
-    5007.8.11 = {
+    5003.8.11 = {
         birth = yes
     }
 
-    5148.3.20 = {
+    5201.3.20 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -145846,7 +145846,7 @@ linetulion3 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_6
 
     trait = lazy
     trait = paranoid
@@ -145861,11 +145861,11 @@ linetulion3 = {
 
     trait = education_intrigue_2
 
-    5051.11.24 = {
+    5055.11.24 = {
         birth = yes
     }
 
-    5052.7.6 = {
+    5090.7.6 = {
         give_nickname = nick_the_glorious
         effect = {
             add_character_flag = {
@@ -145874,11 +145874,11 @@ linetulion3 = {
         }
     }
 
-    5071.7.2 = {
+    5105.7.2 = {
         add_spouse = linetulion4
     }
 
-    5162.10.3 = {
+    5262.10.3 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -145892,7 +145892,7 @@ linetulion4 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_6
 
     trait = humble
     trait = wrathful
@@ -145911,7 +145911,7 @@ linetulion4 = {
         birth = yes
     }
 
-    5185.8.20 = {
+    5250.8.20 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -145928,7 +145928,7 @@ linetulion5 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_6
 
     trait = lustful
     trait = just
@@ -145943,15 +145943,15 @@ linetulion5 = {
 
     trait = education_diplomacy_1
 
-    5087.1.24 = {
+    5110.1.24 = {
         birth = yes
     }
 
-    5111.7.4 = {
+    5160.7.4 = {
         add_spouse = linetulion6
     }
 
-    5205.2.28 = {
+    5310.2.28 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -145965,7 +145965,7 @@ linetulion6 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_6
 
     trait = gluttonous
     trait = vengeful
@@ -145980,11 +145980,11 @@ linetulion6 = {
 
     trait = education_diplomacy_3
 
-    5094.11.17 = {
+    5112.11.17 = {
         birth = yes
     }
 
-    5250.9.8 = {
+    5311.9.8 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -146001,7 +146001,7 @@ linetulion7 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_6
 
     trait = deceitful
     trait = compassionate
@@ -146016,15 +146016,15 @@ linetulion7 = {
 
     trait = education_diplomacy_1
 
-    5132.2.26 = {
+    5164.2.26 = {
         birth = yes
     }
 
-    5173.2.12 = {
+    5214.2.12 = {
         add_spouse = linetulion8
     }
 
-    5264.12.7 = {
+    5359.12.7 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -146038,7 +146038,7 @@ linetulion8 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_6
 
     trait = vengeful
     trait = shy
@@ -146053,11 +146053,11 @@ linetulion8 = {
 
     trait = education_stewardship_3
 
-    5156.1.24 = {
+    5163.1.24 = {
         birth = yes
     }
 
-    5299.9.27 = {
+    5357.9.27 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -146074,7 +146074,7 @@ linetulion9 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_5
 
     trait = gluttonous
     trait = gregarious
@@ -146089,16 +146089,16 @@ linetulion9 = {
 
     trait = education_learning_1
 
-    5180.2.23 = {
+    5220.2.23 = {
         birth = yes
     }
 
-    5204.3.23 = {
+    5270.3.23 = {
         add_spouse = linetulion10
     }
 
-    5282.2.26 = {
-        death = { death_reason = death_natural_causes }
+    5382.2.26 = {
+        death = { death_reason = death_accident }
     }
 }
 
@@ -146111,7 +146111,7 @@ linetulion10 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_5
 
     trait = trusting
     trait = calm
@@ -146126,11 +146126,11 @@ linetulion10 = {
 
     trait = education_diplomacy_3
 
-    5187.11.4 = {
+    5224.11.4 = {
         birth = yes
     }
 
-    5341.5.25 = {
+    5400.5.25 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -146147,7 +146147,7 @@ linetulion11 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_5
 
     trait = gregarious
     trait = ambitious
@@ -146162,11 +146162,11 @@ linetulion11 = {
 
     trait = education_intrigue_2
 
-    5215.6.9 = {
+    5280.6.9 = {
         birth = yes
     }
 
-    5384.3.5 = {
+    5460.3.5 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -146183,7 +146183,7 @@ linetulion12 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_5
 
     trait = arbitrary
     trait = diligent
@@ -146198,15 +146198,15 @@ linetulion12 = {
 
     trait = education_martial_2
 
-    5219.12.15 = {
+    5285.12.15 = {
         birth = yes
     }
 
-    5243.12.25 = {
+    5330.12.25 = {
         add_spouse = linetulion13
     }
 
-    5368.1.22 = {
+    5468.1.22 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -146220,7 +146220,7 @@ linetulion13 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_5
 
     trait = zealous
     trait = humble
@@ -146235,11 +146235,11 @@ linetulion13 = {
 
     trait = education_diplomacy_4
 
-    5226.9.5 = {
+    5288.9.5 = {
         birth = yes
     }
 
-    5378.8.1 = {
+    5469.8.1 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -146271,16 +146271,16 @@ linetulion14 = {
 
     trait = education_diplomacy_3
 
-    5257.10.6 = {
+    5340.10.6 = {
         birth = yes
     }
 
-    5294.8.5 = {
+    5382.1.5 = {
         add_spouse = linetulion15
     }
 
-    5369.10.26 = {
-        death = { death_reason = death_fall }
+    5519.10.26 = {
+        death = { death_reason = death_natural_causes }
     }
 }
 
@@ -146293,11 +146293,11 @@ linetulion15 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_5
 
     trait = arbitrary
     trait = impatient
-    trait = sadistic
+    trait = honest
 
     diplomacy = 5
     martial = 6
@@ -146308,11 +146308,11 @@ linetulion15 = {
 
     trait = education_intrigue_3
 
-    5277.10.28 = {
+    5341.10.28 = {
         birth = yes
     }
 
-    5376.4.17 = {
+    5520.4.17 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -146329,7 +146329,7 @@ linetulion16 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_5
 
     trait = shy
     trait = ambitious
@@ -146344,15 +146344,15 @@ linetulion16 = {
 
     trait = education_martial_3
 
-    5220.9.4 = {
+    5382.9.4 = {
         birth = yes
     }
 
-    5244.5.28 = {
+    5430.5.28 = {
         add_spouse = linetulion17
     }
 
-    5379.7.10 = {
+    5560.7.10 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -146366,7 +146366,7 @@ linetulion17 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_5
 
     trait = zealous
     trait = gregarious
@@ -146381,11 +146381,11 @@ linetulion17 = {
 
     trait = education_intrigue_2
 
-    5227.6.15 = {
+    5381.6.15 = {
         birth = yes
     }
 
-    5383.5.27 = {
+    5559.5.27 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -146402,7 +146402,7 @@ linetulion18 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_5
 
     trait = vengeful
     trait = gregarious
@@ -146417,16 +146417,16 @@ linetulion18 = {
 
     trait = education_stewardship_3
 
-    5255.2.6 = {
+    5435.2.6 = {
         birth = yes
     }
 
-    5289.3.21 = {
+    5481.3.21 = {
         add_spouse = linetulion19
     }
 
-    5340.5.20 = {
-        death = { death_reason = death_smallpox }
+    5610.5.20 = {
+        death = { death_reason = death_natural_causes }
     }
 }
 
@@ -146439,7 +146439,7 @@ linetulion19 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_5
 
     trait = cynical
     trait = temperate
@@ -146454,16 +146454,16 @@ linetulion19 = {
 
     trait = education_diplomacy_4
 
-    5272.10.1 = {
+    5436.10.1 = {
         birth = yes
     }
 
-    5412.7.22 = {
+    5610.7.22 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-linetulion20 = { # Angmar start date ruler
+linetulion20 = {
     name = Sulimar
 
     dynasty = dynasty_tulionath
@@ -146475,7 +146475,7 @@ linetulion20 = { # Angmar start date ruler
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_5
 
     trait = impatient
     trait = lazy
@@ -146490,15 +146490,15 @@ linetulion20 = { # Angmar start date ruler
 
     trait = education_diplomacy_1
 
-    5259.10.20 = {
+    5483.10.20 = {
         birth = yes
     }
 
-    5279.11.11 = {
+    5530.11.11 = {
         add_spouse = linetulion21
     }
 
-    5417.7.8 = {
+    5660.7.8 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -146527,11 +146527,11 @@ linetulion21 = {
 
     trait = education_intrigue_4
 
-    5262.1.21 = {
+    5484.1.21 = {
         birth = yes
     }
 
-    5414.11.11 = {
+    5660.11.11 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -146548,7 +146548,7 @@ linetulion22 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_4
 
     trait = greedy
     trait = patient
@@ -146563,16 +146563,16 @@ linetulion22 = {
 
     trait = education_diplomacy_1
 
-    5264.10.15 = {
+    5550.10.15 = {
         birth = yes
     }
 
-    5312.6.24 = {
+    5600.6.24 = {
         add_spouse = linetulion23
     }
 
-    5398.4.21 = {
-        death = { death_reason = death_natural_causes }
+    5669.4.21 = {
+        death = { death_reason = death_bubonic_plague }
     }
 }
 
@@ -146585,7 +146585,7 @@ linetulion23 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_4
 
     trait = stubborn
     trait = sadistic
@@ -146600,12 +146600,12 @@ linetulion23 = {
 
     trait = education_martial_3
 
-    5295.3.6 = {
+    5550.3.6 = {
         birth = yes
     }
 
-    5424.8.18 = {
-        death = { death_reason = death_natural_causes }
+    5669.4.21 = {
+        death = { death_reason = death_bubonic_plague }
     }
 }
 
@@ -146616,8 +146616,8 @@ linetulion24 = {
     religion = faith_edain
     culture = gondorian
 
-    father = linetulion20
-    mother = linetulion21
+    father = linetulion22
+    mother = linetulion23
 
     sexuality = heterosexual
 
@@ -146634,14 +146634,14 @@ linetulion24 = {
     learning = 2
     prowess = 9
 
-    trait = education_martial_prowess_2
+    trait = education_martial_4
 
-    5321.11.29 = {
+    5610.11.29 = {
         birth = yes
     }
 
-    5461.12.4 = {
-        death = { death_reason = death_natural_causes }
+    5669.4.21 = {
+        death = { death_reason = death_bubonic_plague }
     }
 }
 
@@ -146656,7 +146656,7 @@ linehandarod1 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_7
 
     trait = brave
     trait = lustful
@@ -146675,11 +146675,11 @@ linehandarod1 = {
         birth = yes
     }
 
-    4820.9.4 = {
+    4830.9.4 = {
         add_spouse = linehandarod2
     }
 
-    4907.5.15 = {
+    5000.5.15 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -146693,7 +146693,7 @@ linehandarod2 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_7
 
     trait = ambitious
     trait = greedy
@@ -146708,11 +146708,11 @@ linehandarod2 = {
 
     trait = education_diplomacy_4
 
-    4803.11.28 = {
+    4780.11.28 = {
         birth = yes
     }
 
-    4901.7.18 = {
+    5000.7.18 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -146729,7 +146729,7 @@ linehandarod3 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_7
 
     trait = lazy
     trait = content
@@ -146748,11 +146748,11 @@ linehandarod3 = {
         birth = yes
     }
 
-    4888.11.28 = {
+    4900.11.28 = {
         add_spouse = linehandarod4
     }
 
-    5024.7.8 = {
+    5060.7.8 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -146766,7 +146766,7 @@ linehandarod4 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_6
 
     trait = generous
     trait = stubborn
@@ -146781,11 +146781,11 @@ linehandarod4 = {
 
     trait = education_learning_4
 
-    4871.8.25 = {
+    4850.8.25 = {
         birth = yes
     }
 
-    4978.9.22 = {
+    5050.9.22 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -146802,7 +146802,7 @@ linehandarod5 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_7
 
     trait = humble
     trait = cynical
@@ -146821,11 +146821,11 @@ linehandarod5 = {
         birth = yes
     }
 
-    4942.4.17 = {
+    4967.4.17 = {
         add_spouse = linehandarod6
     }
 
-    5033.8.14 = {
+    5125.8.14 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -146839,7 +146839,7 @@ linehandarod6 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_6
 
     trait = calm
     trait = cynical
@@ -146854,11 +146854,11 @@ linehandarod6 = {
 
     trait = education_diplomacy_3
 
-    4925.5.8 = {
+    4918.5.8 = {
         birth = yes
     }
 
-    5100.8.21 = {
+    5118.8.21 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -146875,7 +146875,7 @@ linehandarod7 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_7
 
     trait = stubborn
     trait = generous
@@ -146890,15 +146890,15 @@ linehandarod7 = {
 
     trait = education_stewardship_3
 
-    4950.5.13 = {
+    4972.5.13 = {
         birth = yes
     }
 
-    4979.10.12 = {
+    5025.10.12 = {
         add_spouse = linehandarod8
     }
 
-    5064.12.20 = {
+    5184.12.20 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -146912,7 +146912,7 @@ linehandarod8 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_6
 
     trait = temperate
     trait = cynical
@@ -146927,11 +146927,11 @@ linehandarod8 = {
 
     trait = education_learning_4
 
-    4962.6.13 = {
+    4973.6.13 = {
         birth = yes
     }
 
-    5141.12.15 = {
+    5178.12.15 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -146948,7 +146948,7 @@ linehandarod9 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_6
 
     trait = lustful
     trait = lazy
@@ -146963,15 +146963,15 @@ linehandarod9 = {
 
     trait = education_diplomacy_3
 
-    5005.2.1 = {
+    5030.2.1 = {
         birth = yes
     }
 
-    5054.2.1 = {
+    5084.2.1 = {
         add_spouse = linehandarod10
     }
 
-    5185.1.5 = {
+    5240.2.5 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -146985,7 +146985,7 @@ linehandarod10 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_6
 
     trait = humble
     trait = forgiving
@@ -147000,11 +147000,11 @@ linehandarod10 = {
 
     trait = education_diplomacy_4
 
-    5037.7.25 = {
+    5032.7.25 = {
         birth = yes
     }
 
-    5152.2.4 = {
+    5240.2.4 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -147021,7 +147021,7 @@ linehandarod11 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_6
 
     trait = trusting
     trait = sadistic
@@ -147036,15 +147036,15 @@ linehandarod11 = {
 
     trait = education_diplomacy_2
 
-    5068.7.4 = {
+    5090.7.4 = {
         birth = yes
     }
 
-    5086.1.22 = {
+    5140.8.22 = {
         add_spouse = linehandarod12
     }
 
-    5196.11.18 = {
+    5297.11.18 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -147058,7 +147058,7 @@ linehandarod12 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_5
 
     trait = fickle
     trait = trusting
@@ -147073,11 +147073,11 @@ linehandarod12 = {
 
     trait = education_martial_4
 
-    5069.2.7 = {
+    5100.2.7 = {
         birth = yes
     }
 
-    5165.1.14 = {
+    5289.1.14 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -147094,7 +147094,7 @@ linehandarod13 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_6
 
     trait = humble
     trait = temperate
@@ -147109,11 +147109,11 @@ linehandarod13 = {
 
     trait = education_stewardship_2
 
-    5117.11.18 = {
+    5145.11.18 = {
         birth = yes
     }
 
-    5118.11.28 = {
+    5175.11.28 = {
         give_nickname = nick_the_patient
         effect = {
             add_character_flag = {
@@ -147122,11 +147122,11 @@ linehandarod13 = {
         }
     }
 
-    5163.9.12 = {
+    5195.9.12 = {
         add_spouse = linehandarod14
     }
 
-    5208.1.15 = {
+    5350.1.15 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -147140,7 +147140,7 @@ linehandarod14 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_6
 
     trait = arrogant
     trait = lazy
@@ -147159,7 +147159,7 @@ linehandarod14 = {
         birth = yes
     }
 
-    5317.7.20 = {
+    5346.7.20 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -147191,16 +147191,16 @@ linehandarod15 = {
 
     trait = education_stewardship_3
 
-    5190.11.4 = {
+    5200.11.4 = {
         birth = yes
     }
 
-    5238.10.24 = {
+    5260.10.24 = {
         add_spouse = linehandarod16
     }
 
-    5305.12.25 = {
-        death = { death_reason = death_natural_causes }
+    5360.12.25 = {
+        death = { death_reason = death_ill }
     }
 }
 
@@ -147213,7 +147213,7 @@ linehandarod16 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_5
 
     trait = generous
     trait = calm
@@ -147228,11 +147228,11 @@ linehandarod16 = {
 
     trait = education_learning_3
 
-    5221.7.5 = {
+    5218.7.5 = {
         birth = yes
     }
 
-    5404.2.10 = {
+    5400.2.10 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -147250,7 +147250,7 @@ linehandarod17 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_6
 
     trait = calm
     trait = diligent
@@ -147265,11 +147265,11 @@ linehandarod17 = {
 
     trait = education_diplomacy_3
 
-    5247.5.10 = {
+    5270.5.10 = {
         birth = yes
     }
 
-    5431.6.24 = {
+    5472.6.24 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -147287,7 +147287,7 @@ linehandarod18 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_6
 
     trait = callous
     trait = just
@@ -147302,11 +147302,11 @@ linehandarod18 = {
 
     trait = education_martial_3
 
-    5250.5.24 = {
+    5275.5.24 = {
         birth = yes
     }
 
-    5385.1.9 = {
+    5476.1.9 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -147323,7 +147323,7 @@ linehandarod19 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_6
 
     trait = stubborn
     trait = generous
@@ -147338,15 +147338,15 @@ linehandarod19 = {
 
     trait = education_diplomacy_3
 
-    5255.9.6 = {
+    5280.9.6 = {
         birth = yes
     }
 
-    5283.6.28 = {
+    5330.6.28 = {
         add_spouse = linehandarod20
     }
 
-    5341.5.28 = {
+    5470.1.1 = {
         death = { death_reason = death_battle }
     }
 }
@@ -147360,7 +147360,7 @@ linehandarod20 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_6
 
     trait = gluttonous
     trait = impatient
@@ -147375,16 +147375,16 @@ linehandarod20 = {
 
     trait = education_intrigue_2
 
-    5266.7.10 = {
+    5282.7.10 = {
         birth = yes
     }
 
-    5368.5.9 = {
+    5485.5.9 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-linehandarod21 = { # Angmar start date ruler
+linehandarod21 = {
     name = Hanmir
 
     dynasty = dynasty_handarod
@@ -147396,7 +147396,7 @@ linehandarod21 = { # Angmar start date ruler
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_5
 
     trait = diligent
     trait = impatient
@@ -147411,16 +147411,16 @@ linehandarod21 = { # Angmar start date ruler
 
     trait = education_stewardship_2
 
-    5313.10.12 = {
+    5340.10.12 = {
         birth = yes
     }
 
-    5360.11.24 = {
+    5390.11.24 = {
         add_spouse = linehandarod22
     }
 
-    5490.10.1 = {
-        death = { death_reason = death_natural_causes }
+    5480.8.22 = {
+        death = { death_reason = death_battle killer = lineofvakuankka38 }
     }
 }
 
@@ -147433,7 +147433,7 @@ linehandarod22 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_4
+    trait = blood_of_numenor_5
 
     trait = humble
     trait = just
@@ -147452,7 +147452,7 @@ linehandarod22 = {
         birth = yes
     }
 
-    5475.5.21 = {
+    5550.5.21 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -174067,6 +174067,87 @@ lineofbeleg36 = {
 ### Line of Vakuankka ###
 #########################
 #Lords of Tir Anduin, Later Lords of Sarlond
+
+lineofvakuankka0 = {
+    name = Sommor
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = beauty_good_2
+    trait = intellect_good_2
+
+    trait = diligent
+    trait = just
+    trait = content
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 11
+    prowess = 9
+
+    trait = education_learning_3
+
+    3800.1.1 = {
+        birth = yes
+        effect = {
+            learn_language = language_sindarin
+        }
+    }
+
+    3870.1.1 = {
+        add_spouse = lineofvakuankka0wife
+    }
+
+    3905.1.1 = {
+        death = { death_reason = death_execution }
+    }
+}
+
+lineofvakuankka0wife = {
+    name = Lumiel
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = beauty_good_3
+
+    trait = compassionate
+    trait = just
+    trait = chaste
+
+    diplomacy = 10
+    martial = 7
+    stewardship = 7
+    intrigue = 5
+    learning = 11
+    prowess = 9
+
+    trait = education_learning_3
+
+    3802.5.1 = {
+        birth = yes
+        effect = {
+            learn_language = language_sindarin
+        }
+    }
+
+    3905.1.1 = {
+        death = { death_reason = death_execution }
+    }
+}
+
 lineofvakuankka1 = {
     name = Sommorwen
     female = yes
@@ -174074,6 +174155,9 @@ lineofvakuankka1 = {
     dynasty = dynasty_sommorionath
     religion = faith_numenorean
     culture = numenorean
+
+    father = lineofvakuankka0
+    mother = lineofvakuankka0wife
 
     sexuality = heterosexual
 
@@ -174133,7 +174217,7 @@ lineofvakuankka2 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_9
+    trait = blood_of_numenor_10
 
     trait = humble
     trait = fickle
