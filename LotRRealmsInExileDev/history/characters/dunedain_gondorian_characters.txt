@@ -141617,7 +141617,7 @@ dorhunen16 = {
 	}
 }
 
-aicawe = {
+aicawe = { # https://notionclubarchives.fandom.com/wiki/Aicaw%C3%AB 
 	name = Aicaw_E_E
 	dynasty = dynasty_aicawion
 	religion = faith_edain
