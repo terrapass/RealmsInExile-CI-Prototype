@@ -264633,10 +264633,10 @@ lineofmethur11 = {
 
 # FoA Lords of Thoron
 
-lineofnelyst1 = {
+lineofmindonnel1 = {
     name = Caramir
 
-    dynasty = dynasty_nelyst
+    dynasty = dynasty_mindonnel
     religion = faith_edain
     culture = gondorian
 
