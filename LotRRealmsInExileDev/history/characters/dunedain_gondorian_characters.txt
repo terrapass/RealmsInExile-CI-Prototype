@@ -163902,7 +163902,7 @@ lineofhirgon12 = {
 
     trait = education_diplomacy_2
 
-    5085.9.19 = {
+    5100.9.19 = {
         birth = yes
     }
 
@@ -163910,7 +163910,52 @@ lineofhirgon12 = {
         add_spouse = lineofhirgon13
     }
 
+    trait = twin
+
     5295.2.1 = {
+        death = { death_reason = death_accident }
+    }
+}
+
+lineofhirgon12sister = {
+    name = Lumiel
+    female = yes
+
+    dynasty = dynasty_hirgonionath
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofhirgon10
+    mother = lineofhirgon11
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = stubborn
+    trait = wrathful
+    trait = humble
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = twin
+
+    trait = education_diplomacy_2
+
+    5100.9.19 = {
+        birth = yes
+    }
+
+    5150.7.5 = {
+        add_spouse = lineofhirgon13
+    }
+
+    5315.2.1 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -173320,6 +173365,43 @@ lineofbeleg18 = {
     }
 }
 
+lineofbeleg19sister = {
+    name = Tiliel
+    female = yes
+
+    dynasty = dynasty_belegionath
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofbeleg17
+    mother = lineofbeleg18
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = chaste
+    trait = shy
+    trait = brave
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 2
+    intrigue = 2
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_3
+
+    5190.6.2 = {
+        birth = yes
+    }
+
+    5372.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
 lineofbeleg19 = {
     name = Tinnudir
 
@@ -175323,8 +175405,10 @@ lineofvakuankka36 = {
     trait = vengeful
     trait = ambitious
 
+    trait = twin
+
     diplomacy = 2
-    martial = 5
+    martial = 8
     stewardship = 5
     intrigue = 5
     learning = 5
@@ -175342,6 +175426,84 @@ lineofvakuankka36 = {
 
     5382.1.9 = {
         death = { death_reason = death_training_accident }
+    }
+}
+
+lineofvakuankka36sister = {
+    name = Sommorwen
+    female = yes
+
+    dynasty = dynasty_sommorionath
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofvakuankka34
+    mother = lineofvakuankka35
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = beauty_good_1
+
+    trait = content
+    trait = patient
+    trait = diligent
+
+    trait = twin
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 3
+
+    trait = education_learning_3
+
+    5262.9.7 = {
+        birth = yes
+    }
+
+    5467.6.9 = {
+        death = { death_reason = death_natural_causesm }
+    }
+}
+
+
+lineofvakuankka36brother = {
+    name = Duinhir
+
+    dynasty = dynasty_sommorionath
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofvakuankka34
+    mother = lineofvakuankka35
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = generous
+    trait = just
+    trait = shy
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    5267.8.12 = {
+        birth = yes
+    }
+
+    5470.4.12 = {
+        death = { death_reason = death_natural_causes }
     }
 }
 
@@ -175502,11 +175664,11 @@ lineofvakuankka40 = {
     stewardship = 4
     intrigue = 2
     learning = 6
-    prowess = 3
+    prowess = 10
 
     trait = education_martial_4
 
-    5400.7.5 = {
+    5397.7.5 = {
         birth = yes
         effect = {
             learn_language = language_sindarin
@@ -175522,20 +175684,118 @@ lineofvakuankka40 = {
     }
 }
 
-lineofvakuankka41 = {
-    name = Gilraeth
-    female = yes
+lineofnedhroval1 = { # Founder of Sommorionath cadet house
+    name = Nedhroval
 
+    dynasty_house = house_nedhroval
     religion = faith_edain
     culture = caledhrim
 
+    father = lineofvakuankka38
+    mother = lineofroquendil18daughter
+
     sexuality = heterosexual
+
+    trait = beauty_good_1
+    trait = intellect_good_1
+    trait = physique_good_2
+
+    trait = blood_of_numenor_6
+
+    trait = brave
+    trait = shy
+    trait = humble
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 4
+    intrigue = 2
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_4
+
+    trait = twin
+
+    5400.1.20 = {
+        birth = yes
+        effect = {
+            learn_language = language_sindarin
+        }
+    }
+
+    5447.12.1 = {
+        add_spouse = lineofbregor35sister
+    }
+
+    5602.11.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofvakuankka38daughter = { # PESSALPH, HERE
+    name = Rovaleg
+    female = yes
+
+    dynasty = dynasty_sommorionath
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofvakuankka38
+    mother = lineofroquendil18daughter
+
+    sexuality = heterosexual
+    
+    trait = beauty_good_3
+    trait = intellect_good_1
 
     trait = blood_of_numenor_6
 
     trait = compassionate
+    trait = humble
+    trait = trusting
+
+    trait = twin
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 7
+    intrigue = 2
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    5400.1.20 = {
+        birth = yes
+        effect = {
+            learn_language = language_sindarin
+        }
+    }
+
+    5601.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofvakuankka41 = {
+    name = Fafinia
+    female = yes
+
+    dynasty_house = house_siling
+    religion = faith_northmen
+    culture = rhovannic
+
+    father = lineofaloito27
+    mother = lineofaloito28
+
+    sexuality = heterosexual
+
+    trait = compassionate
     trait = shy
     trait = temperate
+
+    trait = beauty_good_2
 
     diplomacy = 4
     martial = 6
@@ -175546,11 +175806,11 @@ lineofvakuankka41 = {
 
     trait = education_martial_2
 
-    5400.6.17 = {
+    5431.6.17 = {
         birth = yes
     }
 
-    5590.1.3 = {
+    5500.1.3 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -175569,9 +175829,59 @@ lineofvakuankka42 = {
 
     trait = blood_of_numenor_5
 
+    trait = beauty_good_1
+    trait = physique_good_3
+
+    disallow_random_traits = yes
+
     trait = just
     trait = content
-    trait = greedy
+    trait = brave
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_3
+
+    5450.1.2 = {
+        birth = yes
+    }
+
+    5505.8.20 = {
+        add_spouse = lineofvakuankka43
+    }
+
+    5640.4.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofvakuankka42sister = {
+    name = Rohiriel
+    female = yes
+
+    dynasty = dynasty_sommorionath
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofvakuankka40
+    mother = lineofvakuankka41
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = beauty_good_3
+
+    disallow_random_traits = yes
+
+    trait = honest
+    trait = trusting
+    trait = forgiving
 
     diplomacy = 8
     martial = 4
@@ -175582,12 +175892,8 @@ lineofvakuankka42 = {
 
     trait = education_diplomacy_3
 
-    5450.1.2 = {
+    5453.6.4 = {
         birth = yes
-    }
-
-    5505.8.20 = {
-        add_spouse = lineofvakuankka43
     }
 
     5640.4.19 = {
@@ -178179,56 +178485,136 @@ lineofvakuankka111 = {
     }
 }
 
-#########################
-### Line of Nedhroval ###
-#########################
-# Cadet House of Sommorionath
-lineofnedhroval1 = {
-    name = Nedhroval
+# Small Branch of Sommorionath
 
-    dynasty_house = house_nedhroval
+lineofvakuankka32brother1 = {
+    name = Handir
+
+    dynasty = dynasty_sommorionath
     religion = faith_edain
     culture = caledhrim
 
-    father = lineofvakuankka38
-    mother = lineofroquendil18daughter
-
-    sexuality = heterosexual
-
-    trait = beauty_good_1
-    trait = intellect_good_1
-    trait = physique_good_2
+    father = lineofvakuankka30
+    mother = lineofvakuankka31
 
     trait = blood_of_numenor_6
 
-    trait = brave
-    trait = shy
-    trait = humble
+    trait = compassionate
+    trait = just
+    trait = diligent
 
-    diplomacy = 5
-    martial = 9
-    stewardship = 4
-    intrigue = 2
-    learning = 6
-    prowess = 3
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 9
+    prowess = 10
 
-    trait = education_martial_4
+    trait = education_learning_2
 
-    5402.7.20 = {
+    5105.1.2 = {
         birth = yes
         effect = {
             learn_language = language_sindarin
         }
     }
 
-    5447.12.1 = {
-        add_spouse = lineofbregor35sister
+    5150.12.2 = {
+        add_spouse = lineofhirgon12sister
     }
 
-    5602.11.5 = {
+    5310.6.1 = {
         death = { death_reason = death_natural_causes }
     }
 }
+
+lineofvakuankka32brother2 = {
+    name = Haldad
+
+    dynasty = dynasty_sommorionath
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofvakuankka32brother1
+    mother = lineofhirgon12sister
+
+    trait = blood_of_numenor_6
+
+    trait = chaste
+    trait = just
+    trait = shy
+
+    trait = beauty_good_1
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 9
+    prowess = 10
+
+    trait = education_learning_4
+
+    5175.7.4 = {
+        birth = yes
+        effect = {
+            learn_language = language_sindarin
+        }
+    }
+
+    5230.12.24 = {
+        add_spouse = lineofbeleg19sister
+    }
+
+    5378.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofvakuankka32brother3 = {
+    name = Rothinel
+    female = yes
+
+    dynasty = dynasty_sommorionath
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofvakuankka32brother2
+    mother = lineofbeleg19sister
+
+    trait = blood_of_numenor_6
+
+    trait = forgiving
+    trait = compassionate
+    trait = trusting
+
+    trait = beauty_good_2
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 7
+    prowess = 10
+
+    trait = education_diplomacy_4
+
+    5275.1.20 = {
+        birth = yes
+        effect = {
+            learn_language = language_sindarin
+        }
+    }
+
+    5464.6.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+#########################
+### Line of Nedhroval ###
+#########################
+# Cadet House of Sommorionath
 
 lineofnedhroval2 = {
     name = Guilin
