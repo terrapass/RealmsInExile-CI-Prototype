@@ -263186,6 +263186,8 @@ lineoftalathor1 = {
     religion = faith_edain
     culture = gondorian
 
+    sexuality = heterosexual
+
     trait = brave
     trait = just
     trait = trusting
@@ -263654,6 +263656,8 @@ lineofyrceithar1 = {
 
     religion = faith_edain
     culture = gondorian
+
+    sexuality = heterosexual
 
     trait = brave
     trait = callous
@@ -264189,6 +264193,44 @@ lineofyrceithar15 = {
     }
 }
 
+# FoA Lords of Dor Rhúnen
+
+lineofathanc1 = {
+    name = Valandur
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = brave
+    trait = patient
+    trait = stubborn
+
+    trait = education_martial_4
+    trait = education_martial_prowess_3
+    trait = cautious_leader
+    trait = intellect_good_1
+
+    7000.4.29 = {
+        birth = yes
+    }
+
+    7033.1.1 = {
+        employer = linesteward40
+    }
+
+    7054.3.25 = {
+        dynasty = dynasty_athanc
+    }
+
+    7068.5.13 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
 # FoA Lords of Dagorlad and Morannon
 
 lineofmethur1 = {
@@ -264196,6 +264238,8 @@ lineofmethur1 = {
 
     religion = faith_edain
     culture = gondorian
+
+    sexuality = heterosexual
 
     trait = brave
     trait = gregarious
@@ -264589,34 +264633,33 @@ lineofmethur11 = {
 
 # FoA Lords of Thoron
 
-lineofathanc1 = {
-    name = Valandur
+lineofnelyst1 = {
+    name = Caramir
 
+    dynasty = dynasty_nelyst
     religion = faith_edain
     culture = gondorian
 
-    trait = brave
+    sexuality = heterosexual
+
     trait = patient
-    trait = stubborn
+    trait = eccentric
+    trait = content
+
+    diplomacy = 10
+    martial = 8
+    stewardship = 8
+    intrigue = 4
+    learning = 10
+    prowess = 10
 
     trait = education_martial_4
-    trait = education_martial_prowess_3
-    trait = cautious_leader
-    trait = intellect_good_1
 
-    7000.4.29 = {
+    7050.9.12 = {
         birth = yes
     }
 
-    7033.1.1 = {
-        employer = linesteward40
-    }
-
-    7054.3.25 = {
-        dynasty = dynasty_athanc
-    }
-
-    7068.5.13 = {
+    7140.9.10 = {
         death = {
             death_reason = death_natural_causes
         }
@@ -275013,8 +275056,6 @@ lineofearendur10 = {
         death = { death_reason = death_natural_causes }
     }
 }
-
-
 
 ####################
 ### Eluredionath ###
