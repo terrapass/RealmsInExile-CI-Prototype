@@ -147468,7 +147468,7 @@ lineorthonn1 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_3
+    trait = blood_of_numenor_7
 
     trait = vengeful
     trait = gregarious
@@ -147487,11 +147487,11 @@ lineorthonn1 = {
         birth = yes
     }
 
-    4879.12.9 = {
+    4915.12.9 = {
         add_spouse = lineorthonn2
     }
 
-    4951.4.2 = {
+    5076.4.2 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -147505,7 +147505,7 @@ lineorthonn2 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_3
+    trait = blood_of_numenor_6
 
     trait = greedy
     trait = impatient
@@ -147524,7 +147524,7 @@ lineorthonn2 = {
         birth = yes
     }
 
-    5039.6.15 = {
+    5070.6.15 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -147541,7 +147541,7 @@ lineorthonn3 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_3
+    trait = blood_of_numenor_7
 
     trait = content
     trait = fickle
@@ -147556,15 +147556,15 @@ lineorthonn3 = {
 
     trait = education_diplomacy_3
 
-    4899.3.15 = {
+    4925.3.15 = {
         birth = yes
     }
 
-    4933.4.22 = {
+    4980.4.22 = {
         add_spouse = lineorthonn4
     }
 
-    5063.9.24 = {
+    5137.9.24 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -147578,7 +147578,7 @@ lineorthonn4 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_3
+    trait = blood_of_numenor_6
 
     trait = deceitful
     trait = arrogant
@@ -147593,11 +147593,11 @@ lineorthonn4 = {
 
     trait = education_diplomacy_3
 
-    4916.1.6 = {
+    4926.1.6 = {
         birth = yes
     }
 
-    5006.6.27 = {
+    5127.6.27 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -147614,7 +147614,7 @@ lineorthonn5 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_3
+    trait = blood_of_numenor_6
 
     trait = shy
     trait = deceitful
@@ -147629,15 +147629,15 @@ lineorthonn5 = {
 
     trait = education_martial_2
 
-    4965.4.12 = {
+    4986.4.12 = {
         birth = yes
     }
 
-    4992.5.19 = {
+    5035.5.19 = {
         add_spouse = lineorthonn6
     }
 
-    5081.6.5 = {
+    5195.6.5 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -147651,7 +147651,7 @@ lineorthonn6 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_3
+    trait = blood_of_numenor_6
 
     trait = content
     trait = vengeful
@@ -147666,11 +147666,11 @@ lineorthonn6 = {
 
     trait = education_diplomacy_2
 
-    4975.3.12 = {
+    4990.3.12 = {
         birth = yes
     }
 
-    5102.4.16 = {
+    5190.4.16 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -147687,7 +147687,7 @@ lineorthonn7 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_3
+    trait = blood_of_numenor_6
 
     trait = gregarious
     trait = impatient
@@ -147702,15 +147702,15 @@ lineorthonn7 = {
 
     trait = education_stewardship_2
 
-    5005.5.6 = {
+    5045.5.6 = {
         birth = yes
     }
 
-    5037.1.12 = {
+    5095.1.12 = {
         add_spouse = lineorthonn8
     }
 
-    5107.1.19 = {
+    5251.1.19 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -147724,7 +147724,7 @@ lineorthonn8 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_3
+    trait = blood_of_numenor_6
 
     trait = honest
     trait = arrogant
@@ -147739,11 +147739,11 @@ lineorthonn8 = {
 
     trait = education_learning_3
 
-    5020.7.3 = {
+    5048.7.3 = {
         birth = yes
     }
 
-    5181.3.26 = {
+    5250.3.26 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -147760,7 +147760,7 @@ lineorthonn9 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_3
+    trait = blood_of_numenor_6
 
     trait = ambitious
     trait = generous
@@ -147775,15 +147775,15 @@ lineorthonn9 = {
 
     trait = education_diplomacy_2
 
-    5053.4.23 = {
+    5100.4.23 = {
         birth = yes
     }
 
-    5094.4.28 = {
+    5150.4.28 = {
         add_spouse = lineorthonn10
     }
 
-    5145.3.2 = {
+    5304.3.2 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -147797,7 +147797,7 @@ lineorthonn10 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_3
+    trait = blood_of_numenor_6
 
     trait = paranoid
     trait = cynical
@@ -147812,11 +147812,11 @@ lineorthonn10 = {
 
     trait = education_learning_2
 
-    5077.6.27 = {
+    5103.6.27 = {
         birth = yes
     }
 
-    5170.1.11 = {
+    5300.1.11 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -147833,7 +147833,7 @@ lineorthonn11 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_3
+    trait = blood_of_numenor_6
 
     trait = deceitful
     trait = arrogant
@@ -147848,15 +147848,15 @@ lineorthonn11 = {
 
     trait = education_stewardship_4
 
-    5103.9.9 = {
+    5160.9.9 = {
         birth = yes
     }
 
-    5148.12.5 = {
+    5210.12.5 = {
         add_spouse = lineorthonn12
     }
 
-    5252.12.18 = {
+    5354.12.18 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -147870,7 +147870,7 @@ lineorthonn12 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_3
+    trait = blood_of_numenor_5
 
     trait = impatient
     trait = cynical
@@ -147885,11 +147885,11 @@ lineorthonn12 = {
 
     trait = education_diplomacy_2
 
-    5131.10.9 = {
+    5162.10.9 = {
         birth = yes
     }
 
-    5271.10.21 = {
+    5350.10.21 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -147906,7 +147906,7 @@ lineorthonn13 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_3
+    trait = blood_of_numenor_5
 
     trait = forgiving
     trait = craven
@@ -147921,16 +147921,16 @@ lineorthonn13 = {
 
     trait = education_intrigue_3
 
-    5154.4.28 = {
+    5215.4.28 = {
         birth = yes
     }
 
-    5185.6.13 = {
+    5265.6.13 = {
         add_spouse = lineorthonn14
     }
 
-    5290.11.5 = {
-        death = { death_reason = death_natural_causes }
+    5382.1.5 = {
+        death = { death_reason = death_ill }
     }
 }
 
@@ -147943,7 +147943,7 @@ lineorthonn14 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_3
+    trait = blood_of_numenor_5
 
     trait = sadistic
     trait = fickle
@@ -147958,11 +147958,11 @@ lineorthonn14 = {
 
     trait = education_learning_3
 
-    5168.12.15 = {
+    5220.12.15 = {
         birth = yes
     }
 
-    5214.6.22 = {
+    5350.6.22 = {
         death = { death_reason = death_pneumonic }
     }
 }
@@ -147979,7 +147979,7 @@ lineorthonn15 = {
 
     sexuality = homosexual
 
-    trait = blood_of_numenor_3
+    trait = blood_of_numenor_5
 
     trait = diligent
     trait = trusting
@@ -147994,16 +147994,16 @@ lineorthonn15 = {
 
     trait = education_learning_3
 
-    5189.6.19 = {
+    5268.6.19 = {
         birth = yes
     }
 
-    5225.11.24 = {
+    5310.11.24 = {
         add_spouse = lineorthonn16
     }
 
-    5309.9.18 = {
-        death = { death_reason = death_natural_causes }
+    5350.9.18 = {
+        death = { death_reason = death_drowned }
     }
 }
 
@@ -148016,7 +148016,7 @@ lineorthonn16 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_3
+    trait = blood_of_numenor_5
 
     trait = gluttonous
     trait = greedy
@@ -148031,11 +148031,11 @@ lineorthonn16 = {
 
     trait = education_diplomacy_2
 
-    5208.8.4 = {
+    5269.8.4 = {
         birth = yes
     }
 
-    5248.2.7 = {
+    5330.2.7 = {
         death = { death_reason = death_hunting_accident  }
     }
 }
@@ -148052,7 +148052,7 @@ lineorthonn17 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_3
+    trait = blood_of_numenor_5
 
     trait = generous
     trait = gregarious
@@ -148067,16 +148067,16 @@ lineorthonn17 = {
 
     trait = education_martial_3
 
-    5225.7.2 = {
+    5312.7.2 = {
         birth = yes
     }
 
-    5253.12.13 = {
+    5355.12.13 = {
         add_spouse = lineorthonn18
     }
 
-    5343.12.21 = {
-        death = { death_reason = death_natural_causes }
+    5381.12.21 = {
+        death = { death_reason = death_sea_storm }
     }
 }
 
@@ -148089,7 +148089,7 @@ lineorthonn18 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_3
+    trait = blood_of_numenor_5
 
     trait = just
     trait = forgiving
@@ -148104,89 +148104,16 @@ lineorthonn18 = {
 
     trait = education_diplomacy_2
 
-    5236.7.27 = {
+    5313.7.27 = {
         birth = yes
     }
 
-    5377.6.6 = {
+    5493.6.6 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
 lineorthonn19 = {
-    name = Ithilbor
-
-    dynasty = dynasty_orthonn
-    religion = faith_edain
-    culture = gondorian
-
-    father = lineorthonn17
-    mother = lineorthonn18
-
-    sexuality = heterosexual
-
-    trait = blood_of_numenor_3
-
-    trait = chaste
-    trait = craven
-    trait = patient
-
-    diplomacy = 6
-    martial = 8
-    stewardship = 10
-    intrigue = 6
-    learning = 3
-    prowess = 7
-
-    trait = education_stewardship_2
-
-    5277.8.21 = {
-        birth = yes
-    }
-
-    5297.8.2 = {
-        add_spouse = lineorthonn20
-    }
-
-    5380.7.10 = {
-        death = { death_reason = death_typhus }
-    }
-}
-
-lineorthonn20 = {
-    name = Eraniel
-    female = yes
-
-    religion = faith_edain
-    culture = gondorian
-
-    sexuality = heterosexual
-
-    trait = blood_of_numenor_3
-
-    trait = vengeful
-    trait = ambitious
-    trait = zealous
-
-    diplomacy = 4
-    martial = 6
-    stewardship = 7
-    intrigue = 6
-    learning = 7
-    prowess = 4
-
-    trait = education_stewardship_2
-
-    5280.3.8 = {
-        birth = yes
-    }
-
-    5444.6.1 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineorthonn21 = {
     name = Palurien
     female = yes
 
@@ -148198,7 +148125,7 @@ lineorthonn21 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_3
+    trait = blood_of_numenor_5
 
     trait = fickle
     trait = ambitious
@@ -148213,16 +148140,16 @@ lineorthonn21 = {
 
     trait = education_learning_3
 
-    5237.7.16 = {
+    5320.7.16 = {
         birth = yes
     }
 
-    5331.10.19 = {
+    5500.10.19 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-lineorthonn22 = { # Angmar start date ruler
+lineorthonn20 = { # Angmar start date ruler
     name = Ivriniel
     dna = ivriniel_the_pale_orthonn_roa_dna
 	female = yes
@@ -148231,12 +148158,12 @@ lineorthonn22 = { # Angmar start date ruler
     religion = faith_edain
     culture = gondorian
 
-    father = lineorthonn19
-    mother = lineorthonn20
+    father = lineorthonn17
+    mother = lineorthonn18
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_3
+    trait = blood_of_numenor_5
 
     trait = lustful
     trait = greedy
@@ -148253,7 +148180,7 @@ lineorthonn22 = { # Angmar start date ruler
 
     trait = education_intrigue_3
 
-    5352.9.29 = {
+    5360.9.29 = {
         birth = yes
 		give_nickname = nick_the_pale
 		effect = {
@@ -148263,7 +148190,7 @@ lineorthonn22 = { # Angmar start date ruler
 		}
     }
 
-    5423.11.4 = {
+    5540.11.4 = {
         death = { death_reason = death_natural_causes }
     }
 }
