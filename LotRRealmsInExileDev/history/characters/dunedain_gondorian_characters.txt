@@ -175477,7 +175477,7 @@ lineofvakuankka36sister = {
     }
 
     5467.6.9 = {
-        death = { death_reason = death_natural_causesm }
+        death = { death_reason = death_natural_causes }
     }
 }
 
