@@ -265051,12 +265051,14 @@ lineofmindonnel1 = {
     prowess = 10
 
     trait = education_martial_4
+    trait = unyielding_defender
+    trait = military_engineer
 
-    7050.9.12 = {
+    7040.9.12 = {
         birth = yes
     }
 
-    7140.9.10 = {
+    7130.9.10 = {
         death = {
             death_reason = death_natural_causes
         }
