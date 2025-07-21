@@ -387549,7 +387549,7 @@ lineoftwilightpirate0 = {
 ### Queen Mythra ####
 #####################
 
-lineofmythra = { #Saint Mythra, goddess of light, law, and truth (and historical queen of Khy c. 800)
+lineofmythra = { #Saint Mythra, goddess of light, law, and truth (and historical queen of Khy c. 30)
     name = Mythra 
 
     female = yes
@@ -387571,10 +387571,10 @@ lineofmythra = { #Saint Mythra, goddess of light, law, and truth (and historical
 
     trait = education_learning_5
 
-    4800.1.1 = {
+    4042.1.1 = { # TA 9
         birth = yes
     }
-    4900.1.1 = {
+    4142.1.1 = { # TA 109
         death = { death_reason = death_disappearance } # Dies at the auspicous age of 100. (or ascends into heaven depending on who you ask)
         religion = faith_mythra
     }
