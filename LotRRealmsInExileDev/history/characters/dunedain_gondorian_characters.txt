@@ -163884,10 +163884,6 @@ lineofhirgon12sister = {
         birth = yes
     }
 
-    5150.7.5 = {
-        add_spouse = lineofhirgon13
-    }
-
     5315.2.1 = {
         death = { death_reason = death_natural_causes }
     }
@@ -218630,7 +218626,7 @@ lineofmamandil44sister = {
 
     trait = honest
     trait = gregarious
-    trait = shy
+    trait = chaste
 
     trait = twin
 
@@ -218648,10 +218644,6 @@ lineofmamandil44sister = {
         effect = {
             learn_language = language_sindarin
         }
-    }
-
-    4806.7.6 = {
-        add_spouse = lineofmamandil45
     }
 
     4989.4.17 = {
