@@ -259987,7 +259987,7 @@ lineofdirhael1 = {
     }
 
     3680.8.1 = {
-        add_spouse = lineofdirhael2
+        add_spouse = lineofrotthor3a1c1a1
     }
 
     3900.7.2 = {
@@ -259999,13 +259999,16 @@ lineofdirhael2 = {
     name = Estelien
     female = yes
 
+    dynasty = dynasty_dirhaelionath
     religion = faith_numenorean
     culture = dunedain
+
+    father = lineofdirhael1
+    mother = lineofrotthor3a1c1a1
 
     sexuality = heterosexual
 
     trait = blood_of_numenor_10
-	trait = born_on_numenor
     trait = compassionate
     trait = temperate
     trait = trusting
@@ -260019,11 +260022,11 @@ lineofdirhael2 = {
 
     trait = education_diplomacy_2
 
-    3615.2.1 = {
+    3681.12.14 = {
         birth = yes
     }
 
-    3902.1.2 = {
+    3982.1.2 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -260036,7 +260039,7 @@ lineofdirhael3 = {
     culture = dunedain
 
     father = lineofdirhael1
-    mother = lineofdirhael2
+    mother = lineofrotthor3a1c1a1
 
     sexuality = heterosexual
 
