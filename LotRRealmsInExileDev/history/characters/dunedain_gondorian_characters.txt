@@ -10963,6 +10963,49 @@ lineoforontur20 = {
     }
 }
 
+lineoforontur20sister = {
+    name = Isilm_e_e # TEMP
+    female = yes
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur18
+    mother = lineoforontur19
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = compassionate
+    trait = humble
+    trait = patient
+
+	trait = beauty_good_2
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 4
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_3
+
+    4865.8.20 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5099.9.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
 lineoforontur21 = {
     name = T_igeth
     female = yes
@@ -12795,6 +12838,38 @@ lineostomir17 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
+
+lineostomir17sister = {
+	name = Ellin
+    female = yes
+	
+	father = lineostomir16
+	
+	dynasty = dynasty_ostomir
+	religion = faith_edain
+	culture = gondorian
+	
+    trait = compassionate
+    trait = content
+    trait = patient
+	
+	trait = beauty_good_2
+
+	trait = blood_of_numenor_7
+
+    trait = education_diplomacy_3
+
+	4805.5.1 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}				
+	}
+	5026.12.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
 lineostomir18 = {
 	name = Elendil
 	
@@ -192447,6 +192522,89 @@ lineoftelemir45 = {
     }
 }
 
+lineoftelemir45 = {
+    name = Isildil
+
+    dynasty = dynasty_telemirionath
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoftelemir43
+    mother = lineoftelemir44
+
+    sexuality = heterosexual
+
+    trait =  blood_of_numenor_8
+
+    trait = content
+    trait = gluttonous
+    trait = honest
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 10
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    4924.8.4 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    4987.8.13 = {
+        add_spouse = lineoftelemir46
+    }
+
+    5161.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoftelemir45sister = {
+    name = Helloth
+    female = yes
+
+    dynasty = dynasty_telemirionath
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoftelemir43
+    mother = lineoftelemir44
+
+    sexuality = heterosexual
+
+    trait =  blood_of_numenor_8
+
+    trait = forgiving
+    trait = shy
+    trait = trusting
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_3
+
+    4927.12.6 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    5160.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
 lineoftelemir46 = {
     name = Aredhel
     female = yes
@@ -279523,6 +279681,903 @@ lineofmindor23 = {
 
     5636.6.18 = {
         death = { death_reason = death_natural_causes }
+    }
+}
+
+### House of Elion, Cadet of Barahirion
+lineofelion1 = {
+    name = Elion
+
+    dynasty = dynasty_barahirion
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = temperate
+    trait = diligent
+    trait = shy
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 10
+    intrigue = 5
+    learning = 7
+    prowess = 8
+
+    trait = beauty_good_2
+
+    trait = education_stewardship_4
+
+    4800.6.20 = {
+        birth = yes
+        effect = {
+            learn_language = language_sindarin
+        }
+    }
+
+    4860.7.10 = {
+        add_spouse = lineostomir17sister
+        dynasty_house = house_elion
+    }
+
+    4900.1.1 = {
+        culture = orodbedhrim
+    }
+
+    5036.8.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelion2 = {
+    name = Ervegil
+
+    dynasty_house = house_elion
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofelion1
+    mother = lineostomir17sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = brave
+    trait = wrathful
+    trait = just
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 5
+    intrigue = 2
+    learning = 7
+    prowess = 8
+
+    trait = beauty_good_2
+
+    trait = education_martial_4
+
+    4865.7.4 = {
+        birth = yes
+        effect = {
+            learn_language = language_sindarin
+        }
+    }
+
+    4900.1.1 = {
+        culture = orodbedhrim
+    }
+
+    4920.12.1 = {
+        add_spouse = lineoforontur20sister
+        effect = {
+		    set_relation_soulmate = character:lineofroquendil20
+        }
+    }
+
+    5102.12.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelion3 = {
+    name = Ithillil
+
+    dynasty_house = house_elion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofelion2
+    mother = lineoforontur20sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = patient
+    trait = diligent
+    trait = shy
+
+    trait = beauty_good_3
+    trait = intellect_good_1
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 11
+    prowess = 8
+
+    trait = education_learning_4
+
+    4925.12.24 = {
+        birth = yes
+        effect = {
+            learn_language = language_sindarin
+        }
+    }
+
+    4985.1.6 = {
+        add_spouse = lineoftelemir45sister
+    }
+
+    5156.12.30 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelion4 = {
+    name = Damrod
+
+    dynasty_house = house_elion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofelion3
+    mother = lineoftelemir45sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = humble
+    trait = fickle
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 2
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    4990.6.17 = {
+        birth = yes
+    }
+
+    5065.9.26 = {
+        add_spouse = lineofelion5
+    }
+
+    5208.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelion5 = {
+    name = Erestel
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = bisexual
+
+    trait = blood_of_numenor_7
+
+    trait = zealous
+    trait = craven
+    trait = callous
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 6
+    intrigue = 2
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5010.5.19 = {
+        birth = yes
+    }
+
+    5220.2.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelion6 = {
+    name = Adanaglar
+
+    dynasty_house = house_elion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofelion4
+    mother = lineofelion5
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = lazy
+    trait = paranoid
+    trait = humble
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 10
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    5089.10.23 = {
+        birth = yes
+    }
+
+    5143.5.18 = {
+        add_spouse = lineofelion7
+    }
+
+    5309.1.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelion7 = {
+    name = Borien
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = brave
+    trait = humble
+    trait = wrathful
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 3
+    intrigue = 2
+    learning = 3
+    prowess = 4
+
+    trait = education_martial_2
+
+    5087.12.7 = {
+        birth = yes
+    }
+
+    5313.10.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelion8 = {
+    name = Amlaith
+
+    dynasty_house = house_elion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofelion6
+    mother = lineofelion7
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = lazy
+    trait = lustful
+    trait = just
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 3
+    intrigue = 6
+    learning = 3
+    prowess = 3
+
+    trait = education_martial_3
+
+    5145.4.7 = {
+        birth = yes
+    }
+
+    5200.9.27 = {
+        add_spouse = lineofelion9
+    }
+
+    5370.7.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelion9 = {
+    name = Moriel
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = lazy
+    trait = gluttonous
+    trait = vengeful
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_3
+
+    5143.5.7 = {
+        birth = yes
+    }
+
+    5210.4.13 = {
+        death = { death_reason = death_disappearance  }
+    }
+}
+
+lineofelion10 = {
+    name = Maeglin
+
+    dynasty_house = house_elion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofelion8
+    mother = lineofelion9
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = brave
+    trait = deceitful
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    5202.9.9 = {
+        birth = yes
+    }
+
+    5254.11.11 = {
+        add_spouse = lineofelion11
+    }
+
+    5426.6.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelion11 = {
+    name = Mithrellas
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = bisexual
+
+    trait = blood_of_numenor_7
+
+    trait = calm
+    trait = vengeful
+    trait = shy
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 3
+    intrigue = 6
+    learning = 4
+    prowess = 3
+
+    trait = education_intrigue_4
+
+    5200.12.23 = {
+        birth = yes
+    }
+
+    5396.10.27 = {
+        death = { death_reason = death_dungeon  }
+    }
+}
+
+lineofelion12 = {
+    name = Belecthor
+
+    dynasty_house = house_elion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofelion10
+    mother = lineofelion11
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = wrathful
+    trait = gluttonous
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 1
+    intrigue = 4
+    learning = 2
+    prowess = 3
+
+    trait = education_martial_2
+
+    5258.1.1 = {
+        birth = yes
+    }
+
+    5314.1.12 = {
+        add_spouse = lineofelion13
+    }
+
+    5483.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelion13 = {
+    name = Feiniel
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = honest
+    trait = just
+    trait = trusting
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 5
+    intrigue = 5
+    learning = 3
+    prowess = 3
+
+    trait = education_stewardship_3
+
+    5256.1.3 = {
+        birth = yes
+    }
+
+    5469.4.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelion14 = {
+    name = Borodir
+
+    dynasty_house = house_elion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofelion12
+    mother = lineofelion13
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = temperate
+    trait = generous
+    trait = gregarious
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 2
+    intrigue = 5
+    learning = 2
+    prowess = 8
+
+    trait = education_intrigue_1
+
+    5315.7.16 = {
+        birth = yes
+    }
+
+    5375.12.15 = {
+        add_spouse = lineofelion15
+    }
+
+    5537.5.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelion15 = {
+    name = Nellas
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = zealous
+    trait = temperate
+    trait = lazy
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 2
+    intrigue = 2
+    learning = 3
+    prowess = 7
+
+    trait = education_diplomacy_2
+
+    5313.10.16 = {
+        birth = yes
+    }
+
+    5523.1.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelion16 = {
+    name = Cirion
+
+    dynasty_house = house_elion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofelion14
+    mother = lineofelion15
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = stubborn
+    trait = craven
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 8
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    5377.11.28 = {
+        birth = yes
+    }
+
+    5441.10.5 = {
+        add_spouse = lineofelion17
+    }
+
+    5475.9.13 = {
+        death = { death_reason = death_disappearance  }
+    }
+}
+
+lineofelion17 = {
+    name = Anwen
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = callous
+    trait = chaste
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 4
+    intrigue = 4
+    learning = 10
+    prowess = 3
+
+    trait = education_learning_1
+
+    5395.4.28 = {
+        birth = yes
+    }
+
+    5600.5.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelion18 = {
+    name = Boromir
+
+    dynasty_house = house_elion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofelion16
+    mother = lineofelion17
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = honest
+    trait = generous
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 10
+    intrigue = 4
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    5465.9.28 = {
+        birth = yes
+    }
+
+    5524.5.16 = {
+        add_spouse = lineofelion19
+    }
+
+    5640.11.18 = {
+        death = { death_reason = death_accident }
+    }
+}
+
+lineofelion19 = {
+    name = Baraniel
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = deceitful
+    trait = trusting
+    trait = generous
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    5463.8.5 = {
+        birth = yes
+    }
+
+    5669.7.13 = {
+        death = { death_reason = death_bubonic_plague }
+    }
+}
+
+lineofelion20 = {
+    name = Uilomir
+
+    dynasty_house = house_elion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofelion18
+    mother = lineofelion19
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = lustful
+    trait = honest
+    trait = ambitious
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 4
+    intrigue = 3
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_3
+
+    5530.5.5 = {
+        birth = yes
+    }
+
+    5590.3.21 = {
+        add_spouse = lineofelion21
+    }
+
+    5669.7.13 = {
+        death = { death_reason = death_bubonic_plague }
+    }
+}
+
+lineofelion21 = {
+    name = Mithiel
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = trusting
+    trait = ambitious
+    trait = callous
+
+    diplomacy = 2
+    martial = 2
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 3
+
+    trait = education_stewardship_1
+
+    5540.5.6 = {
+        birth = yes
+    }
+
+    5669.7.13 = {
+        death = { death_reason = death_bubonic_plague }
+    }
+}
+
+lineofelion22 = {
+    name = Elured
+
+    dynasty_house = house_elion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofelion20
+    mother = lineofelion21
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = deceitful
+    trait = ambitious
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 2
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    5619.5.1 = {
+        birth = yes
+    }
+
+    5665.6.25 = {
+        add_spouse = lineofelion23
+    }
+
+    5669.7.13 = {
+        death = { death_reason = death_bubonic_plague }
+    }
+}
+
+lineofelion23 = {
+    name = Selloth
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = lazy
+    trait = sadistic
+    trait = trusting
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_4
+
+    5617.2.1 = {
+        birth = yes
+    }
+
+    5669.7.13 = {
+        death = { death_reason = death_bubonic_plague }
+    }
+}
+
+lineofelion24 = {
+    name = Forlong
+
+    dynasty_house = house_elion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofelion22
+    mother = lineofelion23
+
+    trait = blood_of_numenor_6
+
+    5667.10.22 = {
+        birth = yes
+    }
+
+    5669.7.13 = {
+        death = { death_reason = death_bubonic_plague }
     }
 }
 
