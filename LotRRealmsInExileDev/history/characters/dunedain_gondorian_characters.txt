@@ -192655,49 +192655,6 @@ lineoftelemir45 = {
     }
 }
 
-lineoftelemir45 = {
-    name = Isildil
-
-    dynasty = dynasty_telemirionath
-    religion = faith_edain
-    culture = gondorian
-
-    father = lineoftelemir43
-    mother = lineoftelemir44
-
-    sexuality = heterosexual
-
-    trait =  blood_of_numenor_8
-
-    trait = content
-    trait = gluttonous
-    trait = honest
-
-    diplomacy = 7
-    martial = 5
-    stewardship = 5
-    intrigue = 10
-    learning = 3
-    prowess = 5
-
-    trait = education_intrigue_1
-
-    4924.8.4 = {
-        birth = yes
-		effect = {
-			learn_language = language_sindarin
-		}
-    }
-
-    4987.8.13 = {
-        add_spouse = lineoftelemir46
-    }
-
-    5161.8.18 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
 lineoftelemir45sister = {
     name = Helloth
     female = yes
