@@ -281369,7 +281369,7 @@ lineofthorion18 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_6
+    trait = blood_of_numenor_7
 
     diplomacy = 2
     martial = 5
@@ -281380,7 +281380,9 @@ lineofthorion18 = {
 
     disallow_random_traits = yes
 
-    trait = education_martial_2
+    trait = beauty_good_2
+
+    trait = education_martial_3
 
     5382.4.14 = {
         birth = yes
