@@ -10887,12 +10887,12 @@ lineoforontur19 = {
     religion = faith_edain
     culture = gondorian
 
-    father = lineofbarahir6
-    mother = lineofbarahir7
+    father = lineofcaranmir38
+    mother = lineofcaranmir39
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_7
+    trait = blood_of_numenor_8
 
     trait = fickle
     trait = callous
@@ -10911,7 +10911,7 @@ lineoforontur19 = {
         birth = yes
     }
 
-    5010.9.19 = {
+    5016.9.19 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -279693,6 +279693,9 @@ lineofelion1 = {
     dynasty = dynasty_barahirion
     religion = faith_edain
     culture = gondorian
+
+    father = lineofbarahir6
+    mother = lineofbarahir7
 
     sexuality = heterosexual
 
