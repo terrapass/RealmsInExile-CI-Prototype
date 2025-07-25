@@ -66876,7 +66876,7 @@ linegolwenion4 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_8
+    trait = blood_of_numenor_7 # Vaku - note lives 225 should live 230 or over to be T8
 
     trait = paranoid
     trait = humble
@@ -66916,7 +66916,7 @@ linegolwenion4wife = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_8
+    trait = blood_of_numenor_7 # Vaku - note lives 221 should live 230 or over to be T8
 
     trait = wrathful
     trait = gluttonous
