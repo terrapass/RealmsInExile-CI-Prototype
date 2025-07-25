@@ -86779,6 +86779,7 @@ linecalionath38 = {
     name = Malrunya
     female = yes
 
+    dynasty = dynasty_calionath
     religion = faith_edain
     culture = harondorim
 
