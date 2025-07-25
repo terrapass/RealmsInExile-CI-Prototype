@@ -10879,6 +10879,49 @@ lineoforontur18 = {
     }
 }
 
+lineoforontur18sister = {
+    name = Armat_ari # TEMP
+    female = yes
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+	father = lineoforontur16
+	mother = lineoforontur17
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = compassionate
+    trait = forgiving
+    trait = brave
+
+	trait = beauty_good_3
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 5
+    intrigue = 2
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_4
+
+    4790.12.24 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5034.12.29 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
 lineoforontur19 = {
     name = D_unel
     female = yes
@@ -11637,6 +11680,95 @@ lineoforontur30sister = {
     }
 
     5485.7.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoforontur30brother1 = {
+    name = Elenar # TEMP
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur28
+    mother = lineoforontur29
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = brave
+    trait = wrathful
+    trait = patient
+
+	trait = beauty_good_2
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 9
+    prowess = 8
+
+    trait = education_learning_3
+
+    5272.2.24 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5323.1.6 = {
+        add_spouse = lineofbarahir22sister
+    }
+
+    5380.12.1 = {
+        death = { death_reason = death_killed_by_monstrous_wolf }
+    }
+}
+
+lineoforontur30brother2 = {
+    name = N_ari_e_e # TEMP
+    female = yes
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur30brother1
+    mother = lineofbarahir22sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = forgiving
+    trait = trusting
+    trait = diligent
+
+	trait = beauty_good_3
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 7
+    intrigue = 3
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    5325.4.4 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5547.12.1 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -236972,6 +237104,46 @@ lineofbarahir22 = {
     }
 }
 
+lineofbarahir22sister = {
+    name = _Irith # TEMP
+    female = yes
+
+    dynasty = dynasty_barahirion
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofbarahir20
+    mother = lineofbarahir21
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = forgiving
+    trait = just
+    trait = patient
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5272.6.1 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    5325.3.16 = {
+        death = { death_reason = death_childbirth }
+    }
+}
+
 lineofbarahir23 = {
     name = Gwaewen
     female = yes
@@ -280586,6 +280758,800 @@ lineofelion24 = {
         death = { death_reason = death_bubonic_plague }
     }
 }
+
+### Line of Thorion, Rulers of Rhandir
+lineofthorion1 = {
+    name = Thorion
+
+    dynasty = dynasty_thorion
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = brave
+    trait = wrathful
+    trait = shy
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 5 
+
+    trait = education_martial_4
+
+    4791.2.1 = {
+        birth = yes
+        effect = {
+            learn_language = language_sindarin
+        }
+    }
+
+    4850.1.1 = {
+        add_spouse = lineoforontur18sister
+    }
+
+    4900.1.1 = {
+        culture = orodbedhrim
+    }
+
+    5026.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofthorion2 = {
+    name = Hundad
+
+    dynasty = dynasty_thorion
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofthorion1
+    mother = lineoforontur18sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = humble
+    trait = fickle
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 2
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    4855.10.12 = {
+        birth = yes
+    }
+
+    4900.1.1 = {
+        culture = orodbedhrim
+    }
+
+    4910.4.25 = {
+        add_spouse = lineofthorion3
+    }
+
+    5095.12.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofthorion3 = {
+    name = Celebrian
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = bisexual
+
+    trait = blood_of_numenor_8
+
+    trait = zealous
+    trait = craven
+    trait = callous
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 6
+    intrigue = 2
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    4860.4.10 = {
+        birth = yes
+    }
+
+    4900.1.1 = {
+        culture = orodbedhrim
+    }
+
+    5094.3.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofthorion4 = {
+    name = Hanmir
+
+    dynasty = dynasty_thorion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofthorion2
+    mother = lineofthorion3
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = lazy
+    trait = paranoid
+    trait = humble
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 10
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    4915.12.8 = {
+        birth = yes
+    }
+
+    4975.2.12 = {
+        add_spouse = lineofthorion5
+    }
+
+    5149.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofthorion5 = {
+    name = Beinwen
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = brave
+    trait = humble
+    trait = wrathful
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 3
+    intrigue = 2
+    learning = 3
+    prowess = 4
+
+    trait = education_martial_2
+
+    4920.2.2 = {
+        birth = yes
+    }
+
+    5151.2.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofthorion6 = {
+    name = Thingol
+
+    dynasty = dynasty_thorion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofthorion4
+    mother = lineofthorion5
+
+    sexuality = bisexual
+
+    trait = blood_of_numenor_7
+
+    trait = generous
+    trait = lazy
+    trait = lustful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    4980.7.22 = {
+        birth = yes
+    }
+
+    5051.8.20 = {
+        add_spouse = lineofthorion7
+    }
+
+    5195.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofthorion7 = {
+    name = Amarwen
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = calm
+    trait = gregarious
+    trait = cynical
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_3
+
+    5000.3.17 = {
+        birth = yes
+    }
+
+    5210.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofthorion8 = {
+    name = Maeglin
+
+    dynasty = dynasty_thorion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofthorion6
+    mother = lineofthorion7
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = cynical
+    trait = paranoid
+    trait = brave
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    5078.11.14 = {
+        birth = yes
+    }
+
+    5130.11.15 = {
+        add_spouse = lineofthorion9
+    }
+
+    5270.10.26 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+lineofthorion9 = {
+    name = Idrien
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = craven
+    trait = diligent
+    trait = sadistic
+
+    diplomacy = 1
+    martial = 5
+    stewardship = 3
+    intrigue = 5
+    learning = 2
+    prowess = 5
+
+    trait = education_martial_2
+
+    5076.8.7 = {
+        birth = yes
+    }
+
+    5303.9.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofthorion10 = {
+    name = Belecthor
+
+    dynasty = dynasty_thorion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofthorion8
+    mother = lineofthorion9
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = compassionate
+    trait = just
+    trait = shy
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_1
+
+    5133.6.27 = {
+        birth = yes
+    }
+
+    5187.7.9 = {
+        add_spouse = lineofthorion11
+    }
+
+    5350.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofthorion11 = {
+    name = Adanel
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = wrathful
+    trait = stubborn
+    trait = chaste
+
+    diplomacy = 1
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 6
+    prowess = 2
+
+    trait = education_learning_2
+
+    5131.12.7 = {
+        birth = yes
+    }
+
+    5344.12.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofthorion12 = {
+    name = Pelethanor
+
+    dynasty = dynasty_thorion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofthorion10
+    mother = lineofthorion11
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = lustful
+    trait = patient
+    trait = compassionate
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_2
+
+    5190.4.16 = {
+        birth = yes
+    }
+
+    5243.8.15 = {
+        add_spouse = lineofthorion13
+    }
+
+    5381.6.25 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+lineofthorion13 = {
+    name = Andreth
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = compassionate
+    trait = wrathful
+    trait = greedy
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_1
+
+    5188.3.28 = {
+        birth = yes
+    }
+
+    5412.5.8 = {
+        death = { death_reason = death_horse_riding_accident  }
+    }
+}
+
+lineofthorion14 = {
+    name = Mormegil
+
+    dynasty = dynasty_thorion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofthorion12
+    mother = lineofthorion13
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = fickle
+    trait = diligent
+    trait = gregarious
+
+    diplomacy = 3
+    martial = 2
+    stewardship = 4
+    intrigue = 3
+    learning = 6
+    prowess = 5
+
+    trait = education_learning_3
+
+    5255.2.2 = {
+        birth = yes
+    }
+
+    5325.7.18 = {
+        add_spouse = lineofthorion15
+    }
+
+    5348.9.5 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lineofthorion15 = {
+    name = Arwen
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = deceitful
+    trait = calm
+    trait = just
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 2
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_1
+
+    5275.5.18 = {
+        birth = yes
+    }
+
+    5475.9.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofthorion16 = {
+    name = Thorion
+
+    dynasty = dynasty_thorion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofthorion14
+    mother = lineofthorion15
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = brave
+    trait = forgiving
+    trait = diligent
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 9
+    intrigue = 7
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    5330.6.2 = {
+        birth = yes
+    }
+
+    5380.4.19 = {
+        add_spouse = lineoforontur30brother2
+    }
+
+    5434.2.21 = {
+        death = { death_reason = death_crushed  }
+    }
+}
+
+lineofthorion17 = {
+    name = Feiniel
+    female = yes
+
+    dynasty = dynasty_thorion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofthorion14
+    mother = lineofthorion15
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = generous
+    trait = patient
+    trait = content
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5332.10.15 = {
+        birth = yes
+    }
+
+    5535.2.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofthorion18 = {
+    name = Ecthelion
+
+    dynasty = dynasty_thorion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofthorion16
+    mother = lineoforontur30brother2
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 3
+    intrigue = 5
+    learning = 3
+    prowess = 7
+
+    disallow_random_traits = yes
+
+    trait = education_martial_2
+
+    5382.4.14 = {
+        birth = yes
+    }
+
+    5398.4.14 = {
+        trait = zealous
+        trait = forgiving
+        trait = fickle
+    }
+
+    5436.3.20 = {
+        add_spouse = lineofthorion19
+    }
+
+    5580.11.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofthorion19 = {
+    name = Taurwen
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = temperate
+    trait = arrogant
+    trait = lustful
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 8
+    intrigue = 2
+    learning = 1
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    5387.5.15 = {
+        birth = yes
+    }
+
+    5580.5.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofthorion20 = {
+    name = Maewhir
+
+    dynasty = dynasty_thorion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofthorion18
+    mother = lineofthorion19
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = craven
+    trait = impatient
+    trait = honest
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    5439.8.19 = {
+        birth = yes
+    }
+
+    5486.6.12 = {
+        add_spouse = lineofthorion21
+    }
+
+    5630.6.18 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lineofthorion21 = {
+    name = Bregil
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = brave
+    trait = greedy
+    trait = lazy
+
+    diplomacy = 9
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    5437.4.5 = {
+        birth = yes
+    }
+
+    5567.9.10 = {
+        death = { death_reason = death_training_accident  }
+    }
+}
+
+
+
 
 
 #Flavour dynasties from videogames
