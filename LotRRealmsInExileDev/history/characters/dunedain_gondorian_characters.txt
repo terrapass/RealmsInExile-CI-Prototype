@@ -265234,6 +265234,7 @@ lineofathanc10 = {
 
     trait = education_stewardship_3
     trait = blood_of_numenor_3
+    trait = physique_good_1
 
     7166.1.13 = {
         birth = yes
@@ -265310,6 +265311,7 @@ lineofathanc12 = {
 
     trait = education_stewardship_3
     trait = blood_of_numenor_3
+    trait = physique_good_2
 
     7172.7.26 = {
         birth = yes
