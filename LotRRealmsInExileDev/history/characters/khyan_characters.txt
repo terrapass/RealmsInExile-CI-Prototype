@@ -387545,6 +387545,41 @@ lineoftwilightpirate0 = {
     }
 }
 
+#####################
+### Queen Mythra ####
+#####################
+
+lineofmythra = { #Saint Mythra, goddess of light, law, and truth (and historical queen of Khy c. 30)
+    name = Mythra 
+
+    female = yes
+    culture = khyan
+    religion = faith_azianic
+
+    trait = just
+    trait = honest
+    trait = compassionate
+
+    trait = chaste # Never has any children
+    trait = saint
+
+    diplomacy = 10
+    martial = 10
+    stewardship = 10
+    intrigue = 10
+    learning = 10
+
+    trait = education_learning_5
+
+    4042.1.1 = { # TA 9
+        birth = yes
+    }
+    4142.1.1 = { # TA 109
+        death = { death_reason = death_disappearance } # Dies at the auspicous age of 100. (or ascends into heaven depending on who you ask)
+        religion = faith_mythra
+    }
+}
+
 ############################
 ### Khyan Heads of Faith ###
 ############################
