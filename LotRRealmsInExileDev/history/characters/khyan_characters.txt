@@ -6087,7 +6087,6 @@ lineoftirdahan7 = { # War of the Ring Ruler
 
     7011.8.3 = { # Ascends the throne, claims regnal name
         name = Taxmaspada
-        add_influence = 1000
 	    effect = {
             set_relation_nemesis = character:lineofvasnan42
 			set_relation_rival = character:lineofvasnan43
