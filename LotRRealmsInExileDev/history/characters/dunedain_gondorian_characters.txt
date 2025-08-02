@@ -526,6 +526,10 @@ lineofanarion12 = {
 		}			
 	}
 
+    4500.6.20 = {
+        add_spouse = lineofelaran29a1
+    }
+
 	4700.8.14 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -540,6 +544,7 @@ lineofanarion13 = {
 	culture = gondorian
 
 	father = lineofanarion12
+    mother = lineofelaran29a1
 
 	
 	trait = temperate
@@ -5509,6 +5514,7 @@ lineofroquendil1 = {
 	culture = gondorian
 
 	father = lineofanarion12
+    mother = lineofelaran29a1
 
 	trait = brave
 	trait = just
@@ -7007,7 +7013,7 @@ lineofroquendil21twin = {
     trait = patient
     trait = diligent
 
-	trait = beauty_good_3
+	trait = beauty_good_2
     trait = intellect_good_1
 
 	trait = twin
@@ -7026,6 +7032,9 @@ lineofroquendil21twin = {
 		effect = {
 			learn_language = language_sindarin	
 			learn_language = language_quenya
+		}
+        effect = {
+			set_relation_friend = { reason = friend_playing_children target = character:lineofroquendil21 }
 		}
     }
 
@@ -45159,7 +45168,7 @@ lineoftiridonKS14 = {
 }
 
 lineoftiridonKS15 = {
-    name = Guilien
+    name = Guilinien
     female = yes
 
     religion = faith_edain
@@ -240790,46 +240799,10 @@ lineofelaran25 = {
     }
 
     4252.11.2 = {
-        add_spouse = lineofelaran26
+        add_spouse = lineofhalmir15a1
     }
 
     4456.9.27 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineofelaran26 = {
-    name = Beril
-    female = yes
-
-    religion = faith_edain
-    culture = gondorian
-
-    sexuality = heterosexual
-
-    trait = blood_of_numenor_9
-
-    trait = ambitious
-    trait = sadistic
-    trait = chaste
-
-    diplomacy = 1
-    martial = 4
-    stewardship = 4
-    intrigue = 8
-    learning = 4
-    prowess = 5
-
-    trait = education_intrigue_4
-
-    4187.9.1 = {
-        birth = yes
-		effect = {
-			learn_language = language_sindarin
-		}
-    }
-
-    4450.12.4 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -240842,7 +240815,7 @@ lineofelaran27 = {
     culture = gondorian
 
     father = lineofelaran25
-    mother = lineofelaran26
+    mother = lineofhalmir15a1
 
     sexuality = heterosexual
 
@@ -240997,7 +240970,7 @@ lineofelaran30 = {
 }
 
 lineofelaran31 = {
-    name = Anducal
+    name = Galador
 
     dynasty = dynasty_gaerrandirath
     religion = faith_edain
@@ -241035,6 +241008,33 @@ lineofelaran31 = {
     }
 
     4643.8.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelaran29a1 = {
+    name = Galadwen
+    female = yes
+
+    dynasty = dynasty_gaerrandirath
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofelaran29
+    mother = lineoforontur6sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_9
+
+    4435.6.17 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    4701.1.6 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -243291,51 +243291,10 @@ lineofhalmir9 = {
     }
 
     3949.2.18 = {
-        add_spouse = lineofhalmir10
+        add_spouse = lineofdirhael5a1
     }
 
     4156.1.11 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineofhalmir10 = {
-    name = Eliane
-    female = yes
-
-    religion = faith_numenorean
-    culture = dunedain
-
-    sexuality = heterosexual
-
-    trait = blood_of_numenor_10
-
-    trait = lazy
-    trait = just
-    trait = honest
-
-    diplomacy = 2
-    martial = 8
-    stewardship = 5
-    intrigue = 5
-    learning = 4
-    prowess = 3
-
-    trait = education_martial_3
-
-    3872.1.27 = {
-        birth = yes
-		effect = {
-			learn_language = language_sindarin
-			learn_language = language_quenya
-		}
-    }
-
-    3912.1.1 = {
-        religion = faith_edain
-    }
-
-    4162.4.3 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -243348,7 +243307,7 @@ lineofhalmir11 = {
     culture = dunedain
 
     father = lineofhalmir9
-    mother = lineofhalmir10
+    mother = lineofdirhael5a1
 
     sexuality = heterosexual
 
@@ -243621,6 +243580,33 @@ lineofhalmir17 = {
     }
 
     4460.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofhalmir15a1 = {
+    name = Alwediel
+    female = yes
+
+    dynasty = dynasty_halmirion
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofhalmir15
+    mother = lineofhalmir16
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_9
+
+    4200.6.14 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    4469.12.14 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -260513,6 +260499,35 @@ lineofdirhael7 = {
     }
 
     4155.6.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofdirhael5a1 = {
+    name = Rodel
+    female = yes
+
+    dynasty = dynasty_dirhaelionath
+    religion = faith_edain
+    culture = dunedain
+
+    father = lineofdirhael5
+    mother = lineofdirhael6
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+
+
+    3877.9.20 = {
+        birth = yes
+    }
+
+    4035.1.1 = {
+        culture = gondorian
+    }
+
+    4160.2.11 = {
         death = { death_reason = death_natural_causes }
     }
 }
