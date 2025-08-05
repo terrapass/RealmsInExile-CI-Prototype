@@ -918,7 +918,7 @@ lineofanarion24 = {
 	dynasty = dynasty_anarion
 	religion = faith_edain
 	culture = gondorian
-	dna = romendacilII_dna
+	dna = romendacil_ii_dna
 
 	father = lineofanarion23
 	mother = lineofborlach19sister
@@ -14822,7 +14822,7 @@ linesteward38 = {
 
 	father = linesteward37
 	mother = lineimloth38
-	dna = lotr_denethor_2
+	dna = denethor_dna
 
 	fertility = 0
 	sexuality = heterosexual
@@ -14969,7 +14969,7 @@ linesteward39 = {
 
 	father = linesteward38
 	mother = dolamroth26
-	dna = lotr_boromir_2
+	dna = boromir_dna
 	fertility = 0.2
 	sexuality = heterosexual
 
@@ -15064,7 +15064,7 @@ linesteward40 = { # Faramir, Prince of Ithilien
 
 	father = linesteward38
 	mother = dolamroth26
-	dna = lotr_faramir_alt_3
+	dna = faramir_dna_2
 	fertility = 0.3
 	sexuality = heterosexual
 
