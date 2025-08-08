@@ -61422,8 +61422,8 @@ lineofchief9 = {
 	7021.3.21 = { # Met during Lótu's exploration of Ereigon. They Traveled to Imladris and Falgond took Lótu as a Ward.
 		trait = education_martial_3
 		effect = {
-			set_relation_friend = character:lineoffalgond
-			set_relation_guardian = character:lineoffalgond
+			set_relation_friend = character:lineoffalgond1
+			set_relation_guardian = character:lineoffalgond1
 			add_trait = lifestyle_traveler
 			add_trait_xp = {
 				trait = lifestyle_traveler
@@ -61435,13 +61435,13 @@ lineofchief9 = {
 	
 	7022.11.15 = {
 		effect = {
-			remove_relation_guardian = character:lineoffalgond
+			remove_relation_guardian = character:lineoffalgond1
 		}
 	}
 	
 	7023.2.17 = { # Falgond became Lótu's Mentor.
 		effect = {
-			set_relation_mentor = character:lineoffalgond
+			set_relation_mentor = character:lineoffalgond1
 			learn_language = language_quenya
 		}
 		create_inspiration = smith_inspiration
