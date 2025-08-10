@@ -61422,8 +61422,8 @@ lineofchief9 = {
 	7021.3.21 = { # Met during Lótu's exploration of Ereigon. They Traveled to Imladris and Falgond took Lótu as a Ward.
 		trait = education_martial_3
 		effect = {
-			set_relation_friend = character:lineoffalgond
-			set_relation_guardian = character:lineoffalgond
+			set_relation_friend = character:lineoffalgond1
+			set_relation_guardian = character:lineoffalgond1
 			add_trait = lifestyle_traveler
 			add_trait_xp = {
 				trait = lifestyle_traveler
@@ -61435,13 +61435,13 @@ lineofchief9 = {
 	
 	7022.11.15 = {
 		effect = {
-			remove_relation_guardian = character:lineoffalgond
+			remove_relation_guardian = character:lineoffalgond1
 		}
 	}
 	
 	7023.2.17 = { # Falgond became Lótu's Mentor.
 		effect = {
-			set_relation_mentor = character:lineoffalgond
+			set_relation_mentor = character:lineoffalgond1
 			learn_language = language_quenya
 		}
 		create_inspiration = smith_inspiration
@@ -101409,6 +101409,10 @@ lineofhardang55 = {
 		}
     }
 
+    6759.1.1 = { # Long Winter Start Date Ruler		
+		employer = linearphenian3 # Cirdan 
+	}
+
     6772.8.14 = {
         add_spouse = lineofhardang56
     }
@@ -101425,16 +101429,18 @@ lineofhardang56 = {
     religion = faith_edain
     culture = gondorian
 
-    
-
-
 	trait = blood_of_numenor_2
+
     6755.6.21 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin
 		}
     }
+
+    6759.1.1 = { # Long Winter Start Date Ruler		
+		employer = linearphenian3 # Cirdan 
+	}
 
     6845.10.7 = {
         death = { death_reason = death_natural_causes }
@@ -101460,6 +101466,7 @@ lineofhardang57 = {
 		effect = {
 			learn_language = language_sindarin
 		}
+        employer = linearphenian3 # Cirdan 
     }
 
     6871.1.19 = {
@@ -101882,6 +101889,7 @@ lineofhardang73 = {
 		effect = {
 			learn_language = language_sindarin
 		}
+        employer = lineofhardang65
     }
 
     7069.4.26 = {
@@ -101926,15 +101934,13 @@ lineofhardang75 = {
     father = lineofhardang71
     mother = lineofhardang72
 
-    
-
-
 	trait = blood_of_numenor_1
     7031.3.15 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin
 		}
+        employer = lineofhardang65
     }
 
     7123.10.2 = {
@@ -102031,9 +102037,6 @@ lineofhardang79 = {
     father = lineofhardang77
     mother = lineofhardang78
 
-    
-
-
 	trait = blood_of_numenor_1
     6958.2.14 = {
         birth = yes
@@ -102044,6 +102047,10 @@ lineofhardang79 = {
 
     6985.12.7 = {
         add_spouse = lineofhardang80
+    }
+
+    7008.1.25 = {
+        employer = lineofhardang65
     }
 
     7042.10.19 = {
@@ -102058,15 +102065,16 @@ lineofhardang80 = {
     religion = faith_edain
     culture = gondorian
 
-    
-
-
 	trait = blood_of_numenor_1
     6968.7.18 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin
 		}
+    }
+
+    7008.1.25 = {
+        employer = lineofhardang65
     }
 
     7086.10.27 = {
@@ -102084,15 +102092,16 @@ lineofhardang81 = {
     father = lineofhardang79
     mother = lineofhardang80
 
-    
-
-
 	trait = blood_of_numenor_1
     7005.12.9 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin
 		}
+    }
+
+    7008.1.25 = {
+        employer = lineofhardang65
     }
 
     7098.9.7 = {
@@ -102110,15 +102119,13 @@ lineofhardang82 = {
     father = lineofhardang79
     mother = lineofhardang80
 
-    
-
-
 	trait = blood_of_numenor_1
     7020.10.22 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin
 		}
+        employer = lineofhardang65
     }
 
     7045.8.5 = {
@@ -102136,9 +102143,6 @@ lineofhardang83 = {
 
     religion = faith_edain
     culture = gondorian
-
-    
-
 
 	trait = blood_of_numenor_1
     7028.5.25 = {
@@ -102162,9 +102166,6 @@ lineofhardang84 = {
 
     father = lineofhardang77
     mother = lineofhardang78
-
-    
-
 
 	trait = blood_of_numenor_1
     6974.8.6 = {
@@ -102190,15 +102191,16 @@ lineofhardang85 = {
     religion = faith_edain
     culture = gondorian
 
-    
-
-
 	trait = blood_of_numenor_1
     6998.9.17 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin
 		}
+    }
+
+    7008.1.25 = {
+        employer = lineofhardang65
     }
 
     7100.5.21 = {
@@ -102216,15 +102218,13 @@ lineofhardang86 = {
     father = lineofhardang84
     mother = lineofhardang85
 
-    
-
-
 	trait = blood_of_numenor_1
     7027.10.13 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin
 		}
+        employer = lineofhardang65
     }
 
     7141.7.8 = {
@@ -102242,15 +102242,16 @@ lineofhardang87 = {
     father = lineofhardang84
     mother = lineofhardang85
 
-    
-
-
 	trait = blood_of_numenor_1
     7028.6.2 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin
 		}
+    }
+
+    7008.1.25 = {
+        employer = lineofhardang65
     }
 
     7077.9.3 = {
