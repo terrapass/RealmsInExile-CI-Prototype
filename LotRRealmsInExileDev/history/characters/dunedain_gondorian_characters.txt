@@ -1064,7 +1064,7 @@ lineofanarion26 = {
         }
 	}
 	5355.1.1 = {				
-		add_trait = widowed	
+		trait = widowed	
 	}
 
 	5465.1.1 = {
@@ -38633,7 +38633,7 @@ lineromatar23 = {
 	
 	6662.4.14 = {
 		effect = {	
-			add_trait = widowed
+			trait = widowed
 		}
 	}
 	
@@ -191008,7 +191008,7 @@ lineofhandir3sister = {
     }
     4035.8.4 = {
         add_trait = depressed_1
-        add_trait = widowed
+        trait = widowed
     }
     4225.8.22 = {
         death = { death_reason = death_natural_causes }
@@ -219955,7 +219955,7 @@ lineofmamandil70 = {
     }
 
     5485.4.10 = {
-        add_trait = widowed
+        trait = widowed
     }
 
     5653.5.5 = {
@@ -230472,7 +230472,7 @@ lineofelendir88 = {
         add_spouse = lineofelendir89
     }
     5723.12.7 = {
-        add_trait = widowed
+        trait = widowed
     }
     5872.10.2 = {
         death = { death_reason = death_natural_causes }
