@@ -38633,7 +38633,7 @@ lineromatar23 = {
 	
 	6662.4.14 = {
 		effect = {	
-			trait = widowed
+			add_trait = widowed
 		}
 	}
 	
