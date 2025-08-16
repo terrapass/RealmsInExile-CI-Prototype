@@ -6075,7 +6075,7 @@ lineoftirdahan7 = { # War of the Ring Ruler
     learning = 9
     prowess = 6
 
-	trait = education_learning_4
+	trait = education_learning_3
     trait = theologian
 
 	6963.4.2 = {			
