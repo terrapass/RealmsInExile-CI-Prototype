@@ -17970,7 +17970,7 @@ dolamroth35 = { # Morwen Steelsheen
 	father = dolamroth33
 	mother = lossarnach27sister
 	
-	dna = morwensteelsheen_dna
+	dna = morwen_steelsheen_dna_2
 	
 	trait = education_diplomacy_3
 
