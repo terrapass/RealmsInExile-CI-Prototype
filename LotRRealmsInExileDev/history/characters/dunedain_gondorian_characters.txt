@@ -17970,7 +17970,7 @@ dolamroth35 = { # Morwen Steelsheen
 	father = dolamroth33
 	mother = lossarnach27sister
 	
-	dna = morwensteelsheen_dna
+	dna = morwen_steelsheen_dna_2
 	
 	trait = education_diplomacy_3
 
@@ -128827,7 +128827,7 @@ lineofneithan73 = {
 
     dynasty = dynasty_rond_rendul
     religion = faith_edain
-    culture = gondorian
+    culture = orodbedhrim
 
     father = lineofneithan68
     mother = lineofneithan69
