@@ -537,7 +537,7 @@ lineofanarion12 = {
 
 lineofanarion13 = {
 	name = Atanatar # King of Gondor
-	dna = atanatar_1_dna
+	dna = atanatar_i_dna
 
 	dynasty = dynasty_anarion
 	religion = faith_edain
@@ -6645,7 +6645,7 @@ lineofroquendil16aunt2 = {
 
 lineofroquendil16 = {
     name = Roquendil
-	dna = roquendil_II_dna
+	dna = roquendil_ii_dna
 
     dynasty_house = house_roquendilin
     religion = faith_edain
@@ -8128,7 +8128,7 @@ lineofroquendil31son = {
 
 lineofroquendil33 = {
     name = Roquendil
-	dna = roquendil_III_dna
+	dna = roquendil_iii_dna
 
     dynasty_house = house_roquendilin
     religion = faith_edain
@@ -17970,7 +17970,7 @@ dolamroth35 = { # Morwen Steelsheen
 	father = dolamroth33
 	mother = lossarnach27sister
 	
-	dna = morwensteelsheen_dna
+	dna = morwen_steelsheen_dna_2
 	
 	trait = education_diplomacy_3
 
@@ -77571,7 +77571,7 @@ linelagrionath = {
 
 	religion = faith_chelkar
 	culture = haruze
-	dna = lady_Lagreth_dna
+	dna = lady_lagreth_dna
 	
 	sexuality = heterosexual
 	
@@ -143112,7 +143112,6 @@ lineofangranc15 = {
 	dynasty = dynasty_molorion
 	religion = faith_edain
 	culture = gondorian
-	dna = borhador_dna
 
 	father = lineofangranc14
     mother = lineofangranc14wife
