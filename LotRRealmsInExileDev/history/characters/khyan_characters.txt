@@ -6026,6 +6026,7 @@ lineoftirdahan5 = {
 lineoftirdahan6 = {
 	name = Vashta
 	female = yes
+
 	dynasty_house = house_tirdahan	
 	religion = faith_arienism
     culture = khyan
@@ -6055,7 +6056,7 @@ lineoftirdahan7 = { # War of the Ring Ruler
 	dynasty_house = house_tirdahan	
 	religion = faith_arienism
     culture = khyan
-    dna = hoshedar_dna
+    dna = taxmaspada_ii_dna
 
 	fertility = 0.1 # He's quite low on kids
     sexuality = heterosexual
@@ -6069,12 +6070,12 @@ lineoftirdahan7 = { # War of the Ring Ruler
 
     diplomacy = 10
     martial = 6
-    stewardship = 7
-    intrigue = 5
+    stewardship = 8
+    intrigue = 7
     learning = 9
     prowess = 6
 
-	trait = education_learning_4
+	trait = education_learning_3
     trait = theologian
 
 	6963.4.2 = {			
@@ -6090,10 +6091,7 @@ lineoftirdahan7 = { # War of the Ring Ruler
 	    effect = {
             set_relation_nemesis = character:lineofvasnan42
 			set_relation_rival = character:lineofvasnan43
-		}
-        effect = {
-
-        }
+		}   
         effect = {
 			appoint_court_position = { # Aldhradan courtiers
 				recipient = character:lineofaldhradan13
@@ -6211,14 +6209,14 @@ lineoftirdahan10 = { # Nephew of Taxmaspada and his designated heir. Sent to Kho
 	trait = just
 	trait = honest
 
-    diplomacy = 8
+    diplomacy = 10
     martial = 10
     stewardship = 10
-    intrigue = 11
-    learning = 7
+    intrigue = 14
+    learning = 8
     prowess = 9
 
-    trait = education_martial_3
+    trait = education_martial_4
 
 	6996.4.12 = {			
 		birth = yes
@@ -6260,12 +6258,11 @@ lineoftirdahan11 = { # The less useful and more troublesome of the nephews
     diplomacy = 6
     martial = 7
     stewardship = 9
-    intrigue = 5
+    intrigue = 8
     learning = 5
     prowess = 3
 
     trait = education_diplomacy_2
-
 
     7000.4.11 = {
         birth = yes
@@ -8011,14 +8008,14 @@ lineofvasnan42 = { # Jahanabad the Greedy, rose up in revolt against the Emperor
     trait = cynical
     trait = callous
 
-    diplomacy = 10
+    diplomacy = 11
     martial = 6
     stewardship = 7
     intrigue = 7
     learning = 7
     prowess = 5
 
-    trait = education_intrigue_5 # Hendrix said to
+    trait = education_intrigue_4
 
     6990.10.16 = {
         birth = yes
@@ -9377,7 +9374,7 @@ lineofmahyar14 = {
     diplomacy = 8
     martial = 7
     stewardship = 7
-    intrigue = 11
+    intrigue = 10
     learning = 5
     prowess = 6
 
