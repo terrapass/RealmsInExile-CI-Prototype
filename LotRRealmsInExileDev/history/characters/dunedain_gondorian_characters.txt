@@ -10932,7 +10932,7 @@ lineoforontur19 = {
     name = D_unel
     female = yes
 
-    dynasty = dynasty_barahirion
+    dynasty = dynasty_caranmir
     religion = faith_edain
     culture = gondorian
 
