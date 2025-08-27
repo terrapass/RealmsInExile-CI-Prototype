@@ -2333,7 +2333,10 @@ lineofanarion55 = { # Elder Uncle of Castamir, Instigator of the Kin-Strife and 
 
 	5488.7.24 = {
 		death = { death_reason = death_natural_causes }
-	} = { # Younger Uncle of Castamir, Once Governor of Harondor. Member of the Southern League
+	}
+}
+    
+lineofanarion54 = { # Younger Uncle of Castamir, Once Governor of Harondor. Member of the Southern League
 	name = Elendin
     dna = elendin_castamirioni_dna
 
