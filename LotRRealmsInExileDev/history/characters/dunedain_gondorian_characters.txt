@@ -1507,7 +1507,7 @@ lineofanarion31 = {
 	}
 }	
 
-lineofanarion31brother = { # Brother of Minardil. Served as chief of intelligence during Hyarmendacil II's southern campaigns, growing sypathetic to the Castamiri while there. Fled to Umbar after Minardil's death, as suspision fell on him for orchastarting the attack.
+lineofanarion31brother = { # Brother of Minardil. Served as chief of intelligence during Hyarmendacil II's southern campaigns, growing sypathetic to the Castamiri while there. Fled to Umbar after Minardil's death, as suspision fell on him for orchestrating the attack.
 	name = Falassion
 
 	dynasty = dynasty_anarion
@@ -2335,7 +2335,7 @@ lineofanarion55 = { # Elder Uncle of Castamir, Instigator of the Kin-Strife and 
 		death = { death_reason = death_natural_causes }
 	}
 }
-
+    
 lineofanarion54 = { # Younger Uncle of Castamir, Once Governor of Harondor. Member of the Southern League
 	name = Elendin
     dna = elendin_castamirioni_dna
