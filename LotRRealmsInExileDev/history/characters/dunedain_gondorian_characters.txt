@@ -148334,6 +148334,7 @@ lineorthonn19 = {
     name = Palurien
     female = yes
 
+    dynasty = dynasty_orthonn
     religion = faith_edain
     culture = gondorian
 
