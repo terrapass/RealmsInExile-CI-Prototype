@@ -148334,6 +148334,7 @@ lineorthonn19 = {
     name = Palurien
     female = yes
 
+    dynasty = dynasty_orthonn
     religion = faith_edain
     culture = gondorian
 
@@ -271134,7 +271135,6 @@ lineoferadan8 = {
     name = Emeldir
     female = yes
 
-    dynasty = dynasty_eradanionath
     religion = faith_edain
     culture = umbaredain
 
@@ -271534,6 +271534,7 @@ lineoferadan19 = {
     name = Aranwen
     female = yes
 
+    dynasty = dynasty_eradanionath
     religion = faith_edain
     culture = umbaredain
 
@@ -271570,6 +271571,7 @@ lineoferadan20 = {
     name = Borwen
     female = yes
 
+    dynasty = dynasty_eradanionath
     religion = faith_edain
     culture = umbaredain
 
@@ -271841,6 +271843,7 @@ lineoferadan27 = {
     name = Hirwen
     female = yes
 
+    dynasty = dynasty_eradanionath
     religion = faith_edain
     culture = umbaredain
 
