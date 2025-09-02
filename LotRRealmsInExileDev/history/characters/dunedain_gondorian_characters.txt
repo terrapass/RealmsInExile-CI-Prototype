@@ -1507,7 +1507,7 @@ lineofanarion31 = {
 	}
 }	
 
-lineofanarion31brother = { # Brother of Minardil. Served as chief of intelligence during Hyarmendacil II's southern campaigns, growing sypathetic to the Castamiri while there. Fled to Umbar after Minardil's death, as suspision fell on him for orchastarting the attack.
+lineofanarion31brother = { # Brother of Minardil. Served as chief of intelligence during Hyarmendacil II's southern campaigns, growing sypathetic to the Castamiri while there. Fled to Umbar after Minardil's death, as suspision fell on him for orchestrating the attack.
 	name = Falassion
 
 	dynasty = dynasty_anarion
@@ -2335,7 +2335,7 @@ lineofanarion55 = { # Elder Uncle of Castamir, Instigator of the Kin-Strife and 
 		death = { death_reason = death_natural_causes }
 	}
 }
-
+    
 lineofanarion54 = { # Younger Uncle of Castamir, Once Governor of Harondor. Member of the Southern League
 	name = Elendin
     dna = elendin_castamirioni_dna
@@ -10935,7 +10935,7 @@ lineoforontur19 = {
     name = D_unel
     female = yes
 
-    dynasty = dynasty_barahirion
+    dynasty = dynasty_caranmir
     religion = faith_edain
     culture = gondorian
 
@@ -148334,6 +148334,7 @@ lineorthonn19 = {
     name = Palurien
     female = yes
 
+    dynasty = dynasty_orthonn
     religion = faith_edain
     culture = gondorian
 
@@ -271134,7 +271135,6 @@ lineoferadan8 = {
     name = Emeldir
     female = yes
 
-    dynasty = dynasty_eradanionath
     religion = faith_edain
     culture = umbaredain
 
@@ -271534,6 +271534,7 @@ lineoferadan19 = {
     name = Aranwen
     female = yes
 
+    dynasty = dynasty_eradanionath
     religion = faith_edain
     culture = umbaredain
 
@@ -271570,6 +271571,7 @@ lineoferadan20 = {
     name = Borwen
     female = yes
 
+    dynasty = dynasty_eradanionath
     religion = faith_edain
     culture = umbaredain
 
@@ -271841,6 +271843,7 @@ lineoferadan27 = {
     name = Hirwen
     female = yes
 
+    dynasty = dynasty_eradanionath
     religion = faith_edain
     culture = umbaredain
 
