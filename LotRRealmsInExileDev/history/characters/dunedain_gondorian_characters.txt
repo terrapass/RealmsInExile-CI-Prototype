@@ -138139,28 +138139,28 @@ lineofmanwedur3 = {
     }
 }
 
-# lineofmanwedur4 = {
-#     name = Andreth 
-#     female = yes
+lineofmanwedur4 = {
+    name = Andreth 
+    female = yes
+    dynasty = dynasty_nos_elmo
+    religion = faith_edain
+    culture = gondorian
 
-#     religion = faith_edain
-#     culture = gondorian
+    father = lineofmanwedur3
+    mother = lineoftelemir10
 
-    
+	trait = blood_of_numenor_9
+    4185.2.23 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
 
-
-# 	trait = blood_of_numenor_8
-#     4174.2.23 = {
-#         birth = yes
-# 		effect = {
-# 			learn_language = language_sindarin
-# 		}
-#     }
-
-#     4404.2.27 = {
-#         death = { death_reason = death_natural_causes }
-#     }
-# }
+    4444.2.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
 
 lineofmanwedur5 = {
     name = Veandil 
@@ -138171,9 +138171,6 @@ lineofmanwedur5 = {
 
     father = lineofmanwedur3
     mother = lineoftelemir10
-
-    
-
 
 	trait = blood_of_numenor_9
     4229.5.20 = {
@@ -281717,7 +281714,8 @@ lineofcethrandir1 = {
 	trait = eccentric				
 	trait = compassionate			
 	trait = honest	
-	trait = stubborn
+	# trait = stubborn
+    
 	trait = scholar	
 
 	trait = education_learning_4
@@ -282232,7 +282230,6 @@ lineofcethrandir12 = {
 	dynasty = dynasty_cethrandir
 	religion = faith_numenorean
 	culture = dunedain
-	female = yes
 
 	father = lineofcethrandir11
 	mother = lineofcethrandir11wife
@@ -282315,7 +282312,6 @@ lineofcethrandir14 = {
 	dynasty = dynasty_cethrandir
 	religion = faith_numenorean
 	culture = dunedain
-	female = yes
 
 	father = lineofcethrandir12
 	mother = lineofcethrandir12wife
@@ -282923,7 +282919,7 @@ lineofcethrandir27 = {
 	mother = lineofcethrandir24wife
 
     trait = diligent
-    trait = stubborn
+    # trait = stubborn
     trait = wrathful
     trait = eccentric	
 
@@ -283095,7 +283091,6 @@ lineofcethrandir29wife = {
 			learn_language = language_sindarin
 		}
     }
-
     4275.5.26 = {
         death = { death_reason = death_natural_causes }
     }
@@ -283182,7 +283177,7 @@ lineofcethrandir31 = {
 	}			
 }
 
-lineofcethrandir29wife = {
+lineofcethrandir31wife = {
     name = D_unel
     female = yes
 
@@ -283190,8 +283185,6 @@ lineofcethrandir29wife = {
     culture = dunedain
 
     sexuality = heterosexual
-
-    trait = blood_of_numenor_8
 
     trait = diligent
     trait = wrathful
@@ -283206,6 +283199,7 @@ lineofcethrandir29wife = {
 
     trait = education_learning_3
 
+    trait = blood_of_numenor_8
     4093.1.17 = {
         birth = yes
 		effect = {
@@ -283741,7 +283735,7 @@ lineofcethrandir39 = {
 		}
 	}
 	4897.10.30 = {
-        add_spouse = lineoftelemir26sister
+        add_spouse = lineofneithan19sister
 	}				
 	5050.11.3 = {
 		death = { death_reason = death_natural_causes } 			
@@ -284533,7 +284527,7 @@ lineofmaethorionath5 = {
     sexuality = heterosexual
 	
 	father = lineofmaethorionath4
-	mother = lineofmaethorionath4wife
+	# mother = lineofmaethorionath4wife
 
     trait = diligent		
 	trait = ambitious
@@ -284702,7 +284696,7 @@ lineofmaethorionath7 = {
 	mother = lineofhandir19sister
 
     trait = patient		
-	trait = callous
+	trait = vengeful
 	trait = sadistic
 
     diplomacy = 5
@@ -284808,10 +284802,6 @@ lineofelion3sister = {
         }
     }
 
-    4985.1.6 = {
-        add_spouse = lineoftelemir45sister
-    }
-
     5156.12.30 = {
         death = { death_reason = death_natural_causes }
     }
@@ -284890,14 +284880,14 @@ lineofmaethorionath9wife = {
 
     trait = education_diplomacy_2
 
-    4883.4.17 = {
+    5025.4.17 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin
 		}
     }
 
-    5081.2.14 = {
+    5250.2.14 = {
         death = { death_reason = death_natural_causes }
     }
 }	
@@ -284993,10 +284983,7 @@ lineofmaethorionath12 = {
 
     religion = faith_edain
     culture = orodbedhrim
-
     sexuality = homosexual
-
-    trait = blood_of_numenor_6
 
     trait = brave
     trait = vengeful
@@ -285075,6 +285062,7 @@ lineofmaethorionath13 = {
 lineofnarion38sister = {
     name = Lindraen
 
+    female = yes
     dynasty = dynasty_narion
     religion = faith_edain
     culture = gondorian
@@ -285715,6 +285703,7 @@ lineofborvegilionath3 = {
 lineofneithan25sister = {
     name = Melethris 
 
+    female = yes
     dynasty = dynasty_rond_rendul
     religion = faith_edain
     culture = orodbedhrim
