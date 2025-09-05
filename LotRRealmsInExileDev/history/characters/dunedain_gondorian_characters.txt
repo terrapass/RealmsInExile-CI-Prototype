@@ -614,6 +614,7 @@ lineofanarion15 = {
     prowess = 10
 
     trait = education_martial_3
+    trait = lifestyle_mariner
 
 	trait = blood_of_numenor_9
 	4687.1.1 = {
