@@ -617,6 +617,9 @@ lineofhaxamanish16 = { # Rise of Angmar Ruler
 
     5377.7.23 = { # Ascends the throne, claims regnal name
         name = Datuvahya
+        effect = {
+			add_character_flag = has_regnal_name
+		}
     }
 
     #All his sons shall have different mothers (so he will have four wives)
@@ -767,6 +770,9 @@ lineofhaxamanish21 = {
 
     5405.4.18 = { # Ascends the throne, claims regnal name
         name = Dadarshi
+        effect = {
+			add_character_flag = has_regnal_name
+		}
     }
 
     5444.2.27 = {
@@ -1257,6 +1263,9 @@ lineofhaxamanish37 = {
 
     5455.8.23 = { # Ascends the throne, claims regnal name
         name = Haxamanish
+        effect = {
+			add_character_flag = has_regnal_name
+		}
     }
 
     5499.2.27 = {
@@ -2249,6 +2258,9 @@ lineofhaxamanish71 = {
 
     5632.4.16 = { # Ascends the throne, claims regnal name
         name = Datuvahya
+        effect = {
+			add_character_flag = has_regnal_name
+		}
     }
 
     5675.3.12 = {
@@ -3702,6 +3714,9 @@ lineofardacher17 = {
 
     5967.2.17 = { # Ascends the throne, claims regnal name
         name = Khasha_a_ya_a_r
+        effect = {
+			add_character_flag = has_regnal_name
+		}
     }
 
     5983.5.1 = {
@@ -4679,6 +4694,9 @@ lineofphaxsharan10 = {
 
     6527.1.30 = { # Ascends the throne, claims regnal name
         name = Darayavahu
+        effect = {
+			add_character_flag = has_regnal_name
+		}
     }
 
     6555.5.3 = {
@@ -5271,6 +5289,9 @@ lineofaldhradan1 = { # First emperor of the 5th dynasty
 
     6783.8.21 = { # Ascends the throne, claims regnal name
         name = Aldhrad
+        effect = {
+			add_character_flag = has_regnal_name
+		}
     }
 
 	6795.4.12 = { 		
@@ -5301,6 +5322,9 @@ lineofaldhradan2 = {
     6795.4.12 = { # Ascends the throne, claims regnal name
         name = Artaban
         give_nickname = nick_the_fair
+        effect = {
+			add_character_flag = has_regnal_name
+		}
     }
 
 	6830.7.4 = { 		
@@ -5981,6 +6005,9 @@ lineoftirdahan4 = { # First Emperor of the Sixth Dynasty, Claims the throne by d
 
     6933.4.26 = { # Ascends the throne, claims regnal name
         name = Taxmaspada
+        effect = {
+			add_character_flag = has_regnal_name
+		}
     }
 
 	6978.4.22 = {
@@ -6088,6 +6115,9 @@ lineoftirdahan7 = { # War of the Ring Ruler
 
     7011.8.3 = { # Ascends the throne, claims regnal name
         name = Taxmaspada
+        effect = {
+			add_character_flag = has_regnal_name
+		}
 	    effect = {
             set_relation_nemesis = character:lineofvasnan42
 			set_relation_rival = character:lineofvasnan43

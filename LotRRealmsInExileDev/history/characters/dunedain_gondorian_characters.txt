@@ -614,6 +614,7 @@ lineofanarion15 = {
     prowess = 10
 
     trait = education_martial_3
+    trait = lifestyle_mariner
 
 	trait = blood_of_numenor_9
 	4687.1.1 = {
@@ -69980,7 +69981,7 @@ lineofaegardhcadet11wife = {
 linemaethorionath = {
 	name = "Maethor"
 
-	dynasty = dynasty_maethorionath
+	dynasty = dynasty_maethorath
 	religion = faith_edain
 	culture = harondorim
 	
@@ -70043,7 +70044,7 @@ linemaethorionathwife = {
 linemaethorionath1 = {
 	name = "Negenor"
 
-	dynasty = dynasty_maethorionath
+	dynasty = dynasty_maethorath
 	religion = faith_edain
 	culture = harondorim
 
@@ -70108,7 +70109,7 @@ linemaethorionath1wife = {
 linemaethorionath2 = {
 	name = "D_inenor"
 
-	dynasty = dynasty_maethorionath
+	dynasty = dynasty_maethorath
 	religion = faith_edain
 	culture = harondorim
 
@@ -70159,7 +70160,7 @@ linemaethorionath2 = {
 linemaethorionath3 = {
 	name = "Maewhir"
 
-	dynasty = dynasty_maethorionath
+	dynasty = dynasty_maethorath
 	religion = faith_edain
 	culture = harondorim
 
@@ -70227,7 +70228,7 @@ linemaethorionath3wife = {
 linemaethorionath4 = {
 	name = "U_lloth"
 	female = yes
-	dynasty = dynasty_maethorionath
+	dynasty = dynasty_maethorath
 	religion = faith_edain
 	culture = harondorim
 
@@ -70278,7 +70279,7 @@ linemaethorionath4 = {
 linemaethorionath5 = {
 	name = "Malgelir"
 
-	dynasty = dynasty_maethorionath
+	dynasty = dynasty_maethorath
 	religion = faith_edain
 	culture = harondorim
 
@@ -281704,3 +281705,4201 @@ lineofdaerimon1 = {
 		death = { death_reason = death_natural_causes }		
 	}	
 }
+
+##### Thorion Submission ####
+lineofcethrandir1 = {
+	name = Cethrandir # Bear-Friend (potential nicknames ideas)
+	
+	dynasty = dynasty_cethrandir			
+	religion = faith_numenorean				
+	culture = numenorean				
+
+	trait = eccentric				
+	trait = compassionate			
+	trait = honest	
+	trait = stubborn
+	trait = scholar	
+
+	trait = education_learning_4
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
+	2171.1.1 = {				
+		birth = yes	
+
+	}
+	2182.1.1 = {
+        add_spouse = lineofcethrandir1wife
+	}			
+	2431.1.1 = {				
+		death = { death_reason = death_bear } 			
+	}				
+}
+lineofcethrandir1wife = {
+	name = Thorondis
+	religion = faith_numenorean				
+	culture = numenorean
+	female = yes
+
+	trait = calm			
+	trait = brave				
+	trait = patient				
+	trait = education_intrigue_3
+
+
+	trait = blood_of_numenor_10
+	2185.1.1 = {				
+		birth = yes			
+		
+	}
+	2599.1.1 = {				
+		death = { death_reason = death_natural_causes } 			
+	}			
+}
+
+lineofcethrandir2 = {
+	name = Alrandir # Crestfallen-Son
+
+	dynasty = dynasty_cethrandir
+	religion = faith_numenorean
+	culture = numenorean
+
+	father = lineofcethrandir1
+	mother = lineofcethrandir1wife
+
+    trait = brave
+    trait = cynical
+    trait = just
+    trait = depressed_1
+
+	trait = education_martial_3
+	
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
+	2295.1.1 = {				
+		birth = yes	
+		
+	}
+	2381.1.1 = {
+        add_spouse = lineofcethrandir2wife
+	}					
+	2627.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofcethrandir2wife = {
+	name = Arvaeril
+	religion = faith_numenorean				
+	culture = numenorean
+	female = yes
+
+	trait = compassionate			
+	trait = arrogant				
+	trait = temperate		
+	trait = poet	
+	trait = education_stewardship_2
+
+
+	trait = blood_of_numenor_10
+	2185.1.1 = {				
+		birth = yes			
+		
+	}
+	2599.1.1 = {				
+		death = { death_reason = death_natural_causes } 			
+	}			
+}
+
+lineofcethrandir3 = {
+	name = Randis
+
+	dynasty = dynasty_cethrandir
+	religion = faith_numenorean
+	culture = numenorean
+
+	father = lineofcethrandir1
+	mother = lineofcethrandir1wife
+	female = yes
+	
+    trait = patient
+    trait = ambitious
+    trait = diligent	
+    trait = lifestyle_herbalist
+
+	trait = education_martial_4
+	
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
+	2301.1.1 = {				
+		birth = yes	
+		
+	}				
+	2622.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}	
+
+lineofcethrandir4 = {
+	name = Belennil
+
+	dynasty = dynasty_cethrandir
+	religion = faith_numenorean
+	culture = numenorean
+
+	father = lineofcethrandir2
+	mother = lineofcethrandir2wife
+
+    trait = lazy
+    trait = calm
+    trait = gregarious
+
+	trait = education_diplomacy_2
+	
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
+	2417.1.1 = {				
+		birth = yes	
+		
+	}				
+	2732.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}	
+
+lineofcethrandir5 = {
+	name = Formegil
+
+	dynasty = dynasty_cethrandir
+	religion = faith_numenorean
+	culture = numenorean
+
+	father = lineofcethrandir2
+	mother = lineofcethrandir2wife
+
+    trait = stubborn
+    trait = wrathful
+    trait = compassionate
+
+	trait = education_martial_2
+	
+	trait = blood_of_numenor_10
+	2439.1.1 = {				
+		birth = yes	
+		
+	}
+	2511.1.1 = {
+        add_spouse = lineofcethrandir5wife
+	}					
+	2741.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofcethrandir5wife = {
+	name = Glor_ian
+
+	religion = faith_numenorean				
+	culture = numenorean
+	female = yes
+
+	trait = deceitful			
+	trait = humble				
+	trait = forgiving	
+	trait = beauty_good_2	
+	trait = education_stewardship_2
+
+
+	trait = blood_of_numenor_10
+	2185.1.1 = {				
+		birth = yes			
+		
+	}
+	2599.1.1 = {				
+		death = { death_reason = death_natural_causes } 			
+	}			
+}
+
+lineofcethrandir6 = {
+	name = Andril
+
+	religion = faith_numenorean				
+	culture = numenorean
+	female = yes
+
+	father = lineofcethrandir5
+	mother = lineofcethrandir5wife
+
+	trait = callous		
+	trait = deceitful			
+	trait = calm		
+	trait = beauty_good_2
+	trait = education_intrigue_4
+
+
+	trait = blood_of_numenor_10
+	2519.1.1 = {				
+		birth = yes	
+		
+	}				
+	2827.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}	
+
+lineofcethrandir7 = {
+	name = Faelgon
+
+	dynasty = dynasty_cethrandir
+	religion = faith_numenorean
+	culture = numenorean
+
+	father = lineofcethrandir5
+	mother = lineofcethrandir5wife
+
+    trait = just
+    trait = impatient
+    trait = temperate
+	trait = beauty_good_1
+	trait = twin
+
+	trait = education_stewardship_3
+	
+	trait = blood_of_numenor_10
+	2525.1.1 = {				
+		birth = yes	
+		
+	}
+	2591.1.1 = {
+        add_spouse = lineofcethrandir7wife
+	}				
+	2831.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofcethrandir7wife = {
+	name = Gilwen
+
+	religion = faith_numenorean				
+	culture = numenorean
+	female = yes
+
+	trait = patient			
+	trait = content				
+	trait = callous
+	trait = lifestyle_mystic	
+	trait = intellect_good_1	
+	trait = education_learning_4
+
+
+	trait = blood_of_numenor_10
+	2505.1.1 = {				
+		birth = yes			
+		
+	}
+	2803.1.1 = {				
+		death = { death_reason = death_natural_causes } 			
+	}			
+}	
+
+lineofcethrandir8 = {
+	name = Haerandir
+
+	dynasty = dynasty_cethrandir
+	religion = faith_numenorean
+	culture = numenorean
+
+	father = lineofcethrandir5
+	mother = lineofcethrandir5wife
+
+	trait = lifestyle_mariner
+	trait = lifestyle_traveler
+    trait = ambitious
+    trait = brave
+    trait = stubborn
+	trait = beauty_good_2
+	trait = twin
+
+	trait = education_diplomacy_4
+	
+	trait = blood_of_numenor_10
+	2525.1.1 = {				
+		birth = yes	
+		
+	}
+	2625.3.2 = {
+        give_nickname = nick_of_many_lands
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+	}
+	2621.1.1 = {
+        add_spouse = lineofcethrandir8wife
+	}				
+	2833.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofcethrandir8wife = {
+	name = Eirien
+
+	religion = faith_numenorean				
+	culture = numenorean
+	female = yes
+
+	trait = brave			
+	trait = patient				
+	trait = ambitious		
+	trait = education_martial_2
+
+
+	trait = blood_of_numenor_10
+	2537.1.1 = {				
+		birth = yes			
+		
+	}
+	2826.1.1 = {				
+		death = { death_reason = death_natural_causes } 			
+	}			
+}	
+
+lineofcethrandir9 = {
+	name = Argon
+
+	dynasty = dynasty_cethrandir
+	religion = faith_numenorean
+	culture = numenorean
+
+	father = lineofcethrandir7
+	mother = lineofcethrandir7wife
+
+    trait = just
+    trait = diligent
+    trait = humble
+	trait = intellect_good_1
+
+	trait = education_stewardship_4
+	
+	trait = blood_of_numenor_10
+	2595.1.1 = {				
+		birth = yes	
+		
+	}
+	2702.1.1 = {
+        add_spouse = lineofcethrandir9wife
+	}				
+	2897.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofcethrandir9wife = {
+	name = Melethris
+
+	religion = faith_numenorean				
+	culture = numenorean
+	female = yes
+
+	trait = zealous			
+	trait = lustful				
+	trait = compassionate		
+	trait = education_intrigue_3
+
+
+	trait = blood_of_numenor_10
+	2607.1.1 = {				
+		birth = yes			
+		
+	}
+	2897.1.3 = {				
+		death = { death_reason = death_natural_causes } 			
+	}			
+}	
+
+lineofcethrandir10 = {
+	name = Argon
+
+	dynasty = dynasty_cethrandir
+	religion = faith_numenorean
+	culture = numenorean
+
+	father = lineofcethrandir8
+	mother = lineofcethrandir8wife
+
+    trait = brave
+    trait = wrathful
+    trait = impatient
+
+	trait = education_martial_4
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
+	2623.1.1 = {				
+		birth = yes	
+		
+	}
+	2702.1.1 = {
+        add_spouse = lineofcethrandir10wife
+	}				
+	2924.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofcethrandir10wife = {
+	name = Inzilaba_a_r
+
+	religion = faith_numenorean				
+	culture = numenorean
+	female = yes
+
+	trait = cynical			
+	trait = wrathful				
+	trait = brave		
+	trait = education_martial_3
+
+
+	trait = blood_of_numenor_10
+	trait = born_on_numenor	
+	2627.1.1 = {				
+		birth = yes			
+		
+	}
+	2911.1.3 = {				
+		death = { death_reason = death_natural_causes } 			
+	}			
+}	
+
+lineofcethrandir11 = {
+	name = Fingorn
+
+	dynasty = dynasty_cethrandir
+	religion = faith_numenorean
+	culture = numenorean
+
+	father = lineofcethrandir9
+	mother = lineofcethrandir9wife
+
+    trait = lazy
+    trait = content
+    trait = gregarious
+	trait = intellect_good_1
+
+	trait = education_learning_1
+	
+	trait = blood_of_numenor_10
+	2703.1.1 = {				
+		birth = yes	
+		
+	}
+	2851.1.1 = {
+        add_spouse = lineofcethrandir11wife
+	}				
+	2999.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofcethrandir11wife = {
+	name = Hariel
+
+	religion = faith_numenorean				
+	culture = numenorean
+	female = yes
+
+	trait = diligent			
+	trait = calm				
+	trait = gregarious		
+	trait = education_intrigue_3
+
+
+	trait = blood_of_numenor_10
+	2770.1.1 = {				
+		birth = yes			
+		
+	}
+	3064.1.3 = {				
+		death = { death_reason = death_natural_causes } 			
+	}			
+}	
+
+lineofcethrandir12 = {
+	name = Feinion
+
+	dynasty = dynasty_cethrandir
+	religion = faith_numenorean
+	culture = dunedain
+	female = yes
+
+	father = lineofcethrandir11
+	mother = lineofcethrandir11wife
+
+    trait = calm
+    trait = fickle
+    trait = just
+    trait = twin	
+
+	trait = education_learning_2
+	
+	trait = blood_of_numenor_10
+	2855.1.1 = {				
+		birth = yes	
+		
+	}
+	2939.1.1 = {
+        add_spouse = lineofcethrandir12wife
+	}				
+	3149.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofcethrandir12wife = {
+	name = Thorondis
+
+	religion = faith_numenorean				
+	culture = numenorean
+	female = yes
+
+	trait = diligent			
+	trait = calm				
+	trait = gregarious		
+	trait = education_intrigue_3
+
+
+	trait = blood_of_numenor_10
+	trait = born_on_numenor
+	2849.1.1 = {				
+		birth = yes			
+		
+	}
+	3141.1.3 = {				
+		death = { death_reason = death_natural_causes } 			
+	}			
+}	
+
+lineofcethrandir13 = {
+	name = Feniel
+
+	dynasty = dynasty_cethrandir
+	religion = faith_numenorean
+	culture = dunedain
+
+	father = lineofcethrandir11
+	mother = lineofcethrandir11wife
+
+    trait = compassionate
+    trait = shy
+    trait = gluttonous
+    trait = twin
+
+	trait = education_intrigue_2
+	
+	trait = blood_of_numenor_10
+	2855.1.1 = {				
+		birth = yes	
+
+		
+	}				
+	3147.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}	
+
+lineofcethrandir14 = {
+	name = Haerandir
+
+	dynasty = dynasty_cethrandir
+	religion = faith_numenorean
+	culture = dunedain
+	female = yes
+
+	father = lineofcethrandir12
+	mother = lineofcethrandir12wife
+
+    trait = gregarious
+    trait = patient
+    trait = fickle	
+    trait = athletic
+	trait = adventurer	
+
+	trait = education_learning_4
+	
+	trait = blood_of_numenor_10
+	2940.1.1 = {				
+		birth = yes	
+		
+	}
+	3079.3.2 = {
+        give_nickname = nick_of_many_lands
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+	}
+	3067.1.1 = {
+        add_spouse = lineofcethrandir14wife
+	}				
+	3234.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofcethrandir14wife = {
+	name = Borondis
+
+	religion = faith_numenorean				
+	culture = dunedain
+	female = yes
+
+	trait = gregarious			
+	trait = stubborn				
+	trait = calm
+	trait = adventurer_follower	
+	trait = education_intrigue_1
+
+
+	trait = blood_of_numenor_10
+	2945.1.1 = {				
+		birth = yes			
+		
+	}
+	3228.1.3 = {				
+		death = { death_reason = death_natural_causes } 			
+	}			
+}	
+
+lineofcethrandir15 = {
+	name = Alrandir
+
+	dynasty = dynasty_cethrandir
+	religion = faith_numenorean
+	culture = dunedain
+
+	father = lineofcethrandir14
+	mother = lineofcethrandir14wife
+
+    trait = brave
+    trait = gregarious
+    trait = lazy
+	trait = adventurer_follower	
+
+	trait = education_martial_4
+	
+	trait = blood_of_numenor_10
+	3069.1.1 = {				
+		birth = yes	
+		
+	}
+	3161.1.1 = {
+        add_spouse = lineofcethrandir15wife
+	}				
+	3359.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}	
+
+lineofcethrandir15wife = {
+	name = Baraloth
+
+	religion = faith_numenorean				
+	culture = dunedain
+	female = yes
+
+	trait = impatient			
+	trait = zealous		
+	trait = wrathful
+	trait = adventurer_follower
+	
+	trait = education_learning_3
+
+
+	trait = blood_of_numenor_10
+	3070.1.1 = {				
+		birth = yes			
+		
+	}
+	3363.1.3 = {				
+		death = { death_reason = death_natural_causes } 			
+	}			
+}
+
+lineofcethrandir16 = {
+	name = Baraloth
+
+	dynasty = dynasty_cethrandir
+	religion = faith_numenorean
+	culture = dunedain
+	female = yes
+
+	father = lineofcethrandir15
+	mother = lineofcethrandir15wife
+
+    trait = brave
+    trait = impatient
+    trait = zealous	
+
+	trait = education_martial_2
+	
+	trait = blood_of_numenor_10
+	3162.1.1 = {				
+		birth = yes	
+		
+	}				
+	3449.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}	
+
+lineofcethrandir17 = {
+	name = Anorion
+
+	dynasty = dynasty_cethrandir
+	religion = faith_numenorean
+	culture = dunedain
+
+	father = lineofcethrandir15
+	mother = lineofcethrandir15wife
+
+    trait = compassionate
+    trait = wrathful
+    trait = stubborn
+	trait = twin	
+
+	trait = education_learning_4
+	
+	trait = blood_of_numenor_10
+	3165.1.1 = {				
+		birth = yes	
+		
+	}
+	3260.1.1 = {
+        add_spouse = lineofcethrandir17wife
+	}				
+	3454.5.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}	
+
+lineofcethrandir17wife = {
+	name = C_irwen
+
+	religion = faith_numenorean				
+	culture = dunedain
+	female = yes
+
+	trait = patient			
+	trait = calm	
+	trait = compassionate
+	
+	trait = education_learning_3
+
+
+	trait = blood_of_numenor_10
+	3160.1.1 = {				
+		birth = yes			
+		
+	}
+	3460.1.1 = {				
+		death = { death_reason = death_natural_causes } 			
+	}			
+}	
+
+lineofcethrandir18 = {
+	name = Anoriel
+
+	dynasty = dynasty_cethrandir
+	religion = faith_numenorean
+	culture = dunedain
+	female = yes
+
+	father = lineofcethrandir15
+	mother = lineofcethrandir15wife
+
+    trait = calm
+    trait = stubborn
+    trait = patient
+	trait = twin	
+
+	trait = education_intrigue_4
+	
+	trait = blood_of_numenor_10
+	3165.1.1 = {				
+		birth = yes	
+		
+	}				
+	3454.3.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}	
+
+lineofcethrandir19 = {
+	name = Glorvegil
+
+	dynasty = dynasty_cethrandir
+	religion = faith_numenorean
+	culture = dunedain
+
+	father = lineofcethrandir17
+	mother = lineofcethrandir17wife
+
+    trait = just
+    trait = brave
+    trait = arrogant	
+
+	trait = education_martial_3
+	
+	trait = blood_of_numenor_10
+	3262.1.1 = {				
+		birth = yes	
+		
+	}
+	3351.1.1 = {
+        add_spouse = lineofcethrandir19wife
+	}				
+	3549.5.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}	
+
+lineofcethrandir19wife = {
+	name = _Irith
+
+	religion = faith_numenorean				
+	culture = dunedain
+	female = yes
+
+	trait = temperate		
+	trait = craven	
+	trait = compassionate
+	
+	trait = education_learning_3
+
+
+	trait = blood_of_numenor_10
+	3270.1.1 = {				
+		birth = yes			
+		
+	}
+	3561.1.1 = {				
+		death = { death_reason = death_natural_causes } 			
+	}			
+}	
+
+lineofcethrandir20 = {
+	name = Golonnil
+
+	dynasty = dynasty_cethrandir
+	religion = faith_numenorean
+	culture = dunedain
+
+	father = lineofcethrandir19
+	mother = lineofcethrandir19wife
+
+    trait = craven
+    trait = diligent
+    trait = temperate	
+
+	trait = education_learning_3
+	
+	trait = blood_of_numenor_10
+	3353.1.1 = {				
+		birth = yes	
+		
+	}
+	3445.1.1 = {
+        add_spouse = lineofcethrandir20wife
+	}				
+	3638.5.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}	
+
+lineofcethrandir20wife = {
+	name = Methoriel
+
+	religion = faith_numenorean				
+	culture = dunedain
+	female = yes
+
+	trait = brave		
+	trait = zealous	
+	trait = gluttonous
+	
+	trait = education_martial_2
+
+
+	trait = blood_of_numenor_10
+	3351.1.1 = {				
+		birth = yes			
+		
+	}
+	3632.1.1 = {				
+		death = { death_reason = death_natural_causes } 			
+	}			
+}	
+
+lineofcethrandir21 = {
+	name = Glastor
+
+	dynasty = dynasty_cethrandir
+	religion = faith_numenorean
+	culture = dunedain
+
+	father = lineofcethrandir20
+	mother = lineofcethrandir20wife
+
+    trait = trusting
+    trait = honest
+    trait = diligent	
+
+	trait = education_stewardship_2
+	
+	trait = blood_of_numenor_10
+	3447.1.1 = {				
+		birth = yes	
+		
+	}
+	3544.1.1 = {
+        add_spouse = lineofcethrandir21wife
+	}				
+	3730.5.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}	
+
+lineofcethrandir21wife = {
+	name = Pathes
+
+	religion = faith_numenorean				
+	culture = dunedain
+	female = yes
+
+	trait = calm		
+	trait = patient	
+	trait = content
+	
+	trait = education_intrigue_4
+
+
+	trait = blood_of_numenor_9
+	3460.1.1 = {				
+		birth = yes			
+		
+	}
+	3735.1.1 = {				
+		death = { death_reason = death_natural_causes } 			
+	}			
+}	
+
+lineofcethrandir22 = {
+	name = Maldir
+
+	dynasty = dynasty_cethrandir
+	religion = faith_numenorean
+	culture = dunedain
+
+	father = lineofcethrandir21
+	mother = lineofcethrandir21wife
+
+    trait = generous
+    trait = honest
+    trait = humble	
+
+	trait = education_stewardship_4
+	
+	trait = blood_of_numenor_10
+	3545.1.1 = {				
+		birth = yes	
+		
+	}
+	3660.1.1 = {
+        add_spouse = lineofcethrandir22wife
+	}				
+	3827.5.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}	
+
+lineofcethrandir22wife = {
+	name = Lindraen
+
+	religion = faith_numenorean				
+	culture = dunedain
+	female = yes
+
+	trait = content		
+	trait = shy	
+	trait = compassionate
+	trait = poet
+	
+	trait = education_diplomacy_2
+
+
+	trait = blood_of_numenor_10
+	3540.1.1 = {				
+		birth = yes			
+		
+	}
+	3830.1.1 = {				
+		death = { death_reason = death_natural_causes } 			
+	}			
+}	
+
+lineofcethrandir23 = {
+	name = Otholon
+
+	dynasty = dynasty_cethrandir
+	religion = faith_numenorean
+	culture = dunedain
+
+	father = lineofcethrandir21
+	mother = lineofcethrandir21wife
+
+    trait = callous
+    trait = arbitrary
+    trait = brave	
+
+	trait = education_intrigue_3
+	
+	trait = blood_of_numenor_10
+	3549.1.1 = {				
+		birth = yes	
+
+	}				
+	3829.5.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}	
+
+lineofcethrandir24 = {
+	name = Bauradan
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = dunedain
+
+	father = lineofcethrandir22
+	mother = lineofcethrandir22wife
+
+    trait = paranoid
+    trait = compassionate
+    trait = humble	
+
+	trait = education_learning_2
+	
+	trait = blood_of_numenor_10
+	3661.1.1 = {				
+		birth = yes	
+		
+	}
+	3783.1.1 = {
+        add_spouse = lineofcethrandir24wife
+	}				
+	3946.5.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}	
+
+lineofcethrandir24wife = {
+	name = Helloth
+
+    religion = faith_edain				
+	culture = dunedain
+	female = yes
+
+	trait = cynical		
+	trait = callous	
+	trait = just
+	trait = beauty_good_1
+	
+	trait = education_learning_3
+
+
+	trait = blood_of_numenor_9
+	3695.1.1 = {				
+		birth = yes			
+		
+	}
+	3970.1.1 = {				
+		death = { death_reason = death_natural_causes } 			
+	}			
+}	
+
+lineofcethrandir25 = {
+	name = Bauradan
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = dunedain
+
+	father = lineofcethrandir24
+	mother = lineofcethrandir24wife
+
+    trait = shy
+    trait = compassionate
+    trait = humble	
+
+	trait = education_learning_2
+	
+	trait = blood_of_numenor_10
+	3805.1.1 = {				
+		birth = yes	
+		
+	}
+	3870.1.1 = {
+        add_spouse = lineofcethrandir25wife
+	}				
+	4033.5.1 = {
+		death = { death_reason = death_battle }
+	}
+}	
+
+lineofcethrandir25wife = {
+	name = Helloth
+
+    religion = faith_edain				
+	culture = dunedain
+	female = yes
+
+	trait = cynical		
+	trait = callous	
+	trait = just
+	trait = beauty_good_1
+	
+	trait = education_learning_3
+
+
+	trait = blood_of_numenor_10
+	trait = born_on_numenor
+	3800.1.1 = {				
+		birth = yes			
+		
+	}
+	4062.1.1 = {				
+		death = { death_reason = death_natural_causes } 			
+	}			
+}	
+
+lineofcethrandir26 = {
+	name = Belecthir
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = dunedain
+
+	father = lineofcethrandir24
+	mother = lineofcethrandir24wife
+
+    trait = brave
+    trait = just
+    trait = callous	
+
+	trait = education_martial_3
+	
+	trait = blood_of_numenor_9
+	3808.1.1 = {				
+		birth = yes	
+
+	}				
+	4032.5.1 = {
+		death = { death_reason = death_battle }
+	}
+}	
+
+lineofcethrandir27 = {
+	name = Baraloth
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = dunedain
+	female = yes
+
+	father = lineofcethrandir24
+	mother = lineofcethrandir24wife
+
+    trait = diligent
+    trait = stubborn
+    trait = wrathful
+    trait = eccentric	
+
+	trait = education_learning_3
+	
+	trait = blood_of_numenor_9
+	3806.3.12 = {				
+		birth = yes	
+		
+	}				
+	4068.3.24 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofcethrandir28 = {
+	name = Palandir # Bear-Rider
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = dunedain
+	
+    sexuality = heterosexual
+
+	father = lineofcethrandir25
+	mother = lineofcethrandir25wife
+
+	trait = eccentric				
+	trait = vengeful			
+	trait = patient	
+	trait = brave	
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 3
+    intrigue = 4
+    learning = 7
+    prowess = 3
+
+	trait = education_learning_4
+	
+	trait = blood_of_numenor_9
+	3901.2.16 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}
+	3793.3.19 = {
+        add_spouse = lineofcethrandir28wife
+	}				
+	4179.5.15 = {
+		death = { death_reason = death_natural_causes } 			
+	}			
+}
+
+lineofcethrandir28wife = {
+    name = Bardhien
+    female = yes
+
+    dynasty = dynasty_telemirionath
+    religion = faith_edain
+    culture = dunedain
+
+    sexuality = heterosexual
+	
+    father = lineoftelemir2
+    mother = lineoftelemir3
+
+    trait = blood_of_numenor_10
+
+    trait = brave
+    trait = patient
+    trait = just
+    trait = physique_good_2
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 3
+    intrigue = 4
+    learning = 6
+    prowess = 2
+
+    trait = education_learning_3
+
+    3900.5.15 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+    }
+
+    4188.5.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofcethrandir29 = {
+	name = H_uron
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = dunedain
+	
+    sexuality = heterosexual
+
+	father = lineofcethrandir28
+	mother = lineofcethrandir28wife
+
+	trait = brave				
+	trait = stubborn			
+	trait = diligent	
+    trait = physique_good_2
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 4
+    intrigue = 5
+    learning = 6
+    prowess = 9
+	
+    trait = education_martial_3
+	
+    trait = blood_of_numenor_10	
+	3973.2.12 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}
+	4072.12.11 = {
+        add_spouse = lineofcethrandir29wife
+	}				
+	4257.5.21 = {
+		death = { death_reason = death_natural_causes } 			
+	}			
+}
+
+lineofcethrandir29wife = {
+    name = Veaniel
+    female = yes
+
+    religion = faith_edain
+    culture = dunedain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_9
+
+    trait = calm
+    trait = temperate
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 3
+    intrigue = 9
+    learning = 7
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    4001.5.15 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    4275.5.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofcethrandir30 = {
+	name = Palandir
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = dunedain
+	
+    sexuality = heterosexual
+
+	father = lineofcethrandir28
+	mother = lineofcethrandir28wife
+
+    trait = generous
+    trait = stubborn
+    trait = calm
+	trait = lifestyle_mystic
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 5
+    intrigue = 4
+    learning = 8
+    prowess = 8
+
+    trait = blood_of_numenor_9
+
+    trait = education_learning_3
+	3977.2.12 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}				
+	4256.5.21 = {
+		death = { death_reason = death_natural_causes } 			
+	}			
+}	
+
+lineofcethrandir31 = {
+	name = Glorvegil
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = dunedain
+	
+    sexuality = heterosexual
+
+	father = lineofcethrandir29
+	mother = lineofcethrandir29wife
+
+    trait = generous
+    trait = stubborn
+    trait = calm
+    trait = physique_good_1
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_2
+	
+    trait = blood_of_numenor_9	
+	4080.2.12 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}
+	4165.5.17 = {
+        add_spouse = lineofcethrandir31wife 
+	}				
+	4359.2.12 = {
+		death = { death_reason = death_natural_causes } 			
+	}			
+}
+
+lineofcethrandir29wife = {
+    name = D_unel
+    female = yes
+
+    religion = faith_edain
+    culture = dunedain
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = diligent
+    trait = wrathful
+    trait = arrogant
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 10
+    prowess = 6
+
+    trait = education_learning_3
+
+    4093.1.17 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya
+		}
+    }
+
+    4348.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofcethrandir32 = {
+    name = Gl_orillin
+    female = yes
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = gondorian
+	
+    sexuality = heterosexual
+
+	father = lineofcethrandir28
+	mother = lineofcethrandir28wife
+
+    trait = generous
+    trait = gregarious
+    trait = arrogant
+    trait = poet
+    trait = physique_good_1
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 5
+    intrigue = 2
+    learning = 8
+    prowess = 5
+
+    trait = blood_of_numenor_9
+
+    trait = education_diplomacy_3
+	3981.4.11 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}				
+	4260.7.19 = {
+		death = { death_reason = death_natural_causes } 			
+	}			
+}	
+
+lineofcethrandir33 = {
+	name = Carthaen
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = dunedain
+	
+    sexuality = heterosexual
+
+	father = lineofcethrandir31
+	mother = lineofcethrandir31wife
+
+    trait = just
+    trait = wrathful
+    trait = arrogant
+	
+    trait = athletic
+
+    diplomacy = 8
+    martial = 11
+    stewardship = 9
+    intrigue = 7
+    learning = 14
+    prowess = 11
+
+    trait = education_learning_4
+	
+    trait = blood_of_numenor_9	
+	4175.2.12 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}
+	4245.5.17 = {
+        add_spouse = lineofmanwedur4
+	}				
+	4446.2.12 = {
+		death = { death_reason = death_natural_causes } 			
+	}			
+}	
+
+lineofcethrandir34 = {
+	name = Celevnor
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = gondorian
+	
+    sexuality = heterosexual
+
+	father = lineofcethrandir33
+	mother = lineofmanwedur4
+
+    trait = compassionate
+    trait = arrogant
+    trait = stubborn
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_3
+	
+    trait = blood_of_numenor_9	
+	4262.2.12 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}
+	4410.5.17 = {
+        add_spouse = lineofcethrandir34wife
+	}				
+	4547.2.12 = {
+		death = { death_reason = death_natural_causes } 			
+	}			
+}
+
+lineofcethrandir34wife = {
+    name = Bregiel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = fickle
+    trait = arbitrary
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 9
+    prowess = 5
+
+    trait = education_learning_2
+
+    4321.1.17 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya
+		}
+    }
+
+    4578.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofcethrandir35 = {
+	name = Celebrond
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = gondorian
+	
+    sexuality = heterosexual
+
+	father = lineofcethrandir33
+	mother = lineofmanwedur4
+
+    trait = diligent
+    trait = arrogant
+    trait = stubborn
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 3
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_3
+	
+    trait = blood_of_numenor_9	
+	4421.12.19 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}
+	4510.7.18 = {
+        add_spouse = lineofcethrandir35wife
+	}				
+	4686.3.16 = {
+		death = { death_reason = death_natural_causes } 			
+	}			
+}
+
+lineofcethrandir35wife = {
+    name = Morwen
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = compassionate
+    trait = shy
+    trait = content
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 5
+    intrigue = 3
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    4447.3.27 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya
+		}
+    }
+
+    4665.4.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofcethrandir36 = {
+	name = Ithillil
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = gondorian
+	
+    sexuality = heterosexual
+
+	father = lineofcethrandir35
+	mother = lineofcethrandir35wife
+
+    trait = trusting
+    trait = diligent
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 7
+    intrigue = 2
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+	
+    trait = blood_of_numenor_8	
+	4521.11.2 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}
+	4600.2.11 = {
+        add_spouse = lineostomir13sister2
+	}				
+	4778.10.1 = {
+		death = { death_reason = death_natural_causes } 			
+	}			
+}
+
+lineostomir13sister2 = {
+	name = Ariel
+	female = yes
+	
+	father = lineostomir12
+
+	dynasty = dynasty_ostomir
+	religion = faith_edain
+	culture = gondorian
+
+    trait = honest
+    trait = diligent
+    trait = compassionate
+	
+	trait = beauty_good_2
+	trait = intellect_good_1
+	
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 5
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_4
+
+	trait = blood_of_numenor_8
+
+	4512.2.17 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}				
+	}
+	4768.2.28 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofcethrandir37 = {
+	name = Ithilvor
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = gondorian
+	
+    sexuality = homosexual
+
+	father = lineofcethrandir35
+	mother = lineostomir13sister2
+
+    trait = brave
+    trait = callous
+    trait = stubborn
+	
+	trait = beauty_good_1
+	trait = intellect_good_2
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 7
+    intrigue = 3
+    learning = 10
+    prowess = 9
+
+    trait = education_learning_4
+	
+    trait = blood_of_numenor_8	
+	4617.11.2 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}
+	4701.2.11 = {
+        add_spouse = lineoftelemir26sister
+	}				
+	4860.10.1 = {
+		death = { death_reason = death_natural_causes } 			
+	}			
+}
+
+lineoftelemir26sister = {
+    name = Feredis
+	female = yes
+
+    dynasty = dynasty_telemirionath
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoftelemir23
+    mother = lineoftelemir24
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = wrathful
+    trait = brave
+    trait = paranoid
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 4
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_learning_2
+
+    4627.4.13 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    4866.6.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofcethrandir38 = {
+	name = Ithilnur
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = orodbedhrim
+	
+    sexuality = homosexual
+
+	father = lineofcethrandir37
+	mother = lineoftelemir26sister
+
+    trait = brave
+    trait = paranoid
+    trait = deceitful
+	
+	trait = beauty_good_1
+	trait = intellect_good_1
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 7
+
+    trait = education_learning_3
+	
+    trait = blood_of_numenor_8	
+	4711.3.4 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}
+	4799.9.23 = {
+        add_spouse = lineofgundor8sister
+	}				
+	4952.10.1 = {
+		death = { death_reason = death_natural_causes } 			
+	}			
+}
+
+lineofgundor8sister = {
+    name = Elweth
+	female = yes
+
+    dynasty_house = house_gundor
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofgundor6
+    mother = lineofgundor7
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = fickle
+    trait = just
+    trait = generous
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    4707.12.9 = {
+        birth = yes
+    }
+
+    4955.3.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofcethrandir39 = {
+	name = Elion
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = orodbedhrim
+	
+    sexuality = heterosexual
+
+	father = lineofcethrandir38
+	mother = lineofgundor8sister
+
+    trait = just
+    trait = calm
+    trait = deceitful
+	
+	trait = beauty_good_1
+	trait = intellect_good_1
+
+    diplomacy = 8
+    martial = 10
+    stewardship = 12
+    intrigue = 7
+    learning = 12
+    prowess = 11
+
+    trait = education_stewardship_3
+	
+    trait = blood_of_numenor_8	
+	4806.1.14 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}
+	4897.10.30 = {
+        add_spouse = lineoftelemir26sister
+	}				
+	5050.11.3 = {
+		death = { death_reason = death_natural_causes } 			
+	}			
+}
+
+lineofneithan19sister = {
+    name = Orodien
+	female = yes
+
+    dynasty = dynasty_rond_rendul
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofneithan17
+    mother = lineofneithan18
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = arrogant
+    trait = callous
+    trait = temperate
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 4
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    4835.7.15 = {
+        birth = yes
+    }
+
+    5052.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+
+lineofcethrandir40 = {
+	name = Ithillil
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = orodbedhrim
+	
+    sexuality = homosexual
+
+	father = lineofcethrandir38
+	mother = lineofgundor8sister
+
+    trait = fickle
+    trait = brave
+    trait = trusting
+	
+	trait = beauty_good_2
+
+    diplomacy = 7
+    martial = 12
+    stewardship = 10
+    intrigue = 7
+    learning = 12
+    prowess = 14
+
+    trait = education_learning_3
+	
+    trait = blood_of_numenor_8	
+	4808.1.14 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}				
+	5051.11.1 = {
+		death = { death_reason = death_natural_causes } 			
+	}			
+}
+
+lineofcethrandir41 = {
+	name = Elur
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = orodbedhrim
+	
+    sexuality = heterosexual
+
+	father = lineofcethrandir39
+	mother = lineofneithan19sister
+
+    trait = arrogant
+    trait = wrathful
+    trait = brave
+	
+	trait = beauty_good_2
+
+    diplomacy = 7
+    martial = 14
+    stewardship = 10
+    intrigue = 5
+    learning = 10
+    prowess = 14
+
+    trait = education_martial_4
+	
+    trait = blood_of_numenor_8	
+	4906.2.4 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+		}
+	}				
+	5058.6.17 = {
+		death = { death_reason = death_murder  } 			
+	}			
+}
+
+lineofcethrandir42 = {
+	name = Elvegil
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = orodbedhrim
+	
+    sexuality = heterosexual
+
+	father = lineofcethrandir39
+	mother = lineofneithan19sister
+
+    trait = temperate
+    trait = calm
+    trait = brave
+	
+	trait = beauty_good_1
+	trait = intellect_good_2
+
+    diplomacy = 5
+    martial = 11
+    stewardship = 10
+    intrigue = 7
+    learning = 12
+    prowess = 11
+
+    trait = education_martial_4
+	
+    trait = blood_of_numenor_8	
+	4911.3.14 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+		}
+	}
+	4972.5.7 = {
+        add_spouse = lineofmanwedur21sister
+	}				
+	5151.4.23 = {
+		death = { death_reason = death_natural_causes } 			
+	}			
+}
+
+lineofmanwedur21sister = {
+    name = Ereniel
+	female = yes
+
+    dynasty = dynasty_nos_elmo
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofmanwedur19
+    mother = lineofmanwedur20
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = compassionate
+    trait = content
+    trait = trusting
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 11
+    prowess = 5
+
+    trait = education_learning_3
+
+    4887.7.15 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+    }
+
+    5082.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofcethrandir43 = {
+	name = Cethrandir
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = orodbedhrim
+	
+    sexuality = homosexual
+
+	father = lineofcethrandir42
+	mother = lineofmanwedur21sister
+
+    trait = honest
+    trait = content
+    trait = calm
+	trait = scholar	
+	
+	trait = intellect_good_2
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 11
+    intrigue = 6
+    learning = 12
+    prowess = 9
+
+    trait = education_learning_4
+	
+    trait = blood_of_numenor_7	
+	4977.3.14 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}
+	5093.5.7 = {
+        add_spouse = lineofmaratar27sister2
+	}				
+	5208.4.23 = {
+		death = { death_reason = death_natural_causes } 			
+	}			
+}
+
+lineofmaratar27sister2 = {
+    name = Anoriel
+    female = yes
+
+    dynasty = dynasty_maratarionath
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofmaratar25
+    mother = lineofmaratar26
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = generous
+    trait = wrathful
+    trait = humble
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 7
+    intrigue = 2
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    5033.7.15 = {
+        birth = yes
+    }
+
+    5252.1.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofcethrandir44 = {
+	name = Anorion
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = orodbedhrim
+	
+    sexuality = heterosexual
+
+	father = lineofcethrandir43
+	mother = lineofmaratar27sister2
+
+    trait = just
+    trait = humble
+    trait = wrathful
+    trait = twin
+	
+	trait = intellect_good_1
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 8
+    intrigue = 4
+    learning = 10
+    prowess = 10
+
+    trait = education_learning_3
+	
+    trait = blood_of_numenor_7	
+	5111.8.21 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}
+	5207.2.1 = {
+        add_spouse = lineofmaratar27sister2
+	}				
+	5338.5.25 = {
+		death = { death_reason = death_natural_causes } 			
+	}			
+}
+
+lineofcethrandir45 = {
+	name = Andril
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = orodbedhrim
+    female = yes
+	
+    sexuality = heterosexual
+
+	father = lineofcethrandir43
+	mother = lineofmaratar27sister2
+
+    trait = generous
+    trait = arrogant
+    trait = calm
+	
+	trait = intellect_good_3
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 9
+    intrigue = 7
+    learning = 14
+    prowess = 9
+
+    trait = education_learning_3
+	
+    trait = blood_of_numenor_7	
+	5111.8.21 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}				
+	5338.9.30 = {
+		death = { death_reason = death_natural_causes } 			
+	}			
+}
+
+lineofcethrandir46 = {
+	name = Anoradan
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = orodbedhrim
+	
+    sexuality = heterosexual
+
+	father = lineofcethrandir43
+	mother = lineofmaratar27sister2
+
+    trait = just
+    trait = arrogant
+    trait = calm
+	
+	trait = intellect_good_2
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 8
+    intrigue = 4
+    learning = 10
+    prowess = 10
+
+    trait = education_learning_4
+	
+    trait = blood_of_numenor_7	
+	5209.2.11 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}
+	5297.2.1 = {
+        add_spouse = lineoftelemir54		
+	}	
+    5433.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }		
+}
+
+lineofcethrandir47 = {
+	name = Celebloth
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = orodbedhrim
+    female = yes
+	
+    sexuality = heterosexual
+
+	father = lineofcethrandir43
+	mother = lineofmaratar27sister2
+
+    trait = callous
+    trait = patient
+    trait = just
+	
+	trait = intellect_good_2
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 11
+    intrigue = 6
+    learning = 9
+    prowess = 9
+
+    trait = education_martial_3
+	
+    trait = blood_of_numenor_7	
+	5212.8.21 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}
+    5433.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }							
+}
+
+lineofcethrandir48 = {
+	name = Borvegil
+
+	dynasty = dynasty_cethrandir
+    religion = faith_edain
+	culture = orodbedhrim
+	
+    sexuality = heterosexual
+
+	father = lineofcethrandir43
+	mother = lineofmaratar27sister2
+
+    trait = brave
+    trait = temperate
+    trait = wrathful
+	
+	trait = intellect_good_1
+
+    diplomacy = 7
+    martial = 14
+    stewardship = 7
+    intrigue = 5
+    learning = 9
+    prowess = 14
+
+    trait = education_martial_3
+	
+    trait = blood_of_numenor_7	
+	5217.2.11 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}
+	5297.2.1 = {
+        add_spouse = lineoftelemir54			
+	}
+    5440.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }		
+}
+
+### Maethorionath 
+
+lineofmaethorionath1 = {
+	name = Maethorion # Fiery Warrior (potential nicknames ideas)
+
+	dynasty = dynasty_maethorionath
+    religion = faith_edain
+	culture = caledhrim
+	
+    sexuality = heterosexual
+
+    trait = ambitious			
+	trait = brave
+	trait = wrathful	
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 7
+    intrigue = 2
+    learning = 5
+    prowess = 10
+	
+	trait = physique_good_2
+    trait = cavalry_leader
+
+	trait = education_martial_3
+	
+	trait = blood_of_numenor_8
+	4390.3.23 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+		}
+	}
+	4487.4.11 = {
+        add_spouse = lineofmaethorionath1wife
+	}				
+	4574.8.17 = { # Slain in renewed assault upon Gondor by the Easterlings
+		death = { death_reason = death_battle }		
+	}			
+}
+
+lineofmaethorionath1wife = {
+    name = Taurien
+    female = yes
+
+    religion = faith_edain
+    culture = caledhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = compassionate
+    trait = stubborn
+    trait = vengeful
+
+    trait = irritable
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 9
+    intrigue = 3
+    learning = 5
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    4412.2.17 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    4631.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofmaethorionath2 = {
+	name = Narion # Kings Man
+
+	dynasty = dynasty_maethorionath
+    religion = faith_edain
+	culture = caledhrim
+	
+    sexuality = heterosexual
+	
+	father = lineofmaethorionath1
+	mother = lineofmaethorionath1wife
+
+    trait = brave			
+	trait = vengeful
+	trait = diligent	
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 5
+    intrigue = 2
+    learning = 4
+    prowess = 10
+	
+	trait = physique_good_3
+    trait = cavalry_leader
+
+	trait = education_martial_4
+	
+	trait = blood_of_numenor_8
+	4490.5.12 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}
+	4595.3.10 = {
+        add_spouse = lineofmaethorionath2wife
+	}				
+    4735.11.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmaethorionath2wife = {
+    name = Feredis
+    female = yes
+
+    religion = faith_edain
+    culture = caledhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = zealous
+    trait = patient
+    trait = temperate
+
+    trait = lifestyle_hunter
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 4
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_2
+
+    4520.3.23 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    4741.8.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofmaethorionath3 = {
+	name = Mavron #
+
+	dynasty = dynasty_maethorionath
+    religion = faith_edain
+	culture = caledhrim
+	
+    sexuality = homosexual
+	
+	father = lineofmaethorionath2
+	mother = lineofmaethorionath2wife
+
+    trait = zealous			
+	trait = diligent
+	trait = calm	
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 6
+    intrigue = 3
+    learning = 4
+    prowess = 10
+	
+	trait = physique_good_1
+
+	trait = education_martial_3
+	
+	trait = blood_of_numenor_8
+	4603.9.22 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+		}
+	}
+	4742.3.11 = {
+        add_spouse = lineofmaethorionath3wife
+	}				
+    4838.11.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmaethorionath3wife = {
+    name = Erchiriel
+    female = yes
+
+    religion = faith_edain
+    culture = caledhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = just
+    trait = impatient
+    trait = humble
+
+    trait = lifestyle_hunter
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 3
+
+    trait = education_learning_2
+
+    4657.3.23 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    4857.8.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofmaethorionath4 = {
+	name = Otholon #
+
+	dynasty = dynasty_maethorionath
+    religion = faith_edain
+	culture = caledhrim
+	
+    sexuality = heterosexual
+	
+	father = lineofmaethorionath2
+	mother = lineofmaethorionath2wife
+
+    trait = patient			
+	trait = humble
+	trait = fickle	
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 5
+    intrigue = 2
+    learning = 8
+    prowess = 6
+	
+	trait = physique_good_2
+
+	trait = education_learning_3
+	
+	trait = blood_of_numenor_7
+	4611.3.15 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+		}
+	}			
+    4826.11.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofmaethorionath5 = {
+	name = Rohonnil # Last Rider/Lover of Horses
+
+	dynasty = dynasty_maethorionath
+    religion = faith_edain
+	culture = caledhrim
+	
+    sexuality = heterosexual
+	
+	father = lineofmaethorionath4
+	mother = lineofmaethorionath4wife
+
+    trait = diligent		
+	trait = ambitious
+	trait = trusting
+
+	trait = loyal
+    trait = cavalry_leader
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 8
+    intrigue = 2
+    learning = 4
+    prowess = 7
+	
+	trait = physique_good_1
+
+	trait = education_stewardship_3
+	
+	trait = blood_of_numenor_7
+	4755.4.21 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}
+	4835.1.12 = {
+        add_spouse = lineofhandir19sister
+	}				
+    4982.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofhandir19sister = {
+    name = Elphil
+    female = yes
+
+    dynasty = dynasty_handirionath
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofhandir17
+    mother = lineofhandir18
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = arbitrary
+    trait = arrogant
+    trait = patient
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 8
+    prowess = 5
+
+    trait = education_learning_3
+
+    4733.5.7 = {
+        birth = yes
+    }
+
+    4964.11.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofmaethorionath6 = {
+	name = Maerin #
+
+	dynasty = dynasty_maethorionath
+    religion = faith_edain
+	culture = orodbedhrim
+	
+    sexuality = heterosexual
+	
+	father = lineofmaethorionath5
+	mother = lineofhandir19sister
+
+    trait = lazy		
+	trait = gregarious
+	trait = content
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 6
+	
+
+	trait = education_learning_2
+	
+	trait = blood_of_numenor_7
+	4842.9.27 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+            learn_language = language_quenya
+		}
+	}
+	4939.2.18 = {
+        add_spouse = lineofmaethorionath6wife
+	}				
+    5067.1.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmaethorionath6wife = {
+    name = Erestel
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = shy
+    trait = paranoid
+    trait = lustful
+
+    trait = lifestyle_hunter
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 4
+    intrigue = 3
+    learning = 7
+    prowess = 4
+	
+	trait = physique_good_2
+
+    trait = education_learning_2
+
+    4883.4.17 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    5081.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofmaethorionath7 = {
+	name = T_urel #
+    female = yes
+
+	dynasty = dynasty_maethorionath
+    religion = faith_edain
+	culture = orodbedhrim
+	
+    sexuality = heterosexual
+	
+	father = lineofmaethorionath5
+	mother = lineofhandir19sister
+
+    trait = patient		
+	trait = callous
+	trait = sadistic
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 4
+    intrigue = 9
+    learning = 6
+    prowess = 4
+	
+	trait = physique_good_1
+
+	trait = education_intrigue_4
+	
+	trait = blood_of_numenor_7
+	4845.2.21 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+		}
+	}				
+    5066.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofmaethorionath8 = {
+	name = Othnir #
+
+	dynasty = dynasty_maethorionath
+    religion = faith_edain
+	culture = orodbedhrim
+	
+    sexuality = heterosexual
+	
+	father = lineofmaethorionath6
+	mother = lineofmaethorionath6wife
+
+    trait = shy		
+	trait = generous
+	trait = content
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 4
+    prowess = 6
+
+	trait = physique_good_2
+
+	trait = education_intrigue_3
+	
+	trait = blood_of_numenor_7
+	4945.10.16 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+		}
+	}
+	5051.7.26 = {
+        add_spouse = lineofelion3sister
+	}				
+    5165.3.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelion3sister = {
+    name = C_irwen
+    female = yes
+
+    dynasty_house = house_elion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofelion2
+    mother = lineoforontur20sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = just
+    trait = humble
+    trait = wrathful
+
+    trait = beauty_good_2
+    trait = intellect_good_2
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 7
+    intrigue = 6
+    learning = 9
+    prowess = 6
+
+    trait = education_learning_4
+
+    4925.12.24 = {
+        birth = yes
+        effect = {
+            learn_language = language_sindarin
+        }
+    }
+
+    4985.1.6 = {
+        add_spouse = lineoftelemir45sister
+    }
+
+    5156.12.30 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofmaethorionath9 = {
+	name = Maethorion #
+
+	dynasty = dynasty_maethorionath
+    religion = faith_edain
+	culture = orodbedhrim
+	
+    sexuality = heterosexual
+	
+	father = lineofmaethorionath8
+	mother = lineofelion3sister
+
+    trait = brave	
+	trait = deceitful
+	trait = forgiving
+	
+	trait = twin
+	trait = physique_good_2
+    trait = beauty_good_1
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 10
+
+	trait = education_martial_4
+	
+	trait = blood_of_numenor_7
+	5056.1.6 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+		}
+	}
+	5149.3.21 = {
+        add_spouse = lineofmaethorionath9wife
+	}				
+    5276.9.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmaethorionath9wife = {
+    name = Erestel
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = generous
+    trait = gregarious
+    trait = trusting
+
+    trait = lifestyle_hunter
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 3
+    intrigue = 4
+    learning = 2
+    prowess = 4
+	
+	trait = beauty_good_2
+	trait = intellect_bad_1
+
+    trait = education_diplomacy_2
+
+    4883.4.17 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    5081.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofmaethorionath10 = {
+	name = H_uron #
+
+	dynasty = dynasty_maethorionath
+    religion = faith_edain
+	culture = orodbedhrim
+	
+    sexuality = heterosexual
+	
+	father = lineofmaethorionath8
+	mother = lineofelion3sister
+
+    trait = gluttonous	
+	trait = diligent
+	trait = arrogant
+	
+	trait = twin
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 8
+	
+	trait = physique_good_3
+
+	trait = education_martial_2
+	
+	trait = blood_of_numenor_7
+	5056.1.6 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+		}
+	}			
+    5274.3.31 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofmaethorionath11 = {
+	name = Duinion #
+
+	dynasty = dynasty_maethorionath
+    religion = faith_edain
+	culture = orodbedhrim
+	
+    sexuality = heterosexual
+	
+	father = lineofmaethorionath9
+	mother = lineofmaethorionath9wife
+
+    trait = compassionate	
+	trait = trusting
+	trait = forgiving
+	
+	trait = twin
+	trait = physique_good_1
+    trait = beauty_good_2
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 4
+    intrigue = 2
+    learning = 5
+    prowess = 7
+
+	trait = education_diplomacy_4
+	
+	trait = blood_of_numenor_7
+	5151.2.17 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+		}
+	}
+	5231.6.14 = {
+        add_spouse = lineofcethrandir45
+	}				
+    5363.5.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofmaethorionath12 = {
+	name = Andril #
+	female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = homosexual
+
+    trait = blood_of_numenor_6
+
+    trait = brave
+    trait = vengeful
+    trait = wrathful
+
+    trait = lifestyle_hunter
+
+    diplomacy = 7
+    martial = 10
+    stewardship = 3
+    intrigue = 3
+    learning = 1
+    prowess = 10
+	
+	trait = beauty_good_2
+	trait = physique_good_2
+	trait = intellect_bad_1
+
+	trait = education_martial_3
+	
+	trait = blood_of_numenor_6
+	5154.2.17 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+		}
+	}				
+    5358.5.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofmaethorionath13 = {
+	name = Borvegil #
+
+	dynasty = dynasty_maethorionath
+    religion = faith_edain
+	culture = orodbedhrim
+	
+    sexuality = heterosexual
+	
+	father = lineofmaethorionath11
+	mother = lineofcethrandir45
+
+    trait = brave	
+	trait = impatient
+	trait = calm
+	
+	trait = physique_good_1
+    trait = beauty_good_1
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 5
+    intrigue = 4
+    learning = 4
+    prowess = 9
+
+	trait = education_martial_3
+	
+	trait = blood_of_numenor_6
+	5235.4.11 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+		}
+	}
+	5311.10.3 = {
+        add_spouse = lineofnarion38sister
+	}
+    5358.5.23 = {
+        death = { death_reason = death_natural_causes }
+    }				
+}
+
+lineofnarion38sister = {
+    name = Lindraen
+
+    dynasty = dynasty_narion
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofnarion36
+    mother = lineofnarion37
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = lazy
+    trait = calm
+    trait = compassionate
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 3
+    intrigue = 4
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    5221.10.16 = {
+        birth = yes
+    }
+
+    5415.7.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofmaethorionath14 = {
+	name = Celebrond #
+
+	dynasty = dynasty_maethorionath
+    religion = faith_edain
+	culture = orodbedhrim
+	
+    sexuality = heterosexual
+	
+	father = lineofmaethorionath11
+	mother = lineofcethrandir45
+
+    trait = arrogant	
+	trait = generous
+	trait = zealous
+	
+    trait = beauty_good_2
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 3
+    intrigue = 1
+    learning = 10
+    prowess = 8
+
+	trait = education_learning_4
+	
+	trait = blood_of_numenor_6
+	5239.7.20 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+		}
+	}
+    5433.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }			
+}
+
+## Norn Kerda 
+
+
+lineofnornkerda1 = {
+	name = Kodiz
+
+	dynasty = dynasty_norn_kerda				
+	religion = faith_daen_coentis					
+	culture = eredrim
+	
+    sexuality = heterosexual
+
+    trait = lustful			
+	trait = brave
+	trait = vengeful	
+	
+	trait = lifestyle_hunter
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 8
+	
+	trait = physique_good_2
+
+	trait = education_martial_3
+	
+	4779.9.11 = {				
+		birth = yes	
+		effect = {
+		}
+	}
+	4804.3.14 = {
+        add_spouse = lineofnornkerda1wife
+	}				
+	4859.11.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofnornkerda1wife = {	
+	name = 	Karakiz		
+    female = yes	
+		
+	religion = faith_daen_coentis					
+	culture = eredrim	
+
+    sexuality = heterosexual
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 3
+    intrigue = 5
+    learning = 6
+    prowess = 3
+
+    trait = ambitious
+    trait = gregarious
+    trait = lustful			
+	
+	trait = beauty_good_2
+	
+	trait = education_diplomacy_3
+	
+	4777.6.23 = {					
+		birth = yes				
+	}
+	
+	4860.1.20 = {					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}	
+
+lineofnornkerda2 = {
+	name = Nevirn
+
+	dynasty = dynasty_norn_kerda				
+	religion = faith_daen_coentis					
+	culture = eredrim
+	
+    sexuality = heterosexual
+	
+	father = lineofnornkerda1	
+    mother = lineofnornkerda1wife	
+
+    trait = arrogant		
+	trait = wrathful
+	trait = ambitious	
+	
+    diplomacy = 3
+    martial = 7
+    stewardship = 3
+    intrigue = 2
+    learning = 4
+    prowess = 9
+	
+	trait = physique_good_1
+	trait = beauty_good_1
+
+	trait = education_martial_1
+	
+	4806.2.24 = {				
+		birth = yes	
+		effect = {
+		}
+	}
+	4829.4.1 = {
+        add_spouse = lineofnornkerda2wife
+	}				
+	4883.11.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofnornkerda2wife = {	
+	name = 	_Eira		
+    female = yes	
+		
+	religion = faith_daen_coentis					
+	culture = eredrim	
+
+    sexuality = heterosexual
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 4
+    intrigue = 8
+    learning = 5
+    prowess = 4
+
+    trait = callous
+    trait = patient
+    trait = just		
+	
+	trait = education_intrigue_2
+	
+	4810.2.16 = {					
+		birth = yes				
+	}
+	
+	4889.7.17 = {					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}	
+
+lineofnornkerda3 = {
+	name = Cenfranain
+
+	dynasty = dynasty_norn_kerda				
+	religion = faith_daen_coentis					
+	culture = eredrim
+	
+    sexuality = homosexual
+	
+	father = lineofnornkerda2	
+    mother = lineofnornkerda2wife	
+
+    trait = compassionate		
+	trait = stubborn
+	trait = just	
+	
+    diplomacy = 6
+    martial = 3
+    stewardship = 5
+    intrigue = 4
+    learning = 7
+    prowess = 6
+	
+	trait = beauty_good_1
+
+	trait = education_learning_2
+	
+	4833.1.3 = {				
+		birth = yes	
+		effect = {
+		}
+	}
+	4870.5.27 = {
+        add_spouse = lineofnornkerda3wife
+	}				
+	4911.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofnornkerda3wife = {	
+	name = 	Guira		
+    female = yes	
+		
+	religion = faith_daen_coentis					
+	culture = eredrim	
+
+    sexuality = homosexual
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 6
+    intrigue = 3
+    learning = 5
+    prowess = 8
+
+    trait = content
+    trait = patient
+    trait = arbitrary		
+	
+	trait = education_martial_2
+	
+	4845.5.18 = {					
+		birth = yes				
+	}
+	
+	4919.3.11 = {					
+		death = { death_reason = death_natural_causes } 				
+	}	
+}	
+
+lineofnornkerda4 = {
+	name = Kefarnnarn
+
+	dynasty = dynasty_norn_kerda				
+	religion = faith_daen_coentis					
+	culture = eredrim
+	
+    sexuality = heterosexual
+	
+	father = lineofnornkerda2	
+    mother = lineofnornkerda2wife	
+
+    trait = brave	
+	trait = stubborn
+	trait = callous
+	
+    diplomacy = 2
+    martial = 7
+    stewardship = 3
+    intrigue = 6
+    learning = 3
+    prowess = 8
+
+	trait = education_martial_2
+	
+	4836.1.3 = {				
+		birth = yes	
+		effect = {
+		}
+	}				
+	4918.12.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofnornkerda5 = {
+	name = Bauradan # (born Baiddan)
+
+	dynasty = dynasty_norn_kerda				
+	religion = faith_daen_coentis					
+	culture = eredrim
+	
+    sexuality = heterosexual
+	
+	father = lineofnornkerda3	
+    mother = lineofnornkerda3wife	
+
+    trait = fickle		
+	trait = ambitious
+	trait = paranoid	
+	
+    diplomacy = 7
+    martial = 4
+    stewardship = 3
+    intrigue = 4
+    learning = 5
+    prowess = 6
+	
+	trait = beauty_good_2
+
+	trait = education_diplomacy_2
+	
+	4873.2.25 = {				
+		birth = yes	
+		effect = {
+		}
+	}
+	4909.2.27 = {
+        add_spouse = lineofnornkerda5wife
+			learn_language = language_sindarin
+    }				
+	4945.8.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofnornkerda5wife = {
+    name = Noreth
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = craven
+    trait = stubborn
+    trait = vengeful
+
+	trait = lifestyle_traveler
+    trait = bastard
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    4868.6.14 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    5048.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofnornkerda6 = {
+	name = Barthuron
+
+	dynasty = dynasty_norn_kerda				
+    religion = faith_edain					
+	culture = eredrim
+	
+    sexuality = homosexual
+	
+	father = lineofnornkerda5	
+    mother = lineofnornkerda5wife	
+
+    trait = trusting	
+	trait = brave
+	trait = calm
+	
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 1
+    learning = 4
+    prowess = 7
+	
+	trait = beauty_good_1
+    trait = blood_of_numenor_4
+
+	trait = education_diplomacy_3
+	
+	4914.8.24 = {				
+		birth = yes	
+		effect = {
+			learn_language = language_sindarin
+		}
+    }			
+	5073.8.11 = {
+        death = { death_reason = death_murder  }
+    }
+}	
+
+lineofnornkerda7 = {
+	name = Ga_a_lan
+    female = yes
+
+	dynasty = dynasty_norn_kerda				
+    religion = faith_daen_coentis				
+	culture = eredrim
+	
+    sexuality = heterosexual
+	
+	father = lineofnornkerda5	
+    mother = lineofnornkerda5wife	
+
+    trait = patient	
+	trait = callous
+	trait = eccentric
+	
+    diplomacy = 5
+    martial = 3
+    stewardship = 5
+    intrigue = 9
+    learning = 5
+    prowess = 3
+	
+	trait = beauty_good_1
+    trait = blood_of_numenor_5
+
+	trait = education_intrigue_4
+	
+	4917.7.15 = {				
+		birth = yes	
+	}				
+	5087.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofborvegilionath1 = {
+    name = Borvegil
+
+	dynasty = dynasty_borvegilionath
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+	trait = diligent
+    trait = patient
+    trait = arrogant
+	
+    trait = loyal
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 3
+    intrigue = 5
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    4911.4.12 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+	}
+	4970.6.26 = {
+        add_spouse = lineofnornkerda7
+	}
+    5118.3.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofborvegilionath2 = {
+    name = Boronwe
+
+	dynasty = dynasty_borvegilionath
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+	
+	father = lineofborvegilionath1	
+    mother = lineofnornkerda7
+
+    trait = blood_of_numenor_6
+
+	trait = stubborn
+    trait = shy
+    trait = just
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_2
+
+    4975.3.11 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+	}
+	5051.8.21 = {
+        add_spouse = lineofborvegilionath2wife
+	}
+    5181.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}	
+
+lineofborvegilionath2wife = {
+	name = Orodien
+    female = yes
+				
+    religion = faith_edain				
+	culture = orodbedhrim
+	
+    sexuality = heterosexual
+
+    trait = compassionate
+	trait = craven
+	trait = zealous
+	
+    diplomacy = 6
+    martial = 2
+    stewardship = 5
+    intrigue = 3
+    learning = 6
+    prowess = 2
+	
+    trait = blood_of_numenor_5
+
+	trait = education_diplomacy_1
+	
+	4995.8.29 = {				
+		birth = yes	
+		effect = {
+		}
+	}				
+	5178.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofborvegilionath3 = {
+    name = Angdan
+
+	dynasty = dynasty_borvegilionath
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = homosexual
+	
+	father = lineofborvegilionath2	
+    mother = lineofborvegilionath2wife
+
+    trait = blood_of_numenor_6
+
+	trait = diligent
+    trait = wrathful
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 8
+    intrigue = 3
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    5065.3.11 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+	}
+	5123.8.21 = {
+        add_spouse = lineofneithan25sister
+	}
+    5265.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofneithan25sister = {
+    name = Melethris 
+
+    dynasty = dynasty_rond_rendul
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofneithan23
+    mother = lineofneithan24
+
+	trait = blood_of_numenor_7
+
+	trait = content
+	trait = forgiving
+	trait = humble
+	
+    diplomacy = 4
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_2
+	
+    5051.8.25 = {
+        birth = yes
+    }
+
+    5271.2.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofborvegilionath4 = {
+    name = Bregiel
+    female = yes	
+
+	dynasty = dynasty_borvegilionath
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+	
+	father = lineofborvegilionath2	
+    mother = lineofborvegilionath2wife
+
+    trait = blood_of_numenor_6
+
+	trait = just
+    trait = calm
+    trait = impatient
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 3
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    5068.7.15 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+	}
+    5268.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofborvegilionath5 = {
+    name = Borvegil
+
+	dynasty = dynasty_borvegilionath
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+	
+	father = lineofborvegilionath3	
+    mother = lineofneithan25sister
+
+    trait = blood_of_numenor_7
+
+	trait = humble
+    trait = just
+    trait = brave
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 5
+    intrigue = 3
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    5131.2.21 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+	}
+	5215.2.30 = {
+        add_spouse = lineofmaethorionath12
+	}
+    5342.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofborvegilionath6 = {
+    name = Elion
+
+	dynasty = dynasty_borvegilionath
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+	
+	father = lineofborvegilionath5	
+    mother = lineofmaethorionath12
+
+    trait = blood_of_numenor_6
+
+	trait = wrathful
+    trait = deceitful
+    trait = brave
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 9
+
+    trait = education_martial_4
+
+    5233.5.12 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+	}
+    5433.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofborvegilionath7 = {
+    name = Elenbor
+
+	dynasty = dynasty_borvegilionath
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+	
+	father = lineofborvegilionath5	
+    mother = lineofmaethorionath12
+
+    trait = blood_of_numenor_6
+
+	trait = vengeful
+    trait = just
+    trait = temperate
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 7
+    intrigue = 3
+    learning = 8
+    prowess = 6
+
+    trait = education_learning_3
+
+    5236.5.12 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+	}
+    5440.2.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}			
+
+
