@@ -16549,10 +16549,6 @@ dolamroth2 = {
 dolamroth0 = {
 	name = Mithrellas
 
-    father = lineoflenwe6
-    mother = lineoflenwe7
-    dynasty = dynasty_lenwe
-
 	religion = faith_eldar
 	culture = silvan
 
