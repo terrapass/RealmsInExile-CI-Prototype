@@ -144133,7 +144133,7 @@ linebarazongondorian1 = {
 	4870.6.12 = {
 		birth = yes
 	}
-	4941.1.1. = {
+	4941.1.1 = {
 		add_spouse = barazon21
 	}
 	5072.1.1 = {
