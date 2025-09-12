@@ -14236,7 +14236,7 @@ linesteward24 = {
 	}
 }	
 
-linesteward50 = {
+linesteward24son = {
 	name = H_urin
 
 	dynasty_house = house_gondorstewards
@@ -14266,7 +14266,7 @@ linesteward25 = {
 	religion = faith_edain
 	culture = gondorian
 
-	father = linesteward50
+	father = linesteward24son
 
 	trait = blood_of_numenor_2
 	6578.1.1 = {
