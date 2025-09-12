@@ -15270,6 +15270,10 @@ linesteward43 = {
 			}
         }
     }
+
+    7084.10.3 = {
+        add_spouse = linelomear48
+    }
 }
 
 linesteward44 = {
@@ -15351,6 +15355,7 @@ linesteward48 = {
 	culture = gondorian
 
     father = linesteward43
+    mother = linelomear48
 
     trait = just
     trait = compassionate
@@ -15397,6 +15402,8 @@ linesteward49 = {
     father = linesteward48
     mother = lineisildur44
 
+    trait = intellect_good_1
+    trait = beauty_good_3
     trait = blood_of_numenor_5
 
     7122.5.31 = {
@@ -15414,6 +15421,8 @@ linesteward50 = {
     father = linesteward48
     mother = lineisildur44
 
+    trait = physique_good_2
+    trait = beauty_good_2
     trait = blood_of_numenor_5
 
     7129.7.3 = {
@@ -179249,6 +179258,8 @@ lineofvakuankka126 = {
     mother = linehalbarad19sister
 
     sexuality = heterosexual
+
+    trait = blood_of_numenor_2
     
     trait = beauty_good_3
     trait = intellect_good_1
@@ -179274,6 +179285,8 @@ lineofvakuankka127 = {
     mother = linehalbarad19sister
 
     sexuality = heterosexual
+
+    trait = blood_of_numenor_2
     
     trait = beauty_good_3
     trait = intellect_good_1
