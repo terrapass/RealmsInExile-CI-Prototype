@@ -15140,7 +15140,7 @@ linesteward40 = { # Faramir, Prince of Ithilien
         add_spouse = lineofeofor18 #Éowyn
         remove_trait = cannot_marry
     }
-	7126.4.13 = {
+	7136.4.13 = { # FoA 82, age 120
 		death = { death_reason = death_natural_causes }
 	}
 }	
@@ -15404,7 +15404,7 @@ linesteward49 = {
     }
 }
 
-linesteward49 = {
+linesteward50 = {
     name = Beren
 
     dynasty_house = house_gondorstewards
