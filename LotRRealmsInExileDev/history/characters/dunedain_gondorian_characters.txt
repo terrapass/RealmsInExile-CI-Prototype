@@ -854,9 +854,9 @@ lineofanarion22 = {
 
 	father = lineofanarion21
 
-	trait = content 
+	trait = craven 
 	trait = lazy
-	trait = temperate
+	trait = gluttonous
 
     trait = education_learning_1
 
@@ -885,7 +885,7 @@ lineofanarion23 = {
 
 	trait = content
 	trait = lazy
-	trait = gluttonous
+	trait = temperate
 	trait = education_stewardship_1
 	trait = blood_of_numenor_8
 	
@@ -1342,7 +1342,7 @@ lineofanarion28 = {
         }
     }
 
-	5470.1.1 = {
+	5470.7.1 = { # Executed by Castamir on Midsummer (noncannonical date), Siege of Osgiliath begins early June(4), the walls were breached on the 19th of June and Osgiliath overrun on the 23rd when Eldacar retreats the night before, resistance continuing until the 29th. (Ornendil was captured the 25th)
 			death = {
 			death_reason = death_execution # Executed 
 			killer = lineofanarion53 # Castamir				
@@ -1508,7 +1508,7 @@ lineofanarion31 = {
 	}
 }	
 
-lineofanarion31brother = { # Brother of Minardil. Served as chief of intelligence during Hyarmendacil II's southern campaigns, growing sypathetic to the Castamiri while there. Fled to Umbar after Minardil's death, as suspision fell on him for orchestrating the attack.
+lineofanarion31brother = { # Brother of Minardil. Served as chief of intelligence during Hyarmendacil II's southern campaigns, growing sypathetic to the Castamiri while there. Fled to Umbar after Minardil's death, as suspision fell on him for orchestrating the attack. (Part of the 'Corsair Ring')
 	name = Falassion
 
 	dynasty = dynasty_anarion
@@ -5495,11 +5495,6 @@ lineofciryaheri51 = {
         death = { death_reason = death_execution }
     }
 }
-
-
-
-
-
 
 #################################
 ##### House of Roquendil   ######
@@ -12375,6 +12370,1030 @@ lineoforontur44 = {
     }
 }
 
+#### Line of Artari ####
+### Unlanded Anarion cadet ###
+
+lineofartari1 = { # Second son of Hyarmendacil, much like his brother he was more in favour of feasting than fighting. He inherited his father's temper, but little of his skill in warfare or law, though his peers said he made up for it in grandeur of action.
+	name = Aratan
+
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+    sexuality = heterosexual
+
+	father = lineofanarion20
+
+    trait = gregarious
+    trait = callous
+    trait = impatient
+    #trait = generous
+
+    trait = education_intrigue_3
+
+	trait = blood_of_numenor_8
+	5023.1.1 = { # 990
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}			
+	}
+
+    5090.1.1 = {
+        add_spouse = linefaevel7
+    }
+
+	5271.1.1 = { # 1238 248
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofartari2 = { # A great friend of King Narmacil, he was a constant fixture in the parties of Gondorian high society, and known as a more kingly man than the king - in gifts, graciousness, and greed.
+	name = Artamir
+
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+    sexuality = heterosexual
+
+	father = lineofartari1
+    mother = linefaevel7
+
+    trait = gregarious
+    trait = gluttonous
+    trait = greedy
+    # trait = ambitious
+
+    trait = education_diplomacy_3
+
+
+	trait = blood_of_numenor_8
+	5093.1.1 = { # 1060
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+    5150.1.1 = {
+        add_spouse = predolamroth23sister
+    }
+
+	5339.1.1 = { # 1306 246
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofartari3 = { # A society lady through and though, Aryante was the star of any occasion. If only her friends could count on that generosity when they truely needed help.
+	name = Aryante
+
+    female = yes
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+    sexuality = heterosexual
+
+	father = lineofartari1
+    mother = linefaevel7
+
+    trait = ambitious
+    trait = generous
+    trait = fickle
+
+    trait = education_diplomacy_2
+
+
+	trait = blood_of_numenor_8
+	5101.1.1 = { # 1068
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+	5349.1.1 = { # 1313 245
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofartari4 = { #A martial and restless man, he was uncomfortable in the courts of Osgiliath and instead spent much of his time on the frontier, first in Harad, and then later in Rhun with the Regent Minalcar. 
+	name = Tarondor
+
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+    sexuality = heterosexual
+
+	father = lineofartari1
+    mother = linefaevel7
+
+    trait = brave
+    trait = shy
+    trait = impatient
+
+    trait = education_martial_3
+    trait = celibate # Never married, prefering not to get entangled in what he saw as needless matchmaking.
+    trait = open_terrain_expert
+
+	trait = blood_of_numenor_8
+	5111.1.1 = { # 1078
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+	5357.1.1 = { # 1324 246
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofartari5 = { # More comfortable in the office than the court, Tarahil prefered shepering the house's buisness intrests to the court politics his sister loved. The coffers were greatly filled durring his time, but they began to drift towards the edge of the court, no longer a critical branch of the royal family. It was a trip to Umbar arranged by him shortly before his death that resulted in the double marriage of his grandsons.
+	name = Tarahil
+
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+    sexuality = heterosexual
+
+	father = lineofartari2
+    mother = predolamroth23sister
+
+    trait = patient
+    trait = just
+    trait = wrathful
+
+    trait = education_stewardship_3
+
+	trait = blood_of_numenor_8
+	5158.1.1 = { # 1125
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+    5215.1.1 = {
+        add_spouse = lineofastandurcadet10sister
+    }
+
+	5369.1.1 = { # 1336 211
+		death = { death_reason = death_ill } # Died early from illness
+	}
+}
+
+lineofartari6 = { #A fiercely independent woman, she would never marry, choosing instead to play kingmaker in the courters of Minas Tirith. Many rumours would surround the matriarch, most false, but some indeed true. Which, she would never tell.
+	name = Tarwen
+
+    female = yes
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineofartari2
+    mother = predolamroth23sister
+
+    trait = cynical
+    trait = chaste
+    trait = stubborn
+    trait = arrogant
+
+    trait = education_intrigue_4
+    trait = schemer
+    trait = seducer
+
+	trait = blood_of_numenor_8
+	5169.1.1 = { # 1136
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+	5412.1.1 = { # 1379
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofartari7 = { # Married Dunnil of Emyn Arnen, an ambitious social climber. She was a regular presence in Osgiliath, and known to be much of the strength behind her husband's climb, often to the detriment of her own family.
+	name = Ealote
+
+    female = yes
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineofartari5
+    mother = lineofastandurcadet10sister
+
+    trait = deceitful
+    trait = gregarious
+    trait = patient
+
+    trait = education_intrigue_3
+
+	trait = blood_of_numenor_8
+	5215.1.1 = { # 1182
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+	5450.1.1 = { # 1417 285
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofartari8 = {
+	name = Hallatar
+
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+    sexuality = heterosexual
+
+	father = lineofartari5
+    mother = lineofastandurcadet10sister
+
+    trait = shy
+    trait = fickle
+    trait = arrogant
+
+    trait = lifestyle_herbalist
+    trait = education_learning_3
+
+	trait = blood_of_numenor_8
+	5222.1.1 = { # 1189
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+    5280.1.1 = {
+        add_spouse = lineofsaeros25sister # Married a noblewoman of Belfalas, bonding over a shared intrest in biology
+    }
+
+	5459.1.1 = { # 1426
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofartari9 = { # The youngest of his siblings, he nevertheless was often closest in heart to his father, as his older siblings became increasingly distant. A fiercely zealous man, he was torn between his belief in the importance of Dunedain convervatism and the call of loyalty to his king and kinsman. He died just before the kin-strife, leaving that dificult choice to his son Artaher.
+	name = E_a_arendur
+
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+    sexuality = heterosexual
+
+	father = lineofartari5
+    mother = lineofastandurcadet10sister
+
+    trait = just
+    trait = zealous
+    trait = honest
+    #trait = arrogant
+
+    trait = education_martial_3
+
+	trait = blood_of_numenor_8
+	5228.1.1 = { # 1195
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+    5290.1.1 = {
+        add_spouse = lineofgundor24sister
+    }
+
+	5464.1.1 = { # 1431 236
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofartari10 = { # A scholar of repute in the royal court, but known as a chafing and unpleant man, a true denizen of the ivory tower. He supported Castamir in the Kin-Strife, and was critical in swaying his brother and son to do the same. Some say he was wedded to his books, but he was known to be very afectionate with some of his colleagues, esp his sister in law Andaranel. 
+	name = Nolondil
+
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+    sexuality = heterosexual
+
+	father = lineofartari8
+    mother = lineofsaeros25sister
+
+    trait = diligent
+    trait = chaste
+    trait = arrogant
+
+    trait = education_learning_4
+
+	trait = blood_of_numenor_8
+	5282.1.1 = { # 1249
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+    5356.1.1 = {
+        effect = {
+            set_relation_lover = character:lineofthorondir20 # Met Andaranel on the family trip to Umbar and knew her more closely a few years later.
+        }
+    }
+
+	5481.2.5 = { # Dies durring the Siege of Pelargir
+		death = { death_reason = death_siege }
+	}
+}
+
+lineofartari11 = { # Good natured but flightly man, is coereced into supporting the rebels durring the Kin-Strife by his family.
+	name = Numendil
+
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+    sexuality = heterosexual
+
+	father = lineofartari8
+    mother = lineofsaeros25sister
+
+    trait = lazy
+    trait = trusting
+    trait = gregarious
+
+    trait = education_learning_1 # Goes into learning like the rest of his family, but isn't as good at it. 
+
+	trait = blood_of_numenor_8
+	5293.1.1 = { # 1260
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+    5364.1.1 = {
+        add_spouse = lineofthorondir20 # Love match with a scholar while visiting Umbar, his cousin Artaher would marry her cousin.
+    }
+
+	5468.8.11 = { # Dies early on durring the Kin-Strife, before the attack on Osgiliath
+		death = { death_reason = death_battle }
+	}
+}
+
+lineofartari12 = { #Takes after her father, impatient and impetuous, but rather naive. 
+	name = Nessanie
+
+    female = yes
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+    sexuality = heterosexual
+
+	father = lineofartari11
+    mother = lineofthorondir20
+
+    trait = impatient
+    trait = arrogant
+    trait = trusting
+
+    trait = education_martial_2
+
+	trait = blood_of_numenor_8
+	5353.1.1 = { # 1320
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+	5581.1.1 = { # 1548 228
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofartari13 = { # A great scholar after his mother, favoured pupil of his uncle, and translator of note. Only male of his branch to survive the Kin-Strife, flees to Umbar afterwards.
+	name = Quennar
+
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+    sexuality = heterosexual
+
+	father = lineofartari11
+    mother = lineofthorondir20
+
+    trait = diligent
+    trait = patient
+    trait = generous
+
+    trait = education_learning_4
+
+	trait = blood_of_numenor_8
+	5366.1.1 = { # 1332
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+        effect = {
+			set_real_father = character:lineofartari10 #His parentage would never be reviled as all involved died durring the Kin-Strife.
+		}
+	}
+    5563.1.1 = {
+        culture = umbaredain
+        religion = faith_castamiri_creed
+    }
+	5595.1.1 = { # 1562 230
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofartari14 = { # Married young and died at the Fords of Erui, leaving behind his two young daughters. 
+	name = Rumil
+
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+    sexuality = heterosexual
+
+	father = lineofartari13
+
+    trait = lustful
+    trait = impatient
+    trait = generous
+
+    trait = education_diplomacy_2
+
+	trait = blood_of_numenor_7
+	5427.1.1 = { # 1394
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+    5474.1.1 = {
+        add_spouse = lineofgelmir33
+    }
+
+	5480.8.22 = { # was killed during The Battle of the Crossings of Erui.
+        death = { death_reason = death_battle }
+    }
+}
+
+lineofartari15 = { # A soldier and ardent follower of Castamir.
+	name = Malantur
+
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineofartari13
+
+    trait = education_martial_3
+
+    trait = brave 
+    trait = diligent
+    trait = zealous
+    
+	trait = blood_of_numenor_8
+	5434.1.1 = { # 1401
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+	5470.6.19 = { # 1437 Died in the siege of Osgiliath durring the breaching of the walls
+        death = { death_reason = death_battle }
+    }
+}
+
+# TODO - Add history for daughters
+lineofartari16 = { # She and her sister were evacuated to Umbar on the ships, returning to their mother's family
+	name = Mairen
+
+    female = yes
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineofartari14
+    mother = lineofgelmir33
+
+
+	trait = blood_of_numenor_7
+	5475.1.1 = { # 1442
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+    5563.1.1 = {
+        culture = umbaredain
+        religion = faith_castamiri_creed
+    }
+
+	5670.1.1 = { # Died in the plague
+		death = { death_reason = death_bubonic_plague }
+	}
+}
+
+lineofartari17 = { # She and her sister were evacuated to Umbar on the ships, returning to their mother's family
+	name = Irilde
+
+    female = yes
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineofartari14
+    mother = lineofgelmir33
+
+
+	trait = blood_of_numenor_7
+	5480.1.1 = { # 1447
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+    5563.1.1 = {
+        culture = umbaredain
+        religion = faith_castamiri_creed
+    }
+
+	5705.1.1 = { # 1672
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+# Second branch
+lineofartari18 = { # Suppporter of Eldacar durring the Kin-strife, causes a breach with the main line of the family. He was a man with a strong sense of justice, who would not compromise on his principles of loyalty to the king.
+	name = Artaher
+
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineofartari9
+    mother = lineofgundor24sister
+
+    trait = loyal 
+    trait = just
+    trait = wrathful
+    trait = stubborn
+
+    trait = education_martial_2
+
+	trait = blood_of_numenor_8
+	5292.1.1 = { # 1259
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+    5352.1.1 = {
+        add_spouse = lineofthorondir15 #Marries her on a family buisness trip to Umbar, as the initiator of the whole love affaire. 
+    }
+
+	5470.6.20 = { # Dies on the walls of Osgiliath, defending the breach
+		death = { death_reason = death_siege }
+	}
+}
+
+lineofartari19 = { # Eldest daughter of Artaher, enamoured of the Castamiri cause, she sided with her brother in following the rebels, and fled to Umbar after the war, where she would marry late
+	name = Earwen
+
+    female = yes
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineofartari18
+    mother = lineofthorondir15
+
+    trait = callous
+    trait = arrogant
+    trait = stubborn
+
+    trait = education_learning_3
+
+	trait = blood_of_numenor_7
+	5354.1.1 = { # 1321
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+    5563.1.1 = {
+        culture = umbaredain
+        religion = faith_castamiri_creed
+    }
+	5583.1.1 = { # 1550 227
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofartari20 = { # A supporter of Castamir, he goes against his father, choosing to rebel and helping to sack Osgiliath, even killing his nephew Elatan durring the street fighting.
+	name = _Irimon
+
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineofartari18
+    mother = lineofthorondir15
+
+    trait = paranoid
+    trait = zealous
+    trait = arrogant
+    trait = disloyal
+
+    trait = education_martial_4
+
+	trait = blood_of_numenor_7
+	5361.1.1 = { # 1328
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+    5420.1.1 = {
+        add_spouse = linetelemnarion12
+    }
+
+	5480.8.22 = { # Slain at the Crossings of Erui
+		death = { death_reason = death_battle killer = lineofartari21 }
+	}
+}
+
+lineofartari21 = { # Elentir Artari, supporter of Eldacar, and one of the few survivors of the Kin-Strife in his family. He was outside Osgiliath when it fell, deployed to defend Minas Ithil, from where he rode north and met up with Eldacar, taking up leadership of his house in exile. He would return with the army, killing his brother in vengence for his lost son. More a clerk than soldier, he found his role in supply management and rebuilding the family coffers after the disaster of the Kin-strife, but failed to effectively handle his younger relatives.
+	name = Elentir
+
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineofartari18
+    mother = lineofthorondir15
+
+    trait = diligent
+    trait = vengeful
+    trait = honest
+    trait = loyal
+
+    trait = education_stewardship_3
+    trait = organizer
+
+	trait = blood_of_numenor_7
+	5371.1.1 = { # 1338
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+    5430.1.1 = {
+        add_spouse = lineoftiridonKS8sister
+    }
+
+    5470.8.22 = {
+		trait = lifestyle_blademaster # Began training more fully with the sword after his son's death
+	}
+
+	5599.1.1 = { # 1566 228
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofartari22 = { # The youngest child and least interested in the politics of the time, as she hated arguements and division. She married into the Gondorian famility in Enedhwaith and mostly sat out the conflict
+# TODO - marry to governor of Enedhwaith durring Kin Strife (currently unassigned)
+	name = Isilm_e_e
+
+    female = yes
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineofartari18
+    mother = lineofthorondir15
+
+    trait = compassionate
+    trait = generous
+    trait = craven
+    # trait = shy
+
+    trait = education_stewardship_2
+
+	trait = blood_of_numenor_7
+	5378.1.1 = { # 1345
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+	5606.1.1 = { # 1573 228
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofartari23 = { # The loudest oponent of his uncle, he enlisted young and fought on the front line of the royalist forces against the rebellion. He was slain by his uncle as Osgiliath fell, caught leading a band of soldiers holding out in the streets after Eldacar's retreat
+	name = Elatan
+
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineofartari21
+    mother = lineoftiridonKS8sister
+
+    trait = stubborn
+    trait = zealous
+    trait = brave
+    # trait = just
+    trait = loyal
+
+    trait = education_martial_3
+    trait = unyielding_defender
+
+	trait = blood_of_numenor_7
+	5433.1.1 = { # 1400
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+	5467.6.25 = { # 1437, dies in the fall of Osgiliath, defending Prince Ornendil, slain by his uncle unknowningly
+		death = { death_reason = death_battle killer = lineofartari20 }
+	}
+}
+
+lineofartari24 = { #Son of Irimon, who followed Castamir. Remained highly mobile durring the Kin-Strife, intallialy opposing the rebellion (though not prefering Eldacar), siding was Castamir durring his reign, and then swapping back to Eldacar after the Crossings of Porocs, somehow managing to sit out almost all of the major battles. Never fully trusted again after his fickleness durring the war, and this lack of trust would lead to his children's later defection. 
+	name = Isilmo
+
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineofartari20
+    mother = linetelemnarion12
+
+    trait = fickle
+    trait = arbitrary
+    trait = patient
+    # trait = craven
+
+    trait = education_intrigue_4
+    trait = disloyal
+
+	trait = blood_of_numenor_7
+	5421.1.1 = { # 1388
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+    5470.10.11 = { # Marries another Castamiri ally durring the Usurper's reign
+        add_spouse = lineofcerindur86
+    }
+
+	5647.1.1 = { # 1614 226
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofartari25 = { # Did relatively litte durring the Kin-Strife, stayed with Isilmo and married in the aftermath of the war, droping out of the public eye
+	name = Faniel
+
+    female = yes
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineofartari20
+    mother = linetelemnarion12
+
+    trait = paranoid
+    trait = shy
+    trait = generous
+
+    trait = education_diplomacy_2
+
+	trait = blood_of_numenor_7
+	5432.1.1 = { # 1396
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+	5654.1.1 = { # 1621 226
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofartari26 = { # Eldest daughter of Isilmo, notable schemer and resident of Pelargir. Flees to Umbar with the 'Corasair Ring' who were accussed of Minardil's death.
+	name = Caliel
+
+    female = yes
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineofartari24
+    mother = lineofcerindur86
+
+    trait = fickle
+    trait = vengeful
+    trait = patient
+    trait = education_intrigue_4
+
+	trait = blood_of_numenor_7
+	5471.1.1 = { # 1438
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+    5667.4.1 = { # Flees to Umbar
+        religion = faith_castamiri_creed
+    }
+
+	5694.1.1 = { # 1661 223
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofartari27 = { # Also part of the 'Corsair Ring', but he was captured shortly after the raid and imprisioned, before being executed after his family fled.
+# TODO ADD maries a noblewoman of Harondor 
+	name = Ciryon
+
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineofartari24
+    mother = lineofcerindur86
+
+    trait = trusting
+    trait = patient
+    trait = arbitrary
+
+    trait = education_stewardship_2
+
+	trait = blood_of_numenor_7
+	5481.1.1 = { # 1448
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+    # 1.1.1 = {
+    #     add_spouse =
+    # }
+
+	5667.4.15 = { # Executed for his suposed part in the Corsair raid on Pelargir
+        death = { death_reason = death_execution killer = lineofanarion32 }
+    }
+}
+
+lineofartari28 = { # The sibling *not* involved (at least clearly) in the Pelargir affaire, she was a vocal royalist and married into a small Anorien family (Alfirin). Died in the great plague.
+	name = Almiel
+
+    female = yes
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineofartari24
+    mother = lineofcerindur86
+
+    trait = content
+    trait = temperate
+    trait = trusting
+
+    trait = education_learning_2
+
+	trait = blood_of_numenor_7
+	5487.1.1 = { # 1454
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+	5670.1.1 = { # 1637
+		death = { death_reason = death_bubonic_plague }  # Killed by the Great Plague	
+	}
+}
+
+lineofartari29 = { # Elder son of Ciryon, fled to Umbar after the Corsair raid with his aunt, only to die from plague shortly after arrival, along with his family (marries a woman of Belfals, TODO ADD)
+	name = Arantar
+
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineofartari27
+
+    trait = stubborn
+    trait = cynical
+    trait = arbitrary
+
+    trait = education_diplomacy_3
+
+	trait = blood_of_numenor_7
+	5541.1.1 = { # 1508
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+    5667.4.1 = { # Flees to Umbar
+        religion = faith_castamiri_creed
+    }
+
+	5669.9.1 = { # 1636
+		death = { death_reason = death_bubonic_plague }  # Killed by the Great Plague	
+	}
+}
+
+lineofartari30 = { # Last son of his house, didn't marry and live out the rest of his life seeking vengence for his father's death
+	name = Atanalcar
+
+	dynasty_house = house_artari
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineofartari27
+
+    trait = vengeful
+    trait = chaste
+    trait = stubborn
+
+    trait = education_martial_2
+
+	trait = blood_of_numenor_7
+	5548.1.1 = { # 1515
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+	}
+
+    5667.4.1 = { # Flees to Umbar
+        religion = faith_castamiri_creed
+    }
+
+	5768.1.1 = { # 1735 220
+		death = { death_reason = death_natural_causes }
+	}
+}
+
 ##### The Stewards of Gondor ####
 #################################
 # House Arnen, colonists of Emyn Arnen
@@ -13128,7 +14147,7 @@ lineostomir22 = {
 	}
 }
 
-lineostomir23 = {
+lineostomir23 = { #Married Eallote of the Artari, greatly advanced the stature of Emyn Arnen in Osgiliath, said to dwell more in the capital than in the hills.
 	name = Dunnil
 	
 	father = lineostomir22
@@ -13136,10 +14155,14 @@ lineostomir23 = {
 	dynasty = dynasty_ostomir
 	religion = faith_edain
 	culture = gondorian
+    sexuality = heterosexual
 	
-	
-	
+    trait = ambitious
+    trait = gregarious
+    trait = vengeful
 
+	trait = education_diplomacy_4
+	
 	trait = blood_of_numenor_7
 	5200.1.1 = { 
 		birth = yes
@@ -13147,6 +14170,9 @@ lineostomir23 = {
 			learn_language = language_sindarin
 		}				
 	}
+    5264.1.1 = {
+        add_spouse = lineofartari7
+    }
 	5439.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -13155,11 +14181,12 @@ lineostomir24 = {
 	name = Ostomir
 	
 	father = lineostomir23
+    mother = lineofartari7
 	
 	dynasty = dynasty_ostomir
 	religion = faith_edain
 	culture = gondorian
-	
+    sexuality = heterosexual
 	
 	trait = loyal
 	trait = patient
@@ -15511,7 +16538,7 @@ predolamroth3 = {
     3938.9.30 = {
         birth = yes
     }
-    4194.4.18 = {
+    4204.4.18 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -15663,7 +16690,7 @@ predolamroth9 = {
 
     father = predolamroth8
 
-    trait = blood_of_numenor_9
+    trait = blood_of_numenor_8
 
     4243.9.7 = {
         birth = yes
@@ -15681,7 +16708,7 @@ predolamroth10 = {
 
     father = predolamroth9
 
-    trait = blood_of_numenor_9
+    trait = blood_of_numenor_8
 
     4322.1.20 = {
         birth = yes
@@ -15699,7 +16726,7 @@ predolamroth11 = {
 
     father = predolamroth10
 
-    trait = blood_of_numenor_9
+    trait = blood_of_numenor_8
 
     4395.6.1 = {
         birth = yes
@@ -15717,7 +16744,7 @@ predolamroth12 = {
 
     father = predolamroth11
 
-    trait = blood_of_numenor_9
+    trait = blood_of_numenor_8
 
     4466.10.30 = {
         birth = yes
@@ -15735,7 +16762,7 @@ predolamroth13 = {
 
     father = predolamroth12
 
-    trait = blood_of_numenor_9
+    trait = blood_of_numenor_8
 
     4538.7.7 = {
         birth = yes
@@ -15753,7 +16780,7 @@ predolamroth14 = {
 
     father = predolamroth13
 
-    trait = blood_of_numenor_9
+    trait = blood_of_numenor_8
 
     4608.6.14 = {
         birth = yes
@@ -15771,7 +16798,7 @@ predolamroth15 = {
 
     father = predolamroth13
 
-    trait = blood_of_numenor_9
+    trait = blood_of_numenor_8
 
     4626.9.29 = {
         birth = yes
@@ -15789,7 +16816,7 @@ predolamroth16 = {
 
     father = predolamroth15
 
-    trait = blood_of_numenor_9
+    trait = blood_of_numenor_8
 
     4685.4.17 = {
         birth = yes
@@ -15807,7 +16834,7 @@ predolamroth17 = {
 
     father = predolamroth16
 
-    trait = blood_of_numenor_9
+    trait = blood_of_numenor_8
 
     4754.8.26 = {
         birth = yes
@@ -15825,7 +16852,7 @@ predolamroth18 = {
 
     father = predolamroth17
 
-    trait = blood_of_numenor_9
+    trait = blood_of_numenor_7
 
     4821.12.25 = {
         birth = yes
@@ -15843,7 +16870,7 @@ predolamroth19 = {
 
     father = predolamroth18
 
-    trait = blood_of_numenor_9
+    trait = blood_of_numenor_7
 
     4887.4.17 = {
         birth = yes
@@ -15861,7 +16888,7 @@ predolamroth20 = {
 
     father = predolamroth19
 
-    trait = blood_of_numenor_9
+    trait = blood_of_numenor_7
 
     4951.9.14 = {
         birth = yes
@@ -15879,7 +16906,7 @@ predolamroth21 = {
 
     father = predolamroth19
 
-    trait = blood_of_numenor_9
+    trait = blood_of_numenor_7
 
     4960.5.24 = {
         birth = yes
@@ -15890,14 +16917,14 @@ predolamroth21 = {
 }
 
 predolamroth22 = {
-    name = Falothron
+    name = Falathron
     dynasty = dynasty_dol_amroth
     religion = faith_edain
     culture = belfalathrim
 
     father = predolamroth21
 
-    trait = blood_of_numenor_9
+    trait = blood_of_numenor_7
 
     5013.9.4 = {
         birth = yes
@@ -15915,12 +16942,57 @@ predolamroth23 = {
 
     father = predolamroth22
 
-    trait = blood_of_numenor_9
+    trait = blood_of_numenor_6
 
     5075.5.2 = {
         birth = yes
     }
-    5292.1.7 = {
+    5292.1.7 = { # 216
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+predolamroth23brother = {
+    name = Falathor
+
+    dynasty = dynasty_dol_amroth
+    religion = faith_edain
+    culture = belfalathrim
+
+    father = predolamroth22
+
+    trait = blood_of_numenor_6
+
+    5088.12.6 = {
+        birth = yes
+    }
+    5306.5.1 = { # 218
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+predolamroth23sister = { # Married into the Artari and moved to the court, where she clashed with her sister in law Aryante
+    name = Rothinzil
+
+    female = yes
+    dynasty = dynasty_dol_amroth
+    religion = faith_edain
+    culture = belfalathrim
+
+    father = predolamroth22
+
+    trait = gregarious
+    trait = arrogant
+    trait = impatient
+
+    trait = education_diplomacy_2
+
+    trait = blood_of_numenor_6
+
+    5095.12.6 = {
+        birth = yes
+    }
+    5314.7.11 = { # 218
         death = { death_reason = death_natural_causes }
     }
 }
@@ -15933,7 +17005,7 @@ predolamroth24 = {
 
     father = predolamroth23
 
-    trait = blood_of_numenor_9
+    trait = blood_of_numenor_6
 
     5138.6.19 = {
         birth = yes
@@ -15946,13 +17018,13 @@ predolamroth24 = {
 predolamroth25 = {					
 	name = Dunloth			
 	dynasty = dynasty_dol_amroth				
-	religion = faith_edain				
+	religion = faith_edain
 	culture = belfalathrim
     dna = predolamroth25_dna
 
 	father = predolamroth24
 												
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_6
 	5199.1.21 = {				
 		birth = yes
 		effect = {
@@ -15979,7 +17051,7 @@ predolamroth26 = {	# Aphanuzir, elderly Prince of Belfalas at the time of the Ki
 
     trait = education_learning_3
 
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_6
 	5254.3.15 = {				
 		birth = yes
 		effect = {
@@ -16007,7 +17079,7 @@ predolamroth26brother = { # Brother of Aphanuzir, noted schemer. Married into An
 
     trait = education_intrigue_4
 
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_6
 	5271.3.15 = {				
 		birth = yes
 		effect = {
@@ -16030,7 +17102,7 @@ predolamroth26nephew = { # Erennil the 'royalist', greatest fool of the Kin-stri
 	culture = belfalathrim	
 
 	father = predolamroth26brother
-	mother = lineofanarion26niece	
+	mother = lineofanarion26niece
     
     trait = ambitious
     trait = deceitful
@@ -16048,7 +17120,7 @@ predolamroth26nephew = { # Erennil the 'royalist', greatest fool of the Kin-stri
             learn_language = language_quenya
 		}
 	}
-	5470.4.2 = { # Died in the siege of Osgiliath, death orchestrated by Castamir
+	5470.6.14 = { # Died in the siege of Osgiliath, death orchestrated by Castamir
 		death = { death_reason = death_battle } 			
 	}				
 }
@@ -19013,6 +20085,36 @@ lineofgundor24 = {
     }
 
     5456.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofgundor24sister = { #Marries Earendur Artari, an opinionated but good natured lady, she helped sway her children to the loyalist side
+    name = Noriel
+
+    female = yes
+    dynasty_house = house_gundor
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofgundor22
+    mother = lineofgundor23
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = honest  
+    trait = stubborn
+    trait = compassionate
+
+    trait = education_stewardship_3
+
+    5235.12.27 = {
+        birth = yes
+    }
+
+    5458.7.12 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -43412,7 +44514,7 @@ lineofarandalKS6 = {
     }
 }
 
-lineofarandalKS7 = { # Married into Rohvanorim nobility
+lineofarandalKS7 = { # Married into Rhovanorim nobility
     name = Maunnil
 
     dynasty = dynasty_arandal
@@ -44641,7 +45743,7 @@ lineoftelengaurfinal = {
 	}
 	
     5481.3.1 = { #1448 (87)
-        death = { death_reason = death_battle }
+        death = { death_reason = death_siege }
     }
 	
 }
@@ -44983,6 +46085,43 @@ lineoftiridonKS7 = {
 
     5415.11.23 = {
         death = { death_reason = death_consumption }
+    }
+}
+
+lineoftiridonKS8sister = { #Marries Elentir Aratari. Remains behind in Osgiliath when he is posted to Minas Ithil, but is caught in the siege and killed
+    name = Beleth
+
+    female = yes
+    dynasty_house = house_tiridon
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoftiridonKS6
+    mother = lineoftiridonKS7
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 7
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = brave
+    trait = lustful
+    trait = honest
+
+    trait = education_stewardship_2
+
+    5375.6.17 = {
+        birth = yes
+    }
+
+    5467.6.16 = {
+        death = { death_reason = death_siege } # Died in the siege of Osgiliath due to a fire among the stores 
     }
 }
 
@@ -48917,7 +50056,7 @@ linetelemnarion11 = { # Wife of Castamir
 	}
 }	
 
-linetelemnarion12 = {
+linetelemnarion12 = { # Married the Artari, but her husband died at Erui and her children choose to remain behind in Gondor.
 	name = Firiel
 
 	female = yes
@@ -48927,6 +50066,11 @@ linetelemnarion12 = {
 
 	father = linetelemnarion10
 
+    trait = generous
+    trait = patient
+    trait = zealous
+
+    trait = education_learning_3
 
 	trait = blood_of_numenor_6
 	5367.1.1={
@@ -49957,8 +51101,8 @@ linefaevel5 = {
 		add_spouse = linefaevel5wife
 	}
 
-	5024.5.13 = { # After the death of his first born son he became depressed and refused to have anymore children.
-		add_trait = depressed_1
+	5030.5.13 = { # After the death of his first born son he became depressed and refused to have anymore children.
+		trait = depressed_1
 	}
 
 	5194.10.16 = {
@@ -50013,15 +51157,51 @@ linefaevel6 = {
 	father = linefaevel5
 	mother = linefaevel5wife
 
+    trait = lazy
+    trait = wrathful
+    trait = stubborn
+
 	trait = blood_of_numenor_6
-	5023.11.9 = {
+	5029.11.9 = {
 		birth = yes
 		effect = {
 			learn_language = language_sindarin	
 		}		
 	}
 
-	5024.5.13 = {
+	5030.5.13 = {
+		death = {				
+			death_reason = death_sickly				
+		}
+	}
+}
+
+linefaevel7 = {
+	name = Glorwendil
+
+    female = yes
+	dynasty = dynasty_faevel
+	religion = faith_edain
+	culture = gondorian
+	
+	father = linefaevel5
+	mother = linefaevel5wife
+
+    trait = impatient
+    trait = gregarious
+    trait = ambitious
+
+    trait = education_intrigue_3
+
+	trait = blood_of_numenor_6
+	5023.9.11 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+		}		
+	}
+
+	5240.9.11 = {
 		death = {				
 			death_reason = death_natural_causes				
 		}
@@ -93376,7 +94556,7 @@ lineoflauremacil21 = {
     
 
 
-	trait = blood_of_numenor_6
+	trait = blood_of_numenor_5
     5285.3.11 = {
         birth = yes
 		effect = {
@@ -93403,7 +94583,7 @@ lineoflauremacil22 = {
     
 
 
-	trait = blood_of_numenor_6
+	trait = blood_of_numenor_5
     5349.3.7 = {
         birth = yes
 		effect = {
@@ -93429,7 +94609,7 @@ lineoflauremacil23 = {
     
 
 
-	trait = blood_of_numenor_6
+	trait = blood_of_numenor_5
     5392.12.26 = {
         birth = yes
 		effect = {
@@ -93456,7 +94636,7 @@ lineoflauremacil24 = {
     
 
 
-	trait = blood_of_numenor_5
+	trait = blood_of_numenor_4
     5467.7.22 = {
         birth = yes
 		effect = {
@@ -93469,7 +94649,7 @@ lineoflauremacil24 = {
     }
 }
 
-lineoflauremacil25 = {
+lineoflauremacil25 = { # Marries the Artari
     name = Alatar
 
     dynasty = dynasty_lauremacilionath
@@ -93482,7 +94662,7 @@ lineoflauremacil25 = {
     
 
 
-	trait = blood_of_numenor_5
+	trait = blood_of_numenor_4
     5500.1.17 = {
         birth = yes
 		effect = {
@@ -93491,33 +94671,10 @@ lineoflauremacil25 = {
     }
 
     5586.8.12 = {
-        add_spouse = lineoflauremacil26
+        add_spouse = lineofartari28
     }
 
-    5642.7.27 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineoflauremacil26 = {
-    name = Morlime
-    female = yes
-
-    religion = faith_edain
-    culture = gondorian
-
-    
-
-
-	trait = blood_of_numenor_5
-    5569.2.11 = {
-        birth = yes
-		effect = {
-			learn_language = language_sindarin
-		}
-    }
-
-    5744.12.16 = {
+    5665.7.27 = { # 165
         death = { death_reason = death_natural_causes }
     }
 }
@@ -93530,12 +94687,12 @@ lineoflauremacil27 = {
     culture = gondorian
 
     father = lineoflauremacil25
-    mother = lineoflauremacil26
+    mother = lineofartari28
 
     
 
 
-	trait = blood_of_numenor_5
+	trait = blood_of_numenor_4
     5612.7.12 = {
         birth = yes
 		effect = {
@@ -93562,7 +94719,7 @@ lineoflauremacil28 = {
     
 
 
-	trait = blood_of_numenor_5
+	trait = blood_of_numenor_4
     5633.10.23 = {
         birth = yes
 		effect = {
@@ -93588,7 +94745,7 @@ lineoflauremacil29 = {
     
 
 
-	trait = blood_of_numenor_5
+	trait = blood_of_numenor_4
     5673.3.12 = {
         birth = yes
 		effect = {
@@ -95543,7 +96700,7 @@ lineofmiryanar26 = {
 }
 
 lineofmiryanar27 = {
-    name = Falothron
+    name = Falathron
 
     dynasty = dynasty_miryanarionath
     religion = faith_edain
@@ -134645,7 +135802,7 @@ lineofcunamir86 = {
 }
 
 lineofcunamir87 = {
-    name = Elentir 
+    name = Elentir
 
     dynasty = dynasty_imristion
     religion = faith_edain
@@ -204732,6 +205889,46 @@ lineofastandurcadet10 = {
     }
 }
 
+lineofastandurcadet10sister = {
+    name = Surien
+
+    female = yes
+    dynasty_house = house_astandurionath
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofastandurcadet8
+    mother = lineofastandurcadet9
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = honest
+    trait = fickle
+    trait = just
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 4
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5158.12.11 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    5373.5.15 = { # 215
+        death = { death_reason = death_natural_causes }
+    }
+}
+
 lineofastandurcadet11 = {
     name = Elanor
     female = yes
@@ -220537,11 +221734,7 @@ lineofmamandil70 = {
     }
 
     5483.5.7 = {
-        add_spouse = lineofmamandil71
-    }
-
-    5485.4.10 = {
-        trait = widowed
+        add_spouse = lineofartari25
     }
 
     5653.5.5 = {
@@ -220549,41 +221742,41 @@ lineofmamandil70 = {
     }
 }
 
-lineofmamandil71 = {
-    name = Mairen
-    female = yes
+# lineofmamandil71 = {
+#     name = Mairen
+#     female = yes
 
-    religion = faith_edain
-    culture = gondorian
+#     religion = faith_edain
+#     culture = gondorian
 
-    sexuality = heterosexual
+#     sexuality = heterosexual
 
-    trait = blood_of_numenor_7
+#     trait = blood_of_numenor_7
 
-    trait = arrogant
-    trait = just
-    trait = sadistic
+#     trait = arrogant
+#     trait = just
+#     trait = sadistic
 
-    diplomacy = 3
-    martial = 6
-    stewardship = 4
-    intrigue = 6
-    learning = 2
-    prowess = 5
+#     diplomacy = 3
+#     martial = 6
+#     stewardship = 4
+#     intrigue = 6
+#     learning = 2
+#     prowess = 5
 
-    trait = education_martial_3
+#     trait = education_martial_3
 
-    5429.9.11 = {
-        birth = yes
-        effect = {
-            learn_language = language_sindarin
-        }
-    }
+#     5429.9.11 = {
+#         birth = yes
+#         effect = {
+#             learn_language = language_sindarin
+#         }
+#     }
 
-    5485.4.10 = {
-        death = { death_reason = death_childbirth }
-    }
-}
+#     5485.4.10 = {
+#         death = { death_reason = death_childbirth }
+#     }
+# }
 
 lineofmamandil72 = {
     name = Uinendil
@@ -269543,7 +270736,7 @@ lineofthorondir14 = {
     }
 }
 
-lineofthorondir15 = {
+lineofthorondir15 = { # Marries into the Artari in the double wedding, sides with Eldacar durring the Kin Strife.
     name = Aredhel
     female = yes
 
@@ -269726,7 +270919,7 @@ lineofthorondir19 = {
     }
 }
 
-lineofthorondir20 = {
+lineofthorondir20 = { #A scholar of note in Umbar, Numendim Artari fell in love with her durring a family trip to Umbar. She was swpet of her feet and went back as his wife, but later became closer to his brother Nolondil. She was a strong conservative of the Southern faction, and played a great role in swaying the Artari to Castamir's side. 
     name = Andaranel
     female = yes
 
@@ -269737,7 +270930,7 @@ lineofthorondir20 = {
     father = lineofthorondir16
     mother = lineofthorondir17
 
-    sexuality = asexual
+    sexuality = heterosexual
 
     trait = blood_of_numenor_6
 
@@ -272458,7 +273651,7 @@ lineoferadan27 = {
     }
 
     5505.9.4 = {
-        death = { death_reason = death_dungeon  }
+        death = { death_reason = death_dungeon }
     }
 }
 
@@ -276354,6 +277547,46 @@ lineofgelmir32 = {
     }
 }
 
+lineofgelmir33 = { # Marries into the Artari durring the war, but her husband is kill and she raises her daughter alone in Umbar.
+    name = Haleth
+
+    female = yes
+    dynasty_house = house_gelmirion
+    religion = faith_edain
+    culture = umbaredain
+
+    father = lineofgelmir28
+    mother = lineofgelmir29
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_5
+
+    trait = generous
+    trait = lustful
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 2
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    5433.2.5 = {
+        birth = yes
+    }
+
+    5563.1.1 = {
+        religion = faith_castamiri_creed
+    }
+    5621.3.12 = { # 188
+        death = { death_reason = death_ill }
+    }
+}
+
 #########################
 ### Lords of Ramlond ####
 #########################
@@ -277186,7 +278419,7 @@ lineofelured1 = {
     trait = just
     trait = diligent
 
-    trait = intellect_good_2
+    trait = intellect_good_1
 
     diplomacy = 6
     martial = 9
@@ -277213,6 +278446,52 @@ lineofelured1 = {
 
     5667.4.1 = {
         death = { death_reason = death_battle }
+    }
+}
+
+lineofelured2 = { # Marries Caliel Artari, who flees to Umbar after the Corsair attack. He is accussed of being part of the Corsair Ring, but is unable to be convicted, though his political carrer is destroyed. 
+    name = Eladar
+
+    dynasty = dynasty_eletaniath
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofeletan69
+    mother = lineofeletan70
+
+    sexuality = heterosexual
+
+    trait = brave
+    trait = patient
+    trait = ambitious
+
+    trait = intellect_good_1
+
+    diplomacy = 6
+    martial = 1
+    stewardship = 2
+    intrigue = 7
+    learning = 9
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    trait = blood_of_numenor_6
+
+    5478.11.2 = {
+        birth = yes
+    }
+
+    5525.12.1 = {
+        dynasty_house = house_eluredion 
+    }
+
+    5533.1.1 = {
+        add_spouse = lineofartari26
+    }
+
+    5688.6.12 = {
+        death = { death_reason = death_old_age }
     }
 }
 
