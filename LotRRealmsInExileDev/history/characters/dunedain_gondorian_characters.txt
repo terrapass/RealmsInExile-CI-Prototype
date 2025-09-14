@@ -16264,6 +16264,8 @@ linesteward43 = {
     father = linesteward40
     mother = lineofeofor18
 
+    sexuality = heterosexual
+
     trait = calm
     trait = diligent
     trait = vengeful
@@ -16314,6 +16316,8 @@ linesteward44 = {
     father = linesteward40
     mother = lineofeofor18
 
+    sexuality = heterosexual
+
     trait = blood_of_numenor_2
 
     7058.8.15 = {
@@ -16330,6 +16334,8 @@ linesteward45 = {
 
     father = linesteward40
     mother = lineofeofor18
+
+    sexuality = heterosexual
 
     trait = blood_of_numenor_2
 
@@ -16349,6 +16355,8 @@ linesteward46 = {
     father = linesteward40
     mother = lineofeofor18
 
+    sexuality = heterosexual
+
     trait = blood_of_numenor_2
 
     7065.5.3 = {
@@ -16367,6 +16375,8 @@ linesteward47 = {
     father = linesteward40
     mother = lineofeofor18
 
+    sexuality = heterosexual
+
     trait = blood_of_numenor_2
 
     7068.9.29 = {
@@ -16383,6 +16393,8 @@ linesteward48 = {
 
     father = linesteward43
     mother = linelomear48
+
+    sexuality = heterosexual
 
     trait = just
     trait = compassionate
@@ -16429,6 +16441,8 @@ linesteward49 = {
     father = linesteward48
     mother = lineisildur44
 
+    sexuality = heterosexual
+
     trait = intellect_good_1
     trait = beauty_good_3
     trait = blood_of_numenor_5
@@ -16447,6 +16461,8 @@ linesteward50 = {
 
     father = linesteward48
     mother = lineisildur44
+
+    sexuality = heterosexual
 
     trait = physique_good_2
     trait = beauty_good_2
