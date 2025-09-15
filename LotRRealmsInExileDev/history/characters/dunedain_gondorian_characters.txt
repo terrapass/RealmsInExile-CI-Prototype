@@ -13587,7 +13587,7 @@ lineoforontur30brother9 = { # Eällavar, Daughter of Arion a beautiful Maiden, S
 
     trait = blood_of_numenor_7
 
-    trait = compassionat
+    trait = compassionate
     trait = diligent
     trait = forgiving
 
