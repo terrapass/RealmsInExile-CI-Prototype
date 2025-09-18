@@ -1,11 +1,9 @@
-﻿#####################################
-#####################################
-#######  					  #######	
-####### THE KINGDOM OF GONDOR #######
-#######						  #######	
-#####################################
-#####################################
-###
+﻿###############################
+###############################
+########## GONDORIAN ##########
+###############################
+###############################
+
 ## In order: 
 ## Gondor Proper
 # House of Anárionath, Kings of Gondor
@@ -29098,7 +29096,7 @@ linericulfing1 = {	#Northron captain, employed by Gondor
 
     dynasty = dynasty_entyn_onodlo
     religion = faith_northmen
-    culture = rhovannic
+    culture = rhovanorim
 
     trait = brave
     trait = stubborn
@@ -29125,7 +29123,7 @@ linericulfing2 = {
     female = yes
 
     religion = faith_northmen
-    culture = rhovannic
+    culture = rhovanorim
 
     trait = humble
     trait = temperate
@@ -29145,7 +29143,7 @@ linericulfing3 = {
 
     dynasty = dynasty_entyn_onodlo
     religion = faith_northmen
-    culture = rhovannic
+    culture = rhovanorim
 
     father = linericulfing1
     mother = linericulfing2
@@ -29175,7 +29173,7 @@ linericulfing4 = {
     female = yes
 
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     trait = arrogant
     trait = forgiving
@@ -29195,7 +29193,7 @@ linericulfing5 = {
 
     dynasty = dynasty_entyn_onodlo
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     father = linericulfing3
     mother = linericulfing4
@@ -29245,7 +29243,7 @@ linericulfing7 = {
 
     dynasty = dynasty_entyn_onodlo
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     father = linericulfing5
     mother = linericulfing6
@@ -29322,7 +29320,7 @@ linericulfing10 = {
     female = yes
 
     religion = faith_northmen
-    culture = rhovannic
+    culture = rhovanorim
 
     trait = shy
     trait = arbitrary
@@ -30594,7 +30592,7 @@ linebenrodir2 = { # Daughter of one of the King's captains, among the northmen w
     female = yes
 
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     sexuality = heterosexual
 
@@ -46434,7 +46432,7 @@ lineofarandalKS8 = { #Rhovanic lady from Dor Rhunen
     female = yes
 
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     sexuality = heterosexual
 
@@ -46651,7 +46649,7 @@ lineofarandalKS14 = {
     female = yes
 
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     sexuality = heterosexual
 
@@ -48047,7 +48045,7 @@ lineoftiridonKS9 = {
     female = yes
 
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     sexuality = heterosexual
 
@@ -144959,7 +144957,7 @@ rhovanionwife1 = {
 
 	female = yes
 	religion = faith_northmen
-	culture = rhovannic
+	culture = rhovanorim
 	
 	trait = humble
     trait = patient
@@ -179281,7 +179279,7 @@ lineofvakuankka41 = {
 
     dynasty_house = house_siling
     religion = faith_northmen
-    culture = rhovannic
+    culture = rhovanorim
 
     father = lineofaloito27
     mother = lineofaloito28
@@ -187042,7 +187040,7 @@ lineoferoder1 = {
 
     dynasty = dynasty_erodering
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     sexuality = heterosexual
 
@@ -187079,7 +187077,7 @@ lineoferoder2 = {
     female = yes
 
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     sexuality = heterosexual
 
@@ -187110,7 +187108,7 @@ lineoferoder3 = { # Fruella moves to Calenardhon after the end of his mundburgia
 
     dynasty = dynasty_erodering
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     father = lineoferoder1
     mother = lineoferoder2
@@ -187150,7 +187148,7 @@ lineoferoder4 = {
 
     dynasty = dynasty_erodering
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     father = lineoferoder3
     mother = lineofmaratar41sister1
@@ -187190,7 +187188,7 @@ lineoferoder5 = {
 
     dynasty = dynasty_erodering
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     father = lineoferoder4
     mother = lineofastandurcadet23sister
@@ -187237,7 +187235,7 @@ lineoferoder6 = {
 
     dynasty = dynasty_erodering
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     father = lineoferoder5
     mother = lineofgaldor37sister
@@ -187320,7 +187318,7 @@ lineoferoder8 = {
 
     dynasty = dynasty_erodering
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     father = lineoferoder6
     mother = lineoferoder7
@@ -190382,7 +190380,7 @@ lineofeodoric1 = {
 
     dynasty = dynasty_eodoricing
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     sexuality = heterosexual
     
@@ -190419,7 +190417,7 @@ lineofeodoric2 = {
     female = yes
 
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     sexuality = heterosexual
     
@@ -190450,7 +190448,7 @@ lineofeodoric3 = {
 
     dynasty = dynasty_eodoricing
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     father = lineofeodoric1
     mother = lineofeodoric2
@@ -190490,7 +190488,7 @@ lineofeodoric4 = { # Lives in Calenardhon, Falls in love with Lords Granddaughte
 
     dynasty = dynasty_eodoricing
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     father = lineofeodoric3
     mother = lineoftargon24sister
@@ -190530,7 +190528,7 @@ lineofeodoric5 = {
 
     dynasty = dynasty_eodoricing
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     father = lineofeodoric4
     mother = lineofroquendil27aunt
@@ -239947,7 +239945,7 @@ lineofforodil2 = {
     female = yes
 
     religion = faith_northmen
-    culture = rhovannic
+    culture = rhovanorim
 
     sexuality = heterosexual
 
