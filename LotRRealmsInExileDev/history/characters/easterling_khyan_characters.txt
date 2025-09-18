@@ -1,8 +1,8 @@
-﻿##################################
-##################################
-######## Khyan Characters ########
-##################################
-##################################
+﻿###########################
+###########################
+########## KHYAN ##########
+###########################
+###########################
 
 # Table of Contents #
 
@@ -11088,6 +11088,7 @@ lineofdelir2 = {
     name = Laleh
     female = yes
 
+    dynasty = dynasty_deliren
     religion = faith_arienism
     culture = khyan
 
@@ -11125,6 +11126,7 @@ lineofdelir3 = {
     name = Jaleh
     female = yes
 
+    dynasty = dynasty_deliren
     religion = faith_arienism
     culture = khyan
 
