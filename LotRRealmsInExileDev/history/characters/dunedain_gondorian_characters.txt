@@ -35486,7 +35486,7 @@ lineyrchdaugnir11 = {
 	}
 }	
 
-lineyrchdaugnir12 = {
+lineyrchdaugnir12 = { # Father of the Mouth of Sauron
 	name = Vingintur 
 	dynasty = dynasty_doranorien
 	religion = faith_edain
