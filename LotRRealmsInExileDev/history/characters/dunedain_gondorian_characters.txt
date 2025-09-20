@@ -285804,7 +285804,6 @@ lineoflestor3 = {   #Lestor "the Candle Man" from LoTR: Gollum
 	trait = deceitful
 	trait = cynical
     trait = sadistic
-    trait = blood_of_numenor_1 
 	
 	6955.1.1 = {
 		birth = yes
