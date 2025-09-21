@@ -37757,6 +37757,7 @@ linecelebhatol18 = {
 lebennin25 = {	#intermarried
 	name = Nessanie # Wife of Sea-lord Ciryandur
 	female = yes
+    dna = sealord_wife_dna
 	
 	dynasty = dynasty_gilrain
 	religion = faith_edain
