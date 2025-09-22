@@ -319217,7 +319217,7 @@ lineofadarfiruzen159 = {
 	    trait = lazy
 	}
 	6745.02.14 = {  # Married at age 24
-	    add_spouse = lineoffarshidzen162
+	    add_matrilineal_spouse = lineoffarshidzen162
 	}
 	6792.06.20 = {  # Died at age 71
 	    death = { death_reason = death_natural_causes }
@@ -319394,7 +319394,7 @@ lineofadarfiruzen166 = {
 	culture = clyan
 	religion = faith_hitaspa
 
-	dynasty = dynasty_adarfiruzen
+	dynasty = dynasty_farshidzen
 	father = lineofadarfiruzen159
 	mother = lineoffarshidzen162
 
@@ -319464,7 +319464,7 @@ lineofadarfiruzen168 = {
 	culture = clyan
 	religion = faith_hitaspa
 
-	dynasty = dynasty_adarfiruzen
+	dynasty = dynasty_farshidzen
 	father = lineofadarfiruzen159
 	mother = lineoffarshidzen162
 
@@ -366475,7 +366475,7 @@ lineofqudoz89 = {
 	    trait = honest
 	}
 	6971.01.04 = {  # Married at age 20
-	    add_spouse = lineofcaramadran173
+	    add_matrilineal_spouse = lineofcaramadran173
 	}
 	7014.08.27 = {  # Died at age 63
 	    death = { death_reason = death_ill }
@@ -366563,7 +366563,7 @@ lineofqudoz92 = {
 	culture = clyan
 	religion = faith_hitaspa
 
-	dynasty = dynasty_qudoz
+	dynasty = dynasty_caramadran
 	father = lineofqudoz89
 	mother = lineofcaramadran173
 
@@ -366599,7 +366599,7 @@ lineofqudoz93 = {
 	culture = clyan
 	religion = faith_hitaspa
 
-	dynasty = dynasty_qudoz
+	dynasty = dynasty_caramadran
 	father = lineofqudoz89
 	mother = lineofcaramadran173
 
@@ -366637,7 +366637,7 @@ lineofqudoz94 = {
 	culture = clyan
 	religion = faith_hitaspa
 
-	dynasty = dynasty_qudoz
+	dynasty = dynasty_caramadran
 	father = lineofqudoz89
 	mother = lineofcaramadran173
 
@@ -366676,7 +366676,7 @@ lineofqudoz95 = {
 	culture = clyan
 	religion = faith_hitaspa
 
-	dynasty = dynasty_qudoz
+	dynasty = dynasty_caramadran
 	father = lineofqudoz89
 	mother = lineofcaramadran173
 
@@ -366716,7 +366716,7 @@ lineofqudoz96 = {
 	culture = clyan
 	religion = faith_hitaspa
 
-	dynasty = dynasty_qudoz
+	dynasty = dynasty_caramadran
 	father = lineofqudoz92
 	mother = lineofvisnarmaken154
 
@@ -366757,7 +366757,7 @@ lineofqudoz97 = {
 	culture = clyan
 	religion = faith_hitaspa
 
-	dynasty = dynasty_qudoz
+	dynasty = dynasty_caramadran
 	father = lineofqudoz92
 	mother = lineofvisnarmaken154
 
@@ -366813,7 +366813,7 @@ lineofqudoz99 = {
 	culture = clyan
 	religion = faith_hitaspa
 
-	dynasty = dynasty_qudoz
+	dynasty = dynasty_caramadran
 	father = lineofqudoz96
 	mother = lineofbahraman196
 
@@ -366841,7 +366841,7 @@ lineofqudoz100 = {
 	culture = clyan
 	religion = faith_hitaspa
 
-	dynasty = dynasty_qudoz
+	dynasty = dynasty_caramadran
 	father = lineofqudoz96
 	mother = lineofbahraman196
 

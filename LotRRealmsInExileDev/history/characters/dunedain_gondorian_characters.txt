@@ -35486,7 +35486,7 @@ lineyrchdaugnir11 = {
 	}
 }	
 
-lineyrchdaugnir12 = {
+lineyrchdaugnir12 = { # Father of the Mouth of Sauron
 	name = Vingintur 
 	dynasty = dynasty_doranorien
 	religion = faith_edain
@@ -37757,6 +37757,7 @@ linecelebhatol18 = {
 lebennin25 = {	#intermarried
 	name = Nessanie # Wife of Sea-lord Ciryandur
 	female = yes
+    dna = sealord_wife_dna
 	
 	dynasty = dynasty_gilrain
 	religion = faith_edain
@@ -285804,7 +285805,6 @@ lineoflestor3 = {   #Lestor "the Candle Man" from LoTR: Gollum
 	trait = deceitful
 	trait = cynical
     trait = sadistic
-    trait = blood_of_numenor_1 
 	
 	6955.1.1 = {
 		birth = yes
@@ -285815,6 +285815,7 @@ lineoflestor3 = {   #Lestor "the Candle Man" from LoTR: Gollum
 	}
 	
 	6988.1.1 = {
+        culture = mordorrim
 	    religion = lidless_eye	
 		employer = mouthofsauron
 		give_nickname = nick_candleman
@@ -285873,6 +285874,7 @@ lineoflestor5 = { #Ileth, daughter of Lestor from LoTR: Gollum
 	}
 	
     6995.1.1 = {
+        culture = mordorrim
 		religion = lidless_eye
 		employer = mouthofsauron
 
