@@ -17007,7 +17007,7 @@ linesteward22 = {
 
 	trait = brave
 	trait = diligent
-	trait = just
+	trait = stubborn
 
 	trait = black_breath
 
@@ -17017,6 +17017,7 @@ linesteward22 = {
 	trait = physique_good_1
 	trait = beauty_good_1
 	trait = intellect_good_1
+    # 'He was noble and fair of face, a man strong in body and in will' - Appx A
 
 	trait = blood_of_numenor_2
 	6443.1.1 = {
@@ -17035,7 +17036,7 @@ linesteward22 = {
 	}
 }	
 
-linesteward23 = {
+linesteward23 = { # Steward Cirion, granted Calenardhon to Eorl. 
 	name = Cirion
 
 	dynasty_house = house_gondorstewards
@@ -17046,6 +17047,15 @@ linesteward23 = {
 	father = linesteward22
 	mother = linebenrodir37sis
 
+    # "He was a man of little pride and of great courage and gerosity of heart, the noblest of the Stewards of Gondor" - UT 'Cirion and Eorl'
+    trait = generous
+    trait = humble
+    trait = brave
+
+    trait = education_diplomacy_4
+    trait = august
+
+	trait = intellect_good_1
 
 	trait = blood_of_numenor_2
 	6482.1.1 = {
