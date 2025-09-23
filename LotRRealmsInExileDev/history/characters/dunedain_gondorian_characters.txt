@@ -47403,6 +47403,7 @@ lineoftelengaurKS5 = {
     name = Lestien
     female = yes
 
+    dynasty = dynasty_telengaur
     religion = faith_edain
     culture = gondorian
 
@@ -48421,6 +48422,7 @@ lineoftiridonKS18 = {
     name = Aearwen
     female = yes
 
+    dynasty_house = house_tiridon
     religion = faith_edain
     culture = gondorian
 
@@ -48678,6 +48680,7 @@ lineoftiridonKS25 = {
 
     religion = faith_edain
     culture = gondorian
+	dynasty_house = house_tiridon
 
     father = lineoftiridonKS8
     mother = lineoftiridonKS9
