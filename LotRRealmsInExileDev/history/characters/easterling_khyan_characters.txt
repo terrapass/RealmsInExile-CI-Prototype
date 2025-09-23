@@ -333008,6 +333008,11 @@ lineofcaramadran179 = {
 	    trait = patient
 	    trait = content
 	}
+    7071.5.10 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofcaramadran180 = {
@@ -333070,6 +333075,11 @@ lineofcaramadran181 = {
 	7030.01.08 = {  # Married at age 18
 	    add_spouse = lineofkerhamez147
 	}
+    7092.6.3 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofcaramadran182 = {
@@ -333177,6 +333187,11 @@ lineofcaramadran185 = {
 	    trait = gregarious
 	    trait = paranoid
 	}
+    7075.7.27 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofcaramadran186 = {
@@ -340477,6 +340492,11 @@ lineoffarshidzen201 = {
 	    trait = temperate
 	    trait = fickle
 	}
+    7089.6.16 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineoffarshidzen202 = {
@@ -351230,6 +351250,11 @@ lineofkerhamez144 = {
 	    trait = gregarious
 	    trait = honest
 	}
+    7061.7.24 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofkerhamez145 = {
@@ -351339,6 +351364,11 @@ lineofkerhamez147 = {
 	    trait = paranoid
 	    trait = stubborn
 	}
+    7033.04.17 = {
+        death = {
+            death_reason = death_childbirth
+        }
+    }
 }
 
 lineofkerhamez148 = {
@@ -351367,6 +351397,11 @@ lineofkerhamez148 = {
 	    trait = wrathful
 	    trait = cynical
 	}
+    7033.1.24 = {
+        death = {
+            death_reason = death_childbirth
+        }
+    }
 }
 
 lineofkerhamez149 = {
@@ -361676,6 +361711,11 @@ lineofosard124 = {
 	    trait = diligent
 	    trait = forgiving
 	}
+    7059.9.10 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofosard125 = {
@@ -361708,6 +361748,11 @@ lineofosard125 = {
 	    trait = chaste
 	    trait = forgiving
 	}
+    7058.8.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofosard126 = {
@@ -361769,6 +361814,11 @@ lineofosard127 = {
 	    trait = craven
 	    trait = deceitful
 	}
+    7086.1.7 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofadarfiruzen148 = {
@@ -366807,6 +366857,11 @@ lineofqudoz98 = {
 	    trait = content
 	    trait = cynical
 	}
+    7085.3.20 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofqudoz99 = {
@@ -371426,6 +371481,11 @@ lineofshirzadeh127 = {
 	7024.03.10 = {  # Married at age 19
 	    add_spouse = lineofshirzadeh129
 	}
+    7097.10.3 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofshirzadeh128 = {
@@ -371457,6 +371517,11 @@ lineofshirzadeh128 = {
 	    trait = impatient
 	    trait = fickle
 	}
+    7049.6.27 = {
+        death = {
+            death_reason = death_horse_riding_accident
+        }
+    }
 }
 
 lineofshirzadeh129 = {
@@ -371489,6 +371554,11 @@ lineofshirzadeh129 = {
 	    trait = brave
 	    trait = humble
 	}
+    7025.7.24 = {
+        death = {
+            death_reason = death_childbirth
+        }
+    }
 }
 
 lineofshirzadeh130 = {
@@ -371550,6 +371620,11 @@ lineofshirzadeh131 = {
 	    trait = ambitious
 	    trait = cynical
 	}
+    7090.2.16 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofshirzadeh132 = {
@@ -381720,6 +381795,11 @@ lineofvahramzen162 = {
 	    trait = sadistic
 	    trait = wrathful
 	}
+    7037.9.16 = {
+        death = {
+            death_reason = death_pneumonic
+        }
+    }
 }
 
 lineofvahramzen163 = {
@@ -381751,6 +381831,11 @@ lineofvahramzen163 = {
 	    trait = arrogant
 	    trait = lazy
 	}
+    7074.1.27 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvahramzen164 = {
@@ -381785,6 +381870,11 @@ lineofvahramzen164 = {
 	7033.07.22 = {  # Married at age 25
 	    add_spouse = lineofosard126
 	}
+    7083.7.15 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvahramzen165 = {
@@ -387424,6 +387514,11 @@ lineofvisnarmaken162 = {
 	    trait = fickle
 	    trait = just
 	}
+    7066.3.18 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvisnarmaken163 = {
@@ -387455,6 +387550,11 @@ lineofvisnarmaken163 = {
 	    trait = just
 	    trait = paranoid
 	}
+    7086.7.13 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 lineofvisnarmaken164 = {
@@ -387604,6 +387704,11 @@ lineofvisnarmaken167 = {
 	    trait = impatient
 	    trait = generous
 	}
+    7082.7.10 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
 }
 
 #################
