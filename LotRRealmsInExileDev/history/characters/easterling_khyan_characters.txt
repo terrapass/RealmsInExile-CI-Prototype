@@ -11798,6 +11798,7 @@ lineofdelir13 = {
     name = Khushnawaz
     female = yes
 
+    dynasty = dynasty_deliren
     religion = faith_arienism
     culture = khyan
 

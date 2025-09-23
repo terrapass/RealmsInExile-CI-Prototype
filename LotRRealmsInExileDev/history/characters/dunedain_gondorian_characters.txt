@@ -46692,6 +46692,7 @@ lineofarandalKS15 = {
     name = Borwen
     female = yes
 
+    dynasty = dynasty_arandal
     religion = faith_edain
     culture = gondorian
 
@@ -49308,6 +49309,7 @@ lineofmorvegil104 = {
     name = Saerwen
     female = yes
 
+    dynasty = dynasty_morvegil
     religion = faith_edain
     culture = gondorian
 
@@ -49344,6 +49346,7 @@ lineofmorvegil105 = {
     name = Merien
     female = yes
 
+    dynasty = dynasty_morvegil
     religion = faith_edain
     culture = gondorian
 
@@ -49595,6 +49598,7 @@ lineofmorvegil112 = {
     name = Meleth
     female = yes
 
+    dynasty = dynasty_morvegil
     religion = faith_edain
     culture = gondorian
 
@@ -49629,6 +49633,7 @@ lineofmorvegil113 = {
     name = Meiriel
     female = yes
 
+    dynasty = dynasty_morvegil
     religion = faith_edain
     culture = gondorian
 
@@ -49809,6 +49814,7 @@ lineofmorvegil118 = {
     name = Hareth
     female = yes
 
+    dynasty = dynasty_morvegil
     religion = faith_edain
     culture = gondorian
 
@@ -50131,6 +50137,7 @@ lineofmorvegil127 = {
     name = Calime
     female = yes
 
+    dynasty = dynasty_morvegil
     religion = faith_edain
     culture = gondorian
 
@@ -50912,6 +50919,7 @@ lineofmorvegil148 = {
     name = Ireth
     female = yes
 
+    dynasty = dynasty_morvegil
     religion = faith_edain
     culture = gondorian
 
@@ -50933,6 +50941,7 @@ lineofmorvegil149 = {
     name = Emelisse
     female = yes
 
+    dynasty = dynasty_morvegil
     religion = faith_edain
     culture = gondorian
 
@@ -50999,6 +51008,7 @@ lineofmorvegil152 = {
     name = Orowen
     female = yes
 
+    dynasty = dynasty_morvegil
     religion = faith_edain
     culture = gondorian
 
@@ -70586,6 +70596,7 @@ linegolwenion9 = {
     name = Baraheth
     female = yes
 
+    dynasty = dynasty_golwenion
     religion = faith_edain
     culture = gondorian
 	
@@ -145311,6 +145322,8 @@ narienhusband = {
 
 dorhunen14 = {
 	name = S_Oltuz
+    
+    dynasty = dynasty_haldirionath
 	religion = faith_rhun_pantheistic
 	culture = odhriag
 	
@@ -149560,6 +149573,7 @@ linetulion11 = {
     name = Almariel
     female = yes
 
+    dynasty = dynasty_tulionath
     religion = faith_edain
     culture = gondorian
 
@@ -255828,6 +255842,7 @@ lineofhundad55 = {
     name = Nariel
     female = yes
 
+    dynasty = dynasty_hundadionath
     religion = faith_edain
     culture = gondorian
 
@@ -286136,6 +286151,7 @@ lineofcethrandir5wife = {
 lineofcethrandir6 = {
 	name = Andril
 
+    dynasty = dynasty_cethrandir
 	religion = faith_numenorean				
 	culture = numenorean
 	female = yes
