@@ -9745,8 +9745,8 @@ lineofroquendil14a4 = {
 }
 
 ### Castamiri Roquendils, Children of Tamondur Roqs 3rd Child
-lineofroquendil14ason1 = { # Herundil, Supports Castamir but he dies before Kinstrife
-    name = Herundil # TEMP
+lineofroquendil14ason1 = { # Tarostar, Supports Castamir but he dies before Kinstrife
+    name = Tarostar
 
     dynasty_house = house_roquendilin
     religion = faith_edain
@@ -9795,8 +9795,8 @@ lineofroquendil14ason1 = { # Herundil, Supports Castamir but he dies before Kins
     }
 }
 
-lineofroquendil14ason2 = { # Quelanar, Elder child of Herundil dies during Kinstrife. Fights for Castarmir
-    name = Quelanar # TEMP
+lineofroquendil14ason2 = { # Ostoher, Elder child of Tarostar dies during Kinstrife. Fights for Castarmir
+    name = Ostoher
 
     dynasty_house = house_roquendilin
     religion = faith_edain
@@ -9845,8 +9845,8 @@ lineofroquendil14ason2 = { # Quelanar, Elder child of Herundil dies during Kinst
     }
 }
 
-lineofroquendil14ason3 = { # Vinyamelde, the younger child of Herundil, Supports Castamir during Kinstrife flees to Umbar after Kinstrife
-    name = Vinyamelde # TEMP
+lineofroquendil14ason3 = { # An_ariel, the younger child of Tarostar, Supports Castamir during Kinstrife flees to Umbar after Kinstrife
+    name = An_ariel
     female = yes
 
     dynasty_house = house_roquendilin
@@ -9892,8 +9892,8 @@ lineofroquendil14ason3 = { # Vinyamelde, the younger child of Herundil, Supports
     }
 }
 
-lineofroquendil14ason4 = { # Hyarmenion, Elder son of Quelanar, Supports Castamir during Kinstrife, Marries a lady from umbar. Dies during Erui
-    name = Hyarmenion # TEMP
+lineofroquendil14ason4 = { # Minastur, Elder son of Ostoher, Supports Castamir during Kinstrife, Marries a lady from umbar. Dies during Erui
+    name = Minastur
 
     dynasty_house = house_roquendilin
     religion = faith_edain
@@ -9938,8 +9938,8 @@ lineofroquendil14ason4 = { # Hyarmenion, Elder son of Quelanar, Supports Castami
     }
 }
 
-lineofroquendil14ason5 = { # Minherion, Younger son of Quelanar, Supports Castamir during Kinstrife. Dies during Siege of Pelargir
-    name = Minherion # TEMP
+lineofroquendil14ason5 = { # Tarastur, Younger son of Ostoher, Supports Castamir during Kinstrife. Dies during Siege of Pelargir
+    name = Tarastur
 
     dynasty_house = house_roquendilin
     religion = faith_edain
@@ -9980,8 +9980,8 @@ lineofroquendil14ason5 = { # Minherion, Younger son of Quelanar, Supports Castam
     }
 }
 
-lineofroquendil14ason6 = { # Astaldion, Son of Hyarmenion, Supports Castamir, Warrior but not a great one killed during attack on Osgiliath
-    name = Astaldion # TEMP
+lineofroquendil14ason6 = { # Astaldion, Son of Minastur, Supports Castamir, Warrior but not a great one killed during attack on Osgiliath
+    name = Astaldion
 
     dynasty_house = house_roquendilin
     religion = faith_edain
@@ -10022,8 +10022,8 @@ lineofroquendil14ason6 = { # Astaldion, Son of Hyarmenion, Supports Castamir, Wa
     }
 }
 
-lineofroquendil14ason7 = { # Naltalote, Daughter of Hyarmenion, Supports Castamir, Flees to Umbar after Kinstrife
-    name = Naltal_ot_e_e # TEMP
+lineofroquendil14ason7 = { # Tarwen, Daughter of Minastur, Supports Castamir, Flees to Umbar after Kinstrife
+    name = Tarwen
     female = yes
 
     dynasty_house = house_roquendilin
@@ -10066,9 +10066,9 @@ lineofroquendil14ason7 = { # Naltalote, Daughter of Hyarmenion, Supports Castami
 }
 
 ### Line of Roquendil, Children of Ohtardil Roquendilioni
-# Line of Nortar Elder son of Ohtardil
-lineofroquendil18sona1 = { # Nortar is the Elder son of Ohtardil. He supports his Uncle-in-Law Eldacar, Dies during the Battle of Osgiliath
-    name = Nortar # TEMP
+# Line of Nolmon Elder son of Ohtardil
+lineofroquendil18sona1 = { # Nolmon is the Elder son of Ohtardil. He supports his Uncle-in-Law Eldacar, Dies during the Battle of Osgiliath
+    name = Nolmon
 
     dynasty_house = house_roquendilin
     religion = faith_edain
@@ -10118,8 +10118,8 @@ lineofroquendil18sona1 = { # Nortar is the Elder son of Ohtardil. He supports hi
     }
 }
 
-lineofroquendil18sona2 = { # Artanar supports Eldacar during Kinstrife and fights during it. After Kinstrife with his father death he gets the duchy of Gilrain after Kinstrife as his governorship. He marries and only has daughters
-    name = Artanar # TEMP
+lineofroquendil18sona2 = { # Narmacil supports Eldacar during Kinstrife and fights during it. After Kinstrife with his father death he gets the duchy of Gilrain after Kinstrife as his governorship. He marries and only has daughters
+    name = Narmacil
 
     dynasty_house = house_roquendilin
     religion = faith_edain
@@ -10164,8 +10164,8 @@ lineofroquendil18sona2 = { # Artanar supports Eldacar during Kinstrife and fight
     }
 }
 
-lineofroquendil18sona3 = { # Nárië is the daughter of Nortar. She stays loyal to her family and doesn't do much during Kinstrife. She is very knowledgable in gondors history and old history of middle-earth
-    name = N_ari_e_e # TEMP
+lineofroquendil18sona3 = { # Ancalinë is the daughter of Nolmon. She stays loyal to her family and doesn't do much during Kinstrife. She is very knowledgable in gondors history and old history of middle-earth
+    name = Ancaline
     female = yes
 
     dynasty_house = house_roquendilin
@@ -10207,8 +10207,8 @@ lineofroquendil18sona3 = { # Nárië is the daughter of Nortar. She stays loyal 
     }
 }
 
-lineofroquendil18sona4 = { # Isilme is the Elder of Artanars two daughters. She is too young to have any influence during kinstrife
-    name = Isilm_e_e # TEMP
+lineofroquendil18sona4 = { # Nárië is the Elder of Narmacil's two daughters. She is too young to have any influence during kinstrife
+    name = N_ari_e_e
     female = yes
 
     dynasty_house = house_roquendilin
@@ -10255,8 +10255,8 @@ lineofroquendil18sona4 = { # Isilme is the Elder of Artanars two daughters. She 
     }
 }
 
-lineofroquendil18sona5 = { # Arien is the Elder of Artanars two daughters. She is too young to have any influence during kinstrife
-    name = _Arien # TEMP
+lineofroquendil18sona5 = { # Arien is the younger of Narmacil's two daughters. She is too young to have any influence during kinstrife
+    name = Arien
     female = yes
 
     dynasty_house = house_roquendilin
@@ -10302,9 +10302,9 @@ lineofroquendil18sona5 = { # Arien is the Elder of Artanars two daughters. She i
     }
 }
 
-# Line of Merilde, Younger son of Ohtardil
-lineofroquendil18sonb1 = { # Minastur is the younger son of Ohtardil. He supports his Uncle-in-Law Eldacar, Survives Kinstrife and gets the Governance of Gardhon Fuir. His Elder son dies during Kinstrife
-    name = Minastur # TEMP
+# Line of Airondil, Younger son of Ohtardil
+lineofroquendil18sonb1 = { # Airondil is the younger son of Ohtardil. He supports his Uncle-in-Law Eldacar, Survives Kinstrife and gets the Governance of Gardhon Fuir. His Elder son dies during Kinstrife
+    name = Airondil
 
     dynasty_house = house_roquendilin
     religion = faith_edain
@@ -10353,8 +10353,8 @@ lineofroquendil18sonb1 = { # Minastur is the younger son of Ohtardil. He support
     }
 }
 
-lineofroquendil18sonb2 = { # Arquendil is Elder son of Minastur. He stands by Eldacar in Kinstrife and dies during Erui. Doesn't get married.
-    name = Arquendil # TEMP
+lineofroquendil18sonb2 = { # Tarquen is Elder son of Airondil. He stands by Eldacar in Kinstrife and dies during Erui. Doesn't get married.
+    name = Tarquen
 
     dynasty_house = house_roquendilin
     religion = faith_edain
@@ -10395,8 +10395,8 @@ lineofroquendil18sonb2 = { # Arquendil is Elder son of Minastur. He stands by El
     }
 }
 
-lineofroquendil18sonb3 = { # Narmacar is younger son of Minastur. He fights with Eldacar during Kinstrife and after Kinstrife he gets the duchy of Gardhon fuir after Kinstrife. He marries and has 1 son who dies young and 2 daughters
-    name = Narmacar # TEMP
+lineofroquendil18sonb3 = { # Tarindor is younger son of Airondil. He fights with Eldacar during Kinstrife and after Kinstrife he gets the duchy of Gardhon fuir after Kinstrife. He marries and has 1 son who dies young and 2 daughters
+    name = Tarindor
 
     dynasty_house = house_roquendilin
     religion = faith_edain
@@ -10442,8 +10442,8 @@ lineofroquendil18sonb3 = { # Narmacar is younger son of Minastur. He fights with
     }
 }
 
-lineofroquendil18sonb4 = { # Elendur, Son of Narmacar dies young. Born during the exile of Roquendilioni
-    name = Elendur # TEMP
+lineofroquendil18sonb4 = { # Aratan, Son of Tarindor dies young. Born during the exile of Roquendilioni
+    name = Aratan
 
     dynasty_house = house_roquendilin
     religion = faith_edain
@@ -10485,8 +10485,8 @@ lineofroquendil18sonb4 = { # Elendur, Son of Narmacar dies young. Born during th
     }
 }
 
-lineofroquendil18sonb5 = { # Herince elder daughter of Narmacar. Born during Exile of Roquendilioni
-    name = H_erince # TEMP
+lineofroquendil18sonb5 = { # Herince elder daughter of Tarindor. Born during Exile of Roquendilioni
+    name = H_erince
     female = yes
 
     dynasty_house = house_roquendilin
@@ -10529,8 +10529,8 @@ lineofroquendil18sonb5 = { # Herince elder daughter of Narmacar. Born during Exi
     }
 }
 
-lineofroquendil18sonb6 = { # Aldanilme younger daughter of Narmacar. Born during right after Kinstrife. Known for her Great beauty
-    name = Aldanilme # TEMP
+lineofroquendil18sonb6 = { # Artanis younger daughter of Tarindor. Born during right after Kinstrife. Known for her Great beauty
+    name = Artanis
     female = yes
 
     dynasty_house = house_roquendilin
@@ -11713,7 +11713,7 @@ lineoforontur18 = {
 }
 
 lineoforontur18sister = {
-    name = Armat_ari # TEMP
+    name = Vanyafindel_e_e
     female = yes
 
     dynasty_house = house_orontur
@@ -11840,7 +11840,7 @@ lineoforontur20 = {
 }
 
 lineoforontur20sister = {
-    name = Isilm_e_e # TEMP
+    name = Ataniel
     female = yes
 
     dynasty_house = house_orontur
@@ -12572,7 +12572,7 @@ lineoforontur32 = {
 }
 
 lineoforontur32brother = { # Youngest son of Maltur dies before Kinstrife
-    name = Ilion # TEMP
+    name = Menelmacar
 
     dynasty_house = house_orontur
     religion = faith_edain
@@ -12621,8 +12621,8 @@ lineoforontur32brother = { # Youngest son of Maltur dies before Kinstrife
     }
 }
 
-lineoforontur32brother1 = { # Naltalote daughter of Ilion supports her family dies during the siege of Oronturioni
-    name = Naltal_ot_e_e # TEMP
+lineoforontur32brother1 = { # Márien daughter of Menelmacar supports her family dies during the siege of Oronturioni
+    name = M_arien
     female = yes
 
     dynasty_house = house_orontur
@@ -13106,7 +13106,7 @@ lineoforontur42 = {
 }
 
 lineoforontur43 = {
-    name = Elenar
+    name = Elennar
 
     dynasty_house = house_orontur
     religion = faith_edain
@@ -13202,9 +13202,9 @@ lineoforontur44 = {
     }
 }
 
-# Line of Elenar 
+# Line of Elennar 
 lineoforontur30brother1 = {
-    name = Elenar # TEMP
+    name = Elennar
 
     dynasty_house = house_orontur
     religion = faith_edain
@@ -13250,7 +13250,7 @@ lineoforontur30brother1 = {
 }
 
 lineoforontur30brother2 = {
-    name = N_ari_e_e # TEMP
+    name = Alcarine_e_
     female = yes
 
     dynasty_house = house_orontur
@@ -13292,8 +13292,8 @@ lineoforontur30brother2 = {
     }
 }
 
-lineoforontur30brother3 = { # Iricano, Son of Elenar supports Eldacar during Kinstrife. Is killed during Erui by his younger brother
-    name = _Iric_Ano # TEMP
+lineoforontur30brother3 = { # Eärnil, Son of Elennar supports Eldacar during Kinstrife. Is killed during Erui by his younger brother
+    name = E_a_arnil
 
     dynasty_house = house_orontur
     religion = faith_edain
@@ -13338,8 +13338,8 @@ lineoforontur30brother3 = { # Iricano, Son of Elenar supports Eldacar during Kin
     }
 }
 
-lineoforontur30brother4 = { # Tamondur, Son of Elenar supports Castamir during Kinstrife, Kills his own brother during Erui
-    name = Tamondur # TEMP
+lineoforontur30brother4 = { # Alcarion, Son of Elennar supports Castamir during Kinstrife, Kills his own brother during Erui
+    name = Alcarion
 
     dynasty_house = house_orontur
     religion = faith_edain
@@ -13385,8 +13385,8 @@ lineoforontur30brother4 = { # Tamondur, Son of Elenar supports Castamir during K
     }
 }
 
-lineoforontur30brother5 = { # Arion, Son of Iricano fights for Eldacar, kills his uncle during siege of Osgiliath. Dies from his wounds soon after Kinstrife. Great Sailor and a naval commander
-    name = Arion # TEMP
+lineoforontur30brother5 = { # Arion, Son of Alcarion fights for Eldacar, kills his uncle during siege of Osgiliath. Dies from his wounds soon after Kinstrife. Great Sailor and a naval commander
+    name = Arion
 
     dynasty_house = house_orontur
     religion = faith_edain
@@ -13439,8 +13439,8 @@ lineoforontur30brother5 = { # Arion, Son of Iricano fights for Eldacar, kills hi
     }
 }
 
-lineoforontur30brother6 = { # Vinyamelde, daughter of Iricano, Supports Eldacar doesn't do much during Kinstrife. Lives a quite life after Kinstrife Depressed after having lost her brother and father.
-    name = Vinyamelde # TEMP
+lineoforontur30brother6 = { # Aryante, daughter of Alcarion, Supports Eldacar doesn't do much during Kinstrife. Lives a quite life after Kinstrife Depressed after having lost her brother and father.
+    name = Aryante
     female = yes
 
     dynasty_house = house_orontur
@@ -13487,7 +13487,7 @@ lineoforontur30brother6 = { # Vinyamelde, daughter of Iricano, Supports Eldacar 
 }
 
 lineoforontur30brother7 = { # Marvoron the elder son of Tamondur, Dies before Kinstrife
-    name = Marvoron # TEMP
+    name = Calimehtar
 
     dynasty_house = house_orontur
     religion = faith_edain
@@ -13528,8 +13528,8 @@ lineoforontur30brother7 = { # Marvoron the elder son of Tamondur, Dies before Ki
     }
 }
 
-lineoforontur30brother8 = { # Alcarion the younger son of Tamondur, Sides with Castamir dies during crossings of Erui
-    name = Alcarion # TEMP
+lineoforontur30brother8 = { # Armacil the younger son of Tamondur, Sides with Castamir dies during crossings of Erui
+    name = Armacil
 
     dynasty_house = house_orontur
     religion = faith_edain
@@ -13570,8 +13570,8 @@ lineoforontur30brother8 = { # Alcarion the younger son of Tamondur, Sides with C
     }
 }
 
-lineoforontur30brother9 = { # Eällavar, Daughter of Arion a beautiful Maiden, Supports Eldacar during Kinstrife but she is with her mothers Kin in Pinnath gelin during the attack on Orontur Estate. She is 17 when Kinstrife starts and Arion decides to send her and her mother to Pinnath Gelin to her mothers family
-    name = E_a_a_llavar # TEMP
+lineoforontur30brother9 = { # Silmari_e_en, Daughter of Arion a beautiful Maiden, Supports Eldacar during Kinstrife but she is with her mothers Kin in Pinnath gelin during the attack on Orontur Estate. She is 17 when Kinstrife starts and Arion decides to send her and her mother to Pinnath Gelin to her mothers family
+    name = Silmari_e_en
     female = yes
 
     dynasty_house = house_orontur
@@ -13615,7 +13615,7 @@ lineoforontur30brother9 = { # Eällavar, Daughter of Arion a beautiful Maiden, S
 
 ### Malmahtans Brothers line, mostly Castamiri
 lineoforontur28brother1 = {
-    name = Oronar # TEMP
+    name = Hallaran
 
     dynasty_house = house_orontur
     religion = faith_edain
@@ -13661,8 +13661,8 @@ lineoforontur28brother1 = {
     }
 }
 
-lineoforontur28brother2 = { # Learned man son of Oronar, Supports Castamir dies before Osgiliath
-    name = Tarahil # TEMP
+lineoforontur28brother2 = { # Learned man son of Hallaran, Supports Castamir dies before Osgiliath
+    name = Hallatar
 
     dynasty_house = house_orontur
     religion = faith_edain
@@ -13709,7 +13709,7 @@ lineoforontur28brother2 = { # Learned man son of Oronar, Supports Castamir dies 
 }
 
 lineoforontur28brother3 = { # Umbarwen is a Diplomat. Supports Castamir dies before Kinstrife of a illness
-    name = Umbarwen # TEMP
+    name = Nessani_e_e
     female = yes
 
     dynasty_house = house_orontur
@@ -13752,7 +13752,7 @@ lineoforontur28brother3 = { # Umbarwen is a Diplomat. Supports Castamir dies bef
 }
 
 lineoforontur28brother4 = { # Eärnur is a captain of a ship and a great naval commander. Dies during a naval battle during Siege of Pelargir
-    name = E_A_Arnur # TEMP
+    name = Ciryandil
 
     dynasty_house = house_orontur
     religion = faith_edain
@@ -13797,8 +13797,8 @@ lineoforontur28brother4 = { # Eärnur is a captain of a ship and a great naval c
     }
 }
 
-lineoforontur28brother5 = { # Eälote loved the sea, She marries to Umbar
-    name = Ealote # TEMP
+lineoforontur28brother5 = { # Telumiel loved the sea, She marries to Umbar
+    name = Telumiel
     female = yes
 
     dynasty_house = house_orontur
@@ -13840,8 +13840,8 @@ lineoforontur28brother5 = { # Eälote loved the sea, She marries to Umbar
     }
 }
 
-lineoforontur28brother6 = { # Arundil was master in spycraft dies before Kinstrife
-    name = _Arundil # TEMP
+lineoforontur28brother6 = { # Arantar was master in spycraft dies before Kinstrife
+    name = Arantar
 
     dynasty_house = house_orontur
     religion = faith_edain
@@ -13886,8 +13886,8 @@ lineoforontur28brother6 = { # Arundil was master in spycraft dies before Kinstri
     }
 }
 
-lineoforontur28brother7 = { # Alaranyar, Supports Eldacar unlike his father
-    name = Alaranyar # TEMP
+lineoforontur28brother7 = { # Orontor, Supports Eldacar unlike his father
+    name = Orontor
 
     dynasty_house = house_orontur
     religion = faith_edain
@@ -13933,7 +13933,7 @@ lineoforontur28brother7 = { # Alaranyar, Supports Eldacar unlike his father
 }
 
 lineoforontur28brother8 = { # Meneldilme, daughter of Eärnur like his Elder brother doesn't support Eldacar, a Learned woman lives rest of her life in Calenardhon after Kinstrife, Marries in Calenardhon
-    name = Meneldilme_e_ # TEMP
+    name = _Irime
     female = yes
 
     dynasty_house = house_orontur
@@ -13976,7 +13976,7 @@ lineoforontur28brother8 = { # Meneldilme, daughter of Eärnur like his Elder bro
 }
 
 lineoforontur28brother9 = { # Eärnil younger son of Eärnur, Supports Castamir during Kinstrife dies during Battle of Osgiliath
-    name = E_A_Arnil # TEMP
+    name = E_A_Arnil
 
     dynasty_house = house_orontur
     religion = faith_edain
@@ -14017,8 +14017,8 @@ lineoforontur28brother9 = { # Eärnil younger son of Eärnur, Supports Castamir 
     }
 }
 
-lineoforontur28brother10 = { # Calantir Supports Eldacar, Too young to fight at start of Kinstrife dies during Siege of Pelargir
-    name = Calantir # TEMP
+lineoforontur28brother10 = { # Ondoher Supports Eldacar, Too young to fight at start of Kinstrife dies during Siege of Pelargir
+    name = Ondoher
 
     dynasty_house = house_orontur
     religion = faith_edain
@@ -14063,8 +14063,8 @@ lineoforontur28brother10 = { # Calantir Supports Eldacar, Too young to fight at 
     }
 }
 
-lineoforontur28brother11 = { # Airontir, Is an learned man dies before battle of Osgiliath Supports Castamir
-    name = Airontir # TEMP
+lineoforontur28brother11 = { # Airendil, Is an learned man dies before battle of Osgiliath Supports Castamir
+    name = Airendil
 
     dynasty_house = house_orontur
     religion = faith_edain
@@ -14105,8 +14105,8 @@ lineoforontur28brother11 = { # Airontir, Is an learned man dies before battle of
     }
 }
 
-lineoforontur28brother12 = { # Laicamacar, Supports Castamir dies during Battle of Osgiliath
-    name = Laicamacar # TEMP
+lineoforontur28brother12 = { # Armanar, Supports Castamir dies during Battle of Osgiliath
+    name = Armanar
 
     dynasty_house = house_orontur
     religion = faith_edain
@@ -14148,7 +14148,7 @@ lineoforontur28brother12 = { # Laicamacar, Supports Castamir dies during Battle 
 }
 
 lineoforontur28brother13 = { # Armatari Daughter of Arundil, She was also creat at spycraft dies during retreat from Pelargir to Umbar when the ship she was on was sunk
-    name = Armat_ari # TEMP
+    name = Lalwend_e_e
     female = yes
 
     dynasty_house = house_orontur
@@ -34153,7 +34153,7 @@ lineoftauron1 = { # Tauron Tiriath son of the members of two last Royal Dynasty 
 }
 
 lineoftauron2 = {
-    name = T_urion # TEMP
+    name = T_urin # TEMP
 
     dynasty_house = house_tiriath
     religion = faith_edain
