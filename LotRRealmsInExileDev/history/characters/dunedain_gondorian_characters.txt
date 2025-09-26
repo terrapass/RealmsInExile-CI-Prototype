@@ -1,11 +1,9 @@
-﻿#####################################
-#####################################
-#######  					  #######	
-####### THE KINGDOM OF GONDOR #######
-#######						  #######	
-#####################################
-#####################################
-###
+﻿###############################
+###############################
+########## GONDORIAN ##########
+###############################
+###############################
+
 ## In order: 
 ## Gondor Proper
 # House of Anárionath, Kings of Gondor
@@ -2735,7 +2733,7 @@ lineofciryaheri0 = {
 		add_spouse = lineofhyarromenyar19sister
 	}
 
-	4880.1.16 = {
+	4882.1.16 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -2858,7 +2856,7 @@ lineofciryaheri2 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_8
+    trait = blood_of_numenor_9
 	trait = physique_good_2
 
     trait = brave
@@ -2887,7 +2885,7 @@ lineofciryaheri2 = {
         add_spouse = lineofciryaheri2wife
     }
 
-    5039.2.25 = {
+    5045.2.25 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -3053,8 +3051,8 @@ lineofciryaheri2brother = {
         add_spouse = lineofciryaheri3
     }
 
-    5030.2.25 = {
-        death = { death_reason = death_natural_causes }
+    5000.2.25 = {
+        death = { death_reason = death_drowned }
     }
 }
 
@@ -3423,7 +3421,7 @@ lineofciryaheri6 = {
         add_spouse = lineofciryaheri7
     }
 
-    5315.6.1 = {
+    5309.6.1 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -3492,7 +3490,7 @@ lineofciryaheri8 = {
 
     trait = education_martial_3
     
-    5154.1.3 = {
+    5134.1.3 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin	
@@ -3735,7 +3733,7 @@ lineofciryaheri12 = { #The Last Best Hope of the Ciryatarioni
 
     sexuality = bisexual
 
-    trait = blood_of_numenor_7
+    trait = blood_of_numenor_8
 	trait = physique_good_3
 	trait = beauty_good_1
 	trait = strong
@@ -3860,7 +3858,7 @@ lineofciryaheri12daugher = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_7
+    trait = blood_of_numenor_8
 
     trait = curious
     trait = honest
@@ -9746,6 +9744,836 @@ lineofroquendil14a4 = {
     }
 }
 
+### Castamiri Roquendils, Children of Tamondur Roqs 3rd Child
+lineofroquendil14ason1 = { # Tarostar, Supports Castamir but he dies before Kinstrife
+    name = Tarostar
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = caledhrim
+
+	father = lineofroquendil14a1
+    mother = lineoftargon12sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = deceitful
+    trait = vengeful
+    trait = chaste
+
+    trait = intellect_good_1
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 8
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    5242.2.4 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    5300.1.1 = {
+        add_spouse = lineofduilin36
+    }
+
+    5382.5.1 = {
+        employer = lineofroquendil16
+    }
+
+    5460.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofroquendil14ason2 = { # Ostoher, Elder child of Tarostar dies during Kinstrife. Fights for Castarmir
+    name = Ostoher
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = caledhrim
+
+	father = lineofroquendil14ason1
+    mother = lineofduilin36
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = wrathful
+    trait = vengeful
+    trait = arrogant
+
+    trait = physique_good_1
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    5305.2.4 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    5360.1.1 = {
+        add_spouse = lineofnarion40sister
+    }
+
+    5382.5.1 = {
+        employer = lineofroquendil16
+    }
+
+    5467.6.25 = {
+        death = { death_reason = death_battle killer = lineofroquendil14a3 } # Dies before Osgiliath, Killed by his cousin Maltir
+    }
+}
+
+lineofroquendil14ason3 = { # An_ariel, the younger child of Tarostar, Supports Castamir during Kinstrife flees to Umbar after Kinstrife
+    name = An_ariel
+    female = yes
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = caledhrim
+
+	father = lineofroquendil14ason1
+    mother = lineofduilin36
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = impatient
+    trait = ambitious
+    trait = gregarious
+
+    trait = beauty_good_1
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    5311.7.4 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    5382.5.1 = {
+        employer = lineofroquendil16
+    }
+
+    5525.6.25 = {
+        death = { death_reason = death_natural_causes } # Dies in Umbar
+    }
+}
+
+lineofroquendil14ason4 = { # Minastur, Elder son of Ostoher, Supports Castamir during Kinstrife, Marries a lady from umbar. Dies during Erui
+    name = Minastur
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = caledhrim
+
+	father = lineofroquendil14ason2
+    mother = lineofnarion40sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = wrathful
+    trait = brave
+    trait = zealous
+
+    trait = physique_good_2
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_3
+
+    5362.7.1 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    5420.1.1 = {
+        add_spouse = lineofelphir34
+    }
+
+    5480.8.22 = {
+        death = { death_reason = death_battle killer = lineofroquendil21 } # Dies during Erui, Killed by Mahtariel
+    }
+}
+
+lineofroquendil14ason5 = { # Tarastur, Younger son of Ostoher, Supports Castamir during Kinstrife. Dies during Siege of Pelargir
+    name = Tarastur
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = caledhrim
+
+	father = lineofroquendil14ason2
+    mother = lineofnarion40sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = patient
+    trait = shy
+    trait = zealous
+
+    trait = physique_good_1
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 3
+    learning = 8
+    prowess = 8
+
+    trait = education_learning_3
+
+    5366.4.1 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    5481.2.15 = {
+        death = { death_reason = death_battle killer = lineofroquendil16 } # Dies during Siege of Pelargir
+    }
+}
+
+lineofroquendil14ason6 = { # Astaldion, Son of Minastur, Supports Castamir, Warrior but not a great one killed during attack on Osgiliath
+    name = Astaldion
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = caledhrim
+
+	father = lineofroquendil14ason4
+    mother = lineofelphir34
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = wrathful
+    trait = vengeful
+    trait = arrogant
+
+    trait = physique_good_1
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 7
+    intrigue = 3
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_1
+
+    5426.9.1 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    5470.6.19 = {
+        death = { death_reason = death_battle } # Dies during Osgiliath
+    }
+}
+
+lineofroquendil14ason7 = { # Tarwen, Daughter of Minastur, Supports Castamir, Flees to Umbar after Kinstrife
+    name = Tarwen
+    female = yes
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = caledhrim
+
+	father = lineofroquendil14ason4
+    mother = lineofelphir34
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = deceitful
+    trait = cynical
+    trait = arrogant
+
+    trait = intellect_good_1
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 7
+    intrigue = 9
+    learning = 5
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    5433.8.5 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    5639.6.19 = {
+        death = { death_reason = death_natural_causes } # Dies in Umbar
+    }
+}
+
+### Line of Roquendil, Children of Ohtardil Roquendilioni
+# Line of Nolmon Elder son of Ohtardil
+lineofroquendil18sona1 = { # Nolmon is the Elder son of Ohtardil. He supports his Uncle-in-Law Eldacar, Dies during the Battle of Osgiliath
+    name = Nolmon
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofroquendil18
+    mother = lineofroquendil19
+
+    sexuality = heterosexual
+
+    trait = brave
+    trait = stubborn
+    trait = wrathful
+
+    trait = beauty_good_1
+    trait = intellect_good_1
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 4
+    intrigue = 2
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_3
+
+    trait = blood_of_numenor_7
+
+    5350.4.8 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    5382.5.1 = {
+        employer = lineofroquendil16
+    }
+
+    5400.12.6 = {
+        add_spouse = lineofgundor28sister
+    }
+
+    5470.6.19 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lineofroquendil18sona2 = { # Narmacil supports Eldacar during Kinstrife and fights during it. After Kinstrife with his father death he gets the duchy of Gilrain after Kinstrife as his governorship. He marries and only has daughters
+    name = Narmacil
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofroquendil18sona1
+    mother = lineofgundor28sister
+
+    sexuality = heterosexual
+
+    trait = brave
+    trait = zealous
+    trait = vengeful
+
+    trait = physique_good_2
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 6
+    intrigue = 3
+    learning = 6
+    prowess = 9
+
+    trait = education_martial_4
+
+    trait = blood_of_numenor_7
+
+    5405.7.12 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    5456.1.1 = {
+        add_spouse = lineofastandil39sister
+    }
+
+    5619.7.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofroquendil18sona3 = { # Ancalinë is the daughter of Nolmon. She stays loyal to her family and doesn't do much during Kinstrife. She is very knowledgable in gondors history and old history of middle-earth
+    name = Ancaline
+    female = yes
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofroquendil18sona1
+    mother = lineofgundor28sister
+
+    sexuality = heterosexual
+
+    trait = patient
+    trait = chaste
+    trait = shy
+
+    trait = beauty_good_3
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 9
+    prowess = 9
+
+    trait = education_learning_4
+
+    trait = blood_of_numenor_7
+
+    5411.8.17 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    5625.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofroquendil18sona4 = { # Nárië is the Elder of Narmacil's two daughters. She is too young to have any influence during kinstrife
+    name = N_ari_e_e
+    female = yes
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofroquendil18sona2
+    mother = lineofastandil39sister
+
+    sexuality = heterosexual
+
+    trait = stubborn
+
+    trait = beauty_good_2
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 6
+    intrigue = 3
+    learning = 6
+    prowess = 9
+
+    trait = bossy
+
+    trait = education_martial_4
+
+    trait = blood_of_numenor_7
+
+    5458.1.12 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    5474.1.12 = {
+        trait = wrathful
+        trait = brave
+    }
+
+    5670.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofroquendil18sona5 = { # Arien is the younger of Narmacil's two daughters. She is too young to have any influence during kinstrife
+    name = Arien
+    female = yes
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofroquendil18sona2
+    mother = lineofastandil39sister
+
+    sexuality = heterosexual
+
+    trait = beauty_good_2
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 6
+    intrigue = 2
+    learning = 5
+    prowess = 9
+
+    trait = charming
+
+    trait = education_diplomacy_3
+
+    trait = blood_of_numenor_7
+
+    5461.12.12 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    5477.12.12 = {
+        trait = compassionate
+        trait = humble
+        trait = shy
+    }
+
+    5674.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+# Line of Airondil, Younger son of Ohtardil
+lineofroquendil18sonb1 = { # Airondil is the younger son of Ohtardil. He supports his Uncle-in-Law Eldacar, Survives Kinstrife and gets the Governance of Gardhon Fuir. His Elder son dies during Kinstrife
+    name = Airondil
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofroquendil18
+    mother = lineofroquendil19
+
+    sexuality = heterosexual
+
+    trait = shy
+    trait = diligent
+    trait = just
+
+    trait = intellect_good_2
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 8
+    intrigue = 6
+    learning = 7
+    prowess = 9
+
+    trait = education_stewardship_4
+
+    trait = blood_of_numenor_7
+
+    5356.4.8 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    5382.5.1 = {
+        employer = lineofroquendil16
+    }
+
+    5408.1.1 = {
+        add_spouse = lineoftelemir58sister
+    }
+
+    5573.6.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofroquendil18sonb2 = { # Tarquen is Elder son of Airondil. He stands by Eldacar in Kinstrife and dies during Erui. Doesn't get married.
+    name = Tarquen
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofroquendil18sonb1
+    mother = lineoftelemir58sister
+
+    sexuality = heterosexual
+
+    trait = stubborn
+    trait = shy
+    trait = brave
+
+    trait = intellect_good_1
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 4
+    intrigue = 2
+    learning = 7
+    prowess = 9
+
+    trait = education_diplomacy_3
+
+    trait = blood_of_numenor_7
+
+    5410.8.28 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    5480.8.22 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lineofroquendil18sonb3 = { # Tarindor is younger son of Airondil. He fights with Eldacar during Kinstrife and after Kinstrife he gets the duchy of Gardhon fuir after Kinstrife. He marries and has 1 son who dies young and 2 daughters
+    name = Tarindor
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofroquendil18sonb1
+    mother = lineoftelemir58sister
+
+    sexuality = heterosexual
+
+    trait = brave
+    trait = content
+    trait = vengeful
+
+    trait = physique_good_1
+
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 4
+    intrigue = 2
+    learning = 7
+    prowess = 9
+
+    trait = education_martial_3
+
+    trait = blood_of_numenor_7
+
+    5415.8.28 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    5470.8.30 = {
+        add_spouse = lineofhirgon20sister
+    }
+
+    5630.5.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofroquendil18sonb4 = { # Aratan, Son of Tarindor dies young. Born during the exile of Roquendilioni
+    name = Aratan
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofroquendil18sonb3
+    mother = lineofhirgon20sister
+
+    sexuality = heterosexual
+
+    trait = brave
+    trait = content
+    trait = just
+
+    trait = physique_good_2
+
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 4
+    intrigue = 2
+    learning = 7
+    prowess = 9
+
+    trait = education_martial_3
+
+    trait = blood_of_numenor_7
+
+    5473.6.2 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    5500.5.5 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+lineofroquendil18sonb5 = { # Herince elder daughter of Tarindor. Born during Exile of Roquendilioni
+    name = H_erince
+    female = yes
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofroquendil18sonb3
+    mother = lineofhirgon20sister
+
+    sexuality = heterosexual
+
+    trait = patient
+    trait = content
+    trait = shy
+
+    trait = beauty_good_1
+    trait = intellect_good_1
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 4
+    intrigue = 2
+    learning = 7
+    prowess = 9
+
+    trait = education_learning_3
+
+    trait = blood_of_numenor_7
+
+    5476.8.2 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    5520.5.5 = {
+        death = { death_reason = death_drowned }
+    }
+}
+
+lineofroquendil18sonb6 = { # Artanis younger daughter of Tarindor. Born during right after Kinstrife. Known for her Great beauty
+    name = Artanis
+    female = yes
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofroquendil18sonb3
+    mother = lineofhirgon20sister
+
+    sexuality = heterosexual
+
+    trait = compassionate
+    trait = humble
+    trait = trusting
+
+    trait = beauty_good_3
+    trait = fecund
+
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 6
+    intrigue = 2
+    learning = 7
+    prowess = 9
+
+    trait = education_learning_3
+
+    trait = blood_of_numenor_7
+
+    5482.6.2 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    5694.5.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
 ### Line of Roquendil Cousins for House Tiriath
 
 lineofroquendil43b1 = {
@@ -10885,7 +11713,7 @@ lineoforontur18 = {
 }
 
 lineoforontur18sister = {
-    name = Armat_ari # TEMP
+    name = Vanyafindel_e_e
     female = yes
 
     dynasty_house = house_orontur
@@ -11012,7 +11840,7 @@ lineoforontur20 = {
 }
 
 lineoforontur20sister = {
-    name = Isilm_e_e # TEMP
+    name = Ataniel
     female = yes
 
     dynasty_house = house_orontur
@@ -11619,11 +12447,11 @@ lineoforontur30 = {
 
 	trait = beauty_good_2
 
-    diplomacy = 2
+    diplomacy = 6
     martial = 6
-    stewardship = 4
-    intrigue = 9
-    learning = 2
+    stewardship = 10
+    intrigue = 6
+    learning = 8
     prowess = 8
 
     trait = education_stewardship_4
@@ -11689,95 +12517,6 @@ lineoforontur30sister = {
     }
 }
 
-lineoforontur30brother1 = {
-    name = Elenar # TEMP
-
-    dynasty_house = house_orontur
-    religion = faith_edain
-    culture = gondorian
-
-    father = lineoforontur28
-    mother = lineoforontur29
-
-    sexuality = heterosexual
-
-    trait = blood_of_numenor_7
-
-    trait = brave
-    trait = wrathful
-    trait = patient
-
-	trait = beauty_good_2
-
-    diplomacy = 4
-    martial = 6
-    stewardship = 7
-    intrigue = 5
-    learning = 9
-    prowess = 8
-
-    trait = education_learning_3
-
-    5272.2.24 = {
-        birth = yes
-        effect = {
-			learn_language = language_sindarin
-			learn_language = language_quenya	
-		}
-    }
-
-    5323.1.6 = {
-        add_spouse = lineofbarahir22sister
-    }
-
-    5380.12.1 = {
-        death = { death_reason = death_killed_by_monstrous_wolf }
-    }
-}
-
-lineoforontur30brother2 = {
-    name = N_ari_e_e # TEMP
-    female = yes
-
-    dynasty_house = house_orontur
-    religion = faith_edain
-    culture = gondorian
-
-    father = lineoforontur30brother1
-    mother = lineofbarahir22sister
-
-    sexuality = heterosexual
-
-    trait = blood_of_numenor_7
-
-    trait = forgiving
-    trait = trusting
-    trait = diligent
-
-	trait = beauty_good_3
-
-    diplomacy = 10
-    martial = 6
-    stewardship = 7
-    intrigue = 3
-    learning = 6
-    prowess = 8
-
-    trait = education_diplomacy_4
-
-    5325.4.4 = {
-        birth = yes
-        effect = {
-			learn_language = language_sindarin
-			learn_language = language_quenya	
-		}
-    }
-
-    5547.12.1 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
 lineoforontur32 = {
     name = T_urion
     dna = turion_orontur_dna
@@ -11799,11 +12538,11 @@ lineoforontur32 = {
 
 	trait = beauty_good_3
 
-    diplomacy = 2
+    diplomacy = 5
     martial = 5
-    stewardship = 4
+    stewardship = 6
     intrigue = 7
-    learning = 4
+    learning = 10
     prowess = 5
 
     trait = education_learning_3
@@ -11826,6 +12565,99 @@ lineoforontur32 = {
 		add_spouse = lineofroquendil21twin
 		set_relation_soulmate = character:lineofroquendil21twin
 	}
+
+    5479.10.1 = {
+        death = { death_reason = death_execution killer = lineofciryaheri27 }
+    }
+}
+
+lineoforontur32brother = { # Youngest son of Maltur dies before Kinstrife
+    name = Menelmacar
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur30
+    mother = lineofciryaheri21
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = stubborn
+    trait = shy
+    trait = brave
+
+	trait = beauty_good_2
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 5
+    intrigue = 3
+    learning = 7
+    prowess = 5
+
+    trait = education_martial_3
+
+    5352.11.25 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5410.1.1 = {
+        add_spouse = lineofnarion42sister
+    }
+
+    5460.5.2 = {
+        trait = widowed
+    }
+
+    5464.6.19 = {
+        death = { death_reason = death_hunting_accident killer = lineoforontur30brother4 }
+    }
+}
+
+lineoforontur32brother1 = { # Márien daughter of Menelmacar supports her family dies during the siege of Oronturioni
+    name = M_arien
+    female = yes
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur32brother
+    mother = lineofnarion42sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = humble
+    trait = shy
+    trait = forgiving
+
+	trait = beauty_good_2
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    5420.11.25 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
 
     5479.10.1 = {
         death = { death_reason = death_execution killer = lineofciryaheri27 }
@@ -12274,7 +13106,7 @@ lineoforontur42 = {
 }
 
 lineoforontur43 = {
-    name = Elenar
+    name = Elennar
 
     dynasty_house = house_orontur
     religion = faith_edain
@@ -12367,6 +13199,994 @@ lineoforontur44 = {
 
     5669.2.10 = {
         death = { death_reason = death_bubonic_plague }
+    }
+}
+
+# Line of Elennar 
+lineoforontur30brother1 = {
+    name = Elennar
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur28
+    mother = lineoforontur29
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = brave
+    trait = wrathful
+    trait = patient
+
+	trait = beauty_good_2
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 9
+    prowess = 8
+
+    trait = education_learning_3
+
+    5272.2.24 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5323.1.6 = {
+        add_spouse = lineofbarahir22sister
+    }
+
+    5380.12.1 = {
+        death = { death_reason = death_killed_by_monstrous_wolf }
+    }
+}
+
+lineoforontur30brother2 = {
+    name = Alcarine_e_
+    female = yes
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur30brother1
+    mother = lineofbarahir22sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = forgiving
+    trait = trusting
+    trait = diligent
+
+	trait = beauty_good_3
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 7
+    intrigue = 3
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_4
+
+    5325.4.4 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5390.12.14 = {
+        death = { death_reason = death_childbirth } # Dies during the birth of her second child, The child doesn't survive
+    }
+}
+
+lineoforontur30brother3 = { # Eärnil, Son of Elennar supports Eldacar during Kinstrife. Is killed during Erui by his younger brother
+    name = E_a_arnil
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur30brother1
+    mother = lineofbarahir22sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = brave
+    trait = shy
+    trait = just
+
+	trait = beauty_good_2
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 7
+    intrigue = 3
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_2
+
+    5333.4.4 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5388.12.1 = {
+        add_spouse = lineofhalmir51sister
+    }
+
+    5480.8.22 = {
+        death = { death_reason = death_battle killer = lineoforontur30brother4 }
+    }
+}
+
+lineoforontur30brother4 = { # Alcarion, Son of Elennar supports Castamir during Kinstrife, Kills his own brother during Erui
+    name = Alcarion
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur30brother1
+    mother = lineofbarahir22sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = deceitful
+    trait = ambitious
+    trait = fickle
+
+	trait = beauty_good_1
+    trait = strong
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 10
+    learning = 6
+    prowess = 8
+
+    trait = education_intrigue_3
+
+    5340.6.6 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5397.1.1 = {
+        add_spouse = lineofalatar51sister
+    }
+
+    5481.2.11 = {
+        death = { death_reason = death_siege killer = lineoforontur30brother5 }
+    }
+}
+
+lineoforontur30brother5 = { # Arion, Son of Alcarion fights for Eldacar, kills his uncle during siege of Osgiliath. Dies from his wounds soon after Kinstrife. Great Sailor and a naval commander
+    name = Arion
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur30brother3
+    mother = lineofhalmir51sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = brave
+    trait = diligent
+    trait = vengeful
+
+	trait = beauty_good_1
+    trait = strong
+
+    trait = lifestyle_mariner
+    trait = forder
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 7
+    intrigue = 3
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_4
+
+    5390.7.12 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5440.12.30 = {
+        add_spouse = lineofmindor20sister
+    }
+
+    5481.3.15 = {
+        trait = wounded_3
+    }
+
+    5481.7.15 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+lineoforontur30brother6 = { # Aryante, daughter of Alcarion, Supports Eldacar doesn't do much during Kinstrife. Lives a quite life after Kinstrife Depressed after having lost her brother and father.
+    name = Aryante
+    female = yes
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur30brother3
+    mother = lineofhalmir51sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = trusting
+    trait = diligent
+    trait = forgiving
+
+	trait = beauty_good_2
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 9
+    intrigue = 3
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    5412.1.12 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5481.7.15 = {
+        trait = depressed_1
+    }
+
+    5626.1.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoforontur30brother7 = { # Marvoron the elder son of Tamondur, Dies before Kinstrife
+    name = Calimehtar
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur30brother4
+    mother = lineofalatar51sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = zealous
+    trait = ambitious
+    trait = just
+
+	trait = beauty_good_2
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    5411.12.7 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5450.6.19 = {
+        death = { death_reason = death_killed_by_monstrous_wolf }
+    }
+}
+
+lineoforontur30brother8 = { # Armacil the younger son of Tamondur, Sides with Castamir dies during crossings of Erui
+    name = Armacil
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur30brother4
+    mother = lineofalatar51sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = cynical
+    trait = ambitious
+    trait = impatient
+
+	trait = beauty_good_2
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_3
+
+    5417.8.6 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5480.8.22 = {
+        death = { death_reason = death_battle killer = lineofroquendil23brother1 }
+    }
+}
+
+lineoforontur30brother9 = { # Silmari_e_en, Daughter of Arion a beautiful Maiden, Supports Eldacar during Kinstrife but she is with her mothers Kin in Pinnath gelin during the attack on Orontur Estate. She is 17 when Kinstrife starts and Arion decides to send her and her mother to Pinnath Gelin to her mothers family
+    name = Silmari_e_en
+    female = yes
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur30brother5
+    mother = lineofmindor20sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = compassionate
+    trait = diligent
+    trait = forgiving
+
+	trait = beauty_good_3
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 7
+    intrigue = 3
+    learning = 6
+    prowess = 8
+
+    trait = education_martial_4
+
+    5448.7.12 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5670.7.15 = {
+        death = { death_reason = death_bubonic_plague }
+    }
+}
+
+### Malmahtans Brothers line, mostly Castamiri
+lineoforontur28brother1 = {
+    name = Hallaran
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur28father
+    mother = lineofbregor29sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = cynical
+    trait = stubborn
+    trait = deceitful
+
+	trait = beauty_good_1
+	trait = intellect_good_1
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 2
+    intrigue = 9
+    learning = 3
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    5206.1.8 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5265.1.1 = {
+        add_spouse = lineofelion10sister
+    }
+
+    5438.8.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoforontur28brother2 = { # Learned man son of Hallaran, Supports Castamir dies before Osgiliath
+    name = Hallatar
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur28brother1
+    mother = lineofelion10sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = cynical
+    trait = chaste
+    trait = patient
+
+	trait = beauty_good_1
+	trait = intellect_good_2
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 2
+    intrigue = 4
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_4
+
+    5272.1.8 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5335.1.1 = {
+        add_spouse = lineofelaran57sister
+    }
+
+    5467.6.25 = {
+        death = { death_reason = death_battle killer = lineofroquendil18sona1 } # Dies before Osgiliath
+    }
+}
+
+lineoforontur28brother3 = { # Umbarwen is a Diplomat. Supports Castamir dies before Kinstrife of a illness
+    name = Nessani_e_e
+    female = yes
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur28brother1
+    mother = lineofelion10sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = honest
+    trait = gregarious
+    trait = patient
+
+	trait = beauty_good_2
+
+    diplomacy = 9
+    martial = 5
+    stewardship = 2
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    5278.7.11 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5460.1.5 = {
+        death = { death_reason = death_ill }
+    }
+}
+
+lineoforontur28brother4 = { # Eärnur is a captain of a ship and a great naval commander. Dies during a naval battle during Siege of Pelargir
+    name = Ciryandil
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur28brother2
+    mother = lineofelaran57sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = brave
+    trait = wrathful
+    trait = zealous
+
+	trait = intellect_good_1
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 2
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_3
+
+    5342.1.8 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5397.7.1 = {
+        add_spouse = lineofastandurcadetKS54
+    }
+
+    5481.1.25 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lineoforontur28brother5 = { # Telumiel loved the sea, She marries to Umbar
+    name = Telumiel
+    female = yes
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur28brother2
+    mother = lineofelaran57sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = compassionate
+    trait = gregarious
+    trait = chaste
+
+	trait = beauty_good_1
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 2
+    intrigue = 4
+    learning = 5
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    5348.4.1 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5464.5.25 = {
+        death = { death_reason = death_accident }
+    }
+}
+
+lineoforontur28brother6 = { # Arantar was master in spycraft dies before Kinstrife
+    name = Arantar
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur28brother2
+    mother = lineofelaran57sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = deceitful
+    trait = patient
+    trait = vengeful
+
+	trait = beauty_good_1
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 2
+    intrigue = 10
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    5353.6.5 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5415.2.2 = {
+        add_spouse = lineofagathor43sister
+    }
+
+    5450.8.22 = {
+        death = { death_reason = death_training_accident }
+    }
+}
+
+lineoforontur28brother7 = { # Orontor, Supports Eldacar unlike his father
+    name = Orontor
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur28brother4
+    mother = lineofastandurcadetKS54
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = brave
+    trait = stubborn
+    trait = zealous
+
+	trait = beauty_good_2
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 5
+    intrigue = 3
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_4
+
+    5400.1.8 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5450.8.1 = {
+        add_spouse = linedurnen23sister
+    }
+
+    5480.8.22 = {
+        death = { death_reason = death_battle killer = lineofcastamir1 }
+    }
+}
+
+lineoforontur28brother8 = { # Meneldilme, daughter of Eärnur like his Elder brother doesn't support Eldacar, a Learned woman lives rest of her life in Calenardhon after Kinstrife, Marries in Calenardhon
+    name = _Irime
+    female = yes
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur28brother4
+    mother = lineofastandurcadetKS54
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = patient
+    trait = stubborn
+    trait = chaste
+
+	trait = beauty_good_2
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 5
+    intrigue = 3
+    learning = 9
+    prowess = 7
+
+    trait = education_learning_4
+
+    5406.9.23 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5624.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoforontur28brother9 = { # Eärnil younger son of Eärnur, Supports Castamir during Kinstrife dies during Battle of Osgiliath
+    name = E_A_Arnil
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur28brother4
+    mother = lineofastandurcadetKS54
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = temperate
+    trait = stubborn
+    trait = deceitful
+
+	trait = beauty_good_2
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 8
+    intrigue = 3
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    5415.4.3 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5470.6.19 = {
+        death = { death_reason = death_battle killer = lineofroquendil16 }
+    }
+}
+
+lineoforontur28brother10 = { # Ondoher Supports Eldacar, Too young to fight at start of Kinstrife dies during Siege of Pelargir
+    name = Ondoher
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur28brother7
+    mother = linedurnen23sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = brave
+    trait = stubborn
+    trait = vengeful
+
+	trait = beauty_good_1
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 6
+    intrigue = 2
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_4
+
+    disallow_random_traits = yes
+
+    trait = rowdy
+
+    5452.5.8 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5481.2.22 = {
+        death = { death_reason = death_battle killer = lineofcastamir2 }
+    }
+}
+
+lineoforontur28brother11 = { # Airendil, Is an learned man dies before battle of Osgiliath Supports Castamir
+    name = Airendil
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur28brother6
+    mother = lineofagathor43sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = arrogant
+    trait = ambitious
+    trait = diligent
+
+	trait = beauty_good_1
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 2
+    intrigue = 10
+    learning = 5
+    prowess = 7
+
+    trait = education_learning_2
+
+    5420.4.5 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5467.6.25 = {
+        death = { death_reason = death_battle killer = lineofroquendil16 }
+    }
+}
+
+lineoforontur28brother12 = { # Armanar, Supports Castamir dies during Battle of Osgiliath
+    name = Armanar
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur28brother6
+    mother = lineofagathor43sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = arrogant
+    trait = deceitful
+    trait = brave
+
+	trait = beauty_good_1
+
+    diplomacy = 2
+    martial = 9
+    stewardship = 2
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_1
+
+    5426.12.1 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5470.6.19 = { # Dies during Osgiliath
+        death = { death_reason = death_battle killer = lineofvakuankka40 }
+    }
+}
+
+lineoforontur28brother13 = { # Armatari Daughter of Arundil, She was also creat at spycraft dies during retreat from Pelargir to Umbar when the ship she was on was sunk
+    name = Lalwend_e_e
+    female = yes
+
+    dynasty_house = house_orontur
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoforontur28brother6
+    mother = lineofagathor43sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = cynical
+    trait = deceitful
+    trait = impatient
+
+	trait = beauty_good_2
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    5432.12.1 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya	
+		}
+    }
+
+    5481.3.16 = { # Dies after Osgiliath
+        death = { death_reason = death_drowned }
     }
 }
 
@@ -15187,7 +17007,7 @@ linesteward22 = {
 
 	trait = brave
 	trait = diligent
-	trait = just
+	trait = stubborn
 
 	trait = black_breath
 
@@ -15197,6 +17017,7 @@ linesteward22 = {
 	trait = physique_good_1
 	trait = beauty_good_1
 	trait = intellect_good_1
+    # 'He was noble and fair of face, a man strong in body and in will' - Appx A
 
 	trait = blood_of_numenor_2
 	6443.1.1 = {
@@ -15215,7 +17036,7 @@ linesteward22 = {
 	}
 }	
 
-linesteward23 = {
+linesteward23 = { # Steward Cirion, granted Calenardhon to Eorl. 
 	name = Cirion
 
 	dynasty_house = house_gondorstewards
@@ -15226,6 +17047,15 @@ linesteward23 = {
 	father = linesteward22
 	mother = linebenrodir37sis
 
+    # "He was a man of little pride and of great courage and gerosity of heart, the noblest of the Stewards of Gondor" - UT 'Cirion and Eorl'
+    trait = generous
+    trait = humble
+    trait = brave
+
+    trait = education_diplomacy_4
+    trait = august
+
+	trait = intellect_good_1
 
 	trait = blood_of_numenor_2
 	6482.1.1 = {
@@ -16264,6 +18094,8 @@ linesteward43 = {
     father = linesteward40
     mother = lineofeofor18
 
+    sexuality = heterosexual
+
     trait = calm
     trait = diligent
     trait = vengeful
@@ -16314,6 +18146,8 @@ linesteward44 = {
     father = linesteward40
     mother = lineofeofor18
 
+    sexuality = heterosexual
+
     trait = blood_of_numenor_2
 
     7058.8.15 = {
@@ -16330,6 +18164,8 @@ linesteward45 = {
 
     father = linesteward40
     mother = lineofeofor18
+
+    sexuality = heterosexual
 
     trait = blood_of_numenor_2
 
@@ -16349,6 +18185,8 @@ linesteward46 = {
     father = linesteward40
     mother = lineofeofor18
 
+    sexuality = heterosexual
+
     trait = blood_of_numenor_2
 
     7065.5.3 = {
@@ -16367,6 +18205,8 @@ linesteward47 = {
     father = linesteward40
     mother = lineofeofor18
 
+    sexuality = heterosexual
+
     trait = blood_of_numenor_2
 
     7068.9.29 = {
@@ -16383,6 +18223,8 @@ linesteward48 = {
 
     father = linesteward43
     mother = linelomear48
+
+    sexuality = heterosexual
 
     trait = just
     trait = compassionate
@@ -16429,6 +18271,8 @@ linesteward49 = {
     father = linesteward48
     mother = lineisildur44
 
+    sexuality = heterosexual
+
     trait = intellect_good_1
     trait = beauty_good_3
     trait = blood_of_numenor_5
@@ -16447,6 +18291,8 @@ linesteward50 = {
 
     father = linesteward48
     mother = lineisildur44
+
+    sexuality = heterosexual
 
     trait = physique_good_2
     trait = beauty_good_2
@@ -20261,6 +22107,43 @@ lineofgundor28 = {
     }
 
     5568.9.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofgundor28sister = {
+    name = Noriel # TEMP
+    female = yes
+
+    dynasty_house = house_gundor
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofgundor26
+    mother = lineofgundor27
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = forgiving
+    trait = compassionate
+    trait = just
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    5350.8.22 = {
+        birth = yes
+    }
+
+    5567.9.27 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -27223,7 +29106,7 @@ linericulfing1 = {	#Northron captain, employed by Gondor
 
     dynasty = dynasty_entyn_onodlo
     religion = faith_northmen
-    culture = rhovannic
+    culture = rhovanorim
 
     trait = brave
     trait = stubborn
@@ -27250,7 +29133,7 @@ linericulfing2 = {
     female = yes
 
     religion = faith_northmen
-    culture = rhovannic
+    culture = rhovanorim
 
     trait = humble
     trait = temperate
@@ -27270,7 +29153,7 @@ linericulfing3 = {
 
     dynasty = dynasty_entyn_onodlo
     religion = faith_northmen
-    culture = rhovannic
+    culture = rhovanorim
 
     father = linericulfing1
     mother = linericulfing2
@@ -27300,7 +29183,7 @@ linericulfing4 = {
     female = yes
 
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     trait = arrogant
     trait = forgiving
@@ -27320,7 +29203,7 @@ linericulfing5 = {
 
     dynasty = dynasty_entyn_onodlo
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     father = linericulfing3
     mother = linericulfing4
@@ -27370,7 +29253,7 @@ linericulfing7 = {
 
     dynasty = dynasty_entyn_onodlo
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     father = linericulfing5
     mother = linericulfing6
@@ -27447,7 +29330,7 @@ linericulfing10 = {
     female = yes
 
     religion = faith_northmen
-    culture = rhovannic
+    culture = rhovanorim
 
     trait = shy
     trait = arbitrary
@@ -28719,7 +30602,7 @@ linebenrodir2 = { # Daughter of one of the King's captains, among the northmen w
     female = yes
 
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     sexuality = heterosexual
 
@@ -32270,7 +34153,7 @@ lineoftauron1 = { # Tauron Tiriath son of the members of two last Royal Dynasty 
 }
 
 lineoftauron2 = {
-    name = T_urion # TEMP
+    name = T_urin # TEMP
 
     dynasty_house = house_tiriath
     religion = faith_edain
@@ -33613,7 +35496,7 @@ lineyrchdaugnir11 = {
 	}
 }	
 
-lineyrchdaugnir12 = {
+lineyrchdaugnir12 = { # Father of the Mouth of Sauron
 	name = Vingintur 
 	dynasty = dynasty_doranorien
 	religion = faith_edain
@@ -35884,6 +37767,7 @@ linecelebhatol18 = {
 lebennin25 = {	#intermarried
 	name = Nessanie # Wife of Sea-lord Ciryandur
 	female = yes
+    dna = sealord_wife_dna
 	
 	dynasty = dynasty_gilrain
 	religion = faith_edain
@@ -44559,7 +46443,7 @@ lineofarandalKS8 = { #Rhovanic lady from Dor Rhunen
     female = yes
 
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     sexuality = heterosexual
 
@@ -44776,7 +46660,7 @@ lineofarandalKS14 = {
     female = yes
 
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     sexuality = heterosexual
 
@@ -44808,6 +46692,7 @@ lineofarandalKS15 = {
     name = Borwen
     female = yes
 
+    dynasty = dynasty_arandal
     religion = faith_edain
     culture = gondorian
 
@@ -45519,6 +47404,7 @@ lineoftelengaurKS5 = {
     name = Lestien
     female = yes
 
+    dynasty = dynasty_telengaur
     religion = faith_edain
     culture = gondorian
 
@@ -46172,7 +48058,7 @@ lineoftiridonKS9 = {
     female = yes
 
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     sexuality = heterosexual
 
@@ -46537,6 +48423,7 @@ lineoftiridonKS18 = {
     name = Aearwen
     female = yes
 
+    dynasty_house = house_tiridon
     religion = faith_edain
     culture = gondorian
 
@@ -46794,6 +48681,7 @@ lineoftiridonKS25 = {
 
     religion = faith_edain
     culture = gondorian
+	dynasty_house = house_tiridon
 
     father = lineoftiridonKS8
     mother = lineoftiridonKS9
@@ -47421,6 +49309,7 @@ lineofmorvegil104 = {
     name = Saerwen
     female = yes
 
+    dynasty = dynasty_morvegil
     religion = faith_edain
     culture = gondorian
 
@@ -47457,6 +49346,7 @@ lineofmorvegil105 = {
     name = Merien
     female = yes
 
+    dynasty = dynasty_morvegil
     religion = faith_edain
     culture = gondorian
 
@@ -47708,6 +49598,7 @@ lineofmorvegil112 = {
     name = Meleth
     female = yes
 
+    dynasty = dynasty_morvegil
     religion = faith_edain
     culture = gondorian
 
@@ -47742,6 +49633,7 @@ lineofmorvegil113 = {
     name = Meiriel
     female = yes
 
+    dynasty = dynasty_morvegil
     religion = faith_edain
     culture = gondorian
 
@@ -47922,6 +49814,7 @@ lineofmorvegil118 = {
     name = Hareth
     female = yes
 
+    dynasty = dynasty_morvegil
     religion = faith_edain
     culture = gondorian
 
@@ -48244,6 +50137,7 @@ lineofmorvegil127 = {
     name = Calime
     female = yes
 
+    dynasty = dynasty_morvegil
     religion = faith_edain
     culture = gondorian
 
@@ -49025,6 +50919,7 @@ lineofmorvegil148 = {
     name = Ireth
     female = yes
 
+    dynasty = dynasty_morvegil
     religion = faith_edain
     culture = gondorian
 
@@ -49046,6 +50941,7 @@ lineofmorvegil149 = {
     name = Emelisse
     female = yes
 
+    dynasty = dynasty_morvegil
     religion = faith_edain
     culture = gondorian
 
@@ -49112,6 +51008,7 @@ lineofmorvegil152 = {
     name = Orowen
     female = yes
 
+    dynasty = dynasty_morvegil
     religion = faith_edain
     culture = gondorian
 
@@ -68699,6 +70596,7 @@ linegolwenion9 = {
     name = Baraheth
     female = yes
 
+    dynasty = dynasty_golwenion
     religion = faith_edain
     culture = gondorian
 	
@@ -77286,6 +79184,48 @@ linedurnen23 = {
     5480.1.1 = {
 		death = { # Killed during the Battle of the Crossings of Erui.			
 			death_reason = death_battle				
+		}
+	}
+}
+
+linedurnen23sister = {
+    name = Bregiel # TEMP
+    female = yes
+
+    dynasty = dynasty_durnen
+    religion = faith_edain
+    culture = gondorian
+
+    father = linedurnen22
+    mother = linedurnen22wife
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = stubborn
+    trait = content
+    trait = chaste
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 3
+    intrigue = 7
+    learning = 5
+    prowess = 8
+
+    trait = education_learning_3
+
+    5410.1.2 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin	
+		}
+    }
+
+    5578.7.1 = {
+		death = {		
+			death_reason = death_natural_causes				
 		}
 	}
 }
@@ -143042,7 +144982,7 @@ rhovanionwife1 = {
 
 	female = yes
 	religion = faith_northmen
-	culture = rhovannic
+	culture = rhovanorim
 	
 	trait = humble
     trait = patient
@@ -143382,6 +145322,8 @@ narienhusband = {
 
 dorhunen14 = {
 	name = S_Oltuz
+    
+    dynasty = dynasty_haldirionath
 	religion = faith_rhun_pantheistic
 	culture = odhriag
 	
@@ -147631,6 +149573,7 @@ linetulion11 = {
     name = Almariel
     female = yes
 
+    dynasty = dynasty_tulionath
     religion = faith_edain
     culture = gondorian
 
@@ -159302,6 +161245,43 @@ lineofastandil39 = { # Last Astandil
     }
 }
 
+lineofastandil39sister = {
+    name = Elweth
+    female = yes
+
+    dynasty = dynasty_astandilionath
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofastandil37
+    mother = lineofastandil38
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = humble
+    trait = content
+    trait = chaste
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    5410.3.6 = {
+        birth = yes
+    }
+
+    5608.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
 
 ####################
 ### Duilinionath ###
@@ -165637,6 +167617,43 @@ lineofhirgon20 = { # Last Hirgonionath
 
     5480.3.10 = { # Dies during the Reclamation of Calemmir
         death = { death_reason = death_battle }
+    }
+}
+
+lineofhirgon20sister = {
+    name = Feniel # TEMP
+    female = yes 
+
+    dynasty = dynasty_hirgonionath
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofhirgon18
+    mother = lineofhirgon19
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = wrathful
+    trait = just
+    trait = patient
+
+    diplomacy = 9
+    martial = 4
+    stewardship = 3
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    5420.10.2 = {
+        birth = yes
+    }
+
+    5620.3.10 = {
+        death = { death_reason = death_natural_causes }
     }
 }
 
@@ -177290,7 +179307,7 @@ lineofvakuankka41 = {
 
     dynasty_house = house_siling
     religion = faith_northmen
-    culture = rhovannic
+    culture = rhovanorim
 
     father = lineofaloito27
     mother = lineofaloito28
@@ -185051,7 +187068,7 @@ lineoferoder1 = {
 
     dynasty = dynasty_erodering
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     sexuality = heterosexual
 
@@ -185088,7 +187105,7 @@ lineoferoder2 = {
     female = yes
 
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     sexuality = heterosexual
 
@@ -185119,7 +187136,7 @@ lineoferoder3 = { # Fruella moves to Calenardhon after the end of his mundburgia
 
     dynasty = dynasty_erodering
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     father = lineoferoder1
     mother = lineoferoder2
@@ -185159,7 +187176,7 @@ lineoferoder4 = {
 
     dynasty = dynasty_erodering
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     father = lineoferoder3
     mother = lineofmaratar41sister1
@@ -185199,7 +187216,7 @@ lineoferoder5 = {
 
     dynasty = dynasty_erodering
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     father = lineoferoder4
     mother = lineofastandurcadet23sister
@@ -185246,7 +187263,7 @@ lineoferoder6 = {
 
     dynasty = dynasty_erodering
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     father = lineoferoder5
     mother = lineofgaldor37sister
@@ -185329,7 +187346,7 @@ lineoferoder8 = {
 
     dynasty = dynasty_erodering
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     father = lineoferoder6
     mother = lineoferoder7
@@ -188391,7 +190408,7 @@ lineofeodoric1 = {
 
     dynasty = dynasty_eodoricing
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     sexuality = heterosexual
     
@@ -188428,7 +190445,7 @@ lineofeodoric2 = {
     female = yes
 
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     sexuality = heterosexual
     
@@ -188459,7 +190476,7 @@ lineofeodoric3 = {
 
     dynasty = dynasty_eodoricing
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     father = lineofeodoric1
     mother = lineofeodoric2
@@ -188499,7 +190516,7 @@ lineofeodoric4 = { # Lives in Calenardhon, Falls in love with Lords Granddaughte
 
     dynasty = dynasty_eodoricing
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     father = lineofeodoric3
     mother = lineoftargon24sister
@@ -188539,7 +190556,7 @@ lineofeodoric5 = {
 
     dynasty = dynasty_eodoricing
     religion = faith_edain
-    culture = rhovannic
+    culture = rhovanorim
 
     father = lineofeodoric4
     mother = lineofroquendil27aunt
@@ -194973,6 +196990,48 @@ lineoftelemir58 = {
         death = { 
             death_reason = death_murder_known 
             killer = lineofciryaheri24 
+        }
+    }
+}
+
+lineoftelemir58sister = {
+    name = Amdiriel
+    female = yes
+
+    dynasty = dynasty_telemirionath
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoftelemir56
+    mother = lineoftelemir57
+
+    sexuality = heterosexual
+
+    trait =  blood_of_numenor_7
+
+    trait = patient
+    trait = wrathful
+    trait = generous
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 3
+
+    trait = education_learning_3
+
+    5357.9.1 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    5570.8.6 = {
+        death = { 
+            death_reason = death_natural_causes
         }
     }
 }
@@ -221733,12 +223792,8 @@ lineofmamandil70 = {
         }
     }
 
-    5483.5.7 = {
-        add_spouse = lineofartari25
-    }
-
-    5653.5.5 = {
-        death = { death_reason = death_natural_causes }
+    5480.8.22 = {
+        death = { death_reason = death_battle }
     }
 }
 
@@ -237918,7 +239973,7 @@ lineofforodil2 = {
     female = yes
 
     religion = faith_northmen
-    culture = rhovannic
+    culture = rhovanorim
 
     sexuality = heterosexual
 
@@ -238885,7 +240940,7 @@ lineofbarahir22sister = {
 		}
     }
 
-    5325.3.16 = {
+    5340.6.6 = {
         death = { death_reason = death_childbirth }
     }
 }
@@ -243923,6 +245978,46 @@ lineofelaran57 = {
     }
 }
 
+lineofelaran57sister = {
+    name = Andril # TEMP
+    female = yes
+
+    dynasty = dynasty_gaerrandirath
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofelaran55
+    mother = lineofelaran56
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = deceitful
+    trait = patient
+    trait = stubborn
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 5
+    intrigue = 2
+    learning = 4
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    5286.10.21 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    5479.4.4 = {
+        death = { death_reason = death_natural_causes  }
+    }
+}
+
 lineofelaran58 = {
     name = Celebrian
     female = yes
@@ -246782,6 +248877,45 @@ lineofhalmir51 = {
     }
 }
 
+lineofhalmir51sister = {
+    name = Rohiriel # TEMP
+    female = yes
+
+    dynasty = dynasty_halmirion
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofhalmir49
+    mother = lineofhalmir50
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = humble
+    trait = compassionate
+    trait = trusting
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 5
+    intrigue = 2
+    learning = 4
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    5336.12.4 = {
+        birth = yes
+    }
+
+    5533.1.1 = {
+        death = { 
+            death_reason = death_natural_causes
+        }
+    }
+}
+
 lineofhalmir52 = {
     name = Glorwen
     female = yes
@@ -249092,6 +251226,46 @@ lineofalatar51 = {
 
     5410.1.9 = {
         death = { death_reason = death_sea_storm }
+    }
+}
+
+lineofalatar51sister = {
+    name = Aearwen # TEMP
+    female = yes
+
+    dynasty = dynasty_imladrod
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofalatar49
+    mother = lineofalatar50
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = cynical
+    trait = brave
+    trait = ambitious
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 2
+    intrigue = 1
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_2
+
+    5345.5.9 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    5481.3.15 = {
+        death = { death_reason = death_drowned }
     }
 }
 
@@ -253668,6 +255842,7 @@ lineofhundad55 = {
     name = Nariel
     female = yes
 
+    dynasty = dynasty_hundadionath
     religion = faith_edain
     culture = gondorian
 
@@ -261900,6 +264075,45 @@ lineofagathor43 = {
 
     5471.1.1 = { # House Agathorion is Purged after They sided with Eldacar
         death = { death_reason = death_execution }
+    }
+}
+
+lineofagathor43sister = { # Unlike most of her family she support Castamir
+    name = Ariel # TEMP
+    female = yes
+
+    dynasty = dynasty_agathorion
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofagathor41
+    mother = lineofagathor42
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = ambitious
+    trait = arrogant
+    trait = just
+
+    trait = loyal
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 3
+    intrigue = 6
+    learning = 3
+    prowess = 3
+
+    trait = education_martial_3
+
+    5369.2.25 = {
+        birth = yes
+    }
+
+    5570.1.1 = {
+        death = { death_reason = death_natural_causes }
     }
 }
 
@@ -279984,6 +282198,43 @@ lineofnarion40 = {
     }
 }
 
+lineofnarion40sister = {
+    name = Andril # TEMP
+    female = yes
+
+    dynasty = dynasty_narion
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofnarion38
+    mother = lineofnarion39
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = greedy
+    trait = ambitious
+    trait = diligent
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 3
+    intrigue = 5
+    learning = 3
+    prowess = 2
+
+    trait = education_stewardship_2
+
+    5306.7.7 = {
+        birth = yes
+    }
+
+    5500.1.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
 lineofnarion41 = {
     name = Hereniel
     female = yes
@@ -280053,6 +282304,43 @@ lineofnarion42 = {
     }
 
     5465.5.2 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+lineofnarion42sister = {
+    name = Arvaeril # TEMP
+    female = yes
+
+    dynasty = dynasty_narion
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofnarion40
+    mother = lineofnarion41
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = compassionate
+    trait = patient
+    trait = shy
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 1
+    intrigue = 5
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    5352.2.4 = {
+        birth = yes
+    }
+
+    5460.5.2 = {
         death = { death_reason = death_cancer }
     }
 }
@@ -281593,6 +283881,43 @@ lineofmindor20 = {
     }
 }
 
+lineofmindor20sister = {
+    name = Hariel # TEMP
+    female = yes
+
+    dynasty = dynasty_mindor
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofmindor18
+    mother = lineofmindor19
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+
+    trait = wrathful
+    trait = honest
+    trait = gregarious
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 1
+    intrigue = 4
+    learning = 2
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    5395.4.18 = {
+        birth = yes
+    }
+
+    5592.12.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
 lineofmindor21 = {
     name = Orothel
     female = yes
@@ -282106,6 +284431,44 @@ lineofelion10 = {
         death = { death_reason = death_natural_causes }
     }
 }
+
+lineofelion10sister = {
+    name = Baraloth # TEMP
+    female = yes
+
+    dynasty_house = house_elion
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofelion8
+    mother = lineofelion9
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = brave
+    trait = deceitful
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    5207.8.2 = {
+        birth = yes
+    }
+
+    5428.1.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
 
 lineofelion11 = {
     name = Mithrellas
@@ -283470,7 +285833,6 @@ lineoflestor3 = {   #Lestor "the Candle Man" from LoTR: Gollum
 	trait = deceitful
 	trait = cynical
     trait = sadistic
-    trait = blood_of_numenor_1 
 	
 	6955.1.1 = {
 		birth = yes
@@ -283481,6 +285843,7 @@ lineoflestor3 = {   #Lestor "the Candle Man" from LoTR: Gollum
 	}
 	
 	6988.1.1 = {
+        culture = mordorrim
 	    religion = lidless_eye	
 		employer = mouthofsauron
 		give_nickname = nick_candleman
@@ -283539,6 +285902,7 @@ lineoflestor5 = { #Ileth, daughter of Lestor from LoTR: Gollum
 	}
 	
     6995.1.1 = {
+        culture = mordorrim
 		religion = lidless_eye
 		employer = mouthofsauron
 
@@ -283787,6 +286151,7 @@ lineofcethrandir5wife = {
 lineofcethrandir6 = {
 	name = Andril
 
+    dynasty = dynasty_cethrandir
 	religion = faith_numenorean				
 	culture = numenorean
 	female = yes
