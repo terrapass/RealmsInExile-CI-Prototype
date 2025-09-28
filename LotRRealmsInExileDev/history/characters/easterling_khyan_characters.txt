@@ -185476,7 +185476,7 @@ lineofgorazehan146 = {
 	6902.04.01 = {  # Married at age 22
 	    add_spouse = lineofaspantamana42
 	}
-	6943.05.17 = {  # Died fighting against revolts in Chey-Sârt
+	6943.05.17 = {  # Died fighting against revolts in Chey-Sart
 	    death = { death_reason = death_battle }
 	}
 }
