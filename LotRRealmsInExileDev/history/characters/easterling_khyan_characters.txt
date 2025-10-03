@@ -6913,7 +6913,7 @@ lineofvasnan15 = {
     }
 
     6858.3.14 = {
-        add_spouse = lineofdelir16
+        add_spouse = lineofdeliren16
     }
 
     6915.1.24 = {
@@ -6929,7 +6929,7 @@ lineofvasnan16 = {
     culture = khyan
 
     father = lineofvasnan15
-    mother = lineofdelir16
+    mother = lineofdeliren16
 
     sexuality = heterosexual
 
@@ -11018,7 +11018,7 @@ lineofadelez23 = {
 
 ### Deliren ###
 
-lineofdelir1 = {
+lineofdeliren1 = {
     name = Delir
 
     dynasty = dynasty_deliren
@@ -11045,7 +11045,7 @@ lineofdelir1 = {
     }
 
     6523.5.24 = {
-        add_spouse = lineofdelir1wife
+        add_spouse = lineofdeliren1wife
     }
 
     6567.2.26 = {
@@ -11053,7 +11053,7 @@ lineofdelir1 = {
     }
 }
 
-lineofdelir1wife = {
+lineofdeliren1wife = {
     name = Banuhururish
     female = yes
 
@@ -11084,7 +11084,7 @@ lineofdelir1wife = {
     }
 }
 
-lineofdelir2 = {
+lineofdeliren2 = {
     name = Laleh
     female = yes
 
@@ -11092,8 +11092,8 @@ lineofdelir2 = {
     religion = faith_arienism
     culture = khyan
 
-    father = lineofdelir1
-    mother = lineofdelir1wife
+    father = lineofdeliren1
+    mother = lineofdeliren1wife
 
     sexuality = heterosexual
 
@@ -11122,7 +11122,7 @@ lineofdelir2 = {
     }
 }
 
-lineofdelir3 = {
+lineofdeliren3 = {
     name = Jaleh
     female = yes
 
@@ -11130,8 +11130,8 @@ lineofdelir3 = {
     religion = faith_arienism
     culture = khyan
 
-    father = lineofdelir1
-    mother = lineofdelir1wife
+    father = lineofdeliren1
+    mother = lineofdeliren1wife
 
     sexuality = heterosexual
 
@@ -11163,15 +11163,15 @@ lineofdelir3 = {
     }
 }
 
-lineofdelir4 = {
+lineofdeliren4 = {
     name = Hutan
 
     dynasty = dynasty_deliren
     religion = faith_arienism
     culture = khyan
 
-    father = lineofdelir1
-    mother = lineofdelir1wife
+    father = lineofdeliren1
+    mother = lineofdeliren1wife
 
     sexuality = heterosexual
 
@@ -11197,7 +11197,7 @@ lineofdelir4 = {
     }
 
     6555.8.5 = {
-        add_spouse = lineofdelir4wife
+        add_spouse = lineofdeliren4wife
     }
 
     6595.3.22 = {
@@ -11205,7 +11205,7 @@ lineofdelir4 = {
     }
 }
 
-lineofdelir4wife = {
+lineofdeliren4wife = {
     name = Gulkhandan
     female = yes
 
@@ -11240,15 +11240,15 @@ lineofdelir4wife = {
     }
 }
 
-lineofdelir5 = {
+lineofdeliren5 = {
     name = Adarfra
 
     dynasty = dynasty_deliren
     religion = faith_arienism
     culture = khyan
 
-    father = lineofdelir4
-    mother = lineofdelir4wife
+    father = lineofdeliren4
+    mother = lineofdeliren4wife
 
     sexuality = heterosexual
 
@@ -11270,7 +11270,7 @@ lineofdelir5 = {
     }
 
     6587.2.7 = {
-        add_spouse = lineofdelir5wife
+        add_spouse = lineofdeliren5wife
     }
 
     6634.9.14 = {
@@ -11278,7 +11278,7 @@ lineofdelir5 = {
     }
 }
 
-lineofdelir5wife = {
+lineofdeliren5wife = {
     name = Delara 
     female = yes
 
@@ -11309,15 +11309,15 @@ lineofdelir5wife = {
     }
 }
 
-lineofdelir6 = {
+lineofdeliren6 = {
     name = Barman
 
     dynasty = dynasty_deliren
     religion = faith_arienism
     culture = khyan
 
-    father = lineofdelir5
-    mother = lineofdelir5wife
+    father = lineofdeliren5
+    mother = lineofdeliren5wife
 
     sexuality = heterosexual
 
@@ -11339,7 +11339,7 @@ lineofdelir6 = {
     }
 
     6629.4.2 = {
-        add_spouse = lineofdelir6wife
+        add_spouse = lineofdeliren6wife
     }
 
     6639.4.15 = {
@@ -11347,7 +11347,7 @@ lineofdelir6 = {
     }
 }
 
-lineofdelir6wife = {
+lineofdeliren6wife = {
     name = Jahanara
     female = yes
 
@@ -11378,15 +11378,15 @@ lineofdelir6wife = {
     }
 }
 
-lineofdelir7 = {
+lineofdeliren7 = {
     name = Meherab
 
     dynasty = dynasty_deliren
     religion = faith_arienism
     culture = khyan
 
-    father = lineofdelir6
-    mother = lineofdelir6wife
+    father = lineofdeliren6
+    mother = lineofdeliren6wife
 
     sexuality = heterosexual
 
@@ -11408,7 +11408,7 @@ lineofdelir7 = {
     }
 
     6661.7.18 = {
-        add_spouse = lineofdelir7wife
+        add_spouse = lineofdeliren7wife
     }
 
     6716.10.22 = {
@@ -11416,7 +11416,7 @@ lineofdelir7 = {
     }
 }
 
-lineofdelir7wife = {
+lineofdeliren7wife = {
     name = Barsineh
     female = yes
 
@@ -11447,15 +11447,15 @@ lineofdelir7wife = {
     }
 }
 
-lineofdelir8 = {
+lineofdeliren8 = {
     name = Jamaspa 
 
     dynasty = dynasty_deliren
     religion = faith_arienism
     culture = khyan
 
-    father = lineofdelir7
-    mother = lineofdelir7wife
+    father = lineofdeliren7
+    mother = lineofdeliren7wife
 
     sexuality = heterosexual
 
@@ -11477,7 +11477,7 @@ lineofdelir8 = {
     }
 
     6695.7.5 = {
-        add_spouse = lineofdelir8wife
+        add_spouse = lineofdeliren8wife
     }
 
     6727.7.18 = {
@@ -11485,7 +11485,7 @@ lineofdelir8 = {
     }
 }
 
-lineofdelir8wife = {
+lineofdeliren8wife = {
     name = Shaker
     female = yes
 
@@ -11516,15 +11516,15 @@ lineofdelir8wife = {
     }
 }
 
-lineofdelir9 = {
+lineofdeliren9 = {
     name = Sriroxna 
 
     dynasty = dynasty_deliren
     religion = faith_arienism
     culture = khyan
 
-    father = lineofdelir8
-    mother = lineofdelir8wife
+    father = lineofdeliren8
+    mother = lineofdeliren8wife
 
     sexuality = heterosexual
 
@@ -11546,7 +11546,7 @@ lineofdelir9 = {
     }
 
     6725.9.10 = {
-        add_spouse = lineofdelir9wife
+        add_spouse = lineofdeliren9wife
     }
 
     6735.5.23 = {
@@ -11554,7 +11554,7 @@ lineofdelir9 = {
     }
 }
 
-lineofdelir9wife = {
+lineofdeliren9wife = {
     name = Simin
     female = yes
 
@@ -11585,15 +11585,15 @@ lineofdelir9wife = {
     }
 }
 
-lineofdelir10 = {
+lineofdeliren10 = {
     name = Zirakzadeh
 
     dynasty = dynasty_deliren
     religion = faith_arienism
     culture = khyan
 
-    father = lineofdelir9
-    mother = lineofdelir9wife
+    father = lineofdeliren9
+    mother = lineofdeliren9wife
 
     sexuality = heterosexual
 
@@ -11615,7 +11615,7 @@ lineofdelir10 = {
     }
 
     6749.5.20 = {
-        add_spouse = lineofdelir10wife
+        add_spouse = lineofdeliren10wife
     }
 
     6790.12.28 = {
@@ -11623,7 +11623,7 @@ lineofdelir10 = {
     }
 }
 
-lineofdelir10wife = {
+lineofdeliren10wife = {
     name = Gulkhurshid
     female = yes
 
@@ -11654,15 +11654,15 @@ lineofdelir10wife = {
     }
 }
 
-lineofdelir11 = {
+lineofdeliren11 = {
     name = Farrokh 
 
     dynasty = dynasty_deliren
     religion = faith_arienism
     culture = khyan
 
-    father = lineofdelir10
-    mother = lineofdelir10wife
+    father = lineofdeliren10
+    mother = lineofdeliren10wife
 
     sexuality = heterosexual
 
@@ -11684,7 +11684,7 @@ lineofdelir11 = {
     }
 
     6786.4.12 = {
-        add_spouse = lineofdelir11wife
+        add_spouse = lineofdeliren11wife
     }
 
     6827.7.18 = {
@@ -11692,7 +11692,7 @@ lineofdelir11 = {
     }
 }
 
-lineofdelir11wife = {
+lineofdeliren11wife = {
     name = Nakisa 
     female = yes
 
@@ -11723,15 +11723,15 @@ lineofdelir11wife = {
     }
 }
 
-lineofdelir12 = {
+lineofdeliren12 = {
     name = Arasti 
 
     dynasty = dynasty_deliren
     religion = faith_arienism
     culture = khyan
 
-    father = lineofdelir11
-    mother = lineofdelir11wife
+    father = lineofdeliren11
+    mother = lineofdeliren11wife
 
     sexuality = heterosexual
 
@@ -11755,7 +11755,7 @@ lineofdelir12 = {
     }
 
     6805.4.16 = {
-        add_spouse = lineofdelir12wife
+        add_spouse = lineofdeliren12wife
     }
 
     6840.3.17 = {
@@ -11763,7 +11763,7 @@ lineofdelir12 = {
     }
 }
 
-lineofdelir12wife = {
+lineofdeliren12wife = {
     name = Nakisa
     female = yes
 
@@ -11794,7 +11794,7 @@ lineofdelir12wife = {
     }
 }
 
-lineofdelir13 = {
+lineofdeliren13 = {
     name = Khushnawaz
     female = yes
 
@@ -11802,8 +11802,8 @@ lineofdelir13 = {
     religion = faith_arienism
     culture = khyan
 
-    father = lineofdelir10
-    mother = lineofdelir10wife
+    father = lineofdeliren10
+    mother = lineofdeliren10wife
 
     sexuality = heterosexual
 
@@ -11829,15 +11829,15 @@ lineofdelir13 = {
     }
 }
 
-lineofdelir14 = {
+lineofdeliren14 = {
     name = Goraze
 
     dynasty = dynasty_deliren
     religion = faith_arienism
     culture = khyan
 
-    father = lineofdelir10
-    mother = lineofdelir10wife
+    father = lineofdeliren10
+    mother = lineofdeliren10wife
 
     sexuality = heterosexual
 
@@ -11859,7 +11859,7 @@ lineofdelir14 = {
     }
 
     6786.12.30 = {
-        add_spouse = lineofdelir14wife
+        add_spouse = lineofdeliren14wife
     }
 
     6840.12.9 = {
@@ -11867,7 +11867,7 @@ lineofdelir14 = {
     }
 }
 
-lineofdelir14wife = {
+lineofdeliren14wife = {
     name = Kerbanu
     female = yes
 
@@ -11898,15 +11898,15 @@ lineofdelir14wife = {
     }
 }
 
-lineofdelir15 = {
+lineofdeliren15 = {
     name = Huafrita 
 
     dynasty = dynasty_deliren
     religion = faith_arienism
     culture = khyan
 
-    father = lineofdelir12
-    mother = lineofdelir12wife
+    father = lineofdeliren12
+    mother = lineofdeliren12wife
 
     sexuality = heterosexual
 
@@ -11928,7 +11928,7 @@ lineofdelir15 = {
     }
 
     6843.10.21 = {
-        add_spouse = lineofdelir15wife
+        add_spouse = lineofdeliren15wife
     }
 
     6885.4.26 = {
@@ -11936,7 +11936,7 @@ lineofdelir15 = {
     }
 }
 
-lineofdelir15wife = {
+lineofdeliren15wife = {
     name = Mahbanu
     female = yes
 
@@ -11967,7 +11967,7 @@ lineofdelir15wife = {
     }
 }
 
-lineofdelir16 = {
+lineofdeliren16 = {
     name = Nazneen
     female = yes
 
@@ -11975,8 +11975,8 @@ lineofdelir16 = {
     religion = faith_arienism
     culture = khyan
 
-    father = lineofdelir15
-    mother = lineofdelir15wife
+    father = lineofdeliren15
+    mother = lineofdeliren15wife
 
     sexuality = asexual
 
@@ -12002,15 +12002,15 @@ lineofdelir16 = {
     }
 }
 
-lineofdelir17 = {
+lineofdeliren17 = {
     name = Kaykhusru
 
     dynasty = dynasty_deliren
     religion = faith_arienism
     culture = khyan
 
-    father = lineofdelir15
-    mother = lineofdelir15wife
+    father = lineofdeliren15
+    mother = lineofdeliren15wife
 
     sexuality = heterosexual
 
@@ -311304,8 +311304,8 @@ lineofsarosh1 = {
     religion = faith_arienism
     culture = khyan
 
-    father = lineofdelir14
-    mother = lineofdelir14wife
+    father = lineofdeliren14
+    mother = lineofdeliren14wife
 
     sexuality = heterosexual
 
