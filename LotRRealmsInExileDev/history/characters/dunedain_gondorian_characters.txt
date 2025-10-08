@@ -197931,7 +197931,7 @@ lineoftelemir61 = {
     }
 
     5536.11.10 = {
-        add_spouse = lineoftelemir62
+        add_spouse = lineoforontur30brother9
     }
 
     5700.2.3 = {
@@ -197979,7 +197979,7 @@ lineoftelemir63 = {
     name = Andunar
 
     father = lineoftelemir61
-    mother = lineoftelemir62 
+    mother = lineoforontur30brother9 
 
     dynasty = dynasty_telemirionath
     religion = faith_edain
@@ -200902,7 +200902,7 @@ lineoftelemir134 = {
 
     trait = education_intrigue_3
 
-    6775.7.25 = {
+    6778.7.25 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin
