@@ -27666,6 +27666,8 @@ lineeaudur14 = { # Hallas
 	
 	trait = blood_of_numenor_1
 
+    prowess = 8
+
 	7009.11.18 = {
         birth = yes
 		effect = {
@@ -27683,13 +27685,13 @@ lineeaudur14 = { # Hallas
     7040.1.1 = {
         add_spouse = linepalantir10 # Hallas secures a political marriage
     }
-    7051.5.1 = { # Hallas rises up to the occasion to contest the Andrake!
+    7050.5.1 = { # Hallas rises up to the occasion to contest the Andrake!
         effect = {
             remove_trait = impatient
             add_trait = just
         }
     }
-    7051.5.11 = {
+    7050.5.11 = {
         give_nickname = nick_the_last_flame
         effect = {
             add_character_flag = {
@@ -27697,7 +27699,7 @@ lineeaudur14 = { # Hallas
             }
         }
     }			
-    7051.5.12 = {
+    7050.5.12 = {
         death = { death_reason = death_wounds }
     }
 }
@@ -86094,6 +86096,9 @@ lineohtarion8 = {	# Count of Tharagrondost
 			set_relation_rival = character:lineeruholion11
 		}
 	}
+    7030.4.17 = {
+        add_spouse = line_norn_vudrin21
+	}
 
 	7057.1.1 = {
 		death = {				
@@ -86101,6 +86106,781 @@ lineohtarion8 = {	# Count of Tharagrondost
 		}
 	}
 }	
+
+lineohtarion9 = {
+	name = Orodil
+
+	dynasty = dynasty_ohtarion
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineohtarion8
+    mother = line_norn_vudrin21
+
+    diplomacy = 6
+	martial = 3
+	stewardship = 4
+	intrigue = 2
+	learning = 5
+	prowess = 2
+	
+	trait = education_diplomacy_3
+
+	7030.11.14 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+    7046.11.14 = {
+        trait = gregarious
+        trait = just
+        trait = humble
+	}
+    7055.11.14 = {
+        add_spouse = lineohtarion9wife
+	}
+	7099.1.19 = {
+		death = {				
+			death_reason = death_natural_causes				
+		}
+	}
+}
+
+lineohtarion9wife = {
+    name = Lothwen
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = lustful
+    trait = forgiving
+    trait = compassionate
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 3
+    intrigue = 2
+    learning = 2
+    prowess = 2
+
+    trait = education_stewardship_2
+
+	7037.4.12 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+	7104.6.19 = {
+		death = {				
+			death_reason = death_natural_causes				
+		}
+	}
+}
+
+lineohtarion10 = {
+	name = Olorod
+
+	dynasty = dynasty_ohtarion
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineohtarion9
+    mother = lineohtarion9wife
+
+    trait = lustful
+    trait = patient
+    trait = just
+
+    diplomacy = 2
+	martial = 4
+	stewardship = 6
+	intrigue = 1
+	learning = 2
+	prowess = 2
+	
+	trait = education_stewardship_4
+
+	7058.6.24 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+    7080.11.16 = {
+        add_spouse = lineohtarion10wife
+	}
+	7126.7.19 = {
+		death = {				
+			death_reason = death_natural_causes				
+		}
+	}
+}
+
+lineohtarion10wife = {
+    name = Ivorwen
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = chaste
+    trait = content
+    trait = paranoid
+
+    diplomacy = 3
+    martial = 2
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_1
+
+	7062.8.9 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+	7130.12.1 = {
+		death = {				
+			death_reason = death_natural_causes				
+		}
+	}
+}
+
+lineohtarion11 = {
+	name = Rodnor
+
+	dynasty = dynasty_ohtarion
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineohtarion10
+    mother = lineohtarion10wife
+
+    trait = lazy
+    trait = impatient
+    trait = wrathful
+
+    diplomacy = 1
+	martial = 2
+	stewardship = 1
+	intrigue = 1
+	learning = 2
+	prowess = 9
+	
+	trait = education_martial_1
+
+	7083.6.27 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+    7105.1.23 = {
+        add_spouse = lineohtarion11wife
+	}
+	7141.2.22 = {
+		death = {				
+			death_reason = death_natural_causes				
+		}
+	}
+}
+
+lineohtarion11wife = {
+    name = Beleth
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = lustful
+    trait = forgiving
+    trait = compassionate
+
+    diplomacy = 3
+    martial = 1
+    stewardship = 2
+    intrigue = 5
+    learning = 3
+    prowess = 2
+
+    trait = education_intrigue_3
+
+	7088.7.27 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+	7149.6.29 = {
+		death = {				
+			death_reason = death_natural_causes				
+		}
+	}
+}
+
+lineohtarion12 = {
+	name = Edhelvir
+
+	dynasty = dynasty_ohtarion
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineohtarion11
+    mother = lineohtarion11wife
+
+    trait = humble
+    trait = patient
+    trait = compassionate
+
+    diplomacy = 8
+	martial = 4
+	stewardship = 6
+	intrigue = 2
+	learning = 8
+	prowess = 5
+	
+	trait = education_learning_4
+
+	7110.2.8 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+    7134.4.1 = {
+        add_spouse = lineohtarion12wife
+	}
+	7168.11.29 = {
+		death = {				
+			death_reason = death_natural_causes				
+		}
+	}
+}
+
+lineohtarion12wife = {
+    name = Andriel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = wrathful
+    trait = impatient
+    trait = content
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 2
+    intrigue = 4
+    learning = 2
+    prowess = 5
+
+    trait = education_intrigue_2
+
+	7112.10.12 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+	7181.10.17 = {
+		death = {				
+			death_reason = death_natural_causes				
+		}
+	}
+}
+
+lineohtarion13 = {
+	name = Forweg
+
+	dynasty = dynasty_ohtarion
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineohtarion12
+    mother = lineohtarion12wife
+
+    trait = calm
+    trait = forgiving
+    trait = gluttonous
+
+    trait = lifestyle_mariner
+
+    diplomacy = 4
+	martial = 2
+	stewardship = 4
+	intrigue = 4
+	learning = 6
+	prowess = 3
+	
+	trait = education_learning_3
+
+	7140.2.27 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+    7162.3.22 = {
+        add_spouse = lineohtarion13wife
+	}
+	7207.8.11 = {
+		death = {				
+			death_reason = death_natural_causes				
+		}
+	}
+}
+
+lineohtarion13wife = {
+    name = Belthil
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = brave
+    trait = forgiving
+    trait = stubborn
+
+    diplomacy = 3
+    martial = 2
+    stewardship = 8
+    intrigue = 2
+    learning = 5
+    prowess = 3
+
+    trait = education_stewardship_4
+
+	7138.5.21 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+	7208.7.10 = {
+		death = {				
+			death_reason = death_natural_causes				
+		}
+	}
+}
+
+lineohtarion14 = {
+	name = Eremir
+
+	dynasty = dynasty_ohtarion
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineohtarion13
+    mother = lineohtarion13wife
+
+    trait = bossy
+
+    diplomacy = 1
+	martial = 2
+	stewardship = 1
+	intrigue = 2
+	learning = 1
+	prowess = 2
+
+	7165.2.13 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+	7230.3.2 = {
+		death = {				
+			death_reason = death_natural_causes				
+		}
+	}
+}
+
+lineohtarion15 = {
+	name = Maldir
+
+	dynasty = dynasty_ohtarion
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineohtarion13
+    mother = lineohtarion13wife
+
+    trait = pensive
+
+
+    diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	prowess = 1
+
+	7167.7.12 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+	7234.1.14 = {
+		death = {				
+			death_reason = death_natural_causes				
+		}
+	}
+}
+
+# Ohtarion Ulond line
+lineohtarionulond1 = {
+	name = Rhunnil
+
+	dynasty = dynasty_ohtarion
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineohtarion8
+    mother = line_norn_vudrin21
+
+    diplomacy = 4
+	martial = 5
+	stewardship = 2
+	intrigue = 2
+	learning = 2
+	prowess = 9
+	
+	trait = education_martial_2
+
+	7032.9.3 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+    7048.9.3 = {
+        trait = wrathful
+        trait = content
+        trait = forgiving
+	}
+    7056.4.12 = {
+        add_spouse = lineohtarionulond1wife
+	}
+	7097.10.6 = {
+		death = {				
+			death_reason = death_natural_causes				
+		}
+	}
+}	
+
+lineohtarionulond1wife = {
+    name = Corwen
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = just
+    trait = vengeful
+    trait = humble
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 3
+    intrigue = 2
+    learning = 2
+    prowess = 3
+
+    trait = education_martial_3
+
+	7037.5.24 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+	7100.7.8 = {
+		death = {				
+			death_reason = death_natural_causes				
+		}
+	}
+}
+
+lineohtarionulond2 = {
+	name = Gauldor
+
+	dynasty_house = house_ohtarion_ulond
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineohtarionulond1
+    mother = lineohtarionulond1wife
+
+    trait = fickle
+    trait = diligent
+    trait = impatient
+
+    diplomacy = 4
+	martial = 3
+	stewardship = 4
+	intrigue = 3
+	learning = 2
+	prowess = 5
+	
+	trait = education_diplomacy_2
+
+	7065.2.4 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+    7087.2.7 = {
+        add_spouse = lineohtarionulond2wife
+	}
+	7127.12.8 = {
+		death = {				
+			death_reason = death_natural_causes				
+		}
+	}
+}
+
+lineohtarionulond2wife = {
+    name = Emelin
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = greedy
+    trait = arbitrary
+    trait = compassionate
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 6
+    intrigue = 6
+    learning = 1
+    prowess = 3
+
+    trait = education_stewardship_4
+
+	7069.9.16 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+	7131.9.11 = {
+		death = {				
+			death_reason = death_natural_causes				
+		}
+	}
+}
+
+lineohtarionulond3 = {
+	name = Guilin
+
+	dynasty_house = house_ohtarion_ulond
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineohtarionulond2
+    mother = lineohtarionulond2wife
+
+    trait = arbitrary
+    trait = gregarious
+    trait = patient
+
+    diplomacy = 4
+	martial = 1
+	stewardship = 4
+	intrigue = 6
+	learning = 5
+	prowess = 2
+	
+	trait = education_intrigue_3
+
+	7091.4.22 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+    7126.11.7 = {
+        add_spouse = lineohtarionulond3wife
+	}
+	7170.8.30 = {
+		death = {				
+			death_reason = death_natural_causes				
+		}
+	}
+}
+
+lineohtarionulond3wife = {
+    name = Aredhel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = eccentric
+    trait = lazy
+    trait = compassionate
+
+    diplomacy = 2
+    martial = 2
+    stewardship = 2
+    intrigue = 2
+    learning = 9
+    prowess = 2
+
+    trait = education_martial_1
+
+	7099.8.4 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+	7162.5.11 = {
+		death = {				
+			death_reason = death_natural_causes				
+		}
+	}
+}
+
+lineohtarionulond4 = {
+	name = Bregolas
+
+	dynasty_house = house_ohtarion_ulond
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineohtarionulond3
+    mother = lineohtarionulond3wife
+
+    trait = brave
+    trait = content
+    trait = fickle
+
+    diplomacy = 4
+	martial = 5
+	stewardship = 2
+	intrigue = 1
+	learning = 3
+	prowess = 9
+	
+	trait = education_diplomacy_4
+
+	7128.7.19 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+    7151.11.7 = {
+        add_spouse = lineohtarionulond4wife
+	}
+	7153.8.30 = {
+		death = {				
+			death_reason = death_consumption				
+		}
+	}
+}
+
+lineohtarionulond4wife = {
+    name = Anwen
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = just
+    trait = forgiving
+    trait = compassionate
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 3
+    intrigue = 4
+    learning = 5
+    prowess = 3
+
+    trait = education_learning_2
+
+	7132.10.8 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+	7152.4.22 = {
+		death = {				
+			death_reason = death_childbirth				
+		}
+	}
+}
+
+lineohtarionulond5 = {
+	name = Beruthiel
+    female = yes
+
+	dynasty_house = house_ohtarion_ulond
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineohtarionulond4
+    mother = lineohtarionulond4wife
+
+    trait = stubborn
+    trait = wrathful
+    trait = temperate
+
+    trait = shrewd
+
+    diplomacy = 3
+	martial = 5
+	stewardship = 4
+	intrigue = 4
+	learning = 3
+	prowess = 6
+	
+	trait = education_stewardship_3
+
+	7152.4.22 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+	7226.11.6 = {
+		death = {				
+			death_reason = death_natural_causes				
+		}
+	}
+}
 
 ##############################
 ##### The Lords of Nethos #####
