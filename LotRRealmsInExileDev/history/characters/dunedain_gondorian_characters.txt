@@ -98306,6 +98306,10 @@ lineoflauremacil57bigsister = {
 		}
     }
 
+    6773.1.1 = { # Long Winter Start Date Ruler
+		employer = lebennin12 # Nendor 
+	}
+
     6852.5.12 = {
         death = { death_reason = death_natural_causes }
     }
@@ -98331,6 +98335,10 @@ lineoflauremacil57 = {
 			learn_language = language_sindarin
 		}
     }
+
+    6773.1.1 = { # Long Winter Start Date Ruler
+		employer = lebennin12 # Nendor 
+	}
 
     6793.7.22 = {
         add_spouse = lineoflauremacil58
