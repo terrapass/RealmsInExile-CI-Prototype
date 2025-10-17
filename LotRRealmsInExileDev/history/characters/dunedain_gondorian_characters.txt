@@ -3962,11 +3962,12 @@ lineofciryaheri13 = {
 			learn_language = language_quenya
 		}
     }
-
     5357.12.11 = {
         add_spouse = lineofciryaheri14
     }
-
+    5382.5.1 = {
+        employer = lineofciryaheri12
+    }
     5480.1.1 = {
         death = { death_reason = death_execution }
     }
@@ -4043,7 +4044,9 @@ lineofciryaheri15 = {
 			learn_language = language_quenya
 		}
     }
-
+    5382.5.1 = {
+        employer = lineofciryaheri12
+    }
     5448.4.9 = {
         add_spouse = lineofciryaheri16
     }
@@ -4124,7 +4127,9 @@ lineofciryaheri17 = {
 			learn_language = language_quenya
 		}
     }
-
+    5382.5.1 = {
+        employer = lineofciryaheri12
+    }
     5440.3.5 = {
         add_spouse = lineofciryaheri18
     }
@@ -4206,7 +4211,9 @@ lineofciryaheri19 = {
 			learn_language = language_quenya
 		}
     }
-
+    5382.5.1 = {
+        employer = lineofciryaheri12
+    }
     5442.11.8 = {
         add_spouse = lineofciryaheri20
     }
@@ -4290,7 +4297,9 @@ lineofciryaheri21 = {
 			learn_language = language_quenya
 		}
     }
-
+    5382.5.1 = {
+        employer = lineofciryaheri12
+    }
     5479.12.1 = {
         death = { death_reason = death_siege }
     }
@@ -4336,7 +4345,9 @@ lineofciryaheri22 = {
     5295.1.4 = {
         add_spouse = lineofciryaheri23
     }
-
+    5382.5.1 = {
+        employer = lineofciryaheri12
+    }
     5471.1.2 = {
         death = { death_reason = death_natural_causes }
     }
@@ -4418,11 +4429,12 @@ lineofciryaheri24 = {
     5344.2.22 = { 
         set_relation_grudge = character:lineofciryaheri12	
     }
-
+    5382.5.1 = {
+        employer = lineofciryaheri12
+    }
     5425.6.9 = {
         add_spouse = lineofciryaheri25
     }
-
     5467.2.2 = {
         add_trait = kinslayer_2
     }
@@ -4507,7 +4519,9 @@ lineofciryaheri26 = { #The Last Loyalist, Flees
 			learn_language = language_sindarin	
 		}
     }
-
+    5382.5.1 = {
+        employer = lineofciryaheri12
+    }
     5543.1.22 = {
         death = { death_reason = death_natural_causes }
     }
@@ -4552,7 +4566,9 @@ lineofciryaheri27 = { # Killed by Roquendil II
 			learn_language = language_quenya
 		}
     }
-
+    5382.5.1 = {
+        employer = lineofciryaheri12
+    }
     5444.6.20 = {
         add_spouse = lineofciryaheri28
     }
@@ -13702,13 +13718,15 @@ lineoforontur28brother2 = { # Learned man son of Hallaran, Supports Castamir die
     5335.1.1 = {
         add_spouse = lineofelaran57sister
     }
-
+    5382.5.1 = {
+        employer = lineoforontur28
+    }
     5467.6.25 = {
         death = { death_reason = death_battle killer = lineofroquendil18sona1 } # Dies before Osgiliath
     }
 }
 
-lineoforontur28brother3 = { # Umbarwen is a Diplomat. Supports Castamir dies before Kinstrife of a illness
+lineoforontur28sister2 = { # Umbarwen is a Diplomat. Supports Castamir dies before Kinstrife of a illness
     name = Nessani_e_e
     female = yes
 
@@ -13745,7 +13763,9 @@ lineoforontur28brother3 = { # Umbarwen is a Diplomat. Supports Castamir dies bef
 			learn_language = language_quenya	
 		}
     }
-
+    5382.5.1 = {
+        employer = lineoforontur28
+    }
     5460.1.5 = {
         death = { death_reason = death_ill }
     }
@@ -14395,6 +14415,10 @@ lineofartari6 = { #A fiercely independent woman, she would never marry, choosing
 		}
 	}
 
+    5382.5.1 = {
+        employer = lineofartari8
+    }
+
 	5412.1.1 = { # 1379
 		death = { death_reason = death_natural_causes }
 	}
@@ -14801,6 +14825,10 @@ lineofartari18 = { # Suppporter of Eldacar durring the Kin-strife, causes a brea
         add_spouse = lineofthorondir15 #Marries her on a family buisness trip to Umbar, as the initiator of the whole love affaire. 
     }
 
+    5382.5.1 = {
+        employer = lineofartari8
+    }
+
 	5470.6.20 = { # Dies on the walls of Osgiliath, defending the breach
 		death = { death_reason = death_siege }
 	}
@@ -14831,6 +14859,9 @@ lineofartari19 = { # Eldest daughter of Artaher, enamoured of the Castamiri caus
 			learn_language = language_quenya
 		}
 	}
+    5382.5.1 = {
+        employer = lineofartari8
+    }
     5563.1.1 = {
         culture = umbaredain
         religion = faith_castamiri_creed
@@ -14865,11 +14896,12 @@ lineofartari20 = { # A supporter of Castamir, he goes against his father, choosi
 			learn_language = language_quenya
 		}
 	}
-
+    5382.5.1 = {
+        employer = lineofartari8
+    }
     5420.1.1 = {
         add_spouse = linetelemnarion12
     }
-
 	5480.8.22 = { # Slain at the Crossings of Erui
 		death = { death_reason = death_battle killer = lineofartari21 }
 	}
@@ -14901,15 +14933,15 @@ lineofartari21 = { # Elentir Artari, supporter of Eldacar, and one of the few su
 			learn_language = language_quenya
 		}
 	}
-
+    5382.5.1 = {
+        employer = lineofartari8
+    }
     5430.1.1 = {
         add_spouse = lineoftiridonKS8sister
     }
-
     5470.8.22 = {
 		trait = lifestyle_blademaster # Began training more fully with the sword after his son's death
 	}
-
 	5599.1.1 = { # 1566 228
 		death = { death_reason = death_natural_causes }
 	}
@@ -14942,7 +14974,9 @@ lineofartari22 = { # The youngest child and least interested in the politics of 
 			learn_language = language_quenya
 		}
 	}
-
+    5382.5.1 = {
+        employer = lineofartari8
+    }
 	5606.1.1 = { # 1573 228
 		death = { death_reason = death_natural_causes }
 	}
@@ -72154,7 +72188,9 @@ lineofaegardh19wife = {
 			learn_language = language_sindarin
 		}
     }
-
+    5382.5.1 = {
+        employer = lineofaegardh16
+    }
     5527.5.15 = {
         death = { death_reason = death_natural_causes }
     }
@@ -72194,7 +72230,9 @@ lineofaegardh20 = {
 			learn_language = language_sindarin
 		}
     }
-
+    5382.5.1 = {
+        employer = lineofaegardh16
+    }
     5391.4.27 = {
         trait = trusting
         trait = honest
@@ -72238,7 +72276,9 @@ lineofaegardh21 = {
 			learn_language = language_sindarin
 		}
     }
-
+    5382.5.1 = {
+        employer = lineofaegardh16
+    }
     5394.10.5 = {
         trait = lazy
         trait = wrathful
@@ -77143,11 +77183,12 @@ linetagron19 = {
 			learn_language = language_sindarin	
 		}
     }
-
     5307.10.15 = {
         add_spouse = linetagron19wife
     }
-
+    5382.5.1 = {
+        employer = linetagron13
+    }
     5446.9.12 = {
         death = { death_reason = death_natural_causes }
     }
@@ -77222,11 +77263,12 @@ linetagron20 = {
 			learn_language = language_sindarin	
 		}
     }
-
+    5382.5.1 = {
+        employer = linetagron13
+    }
     5420.8.2 = {
         add_spouse = linetagron20wife
     }
-
     5539.2.1 = {
         death = { death_reason = death_natural_causes }
     }
@@ -84251,7 +84293,9 @@ lineaistana8 = {
 		}
 		dynasty_house = house_sulicarion
 	}
-
+    5382.5.1 = {
+        employer = lineaistana9
+    }
     5398.11.1 = {
         death = { death_reason = death_natural_causes }
     }
@@ -84332,11 +84376,12 @@ lineofortollote = {
 			learn_language = language_sindarin
 		}
     }
-
     5297.6.18 = {
         add_spouse = lineofortollotewife
     }
-
+    5382.5.1 = {
+        employer = lineaistana9
+    }
     5453.2.19 = {
         death = { death_reason = death_natural_causes }
     }
@@ -84372,7 +84417,9 @@ lineofortollotewife = {
 			learn_language = language_sindarin
 		}
     }
-
+    5382.5.1 = {
+        employer = lineaistana9
+    }
     5456.12.7 = {
         death = { death_reason = death_natural_causes }
     }
@@ -84415,8 +84462,7 @@ lineofortollote1 = {
     5349.7.11 = {
         add_spouse = lineofortollote1wife
     }
-	
-	5446.7.18 = {
+	5382.5.1 = {
 		employer = lineaistana11
 		give_council_position = councillor_steward
 	}
@@ -148287,6 +148333,9 @@ linebarazongondorian9 = {
 	5247.1.1 = {
 		birth = yes
 	}
+    5382.5.1 = {
+        employer = linebarazongondorian5
+    }
 	5436.1.1 = {
 		death = { death_reason = death_natural_causes } 
 	}
@@ -148304,6 +148353,9 @@ linebarazongondorian10 = {
 	5329.1.1 = {
 		birth = yes
 	}
+    5382.5.1 = {
+        employer = linebarazongondorian5
+    }
 	5512.1.1 = {
 		death = { death_reason = death_natural_causes } 
 	}
@@ -149874,7 +149926,9 @@ lineforchon18 = {
     5380.11.14 = {
         add_spouse = lineforchon19
     }
-
+    5382.5.1 = {
+        employer = lineforchon12
+    }
     5480.8.22 = {
         death = { death_reason = death_battle }
     }
@@ -149907,7 +149961,9 @@ lineforchon19 = {
     5339.12.25 = {
         birth = yes
     }
-
+    5382.5.1 = {
+        employer = lineforchon12
+    }
     5520.4.12 = {
         death = { death_reason = death_natural_causes }
     }
@@ -149943,11 +149999,12 @@ lineforchon20 = {
     5342.1.7 = {
         birth = yes
     }
-
     5382.4.23 = {
         add_spouse = lineforchon21
     }
-
+    5382.5.1 = {
+        employer = lineforchon12
+    }
     5523.12.22 = {
         death = { death_reason = death_natural_causes }
     }
@@ -149980,7 +150037,9 @@ lineforchon21 = {
     5342.4.12 = {
         birth = yes
     }
-
+    5382.5.1 = {
+        employer = lineforchon12
+    }
     5524.12.28 = {
         death = { death_reason = death_natural_causes }
     }
@@ -183346,11 +183405,12 @@ lineofvakuankka32brother2 = {
             learn_language = language_sindarin
         }
     }
-
     5230.12.24 = {
         add_spouse = lineofbeleg19sister
     }
-
+    5382.5.1 = {
+        employer = lineofvakuankka38
+    }
     5378.1.1 = {
         death = { death_reason = death_natural_causes }
     }
@@ -183392,7 +183452,9 @@ lineofvakuankka32brother3 = {
             learn_language = language_sindarin
         }
     }
-
+    5382.5.1 = {
+        employer = lineofvakuankka38
+    }
     5464.6.11 = {
         death = { death_reason = death_natural_causes }
     }
