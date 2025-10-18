@@ -14950,6 +14950,8 @@ lineofartari21 = { # Elentir Artari, supporter of Eldacar, and one of the few su
 lineofartari22 = { # The youngest child and least interested in the politics of the time, as she hated arguements and division. She married into the Gondorian famility in Enedhwaith and mostly sat out the conflict
 # TODO - marry to governor of Enedhwaith durring Kin Strife (currently unassigned)
 	name = Isilm_e_e
+    disallow_random_traits = yes
+
 
     female = yes
 	dynasty_house = house_artari
@@ -14959,9 +14961,6 @@ lineofartari22 = { # The youngest child and least interested in the politics of 
 	father = lineofartari18
     mother = lineofthorondir15
 
-    trait = compassionate
-    trait = generous
-    trait = craven
     # trait = shy
 
     trait = education_stewardship_2
@@ -14977,6 +14976,11 @@ lineofartari22 = { # The youngest child and least interested in the politics of 
     5382.5.1 = {
         employer = lineofartari8
     }
+    5400.1.1= {
+        add_trait = compassionate
+        add_trait = generous
+        add_trait = craven
+    }    
 	5606.1.1 = { # 1573 228
 		death = { death_reason = death_natural_causes }
 	}
@@ -48032,16 +48036,16 @@ lineoftiridonKS8sister = { #Marries Elentir Aratari. Remains behind in Osgiliath
     learning = 4
     prowess = 5
 
-    trait = brave
-    trait = lustful
-    trait = honest
-
     trait = education_stewardship_2
 
     5375.6.17 = {
         birth = yes
     }
-
+    5400.1.1= {
+        add_trait = brave
+        add_trait = lustful
+        add_trait = honest
+    }
     5467.6.16 = {
         death = { death_reason = death_siege } # Died in the siege of Osgiliath due to a fire among the stores 
     }
@@ -150652,9 +150656,7 @@ linetulion17 = {
 
     trait = blood_of_numenor_5
 
-    trait = zealous
-    trait = gregarious
-    trait = content
+
 
     diplomacy = 7
     martial = 7
@@ -150669,6 +150671,11 @@ linetulion17 = {
         birth = yes
     }
 
+    5400.1.1 = {
+        add_trait = zealous
+        add_trait = gregarious
+        add_trait = content
+    }
     5559.5.27 = {
         death = { death_reason = death_natural_causes }
     }
@@ -208888,7 +208895,7 @@ lineofastandurcadet12 = {
 
     sexuality = heterosexual
 
-    trait =  blood_of_numenor_6
+    trait =  blood_of_numenor_7
 
     trait = diligent
     trait = brave
@@ -208928,7 +208935,7 @@ lineofastandurcadet13 = {
 
     sexuality = heterosexual
 
-    trait =  blood_of_numenor_6
+    trait =  blood_of_numenor_7
 
     trait = impatient
     trait = brave
@@ -281424,6 +281431,7 @@ lineofearendur9 = {
 
 lineofearendur10 = {
     name = Aeglos
+    disallow_random_traits = yes
 
     dynasty = dynasty_earendur
     religion = faith_edain
@@ -281435,10 +281443,6 @@ lineofearendur10 = {
     sexuality = heterosexual
 
     trait = blood_of_numenor_6
-
-    trait = brave
-    trait = stubborn
-    trait = temperate
 
     diplomacy = 7
     martial = 4
@@ -281455,7 +281459,11 @@ lineofearendur10 = {
 			learn_language = language_sindarin	
 		}
     }
-
+    5400.1.1= {
+        add_trait = brave
+        add_trait = stubborn
+        add_trait = temperate
+    }
 #    5362.8.23 = {
 #        add_spouse = lineofearendur9wife
 #    }
@@ -285503,6 +285511,8 @@ lineofelion15 = {
 
 lineofelion16 = {
     name = Cirion
+    disallow_random_traits = yes
+
 
     dynasty_house = house_elion
     religion = faith_edain
@@ -285531,7 +285541,11 @@ lineofelion16 = {
     5377.11.28 = {
         birth = yes
     }
-
+    5400.1.1= {
+        add_trait = stubborn
+        add_trait = craven
+        add_trait = gregarious
+    }
     5441.10.5 = {
         add_spouse = lineofelion17
     }
