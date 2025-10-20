@@ -183406,7 +183406,7 @@ lineofvakuankka32brother2 = {
 
     trait = education_learning_4
 
-    5175.7.4 = {
+    5185.7.4 = {
         birth = yes
         effect = {
             learn_language = language_sindarin
@@ -183418,7 +183418,7 @@ lineofvakuankka32brother2 = {
     5382.5.1 = {
         employer = lineofvakuankka38
     }
-    5378.1.1 = {
+    5388.1.1 = {
         death = { death_reason = death_natural_causes }
     }
 }
