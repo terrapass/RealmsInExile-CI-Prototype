@@ -84467,7 +84467,7 @@ lineofortollote1 = {
         add_spouse = lineofortollote1wife
     }
 	5382.5.1 = {
-		employer = lineaistana11
+		employer = lineaistana9
 		give_council_position = councillor_steward
 	}
 	
