@@ -231563,8 +231563,8 @@ lineofsolvarding91 = {
 lineofelendir1 = {
 	name = Elendir
     
-    #father = pelargir
-    #mother = pelargir
+    father = lineofelentirold18
+    mother = lineofelentirold19
 
 	dynasty = dynasty_elendir
 	religion = faith_numenorean
@@ -231589,7 +231589,7 @@ lineofelendir1 = {
     learning = 12
     prowess = 5
 
-	3518.5.3 = {
+	3508.5.3 = {
 		birth = yes
 		effect = {
 			learn_language = language_sindarin
