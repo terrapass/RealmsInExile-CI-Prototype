@@ -18231,7 +18231,7 @@ linesteward48 = {
 
     trait = blood_of_numenor_2
 
-    trait = poet
+    trait = lifestyle_poet
     
     trait = physique_good_1
     trait = intellect_good_1
@@ -19098,7 +19098,7 @@ predolamroth28 = {
     trait = loyal
 
     trait = education_diplomacy_4
-    trait = poet
+    trait = lifestyle_poet
 
 	trait = blood_of_numenor_7
 	5443.3.25 = {
@@ -41835,7 +41835,7 @@ lineromatar25a1 = {
 	culture = orodbedhrim
 
 	trait = adventurer_follower
-	trait = poet
+	trait = lifestyle_poet
 
 	trait = stubborn
 	trait = patient
@@ -59206,7 +59206,7 @@ lineofmorinehtar11 = {
     }
 	
 	 4684.9.7 = {
-        add_trait = poet
+        add_trait = lifestyle_poet
     }
 	
     4684.9.7 = {
@@ -62505,7 +62505,7 @@ lineoflotu38 = {
 	trait = diligent
 	trait = stubborn
 	trait = strategist
-	trait = poet
+	trait = lifestyle_poet
 	trait = desert_warrior
 
 
@@ -83656,7 +83656,7 @@ lineaistana9 = {
     }
 	
 	5257.2.5 = {
-        add_trait = poet
+        add_trait = lifestyle_poet
     }
 	
     5290.8.19 = {
@@ -194394,7 +194394,7 @@ lineoftelemir1 = {
 
 	trait = intellect_good_3
     trait = shrewd
-    trait = poet
+    trait = lifestyle_poet
     trait = journaller
     
     trait = education_diplomacy_5
@@ -197548,7 +197548,7 @@ lineoftelemir72 = {
     trait = diligent
     trait = patient
 
-    trait = poet
+    trait = lifestyle_poet
 
     diplomacy = 7
     martial = 5
@@ -200817,7 +200817,7 @@ lineoftelemir152 = {
     trait = gregarious
     trait = diligent
 
-    trait = poet
+    trait = lifestyle_poet
     trait = journaller
 
     diplomacy = 10
@@ -285995,7 +285995,7 @@ lineofcethrandir2wife = {
 	trait = compassionate			
 	trait = arrogant				
 	trait = temperate		
-	trait = poet	
+	trait = lifestyle_poet	
 	trait = education_stewardship_2
 
 
@@ -286932,7 +286932,7 @@ lineofcethrandir22wife = {
 	trait = content		
 	trait = shy	
 	trait = compassionate
-	trait = poet
+	trait = lifestyle_poet
 	
 	trait = education_diplomacy_2
 
@@ -287430,7 +287430,7 @@ lineofcethrandir32 = {
     trait = generous
     trait = gregarious
     trait = arrogant
-    trait = poet
+    trait = lifestyle_poet
     trait = physique_good_1
 
     diplomacy = 9
