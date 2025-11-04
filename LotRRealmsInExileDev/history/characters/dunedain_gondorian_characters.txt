@@ -14950,6 +14950,8 @@ lineofartari21 = { # Elentir Artari, supporter of Eldacar, and one of the few su
 lineofartari22 = { # The youngest child and least interested in the politics of the time, as she hated arguements and division. She married into the Gondorian famility in Enedhwaith and mostly sat out the conflict
 # TODO - marry to governor of Enedhwaith durring Kin Strife (currently unassigned)
 	name = Isilm_e_e
+    disallow_random_traits = yes
+
 
     female = yes
 	dynasty_house = house_artari
@@ -14959,9 +14961,6 @@ lineofartari22 = { # The youngest child and least interested in the politics of 
 	father = lineofartari18
     mother = lineofthorondir15
 
-    trait = compassionate
-    trait = generous
-    trait = craven
     # trait = shy
 
     trait = education_stewardship_2
@@ -14977,6 +14976,11 @@ lineofartari22 = { # The youngest child and least interested in the politics of 
     5382.5.1 = {
         employer = lineofartari8
     }
+    5400.1.1= {
+        add_trait = compassionate
+        add_trait = generous
+        add_trait = craven
+    }    
 	5606.1.1 = { # 1573 228
 		death = { death_reason = death_natural_causes }
 	}
@@ -18275,7 +18279,7 @@ linesteward48 = {
 
     trait = blood_of_numenor_2
 
-    trait = poet
+    trait = lifestyle_poet
     
     trait = physique_good_1
     trait = intellect_good_1
@@ -19142,7 +19146,7 @@ predolamroth28 = {
     trait = loyal
 
     trait = education_diplomacy_4
-    trait = poet
+    trait = lifestyle_poet
 
 	trait = blood_of_numenor_7
 	5443.3.25 = {
@@ -41882,7 +41886,7 @@ lineromatar25a1 = {
 	culture = orodbedhrim
 
 	trait = adventurer_follower
-	trait = poet
+	trait = lifestyle_poet
 
 	trait = stubborn
 	trait = patient
@@ -48032,16 +48036,16 @@ lineoftiridonKS8sister = { #Marries Elentir Aratari. Remains behind in Osgiliath
     learning = 4
     prowess = 5
 
-    trait = brave
-    trait = lustful
-    trait = honest
-
     trait = education_stewardship_2
 
     5375.6.17 = {
         birth = yes
     }
-
+    5400.1.1= {
+        add_trait = brave
+        add_trait = lustful
+        add_trait = honest
+    }
     5467.6.16 = {
         death = { death_reason = death_siege } # Died in the siege of Osgiliath due to a fire among the stores 
     }
@@ -59266,7 +59270,7 @@ lineofmorinehtar11 = {
     }
 	
 	 4684.9.7 = {
-        add_trait = poet
+        add_trait = lifestyle_poet
     }
 	
     4684.9.7 = {
@@ -62565,7 +62569,7 @@ lineoflotu38 = {
 	trait = diligent
 	trait = stubborn
 	trait = strategist
-	trait = poet
+	trait = lifestyle_poet
 	trait = desert_warrior
 
 
@@ -83725,7 +83729,7 @@ lineaistana9 = {
     }
 	
 	5257.2.5 = {
-        add_trait = poet
+        add_trait = lifestyle_poet
     }
 	
     5290.8.19 = {
@@ -84463,7 +84467,7 @@ lineofortollote1 = {
         add_spouse = lineofortollote1wife
     }
 	5382.5.1 = {
-		employer = lineaistana11
+		employer = lineaistana9
 		give_council_position = councillor_steward
 	}
 	
@@ -150652,9 +150656,7 @@ linetulion17 = {
 
     trait = blood_of_numenor_5
 
-    trait = zealous
-    trait = gregarious
-    trait = content
+
 
     diplomacy = 7
     martial = 7
@@ -150669,6 +150671,11 @@ linetulion17 = {
         birth = yes
     }
 
+    5400.1.1 = {
+        add_trait = zealous
+        add_trait = gregarious
+        add_trait = content
+    }
     5559.5.27 = {
         death = { death_reason = death_natural_causes }
     }
@@ -183399,7 +183406,7 @@ lineofvakuankka32brother2 = {
 
     trait = education_learning_4
 
-    5175.7.4 = {
+    5185.7.4 = {
         birth = yes
         effect = {
             learn_language = language_sindarin
@@ -183411,7 +183418,7 @@ lineofvakuankka32brother2 = {
     5382.5.1 = {
         employer = lineofvakuankka38
     }
-    5378.1.1 = {
+    5388.1.1 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -195274,7 +195281,7 @@ lineoftelemir1 = {
 
 	trait = intellect_good_3
     trait = shrewd
-    trait = poet
+    trait = lifestyle_poet
     trait = journaller
     
     trait = education_diplomacy_5
@@ -198428,7 +198435,7 @@ lineoftelemir72 = {
     trait = diligent
     trait = patient
 
-    trait = poet
+    trait = lifestyle_poet
 
     diplomacy = 7
     martial = 5
@@ -201697,7 +201704,7 @@ lineoftelemir152 = {
     trait = gregarious
     trait = diligent
 
-    trait = poet
+    trait = lifestyle_poet
     trait = journaller
 
     diplomacy = 10
@@ -208888,7 +208895,7 @@ lineofastandurcadet12 = {
 
     sexuality = heterosexual
 
-    trait =  blood_of_numenor_6
+    trait =  blood_of_numenor_7
 
     trait = diligent
     trait = brave
@@ -208928,7 +208935,7 @@ lineofastandurcadet13 = {
 
     sexuality = heterosexual
 
-    trait =  blood_of_numenor_6
+    trait =  blood_of_numenor_7
 
     trait = impatient
     trait = brave
@@ -231556,8 +231563,8 @@ lineofsolvarding91 = {
 lineofelendir1 = {
 	name = Elendir
     
-    #father = pelargir
-    #mother = pelargir
+    father = lineofelentirold18
+    mother = lineofelentirold19
 
 	dynasty = dynasty_elendir
 	religion = faith_numenorean
@@ -231582,7 +231589,7 @@ lineofelendir1 = {
     learning = 12
     prowess = 5
 
-	3518.5.3 = {
+	3508.5.3 = {
 		birth = yes
 		effect = {
 			learn_language = language_sindarin
@@ -281424,6 +281431,7 @@ lineofearendur9 = {
 
 lineofearendur10 = {
     name = Aeglos
+    disallow_random_traits = yes
 
     dynasty = dynasty_earendur
     religion = faith_edain
@@ -281435,10 +281443,6 @@ lineofearendur10 = {
     sexuality = heterosexual
 
     trait = blood_of_numenor_6
-
-    trait = brave
-    trait = stubborn
-    trait = temperate
 
     diplomacy = 7
     martial = 4
@@ -281455,7 +281459,11 @@ lineofearendur10 = {
 			learn_language = language_sindarin	
 		}
     }
-
+    5400.1.1= {
+        add_trait = brave
+        add_trait = stubborn
+        add_trait = temperate
+    }
 #    5362.8.23 = {
 #        add_spouse = lineofearendur9wife
 #    }
@@ -285503,6 +285511,8 @@ lineofelion15 = {
 
 lineofelion16 = {
     name = Cirion
+    disallow_random_traits = yes
+
 
     dynasty_house = house_elion
     religion = faith_edain
@@ -285531,7 +285541,11 @@ lineofelion16 = {
     5377.11.28 = {
         birth = yes
     }
-
+    5400.1.1= {
+        add_trait = stubborn
+        add_trait = craven
+        add_trait = gregarious
+    }
     5441.10.5 = {
         add_spouse = lineofelion17
     }
@@ -286877,7 +286891,7 @@ lineofcethrandir2wife = {
 	trait = compassionate			
 	trait = arrogant				
 	trait = temperate		
-	trait = poet	
+	trait = lifestyle_poet	
 	trait = education_stewardship_2
 
 
@@ -287815,7 +287829,7 @@ lineofcethrandir22wife = {
 	trait = content		
 	trait = shy	
 	trait = compassionate
-	trait = poet
+	trait = lifestyle_poet
 	
 	trait = education_diplomacy_2
 
@@ -288313,7 +288327,7 @@ lineofcethrandir32 = {
     trait = generous
     trait = gregarious
     trait = arrogant
-    trait = poet
+    trait = lifestyle_poet
     trait = physique_good_1
 
     diplomacy = 9
