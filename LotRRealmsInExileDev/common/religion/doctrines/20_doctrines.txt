@@ -16,7 +16,7 @@
 
 	doctrine_polygamy = {
 		is_shown = {
-			NOT = { religion_tag = elven_religion } #LotR
+			NOT = { religion = religion:elven_religion } #LotR
 		}
 		piety_cost = {
 			value = faith_doctrine_cost_mid
@@ -33,7 +33,7 @@
 
 	doctrine_concubines = {
 		is_shown = {
-			NOT = { religion_tag = elven_religion } #LotR
+			NOT = { religion = religion:elven_religion } #LotR
 		}
 		piety_cost = {
 			value = faith_doctrine_cost_mid
@@ -70,7 +70,7 @@ doctrine_divorce = {
 	}
 	doctrine_divorce_approval = {
 		is_shown = {
-			NOT = { religion_tag = elven_religion } #LotR
+			NOT = { religion = religion:elven_religion } #LotR
 		}
 		piety_cost = {
 			value = faith_doctrine_cost_low
@@ -86,7 +86,7 @@ doctrine_divorce = {
 	}
 	doctrine_divorce_allowed = {
 		is_shown = {
-			NOT = { religion_tag = elven_religion } #LotR
+			NOT = { religion = religion:elven_religion } #LotR
 		}
 		piety_cost = {
 			value = faith_doctrine_cost_low
@@ -656,34 +656,6 @@ doctrine_gender = {
 		}
 	}
 
-	doctrine_gender_female_orientated = { # LotR
-		is_shown = {
-			NOT = { has_game_rule = full_gender_equality }
-		}
-		piety_cost = {
-			value = faith_doctrine_cost_high
-			if = {
-				limit = { has_doctrine = doctrine_gender_female_orientated }
-				multiply = faith_unchanged_doctrine_cost_mult
-			}
-			else_if = {
-				limit = { has_doctrine = doctrine_gender_male_dominated }
-				multiply = faith_changed_doctrine_cost_mult_two_step
-			}
-		}
-		parameters = {
-			gender_equal_law = yes
-			male_claims_are_weak = yes
-			men_cannot_inherit_implicit_claims = yes
-			equal_council = yes
-			combatant_must_be_female_if_no_roco = yes
-		}
-		character_modifier = {
-			name = male_ruler_female_dominant
-			opinion_of_male_rulers = -5
-		}
-	}
-
 	doctrine_gender_female_dominated = {
 		is_shown = {
 			NOT = { has_game_rule = full_gender_equality }
@@ -720,10 +692,59 @@ doctrine_gender = {
 			always = yes #LotR
 		}
 	}
+	doctrine_gender_female_orientated = { # LotR
+		is_shown = {
+			NOT = { has_game_rule = full_gender_equality }
+		}
+		piety_cost = {
+			value = faith_doctrine_cost_high
+			if = {
+				limit = { has_doctrine = doctrine_gender_female_orientated }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_gender_male_dominated }
+				multiply = faith_changed_doctrine_cost_mult_two_step
+			}
+		}
+		parameters = {
+			gender_equal_law = yes
+			male_claims_are_weak = yes
+			men_cannot_inherit_implicit_claims = yes
+			equal_council = yes
+			combatant_must_be_female_if_no_roco = yes
+		}
+		character_modifier = {
+			name = male_ruler_female_dominant
+			opinion_of_male_rulers = -5
+		}
+	}
 }
 
 doctrine_consanguinity = {
 	group = "marriage"
+	doctrine_consanguinity_dynastic = {
+		piety_cost = {
+			value = faith_doctrine_cost_high
+			if = {
+				limit = { has_doctrine = doctrine_consanguinity_restricted }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece }
+				multiply = faith_changed_doctrine_cost_mult_two_step
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_consanguinity_unrestricted }
+				multiply = faith_changed_doctrine_cost_mult_three_step
+			}
+		}
+		parameters = {
+			consanguinity_restricted_dynastic_marriage = yes
+			consanguinity_restricted_marriage = yes
+			consanguinity_restricted_close_kin_incest = yes
+		}
+	}
 	doctrine_consanguinity_restricted = {
 		piety_cost = {
 			value = faith_doctrine_cost_high
@@ -1107,17 +1128,11 @@ doctrine_clerical_function = {
 		}
 	}
 	doctrine_clerical_function_lore_masters = { #LotR
-		# is_shown = {
-		# 	religion = { is_in_family = rf_eruhini }
-		# }
 		clergy_modifier = {
 			domain_tax_mult_even_if_baron = -0.05
 			monthly_lifestyle_xp_gain_mult = 0.05
 			# Add conversion speed decrease
 		}
-		# parameters = {
-		# 	clergy_can_fight = yes
-		# }
 		piety_cost = {
 			value = faith_doctrine_cost_mid
 			if = {
@@ -1420,6 +1435,21 @@ doctrine_pilgrimage = {
 		}
 	}
 
+	doctrine_pilgrimage_local_rites = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+			if = {
+				limit = { has_doctrine = doctrine_pilgrimage_local_rites }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		parameters = {
+			local_shrine_offering = yes
+			can_go_on_pilgrimage = yes
+			basic_pilgrimage_rewards = yes
+		}
+	}
+
 	doctrine_pilgrimage_mandatory = {
 		piety_cost = {
 			value = faith_doctrine_cost_mid
@@ -1543,6 +1573,24 @@ doctrine_funeral = {
 			}
 		}
 	}
+
+	doctrine_family_rites = { # Solemn veneration
+		piety_cost = {
+			value = faith_doctrine_cost_high
+			if = {
+				limit = { has_doctrine = doctrine_family_rites }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+			if = {
+				limit = { has_doctrine = tenet_filial_piety }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		parameters = {
+			burial_funeral = yes
+			family_rites = yes
+		}
+	}
 }
 
 doctrine_coronation = {
@@ -1569,7 +1617,13 @@ doctrine_coronation = {
 			theocratic_coronation = yes
 		}
 		can_pick = {
-			NOT = { doctrine:doctrine_no_head = { is_in_list = selected_doctrines } }
+			custom_description = {
+				text = doctrine_requires_theocratic_head_of_faith_trigger
+				NOR = {
+					doctrine:doctrine_no_head = { is_in_list = selected_doctrines }
+					doctrine:doctrine_temporal_head = { is_in_list = selected_doctrines }
+				}
+			}
 		}
 		is_shown = {
 			has_ach_dlc_trigger = yes
@@ -1583,10 +1637,53 @@ doctrine_coronation = {
 			imperial_anointment = yes
 		}
 		can_pick = {
-			NOT = { doctrine:doctrine_no_head = { is_in_list = selected_doctrines } }
+			custom_description = {
+				text = doctrine_requires_theocratic_head_of_faith_trigger
+				NOR = {
+					doctrine:doctrine_no_head = { is_in_list = selected_doctrines }
+					doctrine:doctrine_temporal_head = { is_in_list = selected_doctrines }
+				}
+			}
 		}
 		is_shown = {
 			has_ach_dlc_trigger = yes
+		}
+	}
+}
+
+doctrine_theism = {
+	group = "main_group"
+	doctrine_monotheist = {
+		piety_cost = {
+			value = faith_doctrine_cost_high
+			if = {
+				limit = { 
+					OR = {
+						#has_doctrine = abrahamic_hostility_doctrine #LotR
+						has_doctrine = doctrine_monotheist 
+					}
+				}
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		parameters = {
+			hostility_others = 3
+		}
+	}
+	doctrine_polytheist = {
+		piety_cost = {
+			value = faith_doctrine_cost_high
+			# if = { #LotR
+			# 	limit = { has_doctrine = abrahamic_hostility_doctrine }
+			# 	multiply = faith_changed_doctrine_cost_mult_three_step
+			# }
+			if = { #LotR, vanilla is else_if
+				limit = { has_doctrine = doctrine_polytheist }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		parameters = {
+			hostility_others = 2
 		}
 	}
 }
