@@ -152691,7 +152691,7 @@ lineofbahadurhan21 = {
 	}
 }
 
-lineofbahadurhan22 = { # Great General of Aldhrad, comming to prominence as a young officer during the coup against the 4th dynasty, and famed most for his conquest of Anarike and defeat of Codya. He was installed lord-governer of all of Anarike upon conquest.
+lineofbahadurhan22 = { # Great General of Aldhrad, coming to prominence as a young officer during the coup against the 4th dynasty, and famed most for his conquest of Anarike and defeat of Codya. He was installed lord-governer of all of Anarike upon conquest.
 	name = Meherzad
 	culture = khyan
 	religion = faith_arienism
@@ -180362,7 +180362,7 @@ lineofgorazehan2 = {
 	}
 }
 
-lineofgorazehan3 = { # Evicted by the incomming 4th Dynasty
+lineofgorazehan3 = { # Evicted by the incoming 4th Dynasty
 	name = Khushmanish
 	culture = khyan
 	religion = faith_angrimayn
@@ -387957,7 +387957,7 @@ lineofaspandad = { # A mentor figure to Taxmaspada.
 }
 # Khudaram
 
-lineofkhudaram = { # a bit of a worldly high priest, he always clashed with Taxmaspada over matters of religious infulence
+lineofkhudaram = { # a bit of a worldly high priest, he always clashed with Taxmaspada over matters of religious influence
     name = Khudaram
 
     culture = khyan
