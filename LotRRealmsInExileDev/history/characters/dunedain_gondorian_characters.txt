@@ -183198,6 +183198,7 @@ lineofvakuankka120 = {
 
 lineofvakuankka122 = {
     name = Belegommor
+    dna = lotr_vanity_vakuankka_dna
 
     dynasty = dynasty_sommorionath
     religion = faith_edain
@@ -183283,13 +183284,14 @@ lineofvakuankka126 = {
 
     dynasty = dynasty_sommorionath
     religion = faith_edain
+    culture = belfalathrim
 
     father = lineofvakuankka122
     mother = linehalbarad19sister
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_3
     
     trait = beauty_good_3
     trait = intellect_good_1
@@ -183310,13 +183312,14 @@ lineofvakuankka127 = {
 
     dynasty = dynasty_sommorionath
     religion = faith_edain
+    culture = belfalathrim
 
     father = lineofvakuankka122
     mother = linehalbarad19sister
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_3
     
     trait = beauty_good_3
     trait = intellect_good_1
@@ -290810,4 +290813,83 @@ lineofborvegilionath7 = {
     }
 }			
 
+### Arphazel and Galadors line
+lineofarphazel1 = {
+    name = Gildis
+    female = yes
+
+    dynasty_house = house_arphazel
+    religion = faith_edain_ulmo
+    culture = belfalathrim
+
+    father = lineartenosse84
+    mother = linepharazon8
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_2
+
+    trait = compassionate
+    trait = forgiving
+    trait = stubborn
+
+    trait = beauty_good_2
+    trait = intellect_good_1
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 7
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    7059.12.24 = {
+        birth = yes
+    }
+
+    7180.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+
+}
+
+lineofarphazel2 = {
+    name = Haleth # TEMP
+
+    dynasty_house = house_arphazel
+    religion = faith_edain_ulmo
+    culture = belfalathrim
+
+    father = lineartenosse84
+    mother = linepharazon8
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_2
+
+    trait = just
+    trait = diligent
+    trait = ambitious
+
+    trait = intellect_good_3
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 10
+    intrigue = 3
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    7063.7.4 = {
+        birth = yes
+    }
+
+    7183.1.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
 
