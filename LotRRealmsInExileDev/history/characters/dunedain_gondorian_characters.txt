@@ -14351,7 +14351,7 @@ lineofartari4 = { #A martial and restless man, he was uncomfortable in the court
 	}
 }
 
-lineofartari5 = { # More comfortable in the office than the court, Tarahil prefered shepering the house's buisness intrests to the court politics his sister loved. The coffers were greatly filled durring his time, but they began to drift towards the edge of the court, no longer a critical branch of the royal family. It was a trip to Umbar arranged by him shortly before his death that resulted in the double marriage of his grandsons.
+lineofartari5 = { # More comfortable in the office than the court, Tarahil preferred shepering the house's buisness intrests to the court politics his sister loved. The coffers were greatly filled durring his time, but they began to drift towards the edge of the court, no longer a critical branch of the royal family. It was a trip to Umbar arranged by him shortly before his death that resulted in the double marriage of his grandsons.
 	name = Tarahil
 
 	dynasty_house = house_artari
