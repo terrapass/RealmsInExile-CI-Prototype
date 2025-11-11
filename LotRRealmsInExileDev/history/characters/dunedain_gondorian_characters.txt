@@ -86894,7 +86894,7 @@ lineohtarionulond4wife = {
 }
 
 lineohtarionulond5 = {
-	name = Beruthiel
+	name = Brethil
     female = yes
 
 	dynasty_house = house_ohtarion_ulond
