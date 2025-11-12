@@ -9,5 +9,5 @@
  murder_save.1010.desc: "An assassin has made an attempt on my life! Thankfully, [mundburgian.GetFirstName], a member of my Mundburgian Éored, was right outside my chambers and swiftly intervened. [mundburgian.GetSheHe|U] made quick work of the assassin before I came to any harm."
  murder_save.1010.mundburgian_dies: "Tragically, [mundburgian.GetFirstNameNoTooltip] suffered fatal wounds in the process."
  murder_save.1010.owner_discovered: "\n\nThere can be no doubt that this was all the doing of [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!"
- murder_save.1010.a: "Who could be behind this vicious attempt?"
+ murder_save.1010.a: "Who could be behind this vicious attempt?" 
  murder_save.1010.b: "[owner.GetSheHe|U] will pay for this!"
