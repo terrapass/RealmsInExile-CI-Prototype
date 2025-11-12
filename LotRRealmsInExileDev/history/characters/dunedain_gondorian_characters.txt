@@ -270115,7 +270115,7 @@ lineofathanc7 = {
 
     trait = gregarious
     trait = ambitious
-    trait = sadistic
+    trait = arrogant
 
     diplomacy = 2
     martial = 5
@@ -270124,7 +270124,7 @@ lineofathanc7 = {
     learning = 6
     prowess = 6
 
-    trait = education_intrigue_4
+    trait = education_intrigue_3
 
     7100.1.22 = {
         birth = yes
@@ -270183,8 +270183,8 @@ lineofathanc9 = {
     sexuality = heterosexual
 
     trait = ambitious
-    trait = arrogant
-    trait = shy
+    trait = compassionate
+    trait = gregarious
 
     diplomacy = 8
     martial = 5
@@ -270193,7 +270193,7 @@ lineofathanc9 = {
     learning = 4
     prowess = 6
 
-    trait = education_diplomacy_2
+    trait = education_diplomacy_4
 
     7137.10.26 = {
         birth = yes
