@@ -634,7 +634,7 @@ lineofanarion15 = {
 	}
 
 	4831.1.1 = {
-		add_spouse = lineoftumakveh18					
+		add_spouse = lineoftumakveh28					
 	}
 
 	4946.1.1 = {
