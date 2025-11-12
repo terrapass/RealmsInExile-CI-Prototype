@@ -566,6 +566,7 @@ lineofanarion13 = {
 
 lineofanarion14 = {
 	name = Siriondil # King of Gondor
+    dna = siriondil_anarioni_dna
 
 	dynasty = dynasty_anarion
 	religion = faith_edain
@@ -704,6 +705,7 @@ lineofanarion17 = {
 
 lineofanarion18 = {
 	name = E_a_arnil # King of Gondor
+    dna = earnil_i_anarioni_dna
 
 	dynasty = dynasty_anarion
 	religion = faith_edain
@@ -2135,6 +2137,7 @@ lineofanarion50 = {
 
 lineofanarion51 = {
 	name = E_a_arnur # Last King of Gondor
+    dna = earnur_anarioni_dna
 
 	dynasty = dynasty_anarion
 	religion = faith_edain
@@ -2682,6 +2685,7 @@ lineofanarion62 = {
 
 lineofciryaheri0 = {
 	name = Ciryatar 
+    dna = ciryatar_lineofciryaheri0_dna
 
 	dynasty_house = house_ciryaher
 	religion = faith_edain
@@ -131254,30 +131258,10 @@ lineofneithan7 = {
     }
 
     4330.12.21 = {
-        add_spouse = lineofneithan8
+        add_spouse = lineofoluchil43
     }
 
     4497.6.13 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineofneithan8 = {
-    name = Amarie 
-    female = yes
-
-    religion = faith_edain
-    culture = gondorian
-
-    
-
-
-	trait = blood_of_numenor_9
-    4313.1.26 = {
-        birth = yes
-    }
-
-    4542.1.11 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -131290,7 +131274,7 @@ lineofneithan9 = {
     culture = gondorian
 
     father = lineofneithan7
-    mother = lineofneithan8
+    mother = lineofoluchil43
 
     
 
