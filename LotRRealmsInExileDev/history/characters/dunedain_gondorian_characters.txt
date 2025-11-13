@@ -19636,6 +19636,9 @@ dolamroth0 = {
 	religion = faith_eldar
 	culture = silvan
 
+    father = lineofnellas3
+    mother = lineofnellas4
+
 	female = yes
 
 	trait = beauty_good_3
