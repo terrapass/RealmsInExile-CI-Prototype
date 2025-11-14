@@ -675,6 +675,7 @@ lineofanarion15 = {
 
 lineofanarion17 = {
 	name = Tarciryan 
+    dna = tarciryan_anarioni_AB_dna
 
 	dynasty = dynasty_anarion
 	religion = faith_edain
