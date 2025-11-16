@@ -566,6 +566,7 @@ lineofanarion13 = {
 
 lineofanarion14 = {
 	name = Siriondil # King of Gondor
+    dna = siriondil_anarioni_dna
 
 	dynasty = dynasty_anarion
 	religion = faith_edain
@@ -633,7 +634,7 @@ lineofanarion15 = {
 	}
 
 	4831.1.1 = {
-		add_spouse = lineoftumakveh18					
+		add_spouse = lineoftumakveh28					
 	}
 
 	4946.1.1 = {
@@ -674,6 +675,7 @@ lineofanarion15 = {
 
 lineofanarion17 = {
 	name = Tarciryan 
+    dna = tarciryan_anarioni_AB_dna
 
 	dynasty = dynasty_anarion
 	religion = faith_edain
@@ -704,6 +706,7 @@ lineofanarion17 = {
 
 lineofanarion18 = {
 	name = E_a_arnil # King of Gondor
+    dna = earnil_i_anarioni_dna
 
 	dynasty = dynasty_anarion
 	religion = faith_edain
@@ -2135,6 +2138,7 @@ lineofanarion50 = {
 
 lineofanarion51 = {
 	name = E_a_arnur # Last King of Gondor
+    dna = earnur_anarioni_dna
 
 	dynasty = dynasty_anarion
 	religion = faith_edain
@@ -2682,6 +2686,7 @@ lineofanarion62 = {
 
 lineofciryaheri0 = {
 	name = Ciryatar 
+    dna = ciryatar_lineofciryaheri0_dna
 
 	dynasty_house = house_ciryaher
 	religion = faith_edain
@@ -19631,6 +19636,9 @@ dolamroth0 = {
 
 	religion = faith_eldar
 	culture = silvan
+
+    father = lineofnellas3
+    mother = lineofnellas4
 
 	female = yes
 
@@ -86894,7 +86902,7 @@ lineohtarionulond4wife = {
 }
 
 lineohtarionulond5 = {
-	name = Beruthiel
+	name = Brethil
     female = yes
 
 	dynasty_house = house_ohtarion_ulond
@@ -131254,30 +131262,10 @@ lineofneithan7 = {
     }
 
     4330.12.21 = {
-        add_spouse = lineofneithan8
+        add_spouse = lineofoluchil43
     }
 
     4497.6.13 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineofneithan8 = {
-    name = Amarie 
-    female = yes
-
-    religion = faith_edain
-    culture = gondorian
-
-    
-
-
-	trait = blood_of_numenor_9
-    4313.1.26 = {
-        birth = yes
-    }
-
-    4542.1.11 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -131290,7 +131278,7 @@ lineofneithan9 = {
     culture = gondorian
 
     father = lineofneithan7
-    mother = lineofneithan8
+    mother = lineofoluchil43
 
     
 
@@ -183198,6 +183186,7 @@ lineofvakuankka120 = {
 
 lineofvakuankka122 = {
     name = Belegommor
+    dna = lotr_vanity_vakuankka_dna
 
     dynasty = dynasty_sommorionath
     religion = faith_edain
@@ -183283,13 +183272,14 @@ lineofvakuankka126 = {
 
     dynasty = dynasty_sommorionath
     religion = faith_edain
+    culture = belfalathrim
 
     father = lineofvakuankka122
     mother = linehalbarad19sister
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_3
     
     trait = beauty_good_3
     trait = intellect_good_1
@@ -183310,13 +183300,14 @@ lineofvakuankka127 = {
 
     dynasty = dynasty_sommorionath
     religion = faith_edain
+    culture = belfalathrim
 
     father = lineofvakuankka122
     mother = linehalbarad19sister
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_2
+    trait = blood_of_numenor_3
     
     trait = beauty_good_3
     trait = intellect_good_1
@@ -270112,7 +270103,7 @@ lineofathanc7 = {
 
     trait = gregarious
     trait = ambitious
-    trait = sadistic
+    trait = arrogant
 
     diplomacy = 2
     martial = 5
@@ -270121,7 +270112,7 @@ lineofathanc7 = {
     learning = 6
     prowess = 6
 
-    trait = education_intrigue_4
+    trait = education_intrigue_3
 
     7100.1.22 = {
         birth = yes
@@ -270180,8 +270171,8 @@ lineofathanc9 = {
     sexuality = heterosexual
 
     trait = ambitious
-    trait = arrogant
-    trait = shy
+    trait = compassionate
+    trait = gregarious
 
     diplomacy = 8
     martial = 5
@@ -270190,7 +270181,7 @@ lineofathanc9 = {
     learning = 4
     prowess = 6
 
-    trait = education_diplomacy_2
+    trait = education_diplomacy_4
 
     7137.10.26 = {
         birth = yes
@@ -290810,4 +290801,214 @@ lineofborvegilionath7 = {
     }
 }			
 
+### Arphazel and Galadors line
+lineofarphazel1 = {
+    name = Gildis
+    female = yes
 
+    dynasty_house = house_arphazel
+    religion = faith_edain_ulmo
+    culture = belfalathrim
+
+    father = lineartenosse84
+    mother = linepharazon8
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_2
+
+    trait = compassionate
+    trait = forgiving
+    trait = stubborn
+
+    trait = beauty_good_2
+    trait = intellect_good_1
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 7
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    7059.12.24 = {
+        birth = yes
+    }
+
+    7180.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+
+}
+
+lineofarphazel2 = {
+    name = Haleth # TEMP
+
+    dynasty_house = house_arphazel
+    religion = faith_edain_ulmo
+    culture = belfalathrim
+
+    father = lineartenosse84
+    mother = linepharazon8
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_2
+
+    trait = just
+    trait = diligent
+    trait = ambitious
+
+    trait = intellect_good_3
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 10
+    intrigue = 3
+    learning = 6
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    7063.7.4 = {
+        birth = yes
+    }
+
+    7090.1.1 = {
+        add_spouse = lineelegost2
+        set_relation_soulmate = character:lineelegost2
+    }
+
+    7183.1.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofarphazel3 = { # Great naval commander
+    name = Gaerion # TEMP
+
+    dynasty_house = house_arphazel
+    religion = faith_edain_ulmo
+    culture = belfalathrim
+
+    father = lineofarphazel2
+    mother = lineelegost2
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = brave
+    trait = zealous
+    trait = diligent
+
+    trait = lifestyle_mariner
+
+    trait = beauty_good_1
+    trait = intellect_good_2
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 6
+    intrigue = 4
+    learning = 7
+    prowess = 8
+
+    trait = education_martial_3
+
+    7095.1.7 = {
+        birth = yes
+    }
+
+    7140.1.1 = {
+        effect = {
+            add_trait_xp = {
+                trait = lifestyle_mariner
+                value = 100
+            }
+        }
+    }
+
+    7255.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofarphazel4 = { # Learned man
+    name = Elion # TEMP
+
+    dynasty_house = house_arphazel
+    religion = faith_edain_ulmo
+    culture = belfalathrim
+
+    father = lineofarphazel2
+    mother = lineelegost2
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = just
+    trait = patient
+    trait = chaste
+
+    trait = intellect_good_3
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 8
+    intrigue = 4
+    learning = 10
+    prowess = 8
+
+    trait = education_learning_3
+
+    7105.5.7 = {
+        birth = yes
+    }
+
+    7265.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofarphazel5 = {
+    name = F_iriel # TEMP
+    female = yes
+
+    dynasty_house = house_arphazel
+    religion = faith_edain_ulmo
+    culture = belfalathrim
+
+    father = lineofarphazel2
+    mother = lineelegost2
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_4
+
+    trait = diligent
+    trait = patient
+    trait = stubborn
+
+    trait = beauty_good_3
+
+    diplomacy = 10
+    martial = 4
+    stewardship = 8
+    intrigue = 4
+    learning = 6
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    7110.12.2 = {
+        birth = yes
+    }
+
+    7270.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
