@@ -311,6 +311,7 @@ lineofanarion4 = {
 
 lineofanarion5 = {
 	name = Meneldil # King of Gondor
+    dna = meneldil_anarioni_dna
 
 	dynasty = dynasty_anarion
 	religion = faith_edain
@@ -347,6 +348,7 @@ lineofanarion5 = {
 
 lineofanarion7 = {
 	name = Cemendur # King of Gondor
+    dna = cemendur_anarioni_dna
 
 	dynasty = dynasty_anarion
 	religion = faith_edain
