@@ -114841,8 +114841,6 @@ lineofiaruui91 = {
 	learning = 3
 	prowess = 1
 
-	trait = education_intrigue_3
-
 	7017.01.28 = {
 	    birth = yes
 	}
