@@ -102485,7 +102485,7 @@ lineofbalari4 = {
 }
 
 lineofbalari5 = {
-	name = Taoni
+	name = azulzir
 	culture = kharadunaim
 	religion = faith_koronande
 
@@ -136183,7 +136183,7 @@ lineofobamna35 = {
 }
 
 lineofobamna36 = {
-	name = borock
+	name = badok
 	culture = koronandi
 	religion = faith_koronande
 
@@ -136586,7 +136586,7 @@ lineofobamna48 = {
 }
 
 lineofobamna49 = {
-	name = borock
+	name = badok
 	culture = koronandi
 	religion = faith_koronande
 
