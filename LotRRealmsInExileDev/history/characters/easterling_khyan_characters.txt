@@ -5491,7 +5491,8 @@ lineofaldhradan8 = {
     }
 
 	6917.9.6 = { 		
-		death = { death_reason = death_pneumonic }
+		trait = pneumonic
+        death = { death_reason = death_pneumonic }
 	}			
 }
 
@@ -6695,6 +6696,7 @@ lineofvasnan9 = {
 	}
 
     6866.2.15 = {
+        trait = cancer
         death = { death_reason = death_cancer }
     }
 }
@@ -7435,6 +7437,7 @@ lineofvasnan28 = { #Dies as a child historically, having only 2 traits and no ba
     }
 
     6981.11.7 = {
+        trait = consumption
         death = { death_reason = death_consumption }
     }
 }
@@ -9949,6 +9952,7 @@ lineofadelez4 = {
     }
 
     6841.8.27 = {
+        trait = consumption
         death = { death_reason = death_consumption }
     }
 }
@@ -13187,7 +13191,8 @@ lineofanafritahan35 = {
 	    trait = chaste
 	}
 	5209.10.20 = {  # Died at age 59
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -13534,7 +13539,8 @@ lineofanafritahan46 = {
 	    add_spouse = lineofhaydahan60
 	}
 	5224.05.05 = {  # Died at age 46
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -14453,7 +14459,8 @@ lineofanafritahan72 = {
 	    trait = brave
 	}
 	5338.06.24 = {  # Died at age 63
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -14705,7 +14712,8 @@ lineofanafritahan78 = {
 	    trait = eccentric
 	}
 	5385.10.08 = {  # Died at age 57
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -14990,7 +14998,8 @@ lineofanafritahan85 = {
 	    add_spouse = lineofanafritahan97
 	}
 	5420.12.11 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -15380,7 +15389,8 @@ lineofanafritahan96 = {
 	    trait = deceitful
 	}
 	5434.03.17 = {  # Died at age 51
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -18468,7 +18478,8 @@ lineofarshishan59 = {
 	    trait = arrogant
 	}
 	5536.12.09 = {  # Died at age 53
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -20063,7 +20074,8 @@ lineofarshishan104 = {
 	    trait = just
 	}
 	5668.12.22 = {  # Died at age 61
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -20865,7 +20877,8 @@ lineofishvathan139 = {
 	    trait = chaste
 	}
 	5453.08.20 = {  # Died at age 54
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -21026,7 +21039,8 @@ lineofarvanhahan5 = {
 	    add_spouse = lineofdarayavahan5
 	}
 	5346.06.15 = {  # Died at age 21
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -24053,7 +24067,8 @@ lineofarvanhahan90 = {
 	    add_spouse = lineofmujahan195
 	}
 	5700.02.17 = {  # Died at age 62
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -24256,7 +24271,8 @@ lineofarvanhahan95 = {
 	    add_spouse = lineofvindafarnahan99
 	}
 	5700.08.15 = {  # Died at age 49
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -24562,7 +24578,8 @@ lineofarvanhahan104 = {
 	    trait = forgiving
 	}
 	5700.10.02 = {  # Died at age 25
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -25718,7 +25735,8 @@ lineofdarayavahu17 = {
 	    trait = wrathful
 	}
 	5022.12.15 = {  # Died at age 49
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -26091,7 +26109,8 @@ lineofdarayavahu28 = {
 	    trait = just
 	}
 	5069.09.17 = {  # Died at age 60
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -27341,7 +27360,8 @@ lineofdarayavahu63 = {
 	    add_spouse = lineofdarayavahu74
 	}
 	5276.02.08 = {  # Died at age 47
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -28512,7 +28532,8 @@ lineofdastanahan6 = {
 	    add_spouse = lineofganagahan24
 	}
 	5077.11.05 = {  # Died at age 52
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -28716,7 +28737,8 @@ lineofdastanahan12 = {
 	    add_spouse = lineofishvathan36
 	}
 	5107.02.19 = {  # Died at age 50
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -29542,7 +29564,8 @@ lineofdastanahan35 = {
 	    add_spouse = lineofishvathan84
 	}
 	5239.10.20 = {  # Died at age 59
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -30556,7 +30579,8 @@ lineofdastanahan64 = {
 	    trait = callous
 	}
 	5325.08.10 = {  # Died at age 45
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -33965,7 +33989,8 @@ lineofdastanahan159 = {
 	    add_spouse = lineofzirakzadehan58
 	}
 	5681.10.12 = {  # Died at age 60
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -34442,7 +34467,8 @@ lineofdinpanahan14 = {
 	    trait = gregarious
 	}
 	5398.10.12 = {  # Died at age 49
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -36567,7 +36593,8 @@ lineofdinpanahan79 = {
 	    add_spouse = lineofdinpanahan80
 	}
 	5576.12.22 = {  # Died at age 60
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -36670,7 +36697,8 @@ lineofdinpanahan82 = {
 	    trait = stubborn
 	}
 	5590.10.11 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -38618,7 +38646,8 @@ lineofganagahan45 = {
 	    add_spouse = lineoframzeket60
 	}
 	5202.02.26 = {  # Died at age 54
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -38722,7 +38751,8 @@ lineofganagahan48 = {
 	    trait = gluttonous
 	}
 	5179.02.01 = {  # Died at age 40
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -39009,7 +39039,8 @@ lineofganagahan56 = {
 	    add_spouse = lineofdastanahan40
 	}
 	5243.12.09 = {  # Died at age 61
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -45585,7 +45616,8 @@ lineofhaydahan114 = {
 	    trait = gregarious
 	}
 	5526.06.22 = {  # Died at age 58
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -46827,7 +46859,8 @@ lineofhaydahan149 = {
 	    trait = ambitious
 	}
 	5657.01.23 = {  # Died at age 40
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -48878,7 +48911,8 @@ lineofishvathan20 = {
 	    trait = patient
 	}
 	5056.08.03 = {  # Died at age 60
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -49717,7 +49751,8 @@ lineofishvathan43 = {
 	    add_spouse = lineofvihinahan70
 	}
 	5148.08.06 = {  # Died at age 46
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -51217,7 +51252,8 @@ lineofishvathan85 = {
 	    trait = temperate
 	}
 	5227.08.02 = {  # Died at age 56
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -53885,7 +53921,8 @@ lineofishvathan164 = {
 	    trait = greedy
 	}
 	5603.10.25 = {  # Died at age 63
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -54239,7 +54276,8 @@ lineofishvathan174 = {
 	    trait = vengeful
 	}
 	5700.10.04 = {  # Died at age 50
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -54338,7 +54376,8 @@ lineofishvathan177 = {
 	    trait = vengeful
 	}
 	5700.06.07 = {  # Died at age 29
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -54373,7 +54412,8 @@ lineofishvathan178 = {
 	    trait = calm
 	}
 	5700.08.08 = {  # Died at age 28
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -56308,7 +56348,8 @@ lineofjahangir53 = {
 	    trait = shy
 	}
 	5502.11.20 = {  # Died at age 47
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -56386,7 +56427,8 @@ lineofjahangir55 = {
 	    add_spouse = lineofkhushnawazan47
 	}
 	5537.04.24 = {  # Died at age 63
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -56891,7 +56933,8 @@ lineofjahangir69 = {
 	    add_spouse = lineofkhushnawazan61
 	}
 	5574.07.03 = {  # Died at age 41
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -57268,7 +57311,8 @@ lineofmahburzinihan78 = {
 	    trait = fickle
 	}
 	5700.03.03 = {  # Died at age 28
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -57470,7 +57514,8 @@ lineofjahangir84 = {
 	    trait = vengeful
 	}
 	5624.05.05 = {  # Died at age 52
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -57852,7 +57897,8 @@ lineofjahangir96 = {
 	    add_spouse = lineofmujahan182
 	}
 	5647.09.15 = {  # Died at age 47
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -58555,7 +58601,8 @@ lineofjahangir115 = {
 	    trait = zealous
 	}
 	5700.04.26 = {  # Died at age 53
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -58829,7 +58876,8 @@ lineofjahangir126 = {
 	    add_spouse = lineoframinshtan69
 	}
 	5700.04.26 = {  # Died at age 23
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -63582,7 +63630,8 @@ lineofjangihan132 = {
 	    trait = craven
 	}
 	5649.01.20 = {  # Died at age 60
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -67489,7 +67538,8 @@ lineofkamdelehan97 = {
 	    add_spouse = lineofjahangir116
 	}
 	5700.06.17 = {  # Died at age 51
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -67593,7 +67643,8 @@ lineofkamdelehan99 = {
 	    trait = trusting
 	}
 	5700.03.06 = {  # Died at age 40
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -70506,7 +70557,8 @@ lineofkersasphan75 = {
 	    trait = calm
 	}
 	5559.05.19 = {  # Died at age 40
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -73198,7 +73250,8 @@ lineofkhurshchehra13 = {
 	    trait = humble
 	}
 	5375.07.14 = {  # Died at age 60
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -73505,7 +73558,8 @@ lineofkhurshchehra23 = {
 	    trait = zealous
 	}
 	5379.07.08 = {  # Died at age 62
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -73749,7 +73803,8 @@ lineofkhurshchehra30 = {
 	    trait = sadistic
 	}
 	5415.02.24 = {  # Died at age 60
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -73997,7 +74052,8 @@ lineofkhurshchehra38 = {
 	    add_spouse = lineofkhurshchehra51
 	}
 	5396.09.19 = {  # Died at age 34
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -74314,7 +74370,8 @@ lineofkhurshchehra47 = {
 	    trait = trusting
 	}
 	5433.06.09 = {  # Died at age 55
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -75313,7 +75370,8 @@ lineofkhurshchehra84 = {
 	    trait = greedy
 	}
 	5534.08.18 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -76214,7 +76272,8 @@ lineofkhurshchehra111 = {
 	    add_spouse = lineofkhurshchehra119
 	}
 	5616.11.05 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -77681,7 +77740,8 @@ lineofkhushnawazan11 = {
 	    add_spouse = lineofarshishan14
 	}
 	5397.03.16 = {  # Died at age 45
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -80275,7 +80335,8 @@ lineofkhushnawazan94 = {
 	    trait = arbitrary
 	}
 	5663.05.15 = {  # Died at age 56
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -80904,7 +80965,8 @@ lineofkhushnawazan114 = {
 	    add_spouse = lineofkhushnawazan117
 	}
 	5700.03.11 = {  # Died at age 53
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -80975,7 +81037,8 @@ lineofkhushnawazan116 = {
 	    trait = generous
 	}
 	5697.03.24 = {  # Died at age 43
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -82331,7 +82394,8 @@ lineofmahburzinihan28 = {
 	    trait = arbitrary
 	}
 	5556.04.06 = {  # Died at age 42
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -83217,7 +83281,8 @@ lineofvardanisan51 = {
 	    trait = generous
 	}
 	5700.05.10 = {  # Died at age 27
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -83437,7 +83502,8 @@ lineofmahburzinihan57 = {
 	    add_spouse = lineofvardanisan33
 	}
 	5678.03.14 = {  # Died at age 56
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -83732,7 +83798,8 @@ lineofmahburzinihan67 = {
 	    add_spouse = lineofmahburzinihan78
 	}
 	5700.12.03 = {  # Died at age 40
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -83911,7 +83978,8 @@ lineofmahburzinihan72 = {
 	    trait = shy
 	}
 	5700.09.10 = {  # Died at age 50
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -83949,7 +84017,8 @@ lineofmahburzinihan73 = {
 	    add_spouse = lineofmahburzinihan70
 	}
 	5700.11.21 = {  # Died at age 26
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -87609,7 +87678,8 @@ lineofmujahan53 = {
 	    trait = cynical
 	}
 	5184.05.19 = {  # Died at age 38
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -88209,7 +88279,8 @@ lineofmujahan68 = {
 	    add_spouse = lineofanafritahan61
 	}
 	5272.08.08 = {  # Died at age 46
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -89395,7 +89466,8 @@ lineofmujahan103 = {
 	    add_spouse = lineofhaydahan107
 	}
 	5403.05.27 = {  # Died at age 59
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -90361,7 +90433,8 @@ lineofmujahan130 = {
 	    trait = zealous
 	}
 	5459.06.03 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -91450,7 +91523,8 @@ lineofmujahan165 = {
 	    add_spouse = lineofjahangir68
 	}
 	5578.07.26 = {  # Died at age 60
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -91892,7 +91966,8 @@ lineofmujahan178 = {
 	    trait = fickle
 	}
 	5601.11.03 = {  # Died at age 48
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -92533,7 +92608,8 @@ lineofmujahan196 = {
 	    trait = cynical
 	}
 	5700.03.18 = {  # Died at age 54
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -92643,7 +92719,8 @@ lineofmujahan199 = {
 	    add_spouse = lineofvardanisan39
 	}
 	5700.07.08 = {  # Died at age 48
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -92680,7 +92757,8 @@ lineofmujahan200 = {
 	    add_spouse = lineofhaydahan162
 	}
 	5700.08.06 = {  # Died at age 45
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -95403,7 +95481,8 @@ lineofzirakahan44 = {
 	    trait = honest
 	}
 	5700.07.17 = {  # Died at age 54
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -95821,7 +95900,8 @@ lineoframinshtan59 = {
 	    trait = arrogant
 	}
 	5700.02.12 = {  # Died at age 58
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -96256,7 +96336,8 @@ lineofzirakzadehan73 = {
 	    trait = temperate
 	}
 	5700.03.15 = {  # Died at age 56
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -96846,7 +96927,8 @@ lineoframzeket8 = {
 	    add_spouse = lineoframzeket15
 	}
 	5001.04.18 = {  # Died at age 53
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -101702,7 +101784,8 @@ lineoframzeket139 = {
 	    trait = shy
 	}
 	5521.10.14 = {  # Died at age 42
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -103353,7 +103436,8 @@ lineoframzeket192 = {
 	    trait = wrathful
 	}
 	5653.11.04 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -103876,7 +103960,8 @@ lineoframzeket210 = {
 	    trait = ambitious
 	}
 	5700.02.16 = {  # Died at age 63
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -104027,7 +104112,8 @@ lineoframzeket214 = {
 	    add_spouse = lineofishvathan177
 	}
 	5720.06.12 = {  # Died at age 54
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -104246,7 +104332,8 @@ lineoframzeket220 = {
 	    add_spouse = lineoframinshtan77
 	}
 	5700.06.23 = {  # Died at age 26
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -106458,7 +106545,8 @@ lineofsarafrazan55 = {
 	    trait = wrathful
 	}
 	5699.02.18 = {  # Died at age 47
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -106496,7 +106584,8 @@ lineofsarafrazan56 = {
 	    add_spouse = lineofkersasphan120
 	}
 	5700.01.20 = {  # Died at age 39
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -107675,7 +107764,8 @@ lineofshajanahan22 = {
 	    add_spouse = lineofshajanahan31
 	}
 	5108.09.23 = {  # Died at age 53
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -108199,7 +108289,8 @@ lineofshajanahan39 = {
 	    add_spouse = lineofdastanahan21
 	}
 	5176.05.20 = {  # Died at age 62
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -109644,7 +109735,8 @@ lineofulvanahan4 = {
 	    trait = sadistic
 	}
 	5006.09.16 = {  # Died at age 62
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -110738,7 +110830,8 @@ lineofulvanahan35 = {
 	    trait = just
 	}
 	5148.03.27 = {  # Died at age 62
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -111392,7 +111485,8 @@ lineofulvanahan54 = {
 	    trait = zealous
 	}
 	5248.10.14 = {  # Died at age 49
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -111769,7 +111863,8 @@ lineofulvanahan65 = {
 	    trait = lazy
 	}
 	5257.01.09 = {  # Died at age 39
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -112617,7 +112712,8 @@ lineofvardanisan11 = {
 	    add_spouse = lineofmujahan172
 	}
 	5613.03.09 = {  # Died at age 56
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -112691,7 +112787,8 @@ lineofvardanisan13 = {
 	    add_spouse = lineofjangihan106
 	}
 	5590.06.15 = {  # Died at age 26
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -113090,7 +113187,8 @@ lineofvardanisan24 = {
 	    add_spouse = lineofkersasphan102
 	}
 	5657.08.13 = {  # Died at age 43
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -113340,7 +113438,8 @@ lineofvardanisan31 = {
 	    trait = lazy
 	}
 	5700.12.07 = {  # Died at age 65
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -113485,7 +113584,8 @@ lineofvardanisan35 = {
 	    add_spouse = lineofzirakahan36
 	}
 	5700.03.03 = {  # Died at age 62
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -113520,7 +113620,8 @@ lineofvardanisan36 = {
 	    trait = stubborn
 	}
 	5700.01.10 = {  # Died at age 61
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -113652,7 +113753,8 @@ lineofvardanisan39 = {
 	    trait = fickle
 	}
 	5700.12.10 = {  # Died at age 43
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -113845,7 +113947,8 @@ lineofvardanisan46 = {
 	    add_spouse = lineofsarafrazan62
 	}
 	5700.11.15 = {  # Died at age 30
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -114404,7 +114507,8 @@ lineofvasnahan10 = {
 	    trait = gregarious
 	}
 	5582.03.14 = {  # Died at age 60
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -115273,7 +115377,8 @@ lineofvasnahan34 = {
 	    trait = generous
 	}
 	5700.11.09 = {  # Died at age 54
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -115345,7 +115450,8 @@ lineofvasnahan36 = {
 	    trait = compassionate
 	}
 	5700.09.02 = {  # Died at age 39
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -115380,7 +115486,8 @@ lineofvasnahan37 = {
 	    trait = gluttonous
 	}
 	5700.06.10 = {  # Died at age 39
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -115736,7 +115843,8 @@ lineofvasnahan46 = {
 	    add_spouse = lineoframinshtan72
 	}
 	5701.03.23 = {  # Died at age 26
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 
 }
@@ -116064,7 +116172,8 @@ lineoframinshtan64 = {
 	    trait = forgiving
 	}
 	5700.05.13 = {  # Died at age 54
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -119990,7 +120099,8 @@ lineofvihinahan105 = {
 	    add_spouse = lineofdastanahan39
 	}
 	5264.02.21 = {  # Died at age 63
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -123496,7 +123606,8 @@ lineofvihinahan202 = {
 	    trait = lazy
 	}
 	5696.10.15 = {  # Died at age 63
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -123636,7 +123747,8 @@ lineofvihinahan206 = {
 	    trait = stubborn
 	}
 	5700.12.05 = {  # Died at age 53
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -126642,7 +126754,8 @@ lineofvindafarnahan73 = {
 	    trait = brave
 	}
 	5643.05.18 = {  # Died at age 63
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -127292,7 +127405,8 @@ lineofvindafarnahan95 = {
 	    trait = patient
 	}
 	5700.05.20 = {  # Died at age 56
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -127357,7 +127471,8 @@ lineofvindafarnahan97 = {
 	    add_spouse = lineofarshishan117
 	}
 	5700.02.15 = {  # Died at age 53
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -129456,7 +129571,8 @@ lineofzaoshan49 = {
 	    trait = sadistic
 	}
 	5544.05.16 = {  # Died at age 34
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -130198,7 +130314,8 @@ lineofzaoshan71 = {
 	    add_spouse = lineofkhushnawazan77
 	}
 	5644.09.11 = {  # Died at age 59
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -130732,7 +130849,8 @@ lineofzaoshan87 = {
 	    trait = humble
 	}
 	5700.07.14 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -132025,7 +132143,8 @@ lineofzirakahan33 = {
 	    add_spouse = lineofarshishan109
 	}
 	5700.04.06 = {  # Died at age 50
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -132137,7 +132256,8 @@ lineofzirakahan37 = {
 	    add_spouse = lineofzirakahan51
 	}
 	5700.03.27 = {  # Died at age 53
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -134841,7 +134961,8 @@ lineofzirakzadehan62 = {
 	    trait = gregarious
 	}
 	5700.05.25 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -134947,7 +135068,8 @@ lineofzirakzadehan65 = {
 	    trait = paranoid
 	}
 	5700.08.18 = {  # Died at age 60
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -135015,7 +135137,8 @@ lineofzirakzadehan67 = {
 	    add_spouse = lineofkersasphan111
 	}
 	5700.04.06 = {  # Died at age 56
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -136122,7 +136245,8 @@ lineofaspantamana20 = {
 	    add_spouse = lineoftahmahan21
 	}
 	6814.08.12 = {  # Died at age 61
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -139460,7 +139584,8 @@ lineofaspantamana120 = {
 	    trait = brave
 	}
 	7190.07.15 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -139799,7 +139924,8 @@ lineofaspantamana129 = {
 	    add_spouse = lineofaspantamana144
 	}
 	7200.09.14 = {  # Died at age 37
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -140119,7 +140245,8 @@ lineofaspantamana137 = {
 	    trait = lustful
 	}
 	7200.05.01 = {  # Died at age 32
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -140401,7 +140528,8 @@ lineofkamranahan243 = {
 	    trait = deceitful
 	}
 	7200.11.01 = {  # Died at age 29
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -140732,7 +140860,8 @@ lineofaurvataspa8 = {
 	    trait = stubborn
 	}
 	6812.11.01 = {  # Died at age 43
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -142411,7 +142540,8 @@ lineofaurvataspa58 = {
 	    add_spouse = lineofferozgarhan122
 	}
 	6979.09.10 = {  # Died at age 50
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -142631,7 +142761,8 @@ lineoframinez63 = {
 	    trait = craven
 	}
 	7200.10.06 = {  # Died at age 51
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -143319,7 +143450,8 @@ lineofaurvataspa83 = {
 	    add_spouse = lineofupamana67
 	}
 	7137.02.12 = {  # Died at age 53
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -144328,7 +144460,8 @@ lineofaurvataspa113 = {
 	    trait = ambitious
 	}
 	7200.01.09 = {  # Died at age 36
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -144435,7 +144568,8 @@ lineofaurvataspa116 = {
 	    add_spouse = lineofkaykhusru71
 	}
 	7200.06.05 = {  # Died at age 23
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -149085,7 +149219,8 @@ lineofbahadurez60 = {
 	    trait = sadistic
 	}
 	7031.12.04 = {  # Died at age 54
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -151796,7 +151931,8 @@ lineofbahadurez144 = {
 	    trait = arrogant
 	}
 	7200.02.23 = {  # Died at age 43
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -155050,7 +155186,8 @@ lineofbahadurhan89 = {
 	    trait = calm
 	}
 	7059.12.01 = {  # Died at age 47
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -156212,7 +156349,8 @@ lineofbahadurhan122 = {
 	    trait = wrathful
 	}
 	7186.02.01 = {  # Died at age 26
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -161796,7 +161934,8 @@ lineofdaneshvarhan81 = {
 	    trait = chaste
 	}
 	7057.01.11 = {  # Died at age 51
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -163169,7 +163308,8 @@ lineofdaneshvarhan118 = {
 	    trait = lustful
 	}
 	7200.05.11 = {  # Died at age 50
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -163311,7 +163451,8 @@ lineofdaneshvarhan122 = {
 	    add_spouse = lineoframinez66
 	}
 	7200.06.14 = {  # Died at age 42
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -165535,7 +165676,8 @@ lineofdelawarhan59 = {
 	    add_spouse = lineoftahmahan72
 	}
 	6911.01.01 = {  # Died at age 58
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -166563,7 +166705,8 @@ lineofdelawarhan87 = {
 	    add_spouse = lineofdelawarhan106
 	}
 	7019.10.17 = {  # Died at age 53
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -168095,7 +168238,8 @@ lineofdelawarhan132 = {
 	    add_spouse = lineofizadyar238
 	}
 	7183.09.05 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -169412,7 +169556,8 @@ lineofdelsuzan23 = {
 	    trait = temperate
 	}
 	7200.07.02 = {  # Died at age 60
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -171165,7 +171310,8 @@ lineofemetez50 = {
 	    trait = trusting
 	}
 	7007.11.25 = {  # Died at age 23
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -173273,7 +173419,8 @@ lineofemetez110 = {
 	    trait = diligent
 	}
 	7200.11.16 = {  # Died at age 53
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -173739,7 +173886,8 @@ lineofemetez122 = {
 	    trait = humble
 	}
 	7200.03.19 = {  # Died at age 43
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -173902,7 +174050,8 @@ lineofemetez127 = {
 	    trait = sadistic
 	}
 	7200.06.26 = {  # Died at age 31
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -176298,7 +176447,8 @@ lineofferozgarhan55 = {
 	    trait = impatient
 	}
 	6700.01.22 = {  # Died at age 33
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -176559,7 +176709,8 @@ lineofferozgarhan63 = {
 	    trait = eccentric
 	}
 	6713.10.01 = {  # Died at age 43
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -176766,7 +176917,8 @@ lineofferozgarhan70 = {
 	    trait = humble
 	}
 	6749.05.18 = {  # Died at age 63
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -177287,7 +177439,8 @@ lineofferozgarhan85 = {
 	    trait = compassionate
 	}
 	6809.12.20 = {  # Died at age 49
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -178075,7 +178228,8 @@ lineofferozgarhan106 = {
 	    add_spouse = lineoffravakhan9
 	}
 	6879.06.22 = {  # Died at age 43
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -178753,7 +178907,8 @@ lineofferozgarhan125 = {
 	    trait = patient
 	}
 	7017.12.13 = {  # Died at age 54
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -179124,7 +179279,8 @@ lineofizadyar135 = {
 	    trait = ambitious
 	}
 	6835.05.21 = {  # Died at age 62
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -179829,7 +179985,8 @@ lineofferozgarhan154 = {
 	    trait = honest
 	}
 	7131.06.03 = {  # Died at age 52
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -182089,7 +182246,8 @@ lineofemetez49 = {
 	    trait = content
 	}
 	7019.12.17 = {  # Died at age 59
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -183676,7 +183834,8 @@ lineofgorazehan93 = {
 	    add_spouse = lineofgorazehan106
 	}
 	6720.07.15 = {  # Died at age 34
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -184406,7 +184565,8 @@ lineofgorazehan114 = {
 	    add_spouse = lineofdelawarhan29
 	}
 	6818.05.12 = {  # Died at age 63
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -185233,7 +185393,8 @@ lineofgorazehan139 = {
 	    add_spouse = lineofaurvataspa36
 	}
 	6889.12.24 = {  # Died at age 40
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -187413,7 +187574,8 @@ lineofgorazehan207 = {
 	    trait = patient
 	}
 	7126.07.28 = {  # Died at age 61
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -188443,7 +188605,8 @@ lineofgorazehan236 = {
 	    trait = eccentric
 	}
 	7200.10.11 = {  # Died at age 43
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -188718,7 +188881,8 @@ lineofgushtahemez4 = {
 	    trait = paranoid
 	}
 	6427.05.09 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -191058,7 +191222,8 @@ lineofgushtahemez68 = {
 	    add_spouse = lineofgushtahemez75
 	}
 	6719.12.15 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -193331,7 +193496,8 @@ lineofgushtahemez130 = {
 	    trait = diligent
 	}
 	7005.01.13 = {  # Died at age 48
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -196832,7 +196998,8 @@ lineofhoshedarmah30 = {
 	    add_spouse = lineofhoshedarmah33
 	}
 	6504.01.19 = {  # Died at age 62
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -200233,7 +200400,8 @@ lineofhoshedarmah117 = {
 	    trait = generous
 	}
 	6874.06.06 = {  # Died at age 63
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -202944,7 +203112,8 @@ lineofhoshedarmah193 = {
 	    add_spouse = lineofhoshedarmah212
 	}
 	7093.03.02 = {  # Died at age 46
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -203367,7 +203536,8 @@ lineofhoshedarmah206 = {
 	    trait = arbitrary
 	}
 	7105.03.04 = {  # Died at age 52
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -204878,7 +205048,8 @@ lineofhoshedarmah255 = {
 	    add_spouse = lineofhoshedarmah280
 	}
 	7200.05.01 = {  # Died at age 50
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -205037,7 +205208,8 @@ lineofhoshedarmah259 = {
 	    add_spouse = lineofaurvataspa112
 	}
 	7200.09.18 = {  # Died at age 45
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -205072,7 +205244,8 @@ lineofhoshedarmah260 = {
 	    trait = gregarious
 	}
 	7200.09.03 = {  # Died at age 39
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -205141,7 +205314,8 @@ lineofhoshedarmah263 = {
 	    add_spouse = lineofhoshedarmah289
 	}
 	7200.12.06 = {  # Died at age 30
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -205207,7 +205381,8 @@ lineofhoshedarmah266 = {
 	    trait = stubborn
 	}
 	7200.08.05 = {  # Died at age 28
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -205247,7 +205422,8 @@ lineofhoshedarmah267 = {
 	    add_spouse = lineofnarimanez99
 	}
 	7200.12.10 = {  # Died at age 26
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -205282,7 +205458,8 @@ lineofhoshedarmah269 = {
 	    trait = wrathful
 	}
 	7200.09.22 = {  # Died at age 23
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -205545,7 +205722,8 @@ lineofhoshedarmah278 = {
 	    trait = forgiving
 	}
 	7200.05.23 = {  # Died at age 42
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -205951,7 +206129,8 @@ lineofhusravan5 = {
 	    trait = impatient
 	}
 	6401.08.27 = {  # Died at age 60
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -206824,7 +207003,8 @@ lineofhuzvakhan23 = {
 	    add_spouse = lineofhuzvakhan37
 	}
 	7084.12.06 = {  # Died at age 46
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -208094,7 +208274,8 @@ lineofkhudamarda60 = {
 	    trait = shy
 	}
 	7200.03.02 = {  # Died at age 59
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -208301,7 +208482,8 @@ lineofhuzvakhan66 = {
 	    add_spouse = lineofhuzvakhan82
 	}
 	7147.07.27 = {  # Died at age 31
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -208897,7 +209079,8 @@ lineofhuzvakhan86 = {
 	    trait = craven
 	}
 	7200.03.07 = {  # Died at age 42
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -209047,7 +209230,8 @@ lineofhuzvakhan90 = {
 	    trait = lazy
 	}
 	7200.07.24 = {  # Died at age 30
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 	7200.10.10 = {  # Married at age 30
 	    add_spouse = lineofemetez124
@@ -209967,7 +210151,8 @@ lineofizadyar23 = {
 	    add_spouse = lineofizadyar26
 	}
 	6538.12.03 = {  # Died at age 57
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -211754,7 +211939,8 @@ lineofkaykhusru66 = {
 	    trait = brave
 	}
 	7200.09.19 = {  # Died at age 50
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -213142,7 +213328,8 @@ lineofizadyar104 = {
 	    trait = fickle
 	}
 	6786.04.25 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -214966,7 +215153,8 @@ lineofizadyar161 = {
 	    trait = diligent
 	}
 	6847.10.11 = {  # Died at age 32
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -216850,7 +217038,8 @@ lineofizadyar217 = {
 	    add_spouse = lineofnarimanez55
 	}
 	7095.08.22 = {  # Died at age 44
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -217720,7 +217909,8 @@ lineofizadyar242 = {
 	    add_spouse = lineofbahadurhan118
 	}
 	7200.05.19 = {  # Died at age 56
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 	7200.10.13 = {  # Married at age 56
 	    add_spouse = lineofhuzvakhan84
@@ -217760,7 +217950,8 @@ lineofizadyar243 = {
 	    add_spouse = lineofvispanfria163
 	}
 	7200.06.20 = {  # Died at age 55
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -217946,7 +218137,8 @@ lineofizadyar248 = {
 	    trait = eccentric
 	}
 	7200.12.07 = {  # Died at age 58
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -217983,7 +218175,8 @@ lineofizadyar249 = {
 	    add_spouse = lineofkaykhusru70
 	}
 	7200.03.08 = {  # Died at age 21
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -220519,7 +220712,8 @@ lineofjahanabada70 = {
 	    trait = impatient
 	}
 	7154.11.04 = {  # Died at age 38
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -220695,7 +220889,8 @@ lineofjahanabada75 = {
 	    add_spouse = lineofemetez114
 	}
 	7200.06.08 = {  # Died at age 59
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -220730,7 +220925,8 @@ lineofjahanabada76 = {
 	    trait = calm
 	}
 	7200.08.25 = {  # Died at age 54
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -220798,7 +220994,8 @@ lineofjahanabada78 = {
 	    add_spouse = lineofdelsuzan24
 	}
 	7200.03.16 = {  # Died at age 50
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -220833,7 +221030,8 @@ lineofjahanabada79 = {
 	    trait = brave
 	}
 	7200.06.23 = {  # Died at age 43
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -220868,7 +221066,8 @@ lineofjahanabada80 = {
 	    trait = sadistic
 	}
 	7200.06.10 = {  # Died at age 38
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -220947,7 +221146,8 @@ lineofjahanabada82 = {
 	    trait = sadistic
 	}
 	7200.12.11 = {  # Died at age 34
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -221481,7 +221681,8 @@ lineofkamranahan11 = {
 	    trait = vengeful
 	}
 	6427.08.22 = {  # Died at age 58
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -222619,7 +222820,8 @@ lineofkhubechehran41 = {
 	    trait = fickle
 	}
 	6580.03.17 = {  # Died at age 61
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -224160,7 +224362,8 @@ lineofkamranahan84 = {
 	    trait = greedy
 	}
 	6742.06.02 = {  # Died at age 38
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -224397,7 +224600,8 @@ lineofkamranahan90 = {
 	    trait = impatient
 	}
 	6795.08.20 = {  # Died at age 55
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -226040,7 +226244,8 @@ lineofkamranahan142 = {
 	    trait = trusting
 	}
 	6934.11.13 = {  # Died at age 51
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -227286,7 +227491,8 @@ lineofkamranahan178 = {
 	    add_spouse = lineofkamranahan185
 	}
 	7079.10.22 = {  # Died at age 60
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -228869,7 +229075,8 @@ lineofkamranahan227 = {
 	    trait = ambitious
 	}
 	7200.09.07 = {  # Died at age 57
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -229007,7 +229214,8 @@ lineofkamranahan232 = {
 	    trait = shy
 	}
 	7175.05.15 = {  # Died at age 48
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -230821,7 +231029,8 @@ lineofkaykhusru43 = {
 	    trait = brave
 	}
 	7167.03.13 = {  # Died at age 59
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -230859,7 +231068,8 @@ lineofkaykhusru44 = {
 	    add_spouse = lineofkaykhusru60
 	}
 	7169.02.13 = {  # Died at age 58
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -231072,7 +231282,8 @@ lineofkaykhusru50 = {
 	    trait = ambitious
 	}
 	7200.05.28 = {  # Died at age 57
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -231666,7 +231877,8 @@ lineofkaykhusru70 = {
 	    trait = compassionate
 	}
 	7200.06.13 = {  # Died at age 22
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -232999,7 +233211,8 @@ lineofkhubechehran6 = {
 	    add_spouse = lineofkhubechehran7
 	}
 	6424.07.23 = {  # Died at age 60
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -234064,7 +234277,8 @@ lineofkhubechehran35 = {
 	    trait = greedy
 	}
 	6573.08.13 = {  # Died at age 63
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -237764,7 +237978,8 @@ lineofkhudamarda18 = {
 	    trait = shy
 	}
 	7082.10.11 = {  # Died at age 40
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 	7082.11.02 = {  # Married at age 40
 	    add_spouse = lineofkhudamarda28
@@ -237943,7 +238158,8 @@ lineofkhudamarda24 = {
 	    trait = generous
 	}
 	7086.02.19 = {  # Died at age 48
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -238495,7 +238711,8 @@ lineofkhudamarda40 = {
 	    add_spouse = lineofdaneshvarhan117
 	}
 	7172.03.04 = {  # Died at age 51
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -238719,7 +238936,8 @@ lineofkhudamarda46 = {
 	    trait = calm
 	}
 	7167.10.25 = {  # Died at age 37
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -239168,7 +239386,8 @@ lineofkhudamarda58 = {
 	    add_spouse = lineofkhudamarda70
 	}
 	7200.08.06 = {  # Died at age 43
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -239591,7 +239810,8 @@ lineofstivantez137 = {
 	    trait = calm
 	}
 	7200.07.13 = {  # Died at age 61
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -239715,7 +239935,8 @@ lineofhoshedarmah262 = {
 	    trait = cynical
 	}
 	7200.08.10 = {  # Died at age 52
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -241182,7 +241403,8 @@ lineofmahdathan14 = {
 	    trait = just
 	}
 	7101.01.22 = {  # Died at age 46
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -242213,7 +242435,8 @@ lineofmahdathan44 = {
 	    trait = wrathful
 	}
 	7164.07.07 = {  # Died at age 62
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -242809,7 +243032,8 @@ lineofmahdathan61 = {
 	    trait = impatient
 	}
 	7200.07.13 = {  # Died at age 63
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -243199,7 +243423,8 @@ lineofmahdathan71 = {
 	    trait = vengeful
 	}
 	7200.09.26 = {  # Died at age 55
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -243574,7 +243799,8 @@ lineofmahdathan83 = {
 	    add_spouse = lineofrakhohan93
 	}
 	7200.05.08 = {  # Died at age 24
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -244154,7 +244380,8 @@ lineofmeheryarhan9 = {
 	    trait = deceitful
 	}
 	7084.05.06 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -246405,7 +246632,8 @@ lineofmeheryarhan78 = {
 	    add_spouse = lineofmeheryarhan86
 	}
 	7200.02.28 = {  # Died at age 62
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -246477,7 +246705,8 @@ lineofmeheryarhan80 = {
 	    add_spouse = lineofmeheryarhan91
 	}
 	7200.03.16 = {  # Died at age 53
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 	7200.12.02 = {  # Married at age 54
 	    add_spouse = lineoframinez60
@@ -246628,7 +246857,8 @@ lineofmeheryarhan85 = {
 	    add_spouse = lineofnaozadez73
 	}
 	7200.04.14 = {  # Died at age 37
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -246853,7 +247083,8 @@ lineofnarimanez93 = {
 	    trait = patient
 	}
 	7200.07.11 = {  # Died at age 60
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -249591,7 +249822,8 @@ lineofmeherzada64 = {
 	    add_spouse = lineoframinez62
 	}
 	7200.04.15 = {  # Died at age 41
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 	7200.05.04 = {  # Married at age 41
 	    add_spouse = lineofnaozadez75
@@ -249628,7 +249860,8 @@ lineofmeherzada65 = {
 	    trait = cynical
 	}
 	7200.09.07 = {  # Died at age 36
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -251236,7 +251469,8 @@ lineofnaozadez35 = {
 	    trait = arrogant
 	}
 	7108.02.10 = {  # Died at age 56
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -251274,7 +251508,8 @@ lineofnaozadez36 = {
 	    add_spouse = lineofgorazehan203
 	}
 	7111.04.23 = {  # Died at age 58
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -252142,7 +252377,8 @@ lineofnaozadez60 = {
 	    add_spouse = lineofnaozadez78
 	}
 	7200.05.24 = {  # Died at age 57
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -252419,7 +252655,8 @@ lineofnaozadez69 = {
 	    trait = forgiving
 	}
 	7200.06.03 = {  # Died at age 36
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -252564,7 +252801,8 @@ lineofnaozadez73 = {
 	    trait = generous
 	}
 	7200.07.11 = {  # Died at age 32
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -252986,7 +253224,8 @@ lineofnaozadez89 = {
 	    trait = humble
 	}
 	7200.10.23 = {  # Died at age 30
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -253076,7 +253315,8 @@ lineofshiruyhan105 = {
 	    trait = wrathful
 	}
 	7200.05.23 = {  # Died at age 43
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -256102,7 +256342,8 @@ lineofnarimanez86 = {
 	    add_spouse = lineofnarimanez103
 	}
 	7200.10.14 = {  # Died at age 59
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -256137,7 +256378,8 @@ lineofnarimanez87 = {
 	    trait = eccentric
 	}
 	7200.05.21 = {  # Died at age 56
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -256172,7 +256414,8 @@ lineofnarimanez88 = {
 	    trait = calm
 	}
 	7200.06.20 = {  # Died at age 54
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -256209,7 +256452,8 @@ lineofnarimanez89 = {
 	    add_spouse = lineofnarimanez99
 	}
 	7200.06.18 = {  # Died at age 52
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -256505,7 +256749,8 @@ lineofnarimanez100 = {
 	    trait = wrathful
 	}
 	7200.07.18 = {  # Died at age 39
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -256808,7 +257053,8 @@ lineofstivantez147 = {
 	    trait = diligent
 	}
 	7200.11.09 = {  # Died at age 36
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -257038,7 +257284,8 @@ lineofnawazishan6 = {
 	    add_spouse = lineofdaneshvarhan53
 	}
 	6915.12.23 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -258796,7 +259043,8 @@ lineofnevazarhan23 = {
 	    trait = brave
 	}
 	6819.03.01 = {  # Died at age 61
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -259820,7 +260068,8 @@ lineofnevazarhan54 = {
 	    trait = calm
 	}
 	6870.03.11 = {  # Died at age 60
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -260665,7 +260914,8 @@ lineofnevazarhan77 = {
 	    trait = callous
 	}
 	6938.06.15 = {  # Died at age 27
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -260857,7 +261107,8 @@ lineofnevazarhan83 = {
 	    trait = arbitrary
 	}
 	6959.11.15 = {  # Died at age 55
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -260989,7 +261240,8 @@ lineofnevazarhan87 = {
 	    trait = eccentric
 	}
 	6972.04.11 = {  # Died at age 63
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -262378,7 +262630,8 @@ lineoforvadaspa31 = {
 	    trait = calm
 	}
 	7066.08.27 = {  # Died at age 40
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -262597,7 +262850,8 @@ lineoforvadaspa36 = {
 	    trait = impatient
 	}
 	7109.03.03 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -263665,7 +263919,8 @@ lineoforvadaspa66 = {
 	    trait = gluttonous
 	}
 	7200.02.22 = {  # Died at age 32
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -263982,7 +264237,8 @@ lineofhoshedarmah212 = {
 	    trait = shy
 	}
 	7113.05.09 = {  # Died at age 50
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -264500,7 +264756,8 @@ lineofporgavan12 = {
 	    add_spouse = lineoframinez10
 	}
 	7011.03.27 = {  # Died at age 39
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -265917,7 +266174,8 @@ lineofporgavan51 = {
 	    trait = zealous
 	}
 	7200.03.07 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -265992,7 +266250,8 @@ lineofporgavan53 = {
 	    add_spouse = lineofkamranahan227
 	}
 	7200.01.18 = {  # Died at age 56
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -266397,7 +266656,8 @@ lineofporgavan64 = {
 	    add_spouse = lineofporgavan73
 	}
 	7200.07.17 = {  # Died at age 28
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -266469,7 +266729,8 @@ lineofporgavan66 = {
 	    trait = honest
 	}
 	7200.09.11 = {  # Died at age 24
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -269574,7 +269835,8 @@ lineofrakhohan83 = {
 	    trait = just
 	}
 	7200.04.26 = {  # Died at age 52
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -272854,7 +273116,8 @@ lineofsahihan9 = {
 	    add_spouse = lineofizadyar197
 	}
 	6999.12.06 = {  # Died at age 57
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -273205,7 +273468,8 @@ lineofsahihan19 = {
 	    trait = gluttonous
 	}
 	7047.07.19 = {  # Died at age 55
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -274752,7 +275016,8 @@ lineofsahihan63 = {
 	    add_spouse = lineofsahihan73
 	}
 	7164.05.23 = {  # Died at age 44
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -275077,7 +275342,8 @@ lineofsahihan74 = {
 	    add_spouse = lineofmahdathan79
 	}
 	7200.05.01 = {  # Died at age 31
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -276265,7 +276531,8 @@ lineofshiruyhan18 = {
 	    add_spouse = lineofshiruyhan26
 	}
 	6945.06.01 = {  # Died at age 59
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -278491,7 +278758,8 @@ lineofshiruyhan84 = {
 	    add_spouse = lineofnaozadez56
 	}
 	7166.09.16 = {  # Died at age 41
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -278597,7 +278865,8 @@ lineofshiruyhan88 = {
 	    trait = gregarious
 	}
 	7154.06.05 = {  # Died at age 43
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -278746,7 +279015,8 @@ lineofshiruyhan92 = {
 	    add_spouse = lineofkaykhusru56
 	}
 	7200.02.06 = {  # Died at age 63
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -279096,7 +279366,8 @@ lineofshiruyhan102 = {
 	    trait = zealous
 	}
 	7200.02.18 = {  # Died at age 26
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -281731,7 +282002,8 @@ lineofstivantez64 = {
 	    add_spouse = lineoftahmahan76
 	}
 	6930.02.11 = {  # Died at age 56
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -284260,7 +284532,8 @@ lineofstivantez130 = {
 	    trait = impatient
 	}
 	7176.08.11 = {  # Died at age 55
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -284327,7 +284600,8 @@ lineofstivantez133 = {
 	    add_spouse = lineofstivantez147
 	}
 	7200.06.09 = {  # Died at age 47
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -284527,7 +284801,8 @@ lineofstivantez140 = {
 	    trait = content
 	}
 	7200.07.23 = {  # Died at age 40
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -285983,7 +286258,8 @@ lineoftahmahan27 = {
 	    add_spouse = lineoftahmahan58
 	}
 	6846.04.25 = {  # Died at age 53
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -286868,7 +287144,8 @@ lineoftahmahan52 = {
 	    trait = impatient
 	}
 	6875.11.08 = {  # Died at age 61
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -289337,7 +289614,8 @@ lineoftahmahan126 = {
 	    trait = diligent
 	}
 	7105.11.14 = {  # Died at age 46
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -290715,7 +290993,8 @@ lineoftahmahan169 = {
 	    trait = craven
 	}
 	7200.03.26 = {  # Died at age 49
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -290855,7 +291134,8 @@ lineoftahmahan173 = {
 	    add_spouse = lineofshiruyhan103
 	}
 	7200.11.01 = {  # Died at age 34
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -292667,7 +292947,8 @@ lineofupamana33 = {
 	    trait = temperate
 	}
 	7075.03.02 = {  # Died at age 53
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -294003,7 +294284,8 @@ lineofupamana79 = {
 	    add_spouse = lineofsahihan49
 	}
 	7153.07.24 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -295443,7 +295725,8 @@ lineofurvatatnara5 = {
 	    trait = wrathful
 	}
 	6763.02.25 = {  # Died at age 54
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -296874,7 +297157,8 @@ lineofurvatatnara44 = {
 	    add_spouse = lineofdelawarhan76
 	}
 	6986.04.13 = {  # Died at age 57
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -297397,7 +297681,8 @@ lineofurvatatnara60 = {
 	    add_spouse = lineofvispanfria136
 	}
 	7162.02.11 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -297646,7 +297931,8 @@ lineofurvatatnara67 = {
 	    add_spouse = lineofgorazehan237
 	}
 	7200.04.12 = {  # Died at age 34
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -297682,7 +297968,8 @@ lineofurvatatnara68 = {
 	    trait = eccentric
 	}
 	7200.07.07 = {  # Died at age 34
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -298971,7 +299258,8 @@ lineofvispanfria26 = {
 	    trait = deceitful
 	}
 	6803.01.20 = {  # Died at age 34
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -301068,7 +301356,8 @@ lineofvispanfria91 = {
 	    add_spouse = lineofvispanfria99
 	}
 	7010.07.02 = {  # Died at age 61
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -302703,7 +302992,8 @@ lineofvispanfria139 = {
 	    trait = just
 	}
 	7140.11.28 = {  # Died at age 39
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -302999,7 +303289,8 @@ lineofvispanfria147 = {
 	    trait = gluttonous
 	}
 	7141.01.03 = {  # Died at age 58
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -303840,7 +304131,8 @@ lineofwehzanez9 = {
 	    trait = lazy
 	}
 	6794.09.06 = {  # Died at age 45
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -304436,7 +304728,8 @@ lineofwehzanez26 = {
 	    add_spouse = lineofnarimanez13
 	}
 	6949.10.13 = {  # Died at age 63
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -304610,7 +304903,8 @@ lineofwehzanez31 = {
 	    trait = callous
 	}
 	6969.06.10 = {  # Died at age 58
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -305967,7 +306261,8 @@ lineofwehzanez68 = {
 	    add_spouse = lineofwehzanez85
 	}
 	7114.09.02 = {  # Died at age 40
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -307164,6 +307459,7 @@ lineofbardiyen3wife = {
     }
 
     6959.8.9 = {
+        trait = cancer
         death = { death_reason = death_cancer }
     }
 }
@@ -308280,6 +308576,7 @@ lineofkahlavan2wife = {
     }
 
     6757.1.14 = {
+        trait = cancer
         death = { death_reason = death_cancer }
     }
 }
@@ -308912,6 +309209,7 @@ lineofkahlavan14 = {
     }
 
     6959.5.12 = {
+        trait = consumption
         death = { death_reason = death_consumption }
     }
 }
@@ -317203,7 +317501,8 @@ lineofadarfiruzen100 = {
 	    trait = lazy
 	}
 	6522.12.20 = {  # Died at age 20
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -317420,7 +317719,8 @@ lineofadarfiruzen106 = {
 	    trait = chaste
 	}
 	6581.10.09 = {  # Died at age 62
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -317592,7 +317892,8 @@ lineofadarfiruzen111 = {
 	    trait = fickle
 	}
 	6572.03.08 = {  # Died at age 52
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -317917,7 +318218,8 @@ lineofadarfiruzen121 = {
 	    add_spouse = lineofvisnarmaken27
 	}
 	6679.07.06 = {  # Died at age 58
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -320679,7 +320981,8 @@ lineofbahraman18 = {
 	    trait = cynical
 	}
 	6241.02.11 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -321753,7 +322056,8 @@ lineofbahraman47 = {
 	    add_spouse = lineofgarozen38
 	}
 	6363.11.05 = {  # Died at age 58
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -322127,7 +322431,8 @@ lineofbahraman57 = {
 	    trait = arrogant
 	}
 	6419.01.27 = {  # Died at age 63
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -323088,7 +323393,8 @@ lineofbahraman84 = {
 	    add_spouse = lineofadarfiruzen105
 	}
 	6557.12.18 = {  # Died at age 48
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -325693,7 +325999,8 @@ lineofbahraman158 = {
 	    trait = gluttonous
 	}
 	6850.12.25 = {  # Died at age 63
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -326037,7 +326344,8 @@ lineofbahraman169 = {
 	    trait = trusting
 	}
 	6860.03.24 = {  # Died at age 40
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -328945,7 +329253,8 @@ lineofcaramadran58 = {
 	    add_spouse = lineofcaramadran63
 	}
 	6503.11.01 = {  # Died at age 61
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -330070,7 +330379,8 @@ lineofcaramadran92 = {
 	    trait = cynical
 	}
 	6605.06.20 = {  # Died at age 47
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -330531,7 +330841,8 @@ lineofcaramadran106 = {
 	    trait = just
 	}
 	6652.11.12 = {  # Died at age 58
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -330630,7 +330941,8 @@ lineofcaramadran109 = {
 	    trait = generous
 	}
 	6660.01.19 = {  # Died at age 60
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -335639,7 +335951,8 @@ lineoffarshidzen60 = {
 	    trait = honest
 	}
 	6414.11.09 = {  # Died at age 57
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -336863,7 +337176,8 @@ lineoffarshidzen94 = {
 	    add_spouse = lineoffarshidzen108
 	}
 	6541.07.10 = {  # Died at age 58
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -338072,7 +338386,8 @@ lineoffarshidzen131 = {
 	    add_spouse = lineofbahraman107
 	}
 	6652.10.15 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -340088,7 +340403,8 @@ lineoffarshidzen189 = {
 	    add_spouse = lineofvisnarmaken122
 	}
 	6935.05.06 = {  # Died at age 35
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -340807,7 +341123,8 @@ lineofgarozen8 = {
 	    trait = lazy
 	}
 	6172.08.23 = {  # Died at age 59
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -341508,7 +341825,8 @@ lineofgarozen26 = {
 	    trait = lustful
 	}
 	6280.05.09 = {  # Died at age 63
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -342975,7 +343293,8 @@ lineofimez7 = {
 	    trait = arbitrary
 	}
 	6319.09.22 = {  # Died at age 53
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -346308,7 +346627,8 @@ lineofkerhamez10 = {
 	    add_spouse = lineofcaramadran25
 	}
 	6372.11.02 = {  # Died at age 51
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -346991,7 +347311,8 @@ lineofkerhamez29 = {
 	    trait = just
 	}
 	6536.07.06 = {  # Died at age 60
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -351936,7 +352257,8 @@ lineoflamarzen10 = {
 	    add_spouse = lineoflamarzen17
 	}
 	6338.02.18 = {  # Died at age 62
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -352911,7 +353233,8 @@ lineoflamarzen39 = {
 	    trait = callous
 	}
 	6463.12.18 = {  # Died at age 53
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -354059,7 +354382,8 @@ lineoflamarzen75 = {
 	    trait = chaste
 	}
 	6632.10.21 = {  # Died at age 58
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -358168,7 +358492,8 @@ lineofosard25 = {
 	    trait = callous
 	}
 	6661.12.25 = {  # Died at age 53
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -364591,7 +364916,8 @@ lineofqudoz33 = {
 	    trait = impatient
 	}
 	6683.03.03 = {  # Died at age 45
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -369049,7 +369375,8 @@ lineofshirzadeh56 = {
 	    trait = diligent
 	}
 	6663.01.16 = {  # Died at age 19
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -369121,7 +369448,8 @@ lineofshirzadeh58 = {
 	    trait = chaste
 	}
 	6709.06.19 = {  # Died at age 55
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -369488,7 +369816,8 @@ lineofshirzadeh69 = {
 	    trait = deceitful
 	}
 	6739.10.10 = {  # Died at age 59
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -374696,7 +375025,8 @@ lineoftarimez78 = {
 	    add_spouse = lineoftarimez80
 	}
 	6850.01.24 = {  # Died at age 51
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -374762,7 +375092,8 @@ lineoftarimez80 = {
 	    trait = lustful
 	}
 	6858.05.08 = {  # Died at age 64
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -375012,7 +375343,8 @@ lineoftarimez88 = {
 	    add_spouse = lineofvahramzen111
 	}
 	6924.01.03 = {  # Died at age 57
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -375515,7 +375847,8 @@ lineofumoza12 = {
 	    trait = arrogant
 	}
 	6586.06.24 = {  # Died at age 42
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -377314,7 +377647,8 @@ lineofvahramzen28 = {
 	    add_spouse = lineofosard24
 	}
 	6665.05.23 = {  # Died at age 60
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -379446,7 +379780,8 @@ lineofvahramzen92 = {
 	    trait = ambitious
 	}
 	6837.03.14 = {  # Died at age 56
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -379691,7 +380026,8 @@ lineofvahramzen99 = {
 	    add_spouse = lineofbahraman169
 	}
 	6865.06.12 = {  # Died at age 51
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -381368,7 +381704,8 @@ lineofvahramzen150 = {
 	    trait = gregarious
 	}
 	6973.02.06 = {  # Died at age 25
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
@@ -386130,7 +386467,8 @@ lineofvisnarmaken122 = {
 	    trait = greedy
 	}
 	6967.10.24 = {  # Died at age 59
-	    death = { death_reason = death_cancer }
+	    trait = cancer
+        death = { death_reason = death_cancer }
 	}
 }
 
