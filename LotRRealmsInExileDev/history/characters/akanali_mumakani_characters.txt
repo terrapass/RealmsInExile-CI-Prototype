@@ -102485,7 +102485,7 @@ lineofbalari4 = {
 }
 
 lineofbalari5 = {
-	name = azulzir
+	name = Azulzir
 	culture = kharadunaim
 	religion = faith_koronande
 
