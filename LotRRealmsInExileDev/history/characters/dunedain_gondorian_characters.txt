@@ -5753,7 +5753,58 @@ lineofroquendil2son = {
         add_spouse = lineofhandir17sister
     }
 
+    4893.7.20 = {
+        trait = widowed
+    }
+
     4904.12.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofroquendil2sonb = {
+    name = M_amandil # TEMP
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = gondorian
+
+	father = lineofroquendil2
+	mother = lineofroquendil3
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_9
+
+    trait = patient
+    trait = stubborn
+    trait = diligent
+
+	trait = physique_good_2
+	trait = intellect_good_2
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 10
+    intrigue = 5
+    learning = 8
+    prowess = 10
+
+    trait = education_stewardship_4
+
+    4660.3.20 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    4735.1.6 = {
+        add_spouse = lineofvakuankka20sister
+    }
+
+    4912.12.1 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -5856,6 +5907,10 @@ lineofroquendil5 = {
     name = Thaliel
     female = yes
 
+    father = lineofbarahir4
+    mother = lineofbarahir5
+
+    dynasty = dynasty_barahirion
     religion = faith_edain
     culture = gondorian
 
@@ -5878,7 +5933,7 @@ lineofroquendil5 = {
 
     trait = education_intrigue_4
 
-    4720.7.19 = {
+    4730.7.19 = {
         birth = yes
     }
 
@@ -9562,6 +9617,146 @@ lineofroquendil51 = {
 	6543.4.15 = { # Hail, Rohonnil Roquendilion! Too early did you fall, and the world was worse for it. But the King will come again, and avenge you!
 		death = { death_reason = death_duel killer = lineofpultai9}
 	}
+}
+
+### Roquendil Cousins during Arnor Broken
+lineofroquendil2sonb1 = {
+    name = Valastar # TEMP
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = gondorian
+
+	father = lineofroquendil2sonb
+	mother = lineofvakuankka20sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = patient
+    trait = stubborn
+    trait = just
+
+	trait = physique_good_1
+	trait = intellect_good_2
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 10
+    intrigue = 5
+    learning = 8
+    prowess = 10
+
+    trait = education_stewardship_3
+
+    4750.3.20 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    4820.7.1 = {
+        add_spouse = lineofduilin21sister
+    }
+
+    4998.12.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofroquendil2sonb2 = {
+    name = Aldanilme # TEMP
+    female = yes
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = gondorian
+
+	father = lineofroquendil2sonb
+	mother = lineofvakuankka20sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = brave
+    trait = stubborn
+    trait = compassionate
+
+    trait = beauty_good_2
+	trait = physique_good_2
+
+    trait = twin
+
+    diplomacy = 6
+    martial = 10
+    stewardship = 6
+    intrigue = 5
+    learning = 8
+    prowess = 10
+
+    trait = education_martial_3
+
+    4760.6.10 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    4998.12.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofroquendil2sonb3 = {
+    name = Vinyamelde # TEMP
+    female = yes
+
+    dynasty_house = house_roquendilin
+    religion = faith_edain
+    culture = gondorian
+
+	father = lineofroquendil2sonb
+	mother = lineofvakuankka20sister
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = patient
+    trait = content
+    trait = shy
+
+	trait = beauty_good_2
+	trait = intellect_good_2
+
+    trait = twin
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 7
+    intrigue = 5
+    learning = 10
+    prowess = 10
+
+    trait = education_learning_3
+
+    4760.6.10 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin	
+			learn_language = language_quenya
+		}
+    }
+
+    4998.12.1 = {
+        death = { death_reason = death_natural_causes }
+    }
 }
 
 ### Roquendil Cousins in Rise of Angmar
@@ -32207,7 +32402,7 @@ lineminadir28 = {
 
     trait = blood_of_numenor_1
 
-    trait = lazy
+    trait = brave
     trait = lustful
     trait = just
 
@@ -32281,7 +32476,7 @@ lineminadir30 = {
     trait = blood_of_numenor_1
 
     trait = brave
-    trait = deceitful
+    trait = humble
     trait = compassionate
 
     diplomacy = 5
@@ -32354,7 +32549,7 @@ lineminadir32 = {
     trait = blood_of_numenor_1
 
     trait = wrathful
-    trait = gluttonous
+    trait = temperate
     trait = gregarious
 
     diplomacy = 5
@@ -32428,7 +32623,7 @@ lineminadir36 = {
     trait = blood_of_numenor_1
 
     trait = stubborn
-    trait = craven
+    trait = brave
     trait = gregarious
 
     diplomacy = 3
@@ -36174,8 +36369,8 @@ linebenrodir94 = {
 
     trait = blood_of_numenor_1
 
-    trait = lazy
-    trait = lustful
+    trait = compassionate
+    trait = forgiving
     trait = just
 
     diplomacy = 4
@@ -36185,7 +36380,7 @@ linebenrodir94 = {
     learning = 3
     prowess = 3
 
-    trait = education_martial_3
+    trait = education_diplomacy_4
 
     7099.10.25 = {
         birth = yes
@@ -36211,8 +36406,8 @@ linebenrodir95 = {
 
     trait = blood_of_numenor_1
 
-    trait = lazy
-    trait = gluttonous
+    trait = just
+    trait = temperate
     trait = vengeful
 
     diplomacy = 3
@@ -36248,7 +36443,7 @@ linebenrodir96 = {
     trait = blood_of_numenor_1
 
     trait = brave
-    trait = deceitful
+    trait = gregarious
     trait = compassionate
 
     diplomacy = 5
@@ -36320,8 +36515,8 @@ linebenrodir98 = {
 
     trait = blood_of_numenor_1
 
-    trait = wrathful
-    trait = gluttonous
+    trait = humble
+    trait = compassionate
     trait = gregarious
 
     diplomacy = 5
@@ -36396,7 +36591,7 @@ linebenrodir100 = {
     trait = blood_of_numenor_1
 
     trait = stubborn
-    trait = craven
+    trait = brave
     trait = gregarious
 
     diplomacy = 3
@@ -167364,6 +167559,43 @@ lineofduilin21 = {
     }
 }
 
+lineofduilin21sister = {
+    name = Ariel
+    female = yes
+
+    dynasty = dynasty_duilinionath
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofduilin19
+    mother = lineofduilin20
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = generous
+    trait = just
+    trait = gregarious
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    4760.3.16 = {
+        birth = yes
+    }
+
+    4963.1.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
 lineofduilin22 = {
     name = Emeldire
     female = yes
@@ -183663,6 +183895,45 @@ lineofvakuankka20 = {
     }
 }
 
+lineofvakuankka20sister = {
+    name = Rovaleg
+    female = yes
+
+    dynasty = dynasty_sommorionath
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofvakuankka18
+    mother = lineofvakuankka19
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = compassionate
+    trait = forgiving
+    trait = patient
+
+    trait = beauty_good_1
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    4677.1.12 = {
+        birth = yes
+    }
+
+    4900.5.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
 lineofvakuankka21 = {
     name = Earnisse
     female = yes
@@ -183727,12 +183998,48 @@ lineofvakuankka22 = {
         birth = yes
     }
 
+    4862.3.8 = {
+        death = { death_reason = death_training_accident  }
+    }
+}
+
+lineofvakuankka22brother = {
+    name = Nedhroval
+
+    dynasty = dynasty_sommorionath
+    religion = faith_edain
+    culture = caledhrim
+
+    father = lineofvakuankka20
+    mother = lineofvakuankka21
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+
+    trait = compassionate
+    trait = just
+    trait = brave
+
+    diplomacy = 8
+    martial = 1
+    stewardship = 8
+    intrigue = 2
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    4741.1.13 = {
+        birth = yes
+    }
+
     4787.4.15 = {
         add_spouse = lineofvakuankka23
     }
 
-    4862.3.8 = {
-        death = { death_reason = death_training_accident  }
+    4899.3.8 = {
+        death = { death_reason = death_hunting_accident }
     }
 }
 
@@ -183776,7 +184083,7 @@ lineofvakuankka24 = {
     religion = faith_edain
     culture = caledhrim
 
-    father = lineofvakuankka22
+    father = lineofvakuankka22brother
     mother = lineofvakuankka23
 
     sexuality = heterosexual
@@ -195697,7 +196004,7 @@ lineoferoder90 = {
     sexuality = heterosexual
 
     trait = lazy
-    trait = paranoid
+    trait = calm
     trait = humble
 
     diplomacy = 7
@@ -195765,8 +196072,8 @@ lineoferoder92 = {
 
     sexuality = heterosexual
 
-    trait = lazy
-    trait = lustful
+    trait = humble
+    trait = shy
     trait = just
 
     diplomacy = 4
@@ -195835,7 +196142,7 @@ lineoferoder94 = {
     sexuality = heterosexual
 
     trait = brave
-    trait = deceitful
+    trait = honest
     trait = compassionate
 
     diplomacy = 5
