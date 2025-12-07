@@ -157976,7 +157976,6 @@ lineofmulakanplaceholder = {
 				contract_group = tributary_protectorate
 				suzerain = character:lineofkoronandeinitial
 			}
-            tributary_contract_set_obligation_level = { type = suzerain_war_participation_guarantee level = 1 }
 		}        
     }
     7052.5.13 = {
@@ -158016,7 +158015,6 @@ lineoftorimukiplaceholder = {
 				contract_group = tributary_protectorate
 				suzerain = character:lineofkoronandeinitial
 			}
-            tributary_contract_set_obligation_level = { type = suzerain_war_participation_guarantee level = 1 }
 		}        
     }    
     7072.4.3 = {
@@ -158061,7 +158059,6 @@ lineofsarasibaiplaceholder = {
 				contract_group = tributary_protectorate
 				suzerain = character:lineofkoronandeinitial
 			}
-            tributary_contract_set_obligation_level = { type = suzerain_war_participation_guarantee level = 1 }
 		}        
     }    
     7072.5.13 = {
@@ -158137,7 +158134,6 @@ lineofburakanoldplaceholder = {
 				contract_group = tributary_protectorate
 				suzerain = character:lineofkoronandeinitial
 			}
-            tributary_contract_set_obligation_level = { type = suzerain_war_participation_guarantee level = 1 }
 		}         
     }   
     7062.4.3 = {
