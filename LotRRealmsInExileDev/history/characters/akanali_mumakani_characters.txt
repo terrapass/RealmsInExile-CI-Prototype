@@ -1758,9 +1758,18 @@ lineofmamakil125 = { # Sandamal the Iron Lion (https://discord.com/channels/7510
     father = lineofmamakil115
     mother = lineofmamakil115wife
 
+	#placeholder stats
+	diplomacy = 7
+	martial = 8
+	stewardship = 9
+	intrigue = 7
+	learning = 6
+	prowess = 8
+
     trait = just
-    trait = callous
-    trait = vengeful
+    trait = patient
+    trait = cynical
+	trait = diligent
 
     trait = education_martial_3
     trait = overseer
