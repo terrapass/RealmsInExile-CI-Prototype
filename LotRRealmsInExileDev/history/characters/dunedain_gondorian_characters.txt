@@ -64423,6 +64423,7 @@ linetelemnarion12 = { # Married the Artari, but her husband died at Erui and her
     trait = generous
     trait = patient
     trait = zealous
+    disallow_random_traits = yes
 
     trait = education_learning_3
 
