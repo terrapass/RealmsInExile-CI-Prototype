@@ -19,7 +19,7 @@
 # House of Anwar, counts of the Eyrn Fuir
 # House of Yrchdaugnir, Lords of Doranorien
 # House of Linnarion, Lords of Celosien
-# House of Arphenian, Lords of Lebennivet
+# House of Arphenian, Lords of Lebennimeth
 # House of Celebhatol, Lords of Arnach
 # House of Imlothiath, Lords of Edhelion
 # House of Durthoron, Lords of Anghabar
@@ -41561,13 +41561,13 @@ linelinnarion40 = {
 
 
 ##################################
-##### The Lords of Lebennivet ####
+##### The Lords of Lebennimeth ####
 ##################################
 # House of Arphenian
 
 linearphenian1 = {
-	name = Mormegil # Lord of Lebennivet
-	dynasty_house = house_lebennivet
+	name = Mormegil # Lord of Lebennimeth
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -41595,8 +41595,8 @@ linearphenian1 = {
 }	
 
 linearphenian2 = {
-	name = Elemmacil # Lord of Lebennivet
-	dynasty_house = house_lebennivet
+	name = Elemmacil # Lord of Lebennimeth
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -41628,7 +41628,7 @@ linearphenian2sister = {
 	name = Edhelvir
 	female = yes
 
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -41660,8 +41660,8 @@ linearphenian2sister = {
 }	
 
 linearphenian3 = { # Long Winter Start Date Ruler
-	name = C_irdan # Lord of Lebennivet
-	dynasty_house = house_lebennivet
+	name = C_irdan # Lord of Lebennimeth
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -41700,9 +41700,9 @@ linearphenian3 = { # Long Winter Start Date Ruler
 }	
 
 linearphenian4 = {
-	name = Miryaher # Lord of Lebennivet
+	name = Miryaher # Lord of Lebennimeth
 	
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -41739,9 +41739,9 @@ linearphenian4 = {
 }	
 
 linearphenian5 = {
-	name = Nildondil # Lord of Lebennivet
+	name = Nildondil # Lord of Lebennimeth
 	
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -41766,8 +41766,8 @@ linearphenian5 = {
 }	
 
 linearphenian6 = {
-	name = Targon # Lord of Lebennivet
-	dynasty_house = house_lebennivet
+	name = Targon # Lord of Lebennimeth
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -41790,8 +41790,8 @@ linearphenian6 = {
 }	
 
 linearphenian7 = {
-	name = Hallatan # Lord of Lebennivet
-	dynasty_house = house_lebennivet
+	name = Hallatan # Lord of Lebennimeth
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -41814,8 +41814,8 @@ linearphenian7 = {
 }	
 
 linearphenian8 = {
-	name = Singollo # Lord of Lebennivet
-	dynasty_house = house_lebennivet
+	name = Singollo # Lord of Lebennimeth
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -41838,8 +41838,8 @@ linearphenian8 = {
 }	
 
 linearphenian9 = {
-	name = Vestimir # Lord of Lebennivet
-	dynasty_house = house_lebennivet
+	name = Vestimir # Lord of Lebennimeth
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -41864,8 +41864,8 @@ linearphenian9 = {
 }	
 
 linearphenian10 = {
-	name = Alquatir # Lord of Lebennivet
-	dynasty_house = house_lebennivet
+	name = Alquatir # Lord of Lebennimeth
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 	dna = alquatir_dna
@@ -41901,7 +41901,7 @@ linearphenian10 = {
 
 linearphenian11 = {
 	name = Araphant
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -41929,7 +41929,7 @@ linearphenian11 = {
 
 linearphenian12 = {
 	name = Argeleb
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -41951,7 +41951,7 @@ linearphenian12 = {
 
 linearphenian13 = {
 	name = Ainarauta 
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -42005,7 +42005,7 @@ linearphenian14 = {
 
 linearphenian15 = {
 	name = Surien 
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -42031,7 +42031,7 @@ linearphenian15 = {
 
 linearphenian16 = {
 	name = Lothwing 
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -42057,7 +42057,7 @@ linearphenian16 = {
 
 linearphenian17 = {
 	name = Manwendil 
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -42081,7 +42081,7 @@ linearphenian17 = {
 
 linearphenian18 = {
 	name = Marmacil 
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -42105,7 +42105,7 @@ linearphenian18 = {
 
 linearphenian19 = {
 	name = Arellas 
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -42131,7 +42131,7 @@ linearphenian19 = {
 
 linearphenian20 = {
 	name = Mornion 
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -42155,7 +42155,7 @@ linearphenian20 = {
 
 linearphenian21 = {
 	name = Maratar 
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -42179,7 +42179,7 @@ linearphenian21 = {
 
 linearphenian22 = {
 	name = Mavarion 
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -42203,7 +42203,7 @@ linearphenian22 = {
 
 linearphenian23 = {
 	name = Malbeth 
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -42229,7 +42229,7 @@ linearphenian23 = {
 
 linearphenian24 = {
 	name = Mablung # of Ithilien, Faramir's second in command 
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 	dna = linearphenian24_dna
@@ -42268,7 +42268,7 @@ linearphenian24 = {
 
 linearphenian24brother = {
 	name = Agaldor
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 	sexuality = heterosexual
@@ -42337,7 +42337,7 @@ linearphenian25 = {
 
 linearphenian26 = {
 	name = Mellondir 
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -42370,7 +42370,7 @@ linearphenian26 = {
 
 linearphenian27 = {
 	name = Jasna_a_h 
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = umbarean
 	sexuality = asexual
@@ -42418,7 +42418,7 @@ linearphenian27 = {
 
 linearphenian28 = {
 	name = Shallan 
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 	sexuality = bisexual
@@ -42454,7 +42454,7 @@ linearphenian28 = {
 
 linearphenian29 = {
 	name = Amrothor 
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -42478,7 +42478,7 @@ linearphenian29 = {
 
 linearphenian30 = {
 	name = Cuthalion 
-	dynasty_house = house_lebennivet
+	dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -42503,7 +42503,7 @@ linearphenian30 = {
 linearphenian31 = {
     name = Sador
 
-    dynasty_house = house_lebennivet
+    dynasty_house = house_lebennimeth
     religion = faith_edain
     culture = gondorian
 
@@ -42576,7 +42576,7 @@ linearphenian32 = {
 linearphenian33 = {
     name = Belegar
 
-    dynasty_house = house_lebennivet
+    dynasty_house = house_lebennimeth
     religion = faith_edain
     culture = gondorian
 
@@ -42649,7 +42649,7 @@ linearphenian34 = {
 linearphenian35 = {
     name = Cuthalion
 
-    dynasty_house = house_lebennivet
+    dynasty_house = house_lebennimeth
     religion = faith_edain
     culture = gondorian
 
@@ -42722,7 +42722,7 @@ linearphenian36 = {
 linearphenian37 = {
     name = Belemir
 
-    dynasty_house = house_lebennivet
+    dynasty_house = house_lebennimeth
     religion = faith_edain
     culture = gondorian
 
@@ -42795,7 +42795,7 @@ linearphenian38 = {
 linearphenian39 = {
     name = Hurin
 
-    dynasty_house = house_lebennivet
+    dynasty_house = house_lebennimeth
     religion = faith_edain
     culture = gondorian
 
@@ -42869,7 +42869,7 @@ linearphenian41 = {
     name = Culurien
     female = yes
 
-    dynasty_house = house_lebennivet
+    dynasty_house = house_lebennimeth
     religion = faith_edain
     culture = gondorian
 
@@ -42906,7 +42906,7 @@ linearphenian42 = {
     name = Boriel
     female = yes
 
-    dynasty_house = house_lebennivet
+    dynasty_house = house_lebennimeth
     religion = faith_edain
     culture = gondorian
 
@@ -42942,7 +42942,7 @@ linearphenian42 = {
 linearphenian43 = {
     name = Udalraph
 
-    dynasty_house = house_lebennivet
+    dynasty_house = house_lebennimeth
     religion = faith_edain
     culture = gondorian
 
@@ -43015,7 +43015,7 @@ linearphenian44 = {
 linearphenian45 = {
     name = Aeglos
 
-    dynasty_house = house_lebennivet
+    dynasty_house = house_lebennimeth
     religion = faith_edain
     culture = gondorian
 
@@ -43088,7 +43088,7 @@ linearphenian46 = {
 linearphenian47 = {
     name = Handir
 
-    dynasty_house = house_lebennivet
+    dynasty_house = house_lebennimeth
     religion = faith_edain
     culture = gondorian
 
@@ -43162,7 +43162,7 @@ linearphenian49 = {
     name = Aranelaith
     female = yes
 
-    dynasty_house = house_lebennivet
+    dynasty_house = house_lebennimeth
     religion = faith_edain
     culture = gondorian
 
@@ -43199,7 +43199,7 @@ linearphenian50 = {
     name = Calanril
     female = yes
 
-    dynasty_house = house_lebennivet
+    dynasty_house = house_lebennimeth
     religion = faith_edain
     culture = gondorian
 
@@ -171568,7 +171568,7 @@ lineeredor8wife = {
     name = Morwen
     female = yes
 
-    dynasty_house = house_lebennivet
+    dynasty_house = house_lebennimeth
 	religion = faith_edain
 	culture = gondorian
 
@@ -265157,7 +265157,7 @@ lineofhallatan35 = {
 ######################
 ### Line of Elaran ###
 ######################
-# Line of Elaran, Lords of Lebennivet
+# Line of Elaran, Lords of Lebennimeth
 lineofelaran1 = {
     name = Elaran
 
