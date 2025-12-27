@@ -6105,6 +6105,7 @@ lineoftirdahan7 = { # War of the Ring Ruler
 
 	trait = education_learning_3
     trait = theologian
+    trait = celibate
 
 	6963.4.2 = {			
 		birth = yes		
