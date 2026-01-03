@@ -222173,6 +222173,11 @@ lineofeletan2 = {
 		}
     }
 
+    3912.1.1 = {
+        culture = dunedain
+        religion = faith_edain
+    }
+
     3966.12.3 = {
         death = { death_reason = death_natural_causes }
     }
