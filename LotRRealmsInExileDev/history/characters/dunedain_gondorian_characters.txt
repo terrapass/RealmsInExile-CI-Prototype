@@ -72418,7 +72418,7 @@ silmeranowife = {
 }	
 
 linethavor20 = {
-	name = "Caramir"
+	name = Caramir
 
 	dynasty = dynasty_thavor
 	religion = faith_edain
