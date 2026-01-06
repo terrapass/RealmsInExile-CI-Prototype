@@ -1,0 +1,23 @@
+﻿# # New in Realms 2.1
+# # Base = music for realm building. Added to mood tracks.
+# # Calm/mood = background music.
+# # Action = dramatic, tied to an event.
+
+7_numenor = {
+	music = "file:/music/lotr_mood/rop_numenor.mp3"
+	mood = yes
+	name = "rop_numenor"
+	is_valid = { always = no }
+}
+27_sailing_into_the_dawn = {
+	music = "file:/music/lotr_mood/rop_sailing_into_the_dawn.mp3"
+	mood = yes
+	name = "rop_sailing_into_the_dawn"
+	is_valid = { always = no }
+}
+29_cavalry = {
+	music = "file:/music/lotr_mood/rop_cavalry.mp3"
+	mood = yes
+	name = "rop_cavalry"
+	is_valid = { always = no }
+}
