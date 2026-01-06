@@ -25,3 +25,5 @@
 LotRRealmsInExileDev/gfx/map/terrain/colormap.dds filter=lfs diff=lfs merge=lfs -text
 LotRRealmsInExileDev/gfx/map/terrain/detail_index.tga filter=lfs diff=lfs merge=lfs -text
 LotRRealmsInExileDev/gfx/map/terrain/detail_intensity.tga filter=lfs diff=lfs merge=lfs -text
+LotRRealmsInExileDev/music/**/*.mp3 filter=lfs diff=lfs merge=lfs -text
+LotRRealmsInExileDev/music/**/*.wav filter=lfs diff=lfs merge=lfs -text
